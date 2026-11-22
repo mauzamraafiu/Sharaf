@@ -293,7 +293,7 @@ async function tooManyTries(c) {
 app.post('/api/account/register', async (c) => {
   const b = await c.req.json().catch(() => ({}));
   const username = cleanName(b.username), password = String(b.password || '');
-  if (!/^[a-z0-9_.-]{3,30}$/.test(username)) return c.json({ error: 'Choose a username of 3 to 30 letters, numbers, dots or dashes.' }, 400);
+  if (!/^[a-z0-9_.@+-]{3,60}$/.test(username)) return c.json({ error: 'Use your email, or a username of 3 or more letters and numbers.' }, 400);
   if (password.length < 8) return c.json({ error: 'Use a password of at least 8 characters.' }, 400);
   if (await tooManyTries(c)) return c.json({ error: 'Too many attempts. Wait 15 minutes and try again.' }, 429);
   const salt = hex(crypto.getRandomValues(new Uint8Array(16)));
@@ -311,7 +311,7 @@ app.post('/api/account/login', async (c) => {
   const row = await db.prepare(`SELECT id, username, salt, hash, data FROM users WHERE username=?1`).bind(cleanName(b.username)).first();
   if (!row || !safeEqual(row.hash, await passHash(String(b.password || ''), row.salt))) {
     await db.prepare(`INSERT INTO login_attempts (ip, ts) VALUES (?1,?2)`).bind('u:' + (c.req.header('CF-Connecting-IP') || 'local'), Date.now()).run();
-    return c.json({ error: 'Wrong username or password.' }, 401);
+    return c.json({ error: 'Wrong email or password. If you have not made an account yet, press Create account.' }, 401);
   }
   await startSession(c, row.id);
   return c.json({ user: row.username, data: JSON.parse(row.data || '{}') });
