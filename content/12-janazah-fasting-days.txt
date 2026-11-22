@@ -1,0 +1,747 @@
+%% janazah-steps | prayer | The funeral prayer (Janazah) | ކަށުނަމާދު | From the moment of death to the burial: what to do and what to say, step by step. | މަރުވާ ވަގުތުން ފެށިގެން ވަޅުލުމާ ހަމައަށް: ކުރަންވީ ކަންތަކާއި ކިޔަންވީ ދުޢާތައް. | step
+
+@@ janazah-1-death
+title_en: When someone dies
+title_dv: މީހަކު މަރުވުމުން
+arabic: @h:155
+translit: Allahummaghfir li (name), warfa' darajatahu fil-mahdiyyin, wakhlufhu fi 'aqibihi fil-ghabirin, waghfir lana wa lahu ya Rabbal-'alamin, wafsah lahu fi qabrihi wa nawwir lahu fih.
+ref: Muslim 920
+--- en
+Close the eyes gently, cover the body, and say this dua, putting the person's name where the Arabic has "so-and-so". Those present say **Inna lillahi wa inna ilayhi raji'un** (Quran 2:156).
+
+O Allah, forgive (name), raise their rank among the rightly guided, and take care of those they leave behind. Forgive us and them, Lord of the worlds. Make their grave spacious and fill it with light.
+
+Then, without delay:
+
+- Pay the person's debts from what they left, or arrange for them to be paid.
+- Tell relatives and neighbours so that many can pray over them.
+- Wash, shroud, pray and bury as soon as is reasonable. Hurrying the funeral is the Sunnah (Bukhari 1315).
+--- dv
+ލޯ މަޑުމަޑުން ލައްޕައި، ހަށިގަނޑު ނިވާކޮށް، މި ދުޢާ ކިޔާށެވެ. ޢަރަބި ބަހުގައި "ފުލާން" އޮތް ތަނަށް މަރުވި މީހާގެ ނަން ކިޔާށެވެ. ހާޒިރުވެ ތިބި މީހުން **އިންނާ ލިއްލާހި ވައިންނާ އިލައިހި ރާޖިޢޫން** ކިޔާށެވެ (ޤުރުއާން 2:156).
+
+އޭ ﷲ! (ނަން) އަށް ފުއްސަވާނދޭވެ. ތެދުމަގު ލިބިފައިވާ މީހުންގެ ތެރޭގައި އޭނާގެ ދަރަޖަ މަތިވެރިކުރައްވާނދޭވެ. އޭނާ ދޫކޮށްފައިދިޔަ މީހުންނަށް ރައްކާތެރިކަން ދެއްވާނދޭވެ. އަޅަމެންނަށާއި އޭނާއަށް ފުއްސަވާނދޭވެ. އޭނާގެ ކަށްވަޅު ތަނަވަސްކޮށް އަލިކޮށްދެއްވާނދޭވެ.
+
+އެއަށްފަހު ލަސްނުކޮށް:
+
+- މަރުވި މީހާގެ ދަރަނި އޭނާގެ މުދަލުން އަދާކުރާށެވެ.
+- ގިނަ މީހުންނަށް ނަމާދުކުރެވޭނެ ގޮތަށް ގާތްތިމާގެ މީހުންނާއި އަވަށްޓެރިންނަށް އަންގާށެވެ.
+- ހިނެވުމާއި ކަފުންކުރުމާއި ނަމާދުކުރުމާއި ވަޅުލުން އަވަސްކުރާށެވެ. ޖަނާޒާ އަވަސްކުރުމަކީ ސުންނަތެކެވެ (ބުޚާރީ 1315).
+
+@@ janazah-2-wash-shroud
+title_en: Washing and shrouding
+title_dv: ހިނެވުމާއި ކަފުންކުރުން
+--- en
+Washing the dead (ghusl) is a communal duty: if some do it, the rest are excused.
+
+- Men wash men and women wash women. A husband and wife may wash each other. Small children may be washed by either.
+- Keep the private parts covered throughout. Press the stomach gently, clean away any impurity, then make wudu for the body.
+- Wash the whole body an odd number of times, three or more, starting with the right side. Use water with lote-tree leaves or soap, and put camphor or perfume in the last wash (Bukhari 1253).
+- Dry the body and shroud it in clean white cloth: three sheets for a man, and five pieces for a woman, according to the Shafi'i school.
+
+Whoever washes the dead should keep private anything unpleasant they see.
+
+A martyr killed in battle is not washed, and a pilgrim who dies in ihram is washed but not perfumed and his head is not covered (Bukhari 1265).
+--- dv
+މަރުވި މީހާ ހިނެވުމަކީ ފަރުޟު ކިފާޔާއެކެވެ. ބަޔަކު އެކަން ކުރުމުން އެހެން މީހުންގެ ކިބައިން ކެނޑެއެވެ.
+
+- ފިރިހެނުން ހިނަވާނީ ފިރިހެނުންނެވެ. އަންހެނުން ހިނަވާނީ އަންހެނުންނެވެ. ފިރިމީހާއާއި އަނބިމީހާ އެކަކު އަނެކަކު ހިނެވިދާނެއެވެ.
+- ޢައުރަ މުޅި ވަގުތު ނިވާކޮށްފައި ބަހައްޓާށެވެ. ބަނޑުގައި މަޑުމަޑުން ފިއްތައި، ނަޖިސް ސާފުކޮށް، ވުޟޫކޮށްދޭށެވެ.
+- ކަނާތް ފަރާތުން ފަށައިގެން މުޅި ހަށިގަނޑު ތިން ފަހަރު ނުވަތަ އެއަށްވުރެ ގިނައިން، އޮނަހިރި އަދަދަކަށް ދޮންނާށެވެ. އެންމެ ފަހު ފަހަރު ކާފޫރު ނުވަތަ ހުވަނދު އަޅާށެވެ (ބުޚާރީ 1253).
+- ހަށިގަނޑު ހިއްކައި ސާފު ހުދު ފޮތިން ކަފުންކުރާށެވެ. ޝާފިޢީ މަޛްހަބުގައި ފިރިހެނަކަށް ތިން ފޮތި، އަންހެނަކަށް ފަސް ބައެވެ.
+
+ހިނަވާ މީހާ، އޭނާއަށް ފެންނަ ނުރަނގަޅު ކަމެއް ސިއްރުކުރަންވާނެއެވެ.
+
+@@ janazah-3-niyyah
+title_en: Stand, intend, and say the first takbir
+title_dv: ކޮޅަށް ހުރެ، ނިޔަތްގަނެ، ފުރަތަމަ ތަކްބީރު ކިޔުން
+arabic: أُصَلِّي عَلَى هَذَا الْمَيِّتِ أَرْبَعَ تَكْبِيرَاتٍ فَرْضَ كِفَايَةٍ مَأْمُومًا لِلَّهِ تَعَالَى
+translit: Usalli 'ala hadhal-mayyiti arba'a takbiratin farda kifayatin ma'muman lillahi ta'ala.
+--- en
+The Janazah prayer has no bowing and no prostration. You stand the whole time and say four takbirs.
+
+- Have wudu, face the qiblah, and stand in rows behind the imam. The body is placed in front of the imam.
+- Make the intention in your heart: "I pray over this dead person, four takbirs, a communal duty, following the imam, for Allah." Saying it aloud is a habit of teaching; the heart is what counts. For a woman say *hadhihil-mayyitah*.
+- Raise your hands and say **Allahu akbar**, then fold them as in any prayer.
+- Recite **Surah Al-Fatihah** quietly. There is no opening dua and no second surah.
+--- dv
+ކަށުނަމާދުގައި ރުކޫޢެއް ސަޖިދައެއް ނުވެއެވެ. މުޅި ނަމާދު ކުރާނީ ކޮޅަށް ހުރެގެން ހަތަރު ތަކްބީރު ކިޔައިގެންނެވެ.
+
+- ވުޟޫ ހުރެ، ޤިބްލައަށް ކުރިމަތިލައި، އިމާމުގެ ފަހަތުގައި ސަފުހަދާށެވެ. ޖަނާޒާ ބާއްވާނީ އިމާމުގެ ކުރިމަތީގައެވެ.
+- ހިތުން ނިޔަތްގަންނާށެވެ: "މި މައްޔިތާގެ މައްޗަށް، ހަތަރު ތަކްބީރުން، ފަރުޟު ކިފާޔާއެއްގެ ގޮތުން، އިމާމާ ތަބާވެ، ﷲ އަށްޓަކައި އަޅުގަނޑު ނަމާދުކުރަމެވެ." ދުލުން ކިޔުމަކީ އުނގަންނައިދިނުމުގެ އާދައެކެވެ. މުހިންމީ ހިތުގެ ނިޔަތެވެ.
+- ދެއަތް އުފުލައި **ﷲ އަކްބަރު** ކިޔައި، އެހެން ނަމާދެއްގައި ހެން އަތް ބަނދެލާށެވެ.
+- **ސޫރަތުލް ފާތިޙާ** ސިއްރުން ކިޔަވާށެވެ. އިސްތިފްތާޙުގެ ދުޢާއެއް، އެހެން ސޫރަތެއް ނުކިޔަވާނެއެވެ.
+
+@@ janazah-4-salawat
+title_en: Second takbir: blessings on the Prophet ﷺ
+title_dv: ދެވަނަ ތަކްބީރު: ނަބިއްޔާ ﷺ ގެ މައްޗަށް ޞަލަވާތް
+arabic: اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ
+translit: Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid. Allahumma barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim, innaka Hamidun Majid.
+ref: Bukhari 3370
+--- en
+Say **Allahu akbar** a second time, then send blessings on the Prophet ﷺ with the same words you say in the last sitting of every prayer.
+
+O Allah, send Your grace on Muhammad and the family of Muhammad as You sent it on Ibrahim and the family of Ibrahim. You are Praiseworthy, Glorious. O Allah, bless Muhammad and the family of Muhammad as You blessed Ibrahim and the family of Ibrahim. You are Praiseworthy, Glorious.
+--- dv
+ދެވަނަ ފަހަރަށް **ﷲ އަކްބަރު** ކިޔައި، ކޮންމެ ނަމާދެއްގެ ފަހު އައްތަޙިއްޔާތުގައި ކިޔާ ޞަލަވާތް ކިޔާށެވެ.
+
+އޭ ﷲ! އިބްރާހީމްގެފާނާއި އެކަލޭގެފާނުގެ އާލުންގެ މައްޗަށް ޞަލަވާތް ލެއްވި ފަދައިން، މުޙައްމަދުގެފާނާއި އެކަލޭގެފާނުގެ އާލުންގެ މައްޗަށް ޞަލަވާތް ލައްވާނދޭވެ. އިބަރަސްކަލާނގެއީ ޙަމްދު ލިބިވޮޑިގެންވާ، މަތިވެރި ރަސްކަލާނގެއެވެ. އަދި ބަރަކާތް ލެއްވި ފަދައިން ބަރަކާތް ލައްވާނދޭވެ.
+
+@@ janazah-5-dua
+title_en: Third takbir: dua for the one who died
+title_dv: ތިންވަނަ ތަކްބީރު: މައްޔިތާއަށް ދުޢާކުރުން
+arabic: @h:156
+translit: Allahummaghfir lahu warhamhu, wa 'afihi wa'fu 'anhu, wa akrim nuzulahu, wa wassi' mudkhalahu, waghsilhu bil-ma'i wath-thalji wal-barad, wa naqqihi minal-khataya kama naqqaytath-thawbal-abyada minad-danas, wa abdilhu daran khayran min darihi, wa ahlan khayran min ahlihi, wa zawjan khayran min zawjihi, wa adkhilhul-jannah, wa a'idhhu min 'adhabil-qabri wa 'adhabin-nar.
+ref: Muslim 963
+--- en
+Say **Allahu akbar** a third time. This is the heart of the prayer: a sincere dua for the person in front of you.
+
+O Allah, forgive him and have mercy on him, give him wellbeing and pardon him. Receive him with honour and make his entrance wide. Wash him with water, snow and hail, and cleanse him of sins as a white garment is cleansed of dirt. Give him a home better than his home, a family better than his family and a spouse better than his spouse. Admit him to the Garden and protect him from the punishment of the grave and of the Fire.
+
+For a woman, change *lahu* to *laha* and *-hu* to *-ha* throughout: *Allahummaghfir laha warhamha...* If you do not know the long dua, even "Allahummaghfir lahu warhamhu" is enough.
+--- dv
+ތިންވަނަ ފަހަރަށް **ﷲ އަކްބަރު** ކިޔާށެވެ. މިއީ މި ނަމާދުގެ އެންމެ މުހިންމު ބައެވެ: ކުރިމަތީގައިވާ މައްޔިތާއަށް އިޚްލާޞްތެރިކަމާއެކު ކުރާ ދުޢާއެވެ.
+
+އޭ ﷲ! އޭނާއަށް ފުއްސަވައި ރަޙްމަތްލައްވާނދޭވެ. ޢާފިޔަތު ދެއްވައި މަޢާފުކުރައްވާނދޭވެ. އޭނާގެ މެހެމާންދާރީ ކަރާމާތްތެރިކޮށް، ވަންނަ ތަން ތަނަވަސްކުރައްވާނދޭވެ. ފެނާއި ސްނޯއާއި ގަނޑުފެނުން އޭނާ ދޮވެ، ހުދު ފޮތިގަނޑު ހަޑިން ސާފުކުރާ ފަދައިން ފާފަތަކުން ސާފުކުރައްވާނދޭވެ. އޭނާގެ ގެއަށްވުރެ ހެޔޮ ގެއެއް، އަހުލުންނަށްވުރެ ހެޔޮ އަހުލުންތަކެއް ދެއްވާނދޭވެ. ސުވަރުގެއަށް ވައްދަވައި، ކަށްވަޅުގެ ޢަޛާބާއި ނަރަކައިގެ ޢަޛާބުން ސަލާމަތްކުރައްވާނދޭވެ.
+
+އަންހެނަކަށް ނަމަ *ލަހޫ* ގެ ބަދަލުގައި *ލަހާ* ކިޔާށެވެ. ދިގު ދުޢާ ނޭނގޭ ނަމަ "ﷲއްމަޣްފިރް ލަހޫ ވަރްޙަމްހު" ކިޔުންވެސް ފުދެއެވެ.
+
+@@ janazah-5b-general
+title_en: A dua for all the living and the dead
+title_dv: ދިރިތިބި އަދި މަރުވެފައިވާ އެންމެންނަށް ކުރާ ދުޢާ
+arabic: @h:157
+translit: Allahummaghfir lihayyina wa mayyitina, wa shahidina wa gha'ibina, wa saghirina wa kabirina, wa dhakarina wa unthana. Allahumma man ahyaytahu minna fa ahyihi 'alal-Islam, wa man tawaffaytahu minna fatawaffahu 'alal-iman. Allahumma la tahrimna ajrahu wa la tudillana ba'dah.
+ref: Abu Dawud 3201; Tirmidhi 1024
+--- en
+This may be added after the third takbir, and it suits every funeral.
+
+O Allah, forgive our living and our dead, those present and those absent, our young and our old, our men and our women. O Allah, whoever of us You keep alive, keep alive upon Islam, and whoever of us You take, take upon faith. O Allah, do not deprive us of his reward and do not let us go astray after him.
+--- dv
+ތިންވަނަ ތަކްބީރަށްފަހު މި ދުޢާ އިތުރުކުރެވިދާނެއެވެ. ކޮންމެ ޖަނާޒާއަކާވެސް ގުޅެއެވެ.
+
+އޭ ﷲ! އަޅަމެންގެ ތެރެއިން ދިރިތިބި މީހުންނަށާއި މަރުވެފައިވާ މީހުންނަށް، ހާޒިރުވެ ތިބި މީހުންނަށާއި ނެތް މީހުންނަށް، ކުދިންނަށާއި ބޮޑެތި މީހުންނަށް، ފިރިހެނުންނަށާއި އަންހެނުންނަށް ފުއްސަވާނދޭވެ. އަޅަމެންގެ ތެރެއިން ދިރުއްވާ މީހަކު އިސްލާމްދީނުގެ މަތީގައި ދިރުއްވާނދޭވެ. މަރުގަންނަވާ މީހަކު އީމާންކަމުގެ މަތީގައި މަރުގަންނަވާނދޭވެ. އޭނާގެ ސަވާބުން އަޅަމެން މަޙްރޫމު ނުކުރައްވައި، އޭނާއަށްފަހު އަޅަމެން މަގުފުރެދިޔަ ނުދެއްވާނދޭވެ.
+
+@@ janazah-5c-child
+title_en: If the one who died is a child
+title_dv: މަރުވީ ކުޑަކުއްޖެއް ނަމަ
+arabic: @h:161
+translit: Allahummaj'alhu lana faratan wa salafan wa ajra.
+ref: Reported from Al-Hasan al-Basri; Bukhari, chapter heading before 1335
+--- en
+A child has no sins to be forgiven, so the dua is made for the parents.
+
+O Allah, make him one who goes ahead of us, a store laid up for us, and a reward.
+
+A parent who is patient at the death of a child is promised that the child will take them by the hand into the Garden (Muslim 2635).
+--- dv
+ކުޑަކުއްޖެއްގެ ފާފައެއް ނުވާތީ ދުޢާކުރާނީ މައިންބަފައިންނަށެވެ.
+
+އޭ ﷲ! މި ކުއްޖާއަކީ އަޅަމެންގެ ކުރިން ގޮސް އަޅަމެންނަށް ތައްޔާރުކޮށްދޭ ކުއްޖަކު ކަމުގައި، އަދި ރައްކާކުރެވިފައިވާ ސަވާބެއް ކަމުގައި ލައްވާނދޭވެ.
+
+ދަރިއަކު މަރުވުމުން ކެތްތެރިވާ މައިންބަފައިން، އެ ކުއްޖާ އެމީހުންގެ އަތުގައި ހިފައިގެން ސުވަރުގެއަށް ވައްދާނެކަމަށް ވަޢުދުވެވިފައިވެއެވެ (މުސްލިމް 2635).
+
+@@ janazah-6-salam
+title_en: Fourth takbir and the salam
+title_dv: ހަތަރުވަނަ ތަކްބީރާއި ސަލާމްދިނުން
+arabic: اللَّهُمَّ لَا تَحْرِمْنَا أَجْرَهُ، وَلَا تَفْتِنَّا بَعْدَهُ، وَاغْفِرْ لَنَا وَلَهُ
+translit: Allahumma la tahrimna ajrahu, wa la taftinna ba'dahu, waghfir lana wa lah.
+--- en
+Say **Allahu akbar** a fourth time and make this short dua:
+
+O Allah, do not deprive us of his reward, do not put us to trial after him, and forgive us and him.
+
+Then give the salam to the right and to the left, as in any prayer. The Janazah is finished.
+
+If you arrive late, join with a takbir and follow the imam; after he gives the salam, make up the takbirs you missed before the body is lifted.
+
+**The reward.** Whoever attends until the prayer has one qirat of reward, and whoever stays until the burial has two, each like a great mountain (Bukhari 1325).
+--- dv
+ހަތަރުވަނަ ފަހަރަށް **ﷲ އަކްބަރު** ކިޔައި މި ކުރު ދުޢާ ކުރާށެވެ:
+
+އޭ ﷲ! އޭނާގެ ސަވާބުން އަޅަމެން މަޙްރޫމު ނުކުރައްވާނދޭވެ. އޭނާއަށްފަހު އަޅަމެން ފިތުނައަކަށް ނުލައްވާނދޭވެ. އަޅަމެންނަށާއި އޭނާއަށް ފުއްސަވާނދޭވެ.
+
+އެއަށްފަހު އެހެން ނަމާދެއްގައި ހެން ކަނާތާއި ވާތަށް ސަލާމްދޭށެވެ. ކަށުނަމާދު ނިމުނީއެވެ.
+
+ލަސްވެގެން އައިސްފި ނަމަ ތަކްބީރު ކިޔައި އިމާމާ ތަބާވާށެވެ. އިމާމު ސަލާމްދިނުމަށްފަހު، ޖަނާޒާ އުފުލުމުގެ ކުރިން، ނުލިބި ހުރި ތަކްބީރުތައް ކިޔާށެވެ.
+
+**ސަވާބު.** ނަމާދު ނިމެންދެން ހާޒިރުވާ މީހާއަށް އެއް ޤީރާޠުގެ ސަވާބު، ވަޅުލެވެންދެން ހުންނަ މީހާއަށް ދެ ޤީރާޠުގެ ސަވާބު ލިބެއެވެ. ކޮންމެ ޤީރާޠަކީ ބޮޑު ފަރުބަދައެއް ފަދަ އެއްޗެކެވެ (ބުޚާރީ 1325).
+
+@@ janazah-7-burial
+title_en: The burial
+title_dv: ވަޅުލުން
+arabic: @h:163
+translit: Bismillahi wa 'ala sunnati Rasulillah.
+ref: Abu Dawud 3213; Tirmidhi 1046
+--- en
+- Carry the body to the graveyard walking quietly, thinking of your own death. Raising voices, even in dhikr, is not the Sunnah here.
+- Those who lower the body into the grave say: **In the name of Allah, and upon the way of the Messenger of Allah.**
+- The body is laid on its right side facing the qiblah, the ties of the shroud are loosened, and the grave is closed and filled.
+- Those present may each throw three handfuls of earth.
+- The grave is raised only about a hand-span so that it is known as a grave. Building over it is not permitted (Muslim 970).
+--- dv
+- ޖަނާޒާ ކަށްވަޅަށް ގެންދާނީ މަޑުމައިތިރިކަމާއެކު، އަމިއްލަ މަރުގެ މަތިން ވިސްނަމުންނެވެ. މިތަނުގައި އަޑު އުފުލުމަކީ، ޛިކުރުކުރުމުގައިވެސް، ސުންނަތެއް ނޫނެވެ.
+- ކަށްވަޅަށް ތިރިކުރާ މީހުން ކިޔާނީ: **ﷲ ގެ ނަންފުޅުން، އަދި ރަސޫލުﷲ ގެ ސުންނަތުގެ މަތިން.**
+- ހަށިގަނޑު ބާއްވާނީ ކަނާތް އަރިމައްޗަށް ޤިބްލައަށް ކުރިމަތިކޮށެވެ. ކަފުނުގެ ގޮށްތައް ދޫކޮށް، ކަށްވަޅު ބަންދުކޮށް ފުރާލާށެވެ.
+- ހާޒިރުވެ ތިބި ކޮންމެ މީހަކު ތިން އަތްތިލަ ވެލި އެޅިދާނެއެވެ.
+- ކަށްވަޅު އުސްކުރާނީ ކައިވަތެއްހާ މިންވަރަށެވެ. ކަށްވަޅުގެ މަތީގައި ޢިމާރާތްކުރުން ހުއްދައެއް ނޫނެވެ (މުސްލިމް 970).
+
+@@ janazah-8-after
+title_en: After the burial: stay and ask for firmness
+title_dv: ވަޅުލުމަށްފަހު: މަޑުކޮށް ސާބިތުކަމަށް ދުޢާކުރުން
+arabic: @h:164
+translit: Allahummaghfir lahu, Allahumma thabbit-hu.
+ref: Abu Dawud 3221
+--- en
+When the Prophet ﷺ finished burying someone he would stand by the grave and say: "Ask forgiveness for your brother and ask that he be made firm, for he is being questioned now."
+
+O Allah, forgive him. O Allah, make him firm.
+
+Stay a little while and make dua quietly, each person for themselves.
+--- dv
+ނަބިއްޔާ ﷺ މީހަކު ވަޅުލައި ނިމުމުން ކަށްވަޅު ކައިރީގައި ހުންނަވައި ޙަދީޘްކުރައްވައެވެ: "ތިޔަބައިމީހުންގެ އަޚާއަށްޓަކައި ފާފަފުއްސެވުމަށާއި ސާބިތުކަމަށް އެދި ދުޢާކުރާށެވެ. އެހެނީ މިހާރު އޭނާއާ ސުވާލުކުރެވެމުންދެއެވެ."
+
+އޭ ﷲ! އޭނާއަށް ފުއްސަވާނދޭވެ. އޭ ﷲ! އޭނާ ސާބިތުކުރައްވާނދޭވެ.
+
+ކުޑަ ވަގުތުކޮޅަކު މަޑުކޮށް، ކޮންމެ މީހަކު އަމިއްލައަށް ސިއްރުން ދުޢާކުރާށެވެ.
+
+@@ janazah-9-condolence
+title_en: Comforting the family
+title_dv: ޢާއިލާއަށް ތަޢުޒިޔާ ދެންނެވުން
+arabic: @h:162b
+translit: A'zamallahu ajraka, wa ahsana 'aza'aka, wa ghafara limayyitik.
+--- en
+Visit the family, say little, and say this:
+
+May Allah make your reward great, make your patience beautiful, and forgive the one you have lost.
+
+- Cook for the family. When news came of Ja'far's death the Prophet ﷺ said, "Make food for the family of Ja'far, for something has come to them that occupies them" (Abu Dawud 3132).
+- Crying is mercy; the Prophet ﷺ wept for his son Ibrahim. What is forbidden is wailing, tearing clothes and words of complaint against Allah's decree (Bukhari 1303, 1294).
+- Mourning for a relative lasts three days. A widow observes four months and ten days (Quran 2:234).
+--- dv
+ޢާއިލާއަށް ޒިޔާރަތްކޮށް، މަދުން ވާހަކަދައްކައި، މިހެން ބުނާށެވެ:
+
+ﷲ ތިބާގެ ސަވާބު ބޮޑުކުރައްވައި، ތިބާގެ ކެތްތެރިކަން ރީތިކުރައްވައި، ތިބާގެ މައްޔިތާއަށް ފުއްސަވާށިއެވެ.
+
+- ޢާއިލާއަށް ކާތަކެތި ތައްޔާރުކޮށްދޭށެވެ. ޖަޢުފަރުގެފާނު މަރުވި ޚަބަރު އައުމުން ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: "ޖަޢުފަރުގެ ޢާއިލާއަށް ކާތަކެތި ހަދައިދޭށެވެ" (އަބޫ ދާވޫދު 3132).
+- ރުއިމަކީ ރަޙްމަތެކެވެ. ނަބިއްޔާ ﷺ ވެސް ދަރިކަލުން އިބްރާހީމްގެފާނު މަރުވުމުން ކަރުނަ އޮއްސެވިއެވެ. މަނާވެގެންވަނީ ހަޅޭއްލަވައި ރުއިމާއި، ހެދުން ވީދުމާއި، ﷲ ގެ ޤަޟާއާ ދެކޮޅަށް ވާހަކަދެއްކުމެވެ.
+- ގާތްތިމާގެ މީހަކަށް ހިތާމަކުރާނީ ތިން ދުވަހުއެވެ. ފިރިމީހާ މަރުވާ އަންހެނާ ހަތަރު މަހާއި ދިހަ ދުވަހު ޢިއްދާގައި ހުންނާނެއެވެ (ޤުރުއާން 2:234).
+
+%% duas-dead | duas | For the dead and when visiting graves | މަރުވެފައިވާ މީހުންނަށާއި ކަށްވަޅު ޒިޔާރަތްކުރުމުގައި | What to say at the graveyard, duas for parents who have passed, and what still reaches them. | ކަށްވަޅު ކައިރީގައި ކިޔާނެ ދުޢާއާއި، މަރުވެފައިވާ މައިންބަފައިންނަށް ކުރާ ދުޢާއާއި، އެމީހުންނަށް ފޯރާ ކަންތައް. | dua
+
+@@ dua-visiting-graves
+title_en: Greeting the people of the graves
+title_dv: ކަށްވަޅުގެ އަހުލުވެރިންނަށް ސަލާމްކުރުން
+arabic: @h:165
+translit: As-salamu 'alaykum ahlad-diyari minal-mu'minina wal-muslimin, wa inna in sha' Allahu bikum lahiqun, wa yarhamullahul-mustaqdimina minna wal-musta'khirin, as'alullaha lana wa lakumul-'afiyah.
+ref: Muslim 974, 975
+--- en
+Peace be upon you, people of this dwelling, believers and Muslims. We will, if Allah wills, be joining you. May Allah have mercy on those of us who went ahead and those who come later. I ask Allah for wellbeing for us and for you.
+
+**How to visit.** Enter quietly, give this greeting, face the grave of the person you came for and make dua for them in your own words. Do not sit or step on graves. The Prophet ﷺ said, "Visit the graves, for they remind you of the Hereafter" (Muslim 976). We ask Allah for the dead; we do not ask the dead for anything.
+--- dv
+އޭ މި ގޮވަތީގެ އަހުލުވެރިވާ މުއުމިނުންނާއި މުސްލިމުންނޭވެ! ތިޔަބައިމީހުންގެ މައްޗަށް ސަލާމް ހުއްޓެވެ. ﷲ އިރާދަކުރެއްވިއްޔާ އަޅަމެންވެސް ތިޔަބައިމީހުންނާ ބައްދަލުވާނެއެވެ. އަޅަމެންގެ ތެރެއިން ކުރިން ދިޔަ މީހުންނަށާއި ފަހުން އަންނަ މީހުންނަށް ﷲ ރަޙްމަތްލައްވާށިއެވެ. އަޅަމެންނަށާއި ތިޔަބައިމީހުންނަށް ޢާފިޔަތު ދެއްވުން އެދި ﷲ ގެ ޙަޟްރަތުން ދަންނަވަމެވެ.
+
+**ޒިޔާރަތްކުރާނެ ގޮތް.** މަޑުމައިތިރިކަމާއެކު ވަދެ، މި ސަލާމް ކިޔައި، ތިބާ ޒިޔާރަތްކުރަން އައި މީހާގެ ކަށްވަޅާ ކުރިމަތިލައި، އަމިއްލަ ބަހުން އޭނާއަށް ދުޢާކުރާށެވެ. ކަށްވަޅު މަތީގައި ނީށިނދެ، ކަށްވަޅު މައްޗަށް ނާރާށެވެ. ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: "ކަށްވަޅު ޒިޔާރަތްކުރާށެވެ. އެއީ އާޚިރަތް ހަނދާންކޮށްދޭ ކަމެކެވެ" (މުސްލިމް 976). އަޅަމެން މަރުވެފައިވާ މީހުންނަށްޓަކައި ﷲ ގެ ޙަޟްރަތުން ދަންނަވަމެވެ. މަރުވެފައިވާ މީހުންގެ ކިބައިން އެއްވެސް ކަމަކަށް ނޭދެމެވެ.
+
+@q 17:24 | For parents: "My Lord, have mercy on them" | މައިންބަފައިންނަށް: "ރައްބި އިރްޙަމްހުމާ"
+@q 14:41 | For yourself, your parents and the believers | އަމިއްލަ ނަފްސަށާއި މައިންބަފައިންނަށާއި މުއުމިނުންނަށް
+@q 59:10 | For those who went before us in faith | އީމާންކަމާއެކު ކުރިން ދިޔަ މީހުންނަށް
+
+@@ dua-for-the-dead-short
+title_en: A dua to make for them any time
+title_dv: ކޮންމެ ވަގުތެއްގައިވެސް އެމީހުންނަށް ކުރެވޭ ދުޢާ
+arabic: @h:156
+translit: Allahummaghfir lahu warhamhu, wa 'afihi wa'fu 'anhu...
+ref: Muslim 963
+--- en
+The dua of the funeral prayer can be made at any time, at home or at the grave, for one person by name or for all the Muslim dead. For a woman say *laha* and *-ha*; for several people say *lahum* and *-hum*.
+--- dv
+ކަށުނަމާދުގެ ދުޢާ، ގޭގައިވެސް ކަށްވަޅު ކައިރީގައިވެސް، ކޮންމެ ވަގުތެއްގައި ކުރެވިދާނެއެވެ. އަންހެނަކަށް ނަމަ *ލަހާ*، ގިނަ މީހުންނަށް ނަމަ *ލަހުމް* ކިޔާށެވެ.
+
+@@ what-reaches-the-dead
+title_en: What still reaches a person after death
+title_dv: މަރުވުމަށްފަހުވެސް މީހަކަށް ފޯރާ ކަންތައް
+kind: article
+--- en
+The Prophet ﷺ said: "When a person dies, their deeds end except for three: ongoing charity, knowledge that benefits, and a righteous child who prays for them" (Muslim 1631).
+
+What scholars agree reaches the dead:
+
+- **Dua and asking forgiveness** for them, from anyone.
+- **Charity** given on their behalf. A man asked whether charity for his mother who died suddenly would benefit her, and the Prophet ﷺ said yes (Bukhari 1388).
+- **Paying their debts**, including missed zakat.
+- **Hajj or Umrah** on their behalf, by someone who has done their own first (Bukhari 1852).
+- **Fasts they owed**, made up by a relative (Bukhari 1952).
+
+Scholars differ on whether the reward of reciting Quran can be gifted to the dead. The Shafi'i scholars of later generations allow it with a dua asking Allah to pass on the reward. What nobody disputes is dua, so make that your habit.
+
+Keeping ties with your parents' friends and relatives is also counted as kindness to them after they are gone (Muslim 2552).
+--- dv
+ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: "އިންސާނާ މަރުވުމުން ތިން ކަމެއް ފިޔަވައި އޭނާގެ ޢަމަލުތައް ކެނޑެއެވެ: ދެމިހުންނަ ޞަދަޤާތެއް، ފައިދާކުރާ ޢިލްމެއް، އޭނާއަށް ދުޢާކުރާ ޞާލިޙު ދަރިއެއް" (މުސްލިމް 1631).
+
+މަރުވެފައިވާ މީހާއަށް ފޯރާކަމަށް ޢިލްމުވެރިން އެއްބަސްވާ ކަންތައް:
+
+- އޭނާއަށްޓަކައި ކުރާ **ދުޢާއާއި އިސްތިޣްފާރު**.
+- އޭނާގެ ނަމުގައި ދޭ **ޞަދަޤާތް** (ބުޚާރީ 1388).
+- އޭނާގެ **ދަރަނި އަދާކުރުން**.
+- އޭނާގެ ނަމުގައި ކުރާ **ޙައްޖާއި ޢުމްރާ** (ބުޚާރީ 1852).
+- އޭނާގެ ޒިންމާގައި ހުރި **ރޯދަ** ގާތްތިމާގެ މީހަކު ހިފުން (ބުޚާރީ 1952).
+
+ޤުރުއާން ކިޔެވުމުގެ ސަވާބު ހަދިޔާކުރެވޭނެތޯ ޢިލްމުވެރިންގެ މެދުގައި ޚިލާފު އެބައޮތެވެ. ފަހުގެ ޝާފިޢީ ޢިލްމުވެރިން، ސަވާބު ފޯރުކޮށްދެއްވުމަށް ދުޢާކުރުމާއެކު އެކަން ހުއްދަކުރެއެވެ. ޚިލާފެއް ނެތް ކަމަކީ ދުޢާއެވެ. ވީމާ އެއީ އާދައަކަށް ހަދާށެވެ.
+
+%% fasting-eid-duas | duas | Ramadan, fasting and Eid | ރަމަޟާނާއި، ރޯދައާއި، ޢީދު | The intention, what to say at suhur and iftar, the Night of Decree, the new moon and the Eid takbir. | ނިޔަތާއި، ހާރުކާ ވަގުތާއި ރޯދަވީއްލާއިރު ކިޔާ ދުޢާތަކާއި، ލައިލަތުލް ޤަދުރާއި، ޢީދު ތަކްބީރު. | dua
+
+@@ fast-niyyah
+title_en: The intention for a Ramadan fast
+title_dv: ރަމަޟާން މަހުގެ ރޯދައިގެ ނިޔަތް
+arabic: نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ فَرْضِ شَهْرِ رَمَضَانَ هَذِهِ السَّنَةِ لِلَّهِ تَعَالَى
+translit: Nawaytu sawma ghadin 'an ada'i fardi shahri Ramadana hadhihis-sanati lillahi ta'ala.
+--- en
+I intend to fast tomorrow, performing the obligation of the month of Ramadan this year, for Allah the Exalted.
+
+In the Shafi'i school an obligatory fast needs an intention made **during the night, before Fajr, for each day**. The intention is in the heart: knowing as you go to sleep or eat suhur that you will fast tomorrow is enough. These words are a help, not a condition. For a voluntary fast the intention may be made any time before midday, provided you have not eaten.
+--- dv
+މި އަހަރުގެ ރަމަޟާން މަހުގެ ފަރުޟު އަދާކުރުމުގެ ގޮތުން، ﷲ ތަޢާލާއަށްޓަކައި މާދަމާ ރޯދަހިފުމަށް އަޅުގަނޑު ނިޔަތްގަތީމެވެ.
+
+ޝާފިޢީ މަޛްހަބުގައި ފަރުޟު ރޯދައަކަށް **ކޮންމެ ދުވަހަކަށްވެސް، ރޭގަނޑު، ފަތިސް ނަމާދުގެ ކުރިން** ނިޔަތްގަންނަން ޖެހެއެވެ. ނިޔަތަކީ ހިތުގައި ހުންނަ ކަމެކެވެ. ނިދާއިރު ނުވަތަ ހާރުކާއިރު މާދަމާ ރޯދަހިފާނެކަން އެނގުން ފުދެއެވެ. މި ލަފުޒުތަކަކީ އެހީއެކެވެ. ޝަރުޠެއް ނޫނެވެ. ސުންނަތް ރޯދައަކަށް، ކާއެއްޗެއް ނުކައި ހުރެއްޖެ ނަމަ، މެންދުރުގެ ކުރިން ނިޔަތްގަނެވިދާނެއެވެ.
+
+@@ fast-suhur
+title_en: Suhur: eat it, and eat it late
+title_dv: ހާރުކެއުން: ކައި، ލަސްކޮށް ކެއުން
+kind: article
+--- en
+There is no special dua for suhur. Say **Bismillah**, eat, and thank Allah.
+
+- "Eat suhur, for in suhur there is blessing" (Bukhari 1923). Even a sip of water counts.
+- The Sunnah is to delay it until shortly before Fajr. Between the Prophet's ﷺ suhur and the prayer was the time it takes to recite fifty ayahs (Bukhari 1921).
+- Stop eating when Fajr enters. The prayer times in this app are for your island.
+--- dv
+ހާރުކެއުމަށް ޚާއްޞަ ދުޢާއެއް ނުވެއެވެ. **ބިސްމިﷲ** ކިޔައި ކައި، ﷲ އަށް ޝުކުރުކުރާށެވެ.
+
+- "ހާރުކާށެވެ. ހާރުކެއުމުގައި ބަރަކާތް ވެއެވެ" (ބުޚާރީ 1923). ފެންފޮދެއް ބުއިމުންވެސް ފުދެއެވެ.
+- ސުންނަތަކީ ފަތިސް ނަމާދުގެ ކުރިއާ ހަމައަށް ލަސްކުރުމެވެ (ބުޚާރީ 1921).
+- ފަތިސް ވަގުތު ވަނުމުން ކެއުން ހުއްޓާލާށެވެ. މި އެޕްގައިވާ ނަމާދު ވަގުތުތަކަކީ ތިބާގެ ރަށުގެ ވަގުތުތަކެވެ.
+
+@@ fast-iftar-dua
+title_en: When breaking the fast
+title_dv: ރޯދަވީއްލާއިރު
+arabic: ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ، وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ
+translit: Dhahabaz-zama'u wabtallatil-'uruqu, wa thabatal-ajru in sha' Allah.
+ref: Abu Dawud 2357
+audio: /audio/dua/176.mp3
+--- en
+The thirst is gone, the veins are moistened, and the reward is certain, if Allah wills.
+
+Break the fast as soon as the sun has set, with fresh or dry dates, or with water if there are none (Abu Dawud 2356). The moments before iftar are a time when dua is answered, so ask then for whatever you need.
+--- dv
+ކަރުހިއްކުން ފިލައިފިއެވެ. ނާރުތައް ތެމިއްޖެއެވެ. ﷲ އިރާދަކުރެއްވިއްޔާ ސަވާބު ސާބިތުވެއްޖެއެވެ.
+
+އިރު އޮއްސުމާއެކު ލަސްނުކޮށް، ކަދުރުން ނުވަތަ ކަދުރު ނެތް ނަމަ ފެނުން ރޯދަވީއްލާށެވެ (އަބޫ ދާވޫދު 2356). ރޯދަވީއްލުމުގެ ކުރީކޮޅަކީ ދުޢާ ޤަބޫލުވާ ވަގުތެކެވެ. ވީމާ ބޭނުންވާ ކަމަކަށް އެ ވަގުތު ދުޢާކުރާށެވެ.
+
+@@ fast-iftar-common
+title_en: "O Allah, for You I fasted"
+title_dv: "އޭ ﷲ! އިބަރަސްކަލާނގެއަށްޓަކައި އަޅުގަނޑު ރޯދަހިފީމެވެ"
+arabic: اللَّهُمَّ لَكَ صُمْتُ، وَعَلَى رِزْقِكَ أَفْطَرْتُ
+translit: Allahumma laka sumtu, wa 'ala rizqika aftartu.
+ref: Abu Dawud 2358
+--- en
+O Allah, for You I fasted, and with Your provision I break my fast.
+
+This is the wording most people in the Maldives grew up with. Its chain is weaker than the dua above, but its meaning is sound and scholars have always allowed saying it.
+--- dv
+އޭ ﷲ! އިބަރަސްކަލާނގެއަށްޓަކައި އަޅުގަނޑު ރޯދަހިފީމެވެ. އިބަރަސްކަލާނގެ ދެއްވި ރިޒުޤުން ރޯދަވީއްލީމެވެ.
+
+މިއީ ދިވެހިރާއްޖޭގެ ގިނަ މީހުންނަށް ކުޑައިރުއްސުރެ ދަސްވެފައިވާ ދުޢާއެވެ. މީގެ ސަނަދު މަތީގައިވާ ދުޢާއަށްވުރެ ބަލިކަށި ނަމަވެސް މާނަ ރަނގަޅެވެ. ޢިލްމުވެރިން މި ދުޢާ ކިޔުން ހުއްދަކުރެއެވެ.
+
+@@ fast-iftar-forgive
+title_en: Asking forgiveness at iftar
+title_dv: ރޯދަވީއްލާއިރު ފާފަފުއްސެވުމަށް އެދުން
+arabic: @h:177
+translit: Allahumma inni as'aluka birahmatikal-lati wasi'at kulla shay'in an taghfira li.
+ref: Ibn Majah 1753
+--- en
+O Allah, I ask You by Your mercy, which covers everything, to forgive me.
+
+This was the iftar dua of the Companion Abdullah ibn Amr.
+--- dv
+އޭ ﷲ! ކޮންމެ އެއްޗެއް ވަށައިލާ އިބަރަސްކަލާނގެ ރަޙްމަތުގެ ވަސީލަތުން، އަޅުގަނޑަށް ފުއްސެވުން އެދި ދަންނަވަމެވެ.
+
+މިއީ ޞަޙާބީ ޢަބްދުﷲ ބިން ޢަމްރު ރޯދަވީއްލާއިރު ކުރެއްވި ދުޢާއެވެ.
+
+@@ fast-host
+title_en: For the one who gave you iftar
+title_dv: ރޯދަވީއްލައިދިން މީހާއަށް
+arabic: أَفْطَرَ عِنْدَكُمُ الصَّائِمُونَ، وَأَكَلَ طَعَامَكُمُ الْأَبْرَارُ، وَصَلَّتْ عَلَيْكُمُ الْمَلَائِكَةُ
+translit: Aftara 'indakumus-sa'imun, wa akala ta'amakumul-abrar, wa sallat 'alaykumul-mala'ikah.
+ref: Abu Dawud 3854
+--- en
+May those who fast break their fast with you, may the righteous eat your food, and may the angels pray for you.
+
+Whoever gives a fasting person food to break the fast has a reward like theirs, without the fasting person's reward being reduced (Tirmidhi 807).
+--- dv
+ރޯދަވެރިން ތިޔަބައިމީހުންގެ ގާތުގައި ރޯދަވީއްލާށިއެވެ. ހެޔޮލަފާ މީހުން ތިޔަބައިމީހުންގެ ކާނާ ކާށިއެވެ. މަލާއިކަތުން ތިޔަބައިމީހުންނަށް ދުޢާކުރާށިއެވެ.
+
+ރޯދަވެރިއަކަށް ރޯދަވީއްލައިދޭ މީހާއަށް، ރޯދަވެރިޔާގެ ސަވާބުން އެއްވެސް އެއްޗެއް އުނިނުވެ، އެ ފަދަ ސަވާބެއް ލިބެއެވެ (ތިރްމިޛީ 807).
+
+@@ fast-insulted
+title_en: If someone insults you while you fast
+title_dv: ރޯދައަށް ހުއްޓާ މީހަކު ބަދުބަސް ބުނެފި ނަމަ
+arabic: @h:186
+translit: Inni sa'im, inni sa'im.
+ref: Bukhari 1894; Muslim 1151
+--- en
+I am fasting, I am fasting.
+
+Fasting is a shield. It is not only leaving food: whoever does not give up false speech and acting on it, Allah has no need of their giving up food and drink (Bukhari 1903).
+--- dv
+އަޅުގަނޑު މިހުރީ ރޯދައަށެވެ. އަޅުގަނޑު މިހުރީ ރޯދައަށެވެ.
+
+ރޯދައަކީ އައްޑަނައެކެވެ. ރޯދައަކީ ހަމައެކަނި ކާބޯތަކެތި ދޫކޮށްލުމެއް ނޫނެވެ. ދޮގުބަހާއި ދޮގަށް ޢަމަލުކުރުން ދޫނުކުރާ މީހާ ކެއުމާއި ބުއިން ދޫކުރުމަށް ﷲ ބޭނުންފުޅުވެވޮޑިއެއް ނުގަންނަވައެވެ (ބުޚާރީ 1903).
+
+@@ fast-new-moon
+title_en: On seeing the new moon
+title_dv: އައު ހަނދު ފެނުމުން
+arabic: @h:175
+translit: Allahu akbar. Allahumma ahillahu 'alayna bil-amni wal-iman, was-salamati wal-Islam, wat-tawfiqi lima tuhibbu Rabbana wa tarda. Rabbuna wa Rabbukallah.
+ref: Tirmidhi 3451; Darimi
+--- en
+Allah is the Greatest. O Allah, let this moon rise over us with security and faith, safety and Islam, and success in what You love and are pleased with, our Lord. My Lord and your Lord is Allah.
+
+Said at the start of every lunar month, and especially when Ramadan and Shawwal begin.
+--- dv
+ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ. އޭ ﷲ! މި ހަނދު އަޅަމެންގެ މައްޗަށް އަރުއްވާނީ އަމާންކަމާއި އީމާންކަމާއެކު، ސަލާމަތާއި އިސްލާމްކަމާއެކު، އިބަރަސްކަލާނގެ ލޯބިކުރައްވައި ރުހިވޮޑިގަންނަވާ ކަންތަކަށް ތައުފީޤު ލިބުމާއެކުގައެވެ. އަހަރެންގެ ރައްބާއި ތިބާގެ ރައްބަކީ ﷲ އެވެ.
+
+ކޮންމެ ހިޖުރީ މަހެއް ފެށޭއިރު، ޚާއްޞަކޮށް ރަމަޟާނާއި ޝައްވާލް ފެށޭއިރު ކިޔާށެވެ.
+
+@@ fast-laylat-al-qadr
+title_en: The dua of the Night of Decree
+title_dv: ލައިލަތުލް ޤަދުރުގެ ދުޢާ
+arabic: اللَّهُمَّ إِنَّكَ عَفُوٌّ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي
+translit: Allahumma innaka 'Afuwwun tuhibbul-'afwa fa'fu 'anni.
+ref: Tirmidhi 3513; Ibn Majah 3850
+--- en
+O Allah, You are the Pardoner, You love to pardon, so pardon me.
+
+Aishah asked the Prophet ﷺ what she should say if she found the Night of Decree, and he taught her this. Say it again and again in the last ten nights, most of all on the odd nights.
+--- dv
+އޭ ﷲ! އިބަރަސްކަލާނގެއީ މަޢާފުކުރައްވާ ރަސްކަލާނގެއެވެ. މަޢާފުކުރެއްވުމަށް ލޯބިކުރައްވައެވެ. ވީމާ އަޅުގަނޑަށް މަޢާފުކުރައްވާނދޭވެ.
+
+ލައިލަތުލް ޤަދުރު ލިބިއްޖެ ނަމަ ކިޔާނީ ކޮން ދުޢާއެއްތޯ ޢާއިޝާ ސުވާލުކުރެއްވުމުން ނަބިއްޔާ ﷺ ދަސްކޮށްދެއްވީ މި ދުޢާއެވެ. ފަހު ދިހައިގެ ރޭތަކުގައި، ޚާއްޞަކޮށް އޮނަހިރި ރޭތަކުގައި، ތަކުރާރުކޮށް ކިޔާށެވެ.
+
+@@ eid-takbir
+title_en: The takbir of Eid
+title_dv: ޢީދު ތަކްބީރު
+arabic: اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، لَا إِلَهَ إِلَّا اللَّهُ، وَاللَّهُ أَكْبَرُ، اللَّهُ أَكْبَرُ، وَلِلَّهِ الْحَمْدُ
+translit: Allahu akbar, Allahu akbar, Allahu akbar, la ilaha illallah, wallahu akbar, Allahu akbar, wa lillahil-hamd.
+ref: Reported from Ibn Mas'ud and others; Ibn Abi Shaybah
+--- en
+Allah is the Greatest, Allah is the Greatest, Allah is the Greatest. There is no god but Allah. Allah is the Greatest, Allah is the Greatest, and to Allah belongs all praise.
+
+**When to say it**
+
+- **Eid al-Fitr:** from sunset on the last day of Ramadan until the imam begins the Eid prayer (Quran 2:185).
+- **Eid al-Adha:** after every obligatory prayer from Fajr on the day of Arafah until Asr on the 13th of Dhul Hijjah, and freely at any time in the first ten days.
+
+Men say it aloud in the mosque, the home and the street. In the Shafi'i school three takbirs at the start is preferred, as written here.
+--- dv
+ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ، ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ، ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ. ﷲ ފިޔަވައި އެހެން އިލާހަކު ނުވެއެވެ. ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ، ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ. ޙަމްދު ހުރީ ﷲ އަށެވެ.
+
+**ކިޔާނެ ވަގުތު**
+
+- **ފިޠުރު ޢީދު:** ރަމަޟާން މަހުގެ ފަހު ދުވަހު އިރު އޮއްސުނީއްސުރެ އިމާމު ޢީދު ނަމާދު ފައްޓަންދެން (ޤުރުއާން 2:185).
+- **އަޟްޙާ ޢީދު:** ޢަރަފާތް ދުވަހުގެ ފަތިހުން ފެށިގެން ޛުލްޙިއްޖާ 13 ގެ ޢަޞްރާ ހަމައަށް ކޮންމެ ފަރުޟު ނަމާދަކަށްފަހު. އަދި ފުރަތަމަ ދިހަ ދުވަހު ކޮންމެ ވަގުތެއްގައިވެސް.
+
+ފިރިހެނުން މިސްކިތުގައާއި ގޭގައާއި މަގުމަތީގައި އަޑުހަރުކޮށް ކިޔާށެވެ.
+
+@@ eid-greeting
+title_en: The Eid greeting
+title_dv: ޢީދު ތަހުނިޔާ
+arabic: تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ
+translit: Taqabbalallahu minna wa minkum.
+ref: Reported from the Companions; Ibn Hajar graded its chain good
+--- en
+May Allah accept from us and from you.
+
+This is what the Companions said to one another on Eid. "Eid Mubarak" is also fine.
+--- dv
+ﷲ އަޅަމެންގެ ކިބައިންނާއި ތިޔަބައިމީހުންގެ ކިބައިން ޤަބޫލުކުރައްވާށިއެވެ.
+
+ޞަޙާބީން ޢީދު ދުވަހު އެކަކު އަނެކަކަށް ވިދާޅުވަނީ މިހެންނެވެ. "ޢީދު މުބާރިކް" ކިޔުންވެސް ރަނގަޅެވެ.
+
+%% special-days | days | Days and seasons worth knowing | ދަންނަންވީ ދުވަސްތަކާއި މޫސުންތައް | Which days are good for fasting or extra worship, why, and what to do on them. | ރޯދަހިފުމަށާއި އިތުރު އަޅުކަމަށް މާތް ދުވަސްތަކާއި، ސަބަބާއި، އެ ދުވަސްތަކުގައި ކުރަންވީ ކަންތައް. | article
+
+@@ day-monday-thursday
+title_en: Mondays and Thursdays
+title_dv: ހޯމަ ދުވަހާއި ބުރާސްފަތި ދުވަސް
+--- en
+**What to do:** fast, if you are able.
+
+**Why:** "Deeds are presented on Monday and Thursday, and I love that my deeds are presented while I am fasting" (Tirmidhi 747). Asked about fasting on Monday, the Prophet ﷺ said, "That is the day I was born and the day revelation came to me" (Muslim 1162).
+
+The gates of the Garden are opened on these two days and every servant who associates nothing with Allah is forgiven, except two people who hold a grudge against each other (Muslim 2565). So use these days to make peace too.
+--- dv
+**ކުރަންވީ ކަންތައް:** ކުޅަދާނަ ނަމަ ރޯދަހިފުން.
+
+**ސަބަބު:** "ހޯމަ ދުވަހާއި ބުރާސްފަތި ދުވަހު ޢަމަލުތައް ހުށަހެޅެއެވެ. އަހުރެންގެ ޢަމަލު ހުށަހެޅޭއިރު އަހުރެން ރޯދައަށް ހުރުމަށް ލޯބިކުރަމެވެ" (ތިރްމިޛީ 747). ހޯމަ ދުވަހުގެ ރޯދައާ ބެހޭގޮތުން ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: "އެއީ އަހުރެން އުފަންވި ދުވަހެވެ. އަދި އަހުރެންނަށް ވަޙީ ބާވައިލެއްވުނު ދުވަހެވެ" (މުސްލިމް 1162).
+
+މި ދެ ދުވަހު ސުވަރުގޭގެ ދޮރުތައް ހުޅުވި، އެކަކު އަނެކަކާ ރުޅިވެފައިވާ ދެމީހުން ފިޔަވައި، ﷲ އަށް ޝަރީކުނުކުރާ ކޮންމެ އަޅަކަށް ފުއްސަވައެވެ (މުސްލިމް 2565). ވީމާ މި ދުވަސްތަކުގައި ސުލްޙަވުމަށްވެސް މަސައްކަތްކުރާށެވެ.
+
+@@ day-white-days
+title_en: The white days: the 13th, 14th and 15th of every month
+title_dv: އައްޔާމުލް ބީޟް: ކޮންމެ މަހެއްގެ 13، 14، 15
+--- en
+**What to do:** fast these three days of each lunar month.
+
+**Why:** "Fasting three days of every month is like fasting all the time" (Bukhari 1979), because each good deed is multiplied by ten. The Prophet ﷺ told Abu Dharr to make them the 13th, 14th and 15th (Tirmidhi 761), the nights when the moon is full and bright.
+
+If you miss those dates, any three days of the month earn the same reward. In Dhul Hijjah the 13th is a day of Tashriq, when fasting is not allowed, so fast another day instead.
+--- dv
+**ކުރަންވީ ކަންތައް:** ކޮންމެ ހިޖުރީ މަހެއްގެ މި ތިން ދުވަހު ރޯދަހިފުން.
+
+**ސަބަބު:** "ކޮންމެ މަހަކު ތިން ދުވަހު ރޯދަހިފުމަކީ މުޅި ޢުމުރު ރޯދަހިފުން ފަދަ ކަމެކެވެ" (ބުޚާރީ 1979). އެހެނީ ކޮންމެ ހެޔޮކަމެއް ދިހަ ގުނައަށް ގުނަވެއެވެ. އެއީ 13، 14، 15 ކަމުގައި ހެދުމަށް ނަބިއްޔާ ﷺ އަބޫ ޛައްރަށް އިރުޝާދުދެއްވިއެވެ (ތިރްމިޛީ 761).
+
+އެ ތާރީޚުތައް ފާއިތުވެއްޖެ ނަމަ މަހުގެ ކޮންމެ ތިން ދުވަހަކުންވެސް އެ ސަވާބު ލިބެއެވެ. ޛުލްޙިއްޖާ 13 އަކީ ތަޝްރީޤުގެ ދުވަހެއް ކަމުން އެ ދުވަހު ރޯދަހިފުން ހުއްދައެއް ނޫނެވެ.
+
+@@ day-friday
+title_en: Friday
+title_dv: ހުކުރު ދުވަސް
+--- en
+The best day the sun rises on (Muslim 854).
+
+**What to do**
+
+- Bathe, wear your best clothes and perfume, and go early to the mosque (Bukhari 883).
+- Recite **Surah Al-Kahf**. Whoever recites it on Friday is given light between the two Fridays (Al-Hakim; Al-Bayhaqi).
+- Send many **blessings on the Prophet ﷺ**, for they are presented to him (Abu Dawud 1047).
+- Make dua. There is an hour on Friday when whatever a Muslim asks for is given (Bukhari 935). The strongest opinions place it between the imam sitting on the minbar and the end of the prayer, or in the last hour before Maghrib.
+- Listen to the khutbah in silence.
+
+Do not single out Friday alone for a voluntary fast; join it with Thursday or Saturday (Bukhari 1985).
+--- dv
+އިރު އަރާ އެންމެ މާތް ދުވަހެވެ (މުސްލިމް 854).
+
+**ކުރަންވީ ކަންތައް**
+
+- ފެންވަރައި، އެންމެ ރީތި ހެދުން ލައި، ހުވަނދުލައިގެން އަވަހަށް މިސްކިތަށް ދިއުން (ބުޚާރީ 883).
+- **ސޫރަތުލް ކަހްފު** ކިޔެވުން. ހުކުރު ދުވަހު އެ ސޫރަތް ކިޔަވާ މީހާއަށް ދެ ހުކުރުގެ ދެމެދު ނޫރެއް ލިބެއެވެ (ޙާކިމް؛ ބައިހަޤީ).
+- ނަބިއްޔާ ﷺ ގެ މައްޗަށް ގިނައިން **ޞަލަވާތް** ކިޔުން (އަބޫ ދާވޫދު 1047).
+- ދުޢާކުރުން. ހުކުރު ދުވަހު، މުސްލިމަކު އެދޭ ކޮންމެ ކަމެއް ލިބޭ ވަގުތުކޮޅެއް ވެއެވެ (ބުޚާރީ 935). އެންމެ ވަރުގަދަ ރައުޔުތަކުގައި އެއީ އިމާމު މިންބަރުގައި އިށީނުމާއި ނަމާދު ނިމުމާ ދެމެދު، ނުވަތަ މަޣްރިބުގެ ކުރީގެ ފަހު ގަޑިއެވެ.
+- ޚުޠުބާ ހިމޭންކަމާއެކު އަޑުއެހުން.
+
+ސުންނަތް ރޯދައަކަށް ހަމައެކަނި ހުކުރު ދުވަސް ޚާއްޞަނުކުރާށެވެ. ބުރާސްފަތި ނުވަތަ ހޮނިހިރާ ގުޅުވާށެވެ (ބުޚާރީ 1985).
+
+@@ day-shaban
+title_en: Sha'ban, the month before Ramadan
+title_dv: ޝަޢުބާން މަސް
+--- en
+**What to do:** fast often, make up any fasts still owed from last Ramadan, and read more Quran so that Ramadan does not find you unprepared.
+
+**Why:** Aishah said she never saw the Prophet ﷺ fast more in any month than in Sha'ban (Bukhari 1969). He called it "a month people neglect, between Rajab and Ramadan, in which deeds are raised to the Lord of the worlds" (Nasa'i 2357).
+
+Do not fast the day or two just before Ramadan as a precaution, unless it falls on a fast you already keep (Bukhari 1914).
+--- dv
+**ކުރަންވީ ކަންތައް:** ގިނައިން ރޯދަހިފުން، ކުރީ ރަމަޟާނުގެ ޤަޟާ ރޯދަތައް ހިފުން، ޤުރުއާން ގިނައިން ކިޔެވުން.
+
+**ސަބަބު:** ޝަޢުބާން މަހަށްވުރެ ގިނައިން އެހެން މަހެއްގައި ނަބިއްޔާ ﷺ ރޯދަހިއްޕަވާތަން ނުދެކޭކަމަށް ޢާއިޝާ ވިދާޅުވިއެވެ (ބުޚާރީ 1969). އެއީ "ރަޖަބާއި ރަމަޟާނާ ދެމެދު މީސްތަކުން ޣާފިލުވާ މަހެކެވެ. އެ މަހު ޢަމަލުތައް ޢާލަމްތަކުގެ ރައްބުގެ ޙަޟްރަތަށް އުފުލެއެވެ" (ނަސާއީ 2357).
+
+ރަމަޟާނުގެ ކުރީ ދުވަހު ނުވަތަ ދެ ދުވަހު، އާދަވެގެން ހިފާ ރޯދައެއް ނޫނީ، ރޯދަނުހިފާށެވެ (ބުޚާރީ 1914).
+
+@@ day-ramadan
+title_en: Ramadan
+title_dv: ރަމަޟާން މަސް
+--- en
+The month the Quran came down, and the fourth pillar of Islam.
+
+**What to do each day**
+
+- Fast from Fajr to Maghrib with an intention made the night before.
+- Pray the five prayers on time and **Tarawih** at night. "Whoever stands in prayer in Ramadan with faith, hoping for reward, has their past sins forgiven" (Bukhari 37).
+- Read the Quran daily. Jibril reviewed it with the Prophet ﷺ every night of Ramadan (Bukhari 6).
+- Give. He ﷺ was more generous in Ramadan than the blowing wind.
+- Guard your tongue and your eyes; the fast is more than hunger.
+
+**Why:** "Whoever fasts Ramadan with faith, hoping for reward, has their past sins forgiven" (Bukhari 38). The gates of the Garden are opened, the gates of the Fire are closed and the devils are chained (Bukhari 1899).
+
+See also the Ramadan guide in the Library and the fasting duas.
+--- dv
+ޤުރުއާން ބާވައިލެއްވުނު މަހެވެ. އިސްލާމްކަމުގެ ހަތަރުވަނަ ރުކުނެވެ.
+
+**ކޮންމެ ދުވަހަކު ކުރަންވީ ކަންތައް**
+
+- ރޭގަނޑު ނިޔަތްގަނެ، ފަތިހުން މަޣްރިބާ ހަމައަށް ރޯދަހިފުން.
+- ފަސް ނަމާދު ވަގުތަށް ކުރުމާއި ރޭގަނޑު **ތަރާވީޙް** ކުރުން. "އީމާންކަމާއެކު ސަވާބަށް އެދި ރަމަޟާން މަހު ޤިޔާމުކުރާ މީހާގެ ކުރީގެ ފާފަތައް ފުއްސަވައެވެ" (ބުޚާރީ 37).
+- ކޮންމެ ދުވަހަކު ޤުރުއާން ކިޔެވުން (ބުޚާރީ 6).
+- ޞަދަޤާތްކުރުން.
+- ދުލާއި ލޯ ރައްކާތެރިކުރުން. ރޯދައަކީ ހަމައެކަނި ބަނޑުހައިކަމެއް ނޫނެވެ.
+
+**ސަބަބު:** "އީމާންކަމާއެކު ސަވާބަށް އެދި ރަމަޟާން މަހު ރޯދަހިފާ މީހާގެ ކުރީގެ ފާފަތައް ފުއްސަވައެވެ" (ބުޚާރީ 38). ސުވަރުގޭގެ ދޮރުތައް ހުޅުވި، ނަރަކައިގެ ދޮރުތައް ލައްޕައި، ޝައިޠާނުން ބަނދެވެއެވެ (ބުޚާރީ 1899).
+
+@@ day-last-ten
+title_en: The last ten nights and the Night of Decree
+title_dv: ފަހު ދިހަ ރެއާއި ލައިލަތުލް ޤަދުރު
+--- en
+**What to do**
+
+- Pray at night, read Quran, and repeat the dua *Allahumma innaka 'Afuwwun tuhibbul-'afwa fa'fu 'anni*.
+- Seek the Night of Decree on the **odd nights**: the 21st, 23rd, 25th, 27th and 29th (Bukhari 2017). Do not rely on the 27th alone.
+- If you can, make **i'tikaf**, staying in the mosque for these days as the Prophet ﷺ did every year (Bukhari 2026).
+- Give your **zakat al-fitr** before the Eid prayer.
+
+**Why:** "The Night of Decree is better than a thousand months" (Quran 97:3), more than eighty-three years of worship. When the last ten began, the Prophet ﷺ would stay up at night, wake his family and tighten his belt (Bukhari 2024).
+--- dv
+**ކުރަންވީ ކަންތައް**
+
+- ރޭއަޅުކަންކޮށް، ޤުރުއާން ކިޔަވައި، *ﷲއްމަ އިންނަކަ ޢަފުއްވުން ތުޙިއްބުލް ޢަފްވަ ފަޢުފު ޢަންނީ* ތަކުރާރުކޮށް ކިޔުން.
+- **އޮނަހިރި ރޭތަކުގައި** ލައިލަތުލް ޤަދުރު ހޯދުން: 21، 23، 25، 27، 29 (ބުޚާރީ 2017). ހަމައެކަނި 27 އަށް ބަރޯސާނުވާށެވެ.
+- ކުޅަދާނަ ނަމަ **އިޢުތިކާފު**ގައި އިނުން (ބުޚާރީ 2026).
+- ޢީދު ނަމާދުގެ ކުރިން **ފިޠުރު ޒަކާތް** ދިނުން.
+
+**ސަބަބު:** "ލައިލަތުލް ޤަދުރަކީ އެއްހާސް މަހަށްވުރެ ހެޔޮ ރެއެކެވެ" (ޤުރުއާން 97:3). ފަހު ދިހަ ފެށުމުން ނަބިއްޔާ ﷺ ރޭގަނޑު ހޭލާ ހުންނަވައި، އަހުލުން ހޭލައްވައި، އަޅުކަމުގައި ގަދައަޅުއްވައެވެ (ބުޚާރީ 2024).
+
+@@ day-eid-fitr
+title_en: Eid al-Fitr, the 1st of Shawwal
+title_dv: ފިޠުރު ޢީދު، ޝައްވާލް 1
+--- en
+A day of thanks for completing Ramadan. **Fasting today is forbidden.**
+
+**What to do**
+
+- Make sure **zakat al-fitr** has reached the poor before the prayer (Bukhari 1503).
+- Bathe, wear your best clothes, and **eat an odd number of dates** before leaving home (Bukhari 953).
+- Say the **takbir** aloud on the way until the prayer begins.
+- Pray the Eid prayer with the community, women and children included (Bukhari 974), and listen to the khutbah.
+- Go by one road and come back by another (Bukhari 986).
+- Greet people with *Taqabbalallahu minna wa minkum*, visit family, and be generous.
+--- dv
+ރަމަޟާން ފުރިހަމަކުރެވުނީތީ ޝުކުރުކުރާ ދުވަހެކެވެ. **މިއަދު ރޯދަހިފުން ޙަރާމެވެ.**
+
+**ކުރަންވީ ކަންތައް**
+
+- ނަމާދުގެ ކުރިން **ފިޠުރު ޒަކާތް** ފަޤީރުންނަށް ފޯރުކުރުން (ބުޚާރީ 1503).
+- ފެންވަރައި، އެންމެ ރީތި ހެދުން ލައި، ގެއިން ނުކުތުމުގެ ކުރިން **އޮނަހިރި އަދަދަކަށް ކަދުރު ކެއުން** (ބުޚާރީ 953).
+- ނަމާދު ފެށެންދެން މަގުމަތީގައި އަޑުހަރުކޮށް **ތަކްބީރު** ކިޔުން.
+- އަންހެނުންނާއި ކުދިންވެސް ހިމެނޭގޮތަށް ޖަމާޢަތާއެކު ޢީދު ނަމާދުކުރުން (ބުޚާރީ 974).
+- އެއް މަގަކުން ގޮސް އެހެން މަގަކުން އައުން (ބުޚާރީ 986).
+- *ތަޤައްބަލަﷲ މިންނާ ވަމިންކުމް* ކިޔައި ސަލާމްކޮށް، ޢާއިލާއަށް ޒިޔާރަތްކުރުން.
+
+@@ day-shawwal-six
+title_en: Six days of Shawwal
+title_dv: ޝައްވާލް މަހުގެ ހަ ރޯދަ
+--- en
+**What to do:** fast any six days of Shawwal after Eid day. They may be together or spread through the month.
+
+**Why:** "Whoever fasts Ramadan and follows it with six days of Shawwal, it is as if they fasted the whole year" (Muslim 1164). Thirty days times ten is three hundred, and six times ten is sixty.
+
+If you owe fasts from Ramadan, the safer course is to make those up first.
+--- dv
+**ކުރަންވީ ކަންތައް:** ޢީދު ދުވަހަށްފަހު ޝައްވާލް މަހުގެ ކޮންމެ ހަ ދުވަހަކު ރޯދަހިފުން. ވިދިވިދިގެން ނުވަތަ ތަފާތު ދުވަސްތަކުގައި ހިފިދާނެއެވެ.
+
+**ސަބަބު:** "ރަމަޟާން މަހު ރޯދަހިފައި، އެއަށްފަހު ޝައްވާލް މަހުގެ ހަ ދުވަހު ރޯދަހިފާ މީހާ، މުޅި އަހަރު ރޯދަހިފި ފަދައެވެ" (މުސްލިމް 1164).
+
+ރަމަޟާނުގެ ޤަޟާ ރޯދަ ހުރި ނަމަ، ރައްކާތެރި ގޮތަކީ ފުރަތަމަ އެ ރޯދަތައް ހިފުމެވެ.
+
+@@ day-dhul-hijjah-ten
+title_en: The first ten days of Dhul Hijjah
+title_dv: ޛުލްޙިއްޖާ މަހުގެ ފުރަތަމަ ދިހަ ދުވަސް
+--- en
+**What to do**
+
+- Fast the first nine days, or as many as you can, and above all the 9th.
+- Fill the days with **takbir, tahlil and tahmid**: *Allahu akbar, la ilaha illallah, alhamdulillah*.
+- Pray, give charity, read Quran, repent.
+- If you plan to sacrifice, do not cut your hair or nails from the 1st until your animal is slaughtered (Muslim 1977).
+
+**Why:** "There are no days in which righteous deeds are more beloved to Allah than these ten days" (Bukhari 969). They gather prayer, fasting, charity and Hajj in a way no other days do.
+--- dv
+**ކުރަންވީ ކަންތައް**
+
+- ފުރަތަމަ ނުވަ ދުވަހު، ނުވަތަ ކުޅަދާނަ ވަރަކަށް، ޚާއްޞަކޮށް 9 ވަނަ ދުވަހު ރޯދަހިފުން.
+- **ތަކްބީރާއި ތަހްލީލާއި ތަޙްމީދު** ގިނައިން ކިޔުން.
+- ނަމާދުކުރުން، ޞަދަޤާތްކުރުން، ޤުރުއާން ކިޔެވުން، ތައުބާވުން.
+- އުޟްޙިޔާ ކަތިލަން ޤަޞްދުކުރާ ނަމަ، 1 ވަނަ ދުވަހުން ފެށިގެން ކަތިލަންދެން އިސްތަށްޓާއި ނިޔަފަތި ނުކެނޑުން (މުސްލިމް 1977).
+
+**ސަބަބު:** "މި ދިހަ ދުވަހަށްވުރެ ﷲ ގެ ޙަޟްރަތުގައި ޞާލިޙު ޢަމަލު ލޯބިވެގެންވާ ދުވަސްތަކެއް ނުވެއެވެ" (ބުޚާރީ 969).
+
+@@ day-arafah
+title_en: The Day of Arafah, the 9th of Dhul Hijjah
+title_dv: ޢަރަފާތް ދުވަސް، ޛުލްޙިއްޖާ 9
+--- en
+**What to do**
+
+- **Fast**, unless you are a pilgrim standing at Arafah.
+- Make much dua, especially in the afternoon. The best thing to say: *La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu wa huwa 'ala kulli shay'in qadir* (Tirmidhi 3585).
+- Begin the takbir after each prayer from Fajr today.
+
+**Why:** fasting this day "expiates the sins of the year before and the year after" (Muslim 1162). On no day does Allah free more servants from the Fire than on the Day of Arafah (Muslim 1348). It is the day the religion was completed (Quran 5:3).
+--- dv
+**ކުރަންވީ ކަންތައް**
+
+- ޢަރަފާތުގައި ހުންނަ ޙައްޖުވެރިއެއް ނޫން ނަމަ **ރޯދަހިފުން**.
+- ގިނައިން ދުޢާކުރުން، ޚާއްޞަކޮށް މެންދުރުފަހު. ކިޔަން އެންމެ ރަނގަޅު ޛިކުރު: *ލާ އިލާހަ އިއްލަﷲ ވަޙްދަހޫ ލާ ޝަރީކަ ލަހޫ، ލަހުލް މުލްކު ވަލަހުލް ޙަމްދު ވަހުވަ ޢަލާ ކުއްލި ޝައިއިން ޤަދީރު* (ތިރްމިޛީ 3585).
+- މިއަދުގެ ފަތިހުން ފެށިގެން ކޮންމެ ނަމާދަކަށްފަހު ތަކްބީރު ކިޔަން ފެށުން.
+
+**ސަބަބު:** މި ދުވަހުގެ ރޯދައިން "ކުރީ އަހަރާއި ކުރިއަށް އޮތް އަހަރުގެ ފާފަ ފުއްސަވައެވެ" (މުސްލިމް 1162). ޢަރަފާތް ދުވަހަށްވުރެ ގިނައިން ﷲ އަޅުން ނަރަކައިން މިނިވަންކުރައްވާ ދުވަހެއް ނުވެއެވެ (މުސްލިމް 1348). އެއީ ދީން ފުރިހަމަކުރެއްވުނު ދުވަހެވެ (ޤުރުއާން 5:3).
+
+@@ day-eid-adha
+title_en: Eid al-Adha and the days of Tashriq, 10th to 13th of Dhul Hijjah
+title_dv: އަޟްޙާ ޢީދާއި ތަޝްރީޤުގެ ދުވަސްތައް، ޛުލްޙިއްޖާ 10 އިން 13 އަށް
+--- en
+The greatest day of the year in the sight of Allah (Abu Dawud 1765). **Fasting is forbidden on all four days.**
+
+**What to do**
+
+- Go to the Eid prayer **without eating first**, and eat from your sacrifice afterwards.
+- **Sacrifice** an animal after the prayer, on the 10th or any of the three days after it. Eat some, give some as gifts and give some to the poor.
+- Say the **takbir** after every prayer until Asr on the 13th.
+- Eat, drink, visit and remember Allah: "The days of Tashriq are days of eating, drinking and remembering Allah" (Muslim 1141).
+
+**Why:** it honours Ibrahim's readiness to give up what he loved most for Allah, and Allah's mercy in ransoming his son (Quran 37:102-107). "It is not their meat or their blood that reaches Allah, but your piety" (Quran 22:37).
+--- dv
+ﷲ ގެ ޙަޟްރަތުގައި އަހަރުގެ އެންމެ މާތް ދުވަހެވެ (އަބޫ ދާވޫދު 1765). **މި ހަތަރު ދުވަހުވެސް ރޯދަހިފުން ޙަރާމެވެ.**
+
+**ކުރަންވީ ކަންތައް**
+
+- **ކާއެއްޗެއް ނުކައި** ޢީދު ނަމާދަށް ގޮސް، ފަހުން އުޟްޙިޔާގެ މަހުން ކެއުން.
+- ނަމާދަށްފަހު، 10 ވަނަ ދުވަހު ނުވަތަ އޭގެ ފަހުގެ ތިން ދުވަހުގެ ތެރޭގައި **އުޟްޙިޔާ ކަތިލުން**. ބައެއް ކައި، ބައެއް ހަދިޔާކޮށް، ބައެއް ފަޤީރުންނަށް ދިނުން.
+- 13 ވަނަ ދުވަހުގެ ޢަޞްރާ ހަމައަށް ކޮންމެ ނަމާދަކަށްފަހު **ތަކްބީރު** ކިޔުން.
+- "ތަޝްރީޤުގެ ދުވަސްތަކަކީ ކެއުމާއި ބުއިމާއި ﷲ ހަނދާންކުރުމުގެ ދުވަސްތަކެކެވެ" (މުސްލިމް 1141).
+
+**ސަބަބު:** އިބްރާހީމްގެފާނު، އެންމެ ލޯބިވާ އެއްޗެއް ﷲ އަށްޓަކައި ދޫކޮށްލުމަށް ތައްޔާރުވެވަޑައިގަތުމާއި، ﷲ ރަޙްމަތްލައްވައި ދަރިކަލުންގެ ބަދަލުގައި ޤުރުބާނެއް ދެއްވުން ހަނދާންކުރުމެވެ (ޤުރުއާން 37:102-107). "ﷲ ގެ ޙަޟްރަތަށް ފޯރަނީ އޭގެ މަހެއް ލެޔެއް ނޫނެވެ. ތިޔަބައިމީހުންގެ ތަޤުވާއެވެ" (ޤުރުއާން 22:37).
+
+@@ day-ashura
+title_en: Muharram and the Day of Ashura, the 10th
+title_dv: މުޙައްރަމް މަހާއި ޢާޝޫރާ ދުވަސް
+--- en
+**What to do:** fast the **10th of Muharram**, and the **9th** with it. If you miss the 9th, fast the 10th and 11th.
+
+**Why:** fasting Ashura "expiates the sins of the year before" (Muslim 1162). It is the day Allah saved Musa and his people from Pharaoh, and Musa fasted it in thanks; the Prophet ﷺ said, "We have more right to Musa than they do," fasted it, and said that if he lived to the next year he would fast the 9th too (Muslim 1130, 1134).
+
+Muharram is one of the four sacred months, and "the best fast after Ramadan is in Allah's month of Muharram" (Muslim 1163). The Hijri year begins with it.
+
+There is no sound basis for special foods, mourning rituals or celebrations on this day. The Sunnah is the fast.
+--- dv
+**ކުރަންވީ ކަންތައް:** **މުޙައްރަމް 10** ގައި، އަދި އޭގެ ކުރީ ދުވަސް ކަމުގައިވާ **9** ގައި ރޯދަހިފުން. 9 ފާއިތުވެއްޖެ ނަމަ 10 އާއި 11 ގައި ހިފާށެވެ.
+
+**ސަބަބު:** ޢާޝޫރާ ދުވަހުގެ ރޯދައިން "ކުރީ އަހަރުގެ ފާފަ ފުއްސަވައެވެ" (މުސްލިމް 1162). އެއީ ﷲ މޫސާގެފާނާއި އެކަލޭގެފާނުގެ ޤައުމު ފިރުޢައުނުގެ ކިބައިން ސަލާމަތްކުރެއްވި ދުވަހެވެ. ނަބިއްޔާ ﷺ އެ ދުވަހު ރޯދަހިއްޕަވައި، އަންނަ އަހަރާ ހަމައަށް ދިރިހުންނެވި ނަމަ 9 ގައިވެސް ހިއްޕަވާނެކަމަށް ޙަދީޘްކުރެއްވިއެވެ (މުސްލިމް 1130، 1134).
+
+މުޙައްރަމަކީ ޙުރުމަތްތެރި ހަތަރު މަހުގެ ތެރެއިން މަހެކެވެ. "ރަމަޟާނަށްފަހު އެންމެ މާތް ރޯދައަކީ ﷲ ގެ މަސް ކަމުގައިވާ މުޙައްރަމް މަހުގެ ރޯދައެވެ" (މުސްލިމް 1163). ހިޖުރީ އަހަރު ފެށެނީ މި މަހުންނެވެ.
+
+މި ދުވަހު ޚާއްޞަ ކާނާއެއް، ހިތާމަކުރުމުގެ ރަސްމިއްޔާތެއް ނުވަތަ އުފާފާޅުކުރުމެއްގެ ޞައްޙަ ދަލީލެއް ނުވެއެވެ. ސުންނަތަކީ ރޯދައެވެ.
+
+@@ day-no-fast
+title_en: Days when fasting is not allowed
+title_dv: ރޯދަހިފުން ހުއްދަނޫން ދުވަސްތައް
+--- en
+- **The two Eid days**: the 1st of Shawwal and the 10th of Dhul Hijjah (Bukhari 1990).
+- **The days of Tashriq**: the 11th, 12th and 13th of Dhul Hijjah (Muslim 1141).
+- **The day of doubt**: the 30th of Sha'ban when the moon has not been sighted, fasted "just in case" (Tirmidhi 686).
+- **Friday on its own**, or **Saturday on its own**, as a voluntary fast. Join it with the day before or after (Bukhari 1985).
+- **Every single day without a break.** The best voluntary fast is that of Dawud: one day on, one day off (Bukhari 1131).
+- A woman during her period or post-natal bleeding does not fast, and makes up the Ramadan days later.
+- A wife does not keep a voluntary fast while her husband is at home without his agreement (Bukhari 5195).
+--- dv
+- **ދެ ޢީދު ދުވަސް**: ޝައްވާލް 1 އާއި ޛުލްޙިއްޖާ 10 (ބުޚާރީ 1990).
+- **ތަޝްރީޤުގެ ދުވަސްތައް**: ޛުލްޙިއްޖާ 11، 12، 13 (މުސްލިމް 1141).
+- **ޝައްކުގެ ދުވަސް**: ހަނދު ނުފެނި، ޝަޢުބާން 30 ވަނަ ދުވަހު "ރައްކާތެރިކަމަށް" ހިފާ ރޯދަ (ތިރްމިޛީ 686).
+- ސުންނަތް ރޯދައެއްގެ ގޮތުން **ހަމައެކަނި ހުކުރު** ނުވަތަ **ހަމައެކަނި ހޮނިހިރު** ދުވަހު. ކުރީ ނުވަތަ ފަހު ދުވަހާ ގުޅުވާށެވެ (ބުޚާރީ 1985).
+- **ދުވަހެއްވެސް ނުކަނޑައި ކޮންމެ ދުވަހަކު.** އެންމެ މާތް ސުންނަތް ރޯދައަކީ ދާވޫދުގެފާނުގެ ރޯދައެވެ: ދުވަހަކު ހިފައި ދުވަހަކު ނުހިފުން (ބުޚާރީ 1131).
+- ޙައިޟާއި ނިފާސްވެރިކަމުގައި އަންހެނުން ރޯދައެއް ނުހިފާނެއެވެ. ރަމަޟާނުގެ ދުވަސްތައް ފަހުން ޤަޟާކުރާނެއެވެ.

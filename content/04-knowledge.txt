@@ -1,0 +1,455 @@
+%% about-quran | quran | Understanding the Quran | ޤުރުއާން ދެނެގަތުން | How it is arranged, how it was revealed and preserved, and how to read it. | ޤުރުއާން ތަރުތީބުވެފައިވާ ގޮތާއި، ބާވައިލެއްވުނު ގޮތާއި، ކިޔަވާނެ ގޮތް.
+
+@@ quran-structure
+title_en: How the Quran is arranged
+title_dv: ޤުރުއާން ތަރުތީބުވެފައިވާ ގޮތް
+--- en
+The Quran is the speech of Allah, revealed in Arabic to the Prophet Muhammad ﷺ through the angel Jibril.
+
+## Surahs and ayahs
+It has **114 surahs** and **6,236 ayahs** in the count used in most printed copies. The surahs are not in the order of revelation. After Al-Fatihah they run broadly from longest to shortest. Every surah except the ninth, At-Tawbah, opens with the Bismillah.
+
+## Makkan and Madinan
+Surahs revealed before the Hijrah are called Makkan, and those after it Madinan. Makkan surahs tend to be short and forceful and speak about the oneness of Allah, the Hereafter and the stories of earlier prophets. Madinan surahs are often longer and set out law for the new community: prayer, fasting, family, trade and justice.
+
+## Divisions for reading
+- **30 juz'** of equal length, so that the whole can be read in a month. Maldivians call a juz' a *foiy*.
+- Each juz' has two *hizb*, and each hizb four quarters.
+- **7 manzil** for reading it in a week.
+- **Ruku'** marks show passages on one theme.
+
+## Places of prostration
+At fifteen ayahs it is sunnah for the reciter and listener to prostrate once. In the app these are marked with ۩.
+--- dv
+ޤުރުއާނަކީ ޖިބްރީލްގެފާނު މެދުވެރިކޮށް މުޙައްމަދުގެފާނު ﷺ އަށް ޢަރަބިބަހުން ބާވައިލެއްވި ﷲ ގެ ކަލާމްފުޅެވެ.
+
+## ސޫރަތްތަކާއި އާޔަތްތައް
+ޤުރުއާނުގައި **114 ސޫރަތާއި**، ގިނަ މުޞްޙަފުތަކުގައި ބޭނުންކުރާ ޢަދަދުން **6,236 އާޔަތް** ވެއެވެ. ސޫރަތްތައް ތަރުތީބުވެފައިވަނީ ބާވައިލެއްވުނު ތަރުތީބަކުން ނޫނެވެ. ފާތިޙާއަށްފަހު ޢާންމުކޮށް ދިގު ސޫރަތްތަކުން ކުރު ސޫރަތްތަކަށެވެ. ތައުބާ ސޫރަތް ފިޔަވައި ކޮންމެ ސޫރަތެއް ފެށެނީ ބިސްމިއިންނެވެ.
+
+## މައްކީ އަދި މަދަނީ ސޫރަތްތައް
+ހިޖުރައިގެ ކުރިން ބާވައިލެއްވުނު ސޫރަތްތަކަށް މައްކީ، އަދި ފަހުން ބާވައިލެއްވުނު ސޫރަތްތަކަށް މަދަނީ ސޫރަތްތަކޭ ކިޔައެވެ. މައްކީ ސޫރަތްތަކުގައި ގިނައިން އައިސްފައިވަނީ ތައުޙީދާއި، އާޚިރަތާއި، ކުރީގެ ނަބީބޭކަލުންގެ ވާހަކައެވެ. މަދަނީ ސޫރަތްތަކުގައި ނަމާދާއި، ރޯދައާއި، ޢާއިލާއާއި، ވިޔަފާރިއާއި، ޢަދުލުއިންޞާފުގެ ޙުކުމްތައް ބަޔާންވެފައިވެއެވެ.
+
+## ކިޔެވުމަށް ބަހާލެވިފައިވާ ގޮތް
+- އެއް މަހުން ޚަތިމްކުރެވޭ ގޮތަށް **30 ޖުޒުއު**. ދިވެހިން މިއަށް *ފޮތް* ކިޔައެވެ.
+- ކޮންމެ ޖުޒުއެއްގައި ދެ ޙިޒްބު.
+- ހަފްތާއަކުން ޚަތިމްކުރުމަށް **7 މަންޒިލް**.
+- އެއް މައުޟޫޢެއްގެ އާޔަތްތައް ދައްކާ **ރުކޫޢު** ގެ ނިޝާންތައް.
+
+## ސަޖިދައިގެ އާޔަތްތައް
+ފަނަރަ އާޔަތެއްގައި ކިޔަވާ މީހާއާއި އަޑުއަހާ މީހާ ސަޖިދަކުރުމަކީ ސުންނަތެކެވެ. މި އެޕްގައި އެ އާޔަތްތައް ۩ ނިޝާނުން ފާހަގަކުރެވިފައިވާނެއެވެ.
+
+@@ quran-revelation
+title_en: How the Quran was revealed and preserved
+title_dv: ޤުރުއާން ބާވައިލެއްވުނު ގޮތާއި ރައްކާތެރިކުރެވުނު ގޮތް
+ref: Quran 96:1-5; 15:9; Bukhari 4986-4987
+--- en
+## Revelation
+The first revelation came in the cave of Hira near Makkah, in Ramadan, around 610 CE, when the Prophet ﷺ was forty: "Read, in the name of your Lord who created" (96:1-5). Revelation then continued for about twenty-three years, thirteen in Makkah and ten in Madinah, coming a few ayahs at a time in answer to events and questions. The Prophet ﷺ told his scribes where each passage belonged, and each Ramadan he reviewed the whole with Jibril, twice in his final year.
+
+## Memorised and written
+From the start the Quran was kept in two ways. Many Companions memorised it, and scribes such as Zayd ibn Thabit wrote it on parchment, bone and palm stalks.
+
+## Collected in one volume
+After many memorisers were killed at the battle of Yamamah, the caliph **Abu Bakr**, on Umar's advice, asked Zayd to gather the written pieces into one collection. Zayd accepted a passage only with written evidence and witnesses.
+
+## The standard copy
+Under the caliph **Uthman**, around 650 CE, differences in recitation appeared in distant provinces. He had Zayd and three others make copies from Abu Bakr's collection and sent them to the main cities. Every printed Quran today follows that Uthmani script.
+
+## Still memorised
+The chain of oral teaching has never broken. Millions know the whole text by heart, and a reciter in Male' and one in Morocco read the same words.
+--- dv
+## ވަޙީ ބާވައިލެއްވުން
+ފުރަތަމަ ވަޙީ ބާވައިލެއްވުނީ ނަބިއްޔާ ﷺ ގެ ޢުމުރުފުޅުން ސާޅީސް އަހަރުގައި، މީލާދީން 610 ވަނަ އަހަރު ހާއިރު، ރަމަޟާން މަހު މައްކާ ކައިރީ ޙިރާ ހޮހަޅައިގައެވެ: "ހެއްދެވި ކަލޭގެފާނުގެ ވެރިރަސްކަލާނގެ އިސްމުފުޅުން ކިޔަވާށެވެ!" (96:1-5). އެއަށްފަހު ގާތްގަނޑަކަށް ތޭވީސް އަހަރު، މައްކާގައި ތޭރަ އަހަރާއި މަދީނާގައި ދިހަ އަހަރު، ޙާދިސާތަކާއި ސުވާލުތަކާ ގުޅިގެން އާޔަތްތައް ބާވައިލެއްވުނެވެ. ކޮންމެ ރަމަޟާން މަހަކު ނަބިއްޔާ ﷺ ޖިބްރީލްގެފާނާއެކު މުޅި ޤުރުއާން މުރާޖަޢާކުރެއްވިއެވެ.
+
+## ހިތުދަސްކުރުމާއި ލިޔުން
+ފުރަތަމަ ދުވަހުން ފެށިގެން ޤުރުއާން ރައްކާތެރިކުރެވުނީ ދެ ގޮތަކަށެވެ. ގިނަ ޞަޙާބީން ހިތުދަސްކުރެއްވިއެވެ. އަދި ޒައިދު ބިން ޘާބިތު ފަދަ ކާތިބުން ލިޔުއްވިއެވެ.
+
+## އެއް ފޮތަކަށް ޖަމާކުރެއްވުން
+ޔަމާމާ ހަނގުރާމައިގައި ގިނަ ޙާފިޡުން ޝަހީދުވުމުން، ޢުމަރުގެފާނުގެ ލަފާފުޅާއެކު **އަބޫބަކުރުގެފާނު** ޒައިދުގެފާނަށް އަމުރުކުރެއްވީ ލިޔެވިފައިވާ ބައިތައް އެއް ފޮތަކަށް ޖަމާކުރެއްވުމަށެވެ.
+
+## ޢުޘްމާނީ މުޞްޙަފު
+**ޢުޘްމާނުގެފާނުގެ** ޚިލާފަތުގައި، މީލާދީން 650 ހާއިރު، ދުރު ސަރަޙައްދުތަކުގައި ކިޔެވުމުގައި ތަފާތުތަކެއް ފެންނަން ފެށުމުން، އަބޫބަކުރުގެފާނުގެ މުޞްޙަފުން ނުސްޚާތަކެއް ތައްޔާރުކުރައްވައި މުހިންމު ސިޓީތަކަށް ފޮނުއްވިއެވެ. މިއަދު ޗާޕުކުރެވޭ ކޮންމެ މުޞްޙަފެއް އެ ޢުޘްމާނީ ރަސްމާ އެއްގޮތެވެ.
+
+## މިއަދުވެސް ހިތުދަސް
+އަނގައިން އަނގައަށް އުނގަންނައިދިނުމުގެ ސިލްސިލާ ދުވަހަކުވެސް ކެނޑިފައެއް ނުވެއެވެ. މިލިއަނުން މީހުން މުޅި ޤުރުއާން ހިތުދަސްކޮށްފައިވެއެވެ.
+
+@@ quran-reading
+title_en: Reciting and understanding: tajwid and tafsir
+title_dv: ކިޔެވުމާއި ވިސްނުން: ތަޖުވީދާއި ތަފްސީރު
+ref: Quran 73:4; 38:29; Bukhari 5027
+--- en
+"The best of you are those who learn the Quran and teach it" (Bukhari 5027).
+
+## Tajwid
+Tajwid is reciting each letter correctly, from its proper point in the mouth and with its qualities. "Recite the Quran in a measured way" (73:4). Reading without errors that change the meaning is an obligation; mastering the finer rules is a communal one. The main areas a learner meets are:
+
+- the points of articulation of the letters;
+- the rules of *nun sakinah* and *tanwin*: clear, merged, changed, hidden;
+- lengthening (*madd*);
+- heavy and light letters;
+- where to stop and start.
+
+The only real way to learn is from a teacher who listens and corrects. Listening to a clear reciter, as you can in this app, trains the ear.
+
+## The readings
+The Quran is recited in ten authenticated readings (*qira'at*) that go back to the Prophet ﷺ. The Maldives, like most of the world, reads **Hafs from 'Asim**.
+
+## Tafsir
+Tafsir is explaining what the ayahs mean. The soundest method explains the Quran first by the Quran, then by the Sunnah, then by the Companions, and with knowledge of Arabic. Well-known works include those of at-Tabari, Ibn Kathir and al-Qurtubi, and the short Tafsir al-Jalalayn. A translation is itself a brief explanation, and no translation is the Quran.
+
+## Manners of reading
+Have wudu when touching the mushaf, face the qiblah if you can, begin by seeking refuge and with the Bismillah, read unhurriedly, and stop to think. A little every day is better than much now and then.
+--- dv
+"ތިޔަބައިމީހުންގެ ތެރެއިން އެންމެ ހެޔޮ މީހަކީ ޤުރުއާން އުނގެނި އުނގަންނައިދޭ މީހާއެވެ" (ބުޚާރީ 5027).
+
+## ތަޖުވީދު
+ތަޖުވީދަކީ ކޮންމެ އަކުރެއް އޭގެ މަޚްރަޖުން، އޭގެ ޞިފަތަކާއެކު ރަނގަޅަށް ކިޔުމެވެ. "ޤުރުއާން ތަރުތީލުކޮށް ކިޔަވާށެވެ!" (73:4). މާނަ ބަދަލުވާ ފަދަ ކުށްތަކުން ސަލާމަތްވެގެން ކިޔެވުމަކީ ވާޖިބެކެވެ. ދަސްކުރާ މީހާއަށް ދިމާވާ މައިގަނޑު ބައިތަކަކީ:
+
+- އަކުރުތަކުގެ މަޚްރަޖުތައް؛
+- ނޫނު ސާކިނާއާއި ތަންވީނުގެ ޙުކުމްތައް: އިޡްހާރު، އިދްޣާމު، އިޤްލާބު، އިޚްފާ؛
+- މައްދު (ދިގުކުރުން)؛
+- ތަފްޚީމާއި ތަރްޤީޤު؛
+- ވަޤްފާއި އިބްތިދާ.
+
+ދަސްކުރެވޭނެ ހަމައެކަނި ގޮތަކީ އަޑުއައްސަވައި ރަނގަޅުކޮށްދެއްވާ އުސްތާޛެއްގެ އަރިހުން ކިޔެވުމެވެ.
+
+## ޤިރާއަތްތައް
+ނަބިއްޔާ ﷺ އާ ހަމައަށް ސަނަދު ގުޅޭ ދިހަ ޤިރާއަތަކުން ޤުރުއާން ކިޔެވެއެވެ. ދުނިޔޭގެ ގިނަ ތަންތަނެކޭ އެއްފަދައިން ދިވެހިރާއްޖޭގައިވެސް ކިޔަވަނީ **ޢާޞިމްގެ އަރިހުން ޙަފްޞް** ގެ ރިވާޔަތަށެވެ.
+
+## ތަފްސީރު
+ތަފްސީރަކީ އާޔަތްތަކުގެ މާނަ ބަޔާންކުރުމެވެ. އެންމެ ރަނގަޅު މަންހަޖަކީ ޤުރުއާން ފުރަތަމަ ޤުރުއާނުން، ދެން ސުންނަތުން، ދެން ޞަޙާބީންގެ ބަސްފުޅުން ތަފްސީރުކުރުމެވެ. މަޝްހޫރު ތަފްސީރުތަކުގެ ތެރޭގައި ޠަބަރީ، އިބްނު ކަޘީރު، ޤުރްޠުބީ އަދި ޖަލާލައިން ހިމެނެއެވެ. ތަރުޖަމާއަކީ ކުރު ތަފްސީރެކެވެ. ތަރުޖަމާއަކީ ޤުރުއާނެއް ނޫނެވެ.
+
+## ކިޔެވުމުގެ އަދަބުތައް
+މުޞްޙަފުގައި އަތްލާއިރު ވުޟޫ ހުރުމާއި، ޤިބްލައަށް ކުރިމަތިލުމާއި، އަޢޫޛުއާއި ބިސްމިއިން ފެށުމާއި، މަޑުމަޑުން ކިޔަވައި ވިސްނުމެވެ. ކޮންމެ ދުވަހަކު މަދުކޮށް ކިޔެވުން، ބައެއް ފަހަރު ގިނައިން ކިޔެވުމަށްވުރެ ރަނގަޅެވެ.
+
+%% hadith-sciences | hadith | Hadith and its sciences | ޙަދީޘާއި އޭގެ ޢިލްމު | What the Sunnah is, where it is recorded and how reports are checked. | ސުންނަތަކީ ކޮބައިކަމާއި، ރެކޯޑުކުރެވިފައިވާ ފޮތްތަކާއި، ރިވާޔަތްތައް ބަލާ ގޮތް.
+
+@@ sunnah-hadith
+title_en: The Sunnah and why it is followed
+title_dv: ސުންނަތާއި އެއަށް ތަބާވާންޖެހޭ ސަބަބު
+ref: Quran 59:7; 4:80; 16:44
+--- en
+The **Sunnah** is the way of the Prophet ﷺ: what he said, what he did, and what he approved of when it was done in his presence. A **hadith** is a report that carries a piece of the Sunnah to us.
+
+## Its authority
+The Quran commands it: "Whatever the Messenger gives you, take it, and whatever he forbids you, leave it" (59:7), and "Whoever obeys the Messenger has obeyed Allah" (4:80). The Sunnah is the second source of Islam after the Quran.
+
+## What it does
+- **Explains** what the Quran states in brief. The Quran commands prayer; the Sunnah shows the times, the number of rak'ahs and the words.
+- **Specifies** general statements, such as the shares of inheritance.
+- **Adds** rulings the Quran does not mention, such as the prohibition of marrying a woman together with her aunt.
+
+Without the Sunnah no one could pray, fast or make hajj as Allah asked.
+
+## The two parts of a hadith
+Each hadith has a **chain** (*isnad*), the list of people who passed it on, and a **text** (*matn*), the words reported. Scholars examined both.
+
+## Kinds of Sunnah in practice
+Some of what the Prophet ﷺ did is obligatory to follow, some is recommended, and some was simply his personal habit as a man of his time and place. Fiqh is the discipline that tells these apart.
+--- dv
+**ސުންނަތަކީ** ނަބިއްޔާ ﷺ ގެ މަގެވެ. އެއީ އެކަލޭގެފާނުގެ ބަސްފުޅާއި، ޢަމަލުފުޅާއި، އެކަލޭގެފާނުގެ ކުރިފުޅުމަތީގައި ކުރެވުނު ކަމަކަށް ދެއްވި އިޤްރާރެވެ. **ޙަދީޘަކީ** ސުންނަތުގެ ބައެއް އަޅުގަނޑުމެންނާ ހަމައަށް ގެނެސްދޭ ރިވާޔަތެވެ.
+
+## ސުންނަތުގެ ޙުއްޖަތްތެރިކަން
+ޤުރުއާނުގައި އަމުރުކުރައްވާފައިވެއެވެ: "ރަސޫލާ ތިޔަބައިމީހުންނަށް ދެއްވި ކޮންމެ އެއްޗެއް ނަގާށެވެ! އަދި އެކަލޭގެފާނު ނަހީކުރެއްވި ކޮންމެ ކަމަކުން ދުރުވާށެވެ!" (59:7). ސުންނަތަކީ ޤުރުއާނަށްފަހު އިސްލާމްދީނުގެ ދެވަނަ މަސްދަރެވެ.
+
+## ސުންނަތުގެ ދައުރު
+- ޤުރުއާނުގައި ޖުމްލަކޮށް އައިސްފައިވާ ކަންކަން **ބަޔާންކުރުން**. ޤުރުއާނުގައި ނަމާދަށް އަމުރުކުރައްވައެވެ. ވަގުތުތަކާއި، ރަކުޢަތުގެ ޢަދަދާއި، ކިޔުންތައް ދައްކައިދެނީ ސުންނަތެވެ.
+- ޢާންމު ނައްޞުތައް **ޚާއްޞަކުރުން**.
+- ޤުރުއާނުގައި ނެތް ޙުކުމްތައް **އިތުރުކުރުން**.
+
+ސުންނަތާ ނުލައި އެއްވެސް މީހަކަށް ﷲ އަމުރުކުރެއްވި ގޮތަށް ނަމާދުކުރުމެއް، ރޯދަހިފުމެއް، ޙައްޖުކުރުމެއް ނުވާނެއެވެ.
+
+## ޙަދީޘެއްގެ ދެ ބައި
+ކޮންމެ ޙަދީޘެއްގައި **ސަނަދެއް** (ރިވާކުރެއްވި ބޭކަލުންގެ ސިލްސިލާ) އާއި **މަތުނެއް** (ރިވާކުރެވުނު ބަސް) ވެއެވެ. ޢިލްމުވެރިން މި ދެ ބައިވެސް ތަޙްޤީޤުކުރެއްވިއެވެ.
+
+@@ hadith-collections
+title_en: The major hadith collections
+title_dv: ޙަދީޘްގެ މައިގަނޑު ފޮތްތައް
+--- en
+Hadith were memorised and written from the time of the Companions, and gathered into large books in the second and third centuries after the Hijrah.
+
+## The six books
+These are the most widely used collections among Sunni Muslims:
+
+1. **Sahih al-Bukhari**, by Muhammad ibn Isma'il al-Bukhari (died 256 AH / 870 CE). He chose about 7,500 reports, with repetitions, from hundreds of thousands, under the strictest conditions.
+2. **Sahih Muslim**, by Muslim ibn al-Hajjaj (died 261 AH / 875 CE), known for its careful arrangement.
+3. **Sunan Abu Dawud** (died 275 AH), focused on hadith of law.
+4. **Jami' at-Tirmidhi** (died 279 AH), which grades each hadith and notes the views of jurists.
+5. **Sunan an-Nasa'i** (died 303 AH).
+6. **Sunan Ibn Majah** (died 273 AH).
+
+The first two contain only authentic hadith and are called **the two Sahihs**. A hadith found in both is described as "agreed upon". The four Sunan contain authentic, good and some weak reports, so each hadith in them is judged on its own.
+
+## Other important works
+- **Al-Muwatta'** of Imam Malik (died 179 AH), among the earliest.
+- **Musnad Ahmad** (died 241 AH), with around 27,000 reports arranged by Companion.
+- Later selections for general readers: an-Nawawi's **Forty Hadith** and **Riyad as-Salihin**, and Ibn Hajar's **Bulugh al-Maram**.
+
+## Reading references
+In this app a reference such as "Bukhari 6306" gives the collection and the hadith number in common numbering.
+--- dv
+ޞަޙާބީންގެ ޒަމާނުން ފެށިގެން ޙަދީޘް ހިތުދަސްކޮށް ލިޔެވުނެވެ. ހިޖުރައިގެ ދެވަނަ އަދި ތިންވަނަ ޤަރުނުގައި ބޮޑެތި ފޮތްތަކަށް ޖަމާކުރެވުނެވެ.
+
+## ހަ ފޮތް (ކުތުބުއްސިއްތާ)
+1. **ޞަޙީޙުލް ބުޚާރީ**، މުޙައްމަދު ބިން އިސްމާޢީލް އަލްބުޚާރީ (ވަފާތު 256 ހ). އެންމެ ހަރުކަށި ޝަރުޠުތަކުގެ ދަށުން، ލައްކަގަނޑު ރިވާޔަތްތަކުގެ ތެރެއިން ތަކުރާރާއެކު ގާތްގަނޑަކަށް 7,500 ޙަދީޘް ޚިޔާރުކުރެއްވިއެވެ.
+2. **ޞަޙީޙު މުސްލިމް**، މުސްލިމް ބިން އަލްޙައްޖާޖު (ވަފާތު 261 ހ).
+3. **ސުނަނު އަބީ ދާވޫދު** (ވަފާތު 275 ހ)، އަޙްކާމުގެ ޙަދީޘްތަކަށް ޚާއްޞަ.
+4. **ޖާމިޢުއްތިރްމިޛީ** (ވަފާތު 279 ހ)، ކޮންމެ ޙަދީޘެއްގެ ދަރަޖަ ބަޔާންކުރައްވާ.
+5. **ސުނަނުއްނަސާއީ** (ވަފާތު 303 ހ).
+6. **ސުނަނު އިބްނި މާޖާ** (ވަފާތު 273 ހ).
+
+ފުރަތަމަ ދެ ފޮތުގައި ހުރީ ހަމައެކަނި ޞައްޙަ ޙަދީޘެވެ. އެ ދެ ފޮތަށް **ޞަޙީޙައިން** ކިޔައެވެ. ދެ ފޮތުގައިވެސް ވާ ޙަދީޘަކަށް "މުއްތަފަޤުން ޢަލައިހި" ކިޔައެވެ. ހަތަރު ސުނަނުގައި ޞައްޙަ، ޙަސަން އަދި ބައެއް ޟަޢީފު ޙަދީޘްވެސް ހުރެއެވެ.
+
+## އެހެން މުހިންމު ފޮތްތައް
+- އިމާމު މާލިކުގެ **މުވައްޠައު** (ވަފާތު 179 ހ).
+- **މުސްނަދު އަޙްމަދު** (ވަފާތު 241 ހ).
+- ޢާންމުންނަށް: ނަވަވީގެ **އަރްބަޢީން** އާއި **ރިޔާޟުއްޞާލިޙީން**، އަދި އިބްނު ޙަޖަރުގެ **ބުލޫޣުލް މަރާމް**.
+
+## ޙަވާލާ ކިޔާނެ ގޮތް
+މި އެޕްގައި "Bukhari 6306" ފަދަ ޙަވާލާއަކުން ދައްކައިދެނީ ފޮތާއި ޙަދީޘްގެ ނަންބަރެވެ.
+
+@@ hadith-grading
+title_en: How hadith are graded, and who narrated most
+title_dv: ޙަދީޘްގެ ދަރަޖަތަކާއި އެންމެ ގިނައިން ރިވާކުރެއްވި ބޭކަލުން
+--- en
+Scholars of hadith built a careful method to separate what the Prophet ﷺ truly said from what was wrongly attributed to him.
+
+## Five conditions of an authentic hadith
+1. The chain is **connected**; each narrator heard it from the one before.
+2. Every narrator is **upright** in religion and character.
+3. Every narrator is **precise** in memory or writing.
+4. It does not **contradict** stronger reports.
+5. It has no **hidden defect**.
+
+## The grades
+- **Sahih** (authentic): meets all five. It is used as proof.
+- **Hasan** (good): the same, but a narrator's precision is slightly less. Also used as proof.
+- **Da'if** (weak): fails a condition, for example a break in the chain. It is not used to establish rulings.
+- **Mawdu'** (fabricated): a lie attributed to the Prophet ﷺ. It may not be narrated except to warn against it.
+
+By number of chains, a report is **mutawatir** when so many narrated it at every level that agreement on a lie is impossible, and **ahad** when it has fewer.
+
+## Checking the narrators
+The biographies of many thousands of narrators were recorded: teachers, students, travels, memory and honesty. This discipline is called *al-jarh wat-ta'dil*.
+
+## The Companions who narrated most
+Abu Hurayrah (over 5,000 reports), 'Abdullah ibn 'Umar, Anas ibn Malik, 'A'ishah, 'Abdullah ibn 'Abbas, Jabir ibn 'Abdullah and Abu Sa'id al-Khudri, may Allah be pleased with them.
+
+## A practical rule
+Before sharing a hadith, especially online, check its source and grade. The Prophet ﷺ said: "It is enough of a lie for a person to narrate everything he hears" (Muslim 5).
+--- dv
+ނަބިއްޔާ ﷺ ޙަޤީޤަތުގައި ޙަދީޘްކުރެއްވި ބަސްފުޅު، އެކަލޭގެފާނާ ދޮގުން ނިސްބަތްކުރެވުނު ބަސްތަކުން ވަކިކުރުމަށް ޙަދީޘްގެ ޢިލްމުވެރިން ފަރުވާތެރި މަންހަޖެއް ބިނާކުރެއްވިއެވެ.
+
+## ޞައްޙަ ޙަދީޘެއްގެ ފަސް ޝަރުޠު
+1. ސަނަދު **ގުޅިފައިވުން**.
+2. ކޮންމެ ރާވީއަކީ **ޢަދުލުވެރިއަކަށްވުން**.
+3. ކޮންމެ ރާވީއަކީ ހިތުދަސްކުރުމުގައި ނުވަތަ ލިޔުމުގައި **ޟަބްޠު ފުރިހަމަ މީހަކަށްވުން**.
+4. އެއަށްވުރެ ވަރުގަދަ ރިވާޔަތްތަކާ **ޚިލާފުނުވުން** (ޝާޛު ނުވުން).
+5. **ފޮރުވިފައިވާ ޢިއްލަތެއް** ނެތުން.
+
+## ދަރަޖަތައް
+- **ޞަޙީޙު**: ފަސް ޝަރުޠުވެސް ފުރިހަމަވާ ޙަދީޘް. ދަލީލެއްގެ ގޮތުގައި ބޭނުންކުރެވެއެވެ.
+- **ޙަސަން**: ރާވީއެއްގެ ޟަބްޠު ކުޑަކޮށް ދަށް ޙަދީޘް. މިއީވެސް ދަލީލެކެވެ.
+- **ޟަޢީފު**: ޝަރުޠެއް އުނިވާ ޙަދީޘް. އެއިން ޙުކުމްތަކެއް ސާބިތެއް ނުކުރެވޭނެއެވެ.
+- **މައުޟޫޢު**: ނަބިއްޔާ ﷺ އާ ނިސްބަތްކުރެވިފައިވާ ދޮގެއް. އެކަމުން އިންޒާރުދިނުމަށް މެނުވީ ރިވާކުރުން ހުއްދައެއް ނޫނެވެ.
+
+ސަނަދުތަކުގެ ޢަދަދުގެ ގޮތުން، ދޮގެއްގެ މައްޗަށް އެއްބަސްވުން ނުކުރެވޭނެހާ ގިނަ ބަޔަކު ރިވާކުރި ޙަދީޘަކީ **މުތަވާތިރެކެވެ**. އެއަށްވުރެ މަދު ނަމަ **އާޙާދެވެ**.
+
+## ރާވީން ތަޙްޤީޤުކުރުން
+އެތައް ހާސް ރާވީންގެ ތަރުޖަމާ ރެކޯޑުކުރެވިފައިވެއެވެ. މި ޢިލްމަށް *އަލްޖަރްޙު ވައްތަޢުދީލް* ކިޔައެވެ.
+
+## އެންމެ ގިނައިން ރިވާކުރެއްވި ޞަޙާބީން
+އަބޫ ހުރައިރާ (5,000 އަށްވުރެ ގިނަ ޙަދީޘް)، ޢަބްދުﷲ ބިން ޢުމަރު، އަނަސް ބިން މާލިކު، ޢާއިޝާ، ޢަބްދުﷲ ބިން ޢައްބާސް، ޖާބިރު ބިން ޢަބްދުﷲ އަދި އަބޫ ސަޢީދުލް ޚުދްރީ (ރަޟިޔަﷲު ޢަންހުމް).
+
+## ޢަމަލީ ޤަވާޢިދެއް
+ޙަދީޘެއް ޝެއަރކުރުމުގެ ކުރިން، ޚާއްޞަކޮށް އިންޓަނެޓުގައި، އޭގެ މަސްދަރާއި ދަރަޖަ ބަލާށެވެ. "އަޑުއަހާ ކޮންމެ އެއްޗެއް ކިޔައިދިނުމަކީ މީހަކު ދޮގުވެރިއަކަށް ވުމަށް ފުދޭ ކަމެކެވެ" (މުސްލިމް 5).
+
+%% fiqh-schools | fiqh | Fiqh and the schools of law | ފިޤްހާއި މަޛްހަބުތައް | How rulings are derived, the four Sunni schools, the Ja'fari school and the Shafi'i tradition of the Maldives. | ޙުކުމްތައް ނެރޭ ގޮތާއި، ހަތަރު މަޛްހަބާއި، ޖަޢުފަރީ މަޛްހަބާއި، ދިވެހިރާއްޖޭގެ ޝާފިޢީ މަޛްހަބު.
+
+@@ fiqh-sources
+title_en: What fiqh is and where rulings come from
+title_dv: ފިޤްހަކީ ކޮބައިކަމާއި ޙުކުމްތައް ނެރޭ މަސްދަރުތައް
+--- en
+**Shari'ah** is the way Allah revealed. **Fiqh**, literally "understanding", is the human effort to work out its practical rulings from the detailed evidence. The Shari'ah is perfect; fiqh is the work of scholars, who can differ.
+
+## The four agreed sources
+1. **The Quran.**
+2. **The Sunnah.**
+3. **Consensus** (*ijma'*): the agreement of the qualified scholars of a generation on a ruling.
+4. **Analogy** (*qiyas*): extending a ruling to a new case that shares its cause. Wine is forbidden because it intoxicates, so other intoxicants are forbidden too.
+
+Scholars also use supporting tools such as public interest, custom, blocking the means to harm, and the presumption that things stay as they were.
+
+## The five rulings
+Every act falls into one of five categories:
+
+- **Obligatory** (*fard* or *wajib*): rewarded if done, sinful if left.
+- **Recommended** (*sunnah*, *mustahabb*): rewarded if done, no sin if left.
+- **Permitted** (*mubah*): neither.
+- **Disliked** (*makruh*): rewarded if avoided, no sin if done.
+- **Forbidden** (*haram*): sinful if done, rewarded if avoided for Allah's sake.
+
+## The aims of the law
+Scholars observed that the rulings protect five essentials: religion, life, intellect, family and property.
+
+## Ijtihad and following
+*Ijtihad* is a qualified scholar's effort to derive a ruling. It needs deep knowledge of the Quran, hadith, Arabic and legal method. A person without that training follows a trustworthy scholar or school, as Allah says: "Ask the people of knowledge if you do not know" (16:43).
+--- dv
+**ޝަރީޢަތަކީ** ﷲ ބާވައިލެއްވި މަގެވެ. **ފިޤްހުގެ** ލަފްޒީ މާނައަކީ "ފަހުމްވުމެވެ". އެއީ ތަފްޞީލީ ދަލީލުތަކުން ޝަރީޢަތުގެ ޢަމަލީ ޙުކުމްތައް ނެރުމަށް އިންސާނާ ކުރާ މަސައްކަތެވެ. ޝަރީޢަތަކީ ފުރިހަމަ އެއްޗެކެވެ. ފިޤްހަކީ ޢިލްމުވެރިންގެ މަސައްކަތެވެ. އެބޭކަލުންގެ ދެމެދުގައި ޚިލާފު އުފެދިދާނެއެވެ.
+
+## އިއްތިފާޤުވެވިފައިވާ ހަތަރު މަސްދަރު
+1. **ޤުރުއާން.**
+2. **ސުންނަތް.**
+3. **އިޖްމާޢު**: ޒަމާނެއްގެ މުޖުތަހިދުން ޙުކުމެއްގެ މައްޗަށް އެއްބަސްވުން.
+4. **ޤިޔާސް**: ޢިއްލަތުގައި ބައިވެރިވާ އައު މައްސަލައަކަށް ޙުކުމެއް ފުޅާކުރުން. ރާ ޙަރާމްވަނީ މަސްތުކުރުވާތީއެވެ. ވީމާ މަސްތުކުރުވާ އެހެން ތަކެތިވެސް ޙަރާމެވެ.
+
+## ފަސް ޙުކުމް
+- **ފަރުޟު / ވާޖިބު**: ކުރުމުން ސަވާބު ލިބޭ، ދޫކުރުމުން ފާފަވާ.
+- **ސުންނަތް / މުސްތަޙައްބު**: ކުރުމުން ސަވާބު ލިބޭ، ދޫކުރުމުން ފާފަނުވާ.
+- **މުބާޙު**: ހުއްދަ ކަންތައް.
+- **މަކްރޫހަ**: ދޫކުރުމުން ސަވާބު ލިބޭ، ކުރުމުން ފާފަނުވާ.
+- **ޙަރާމް**: ކުރުމުން ފާފަވާ، ﷲ އަށްޓަކައި ދޫކުރުމުން ސަވާބު ލިބޭ.
+
+## ޝަރީޢަތުގެ މަޤްޞަދުތައް
+ޙުކުމްތަކުން ފަސް ޟަރޫރީ ކަމެއް ރައްކާތެރިކުރެއެވެ: ދީން، ފުރާނަ، ބުއްދި، ނަސްލު، އަދި މުދާ.
+
+## އިޖްތިހާދާއި ތަޤްލީދު
+*އިޖްތިހާދަކީ* ޝަރުޠު ފުރިހަމަވާ ޢިލްމުވެރިއަކު ޙުކުމެއް ނެރުމަށް ކުރާ މަސައްކަތެވެ. އެ ޢިލްމު ނެތް މީހާ އިތުބާރު ހުރި ޢިލްމުވެރިއަކަށް ނުވަތަ މަޛްހަބަކަށް ތަބާވާނީއެވެ. "ތިޔަބައިމީހުންނަށް ނޭނގޭނަމަ ޢިލްމުވެރިންނާ ސުވާލުކުރާށެވެ!" (16:43).
+
+@@ four-madhhabs
+title_en: The four Sunni schools
+title_dv: އަހުލުއްސުންނާގެ ހަތަރު މަޛްހަބު
+--- en
+A **madhhab** is a school of legal method named after its founding imam. The four below are followed by nearly all Sunni Muslims. They agree on the foundations of the religion and on most rulings, and differ on details where the evidence allows more than one reading.
+
+## Hanafi
+Founded on the teaching of **Abu Hanifah** (80-150 AH / 699-767 CE) of Kufa, with his students Abu Yusuf and Muhammad ash-Shaybani. Known for developed use of analogy and juristic preference. Followed in Turkey, Central Asia, the Indian subcontinent and parts of the Arab world.
+
+## Maliki
+From **Malik ibn Anas** (93-179 AH / 711-795 CE) of Madinah, author of *al-Muwatta'*. It gives weight to the practice of the people of Madinah. Followed in North and West Africa.
+
+## Shafi'i
+From **Muhammad ibn Idris ash-Shafi'i** (150-204 AH / 767-820 CE), who studied under Malik and with the students of Abu Hanifah, and wrote *ar-Risalah*, the first book of legal theory. Followed in the Maldives, Southeast Asia, East Africa, Yemen and parts of Egypt and the Levant.
+
+## Hanbali
+From **Ahmad ibn Hanbal** (164-241 AH / 780-855 CE) of Baghdad, a great hadith scholar and compiler of the *Musnad*. It keeps closely to transmitted texts. Followed in the Arabian Peninsula.
+
+## Why they differ
+- A hadith reached one imam and not another, or they graded it differently.
+- A word in the text can carry more than one meaning.
+- They weighed apparently conflicting evidence differently.
+
+## The right attitude
+The imams respected one another. Ash-Shafi'i said, "If the hadith is authentic, that is my school." Differences in detail are not a reason for division, and a layperson follows the scholars of their land.
+--- dv
+**މަޛްހަބަކީ** އޭގެ އިމާމުގެ ނަމުން ނަންދެވިފައިވާ، ފިޤްހުގެ މަންހަޖެކެވެ. މި ހަތަރު މަޛްހަބަށް އަހުލުއްސުންނާގެ ގާތްގަނޑަކަށް ހުރިހާ މުސްލިމުން ތަބާވެއެވެ. ދީނުގެ އަސާސްތަކާއި ގިނަ ޙުކުމްތަކުގައި އެ މަޛްހަބުތައް އެއްގޮތެވެ. ޚިލާފުވަނީ ދަލީލުން އެއް މާނައަށްވުރެ ގިނަ މާނަ ނެގޭ ތަފްޞީލުތަކުގައެވެ.
+
+## ޙަނަފީ މަޛްހަބު
+ކޫފާގެ **އަބޫ ޙަނީފާ** (80-150 ހ / 699-767 މ) ގެ ޢިލްމުގެ މައްޗަށް ބިނާވެފައިވާ މަޛްހަބެވެ. ތުރުކީ، މެދު އޭޝިޔާ، އަދި ހިންދުކަރައިގައި ތަބާވެއެވެ.
+
+## މާލިކީ މަޛްހަބު
+މަދީނާގެ **މާލިކު ބިން އަނަސް** (93-179 ހ / 711-795 މ) ގެ މަޛްހަބެވެ. *މުވައްޠައުގެ* މުއައްލިފެވެ. މަދީނާގެ އަހުލުވެރިންގެ ޢަމަލަށް ބުރަދަން ދެއްވައެވެ. އުތުރު އަދި ހުޅަނގު އެފްރިކާގައި ތަބާވެއެވެ.
+
+## ޝާފިޢީ މަޛްހަބު
+**މުޙައްމަދު ބިން އިދްރީސް އައްޝާފިޢީ** (150-204 ހ / 767-820 މ) ގެ މަޛްހަބެވެ. އިމާމު މާލިކުގެ އަރިހުންނާއި އަބޫ ޙަނީފާގެ ދަރިވަރުންގެ އަރިހުން ކިޔަވައިވިދާޅުވިއެވެ. އުޞޫލުލް ފިޤްހުގެ ފުރަތަމަ ފޮތް *އައްރިސާލާ* ލިޔުއްވިއެވެ. ދިވެހިރާއްޖެ، ދެކުނު އިރުމަތީ އޭޝިޔާ، އިރުމަތީ އެފްރިކާ އަދި ޔަމަނުގައި ތަބާވެއެވެ.
+
+## ޙަންބަލީ މަޛްހަބު
+ބަޣްދާދުގެ **އަޙްމަދު ބިން ޙަންބަލް** (164-241 ހ / 780-855 މ) ގެ މަޛްހަބެވެ. ޙަދީޘްގެ ބޮޑު ޢިލްމުވެރިއެކެވެ. *މުސްނަދުގެ* މުއައްލިފެވެ. ޢަރަބި ޖަޒީރާގައި ތަބާވެއެވެ.
+
+## ޚިލާފުވާ ސަބަބުތައް
+- ޙަދީޘެއް އެއް އިމާމަކަށް ލިބި އަނެއް އިމާމަކަށް ނުލިބުން، ނުވަތަ އޭގެ ދަރަޖައާމެދު ޚިލާފުވުން.
+- ނައްޞުގައިވާ ލަފްޒަކުން އެއް މާނައަށްވުރެ ގިނަ މާނަ ނެގުން.
+- ތަޢާރުޟުވާ ކަމަށް ފެންނަ ދަލީލުތައް ވަޒަންކުރުމުގައި ތަފާތުވުން.
+
+## ރަނގަޅު ނަޒަރު
+އިމާމުން އެކަކު އަނެކަކަށް އިޙްތިރާމުކުރެއްވިއެވެ. އިމާމު ޝާފިޢީ ވިދާޅުވިއެވެ: "ޙަދީޘް ޞައްޙަނަމަ އެއީ އަހުރެންގެ މަޛްހަބެވެ." ތަފްޞީލުތަކުގައިވާ ޚިލާފަކީ ބައިބައިވުމުގެ ސަބަބެއް ނޫނެވެ.
+
+@@ shafii-maldives
+title_en: The Shafi'i school and the Maldives
+title_dv: ޝާފިޢީ މަޛްހަބާއި ދިވެހިރާއްޖެ
+--- en
+The Maldives follows the Shafi'i school in worship and in much of its family law, as do its Indian Ocean neighbours along the old sea routes from Yemen and the Swahili coast to Malaysia and Indonesia.
+
+## Imam ash-Shafi'i
+Born in Gaza in 150 AH and raised in Makkah, he memorised the Quran as a child and the *Muwatta'* soon after. He studied under Malik in Madinah, debated the Hanafi scholars in Iraq, and settled in Egypt, where he revised his views into what is called his "new school". He died there in 204 AH.
+
+## Marks of the school in daily worship
+- The Bismillah is recited aloud as part of Al-Fatihah.
+- The follower recites Al-Fatihah behind the imam.
+- The hands are raised at the opening takbir, before and after bowing, and on rising from the first tashahhud.
+- The qunut is recited in Fajr.
+- Wiping part of the head is enough in wudu, and the order of washing is obligatory.
+- Touching the skin of a marriageable person of the other sex breaks wudu.
+- All creatures that live only in the sea are lawful to eat.
+
+## Its great books
+After the imam's own *al-Umm*, the school was refined by scholars such as al-Muzani, al-Ghazali, ar-Rafi'i and an-Nawawi. An-Nawawi's *Minhaj at-Talibin* and its commentaries by Ibn Hajar al-Haytami and ar-Ramli became the standard references. Short primers such as *Safinat an-Najah* and *Matn Abi Shuja'* have been taught to beginners across the Indian Ocean for centuries.
+
+## In the Maldives
+The fourteenth-century traveller Ibn Battutah, who served as a judge in Male', was himself a Maliki. Maldivian tradition holds that the Shafi'i school became established in later centuries through scholars who studied abroad, especially in Hadramawt in Yemen. Today questions of religion are referred to the Ministry of Islamic Affairs and its fatwa council.
+--- dv
+ޔަމަނާއި އިރުމަތީ އެފްރިކާއިން ފެށިގެން މެލޭޝިޔާއާއި އިންޑޮނީޝިޔާއާ ހަމައަށް، ހިންދު ކަނޑުގެ ކުރީގެ ދަތުރު މަގުތަކުގައިވާ އަވަށްޓެރި ޤައުމުތަކެކޭ އެއްފަދައިން، ދިވެހިރާއްޖޭގައިވެސް އަޅުކަމުގައާއި ޢާއިލީ ޙުކުމްތަކުގެ ގިނަ ބައެއްގައި ތަބާވަނީ ޝާފިޢީ މަޛްހަބަށެވެ.
+
+## އިމާމު ޝާފިޢީ
+ހިޖުރައިން 150 ގައި ޣައްޒާގައި އުފަންވެ، މައްކާގައި ބޮޑުވިއެވެ. ކުޑައިރު ޤުރުއާން ހިތުދަސްކުރެއްވިއެވެ. މަދީނާގައި އިމާމު މާލިކުގެ އަރިހުން ކިޔަވައި، ޢިރާޤުގައި ޙަނަފީ ޢިލްމުވެރިންނާ ބަހުސްކުރައްވައި، ފަހުން މިޞްރުގައި ވަޒަންވެރިވިއެވެ. ހިޖުރައިން 204 ގައި އެތަނުގައި އަވަހާރަވިއެވެ.
+
+## ދުވަހުގެ އަޅުކަމުގައި މަޛްހަބުގެ ނިޝާންތައް
+- ފާތިޙާގެ ބައެއްގެ ގޮތުގައި ބިސްމި އަޑުހަރުކޮށް ކިޔުން.
+- މައުމޫމު އިމާމުގެ ފަހަތުގައި ފާތިޙާ ކިޔެވުން.
+- ތަކްބީރަތުލް އިޙްރާމާއި، ރުކޫޢުގެ ކުރިންނާއި ފަހުން، އަދި ފުރަތަމަ އައްތަޙިއްޔާތުން ތެދުވާއިރު ދެއަތް އުފުލުން.
+- ފަތިސް ނަމާދުގައި ޤުނޫތު ކިޔުން.
+- ވުޟޫގައި ބޮލުގެ ބައެއްގައި ފެންފޮހުން ފުދުމާއި، ތަރުތީބު ވާޖިބުވުން.
+- ކައިވެނި ޙަލާލު އަނެއް ޖިންސުގެ މީހެއްގެ ހަންގަނޑުގައި ޖެހުމުން ވުޟޫ ގެއްލުން.
+- ހަމައެކަނި ކަނޑުގައި ދިރިއުޅޭ ހުރިހާ ދިރުމެއް ކެއުން ޙަލާލުވުން.
+
+## މަޛްހަބުގެ މުހިންމު ފޮތްތައް
+އިމާމުގެ *އަލްއުންމު* އަށްފަހު، މުޒަނީ، ޣަޒާލީ، ރާފިޢީ އަދި ނަވަވީ ފަދަ ޢިލްމުވެރިން މަޛްހަބު ތަރައްޤީކުރެއްވިއެވެ. ނަވަވީގެ *މިންހާޖުއްޠާލިބީން* އާއި އޭގެ ޝަރަޙަތައް މައިގަނޑު މަރުޖިޢަށް ވިއެވެ. *ސަފީނަތުއްނަޖާ* ފަދަ ކުރު މަތުނުތައް ޤަރުނުތަކެއް ވަންދެން ފެށުމުގެ ދަރިވަރުންނަށް ކިޔަވައިދެވިފައިވެއެވެ.
+
+## ދިވެހިރާއްޖޭގައި
+ސާދަވަނަ ޤަރުނުގައި މާލޭގައި ޤާޟީކަން ކުރެއްވި ދަތުރުވެރިޔާ އިބްނު ބަޠޫޠާއަކީ މާލިކީ މަޛްހަބުގެ ބޭފުޅެކެވެ. ދިވެހި ތާރީޚުގައި ވާގޮތުން، ޝާފިޢީ މަޛްހަބު ރާއްޖޭގައި ހަރުލީ ފަހުގެ ޤަރުނުތަކުގައި، ޚާއްޞަކޮށް ޔަމަނުގެ ޙަޟްރަމައުތުގައި ކިޔަވައިވިދާޅުވި ޢިލްމުވެރިންގެ މަސައްކަތުންނެވެ. މިއަދު ދީނީ ސުވާލުތައް ހުށަހެޅެނީ އިސްލާމީ ކަންތައްތަކާ ބެހޭ ވުޒާރާއާއި އެ ވުޒާރާގެ ފަތުވާ މަޖިލީހަށެވެ.
+
+@@ jafari-school
+title_en: The Ja'fari school
+title_dv: ޖަޢުފަރީ މަޛްހަބު
+--- en
+The Ja'fari school is the legal school of Twelver Shi'ah Muslims, the majority in Iran, Iraq and Bahrain, with large communities in Lebanon, Azerbaijan and elsewhere. This article describes it so that readers know what it is; the Maldives follows the Sunni Shafi'i school.
+
+## Its name
+It is named after **Ja'far as-Sadiq** (died 148 AH / 765 CE) of Madinah, a descendant of the Prophet ﷺ through al-Husayn. He was a respected scholar in his own time. Abu Hanifah and Malik are both reported to have studied with him, and Sunni scholars honour him as an imam of knowledge.
+
+## Sources of law
+The Ja'fari school takes its law from the Quran, the Sunnah, consensus and reason (*'aql*). It differs from the Sunni schools mainly in two ways:
+
+- It accepts hadith transmitted through the Prophet's family and the twelve imams it regards as divinely appointed, collected in works such as *al-Kafi*. Sunni scholars rely on the collections described in the Hadith section.
+- It does not use analogy in the way the Sunni schools do.
+
+## Some differences a traveller may notice
+- The three daily prayer times: Dhuhr with Asr, and Maghrib with Isha, are regularly combined.
+- Prostration is made on earth or a natural material, often a small clay tablet.
+- The hands are left at the sides in prayer.
+- The adhan has added phrases.
+- A share of income called *khums* is paid in addition to zakat.
+
+## The root of the difference
+The deeper disagreement between Sunni and Shi'ah Muslims is about leadership after the Prophet ﷺ and the status of the Companions, which is a matter of creed and history more than of law. Both pray towards the same qiblah, read the same Quran and make the same hajj.
+--- dv
+ޖަޢުފަރީ މަޛްހަބަކީ އިޘްނާޢަޝަރީ ޝީޢީންގެ ފިޤްހީ މަޛްހަބެވެ. އީރާން، ޢިރާޤު އަދި ބަޙްރައިނުގެ އަޣްލަބިއްޔަތާއި، ލުބްނާން ފަދަ ޤައުމުތަކުގެ ބޮޑެތި ޖަމާޢަތްތައް މިއަށް ތަބާވެއެވެ. މި ލިޔުމުގެ ބޭނުމަކީ މި މަޛްހަބަކީ ކޮބައިކަން ކިޔުންތެރިންނަށް އެނގުމެވެ. ދިވެހިރާއްޖޭގައި ތަބާވަނީ އަހުލުއްސުންނާގެ ޝާފިޢީ މަޛްހަބަށެވެ.
+
+## ނަން
+ނިސްބަތްކުރެވެނީ މަދީނާގެ **ޖަޢުފަރުއްޞާދިޤު** (ވަފާތު 148 ހ / 765 މ) އަށެވެ. އެކަލޭގެފާނަކީ ޙުސައިންގެފާނުގެ ދަރިކޮޅުން، ނަބިއްޔާ ﷺ ގެ ދަރިކޮޅުގެ ބޭކަލެކެވެ. އެ ޒަމާނުގެ އިޙްތިރާމު ލިބިވަޑައިގެންނެވި ޢިލްމުވެރިއެކެވެ. އަހުލުއްސުންނާގެ ޢިލްމުވެރިންވެސް އެކަލޭގެފާނަށް އިޙްތިރާމުކުރައްވައެވެ.
+
+## ޙުކުމްތަކުގެ މަސްދަރުތައް
+ޤުރުއާން، ސުންނަތް، އިޖްމާޢު އަދި ޢަޤުލެވެ. ސުންނީ މަޛްހަބުތަކާ މައިގަނޑު ދެ ގޮތަކުން ތަފާތުވެއެވެ:
+
+- ނަބިއްޔާގެ އަހުލުބައިތުންނާއި، އެމީހުން މަޢުޞޫމުކަމަށް ޤަބޫލުކުރާ ބާރަ އިމާމުން މެދުވެރިކޮށް ރިވާވެފައިވާ ޙަދީޘް ޤަބޫލުކުރުން.
+- ސުންނީ މަޛްހަބުތަކުގައި ބޭނުންކުރާ ގޮތަށް ޤިޔާސް ބޭނުންނުކުރުން.
+
+## ފާހަގަކުރެވޭ ބައެއް ތަފާތުތައް
+- މެންދުރާއި ޢަޞްރު، އަދި މަޣްރިބާއި ޢިޝާ ޢާންމުކޮށް ޖަމްޢުކުރުން.
+- ބިމުގައި ނުވަތަ ޠަބީޢީ އެއްޗެއްގައި ސަޖިދަކުރުން.
+- ނަމާދުގައި ދެއަތް ދޫކޮށްލައިގެން ހުރުން.
+- ބަންގީގައި އިތުރު ޖުމްލަތަކެއް ކިޔުން.
+- ޒަކާތުގެ އިތުރުން *ޚުމުސް* ދެއްކުން.
+
+## ޚިލާފުގެ އަޞްލު
+ސުންނީންނާއި ޝީޢީންގެ ދެމެދުގައިވާ ފުން ޚިލާފަކީ ނަބިއްޔާ ﷺ އަށްފަހު ވެރިކަމާއި ޞަޙާބީންގެ މަޤާމާ ބެހޭ ޚިލާފެކެވެ. އެއީ ފިޤްހަށްވުރެ ބޮޑަށް ޢަޤީދާއާއި ތާރީޚުގެ މައްސަލައެކެވެ.

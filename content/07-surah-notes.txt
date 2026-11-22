@@ -1,0 +1,161 @@
+%% surah-notes | quran | Notes on every surah | ސޫރަތްތަކާ ބެހޭ ނޯޓު | A short introduction to each of the 114 surahs. Each also appears at the top of that surah in the reader. | 114 ސޫރަތުގެ ކުރު ތަޢާރަފެއް.
+
+@@ surah-1
+title_en: Al-Fatihah, the Opening
+title_dv: ފާތިޙާ ސޫރަތް
+--- en
+Seven ayahs recited in every rak'ah of every prayer; there is no prayer without it. The first half praises Allah, the middle ayah is a pledge ("You alone we worship, You alone we ask for help"), and the rest is a request for guidance. The Prophet ﷺ called it the greatest surah in the Quran (Bukhari 4474). It is also called *Umm al-Kitab*, the Mother of the Book.
+--- dv
+ކޮންމެ ނަމާދެއްގެ ކޮންމެ ރަކުޢަތެއްގައި ކިޔަވާ ހަތް އާޔަތެވެ. ފާތިޙާ ނުކިޔަވައި ނަމާދެއް ނުވެއެވެ. ފުރަތަމަ ބައިގައި ﷲ އަށް ޙަމްދުކުރުމާއި، މެދު އާޔަތުގައި ޢަހުދަކާއި، ބާކީ ބައިގައި ތެދުމަގަށް އެދި ކުރާ ދުޢާއެއް ވެއެވެ. ނަބިއްޔާ ﷺ އެއަށް ޤުރުއާނުގެ އެންމެ މާތް ސޫރަތް ކަމަށް ވިދާޅުވިއެވެ (ބުޚާރީ 4474). *އުންމުލް ކިތާބު* ގެ ނަމުންވެސް މަޝްހޫރެވެ.
+
+@@ surah-2
+title_en: Al-Baqarah, the Cow
+title_dv: ބަޤަރާ ސޫރަތް
+--- en
+The longest surah, revealed in Madinah over several years. It opens by describing believers, deniers and hypocrites, tells the story of Adam and of the Children of Israel, then lays down law for the new community: the qiblah, fasting, hajj, spending, marriage and divorce, and the prohibition of riba. It contains **Ayat al-Kursi** (255), the greatest ayah, and the longest ayah, on recording debts (282). Satan flees a house in which it is recited (Muslim 780), and its last two ayahs suffice the one who reads them at night (Bukhari 5009).
+--- dv
+ޤުރުއާނުގެ އެންމެ ދިގު ސޫރަތެވެ. މަދީނާގައި ބާވައިލެއްވުނެވެ. ފެށެނީ މުއުމިނުންނާއި، ކާފިރުންނާއި، މުނާފިޤުންގެ ސިފަތަކުންނެވެ. އާދަމްގެފާނާއި ބަނީ އިސްރާއީލުންގެ ވާހަކައަށްފަހު، ޤިބްލައާއި، ރޯދައާއި، ޙައްޖާއި، ޞަދަޤާތާއި، ކައިވެންޏާއި ވަރީގެ ޙުކުމްތަކާއި، ރިބާ ޙަރާމްކުރެއްވުން ބަޔާންވެފައިވެއެވެ. އެންމެ މާތް އާޔަތް **އާޔަތުލް ކުރްސީ** (255) ވަނީ މި ސޫރަތުގައެވެ. މި ސޫރަތް ކިޔެވޭ ގެއަކުން ޝައިޠާނާ ފިލައެވެ (މުސްލިމް 780). ފަހު ދެ އާޔަތް ރޭގަނޑު ކިޔަވާ މީހާއަށް އެ ފުދެއެވެ (ބުޚާރީ 5009).
+
+@@ surah-3
+title_en: Al 'Imran, the Family of 'Imran
+title_dv: އާލު ޢިމްރާން ސޫރަތް
+--- en
+A Madinan surah paired with Al-Baqarah; the Prophet ﷺ called them "the two bright ones" that will plead for their reciter (Muslim 804). It tells of the family of 'Imran: Maryam's birth, Zakariyya, and 'Isa, and invites the People of the Book to a common word. Its second half reflects on the battle of Uhud and how believers should respond to setback. Its closing ayahs (190-200) are the dua of those who reflect on creation.
+--- dv
+ބަޤަރާ ސޫރަތާ ޖޯޑުވެފައިވާ މަދަނީ ސޫރަތެކެވެ. ނަބިއްޔާ ﷺ މި ދެ ސޫރަތަށް "ޒަހްރާވައިން" ކަމަށް ވިދާޅުވިއެވެ (މުސްލިމް 804). ޢިމްރާނުގެ އާލުންގެ ވާހަކަ، އެއީ މަރްޔަމްގެފާނާއި، ޒަކަރިއްޔާގެފާނާއި، ޢީސާގެފާނުގެ ވާހަކަ ކިޔައިދެއެވެ. ދެވަނަ ބައިގައި އުޙުދު ހަނގުރާމައިގެ ޢިބްރަތްތައް ވެއެވެ. ފަހު އާޔަތްތަކަކީ (190-200) ވިސްނާ ފިކުރުކުރާ މީހުންގެ ދުޢާއެވެ.
+
+@@ surah-4
+title_en: An-Nisa', Women
+title_dv: ނިސާ ސޫރަތް
+--- en
+A Madinan surah about justice within the family and society. It protects the property of orphans, sets the shares of inheritance (11-12, 176), lists whom one may not marry, and gives the steps for resolving marital conflict. It commands returning trusts and judging with justice (58), obedience to Allah and His Messenger (59), and standing for justice even against oneself (135). It also contains the rulings on shortening the prayer when travelling.
+--- dv
+ޢާއިލާއާއި މުޖުތަމަޢުގައި ޢަދުލުއިންޞާފު ޤާއިމުކުރުމާ ބެހޭ މަދަނީ ސޫރަތެކެވެ. ޔަތީމުންގެ މުދާ ރައްކާތެރިކުރުމާއި، ވާރުތައިގެ ބައިތަކާއި (11-12، 176)، ކައިވެނި ޙަރާމް މީހުންނާއި، އަނބިފިރިންގެ މައްސަލަ ޙައްލުކުރާނެ ގޮތް ބަޔާންވެފައިވެއެވެ. އަމާނާތްތައް އަދާކުރުމަށާއި ޢަދުލުވެރިކަމާއެކު ޙުކުމްކުރުމަށް (58)، އަދި އަމިއްލަ ނަފްސާ ދެކޮޅަށްވެސް ޢަދުލުގެ މަތީގައި ހުރުމަށް (135) އަމުރުކުރައްވައެވެ.
+
+@@ surah-12
+title_en: Yusuf
+title_dv: ޔޫސުފު ސޫރަތް
+--- en
+A Makkan surah revealed in the Year of Sorrow, when the Prophet ﷺ had lost his wife and uncle. It tells one continuous story, from Yusuf's childhood dream to its fulfilment decades later, through betrayal, slavery, temptation and prison. Its message to the Prophet ﷺ and to every believer in difficulty: Allah's plan is at work even when it cannot be seen. See "Yusuf, from the well to the treasury" in the Library.
+--- dv
+ނަބިއްޔާ ﷺ ގެ އަނބިކަނބަލުންނާއި ބޮޑުބޭބޭފުޅު އަވަހާރަވި، ހިތާމައިގެ އަހަރު ބާވައިލެއްވުނު މައްކީ ސޫރަތެކެވެ. ޔޫސުފުގެފާނުގެ ކުޑައިރުގެ ހުވަފެނުން ފެށިގެން، އެތައް އަހަރެއްފަހުން އެ ހުވަފެން ތެދުވުމާ ހަމައަށް، އެއް ވާހަކައެއް ކިޔައިދެއެވެ. ދަތިކަމެއްގައިވާ ކޮންމެ މުއުމިނަކަށް މީގެ މެސެޖަކީ: ނުފެންނަ ނަމަވެސް ﷲ ގެ ރޭވުން ހިނގަމުންދާކަމެވެ.
+
+@@ surah-18
+title_en: Al-Kahf, the Cave
+title_dv: ކަހްފު ސޫރަތް
+--- en
+A Makkan surah, sunnah to recite every Friday; whoever does so is given light between the two Fridays. It tells four stories, each about a trial: the youths of the cave (faith), the owner of two gardens (wealth), Musa and al-Khidr (knowledge), and Dhul-Qarnayn (power). Memorising its first ten ayahs protects from the Dajjal (Muslim 809). In the middle stands the reminder to say "if Allah wills" about tomorrow (23-24).
+--- dv
+ކޮންމެ ހުކުރު ދުވަހަކު ކިޔެވުން ސުންނަތްވެގެންވާ މައްކީ ސޫރަތެކެވެ. އެގޮތަށް ކިޔަވާ މީހާއަށް ދެ ހުކުރުގެ ދެމެދު ނޫރެއް ދެއްވޭނެއެވެ. ހަތަރު ވާހަކައެއް، ކޮންމެ ވާހަކައަކީ އިމްތިޙާނަކާ ބެހޭ ވާހަކައެއް ކިޔައިދެއެވެ: ހޮހަޅައިގެ ޒުވާނުން (އީމާންކަން)، ދެ ބަގީޗާގެ ވެރިޔާ (މުދާ)، މޫސާގެފާނާއި ޚަޟިރު (ޢިލްމު)، އަދި ޛުލްޤަރްނައިން (ބާރު). ފުރަތަމަ ދިހަ އާޔަތް ހިތުދަސްކުރާ މީހާ ދައްޖާލުގެ ކިބައިން ރައްކާތެރިވާނެއެވެ (މުސްލިމް 809).
+
+@@ surah-19
+title_en: Maryam
+title_dv: މަރްޔަމް ސޫރަތް
+--- en
+A Makkan surah whose gentle rhythm carries a theme of mercy; the name *ar-Rahman* recurs through it. It tells of Zakariyya's prayer for a child in old age, Maryam and the birth of 'Isa, Ibrahim's patient words to his father, and brief mentions of Musa, Isma'il and Idris. The Companions recited its opening to the Christian king of Abyssinia, who wept and gave them protection.
+--- dv
+ރަޙްމަތުގެ މައުޟޫޢެއް ގެންގުޅޭ މައްކީ ސޫރަތެކެވެ. *އައްރަޙްމާން* ގެ އިސްމުފުޅު ތަކުރާރުކޮށް އައިސްފައިވެއެވެ. މުސްކުޅި ޢުމުރުގައި ދަރިއަކަށް އެދި ޒަކަރިއްޔާގެފާނު ކުރެއްވި ދުޢާއާއި، މަރްޔަމްގެފާނާއި ޢީސާގެފާނުގެ އުފަންވެވަޑައިގަތުމާއި، ބައްޕާފުޅާ ދިމާއަށް އިބްރާހީމްގެފާނު ދެއްކެވި މަޑުމައިތިރި ވާހަކަފުޅު ކިޔައިދެއެވެ. ޙަބުޝްކަރައިގެ ނަޞާރާ ރަސްގެފާނަށް ޞަޙާބީން މި ސޫރަތުގެ ފެށުން ކިޔައިދެއްވިއެވެ.
+
+@@ surah-36
+title_en: Ya-Sin
+title_dv: ޔާސީން ސޫރަތް
+--- en
+A Makkan surah on the three foundations of the message: the truth of the Messenger, the oneness of Allah and the resurrection. It tells of a town that rejected its messengers and the one man who ran to support them, points to signs in the dead earth revived, the night and day, and the ships at sea, and ends with the command "Be, and it is". It is widely loved and recited; the popular reports about its special virtues are mostly weak, and its value is in its message.
+--- dv
+ރިސާލަތުގެ ތިން އަސާސް، އެއީ ރަސޫލާގެ ތެދުވެރިކަމާއި، ﷲ ގެ އެއްކައުވަންތަކަމާއި، އަލުން ދިރުއްވުމާ ބެހޭ މައްކީ ސޫރަތެކެވެ. ރަސޫލުންނަށް ދެކޮޅުހެދި ރަށެއްގެ ވާހަކައާއި، މަރުވެފައިވާ ބިން ދިރުއްވުމާއި، ރެއާއި ދުވާލާއި، ކަނޑުގައި ދުއްވާ ނައުތަކުގައިވާ ދަލީލުތައް ބަޔާންކުރެއެވެ. މި ސޫރަތުގެ ޚާއްޞަ ފަޟީލަތްތަކާ ބެހޭ މަޝްހޫރު ރިވާޔަތްތަކުގެ ގިނަ ރިވާޔަތަކީ ޟަޢީފު ރިވާޔަތްތަކެވެ.
+
+@@ surah-55
+title_en: Ar-Rahman, the Most Merciful
+title_dv: ރަޙްމާން ސޫރަތް
+--- en
+A surah built around one question asked thirty-one times of humans and jinn: "Then which of the favours of your Lord will you deny?" It lists His gifts in turn: the Quran, speech, the sun and moon, the two seas and their pearls and coral, the ships like mountains on the sea, and then the two pairs of gardens of Paradise. For island people it reads like a description of home.
+--- dv
+އިންސާނުންނާއި ޖިންނީންނާ އެއްތިރީސް ފަހަރު ކުރެވޭ އެއް ސުވާލެއްގެ މައްޗަށް ބިނާވެފައިވާ ސޫރަތެކެވެ: "ފަހެ ތިޔަ ދެބައިމީހުންގެ ވެރިރަސްކަލާނގެ ނިޢުމަތްތަކުގެ ތެރެއިން ކޮން ނިޢުމަތަކާމެދު ތިޔަ ދެބައިމީހުން ދޮގުކުރަނީހެއްޔެވެ؟" ޤުރުއާނާއި، ބަހާއި، އިރާއި ހަނދާއި، ދެ ކަނޑާއި އޭގެ މުތާއި މަރުޖާނާއި، ކަނޑުގައި ދުއްވާ ފަރުބަދަ ފަދަ ނައުތަކާއި، ސުވަރުގޭގެ ބަގީޗާތައް ބަޔާންކުރެއެވެ.
+
+@@ surah-56
+title_en: Al-Waqi'ah, the Inevitable Event
+title_dv: ވާޤިޢާ ސޫރަތް
+--- en
+A Makkan surah that sorts people on the Last Day into three groups: the foremost, who are brought nearest; the companions of the right; and the companions of the left. It then asks a series of questions about the seed you plant, the water you drink and the fire you light: is it you who made it, or We? It closes at the moment of death, when the soul reaches the throat and no one can turn it back.
+--- dv
+ޤިޔާމަތް ދުވަހު މީސްތަކުން ތިން ބަޔަކަށް ބެހިގެންދާނެ ގޮތް ބަޔާންކުރާ މައްކީ ސޫރަތެކެވެ: ކުރިއަރައިގެންދިޔަ މީހުން، ކަނާތް ފަރާތުގެ އަހުލުވެރިން، އަދި ވާތް ފަރާތުގެ އަހުލުވެރިން. އެއަށްފަހު އިންދާ އޮށާއި، ބޯ ފެނާއި، ރޯކުރާ އަލިފާނާ ބެހޭ ސުވާލުތަކެއް ކުރައްވައެވެ: އެ ހެއްދީ ތިޔަބައިމީހުންހެއްޔެވެ؟ ނުވަތަ ތިމަންރަސްކަލާނގެހެއްޔެވެ؟
+
+@@ surah-67
+title_en: Al-Mulk, the Dominion
+title_dv: މުލްކު ސޫރަތް
+--- en
+Thirty ayahs that the Prophet ﷺ would not sleep without reciting. He said it intercedes for its companion until he is forgiven (Tirmidhi 2891). It opens: He created death and life to test which of you is best in deeds. It invites you to look again and again at the sky for any flaw, at the birds held aloft, and asks who could bring you water if yours sank away.
+--- dv
+ނަބިއްޔާ ﷺ އަވަހާރަފުޅު ލެއްޕެވުމުގެ ކުރިން ކިޔަވައިވިދާޅުވާ ތިރީސް އާޔަތުގެ ސޫރަތެކެވެ. އެ ސޫރަތް ކިޔަވާ މީހާއަށް ފާފަ ފުއްސެވެންދެން ޝަފާޢަތްތެރިވާނެކަމަށް ޙަދީޘްކުރެއްވިއެވެ (ތިރްމިޛީ 2891). ފެށެނީ: ތިޔަބައިމީހުންގެ ތެރެއިން ޢަމަލު އެންމެ ރަނގަޅީ ކާކުތޯ އިމްތިޙާނުކުރެއްވުމަށް މަރާއި ދިރިހުރުން ހެއްދެވިކަމުގެ ބަޔާނުންނެވެ.
+
+@@ surah-78
+title_en: An-Naba', the Great News
+title_dv: ނަބައު ސޫރަތް
+--- en
+The first surah of the thirtieth juz', *Juz' 'Amma*, which most Muslims memorise first. It answers those who argued about the resurrection by pointing to the earth as a bed, the mountains as pegs, sleep for rest and the night as a covering, then describes the Day of Sorting, the fate of those who transgressed and the gardens of the mindful.
+--- dv
+ގިނަ މުސްލިމުން އެންމެ ފުރަތަމަ ހިތުދަސްކުރާ ތިރީސްވަނަ ފޮތް، *ޢައްމަ ފޮތުގެ* ފުރަތަމަ ސޫރަތެވެ. އަލުން ދިރުއްވުމާމެދު ޚިލާފުވި މީހުންނަށް ޖަވާބު ދެއްވަނީ ބިމާއި، ފަރުބަދަތަކާއި، ނިންޖާއި، ރޭގަނޑުގައިވާ ދަލީލުތަކުންނެވެ. އެއަށްފަހު ޤިޔާމަތް ދުވަހާއި، ނަރަކައާއި، ސުވަރުގެ ބަޔާންކުރެއެވެ.
+
+@@ surah-93
+title_en: Ad-Duha, the Morning Light
+title_dv: ޟުޙާ ސޫރަތް
+--- en
+Revealed after revelation had paused for a time and the Prophet ﷺ was grieved. "Your Lord has not forsaken you, nor is He displeased." It reminds him of three past favours, shelter when orphaned, guidance and sufficiency, and asks three things in return: do not oppress the orphan, do not turn away the one who asks, and speak of your Lord's blessings. A surah for anyone who feels forgotten.
+--- dv
+ވަޙީ މެދުކެނޑި، ނަބިއްޔާ ﷺ ހިތާމަކުރެއްވި ދުވަސްކޮޅަކަށްފަހު ބާވައިލެއްވުނު ސޫރަތެކެވެ. "ކަލޭގެފާނުގެ ވެރިރަސްކަލާނގެ ކަލޭގެފާނު ދޫކޮށެއް ނުލައްވައެވެ." ކުރީގެ ތިން ނިޢުމަތެއް ހަނދާންކޮށްދެއްވައި، ތިން ކަމަކަށް އަމުރުކުރައްވައެވެ: ޔަތީމަށް އަނިޔާނުކުރުމާއި، ސަލާންޖަހާ މީހާ ފޮނުވާނުލުމާއި، ވެރިރަސްކަލާނގެ ނިޢުމަތުގެ ވާހަކަދެއްކުން.
+
+@@ surah-94
+title_en: Ash-Sharh, the Opening of the Heart
+title_dv: ޝަރްޙު ސޫރަތް
+--- en
+The companion of Ad-Duha. Allah reminds the Prophet ﷺ that He opened his heart, lifted his burden and raised his mention. Then comes a promise stated twice: "With hardship comes ease. With hardship comes ease." It ends with an instruction: when you are free, stand in worship, and turn your longing to your Lord.
+--- dv
+ޟުޙާ ސޫރަތުގެ ޖޯޑެވެ. ނަބިއްޔާ ﷺ ގެ ހިތްޕުޅު ތަނަވަސްކޮށްދެއްވައި، ބުރަ ލުއިކޮށްދެއްވައި، ޛިކުރު މަތިވެރިކޮށްދެއްވިކަން ހަނދާންކޮށްދެއްވައެވެ. އެއަށްފަހު ދެ ފަހަރު ވަޢުދެއް ވެވޮޑިގެންވެއެވެ: "ހަމަކަށަވަރުން ދަތިކަމާއެކު ފަސޭހަކަމެއް ވެއެވެ. ހަމަކަށަވަރުން ދަތިކަމާއެކު ފަސޭހަކަމެއް ވެއެވެ."
+
+@@ surah-97
+title_en: Al-Qadr, the Night of Decree
+title_dv: ޤަދްރު ސޫރަތް
+--- en
+Five ayahs about the night on which the Quran was first sent down. It is better than a thousand months, more than eighty-three years of worship. The angels and the Spirit descend in it with every decree, and it is peace until dawn. It falls in the last ten nights of Ramadan, most likely an odd night, and its date was hidden so that people would strive in all of them.
+--- dv
+ޤުރުއާން ފުރަތަމަ ބާވައިލެއްވުނު ރެއާ ބެހޭ ފަސް އާޔަތެވެ. އެ ރެއަކީ އެއްހާސް މަހަށްވުރެ، އެއީ އަށްޑިހަ ތިން އަހަރުގެ އަޅުކަމަށްވުރެ ހެޔޮ ރެއެކެވެ. އެ ރޭ މަލާއިކަތުންނާއި ޖިބްރީލްގެފާނު ފައިބާވަޑައިގަންނަވައެވެ. އެ ރެއަކީ ފަތިސްވަންދެން ސަލާމަތްކަމެވެ. އެ ރެއަކީ ރަމަޟާން މަހުގެ ފަހު ދިހައިގެ ރެއެކެވެ.
+
+@@ surah-103
+title_en: Al-'Asr, Time
+title_dv: ޢަޞްރު ސޫރަތް
+--- en
+Three ayahs. Allah swears by time that every person is in loss, except those who have four things: faith, good deeds, urging one another to truth, and urging one another to patience. Imam ash-Shafi'i said that if people reflected on this surah alone it would be enough for them. The Companions would not part from one another without reciting it.
+--- dv
+ތިން އާޔަތެވެ. ﷲ ޒަމާން ގަންދެއްވައި ވަޙީކުރައްވަނީ، ހަތަރު ސިފައެއް ހުރި މީހުން ފިޔަވައި ކޮންމެ އިންސާނަކުވެސް ވަނީ ގެއްލުމެއްގައިކަމެވެ: އީމާންކަން، ޞާލިޙު ޢަމަލު، ޙައްޤަށް ވަޞިއްޔަތްކުރުން، އަދި ކެތްތެރިކަމަށް ވަޞިއްޔަތްކުރުން. އިމާމު ޝާފިޢީ ވިދާޅުވިއެވެ: މީސްތަކުން މި ސޫރަތާމެދު ވިސްނައިފިނަމަ އެމީހުންނަށް މި ސޫރަތް ފުދޭނެއެވެ.
+
+@@ surah-108
+title_en: Al-Kawthar, Abundance
+title_dv: ކައުޘަރު ސޫރަތް
+--- en
+The shortest surah, three ayahs. When the Prophet's son died, an enemy called him "cut off", a man with no one to carry his name. Allah answered: We have given you *al-Kawthar*, abundant good, which includes a river in Paradise. So pray to your Lord and sacrifice. It is your enemy who is cut off. No one remembers that man's name, and the Prophet's is called from every minaret.
+--- dv
+އެންމެ ކުރު ސޫރަތް، ތިން އާޔަތެވެ. ނަބިއްޔާ ﷺ ގެ ދަރިކަލުން އަވަހާރަވުމުން، ޢަދުއްވަކު އެކަލޭގެފާނަށް "ނަސްލު ކެނޑިފައިވާ މީހާ" އޭ ކިޔައިފިއެވެ. ﷲ ޖަވާބު ދެއްވިއެވެ: ކަލޭގެފާނަށް *ކައުޘަރު* ދެއްވައިފީމެވެ. ފަހެ ކަލޭގެފާނުގެ ވެރިރަސްކަލާނގެއަށް ނަމާދުކޮށް ޤުރުބާންކުރައްވާށެވެ! ނަސްލު ކެނޑިފައިވަނީ ކަލޭގެފާނުގެ ޢަދުއްވަށެވެ.
+
+@@ surah-112
+title_en: Al-Ikhlas, Sincerity
+title_dv: އިޚްލާޞް ސޫރަތް
+--- en
+Four ayahs that state who Allah is: One, the Eternal on whom all depend, who neither begets nor was begotten, and none is comparable to Him. The Prophet ﷺ said it equals a third of the Quran (Bukhari 5013), because a third of the Quran's message is the oneness of Allah. A man who loved to recite it in every rak'ah was told: "Your love for it will bring you into Paradise."
+--- dv
+ﷲ އަކީ ކާކުކަން ބަޔާންކުރާ ހަތަރު އާޔަތެވެ: އެއްކައުވަންތަ، އެންމެން ބޭނުންޖެހިފައިވާ، ދަރިއަކު ނުޖައްސަވާ އަދި ދަރިއަކަށް ވެވޮޑިގެންނުވާ، އެކަލާނގެއާ އެއްފަދަ އެކަކުވެސް ނުވާ ރަސްކަލާނގެއެވެ. ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވީ، މި ސޫރަތަކީ ޤުރުއާނުގެ ތިންބައިކުޅަ އެއްބަޔާ އެއްވަރު ސޫރަތެއްކަމަށެވެ (ބުޚާރީ 5013).
+
+@@ surah-113
+title_en: Al-Falaq, Daybreak
+title_dv: ފަލަޤް ސޫރަތް
+--- en
+With An-Nas, one of the two surahs of refuge. It seeks the protection of the Lord of daybreak from harms that come from outside: the evil of what He created, of darkness when it settles, of those who practise sorcery, and of the envier when he envies. The Prophet ﷺ recited the last three surahs three times each morning and evening and before sleep.
+--- dv
+ނާސް ސޫރަތާއެކު، މުޢައްވިޛަތައިންގެ ދެ ސޫރަތުންކުރެ ސޫރަތެކެވެ. ބޭރުން އަންނަ ނުބައިކަންތަކުން، ފަތިހުގެ ވެރިރަސްކަލާނގެ ރައްކާތެރިކަން އެދެއެވެ: މަޚްލޫޤުންގެ ނުބައިކަމާއި، އަނދިރީގެ ނުބައިކަމާއި، ސިޙުރުވެރިންގެ ނުބައިކަމާއި، ޙަސަދަވެރިޔާގެ ނުބައިކަން. ނަބިއްޔާ ﷺ ހެނދުނާއި ހަވީރު އަދި ނިދުމުގެ ކުރިން ފަހު ތިން ސޫރަތް ތިން ފަހަރު ކިޔަވައިވިދާޅުވެއެވެ.
+
+@@ surah-114
+title_en: An-Nas, Mankind
+title_dv: ނާސް ސޫރަތް
+--- en
+The last surah. Where Al-Falaq seeks refuge from outward harm, this one seeks refuge from an inward one: the whisperer who withdraws when Allah is remembered and returns when He is forgotten, whether from jinn or people. Allah is named three ways, Lord, King and God of mankind, against a single enemy, which shows how serious the whisper to the heart is.
+--- dv
+ޤުރުއާނުގެ ފަހު ސޫރަތެވެ. ފަލަޤް ސޫރަތުގައި ބޭރުގެ ނުބައިކަމުން ރައްކާތެރިކަން އެދޭއިރު، މި ސޫރަތުގައި އެދެނީ އެތެރޭގެ ނުބައިކަމަކުން ރައްކާތެރިކަމެވެ. އެއީ ﷲ ހަނދާންކުރާއިރު ފަހަތަށް ޖެހޭ، ޣާފިލުވާއިރު އެނބުރި އަންނަ ވަސްވާސްދޭ ޝައިޠާނާއެވެ. ﷲ ގެ ތިން ސިފަފުޅެއް، އެއީ މީސްތަކުންގެ ރައްބު، ރަސްގެފާނު އަދި އިލާހު ބަޔާންކުރެވިފައިވެއެވެ.

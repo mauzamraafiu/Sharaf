@@ -1,0 +1,561 @@
+%% prophets-more | history | More prophets in the Quran | ޤުރުއާނުގައިވާ އިތުރު ނަބީބޭކަލުން | The family of Ibrahim, Zakariyya and Yahya, and the prophets mentioned briefly. | އިބްރާހީމްގެފާނުގެ ދަރިކޮޅާއި، ޒަކަރިއްޔާގެފާނާއި ޔަޙްޔާގެފާނާއި، ކުރުކޮށް ނަން އައިސްފައިވާ ނަބީބޭކަލުން.
+
+@@ prophet-ismail-ishaq
+title_en: Isma'il, Ishaq and Ya'qub
+title_dv: އިސްމާޢީލް، އިސްޙާޤު އަދި ޔަޢުޤޫބު (ޢަލައިހިމުއްސަލާމް)
+ref: Quran 19:54-55; 37:100-113; 11:69-73; 2:132-133
+--- en
+## Isma'il
+The elder son of Ibrahim, settled as an infant with his mother Hajar in the valley of Makkah. When their water ran out she ran seven times between the hills of Safa and Marwah, and the spring of **Zamzam** rose at the child's feet. As a youth he answered his father's dream with: "Father, do as you are commanded. You will find me, if Allah wills, among the patient" (37:102). Together they built the Ka'bah. The Quran praises him as "true to his promise", one who told his family to pray and give charity (19:54-55). The Prophet Muhammad ﷺ is his descendant.
+
+## Ishaq
+Angels visiting Ibrahim gave his elderly wife **Sarah** the news of a son, and after him a grandson. She laughed in wonder: "Shall I bear a child when I am an old woman?" (11:72). Ishaq became a prophet in the land of Canaan.
+
+## Ya'qub
+The son of Ishaq, also called **Isra'il**. His twelve sons are the fathers of the tribes of the Children of Israel, and the story of his son Yusuf shows his patience through decades of grief. On his deathbed he asked his sons: "What will you worship after me?" They said: "Your God and the God of your fathers Ibrahim, Isma'il and Ishaq, one God" (2:133).
+
+## What it teaches
+- A righteous family is built by teaching prayer at home.
+- Parents' deepest concern for their children is their faith.
+- The prophets of the Arabs and of the Children of Israel are one family with one religion.
+--- dv
+## އިސްމާޢީލްގެފާނު
+އިބްރާހީމްގެފާނުގެ ދޮށީ ދަރިކަލުންނެވެ. ތުއްތުއިރު މަންމާފުޅު ހާޖަރުގެފާނާއެކު މައްކާގެ ވާދީގައި ބެހެއްޓެވުނެވެ. ފެން ހުސްވުމުން ހާޖަރުގެފާނު ޞަފާއާއި މަރްވާއާ ދެމެދު ހަތް ފަހަރު ދުއްވެވިއެވެ. ދަރިކަލުންގެ ފައިންޕުޅު ދަށުން **ޒަމްޒަމް** ފެން އުފެދުނެވެ. ބައްޕާފުޅުގެ ހުވަފެނަށް ޖަވާބު ދެއްވީ: "ބައްޕާއެވެ! އަމުރުކުރެވިފައިވާ ކަންތައް ކުރައްވާށެވެ. ﷲ އިރާދަކުރެއްވިއްޔާ ކެތްތެރިންގެ ތެރެއިން އަހުރެން ދެކެވަޑައިގަންނަވާނެއެވެ" (37:102). ދެބޭކަލުން އެކުގައި ކަޢުބާ ބިނާކުރެއްވިއެވެ. މުޙައްމަދުގެފާނު ﷺ އަކީ އެކަލޭގެފާނުގެ ދަރިކޮޅުގެ ބޭކަލެކެވެ.
+
+## އިސްޙާޤުގެފާނު
+މަލާއިކަތުން މުސްކުޅި **ސާރާގެފާނަށް** ދަރިކަލެއްގެ އުފާވެރި ޚަބަރު ދެއްވިއެވެ (11:72). އިސްޙާޤުގެފާނު ކަންޢާނުގެ ބިމުގައި ނަބިއްޔަކަށް ވެވަޑައިގަތެވެ.
+
+## ޔަޢުޤޫބުގެފާނު
+އިސްޙާޤުގެފާނުގެ ދަރިކަލުންނެވެ. **އިސްރާއީލް** ގެ ނަމުންވެސް މަޝްހޫރެވެ. ބާރަ ދަރިކަލުންނަކީ ބަނީ އިސްރާއީލުންގެ ޤަބީލާތަކުގެ ކާބަފައިންނެވެ. އަވަހާރަވުމުގެ ކުރިން ދަރިކަލުންނާ ސުވާލުކުރެއްވިއެވެ: "ތިމަންކަލޭގެފާނަށްފަހު ތިޔަބައިމީހުން އަޅުކަންކުރާނީ ކޮން ފަރާތަކަށްހެއްޔެވެ؟" (2:133).
+
+## ޢިބްރަތްތައް
+- ޞާލިޙު ޢާއިލާއެއް ބިނާވަނީ ގޭގައި ނަމާދު ދަސްކޮށްދިނުމުންނެވެ.
+- ދަރިންނާމެދު މައިންބަފައިންގެ އެންމެ ބޮޑު ކަންބޮޑުވުމަކީ އެކުދިންގެ އީމާންކަމެވެ.
+
+@@ prophet-zakariyya-yahya
+title_en: Zakariyya and Yahya
+title_dv: ޒަކަރިއްޔާގެފާނާއި ޔަޙްޔާގެފާނު
+ref: Quran 19:2-15; 3:37-41; 21:89-90
+--- en
+**Zakariyya** was a prophet and the guardian of Maryam in the sanctuary. He was old, his bones weak and his hair white, and his wife had never borne a child. Seeing Allah provide for Maryam out of season, he prayed quietly: "My Lord, do not leave me alone, and You are the best of inheritors" (21:89). He was not asking for an heir to wealth, but for someone to carry the message after him.
+
+The angels called to him as he stood praying: Allah gives you good news of **Yahya**, a name given to no one before him. As a sign, Zakariyya would not speak to people for three days except by gesture, while his tongue remained free to glorify Allah.
+
+Yahya was given wisdom while still a child. The Quran describes him as tender-hearted, pure, mindful of Allah, dutiful to his parents, and neither arrogant nor disobedient (19:12-14). He confirmed the message of his cousin 'Isa and was killed for speaking the truth to a ruler. "Peace be upon him the day he was born, the day he dies and the day he is raised alive" (19:15).
+
+## What it teaches
+- No age or circumstance puts a dua beyond answering.
+- The Quran explains why this family was answered: "They used to hasten to good deeds, call on Us in hope and fear, and humble themselves before Us" (21:90).
+--- dv
+**ޒަކަރިއްޔާގެފާނަކީ** ނަބިއްޔެއް، އަދި މިޙްރާބުގައި މަރްޔަމްގެފާނު ބެލެހެއްޓެވި ބޭކަލެކެވެ. އެކަލޭގެފާނު މުސްކުޅިވެ، ކަށިތައް ބަލިކަށިވެ، އިސްތަށިފުޅު ހުދުވެފައިވެއެވެ. އަނބިކަނބަލުންނަށް ދަރިއަކު ލިބިފައެއް ނުވެއެވެ. މަރްޔަމްގެފާނަށް ﷲ ރިޒުޤު ދެއްވާތަން ދެކެވަޑައިގެން، ސިއްރުން ދުޢާކުރެއްވިއެވެ: "އަހުރެންގެ ވެރިރަސްކަލާނގެއެވެ! އަހުރެން އެކަނި ދޫކޮށް ނުލައްވާނދޭވެ" (21:89).
+
+ނަމާދުގައި ހުންނަވަނިކޮށް މަލާއިކަތުން **ޔަޙްޔާގެ** އުފާވެރި ޚަބަރު ދެއްވިއެވެ. އެއީ ކުރިން އެކަކަށްވެސް ނުދެވޭ ނަމެކެވެ. ނިޝާނެއްގެ ގޮތުގައި ތިން ދުވަހު މީހުންނާ ވާހަކަފުޅެއް ނުދެއްކެވޭނެއެވެ.
+
+ޔަޙްޔާގެފާނަށް ކުޑައިރު ޙިކްމަތް ދެއްވިއެވެ. އެކަލޭގެފާނަކީ އޯގާތެރި، ޠާހިރު، ތަޤްވާވެރި، މައިންބަފައިންނަށް ހެޔޮކޮށް ހިތާ ބޭކަލެކެވެ (19:12-14). ވެރިއަކާ ދިމާއަށް ޙައްޤު ބަސް ވިދާޅުވުމުން ޝަހީދުކުރެވުނެވެ.
+
+## ޢިބްރަތްތައް
+- ދުޢާ އިޖާބަނުވާނެ ޢުމުރެއް ނުވަތަ ޙާލަތެއް ނުވެއެވެ.
+- "އެބައިމީހުން ހެޔޮކަންތަކަށް އަވަސްވެގަނެ، އުންމީދާއި ބިރުވެރިކަމާއެކު ތިމަންރަސްކަލާނގެއަށް ދުޢާކުރިއެވެ" (21:90).
+
+@@ prophets-brief
+title_en: Idris, Harun, Ilyas, Al-Yasa' and Dhul-Kifl
+title_dv: އިދްރީސް، ހާރޫން، އިލްޔާސް، އަލްޔަސަޢު އަދި ޛުލްކިފްލު (ޢަލައިހިމުއްސަލާމް)
+ref: Quran 19:56-57; 20:29-36; 37:123-132; 38:48; 21:85-86
+--- en
+The Quran names twenty-five prophets. Some are given long stories and others only a line or two. We believe in all of them and say only what revelation says.
+
+## Idris
+"He was a man of truth, a prophet, and We raised him to a high station" (19:56-57). He lived in the early generations between Adam and Nuh. The Prophet ﷺ met him in the fourth heaven on the night journey.
+
+## Harun
+The elder brother of Musa. Musa asked Allah to make him his helper because he was more fluent in speech (28:34), and the request was granted. He was left in charge when Musa went to the mountain and tried to stop the people from worshipping the calf, saying: "My people, you are only being tested by this" (20:90).
+
+## Ilyas
+Sent to a people who worshipped an idol called Ba'l. "Do you call on Ba'l and leave the best of creators?" (37:125). They rejected him, except the sincere servants of Allah.
+
+## Al-Yasa'
+The successor of Ilyas, counted among "the chosen, the good" (38:48).
+
+## Dhul-Kifl
+Named beside Isma'il and Idris: "All were among the patient, and We admitted them into Our mercy" (21:85-86). Scholars differ on the details of his life.
+
+## Also named
+Lut, Hud, Salih and Shu'ayb have their own article, as do the major prophets. The Quran adds: "Messengers We have told you about, and messengers We have not told you about" (4:164).
+--- dv
+ޤުރުއާނުގައި ފަންސަވީސް ނަބީބޭކަލެއްގެ ނަންފުޅު އައިސްފައިވެއެވެ. ބައެއް ބޭކަލުންގެ ވާހަކަ ތަފްޞީލުކޮށް، އަދި ބައެއް ބޭކަލުންގެ ވާހަކަ ކުރުކޮށް އައިސްފައިވެއެވެ. އެ ހުރިހާ ބޭކަލުންނަށް އަޅުގަނޑުމެން އީމާންވަމުއެވެ.
+
+## އިދްރީސްގެފާނު
+"އެކަލޭގެފާނަކީ ތެދުވެރި ނަބިއްޔެކެވެ. އަދި ތިމަންރަސްކަލާނގެ އެކަލޭގެފާނު މަތިވެރި މަޤާމަކަށް އުފުއްލެވީމެވެ" (19:56-57). މިޢުރާޖު ރޭ ނަބިއްޔާ ﷺ އެކަލޭގެފާނާ ހަތަރުވަނަ އުޑުގައި ބައްދަލުކުރެއްވިއެވެ.
+
+## ހާރޫނުގެފާނު
+މޫސާގެފާނުގެ ބޭބޭފުޅެވެ. ވާހަކަފުޅު ފަޞީޙަވާތީ އެހީތެރިއަކަށް ލެއްވުމަށް މޫސާގެފާނު ދުޢާކުރެއްވިއެވެ (28:34). މޫސާގެފާނު ފަރުބަދައަށް ވަޑައިގަތްއިރު، ގެރި އަޅުކަންކުރުމުން ޤައުމުގެ މީހުން މަނާކުރައްވަން މަސައްކަތްކުރެއްވިއެވެ.
+
+## އިލްޔާސްގެފާނު
+ބަޢުލު ނަމަކަށް ކިޔާ ބުދަކަށް އަޅުކަންކުރި ބަޔަކަށް ފޮނުއްވުނެވެ (37:125).
+
+## އަލްޔަސަޢުގެފާނު
+އިލްޔާސްގެފާނަށްފަހު ވަޑައިގަތް، "ޚިޔާރުކުރެއްވުނު، ހެޔޮލަފާ ބޭކަލުންގެ" ތެރެއިންވާ ބޭކަލެކެވެ (38:48).
+
+## ޛުލްކިފްލުގެފާނު
+"އެ ހުރިހާ ބޭކަލުންނަކީ ކެތްތެރިންނެވެ" (21:85). އެކަލޭގެފާނުގެ ޙަޔާތުގެ ތަފްޞީލުތަކާމެދު ޢިލްމުވެރިން ޚިލާފުވެއެވެ.
+
+%% fiqh-family | fiqh | Oaths, wills and divorce | ހުވައާއި، ވަޞިއްޔަތާއި، ވަރި | Rulings people meet at serious moments of life. | ދިރިއުޅުމުގެ މުހިންމު ވަގުތުތަކުގައި ދިމާވާ ޙުކުމްތައް.
+
+@@ fiqh-oaths-vows
+title_en: Oaths and vows
+title_dv: ހުވައާއި ނަދުރު
+ref: Quran 5:89; 2:224-225; 76:7; Bukhari 6646, 6696
+--- en
+## Oaths
+An oath is made only by Allah, His names or His attributes. "Whoever swears, let him swear by Allah or keep silent" (Bukhari 6646). Swearing by a person, one's children or one's life is not permitted.
+
+There are three kinds:
+1. **Slips of the tongue**, such as "no, by Allah" in ordinary talk without intent. Nothing is due (5:89).
+2. **A binding oath** about the future: "By Allah, I will not do this." If you break it, expiation is due.
+3. **A false oath** about the past, sworn knowingly. This is a major sin, too grave for expiation; it needs sincere repentance and returning any right taken by it.
+
+## Expiation for a broken oath
+Choose one of these (5:89):
+- feed ten poor people an average meal;
+- clothe ten poor people;
+- free a slave.
+
+Only one who cannot do any of these fasts three days.
+
+If you swore to do something and then see that another course is better, do what is better and pay the expiation (Muslim 1650). An oath to cut off a relative or to do wrong must be broken.
+
+## Vows
+A vow (*nadhr*) is making an act of worship binding on yourself: "If Allah cures my child, I will fast three days."
+
+- A vow to do an act of obedience must be fulfilled. "Whoever vows to obey Allah, let him obey Him" (Bukhari 6696).
+- A vow to do a sin is not fulfilled.
+- A vow you cannot carry out carries the expiation of an oath.
+
+The Prophet ﷺ discouraged bargaining with Allah through vows: "It does not bring any good; it only extracts something from the miser" (Muslim 1639). Give charity and make dua without conditions.
+--- dv
+## ހުވާ
+ހުވާކުރެވޭނީ ހަމައެކަނި ﷲ ނުވަތަ އެކަލާނގެ އިސްމުފުޅުތަކާއި ޞިފަފުޅުތައް ގަންދީއެވެ. "ހުވާކުރާ މީހާ ﷲ ގަންދީ ހުވާކުރާށެވެ! ނުވަތަ ހަނުހުންނާށެވެ!" (ބުޚާރީ 6646). މީހަކު، ދަރިން، ނުވަތަ ފުރާނަ ގަންދީ ހުވާކުރުން ހުއްދައެއް ނޫނެވެ.
+
+ހުވައިގެ ތިން ބާވަތެއް ވެއެވެ:
+1. **ލަޣްވު ހުވާ**: ޤަޞްދަކާ ނުލައި ދުލަށް އަންނަ ހުވާ. އެއްވެސް ކަމެއް ނުޖެހޭނެއެވެ (5:89).
+2. **މުންޢަޤިދު ހުވާ**: މުސްތަޤްބަލުގެ ކަމަކާމެދު ކުރާ ހުވާ. އުވާލައިފިނަމަ ކައްފާރާ ދޭންޖެހޭނެއެވެ.
+3. **ޣަމޫސް ހުވާ**: އެނގިހުރެ މާޒީގެ ކަމަކާމެދު ކުރާ ދޮގު ހުވާ. މިއީ ބޮޑު ފާފައެކެވެ. ތައުބާވެ، ނެގުނު ޙައްޤު އަނބުރާ ދޭންޖެހޭނެއެވެ.
+
+## ހުވައިގެ ކައްފާރާ
+މިއިން ކަމެއް އިޚްތިޔާރުކުރާށެވެ (5:89):
+- ދިހަ މިސްކީނުންނަށް ކާންދިނުން؛
+- ދިހަ މިސްކީނުންނަށް ހެދުން ދިނުން؛
+- އަޅަކު މިނިވަންކުރުން.
+
+މިއިން އެއްވެސް ކަމެއް ނުކުރެވޭ މީހާ ތިން ދުވަހު ރޯދަހިފާނީއެވެ.
+
+ކަމެއް ކުރުމަށް ހުވާކުރުމަށްފަހު، އެއަށްވުރެ ރަނގަޅު ގޮތެއް ފެނިއްޖެނަމަ، ރަނގަޅު ގޮތް ކޮށް ކައްފާރާ ދޭށެވެ (މުސްލިމް 1650).
+
+## ނަދުރު
+ނަދުރަކީ އަޅުކަމެއް އަމިއްލަ ނަފްސުގެ މައްޗަށް ލާޒިމުކުރުމެވެ.
+
+- ކިޔަމަންތެރިކަމެއް ކުރުމަށް ބުނާ ނަދުރު ފުއްދަންޖެހޭނެއެވެ (ބުޚާރީ 6696).
+- ފާފައެއް ކުރުމަށް ބުނާ ނަދުރު ފުއްދައިގެން ނުވާނެއެވެ.
+- ނުފުއްދޭ ނަދުރަކަށް ހުވައިގެ ކައްފާރާ ދޭންޖެހޭނެއެވެ.
+
+ނަދުރު ބުނުމަށް ނަބިއްޔާ ﷺ ހިތްވަރެއް ނުދެއްވައެވެ (މުސްލިމް 1639). ޝަރުޠަކާ ނުލައި ޞަދަޤާތްކޮށް ދުޢާކުރާށެވެ.
+
+@@ fiqh-wills
+title_en: Writing a will
+title_dv: ވަޞިއްޔަތް ލިޔުން
+ref: Quran 2:180-182; 4:11-12; Bukhari 2738, 2742; Tirmidhi 2120
+--- en
+"It is not right for a Muslim who has something to bequeath to spend two nights without his will written beside him" (Bukhari 2738).
+
+## What a will can and cannot do
+- The fixed shares of the heirs are set by the Quran. A will cannot change them.
+- You may leave up to **one third** of what remains after debts to people or causes that do not inherit. Less is better. "A third, and a third is a lot. To leave your heirs wealthy is better than to leave them poor, asking of people" (Bukhari 2742).
+- "There is no bequest for an heir" (Tirmidhi 2120), unless the other heirs agree after the death.
+
+## What to put in it
+1. The testimony of faith and a reminder to your family to hold to Islam.
+2. **Debts you owe**, with names and amounts, and debts owed to you.
+3. Trusts and property of others in your keeping.
+4. Unfulfilled duties: unpaid zakat, fasts to be compensated, a hajj you owed.
+5. Your bequest within the third: a relative who does not inherit, an adopted or foster child, a mosque, students of knowledge.
+6. Who should carry it out, and guardianship of young children.
+7. How you want your funeral done, in line with the Sunnah.
+
+## Good practice
+- Write it clearly, sign it and have **two witnesses**.
+- Keep it where your family can find it, and update it when your circumstances change.
+- A will that harms the heirs, for example by inventing a debt, is a sin (4:12).
+- Gifts made during a final illness are counted as part of the third.
+
+## A lasting gift
+An endowment (*waqf*), such as a well, a classroom or copies of the Quran, keeps rewarding you after death. It can be set up in your lifetime or through the third.
+--- dv
+"ވަޞިއްޔަތްކުރަން ބޭނުންވާ އެއްޗެއް ހުރި މުސްލިމަކު، އޭނާގެ ވަޞިއްޔަތް ލިޔެ ގާތުގައި ނުބާއްވައި ދެ ރޭ ހޭދަކުރުން ހުއްދައެއް ނޫނެވެ" (ބުޚާރީ 2738).
+
+## ވަޞިއްޔަތަކުން ކުރެވޭ ކަންތައްތަކާއި ނުކުރެވޭ ކަންތައްތައް
+- ވާރުތަވެރިންގެ ބައިތައް ޤުރުއާނުގައި ކަނޑައެޅިފައިވެއެވެ. ވަޞިއްޔަތަކުން އެ ބައިތައް ބަދަލެއް ނުކުރެވޭނެއެވެ.
+- ދަރަނި އަދާކުރުމަށްފަހު ބާކީ މުދަލުގެ **ތިންބައިކުޅަ އެއްބަޔާ** ހަމައަށް، ވާރުތަ ނުލިބޭ މީހުންނަށް ނުވަތަ ހެޔޮ ކަންކަމަށް ވަޞިއްޔަތްކުރެވިދާނެއެވެ. "ތިންބައިކުޅަ އެއްބައި. އެއީވެސް ގިނަ މިންވަރެކެވެ" (ބުޚާރީ 2742).
+- "ވާރުތަވެރިއަކަށް ވަޞިއްޔަތެއް ނުވެއެވެ" (ތިރްމިޛީ 2120).
+
+## ވަޞިއްޔަތުގައި ލިޔަންވީ ކަންތައްތައް
+1. ޝަހާދަތާއި، އިސްލާމްދީނުގައި ހިފެހެއްޓުމަށް ޢާއިލާއަށް ކުރާ ނަޞޭޙަތް.
+2. **ދައްކަންޖެހޭ ދަރަނި**، ނަންތަކާއި ޢަދަދުތަކާއެކު، އަދި ލިބެންޖެހޭ ފައިސާ.
+3. ތިބާގެ އަތުގައިވާ މީހުންގެ އަމާނާތްތައް.
+4. އަދާނުކުރެވި ހުރި ވާޖިބުތައް: ޒަކާތް، ރޯދަ، ޙައްޖު.
+5. ތިންބައިކުޅަ އެއްބައިގެ ތެރެއިން ކުރާ ވަޞިއްޔަތް.
+6. ވަޞިއްޔަތް ތަންފީޛުކުރާނެ މީހާއާއި، ކުޑަކުދިންގެ ބެލެނިވެރިޔާ.
+7. ސުންނަތާ އެއްގޮތަށް ކަށުކަމާކުރަން ބޭނުންވާ ގޮތް.
+
+## ރިވެތި އާދަތައް
+- ސާފުކޮށް ލިޔެ، ސޮއިކޮށް، **ދެ ހެކިން** ބަހައްޓާށެވެ.
+- ޢާއިލާއަށް ފެންނާނެ ތަނެއްގައި ބަހައްޓައި، ޙާލަތު ބަދަލުވުމުން އަޕްޑޭޓްކުރާށެވެ.
+- ވާރުތަވެރިންނަށް ގެއްލުންދޭ ވަޞިއްޔަތަކީ ފާފައެކެވެ (4:12).
+
+## ދެމިއޮންނަ ޞަދަޤާތެއް
+ވަޅެއް، ކްލާސްރޫމެއް ނުވަތަ މުޞްޙަފުތައް ފަދަ **ވަޤްފަކުން** މަރަށްފަހުވެސް ސަވާބު ލިބެމުންދެއެވެ.
+
+@@ fiqh-divorce
+title_en: Divorce
+title_dv: ވަރި
+ref: Quran 2:226-232; 65:1-7; 4:35; 4:128-130
+--- en
+Marriage is meant to last, and Islam asks a couple to exhaust reconciliation first: advice, patience, and an arbiter from each family (4:35). When life together has truly broken down, divorce is permitted so that neither is trapped. "Either keep them honourably or part with them honourably" (2:229).
+
+## How a husband divorces
+The sunnah way is **one** pronouncement, made when the wife is not menstruating and in a period of purity in which they have not had intercourse. Pronouncing it in anger, during her period, or three times at once goes against the Sunnah and is sinful.
+
+## The waiting period
+After a first or second divorce the wife observes an **'iddah** of three periods of purity, or until she gives birth if pregnant (65:4). During it:
+- she stays in the marital home and is maintained;
+- the husband may take her back, by word, without a new contract.
+
+If the 'iddah ends without return, they are separated, and may remarry each other only with a new contract and dowry.
+
+## The third divorce
+"Divorce is twice" (2:229). After a third, the couple cannot remarry unless she has married another man in a genuine marriage that then ended (2:230). An arranged marriage to get around this is forbidden.
+
+## When the wife seeks separation
+- **Khul':** she asks to be released, usually returning the dowry.
+- **Annulment by a judge** for harm, failure to maintain, long absence or a serious defect.
+
+## Afterwards
+The father maintains the children. Custody of young children normally stays with the mother. "Do not forget graciousness between you" (2:237), and do not speak ill of each other before the children.
+
+## In the Maldives
+Divorce is dealt with and registered through the Family Court or island court, which also attempts reconciliation. Take your situation there, and to a scholar, before saying anything final.
+--- dv
+ކައިވެންޏަކީ ދެމިއޮތުމަށް ކުރެވޭ ކަމެކެވެ. އިސްލާމްދީން އެދެނީ ފުރަތަމަ ޞުލްޙަކުރުމުގެ ހުރިހާ މަސައްކަތެއް ކުރުމަށެވެ: ނަޞޭޙަތް، ކެތް، އަދި ދެ ޢާއިލާއިން ޙަކަމުން (4:35). އެކުގައި ދިރިއުޅުން ޙަޤީޤަތުގައިވެސް ރޫޅިއްޖެނަމަ، ވަރި ހުއްދަވެގެންވެއެވެ. "ރިވެތި ގޮތުގައި ހިފެހެއްޓުން، ނުވަތަ އިޙްސާންތެރިކަމާއެކު ދޫކޮށްލުން" (2:229).
+
+## ފިރިމީހާ ވަރިކުރާ ގޮތް
+ސުންނަތް ގޮތަކީ އަނބިމީހާ ޙައިޟުގައި ނުވާ، އަދި ޖިމާޢުވެފައިނުވާ ޠާހިރުކަމެއްގައި **އެއް** ވަރި ކުރުމެވެ. ރުޅިއައިސްގެން، ޙައިޟުގެ ދުވަސްވަރު، ނުވަތަ އެއްފަހަރާ ތިން ވަރި ކުރުމަކީ ސުންނަތާ ޚިލާފު ފާފައެކެވެ.
+
+## ޢިއްދަ
+ފުރަތަމަ ނުވަތަ ދެވަނަ ވަރިއަށްފަހު އަނބިމީހާ ތިން ޠާހިރުކަމުގެ، ނުވަތަ މާބަނޑުނަމަ ވިހެއުމާ ހަމައަށް **ޢިއްދަ** ހިފާނީއެވެ (65:4). އެ މުއްދަތުގައި:
+- އޭނާ ހުންނާނީ ކައިވެނީގެ ގޭގައެވެ. ޚަރަދު ލިބެންވާނެއެވެ.
+- ފިރިމީހާއަށް އައު ޢަޤުދަކާ ނުލައި ރުޖޫޢަކުރެވޭނެއެވެ.
+
+## ތިންވަނަ ވަރި
+"ވަރިއަކީ ދެ ފަހަރެވެ" (2:229). ތިންވަނަ ވަރިއަށްފަހު، އަންހެންމީހާ އެހެން ފިރިއަކާ ޙަޤީޤީ ކައިވެންޏެއްކޮށް އެ ކައިވެނި ނިމުމުން މެނުވީ، އެ ދެމީހުންނަށް އަލުން ކައިވެނި ނުކުރެވޭނެއެވެ (2:230).
+
+## އަނބިމީހާ ވަކިވާން އެދޭނަމަ
+- **ޚުލްޢު:** ޢާންމުކޮށް ރަން އަނބުރާ ދީގެން ވަރިއަށް އެދުން.
+- ގެއްލުމާއި، ޚަރަދުނުކުރުން ފަދަ ސަބަބުތަކަށް **ޤާޟީ ކައިވެނި ފަސްޚުކުރުން**.
+
+## އޭގެ ފަހުން
+ދަރިންނަށް ޚަރަދުކުރާނީ ބައްޕައެވެ. "ތިޔަބައިމީހުންގެ ދެމެދުގައިވާ ހެޔޮކަން ހަނދާން ނުނައްތާށެވެ!" (2:237).
+
+## ދިވެހިރާއްޖޭގައި
+ވަރީގެ ކަންތައްތައް ބަލައި ރަޖިސްޓްރީކުރަނީ ފެމިލީ ކޯޓު ނުވަތަ ރަށުގެ ކޯޓުންނެވެ. ނިހާއީ ބަހެއް ބުނުމުގެ ކުރިން ކޯޓަށާއި ޢިލްމުވެރިއެއްގެ ގާތަށް ދާށެވެ.
+
+@@ scholar-aishah
+section: scholars
+title_en: 'A'ishah, the teacher of scholars
+title_dv: ޢާއިޝަތުގެފާނު: ޢިލްމުވެރިންގެ އުސްތާޛާ
+--- en
+**'A'ishah bint Abi Bakr** (died 58 AH / 678 CE), wife of the Prophet ﷺ and daughter of his closest companion, is one of the greatest scholars the community has known.
+
+She lived in a room that opened onto the Prophet's mosque. She saw his private worship, his manners at home and his dealings with his family, and asked him about everything she did not understand. Revelation came to him while he was in her company, and he died in her room, where he is buried.
+
+She narrated **2,210 hadith**, the fourth highest number among the Companions. Much of what is known about his night prayer, his fasting, his purification and his family life comes through her.
+
+She was also a jurist in her own right. Leading Companions consulted her on law and inheritance, and she corrected them when a report had been misunderstood; a later scholar gathered these corrections into a book. Abu Musa al-Ash'ari said: "We Companions never had a difficulty about a hadith and asked 'A'ishah without finding that she had knowledge of it" (Tirmidhi 3883). She also knew poetry, genealogy and medicine.
+
+For more than forty years after the Prophet's death she taught men and women from behind a curtain in Madinah. Her students, among them her nephew 'Urwah ibn az-Zubayr and 'Amrah bint 'Abd ar-Rahman, became the teachers of the next generation.
+
+Her life shows that seeking and teaching knowledge is the work of women as much as men.
+--- dv
+**ޢާއިޝާ ބިންތު އަބީ ބަކުރު** (ވަފާތު 58 ހ / 678 މ) އަކީ ނަބިއްޔާ ﷺ ގެ އަނބިކަނބަލެއް، އަދި އުންމަތުގެ އެންމެ ބޮޑެތި ޢިލްމުވެރިންގެ ތެރެއިން ބޭކަނބަލެކެވެ.
+
+އެކަމަނާ ދިރިއުޅުއްވީ ނަބިއްޔާގެ މިސްކިތާ ގުޅިފައިވާ ކޮޓަރިއެއްގައެވެ. އެކަލޭގެފާނުގެ ގޭތެރޭގެ އަޅުކަމާއި، އަޚްލާޤާއި، ޢާއިލާއާ މުޢާމަލާތްކުރެއްވި ގޮތް ދެކެވަޑައިގަތެވެ. ނަބިއްޔާ ﷺ އަވަހާރަވީ އެކަމަނާގެ ކޮޓަރީގައެވެ.
+
+**2,210 ޙަދީޘް** ރިވާކުރެއްވިއެވެ. ރޭއަޅުކަމާއި، ރޯދައާއި، ޠަހާރަތާއި، ޢާއިލީ ޙަޔާތާ ބެހޭ މަޢުލޫމާތުގެ ބޮޑު ބައެއް ލިބިފައިވަނީ އެކަމަނާގެ ފަރާތުންނެވެ.
+
+އެކަމަނާއަކީ ފަޤީހެކެވެ. އިސް ޞަޙާބީން ފިޤްހާއި ވާރުތައިގެ މައްސަލަތަކުގައި އެކަމަނާގެ ލަފާފުޅު ހޯއްދެވިއެވެ. އަބޫ މޫސަލް އަޝްޢަރީ ވިދާޅުވިއެވެ: "އަހަރެމެން ޞަޙާބީންނަށް ޙަދީޘެއްގައި ދަތިކަމެއް ދިމާވެ، ޢާއިޝަތުގެފާނާ ސުވާލުކުރުމުން، އެކަމުގެ ޢިލްމު އެކަމަނާގެ އަރިހުން ނުލިބި ނުދެއެވެ" (ތިރްމިޛީ 3883).
+
+ނަބިއްޔާ ﷺ އަވަހާރަވުމަށްފަހު ސާޅީސް އަހަރަށްވުރެ ގިނަ ދުވަހު މަދީނާގައި ފިރިހެނުންނާއި އަންހެނުންނަށް ކިޔަވައިދެއްވިއެވެ.
+
+އެކަމަނާގެ ޙަޔާތުން ދައްކައިދެނީ، ޢިލްމު ހޯދުމާއި އުނގަންނައިދިނުމަކީ ފިރިހެނުންގެ މަސައްކަތެއް ފަދައިން އަންހެނުންގެވެސް މަސައްކަތެއްކަމެވެ.
+
+@@ scholar-ibn-taymiyyah
+section: scholars
+title_en: Ibn Taymiyyah
+title_dv: އިބްނު ތައިމިއްޔާ
+--- en
+**Ahmad ibn 'Abd al-Halim ibn Taymiyyah** (661-728 AH / 1263-1328 CE) was born in Harran. When he was six his family fled the Mongol advance to Damascus, carrying their books on a cart. His father and grandfather were Hanbali scholars, and he was teaching and giving fatwa before he was twenty.
+
+He lived in a troubled age: the Mongols had destroyed Baghdad, and Crusader states still held parts of the coast. He urged the rulers and people to defend Syria and was present at the battle of Shaqhab in 1303, where the Mongols were turned back.
+
+His learning covered tafsir, hadith, law, theology, logic and the study of other religions. He called for returning to the Quran, the Sunnah and the understanding of the first generations, and criticised practices he judged to have no basis in them, as well as the methods of the philosophers and speculative theologians. He did not consider himself bound to one school's conclusions where he found the evidence pointed elsewhere.
+
+His positions on several matters differed from the scholars of his day, and he was imprisoned a number of times in Cairo, Alexandria and Damascus. He kept writing in prison until his pen and paper were taken away. He died in the citadel of Damascus, and a very large crowd attended his funeral.
+
+His best-known works are the collected **Majmu' al-Fatawa**, **al-'Aqidah al-Wasitiyyah** and **as-Siyasah ash-Shar'iyyah**. His student **Ibn al-Qayyim** carried on his work.
+
+Scholars since have differed about some of his views, with both strong admirers and critics. A fair reader takes from him, as from every scholar, what the evidence supports.
+--- dv
+**އަޙްމަދު ބިން ޢަބްދުލް ޙަލީމް އިބްނު ތައިމިއްޔާ** (661-728 ހ / 1263-1328 މ) އުފަންވީ ޙައްރާނުގައެވެ. ހަ އަހަރުގައި، މޮންގޯލުންގެ ހަމަލާތަކުން ސަލާމަތްވުމަށް ޢާއިލާ ދިމިޝްޤަށް ހިޖުރަކުރިއެވެ. ބައްޕާފުޅާއި ކާފާފުޅަކީ ޙަންބަލީ ޢިލްމުވެރިންނެވެ. ވިހި އަހަރުގެ ކުރިން ކިޔަވައިދެއްވައި ފަތުވާ ދެއްވަން ފެއްޓެވިއެވެ.
+
+އެކަލޭގެފާނު ދިރިއުޅުއްވީ ދަތި ޒަމާނެއްގައެވެ. މޮންގޯލުން ބަޣްދާދު ހަލާކުކޮށްފައިވެއެވެ. ޝާމު ދިފާޢުކުރުމަށް ވެރިންނަށާއި ރައްޔިތުންނަށް ހިތްވަރު ދެއްވައި، 1303 ގައި ޝަޤްޙަބު ހަނގުރާމައިގައި ބައިވެރިވެވަޑައިގަތެވެ.
+
+ތަފްސީރާއި، ޙަދީޘާއި، ފިޤްހާއި، ޢަޤީދާގެ ޢިލްމުގައި ފުންނާބު އުސް ބޭކަލެކެވެ. ޤުރުއާނާއި ސުންނަތާއި ސަލަފުންގެ ފަހުމަށް ރުޖޫޢަވުމަށް ގޮވާލެއްވިއެވެ.
+
+ބައެއް މައްސަލަތަކުގައި އެ ޒަމާނުގެ ޢިލްމުވެރިންނާ ޚިލާފުވުމުން، ޤާހިރާ، އިސްކަންދަރިއްޔާ އަދި ދިމިޝްޤުގައި އެތައް ފަހަރަކު ޖަލަށް ލެވުނެވެ. ދިމިޝްޤުގެ ކިއްލާގައި އަވަހާރަވިއެވެ.
+
+މަޝްހޫރު ފޮތްތަކަކީ **މަޖްމޫޢުލް ފަތާވާ**، **އަލްޢަޤީދަތުލް ވާސިޠިއްޔާ** އަދި **އައްސިޔާސަތުއްޝަރްޢިއްޔާ** އެވެ. ދަރިވަރު **އިބްނުލް ޤައްޔިމް** އެ މަސައްކަތް ކުރިއަށް ގެންދެވިއެވެ.
+
+އެކަލޭގެފާނުގެ ބައެއް ރައުޔުތަކާމެދު ފަހުގެ ޢިލްމުވެރިން ޚިލާފުވެފައިވެއެވެ. އިންޞާފުވެރި ކިޔުންތެރިޔާ، ކޮންމެ ޢިލްމުވެރިއެއްގެ ކިބައިންވެސް ފަދައިން، ދަލީލުން ސާބިތުވާ ކަންތައް ނަގާނީއެވެ.
+
+@@ history-ottomans
+section: islamic-history
+title_en: The Ottomans
+title_dv: ޢުޘްމާނީ ދައުލަތް
+--- en
+## Rise
+Around 1299 **Osman**, leader of a small Turkish principality in north-west Anatolia, began expanding against the Byzantine frontier. His successors took Bursa and crossed into Europe. In 1453 the twenty-one-year-old **Mehmed II** captured Constantinople, which the Prophet ﷺ had foretold would be conquered. It became Istanbul, and the church of Hagia Sophia became a mosque.
+
+## Height
+In 1517 **Selim I** added Syria, Egypt and the Hijaz, and the sultans took the title of servant of the two holy sanctuaries, and later that of caliph. Under **Suleiman** (1520-1566), called "the Lawgiver", the state stretched from Hungary to Yemen and from Algeria to Iraq. His architect **Sinan** built the Suleymaniye and Selimiye mosques.
+
+## How it worked
+- Law combined the Shari'ah, applied by judges of the Hanafi school, with the sultan's administrative regulations.
+- Christian and Jewish communities ran their own religious and family affairs. Jews expelled from Spain in 1492 were given refuge.
+- Endowments funded mosques, schools, hospitals, soup kitchens and fountains.
+- The state organised the hajj caravans and, in 1908, completed the Hijaz Railway to Madinah.
+
+## Decline
+After the failed siege of Vienna in 1683 the empire slowly lost ground to European powers that had overtaken it in science, industry and finance. Reforms came late. Nationalism pulled its provinces apart, and it entered the First World War on the losing side. The sultanate was abolished in 1922 and the **caliphate on 3 March 1924**.
+
+## Why it matters
+For four centuries it was the main Muslim power and protector of the holy cities. Its end left Muslims without a shared political centre, a question still discussed today.
+--- dv
+## ފެށުން
+1299 ހާއިރު އަނާޠޫލިއާގެ ހުޅަނގު އުތުރުގައިވާ ކުޑަ ތުރުކީ އިމާރާތެއްގެ ވެރިޔާ **ޢުޘްމާން**، ބައިޒަންޠީނީންގެ ސަރަޙައްދުތަކަށް ފުޅާވާން ފެއްޓެވިއެވެ. 1453 ގައި އެކާވީސް އަހަރުގެ **މުޙައްމަދުލް ފާތިޙު** ޤުސްޠަންޠީނިއްޔާ ފަތަޙަކުރެއްވިއެވެ. އެ ރަށް ފަތަޙަކުރެވޭނެކަމުގެ ޚަބަރު ނަބިއްޔާ ﷺ ދެއްވާފައިވެއެވެ. އެ ރަށަށް އިސްތަންބޫލުގެ ނަން ދެވުނެވެ.
+
+## އެންމެ ކުރިއެރި ދުވަސްވަރު
+1517 ގައި **ސަލީމް 1** ޝާމާއި، މިޞްރާއި، ޙިޖާޒު ދައުލަތާ ގުޅުއްވިއެވެ. ސުލްޠާނުންނަށް ޚާދިމުލް ޙަރަމައިންގެ ލަޤަބު ލިބުނެވެ. **ސުލައިމާނުލް ޤާނޫނީގެ** ދައުރުގައި (1520-1566) ދައުލަތް ހަންގޭރީއިން ޔަމަނަށް، އަދި ޖަޒާއިރުން ޢިރާޤަށް ފުޅާވިއެވެ. މިޢުމާރު **ސިނާން** ސުލައިމާނިއްޔާ މިސްކިތް ބިނާކުރެއްވިއެވެ.
+
+## ހިންގުން
+- ޙަނަފީ މަޛްހަބުގެ ޤާޟީން ޝަރީޢަތް ތަންފީޛުކުރެއްވިއެވެ.
+- ނަޞާރާއިންނާއި ޔަހޫދީންގެ ޖަމާޢަތްތަކުން އެމީހުންގެ ދީނީ އަދި ޢާއިލީ ކަންތައްތައް ހިންގިއެވެ.
+- ވަޤްފުތަކުން މިސްކިތްތަކާއި، މަދަރުސާތަކާއި، ހޮސްޕިޓަލުތަކަށް ޚަރަދުކުރެވުނެވެ.
+- ޙައްޖުގެ ޤާފިލާތައް އިންތިޒާމުކޮށް، 1908 ގައި މަދީނާއަށް ޙިޖާޒު ރޭލް މަގު ނިންމިއެވެ.
+
+## ދަށަށް ދިއުން
+1683 ގައި ވިޔެނާގެ ވަށާލުން ނާކާމިޔާބުވުމަށްފަހު، ސައިންސާއި ޞިނާޢަތުގައި ކުރިއަރައިގެންދިޔަ ޔޫރަޕުގެ ބާރުތަކުގެ ކުރިމަތީ ދައުލަތް ބަލިކަށިވިއެވެ. ފުރަތަމަ ބޮޑު ހަނގުރާމައިގައި ބަލިވިއެވެ. 1922 ގައި ސަލްޠަނަތު، އަދި **1924 މާރިޗު 3 ގައި ޚިލާފަތު** އުވާލެވުނެވެ.
+
+## މުހިންމުކަން
+ހަތަރު ޤަރުނު ވަންދެން އެއީ މުސްލިމުންގެ އެންމެ ބޮޑު ބާރެވެ. އަދި ދެ ޙަރަމްފުޅުގެ ޙިމާޔަތްތެރިޔާއެވެ.
+
+@@ history-indian-ocean
+section: islamic-history
+title_en: Islam across the Indian Ocean
+title_dv: ހިންދު ކަނޑުގެ ސަރަޙައްދަށް އިސްލާމްދީން ފެތުރުން
+--- en
+Islam reached the shores of the Indian Ocean on merchant ships, carried by traders and scholars, with no conquering army.
+
+## The monsoon road
+Sailors had long used the monsoon winds, blowing one way for half the year and back the other, to cross between Arabia, East Africa, India and the Far East. A merchant waiting months for the wind to turn would settle, marry, build a mosque and teach. Honest dealing was the first invitation people saw.
+
+## Along the coasts
+- **Yemen and Hadramawt** sent out traders and scholars for a thousand years, and with them the Shafi'i school.
+- **East Africa:** Muslim trading towns grew at Mogadishu, Mombasa, Zanzibar and Kilwa, and the Swahili language absorbed many Arabic words.
+- **Malabar and Sri Lanka:** Arab merchants settled on the pepper coast in the first Islamic centuries.
+- **The Maldives:** accepted Islam in 1153 CE. The islands sat at the crossing of these routes and supplied cowrie shells, dried fish and coir rope to ships of every nation.
+- **Southeast Asia:** Pasai in Sumatra had a Muslim ruler by the late thirteenth century, Malacca in the fifteenth, and from there Islam spread through the Malay world, today home to the largest Muslim population on earth.
+
+## One world
+When **Ibn Battutah** travelled in the 1330s and 1340s from East Africa to the Maldives, India and Sumatra, he found judges, mosques and a shared law in every port, and could work as a judge thousands of miles from home.
+
+## A shared heritage
+The Shafi'i school, the same short teaching texts, similar mosque crafts and family ties still link these coasts. Maldivian seafarers and traders belong to this history.
+--- dv
+ހިންދު ކަނޑުގެ އައްސޭރިތަކަށް އިސްލާމްދީން ފޯރީ ވިޔަފާރި ނައުތަކުގައި، ވިޔަފާރިވެރިންނާއި ޢިލްމުވެރިންގެ އަތްމަތިންނެވެ. ފަތަޙަކުރާ ލަޝްކަރެއް ނައެވެ.
+
+## މޫސުމީ ވައިގެ މަގު
+އެތައް ޒަމާނެއް ވަންދެން ނާވިކުން މޫސުމީ ވައިގެ އެހީގައި ޢަރަބިކަރައާއި، އިރުމަތީ އެފްރިކާއާއި، ހިންދުސްތާނާއި، ދުރު އިރުމައްޗާ ދެމެދު ދަތުރުކުރިއެވެ. ވައި ބަދަލުވަންދެން މަސްތަކެއް ވަންދެން މަޑުކުރާ ވިޔަފާރިވެރިޔާ، އެތަނުގައި ވަޒަންވެރިވެ، ކައިވެނިކޮށް، މިސްކިތެއް ބިނާކޮށް، ކިޔަވައިދިނެވެ. މީހުންނަށް ފެނުނު ފުރަތަމަ ދަޢުވަތަކީ ތެދުވެރި މުޢާމަލާތެވެ.
+
+## އައްސޭރިތަކުގައި
+- **ޔަމަނާއި ޙަޟްރަމައުތުން** އެއްހާސް އަހަރު ވަންދެން ވިޔަފާރިވެރިންނާއި ޢިލްމުވެރިން ނުކުތެވެ. އެބޭކަލުންނާއެކު ޝާފިޢީ މަޛްހަބު ފެތުރުނެވެ.
+- **އިރުމަތީ އެފްރިކާ:** މަޤްދީޝޫ، މޮމްބާސާ، ޒަންޖިބާރު އަދި ކިލްވާގައި މުސްލިމު ވިޔަފާރި ރަށްތައް އުފެދުނެވެ.
+- **މަލަބާރާއި ސްރީލަންކާ:** އިސްލާމްދީނުގެ ފުރަތަމަ ޤަރުނުތަކުގައި ޢަރަބި ވިޔަފާރިވެރިން ވަޒަންވެރިވިއެވެ.
+- **ދިވެހިރާއްޖެ:** މީލާދީން 1153 ގައި އިސްލާމްވިއެވެ. ރާއްޖެ އޮތީ މި މަގުތައް ހުރަސްކުރާ ތަނުގައެވެ. ބޮއްޔާއި، ހިކިމަހާއި، ރޯނު ހުރިހާ ޤައުމެއްގެ ނައުތަކަށް ވިއްކިއެވެ.
+- **ދެކުނު އިރުމަތީ އޭޝިޔާ:** ތޭރަވަނަ ޤަރުނުގެ ފަހުކޮޅު ސުމަތުރާގެ ޕަސައިގައި، އަދި ފަނަރަވަނަ ޤަރުނުގައި މަލަކާގައި މުސްލިމު ވެރިން ތިއްބެވެ.
+
+## އެއް ދުނިޔެއެއް
+1330 އާއި 1340 ގެ އަހަރުތަކުގައި **އިބްނު ބަޠޫޠާ** ދަތުރުކުރެއްވިއިރު، ކޮންމެ ބަނދަރެއްގައިވެސް ޤާޟީންނާއި، މިސްކިތްތަކާއި، އެއް ޝަރީޢަތެއް ފެނިވަޑައިގަތެވެ.
+
+## މުޝްތަރަކު ތަރިކައެއް
+ޝާފިޢީ މަޛްހަބާއި، ކިޔަވައިދޭ ކުރު މަތުނުތަކާއި، މިސްކިތް ބިނާކުރުމުގެ ފަންނުވެރިކަން މި އައްސޭރިތައް މިއަދުވެސް ގުޅުވައިދެއެވެ. ދިވެހި ކަނޑުދަތުރުވެރިންނާއި ވިޔަފާރިވެރިންނަކީ މި ތާރީޚުގެ ބައެކެވެ.
+
+@@ surah-31
+section: surah-notes
+title_en: Luqman
+title_dv: ލުޤްމާން ސޫރަތް
+--- en
+Named after a wise man whose advice to his son fills its centre (13-19): do not associate anything with Allah, be grateful to your parents, know that Allah brings out even a mustard seed's weight of deeds, pray, enjoin good, be patient, do not turn your cheek in pride, walk modestly and lower your voice. A complete lesson in raising a child.
+--- dv
+ދަރިފުޅަށް ދެއްވި ނަޞޭޙަތް (13-19) ގެ ސަބަބުން، ޙިކްމަތްތެރި ބޭކަލެއްގެ ނަމުން ނަންދެވިފައިވާ ސޫރަތެކެވެ: ﷲ އަށް ޝިރުކުނުކުރުމާއި، މައިންބަފައިންނަށް ޝުކުރުކުރުމާއި، ނަމާދުކުރުމާއި، ހެޔޮކަންތަކަށް އަމުރުކުރުމާއި، ކެތްތެރިވުމާއި، ކިބުރުވެރިނުވުމާއި، މަޑުމައިތިރިކަމާއެކު ހިނގުމާއި، އަޑު މަޑުކުރުން. ދަރިން ތަރުބިއްޔަތުކުރުމުގެ ފުރިހަމަ ފިލާވަޅެކެވެ.
+
+@@ surah-32
+section: surah-notes
+title_en: As-Sajdah, the Prostration
+title_dv: ސަޖިދަ ސޫރަތް
+--- en
+The Prophet ﷺ recited this surah with Al-Insan in the Fajr prayer on Fridays (Bukhari 891). It speaks of the creation of the human being from clay, the questioning after death, and the believers "whose sides leave their beds" to call on their Lord in fear and hope (16). Its fifteenth ayah is a place of prostration.
+--- dv
+ނަބިއްޔާ ﷺ ހުކުރު ދުވަހުގެ ފަތިސް ނަމާދުގައި އިންސާން ސޫރަތާއެކު މި ސޫރަތް ކިޔަވައިވިދާޅުވިއެވެ (ބުޚާރީ 891). އިންސާނާ މަށިން ހެއްދެވުމާއި، މަރަށްފަހު ސުވާލުކުރެވުމާއި، ބިރުވެރިކަމާއި އުންމީދާއެކު ވެރިރަސްކަލާނގެއަށް ދުޢާކުރުމަށް "އެނދުތަކުން އަރިކަށިތައް ދުރުކުރާ" މުއުމިނުންގެ ވާހަކަ ބަޔާންކުރެއެވެ (16). ފަނަރަވަނަ އާޔަތަކީ ސަޖިދައިގެ އާޔަތެކެވެ.
+
+@@ surah-49
+section: surah-notes
+title_en: Al-Hujurat, the Private Rooms
+title_dv: ޙުޖުރާތު ސޫރަތް
+--- en
+Eighteen ayahs of manners for a community. Do not raise your voice above the Prophet's. Verify news before acting on it (6). Make peace between believers who fight, for "the believers are but brothers" (10). Do not mock, insult, give offensive nicknames, suspect, spy or backbite (11-12). All people come from one man and one woman, and the most honoured with Allah is the most mindful of Him (13).
+--- dv
+މުޖުތަމަޢެއްގެ އަދަބުތަކާ ބެހޭ އަށާރަ އާޔަތެވެ. ނަބިއްޔާގެ އަޑުގެ މައްޗަށް އަޑު ނުއުފުލުން. ޚަބަރެއްގެ މައްޗަށް ޢަމަލުކުރުމުގެ ކުރިން ޔަޤީންކުރުން (6). ހަނގުރާމަކުރާ މުއުމިނުންގެ ދެމެދު ޞުލްޙަކުރުން، "ހަމަކަށަވަރުން މުއުމިނުންނަކީ އަޚުންނެވެ" (10). މަލާމާތްނުކުރުމާއި، ނުބައި ނަންނަމުން ނުގޮވުމާއި، ޖާސޫސްނުކުރުމާއި، ޣީބަނުބުނުން (11-12). ﷲ ގެ ޙަޟްރަތުގައި އެންމެ މާތް މީހަކީ އެންމެ ތަޤްވާވެރި މީހާއެވެ (13).
+
+@@ surah-62
+section: surah-notes
+title_en: Al-Jumu'ah, Friday
+title_dv: ޖުމުޢާ ސޫރަތް
+--- en
+A Madinan surah recited in the Friday prayer itself. It warns against carrying a scripture without living by it, like a donkey carrying books, then gives the command of Friday: "When the call is made for prayer on Friday, hasten to the remembrance of Allah and leave off trade" (9). When the prayer ends, spread out and seek Allah's bounty.
+--- dv
+ހުކުރު ނަމާދުގައި ކިޔަވާ މަދަނީ ސޫރަތެކެވެ. ފޮތަށް ޢަމަލުނުކޮށް ފޮތް އުފުލާ މީހާ، ފޮތްތައް އުފުލާ ޙިމާރަކާ ވައްތަރުކުރައްވައެވެ. އެއަށްފަހު ހުކުރުގެ އަމުރު ވެއެވެ: "ހުކުރު ދުވަހު ނަމާދަށް ގޮވާލެވިއްޖެނަމަ، ﷲ ގެ ޛިކުރަށް އަވަސްވެގަންނާށެވެ! އަދި ވިޔަފާރި ދޫކޮށްލާށެވެ!" (9). ނަމާދު ނިމުމުން ބިމުގައި ފެތުރި ﷲ ގެ ފަޟްލު ހޯދާށެވެ.
+
+@@ surah-73
+section: surah-notes
+title_en: Al-Muzzammil, the Enwrapped One
+title_dv: މުއްޒައްމިލް ސޫރަތް
+--- en
+Among the earliest revelations. It commands the Prophet ﷺ to stand in prayer for much of the night and recite the Quran in a measured way, to prepare for "a weighty word". Its last ayah, revealed later, lightened the duty for the believers: recite what is easy for you, pray, give zakat and lend Allah a goodly loan.
+--- dv
+އެންމެ ކުރިން ބާވައިލެއްވުނު ސޫރަތްތަކުގެ ތެރެއިން ސޫރަތެކެވެ. "ބަރު ބަސްފުޅަކަށް" ތައްޔާރުވުމަށްޓަކައި، ރޭގަނޑުގެ ބޮޑު ބައެއްގައި ނަމާދުކޮށް، ތަރުތީލުކޮށް ޤުރުއާން ކިޔެވުމަށް ނަބިއްޔާ ﷺ އަށް އަމުރުކުރައްވައެވެ. ފަހުން ބާވައިލެއްވުނު ފަހު އާޔަތުން މުއުމިނުންނަށް އެ ވާޖިބު ލުއިކޮށްދެއްވިއެވެ.
+
+@@ surah-87
+section: surah-notes
+title_en: Al-A'la, the Most High
+title_dv: އަޢުލާ ސޫރަތް
+--- en
+The Prophet ﷺ loved this surah and recited it in the Friday and Eid prayers and in witr. It opens "Glorify the name of your Lord, the Most High", the source of what we say in sujud. It promises that the Quran will be made easy to remember, and ends: "You prefer the life of this world, though the Hereafter is better and more lasting."
+--- dv
+ނަބިއްޔާ ﷺ ލޯބިކުރެއްވި، ހުކުރު ނަމާދާއި ޢީދު ނަމާދާއި ވިތުރީގައި ކިޔަވައިވިދާޅުވި ސޫރަތެކެވެ. ފެށެނީ "ކަލޭގެފާނުގެ އެންމެ މަތިވެރި ވެރިރަސްކަލާނގެ ނަންފުޅު ތަސްބީޙަކުރައްވާށެވެ!" މިހެންނެވެ. ނިމެނީ: "ތިޔަބައިމީހުން ދުނިޔޭގެ ދިރިއުޅުމަށް އިސްކަންދެއެވެ. އާޚިރަތް މާހެޔޮވެ ދެމިއޮތްހިނދުގައެވެ."
+
+@@ surah-89
+section: surah-notes
+title_en: Al-Fajr, the Dawn
+title_dv: ފަޖުރު ސޫރަތް
+--- en
+It swears by the dawn and the ten nights, recalls how 'Ad, Thamud and Pharaoh were destroyed, and corrects a common mistake: wealth is not proof of Allah's honour, nor hardship of His contempt. Both are tests. It ends with the most hoped-for call: "O soul at peace, return to your Lord, pleased and pleasing. Enter among My servants, enter My Garden."
+--- dv
+ފަތިހާއި ދިހަ ރޭ ގަންދެއްވައި ހުވާކުރައްވައެވެ. ޢާދު، ޘަމޫދު އަދި ފިރުޢައުނު ހަލާކުވި ގޮތް ހަނދާންކޮށްދެއްވައެވެ. އަދި ޢާންމު ކުށެއް ރަނގަޅުކުރައްވައެވެ: މުއްސަނދިކަމަކީ ﷲ ގެ ކަރާމާތުގެ ދަލީލެއް ނޫނެވެ. ދަތިކަމަކީ ނިކަމެތިކުރެއްވުމެއްވެސް ނޫނެވެ. ދެކަންތައްވެސް އިމްތިޙާނެކެވެ. ނިމެނީ: "އޭ ހަމަޖެހިފައިވާ ނަފްސެވެ! ތިބާގެ ވެރިރަސްކަލާނގެ ޙަޟްރަތަށް އެނބުރި އަންނާށެވެ!"
+
+@@ surah-95
+section: surah-notes
+title_en: At-Tin, the Fig
+title_dv: ތީން ސޫރަތް
+--- en
+Allah swears by the fig and the olive, Mount Sinai and the secure city of Makkah, places tied to 'Isa, Musa and Muhammad, peace be upon them. "We created the human being in the finest form, then reduced him to the lowest of the low, except those who believe and do good." It ends: "Is Allah not the most just of judges?"
+--- dv
+ތީނާއި، ޒައިތޫނިއާއި، ޠޫރުސީނާ ފަރުބަދައާއި، އަމާން ރަށް މައްކާ ގަންދެއްވައި ﷲ ހުވާކުރައްވައެވެ. "ހަމަކަށަވަރުން ތިމަންރަސްކަލާނގެ އިންސާނާ އެންމެ ރިވެތި ސޫރައިގައި ހެއްދެވީމެވެ. އެއަށްފަހު، އީމާންވެ ޞާލިޙު ޢަމަލުކުރި މީހުން ފިޔަވައި، އެންމެ ދަށު ދަރަޖައަށް އޭނާ ރައްދުކުރެއްވީމެވެ."
+
+@@ surah-96
+section: surah-notes
+title_en: Al-'Alaq, the Clinging Clot
+title_dv: ޢަލަޤް ސޫރަތް
+--- en
+Its first five ayahs are the first revelation, brought by Jibril to the cave of Hira: "Read, in the name of your Lord who created." Religion began with a command to read and a mention of the pen. The rest, revealed later, describes a man who forbade the Prophet ﷺ from praying, and ends: "Do not obey him. Prostrate and draw near." It is a place of prostration.
+--- dv
+ފުރަތަމަ ފަސް އާޔަތަކީ ޙިރާ ހޮހަޅައިގައި ޖިބްރީލްގެފާނު ގެންނެވި ފުރަތަމަ ވަޙީއެވެ: "ހެއްދެވި ކަލޭގެފާނުގެ ވެރިރަސްކަލާނގެ އިސްމުފުޅުން ކިޔަވާށެވެ!" ދީން ފެށުނީ ކިޔެވުމަށް ކުރެއްވި އަމުރަކާއި ގަލަމުގެ ޛިކުރަކުންނެވެ. ނިމެނީ: "ސަޖިދަކޮށް ގާތްވާށެވެ!" މިއީ ސަޖިދައިގެ އާޔަތެކެވެ.
+
+@@ surah-99
+section: surah-notes
+title_en: Az-Zalzalah, the Earthquake
+title_dv: ޒަލްޒަލާ ސޫރަތް
+--- en
+Eight ayahs on the final earthquake, when the earth throws out its burdens and reports what was done on it. People come out in scattered groups to be shown their deeds. "Whoever does an atom's weight of good will see it, and whoever does an atom's weight of evil will see it." The Prophet ﷺ called these two ayahs unique and all-embracing.
+--- dv
+ފަހު ބިންހެލުމާ ބެހޭ އަށް އާޔަތެވެ. ބިން އޭގެ ބުރަތައް ބޭރުކޮށް، އޭގެ މަތީގައި ކުރެވުނު ކަންތަކުގެ ޚަބަރު ދޭނެއެވެ. "ފަހެ ޛައްރެއްގެ މިންވަރު ހެޔޮކަމެއް ކުރާ މީހާއަށް އެކަން ފެންނާނެއެވެ. އަދި ޛައްރެއްގެ މިންވަރު ނުބައިކަމެއް ކުރާ މީހާއަށްވެސް އެކަން ފެންނާނެއެވެ."
+
+@@ surah-102
+section: surah-notes
+title_en: At-Takathur, Rivalry in Increase
+title_dv: ތަކާޘުރު ސޫރަތް
+--- en
+"Competing for more distracts you, until you visit the graves." Eight ayahs against a life spent piling up wealth, followers and status. It ends with a warning that fits every comfortable day: "Then on that Day you will surely be asked about the blessings."
+--- dv
+"ގިނަކުރުމުގައި ވާދަކުރުން ތިޔަބައިމީހުން ޣާފިލުކޮށްފިއެވެ. ތިޔަބައިމީހުން ކަށްވަޅުތަކަށް ޒިޔާރަތްކުރަންދެނެވެ." މުދަލާއި މަޤާމު ގިނަކުރުމުގައި ހޭދަކުރެވޭ ދިރިއުޅުމަކާ ދެކޮޅަށް އައިސްފައިވާ އަށް އާޔަތެވެ. ނިމެނީ: "އެއަށްފަހު އެ ދުވަހު ނިޢުމަތްތަކާމެދު ތިޔަބައިމީހުންނާ ސުވާލުކުރެވޭނެއެވެ."
+
+@@ surah-105
+section: surah-notes
+title_en: Al-Fil, the Elephant
+title_dv: ފީލް ސޫރަތް
+--- en
+In the year the Prophet ﷺ was born, Abrahah, the ruler of Yemen, marched on Makkah with an army and an elephant to destroy the Ka'bah. The Quraysh could not resist. Allah sent flocks of birds that pelted the army with stones of baked clay and left it like chewed straw. The people of Makkah had seen this with their own eyes.
+--- dv
+ނަބިއްޔާ ﷺ އުފަންވެވަޑައިގަތް އަހަރު، ޔަމަނުގެ ވެރިޔާ އަބްރަހާ ކަޢުބާ ހަލާކުކުރުމަށް ލަޝްކަރަކާއި އެތަކާއެކު މައްކާއަށް އައެވެ. ޤުރައިޝުންނަށް ދިފާޢެއް ނުކުރެވުނެވެ. ﷲ ދޫނި ބައިގަނޑުތަކެއް ފޮނުއްވިއެވެ. އެ ދޫނިތައް ލަޝްކަރަށް ފިހެފައިވާ މަށީގެ ހިލަ އުކިއެވެ.
+
+@@ surah-106
+section: surah-notes
+title_en: Quraysh
+title_dv: ޤުރައިޝު ސޫރަތް
+--- en
+A companion to Al-Fil. The Quraysh lived by two trading journeys, to Yemen in winter and Syria in summer, safe because they were the keepers of the Ka'bah. "So let them worship the Lord of this House, who fed them against hunger and made them secure from fear." Food and safety are the two blessings a people most easily forget.
+--- dv
+ފީލް ސޫރަތުގެ ޖޯޑެވެ. ޤުރައިޝުން ދިރިއުޅުނީ ދެ ވިޔަފާރި ދަތުރެއްގެ މައްޗަށެވެ: ފިނި މޫސުމުގައި ޔަމަނަށާއި ހޫނު މޫސުމުގައި ޝާމަށެވެ. "ފަހެ އެބައިމީހުން މި ގެފުޅުގެ ވެރިރަސްކަލާނގެއަށް އަޅުކަންކުރާށެވެ! އެކަލާނގެއީ ބަނޑުހައިކަމުން އެބައިމީހުންނަށް ކާންދެއްވައި، ބިރުވެރިކަމުން އެބައިމީހުންނަށް އަމާންކަން ދެއްވި ފަރާތެވެ."
+
+@@ surah-107
+section: surah-notes
+title_en: Al-Ma'un, Small Kindnesses
+title_dv: މާޢޫން ސޫރަތް
+--- en
+Who denies the religion? The one who pushes away the orphan and does not urge feeding the poor. Then: "Woe to those who pray but are heedless of their prayer, who only show off and withhold small kindnesses." Worship that does not make a person kind has missed its purpose.
+--- dv
+ދީން ދޮގުކުރާ މީހަކީ ކާކުހެއްޔެވެ؟ އެއީ ޔަތީމު ކުއްޖާ ދުރަށް ކޮށްޕާލާ، އަދި މިސްކީނުންނަށް ކާންދިނުމަށް ބާރުނާޅާ މީހާއެވެ. އެއަށްފަހު: "ނަމާދާމެދު ޣާފިލުވާ، ދެއްކުންތެރިކަން ކުރާ، ކުދިކުދި އެހީތައް މަނާކުރާ ނަމާދުކުރާ މީހުންނަށް ހަލާކު ހުއްޓެވެ."
+
+@@ surah-109
+section: surah-notes
+title_en: Al-Kafirun, the Disbelievers
+title_dv: ކާފިރޫން ސޫރަތް
+--- en
+The leaders of Makkah offered a compromise: worship our gods for a year and we will worship yours for a year. The answer was final: "I do not worship what you worship. To you your religion, and to me mine." The Prophet ﷺ recited it with Al-Ikhlas in the sunnah of Fajr and of Maghrib, and before sleep as a declaration of freedom from shirk.
+--- dv
+މައްކާގެ ވެރިން ހުށަހެޅީ: އަހަރަކު ކަލޭގެފާނު އަހަރެމެންގެ އިލާހުންނަށް އަޅުކަންކުރައްވާށެވެ. އަހަރަކު އަހަރެމެން ކަލޭގެފާނުގެ އިލާހަށް އަޅުކަންކުރާނަމެވެ. ޖަވާބަކީ: "ތިޔަބައިމީހުން އަޅުކަންކުރާ ތަކެއްޗަކަށް ތިމަންކަލޭގެފާނު އަޅުކަމެއް ނުކުރަމެވެ. ތިޔަބައިމީހުންނަށް ތިޔަބައިމީހުންގެ ދީނެވެ. އަދި ތިމަންކަލޭގެފާނަށް ތިމަންކަލޭގެފާނުގެ ދީނެވެ."
+
+@@ surah-110
+section: surah-notes
+title_en: An-Nasr, the Help
+title_dv: ނަޞްރު ސޫރަތް
+--- en
+The last complete surah to be revealed. "When the help of Allah and the victory come, and you see people entering Allah's religion in crowds, glorify your Lord with praise and ask His forgiveness." Ibn 'Abbas understood it as news that the Prophet's mission was complete and his death near. The response to success is humility and seeking forgiveness.
+--- dv
+އެންމެ ފަހުން ބާވައިލެއްވުނު ފުރިހަމަ ސޫރަތެވެ. "ﷲ ގެ ނަޞްރާއި ފަތަޙަ އަތުވެއްޖެ ހިނދު، އަދި މީސްތަކުން ބައިބައިމައްޗަށް ﷲ ގެ ދީނަށް ވަންނާތީ ކަލޭގެފާނު ދެކެވަޑައިގެންފި ހިނދު، ކަލޭގެފާނުގެ ވެރިރަސްކަލާނގެއަށް ޙަމްދުކުރުމާއެކު ތަސްބީޙަކުރައްވާށެވެ!" އިބްނު ޢައްބާސް ދެނެވަޑައިގަތީ، މިއީ ނަބިއްޔާގެ ރިސާލަތު ފުރިހަމަވެ އަވަހާރަވުން ގާތްވެފައިވާކަމުގެ ޚަބަރެއްކަމުގައެވެ.
+
+@@ surah-111
+section: surah-notes
+title_en: Al-Masad, the Palm Fibre
+title_dv: މަސަދު ސޫރަތް
+--- en
+When the Prophet ﷺ first called his clan from the hill of Safa, his own uncle Abu Lahab cursed him. This surah answered: his wealth and gains will not help him, and his wife, who carried slander and thorns to harm the Prophet, shares his end. It shows that kinship to a prophet is no protection without faith. Abu Lahab lived years after it was revealed and never accepted Islam.
+--- dv
+ނަބިއްޔާ ﷺ ޞަފާ ފަރުބަދަ މަތިން ދަރިކޮޅުގެ މީހުންނަށް ފުރަތަމަ ގޮވާލެއްވިއިރު، އެކަލޭގެފާނުގެ ބޮޑުބޭބޭފުޅު އަބޫ ލަހަބު ބަދުބަސް ބުންޏެވެ. މި ސޫރަތުން ޖަވާބު ދެއްވިއެވެ: އޭނާގެ މުދަލަކުން އޭނާއަށް ފައިދާއެއް ނުކުރާނެއެވެ. އީމާންކަމާ ނުލައި، ނަބިއްޔެއްގެ ގާތްތިމާގެ މީހަކަށް ވުމަކީ ރައްކާތެރިކަމެއް ނޫނެވެ.

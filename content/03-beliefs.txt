@@ -1,0 +1,702 @@
+%% iman | beliefs | The six articles of faith | އީމާންކަމުގެ ހަ ރުކުން | What a Muslim believes, beginning with the oneness of Allah. | މުސްލިމަކު އީމާންވާ ކަންތައްތައް، ﷲ ގެ އެއްކައުވަންތަކަމުން ފެށިގެން.
+
+@@ tawhid
+title_en: Tawhid, the oneness of Allah
+title_dv: ތައުޙީދު: ﷲ ގެ އެއްކައުވަންތަކަން
+ref: Quran 112; 2:255; 51:56
+--- en
+Tawhid means holding that Allah is One in every sense, and directing all worship to Him alone. It is the first thing every prophet taught and the foundation the rest of Islam stands on.
+
+Scholars often explain it in three parts so that it is easy to learn:
+
+- **Oneness of lordship.** Allah alone creates, owns, provides and governs everything. Nothing happens outside His knowledge and will.
+- **Oneness of worship.** Since He alone is Lord, He alone deserves prayer, supplication, sacrifice, vows, reliance and the deepest love and fear. This is the meaning of *la ilaha illallah*.
+- **Oneness of names and attributes.** Allah is described as He described Himself in the Quran and as His Messenger ﷺ described Him, without likening Him to creation. "There is nothing like Him, and He is the All-Hearing, the All-Seeing" (42:11).
+
+## Its opposite
+Giving any share of what belongs only to Allah to someone else is **shirk**. The Quran calls it the gravest wrong (31:13) and the one sin not forgiven for a person who dies without repenting from it (4:48). Showing off in worship is called the lesser shirk.
+
+## In daily life
+Tawhid shows in small things: asking Allah first, relying on Him while taking the means, not turning to fortune-tellers or charms, and being content when He decrees something you did not choose.
+--- dv
+ތައުޙީދުގެ މާނައަކީ ހުރިހާ ގޮތަކުންވެސް ﷲ އީ އެއްކައުވަންތަ ރަސްކަލާނގެކަން ޤަބޫލުކޮށް، ހުރިހާ އަޅުކަމެއް ހަމައެކަނި އެކަލާނގެއަށް ކުރުމެވެ. ކޮންމެ ނަބިއްޔަކުވެސް އެންމެ ފުރަތަމަ އުނގަންނައިދެއްވީ މިކަމެވެ. އިސްލާމްދީން ބިނާވެފައިވަނީ މީގެ މައްޗަށެވެ.
+
+ޢިލްމުވެރިން ތައުޙީދު ތިން ބަޔަކަށް ބަހާލައްވައެވެ:
+
+- **ރުބޫބިއްޔަތުގެ ތައުޙީދު.** ހެއްދެވުމާއި، މިލްކުވެރިކަމާއި، ރިޒުޤުދެއްވުމާއި، ކަންކަން ތަދުބީރުކުރެއްވުމުގައި ﷲ އެއްކައުވަންތަކުރުން.
+- **އުލޫހިއްޔަތުގެ ތައުޙީދު.** ނަމާދާއި، ދުޢާއާއި، ޤުރުބާނީއާއި، ނަދުރާއި، ވަކީލުކުރުން ފަދަ ހުރިހާ އަޅުކަމެއް ހަމައެކަނި ﷲ އަށް ކުރުން. *ލާ އިލާހަ އިއްލަﷲ* ގެ މާނައަކީ މިއީއެވެ.
+- **އިސްމުފުޅުތަކާއި ޞިފަފުޅުތަކުގެ ތައުޙީދު.** ޤުރުއާނާއި ސުންނަތުގައި ވާގޮތަށް، މަޚްލޫޤުންނާ ވައްތަރުނުކޮށް ﷲ ގެ އިސްމުފުޅުތަކާއި ޞިފަފުޅުތަކަށް އީމާންވުން. "އެކަލާނގެއާ އެއްފަދަ އެއްވެސް އެއްޗެއް ނުވެއެވެ" (42:11).
+
+## ތައުޙީދުގެ އިދިކޮޅު
+ހަމައެކަނި ﷲ އަށް ޚާއްޞަ ކަމެއްގައި އެހެން ފަރާތެއް ބައިވެރިކުރުމަކީ **ޝިރުކެވެ**. ޤުރުއާނުގައި އެއީ އެންމެ ބޮޑު އަނިޔާކަމަށް ވެއެވެ (31:13). އަދި ތައުބާނުވެ މަރުވާ މީހާއަށް ނުފުއްސެވޭނެ ހަމައެކަނި ފާފައެވެ (4:48).
+
+## ދުވަހުގެ ދިރިއުޅުމުގައި
+އެންމެ ފުރަތަމަ ﷲ ގެ ޙަޟްރަތުން އެދުމާއި، ސަބަބުތައް ހިފައިގެން އެކަލާނގެއަށް ވަކީލުކުރުމާއި، ފަލަކީ ޢިލްމުވެރިންނާއި ތަވީދުތަކުން ދުރުހެލިވުމާއި، އެކަލާނގެ ޤަޟާއަށް ރުހުމަކީ ތައުޙީދުގެ ނިޝާންތަކެވެ.
+
+@@ shahada
+title_en: The testimony of faith
+title_dv: ޝަހާދަތުގެ ދެ ކަލިމަ
+arabic: أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ
+translit: Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadar-rasulullah
+--- en
+**Meaning:** I bear witness that there is no god worthy of worship but Allah, and I bear witness that Muhammad is the Messenger of Allah.
+
+This sentence is the door to Islam and the first of its five pillars. It has two halves.
+
+## There is no god but Allah
+The first half denies and then affirms: it rejects every object of worship, then affirms worship for Allah alone. Saying it with the tongue must be joined by knowing what it means, being certain of it, accepting it, and living by it sincerely.
+
+## Muhammad is the Messenger of Allah
+The second half means believing what he ﷺ told us, obeying what he commanded, avoiding what he forbade, and worshipping Allah only in the way he taught. He is a servant who is not worshipped and a messenger who is not disbelieved.
+
+## Entering Islam
+A person becomes a Muslim by saying the testimony with understanding and belief. No ceremony or witness is required for it to be valid before Allah, although telling the community lets them help you. Islam wipes out the sins that came before it.
+--- dv
+**މާނަ:** ޙައްޤުވެގެން އަޅުކަންކުރެވޭ އިލާހަކު ﷲ ފިޔަވައި ނުވާކަމަށް އަހުރެން ހެކިވަމެވެ. އަދި މުޙައްމަދުގެފާނަކީ ﷲ ގެ ރަސޫލާކަމަށް އަހުރެން ހެކިވަމެވެ.
+
+މިއީ އިސްލާމްދީނަށް ވަނުމުގެ ދޮރެވެ. އަދި އިސްލާމްކަމުގެ ފަސް ރުކުނުގެ ތެރެއިން ފުރަތަމަ ރުކުނެވެ.
+
+## ލާ އިލާހަ އިއްލަﷲ
+ފުރަތަމަ ބައިގައި ނަފީކުރުމަކާއި ސާބިތުކުރުމެއް ވެއެވެ. ﷲ ފިޔަވައި އަޅުކަންކުރެވޭ ހުރިހާ އެއްޗެއް ނަފީކޮށް، އަޅުކަން ހަމައެކަނި ﷲ އަށް ސާބިތުކުރަނީއެވެ. ދުލުން ކިޔުމާއެކު އޭގެ މާނަ ދެނެގަތުމާއި، ޔަޤީންކުރުމާއި، ޤަބޫލުކުރުމާއި، އިޚްލާޞްތެރިކަމާއެކު އެއަށް ޢަމަލުކުރުން ލާޒިމެވެ.
+
+## މުޙައްމަދުން ރަސޫލުﷲ
+ދެވަނަ ބައިގެ މާނައަކީ އެކަލޭގެފާނު ﷺ ދެއްވި ޚަބަރުތައް ތެދުކުރުމާއި، އަމުރުކުރެއްވި ކަންކަމަށް ކިޔަމަންވުމާއި، ނަހީކުރެއްވި ކަންކަމުން ދުރުވުމާއި، އެކަލޭގެފާނު ދެއްކެވި ގޮތަށް މެނުވީ ﷲ އަށް އަޅުކަން ނުކުރުމެވެ.
+
+## އިސްލާމްވުން
+މާނަ ދެނެގެން އީމާންކަމާއެކު ޝަހާދަތް ކިޔުމުން މީހަކު މުސްލިމަކަށް ވެއެވެ. އިސްލާމްވުމުން އޭގެ ކުރީގެ ފާފަތައް ފުހެވިގެންދެއެވެ.
+
+@@ angels
+title_en: Belief in the angels
+title_dv: މަލާއިކަތުންނަށް އީމާންވުން
+ref: Quran 2:285; 66:6; 35:1
+--- en
+Angels are a creation of Allah made from light. They do not eat, sleep or disobey. "They do not disobey Allah in what He commands them, and they do what they are commanded" (66:6). We cannot see them in their true form, and we believe in them because Allah and His Messenger ﷺ told us of them.
+
+## Angels named in revelation
+- **Jibril** brought revelation to the prophets.
+- **Mika'il** is entrusted with rain and provision.
+- **Israfil** will blow the trumpet for the Last Day.
+- **The Angel of Death** takes souls at their appointed time.
+- **Malik** is the keeper of Hell.
+- **Munkar and Nakir** question the dead in the grave.
+- **The noble recorders** write each person's deeds (82:10-12).
+
+## Why it matters
+Knowing that two angels record your words and deeds brings care in private as well as in public. Knowing that angels pray for those who seek knowledge, wait for prayer and visit the sick brings hope. Angels attend gatherings where Allah is remembered and say *Amin* with the worshippers.
+--- dv
+މަލާއިކަތުންނަކީ ނޫރުން ﷲ ހެއްދެވި މަޚްލޫޤުންތަކެކެވެ. އެބޭކަލުން ނުކައެވެ. ނުނިދައެވެ. އަދި ﷲ އަށް އުރެދުމެއް ނުވެއެވެ. "ﷲ އެބޭކަލުންނަށް އަމުރުކުރައްވާ ކަންތަކުގައި އެބޭކަލުން އެކަލާނގެއަށް ނުއުރެދެއެވެ" (66:6). އަޅުގަނޑުމެންނަށް އެބޭކަލުން ނުފެނުނު ނަމަވެސް، ﷲ އާއި އެކަލާނގެ ރަސޫލާ ޚަބަރު ދެއްވާފައިވާތީ އީމާންވަމުއެވެ.
+
+## ނަންފުޅު އެނގިފައިވާ މަލާއިކަތުން
+- **ޖިބްރީލް** ނަބީބޭކަލުންނަށް ވަޙީ ގެނެސްދެއްވި.
+- **މީކާއީލް** ވާރޭއާއި ރިޒުޤާ ޙަވާލުވެވޮޑިގެންވާ.
+- **އިސްރާފީލް** ޤިޔާމަތް ދުވަހަށް ތާޅަފިލި ފުމެލައްވާ.
+- **މަލަކުލް މައުތު** ފުރާނަ ހިއްޕަވާ.
+- **މާލިކު** ނަރަކައިގެ ބެލެނިވެރިޔާ.
+- **މުންކަރާއި ނަކީރު** ކަށްވަޅުގައި ސުވާލުކުރައްވާ.
+- **ކިރާމަން ކާތިބީން** އަޅާގެ ޢަމަލުތައް ލިޔުއްވާ (82:10-12).
+
+## މީގެ މުހިންމުކަން
+ދެ މަލާއިކަތަކު ބަސްތަކާއި ޢަމަލުތައް ލިޔުއްވާކަން އެނގުމުން، ސިއްރުގައިވެސް ފާޅުގައިވެސް ސަމާލުވެވެއެވެ. ޢިލްމު ހޯދާ މީހުންނާއި ނަމާދަށް އިންތިޒާރުކުރާ މީހުންނަށް މަލާއިކަތުން ދުޢާކުރައްވާކަން އެނގުމުން އުންމީދު ލިބެއެވެ.
+
+@@ books
+title_en: Belief in the revealed books
+title_dv: ފޮތްތަކަށް އީމާންވުން
+ref: Quran 2:136; 5:44-48; 15:9
+--- en
+Allah sent down books with His messengers to guide people. A Muslim believes in all of them as they were originally revealed.
+
+## The books named in the Quran
+- The **Scrolls** given to Ibrahim and Musa.
+- The **Tawrah** revealed to Musa.
+- The **Zabur** revealed to Dawud.
+- The **Injil** revealed to 'Isa.
+- The **Quran** revealed to Muhammad ﷺ.
+
+## The Quran's place
+The Quran confirms the truth in the earlier books and stands as the guardian over them (5:48). The earlier scriptures were entrusted to their communities to preserve, and over time parts were lost or altered. Allah Himself took on the preservation of the Quran: "We sent down the Reminder and We will guard it" (15:9). It remains in its original language, memorised by millions, and recited in the same words in every country.
+
+## What this belief asks of us
+To believe everything the Quran says, to follow its commands, to recite and reflect on it, and to judge by it. Where the earlier books agree with the Quran we accept that; where they contradict it we follow the Quran; and where it is silent we neither confirm nor deny.
+--- dv
+މީސްތަކުންނަށް ތެދުމަގު ދެއްކެވުމަށްޓަކައި ﷲ އެކަލާނގެ ރަސޫލުންނަށް ފޮތްތައް ބާވައިލެއްވިއެވެ. ބާވައިލެއްވި އަޞްލު ގޮތުގައި އެ ހުރިހާ ފޮތަކަށް މުސްލިމު އީމާންވެއެވެ.
+
+## ޤުރުއާނުގައި ނަން އައިސްފައިވާ ފޮތްތައް
+- އިބްރާހީމްގެފާނާއި މޫސާގެފާނަށް ދެއްވި **ޞުޙުފުތައް**.
+- މޫސާގެފާނަށް ބާވައިލެއްވި **ތައުރާތު**.
+- ދާއޫދުގެފާނަށް ބާވައިލެއްވި **ޒަބޫރު**.
+- ޢީސާގެފާނަށް ބާވައިލެއްވި **އިންޖީލު**.
+- މުޙައްމަދުގެފާނު ﷺ އަށް ބާވައިލެއްވި **ޤުރުއާން**.
+
+## ޤުރުއާނުގެ މަޤާމު
+ޤުރުއާނަކީ ކުރީގެ ފޮތްތަކުގައިވާ ޙައްޤު ތެދުކުރާ، އަދި އެ ފޮތްތަކުގެ މައްޗަށް ބެލެނިވެރިވެގެންވާ ފޮތެވެ (5:48). ކުރީގެ ފޮތްތައް ރައްކާތެރިކުރުން ޙަވާލުކުރެވުނީ އެ އުންމަތްތަކާއެވެ. ޒަމާންތަކެއްގެ ތެރޭގައި އޭގެ ބައެއް ގެއްލި، ބަދަލުވިއެވެ. ނަމަވެސް ޤުރުއާން ރައްކާތެރިކުރެއްވުން ﷲ ޒިންމާވެވޮޑިގެންފިއެވެ (15:9).
+
+## މި އީމާންކަމުން ލާޒިމުވާ ކަންތައް
+ޤުރުއާނުގައިވާ ހުރިހާ ކަމެއް ތެދުކުރުމާއި، އޭގެ އަމުރުތަކަށް ތަބާވުމާއި، ކިޔަވައި ވިސްނުމާއި، އެއިން ޙުކުމްކުރުމެވެ.
+
+@@ messengers
+title_en: Belief in the messengers
+title_dv: ރަސޫލުންނަށް އީމާންވުން
+ref: Quran 16:36; 4:163-165; 33:40
+--- en
+Allah sent messengers to every nation with one message: "Worship Allah and avoid false gods" (16:36). They were human beings, the best of people in character, who conveyed what was revealed to them completely and did not claim any share of divinity.
+
+## How many
+The Quran names twenty-five prophets, among them Adam, Nuh, Ibrahim, Musa, 'Isa and Muhammad, peace be upon them all. There were many more whose stories we were not told (40:78). A Muslim believes in all of them and does not reject any: "We make no distinction between any of His messengers" (2:285).
+
+## The five of firm resolve
+Nuh, Ibrahim, Musa, 'Isa and Muhammad are singled out for the hardship they bore (46:35; 33:7).
+
+## The final messenger
+Muhammad ﷺ is the seal of the prophets (33:40). There is no prophet after him, and his message is for all people until the Last Day. 'Isa, peace be upon him, is a servant and messenger of Allah, born miraculously to Maryam. He was not killed or crucified; Allah raised him up, and he will return before the Last Day and rule by the law of Muhammad ﷺ.
+
+## What we owe them
+To believe them, love them, send peace upon them when they are mentioned, and follow the last of them.
+--- dv
+"ﷲ އަށް އަޅުކަންކުރާށެވެ! އަދި ޠާޣޫތުންނާ ދުރުހެލިވާށެވެ!" (16:36) މި އެއް ރިސާލަތާއެކު ﷲ ކޮންމެ އުންމަތަކަށް ރަސޫލުން ފޮނުއްވިއެވެ. އެބޭކަލުންނަކީ އިންސާނުންނެވެ. އަޚްލާޤުގެ ގޮތުން އެންމެ މާތް ބޭކަލުންނެވެ. ވަޙީކުރެއްވުނު ކަންތައްތައް ފުރިހަމައަށް އިއްވެވި ބޭކަލުންނެވެ.
+
+## ޢަދަދު
+ޤުރުއާނުގައި ފަންސަވީސް ނަބީބޭކަލެއްގެ ނަންފުޅު ވެއެވެ. އޭގެ ތެރޭގައި އާދަމް، ނޫޙު، އިބްރާހީމް، މޫސާ، ޢީސާ އަދި މުޙައްމަދު (ޢަލައިހިމުއްސަލާމް) ހިމެނިވަޑައިގަންނަވައެވެ. ވާހަކަ ނާންގަވާ އިތުރު ގިނަ ބޭކަލުންވެސް ވެއެވެ (40:78). މުސްލިމު އެ ހުރިހާ ބޭކަލުންނަށް އީމާންވެއެވެ.
+
+## އުލުލްޢަޒްމުގެ ފަސް ބޭކަލުން
+ނޫޙު، އިބްރާހީމް، މޫސާ، ޢީސާ އަދި މުޙައްމަދު (ޢަލައިހިމުއްސަލާމް).
+
+## ފަހު ރަސޫލާ
+މުޙައްމަދުގެފާނު ﷺ އަކީ ނަބީންގެ ޚާތިމެވެ (33:40). އެކަލޭގެފާނަށްފަހު ނަބިއްޔަކު ނުވެއެވެ. ޢީސާގެފާނަކީ ﷲ ގެ އަޅެއް އަދި ރަސޫލެކެވެ. އެކަލޭގެފާނު ޤަތުލެއް ނުކުރެވެއެވެ. ﷲ އެކަލޭގެފާނު އުފުއްލެވިއެވެ. ޤިޔާމަތުގެ ކުރިން އަލުން ފައިބާވަޑައިގަންނަވާނެއެވެ.
+
+## އެބޭކަލުންގެ ޙައްޤު
+ތެދުކުރުމާއި، ލޯބިކުރުމާއި، ނަންފުޅު ކިޔޭއިރު ސަލާމްކިޔުމާއި، ފަހު ރަސޫލާއަށް ތަބާވުމެވެ.
+
+@@ last-day
+title_en: Belief in the Last Day
+title_dv: އާޚިރަތް ދުވަހަށް އީމާންވުން
+ref: Quran 99; 23:99-104; 39:68-70
+--- en
+This life is a test and it ends. A Muslim believes in everything the Quran and Sunnah say will come after death.
+
+## The grave
+Each person is questioned in the grave: Who is your Lord? What is your religion? Who is your prophet? The grave is then a place of ease or of hardship until the Resurrection. This stage is called the *barzakh*.
+
+## The Hour and its signs
+Only Allah knows when the Hour will come (7:187). Among the major signs taught by the Prophet ﷺ are the appearance of the Dajjal, the descent of 'Isa, Ya'juj and Ma'juj, and the sun rising from the west.
+
+## The Resurrection and the Reckoning
+The trumpet is blown and all people rise. Deeds are presented, records are handed over in the right hand or the left, and deeds are weighed on the Scale. "Whoever does an atom's weight of good will see it, and whoever does an atom's weight of evil will see it" (99:7-8). People then cross the Bridge over Hell.
+
+## Paradise and Hell
+Both exist now and are everlasting. Paradise is for those who believed and did good, by Allah's mercy. The Prophet ﷺ will intercede for his community, and no one who has faith in their heart remains in Hell forever.
+
+## What it changes
+Believing in the Last Day gives weight to every choice. It comforts the wronged, restrains the one who could do wrong unseen, and keeps the heart from being attached to what will end.
+--- dv
+މި ދުނިޔޭގެ ދިރިއުޅުމަކީ އިމްތިޙާނެކެވެ. އެއަށް ނިމުމެއް އޮވެއެވެ. މަރަށްފަހު ވާނެކަމަށް ޤުރުއާނާއި ސުންނަތުގައިވާ ހުރިހާ ކަމަކަށް މުސްލިމު އީމާންވެއެވެ.
+
+## ކަށްވަޅު
+ކޮންމެ މީހަކާ ކަށްވަޅުގައި ސުވާލުކުރެވެއެވެ: ތިބާގެ ވެރިރަސްކަލާނގެއަކީ ކާކުހެއްޔެވެ؟ ތިބާގެ ދީނަކީ ކޮބައިހެއްޔެވެ؟ ތިބާގެ ނަބިއްޔަކީ ކާކުހެއްޔެވެ؟ އެއަށްފަހު ޤިޔާމަތާ ހަމައަށް ކަށްވަޅަކީ ނިޢުމަތުގެ ނުވަތަ ޢަޛާބުގެ ތަނެކެވެ. މި މަރުޙަލާއަށް *ބަރްޒަޚް* ކިޔައެވެ.
+
+## ޤިޔާމަތާއި އޭގެ ޢަލާމާތްތައް
+ޤިޔާމަތް އަންނާނެ ވަގުތު ދެނެވޮޑިގެންވަނީ ހަމައެކަނި ﷲ އެވެ (7:187). ބޮޑެތި ޢަލާމާތްތަކުގެ ތެރޭގައި ދައްޖާލު ނުކުތުމާއި، ޢީސާގެފާނު ފައިބާވަޑައިގަތުމާއި، ޔައުޖޫޖު މައުޖޫޖާއި، ހުޅަނގުން އިރުއެރުން ހިމެނެއެވެ.
+
+## އަލުން ދިރުއްވުމާއި ޙިސާބު
+ތާޅަފިލި ފުމެލެވުމުން އެންމެން ތެދުވާނެއެވެ. ޢަމަލުތައް ހުށަހެޅި، ފޮތްތައް ކަނާތަށް ނުވަތަ ވާތަށް ދެވި، ޢަމަލުތައް މީޒާނުގައި ކިރޭނެއެވެ. "ފަހެ ޛައްރެއްގެ މިންވަރު ހެޔޮކަމެއް ކުރާ މީހާއަށް އެކަން ފެންނާނެއެވެ" (99:7-8). އެއަށްފަހު ނަރަކައިގެ މަތީގައިވާ ޞިރާޠު ހުރަސްކުރާނެއެވެ.
+
+## ސުވަރުގެއާއި ނަރަކަ
+މި ދެތަން މިހާރުވެސް ވުޖޫދުގައިވެއެވެ. އަދި ދެމިއޮންނާނެއެވެ. ސުވަރުގެއަކީ ﷲ ގެ ރަޙްމަތްފުޅުން، އީމާންވެ ޞާލިޙު ޢަމަލުކުރި މީހުންގެ ތަނެވެ.
+
+## ދިރިއުޅުމަށް ކުރާ އަސަރު
+އާޚިރަތަށް އީމާންވުމުން ކޮންމެ ނިންމުމަކަށް ބަރުދަނެއް ލިބެއެވެ. އަނިޔާ ލިބުނު މީހާއަށް ހިތްހަމަޖެހުން ލިބެއެވެ. އަދި ސިއްރުގައި ފާފަކުރުމުން މީހާ މަނާކުރެއެވެ.
+
+@@ qadr
+title_en: Belief in divine decree
+title_dv: ޤަދަރަށް އީމާންވުން
+ref: Quran 54:49; 57:22-23; Muslim 2653
+--- en
+Belief in *qadr* is to hold that everything, good and bad, happens by Allah's knowledge and will. Scholars describe four levels:
+
+1. **Knowledge.** Allah has always known everything that will be.
+2. **Writing.** He recorded it in the Preserved Tablet before creating the heavens and the earth.
+3. **Will.** Nothing occurs unless He wills it.
+4. **Creation.** He is the Creator of all things, including our actions.
+
+## Decree and responsibility
+People have real choice and are answerable for it. You feel the difference between choosing to stand and trembling from a fever. Allah's knowing what you will choose does not force the choice. So the decree is never an excuse for sin, and the Companions were told to keep working: "Act, for everyone is eased towards what they were created for" (Bukhari 4949).
+
+## How a believer responds
+- Before something happens: take the means and rely on Allah.
+- When something good comes: thank Him.
+- When hardship comes: be patient and say, "Allah decreed, and what He willed He did." The Prophet ﷺ warned against "if only", because it opens the door to Satan (Muslim 2664).
+
+The fruit of this belief is calm. "No calamity strikes except by Allah's permission, and whoever believes in Allah, He guides his heart" (64:11).
+--- dv
+ޤަދަރަށް އީމާންވުމަކީ ހެޔޮ ނުބައި ހުރިހާ ކަމެއް ހިނގަނީ ﷲ ގެ ޢިލްމުފުޅާއި އިރާދަފުޅުގެ ދަށުންކަން ޤަބޫލުކުރުމެވެ. ޢިލްމުވެރިން މީގެ ހަތަރު ދަރަޖައެއް ބަޔާންކުރައްވައެވެ:
+
+1. **ޢިލްމު.** ވާނެ ހުރިހާ ކަމެއް ﷲ އަބަދުވެސް ދެނެވޮޑިގެންވެއެވެ.
+2. **ލިޔުއްވުން.** އުޑުތަކާއި ބިން ހެއްދެވުމުގެ ކުރިން ލައުޙުލް މަޙްފޫޡުގައި އެކަންކަން ލިޔުއްވިއެވެ.
+3. **އިރާދަފުޅު.** އެކަލާނގެ އިރާދަކުރެއްވުމަކާ ނުލައި އެއްވެސް ކަމެއް ނުވެއެވެ.
+4. **ހެއްދެވުން.** އަޅުންގެ ޢަމަލުތައް ހިމެނޭ ގޮތަށް، ހުރިހާ އެއްޗެއް ހެއްދެވީ އެކަލާނގެއެވެ.
+
+## ޤަދަރާއި ޒިންމާ
+އިންސާނާއަށް އިޚްތިޔާރެއް ދެއްވާފައިވެއެވެ. އަދި އެ އިޚްތިޔާރަށް ޖަވާބުދާރީވާންޖެހޭނެއެވެ. އެހެންކަމުން ޤަދަރަކީ ފާފަކުރުމަށް ދެއްކޭނެ ޢުޒުރެއް ނޫނެވެ. "ޢަމަލުކުރާށެވެ! ކޮންމެ މީހަކަށްވެސް އޭނާ ހެއްދެވުނު ކަމަކަށް ފަސޭހަކޮށްދެވޭނެއެވެ" (ބުޚާރީ 4949).
+
+## މުއުމިނާ ޢަމަލުކުރާ ގޮތް
+- ކަމެއް ވުމުގެ ކުރިން: ސަބަބުތައް ހިފައި ﷲ އަށް ވަކީލުކުރުން.
+- ހެޔޮކަމެއް ލިބުމުން: ޝުކުރުކުރުން.
+- ދަތިކަމެއް ދިމާވުމުން: ކެތްތެރިވެ، "ﷲ މިންވަރުކުރެއްވިއެވެ. އަދި އެކަލާނގެ އިރާދަކުރެއްވި ގޮތަށް ކުރެއްވިއެވެ" މިހެން ބުނުން.
+
+މި އީމާންކަމުގެ ނަތީޖާއަކީ ހިތުގެ ހަމަޖެހުމެވެ (64:11).
+
+%% pillars | beliefs | The pillars of Islam | އިސްލާމްކަމުގެ ރުކުންތައް | Purification, zakat, fasting and hajj. Prayer has its own section. | ޠަހާރަތާއި، ޒަކާތާއި، ރޯދައާއި ޙައްޖު. ނަމާދަށް ވަކި ބައެއް ވާނެއެވެ.
+
+@@ five-pillars
+title_en: The five pillars at a glance
+title_dv: އިސްލާމްކަމުގެ ފަސް ރުކުން
+ref: Bukhari 8; Muslim 16
+--- en
+The Prophet ﷺ said: "Islam is built on five: testifying that there is no god but Allah and that Muhammad is the Messenger of Allah, establishing the prayer, giving zakat, fasting Ramadan, and pilgrimage to the House."
+
+1. **The testimony of faith** is said once to enter Islam and lived for the rest of one's life.
+2. **Prayer** is five times a day at fixed times, for every sane adult Muslim. It is the first deed asked about on the Day of Judgement.
+3. **Zakat** is 2.5% of savings held for a lunar year above a minimum amount, given to the eight groups named in the Quran.
+4. **Fasting Ramadan** is from dawn to sunset for the whole month, for those who are able.
+5. **Hajj** is once in a lifetime for whoever has the health and means to make the journey.
+
+The first is a matter of belief and speech; prayer and fasting are done with the body; zakat with wealth; hajj with both. Together they train a person to give Allah their heart, time, comfort and money.
+
+These are the pillars, not the whole building. Honesty, good character, kindness to parents and earning lawfully are all part of Islam, and they rest on these five.
+--- dv
+ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: "އިސްލާމްދީން ބިނާވެފައިވަނީ ފަސް ކަމެއްގެ މައްޗަށެވެ: ﷲ ފިޔަވައި އެހެން އިލާހަކު ނުވާކަމަށާއި މުޙައްމަދުގެފާނަކީ ﷲ ގެ ރަސޫލާކަމަށް ހެކިވުމާއި، ނަމާދު ޤާއިމުކުރުމާއި، ޒަކާތް ދިނުމާއި، ރަމަޟާން މަހު ރޯދަހިފުމާއި، ގެފުޅަށް ޙައްޖުވުން."
+
+1. **ޝަހާދަތް** އިސްލާމްވުމަށް އެއްފަހަރު ކިޔައި، މުޅި ޢުމުރު އެއަށް ޢަމަލުކުރެވޭ.
+2. **ނަމާދު** ދުވާލަކު ފަސް ފަހަރު، ކަނޑައެޅިފައިވާ ވަގުތުތަކުގައި. ޤިޔާމަތް ދުވަހު އެންމެ ފުރަތަމަ ސުވާލުކުރެވޭ ޢަމަލު.
+3. **ޒަކާތް** ނިޞާބު ހަމަވެ ހިޖުރީ އަހަރެއް ފުރޭ މުދަލުން 2.5%، ޤުރުއާނުގައި ބަޔާންވެފައިވާ އަށް ބާވަތުގެ މީހުންނަށް.
+4. **ރަމަޟާން މަހުގެ ރޯދަ** ކުޅަދާނަ މީހުންނަށް، ފަތިހުން އިރުއޮއްސެންދެން މުޅި މަސް.
+5. **ޙައްޖު** ތަނަވަސްކަން ހުރި މީހާއަށް ޢުމުރުން އެއްފަހަރު.
+
+މިއީ ރުކުންތަކެވެ. މުޅި ދީނެއް ނޫނެވެ. ތެދުވެރިކަމާއި، ރިވެތި އަޚްލާޤާއި، މައިންބަފައިންނަށް ހެޔޮކޮށް ހިތުމާއި، ޙަލާލު ގޮތުގައި ރިޒުޤު ހޯދުމަކީވެސް އިސްލާމްދީނުގެ ބައިތަކެވެ.
+
+@@ purification
+title_en: Purification: wudu, ghusl and tayammum
+title_dv: ޠަހާރަތު: ވުޟޫއާއި، ހިނައިގަތުމާއި، ތަޔައްމުމު
+ref: Quran 5:6; 4:43
+--- en
+Prayer is not valid without purity. There are two kinds of ritual impurity and a way to lift each.
+
+## Wudu
+Minor impurity is lifted by wudu. The step-by-step guide is in the Prayer tab. Its obligations in the Shafi'i school are six: intention, washing the face, washing the arms to the elbows, wiping part of the head, washing the feet to the ankles, and keeping that order.
+
+## Ghusl
+Major impurity follows sexual intercourse, the emission of semen, and the end of menstruation or post-natal bleeding. It is lifted by ghusl, which has two obligations:
+
+1. Intending to lift major impurity.
+2. Making water reach every part of the skin and hair.
+
+The sunnah way is to wash the hands and private parts, make wudu, pour water over the head three times, then wash the right side and the left. Ghusl is also sunnah for the Friday prayer and the two Eids.
+
+## Tayammum
+When there is no water, or using it would cause harm because of illness, dry ablution takes the place of wudu and ghusl. Intend it, strike clean earth with both palms and wipe the face, then strike again and wipe the arms to the elbows. In the Shafi'i school one tayammum serves one obligatory prayer, and it is made after the prayer time enters.
+
+## Removing impurities
+Urine, faeces, blood, and the like must be washed from the body, clothes and prayer place until no trace remains.
+--- dv
+ޠަހާރަތާ ނުލައި ނަމާދެއް ޞައްޙައެއް ނުވެއެވެ. ޙަދަޘުގެ ދެ ބާވަތެއް ވެއެވެ. އެ ކޮންމެ ބާވަތެއް ފިލުވާނެ ގޮތެއް ވެއެވެ.
+
+## ވުޟޫ
+ކުޑަ ޙަދަޘު ފިލަނީ ވުޟޫކުރުމުންނެވެ. މަރުޙަލާތަކާއެކު ވުޟޫކުރާނެ ގޮތް ނަމާދުގެ ބައިގައި ވާނެއެވެ. ޝާފިޢީ މަޛްހަބުގައި ވުޟޫގެ ފަރުޟުތަކަކީ ހައެކެވެ: ނިޔަތް، މޫނު ދޮވުން، އުޅަނބޮށްޓާއެކު ދެއަތް ދޮވުން، ބޮލުގެ ބައެއްގައި ފެންފޮހުން، ތަނބިކަށްޓާއެކު ދެފައި ދޮވުން، އަދި ތަރުތީބު.
+
+## ހިނައިގަތުން (ޣުސްލު)
+ބޮޑު ޙަދަޘު ވެރިވަނީ ޖިމާޢުވުމުންނާއި، މަނި ބޭރުވުމުންނާއި، ޙައިޟު ނުވަތަ ނިފާސް ނިމުމުންނެވެ. އެ ފިލަނީ ހިނައިގަތުމުންނެވެ. ހިނައިގަތުމުގެ ފަރުޟަކީ ދެ ކަމެކެވެ:
+
+1. ބޮޑު ޙަދަޘު ފިލުވުމަށް ނިޔަތްގަތުން.
+2. ހަންގަނޑާއި އިސްތަށީގެ ހުރިހާ ތަނަކަށް ފެން ފޯރުވުން.
+
+ސުންނަތް ގޮތަކީ ދެއަތާއި ޢައުރަ ދޮވެ، ވުޟޫކޮށް، ބޮލަށް ތިން ފަހަރު ފެން އަޅައި، ކަނާތް ފަރާތް އަދި ވާތް ފަރާތް ދޮވުމެވެ.
+
+## ތަޔައްމުމު
+ފެން ނެތްނަމަ، ނުވަތަ ބަލިކަމެއްގެ ސަބަބުން ފެން ބޭނުންކުރުމުން ގެއްލުމެއްވާނަމަ، ވުޟޫއާއި ހިނައިގަތުމުގެ ބަދަލުގައި ތަޔައްމުމުކުރެވޭނެއެވެ. ނިޔަތްގަނެ، ޠާހިރު ވެލިގަނޑެއްގައި ދެއަތްތިލަ ޖަހައި މޫނުގައި ފޮހޭށެވެ. އަނެއްކާ ޖަހައި އުޅަނބޮށްޓާ ހަމައަށް ދެއަތުގައި ފޮހޭށެވެ. ޝާފިޢީ މަޛްހަބުގައި އެއް ތަޔައްމުމަކުން ކުރެވޭނީ އެއް ފަރުޟު ނަމާދެވެ.
+
+## ނަޖިސް ފިލުވުން
+ކުޑަކަމުދާ ތަކެއްޗާއި، ބޮޑުކަމުދާ ތަކެއްޗާއި، ލޭ ފަދަ ނަޖިސް، ހަށިގަނޑާއި ހެދުމާއި ނަމާދުކުރާ ތަނުން ސާފުކުރަންޖެހޭނެއެވެ.
+
+@@ zakat
+title_en: Zakat
+title_dv: ޒަކާތް
+ref: Quran 9:60; 9:103; 2:43
+--- en
+Zakat is a fixed share of wealth that Allah made the right of the poor. It purifies what remains and the heart of the one who gives. The Quran mentions it beside prayer in dozens of places.
+
+## Who pays
+A Muslim who owns wealth above the **nisab** for a full lunar year. The nisab is the value of 85 grams of gold, or 595 grams of silver. Check the current figure with the Ministry of Islamic Affairs, which announces it in rufiyaa.
+
+## On what and how much
+- Gold, silver, cash and bank savings: **2.5%**.
+- Trade goods held for sale: 2.5% of their market value.
+- Crops, livestock and some other assets have their own rates.
+
+Your home, car, clothes and tools of your trade are not subject to zakat.
+
+## A worked example
+You have MVR 200,000 in savings and stock that stayed above the nisab all year. Zakat due is 200,000 × 0.025 = **MVR 5,000**.
+
+## Who receives it
+The Quran names eight groups (9:60): the poor, the needy, those who collect it, those whose hearts are to be reconciled, freeing captives, those burdened by debt, in the path of Allah, and the stranded traveller. It cannot be given to one's parents, children or wife, whom one must already support.
+
+## Zakat al-fitr
+A separate small charity due from every Muslim at the end of Ramadan, given before the Eid prayer, so that no one goes without on Eid. The amount is announced each year.
+--- dv
+ޒަކާތަކީ މުއްސަނދިންގެ މުދަލުން ފަޤީރުންގެ ޙައްޤެއްގެ ގޮތުގައި ﷲ ކަނޑައަޅުއްވާފައިވާ ބައެކެވެ. އެއިން ބާކީ މުދާ ޠާހިރުވެ، ދޭ މީހާގެ ހިތް ސާފުވެއެވެ. ޤުރުއާނުގެ ގިނަ ތަންތަނުގައި ނަމާދާއެކު ޒަކާތުގެ ވާހަކަ އައިސްފައިވެއެވެ.
+
+## ޒަކާތް ވާޖިބުވާ މީހުން
+**ނިޞާބު** ހަމަވާ މުދަލެއް ހިޖުރީ އަހަރެއް ވަންދެން މިލްކުގައި އޮންނަ މުސްލިމުންނެވެ. ނިޞާބަކީ 85 ގްރާމް ރަނުގެ ނުވަތަ 595 ގްރާމް ރިހީގެ އަގެވެ. މިހާރުގެ ޢަދަދު އިސްލާމީ ކަންތައްތަކާ ބެހޭ ވުޒާރާއިން ރުފިޔާއިން އިޢުލާންކުރައްވައެވެ.
+
+## ޒަކާތް ނަގާ މުދަލާއި މިންވަރު
+- ރަނާއި، ރިއްސާއި، ފައިސާއާއި، ބޭންކުގައިވާ ފައިސާ: **2.5%**.
+- ވިޔަފާރި މުދާ: ބާޒާރު އަގުގެ 2.5%.
+- ގޮވާމާއި ނަޢަމްސޫފި ފަދަ ތަކެއްޗަށް ވަކި މިންވަރުތަކެއް ވެއެވެ.
+
+ދިރިއުޅޭ ގެއާއި، ވެހިކަލާއި، ހެދުމާއި، މަސައްކަތުގެ ސާމާނުން ޒަކާތެއް ނުނެގޭނެއެވެ.
+
+## މިސާލެއް
+މުޅި އަހަރު ނިޞާބަށްވުރެ މަތީގައި ހުރި 200,000 ރުފިޔާގެ ފައިސާއާއި ވިޔަފާރި މުދާ ހުރިނަމަ، ޒަކާތަކީ 200,000 × 0.025 = **5,000 ރުފިޔާ**.
+
+## ޒަކާތް ލިބޭ މީހުން
+ޤުރުއާނުގައި އަށް ބާވަތެއް ބަޔާންވެފައިވެއެވެ (9:60): ފަޤީރުން، މިސްކީނުން، ޒަކާތް ނަގާ މީހުން، އިސްލާމްދީނަށް ހިތްތައް ލެނބުން އެދެވޭ މީހުން، އަޅުން މިނިވަންކުރުން، ދަރަނިވެރިން، ﷲ ގެ މަގު، އަދި ދަތުރުމަތީގައި ހުސްވެފައިވާ މީހާ. މައިންބަފައިންނާއި، ދަރިންނާއި، އަނބިމީހާއަށް ޒަކާތް ނުދެވޭނެއެވެ.
+
+## ފިޠުރު ޒަކާތް
+ރަމަޟާން މަސް ނިމުމުން ކޮންމެ މުސްލިމެއްގެ މައްޗަށް ވާޖިބުވާ ވަކި ޞަދަޤާތެކެވެ. ޢީދު ނަމާދުގެ ކުރިން ދޭންޖެހެއެވެ. ޢަދަދު ކޮންމެ އަހަރަކު އިޢުލާންކުރެވެއެވެ.
+
+@@ fasting
+title_en: Fasting in Ramadan
+title_dv: ރަމަޟާން މަހުގެ ރޯދަ
+ref: Quran 2:183-187
+--- en
+"O you who believe, fasting is prescribed for you as it was prescribed for those before you, so that you may become mindful of Allah" (2:183).
+
+## Who must fast
+Every Muslim who is adult, sane, resident and able. A woman in menstruation or post-natal bleeding does not fast and makes the days up later.
+
+## How
+Intend the fast each night before dawn; in the Shafi'i school the intention for an obligatory fast must be made in the night. From true dawn (the Fajr adhan) until sunset (the Maghrib adhan), keep away from eating, drinking and sexual relations.
+
+It is sunnah to eat **suhur** close to dawn, to break the fast promptly at sunset with dates or water, and to say the dua for breaking the fast.
+
+## What breaks the fast
+- Eating or drinking deliberately.
+- Sexual intercourse, which also requires a heavy expiation.
+- Deliberate vomiting.
+- The start of menstruation.
+
+Eating or drinking out of forgetfulness does not break it; carry on fasting.
+
+## Who may postpone
+The sick, the traveller, and pregnant or nursing women who fear harm make up the days later. The very old and the chronically ill who cannot fast feed a poor person for each day instead (2:184).
+
+## The spirit of the month
+Fasting is more than hunger. The Prophet ﷺ said that whoever does not give up false speech and acting on it, Allah has no need of his giving up food and drink (Bukhari 1903). Ramadan is the month of the Quran, of night prayer (tarawih), of charity, and of Laylat al-Qadr in its last ten nights, "better than a thousand months" (97:3).
+--- dv
+"އޭ އީމާންވެއްޖެ މީސްތަކުންނޭވެ! ތިޔަބައިމީހުންގެ ކުރީގެ މީހުންގެ މައްޗަށް ފަރުޟުކުރެވުނު ފަދައިން، ތިޔަބައިމީހުންގެ މައްޗަށްވެސް ރޯދަހިފުން ފަރުޟުކުރެވިއްޖެއެވެ. އެއީ ތިޔަބައިމީހުން ތަޤްވާވެރިވުމަށްޓަކައެވެ" (2:183).
+
+## ރޯދަ ފަރުޟުވާ މީހުން
+ބާލިޣުވެފައިވާ، ބުއްދި ސަލާމަތުން ހުރި، މުޤީމު، ކުޅަދާނަ ކޮންމެ މުސްލިމެކެވެ. ޙައިޟުވެރިޔާއާއި ނިފާސްވެރިޔާ ރޯދައެއް ނުހިފާނެއެވެ. ފަހުން ޤަޟާކުރާނީއެވެ.
+
+## ހިފާނެ ގޮތް
+ކޮންމެ ރެއަކު ފަތިހުގެ ކުރިން ނިޔަތްގަންނާށެވެ. ޝާފިޢީ މަޛްހަބުގައި ފަރުޟު ރޯދައިގެ ނިޔަތް ރޭގަނޑު ގަންނަންޖެހެއެވެ. ފަތިސް ބަންގިއިން ފެށިގެން މަޣްރިބު ބަންގިއާ ހަމައަށް ކެއުމާއި، ބުއިމާއި، ޖިންސީ ގުޅުމުން ދުރުހެލިވާށެވެ.
+
+ފަތިހާ ކައިރިކޮށް **ހާރު** ކެއުމާއި، އިރުއޮއްސުމާއެކު އަވަހަށް ކަދުރުން ނުވަތަ ފެނުން ރޯދަ ވީއްލުމަކީ ސުންނަތެކެވެ.
+
+## ރޯދަ ގެއްލޭ ކަންތައްތައް
+- ޤަޞްދުގައި ކެއުން ނުވަތަ ބުއިން.
+- ޖިމާޢުވުން (މިކަމަށް ބޮޑު ކައްފާރާއެއްވެސް ވެއެވެ).
+- ޤަޞްދުގައި ހޮޑުލެވުން.
+- ޙައިޟުވުން.
+
+ހަނދާން ނެތިގެން ކެއުމުން ނުވަތަ ބުއިމުން ރޯދައެއް ނުގެއްލޭނެއެވެ.
+
+## ފަސްކުރެވޭ މީހުން
+ބަލިމީހާއާއި، ދަތުރުވެރިޔާއާއި، ގެއްލުމެއްވެދާނެކަމަށް ބިރުގަންނަ މާބަނޑު އަދި ކިރުދޭ އަންހެނުން ފަހުން ޤަޟާކުރާނީއެވެ. ރޯދަ ހިފަން ނުކުޅެދޭ ދުވަސްވީ މީހުންނާއި ދާއިމީ ބަލިމީހުން، ކޮންމެ ދުވަހަކަށް މިސްކީނަކަށް ކާންދޭނީއެވެ (2:184).
+
+## މި މަހުގެ ރޫޙު
+ރޯދައަކީ ހަމައެކަނި ބަނޑުހައިކަމެއް ނޫނެވެ. ދޮގު ބަސް ބުނުމާއި އެއަށް ޢަމަލުކުރުން ދޫނުކުރާ މީހާ، ކެއުމާއި ބުއިން ދޫކުރުމަށް ﷲ ބޭނުންފުޅެއް ނުވާކަމަށް ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ (ބުޚާރީ 1903). ރަމަޟާން މަހަކީ ޤުރުއާނުގެ މަހެވެ. ތަރާވީޙު ނަމާދާއި، ޞަދަޤާތާއި، "އެއްހާސް މަހަށްވުރެ ހެޔޮ" (97:3) ލައިލަތުލް ޤަދްރުގެ މަހެވެ.
+
+@@ hajj
+title_en: Hajj and umrah
+title_dv: ޙައްޖާއި ޢުމްރާ
+ref: Quran 3:97; 2:196-203; 22:27
+--- en
+Hajj is the pilgrimage to Makkah in the month of Dhul-Hijjah. It is obligatory once in a lifetime on every adult Muslim who has the health, the money and a safe way to go. Umrah is the lesser pilgrimage, which can be made at any time of year; in the Shafi'i school it is also obligatory once.
+
+## Umrah in four steps
+1. Enter **ihram** at the miqat with the intention, and begin the talbiyah: *Labbayk Allahumma labbayk*.
+2. **Tawaf**: seven circuits around the Ka'bah.
+3. **Sa'y**: seven walks between Safa and Marwah.
+4. Shave or shorten the hair.
+
+## The days of hajj
+- **8 Dhul-Hijjah:** enter ihram and go to Mina.
+- **9th, the Day of Arafah:** stand at Arafah from after midday until sunset, in dua. This is the heart of hajj; whoever misses Arafah has missed hajj. After sunset go to Muzdalifah for the night.
+- **10th, the Day of Sacrifice:** stone the large pillar, offer the sacrifice, shave or shorten the hair, then make the tawaf of hajj and sa'y in Makkah.
+- **11th to 13th:** stay in Mina and stone the three pillars each day, then make the farewell tawaf before leaving Makkah.
+
+## The pillars
+In the Shafi'i school: ihram, standing at Arafah, the tawaf of hajj, sa'y, and shaving or shortening the hair, in that order. Hajj is not valid without them.
+
+## While in ihram
+Men wear two unstitched cloths; women wear ordinary modest clothing with the face uncovered. Forbidden for both: perfume, cutting hair or nails, marriage contracts, sexual relations, and hunting.
+
+The Prophet ﷺ said: "Whoever performs hajj and does not speak obscenely or act wickedly returns like the day his mother bore him" (Bukhari 1521).
+--- dv
+ޙައްޖަކީ ޛުލްޙިއްޖާ މަހު މައްކާއަށް ކުރެވޭ ދަތުރެވެ. ސިއްޙަތާއި، ފައިސާއާއި، އަމާން މަގެއް ހުރި، ބާލިޣުވެފައިވާ ކޮންމެ މުސްލިމެއްގެ މައްޗަށް ޢުމުރުން އެއްފަހަރު ފަރުޟެވެ. ޢުމްރާއަކީ އަހަރުގެ ކޮންމެ ވަގުތެއްގައިވެސް ކުރެވޭ ކުޑަ ޙައްޖެވެ. ޝާފިޢީ މަޛްހަބުގައި ޢުމްރާވެސް އެއްފަހަރު ވާޖިބެވެ.
+
+## ޢުމްރާ، ހަތަރު މަރުޙަލާއިން
+1. މީޤާތުން ނިޔަތާއެކު **އިޙްރާމް** ބަނދެ، ތަލްބިޔާ ކިޔަން ފެށުން: *ލައްބައިކަ ﷲުއްމަ ލައްބައިކް*.
+2. **ޠަވާފު**: ކަޢުބާގެފާނުގެ ވަށައިގެން ހަތް ބުރު.
+3. **ސަޢީ**: ޞަފާއާއި މަރްވާއާ ދެމެދު ހަތް ފަހަރު ހިނގުން.
+4. ބޯ ބޭލުން ނުވަތަ އިސްތަށި ކުރުކުރުން.
+
+## ޙައްޖުގެ ދުވަސްތައް
+- **ޛުލްޙިއްޖާ 8:** އިޙްރާމް ބަނދެ މިނާއަށް ދިއުން.
+- **9، ޢަރަފާތް ދުވަސް:** މެންދުރު ފަހުން އިރުއޮއްސެންދެން ޢަރަފާތުގައި ދުޢާކުރުމުގައި ހުރުން. މިއީ ޙައްޖުގެ އެންމެ ބޮޑު ރުކުނެވެ. އިރުއޮއްސުމަށްފަހު މުޒްދަލިފާއަށް ދިއުން.
+- **10، ޢީދު ދުވަސް:** ބޮޑު ޖަމްރާއަށް ހިލަ އުކައި، ޤުރުބާންކޮށް، ބޯ ބާލައި، މައްކާގައި ޙައްޖުގެ ޠަވާފާއި ސަޢީކުރުން.
+- **11 އިން 13 އަށް:** މިނާގައި ތިބެ ކޮންމެ ދުވަހަކު ތިން ޖަމްރާއަށް ހިލަ އުކުން. މައްކާ ދޫކުރުމުގެ ކުރިން ވަދާޢީ ޠަވާފުކުރުން.
+
+## ރުކުންތައް
+ޝާފިޢީ މަޛްހަބުގައި: އިޙްރާމް، ޢަރަފާތުގައި ހުރުން، ޙައްޖުގެ ޠަވާފު، ސަޢީ، އަދި ބޯ ބޭލުން ނުވަތަ ކުރުކުރުން. މި ކަންތައްތަކާ ނުލައި ޙައްޖެއް ޞައްޙައެއް ނުވާނެއެވެ.
+
+## އިޙްރާމުގައި ހުންނައިރު
+ފިރިހެނުން ލާނީ ނުފަހާ ދެ ފޮތިގަނޑެވެ. އަންހެނުން މޫނު ނިވާނުކޮށް ޢާންމު ހެދުން ލާނީއެވެ. ދެ ޖިންސަށްވެސް ޙަރާމް ކަންތައްތަކަކީ: ސެންޓު، އިސްތަށި ނުވަތަ ނިޔަފަތި ކެނޑުން، ކައިވެނީގެ ޢަޤުދު، ޖިންސީ ގުޅުން، އަދި ޝިކާރަކުރުން.
+
+ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: "ހަޑިހުތުރު ބަސް ނުބުނެ، ފާފައެއް ނުކޮށް ޙައްޖުކުރާ މީހާ އެނބުރި އަންނަނީ މަންމަ އޭނާ ވިހެއި ދުވަހު ފަދައިންނެވެ" (ބުޚާރީ 1521).
+
+%% salah-basics | prayer | Rules of the prayer | ނަމާދުގެ ޙުކުމްތައް | Times, conditions, congregation, Friday, travel and mistakes. | ވަގުތުތަކާއި، ޝަރުޠުތަކާއި، ޖަމާޢަތާއި، ހުކުރާއި، ދަތުރާއި، ނަމާދުގައި ޖެހޭ އޮޅުން.
+
+@@ prayer-times-rakahs
+title_en: The five prayers and their times
+title_dv: ފަސް ނަމާދާއި އޭގެ ވަގުތުތައް
+ref: Quran 4:103; 17:78; Muslim 612
+--- en
+"Prayer has been prescribed for the believers at fixed times" (4:103).
+
+- **Fajr**, 2 rak'ahs: from true dawn until sunrise.
+- **Dhuhr**, 4 rak'ahs: from when the sun passes its highest point until an object's shadow equals its length.
+- **Asr**, 4 rak'ahs: from then until sunset. Do not delay it until the sun turns yellow without need.
+- **Maghrib**, 3 rak'ahs: from sunset until the red glow leaves the sky.
+- **Isha**, 4 rak'ahs: from then until true dawn; best before the middle of the night.
+
+The times shown on the Home screen follow the published timetable for your island.
+
+## Sunnah prayers around them
+The Prophet ﷺ kept twelve regular rak'ahs: two before Fajr, four before Dhuhr and two after, two after Maghrib and two after Isha. Whoever keeps them has a house built for him in Paradise (Muslim 728). The two before Fajr are the most emphasised. **Witr**, an odd number of rak'ahs after Isha, closes the night's prayer.
+
+## Times to avoid voluntary prayer
+After Fajr until the sun has risen, when the sun is at its highest, and after Asr until sunset. Missed obligatory prayers and prayers with a cause, such as greeting the mosque, are excepted in the Shafi'i school.
+
+## A missed prayer
+Whoever sleeps through a prayer or forgets it prays it as soon as they remember (Muslim 684). A prayer left deliberately must also be made up, with repentance.
+--- dv
+"ހަމަކަށަވަރުން ނަމާދަކީ މުއުމިނުންގެ މައްޗަށް ވަގުތު ކަނޑައެޅިގެން ފަރުޟުކުރެވިފައިވާ ކަމެކެވެ" (4:103).
+
+- **ފަތިސް**، 2 ރަކުޢަތް: ފަޖުރުލް ޞާދިޤުން ފެށިގެން އިރުއަރަންދެން.
+- **މެންދުރު**، 4 ރަކުޢަތް: އިރު މެދުން ކެނޑުމުން ފެށިގެން، އެއްޗެއްގެ ހިޔަނި އޭގެ ދިގުމިނާ ހަމަވަންދެން.
+- **ޢަޞްރު**، 4 ރަކުޢަތް: އެއަށްފަހު އިރުއޮއްސެންދެން. ބޭނުމަކާ ނުލައި އިރު ރީނދޫވަންދެން ފަސްނުކުރާށެވެ.
+- **މަޣްރިބް**، 3 ރަކުޢަތް: އިރުއޮއްސުމުން ފެށިގެން އުޑުގެ ރަތްކަން ފިލަންދެން.
+- **ޢިޝާ**، 4 ރަކުޢަތް: އެއަށްފަހު ފަތިސްވަންދެން. އެންމެ ރަނގަޅީ ރޭގަނޑުގެ މެދުގެ ކުރިން.
+
+ފުރަތަމަ ޞަފްޙާގައި ފެންނަ ވަގުތުތަކަކީ ތިބާގެ ރަށަށް ޝާއިޢުކޮށްފައިވާ ތާވަލާ އެއްގޮތް ވަގުތުތަކެވެ.
+
+## ރަވާތިބު ސުންނަތްތައް
+ނަބިއްޔާ ﷺ ބާރަ ރަކުޢަތުގެ ސުންނަތެއް ދާއިމީކޮށް ކުރެއްވިއެވެ: ފަތިހުގެ ކުރިން ދޭއް، މެންދުރުގެ ކުރިން ހަތަރެއް އަދި ފަހުން ދޭއް، މަޣްރިބަށްފަހު ދޭއް، ޢިޝާއަށްފަހު ދޭއް. މިކަން ދެމެހެއްޓި މީހާއަށް ސުވަރުގޭގައި ގެއެއް ބިނާކުރެވޭނެއެވެ (މުސްލިމް 728). ޢިޝާއަށްފަހު ކުރާ **ވިތުރީ** އިން ރޭގަނޑުގެ ނަމާދު ނިންމާލެވެއެވެ.
+
+## ސުންނަތް ނަމާދު ނުކުރެވޭ ވަގުތުތައް
+ފަތިސް ނަމާދަށްފަހު އިރުއަރަންދެން، އިރު މެދުޖެހޭ ވަގުތު، އަދި ޢަޞްރަށްފަހު އިރުއޮއްސެންދެން. ޝާފިޢީ މަޛްހަބުގައި ޤަޟާ ނަމާދާއި، ތަޙިއްޔަތުލް މަސްޖިދު ފަދަ ސަބަބެއް އޮންނަ ނަމާދުތައް އިސްތިސްނާވެއެވެ.
+
+## ނުކުރެވި ދިޔަ ނަމާދު
+ނިދިފައި އޮވެގެން ނުވަތަ ހަނދާން ނެތިގެން ނަމާދެއް ނުކުރެވުނު މީހާ، ހަނދާންވުމާއެކު އެ ނަމާދު ކުރާނީއެވެ (މުސްލިމް 684).
+
+@@ prayer-conditions
+title_en: What makes a prayer valid, and what breaks it
+title_dv: ނަމާދު ޞައްޙަވާ ޝަރުޠުތަކާއި ނަމާދު ބާޠިލުވާ ކަންތައްތައް
+--- en
+## Conditions before you start
+1. Being Muslim, sane and of discerning age.
+2. The prayer time has entered.
+3. Purity from minor and major impurity.
+4. A clean body, clothes and place.
+5. Covering the 'awrah.
+6. Facing the qiblah.
+
+If any of these is missing, the prayer does not count.
+
+## What invalidates a prayer
+- Losing wudu.
+- Speaking deliberately, even two letters, other than the words of the prayer.
+- Eating or drinking.
+- Much continuous movement that is not part of the prayer; in the Shafi'i school three consecutive movements are the usual measure.
+- Turning the chest away from the qiblah.
+- The 'awrah becoming uncovered and not being covered at once.
+- Leaving out a pillar deliberately, or adding one deliberately.
+- Laughing aloud.
+- Changing the intention or deciding to stop.
+
+## What is disliked but does not break it
+Looking around, fidgeting with clothes, praying while badly needing the toilet or when food you want is served, and closing the eyes without need.
+
+## Concentration
+The Prophet ﷺ said a person may finish a prayer with only a tenth of it written for him, or a ninth, up to a half (Abu Dawud 796). Understanding the words you say is the surest way to be present in it.
+--- dv
+## ފެށުމުގެ ކުރިން ފުރިހަމަވާންޖެހޭ ޝަރުޠުތައް
+1. މުސްލިމަކަށްވުމާއި، ބުއްދި ހުރުމާއި، ތަމްޔީޒުގެ ޢުމުރަށް ފޯރުން.
+2. ނަމާދު ވަގުތު ވަނުން.
+3. ކުޑަ ޙަދަޘާއި ބޮޑު ޙަދަޘުން ޠާހިރުވުން.
+4. ހަށިގަނޑާއި، ހެދުމާއި، ތަން ޠާހިރުވުން.
+5. ޢައުރަ ނިވާކުރުން.
+6. ޤިބްލައަށް ކުރިމަތިލުން.
+
+މިއިން ކަމެއް އުނިވެއްޖެނަމަ ނަމާދެއް ނުވާނެއެވެ.
+
+## ނަމާދު ބާޠިލުވާ ކަންތައްތައް
+- ވުޟޫ ގެއްލުން.
+- ނަމާދުގެ ކިޔުންތައް ފިޔަވައި ޤަޞްދުގައި ވާހަކަދެއްކުން.
+- ކެއުން ނުވަތަ ބުއިން.
+- ނަމާދުގެ ބައެއް ނޫން، ވިދިވިދިގެން ކުރެވޭ ގިނަ ޙަރަކާތް. ޝާފިޢީ މަޛްހަބުގައި ޢާންމު މިންގަނޑަކީ ވިދިވިދިގެން ތިން ޙަރަކާތެވެ.
+- މޭ ޤިބްލައިން އަނބުރާލުން.
+- ޢައުރަ ކަޝްފުވެ، ވަގުތުން ނިވާނުކުރުން.
+- ޤަޞްދުގައި ރުކުނެއް ދޫކޮށްލުން ނުވަތަ އިތުރުކުރުން.
+- އަޑުން ހުނުން.
+- ނިޔަތް ބަދަލުކުރުން ނުވަތަ ނަމާދު ހުއްޓާލަން ނިންމުން.
+
+## މަކްރޫހަ ކަންތައްތައް
+އެކިދިމާއަށް ބެލުމާއި، ހެދުމާ ކުޅުމާއި، ފާޚާނާއަށް ދާން ބޭނުންވެފައި ހުރެ ނަމާދުކުރުމާއި، ބޭނުމަކާ ނުލައި ލޯ މެރުން.
+
+## ޚުޝޫޢު
+މީހަކު ނަމާދު ނިންމާއިރު އޭނާއަށް ލިޔެވެނީ އޭގެ ދިހަބައިކުޅަ އެއްބައި، ނުވަބައިކުޅަ އެއްބައި، މިގޮތަށް ދެބައިކުޅަ އެއްބަޔާ ހަމައަށް ކަމަށް ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ (އަބޫ ދާވޫދު 796). ކިޔާ ބަސްތަކުގެ މާނަ ދެނެގަތުމަކީ ޚުޝޫޢު ހޯދުމުގެ އެންމެ ރަނގަޅު ގޮތެވެ.
+
+@@ congregation-friday
+title_en: Praying in congregation and the Friday prayer
+title_dv: ޖަމާޢަތުގައި ނަމާދުކުރުމާއި ހުކުރު ނަމާދު
+ref: Quran 62:9-10; Bukhari 645
+--- en
+## Congregation
+Prayer in congregation is twenty-seven times more rewarding than praying alone (Bukhari 645). In the Shafi'i school it is a communal obligation for men in each community and a strongly emphasised sunnah for the individual.
+
+- Intend to follow the imam, and do not move before him. Say the takbir after his, bow after he bows.
+- Stand shoulder to shoulder in straight rows, filling the first row first.
+- In the Shafi'i school the follower recites Al-Fatihah himself, even behind the imam.
+- If you arrive late, join the imam wherever he is. Catching the bowing with him counts as catching that rak'ah. After his salam, stand and complete what you missed.
+
+## The Friday prayer
+Jumu'ah is obligatory on every adult, sane, resident Muslim man. Women, travellers and the sick may attend, and if they do it takes the place of Dhuhr; otherwise they pray Dhuhr.
+
+It consists of two sermons followed by two rak'ahs. Listening to the sermon is part of it: do not talk, use the phone or even tell another to be quiet.
+
+## Sunnahs of Friday
+- Take a bath, wear clean clothes and use perfume.
+- Go early and walk if you can.
+- Recite Surah Al-Kahf.
+- Send many salawat on the Prophet ﷺ.
+- Make dua in the last hour before Maghrib.
+--- dv
+## ޖަމާޢަތް
+ޖަމާޢަތުގައި ކުރާ ނަމާދަކީ އެކަނި ކުރާ ނަމާދަށްވުރެ ހަތާވީސް ދަރަޖަ މާތް ނަމާދެކެވެ (ބުޚާރީ 645). ޝާފިޢީ މަޛްހަބުގައި އެއީ ކޮންމެ މުޖުތަމަޢެއްގެ ފިރިހެނުންގެ މައްޗަށް ފަރުޟު ކިފާޔާއެކެވެ.
+
+- އިމާމާ ތަބާވުމަށް ނިޔަތްގަންނާށެވެ. އިމާމުގެ ކުރިން ޙަރަކާތް ނުކުރާށެވެ.
+- ސަފުތައް ސީދާކޮށް، ކޮނޑާ ކޮނޑު ޖައްސައިގެން ތިބޭށެވެ. ފުރަތަމަ ސަފު ފުރަތަމަ ފުރާށެވެ.
+- ޝާފިޢީ މަޛްހަބުގައި މައުމޫމުވެސް ފާތިޙާ ކިޔަވަންޖެހެއެވެ.
+- ލަސްވެގެން އައިސްފިނަމަ، އިމާމު ހުންނެވި ޙާލަތެއްގައި ގުޅޭށެވެ. އިމާމާއެކު ރުކޫޢު ލިބިއްޖެނަމަ އެ ރަކުޢަތް ލިބުނީއެވެ. އިމާމު ސަލާމްދެއްވުމުން ތެދުވެ ނުލިބުނު ބައި ފުރިހަމަކުރާށެވެ.
+
+## ހުކުރު ނަމާދު
+ބާލިޣުވެފައިވާ، ބުއްދި ސަލާމަތުން ހުރި، މުޤީމު ކޮންމެ މުސްލިމު ފިރިހެނެއްގެ މައްޗަށް ހުކުރު ނަމާދު ފަރުޟެވެ. އަންހެނުންނާއި، ދަތުރުވެރިންނާއި، ބަލިމީހުން ޙާޟިރުވެއްޖެނަމަ އެއީ މެންދުރު ނަމާދުގެ ބަދަލެވެ. ނޫންނަމަ މެންދުރު ނަމާދުކުރާނީއެވެ.
+
+ހުކުރު ނަމާދަކީ ދެ ޚުޠުބާއާއި އެއަށްފަހު ދެ ރަކުޢަތެވެ. ޚުޠުބާ އަޑުއެހުމަކީ އޭގެ ބައެކެވެ. ވާހަކަނުދައްކާށެވެ.
+
+## ހުކުރު ދުވަހުގެ ސުންނަތްތައް
+- ހިނައިގަނެ، ސާފު ހެދުން ލައި، ސެންޓު ލުން.
+- އަވަހަށް މިސްކިތަށް ދިއުން.
+- ކަހްފު ސޫރަތް ކިޔެވުން.
+- ނަބިއްޔާ ﷺ އަށް ޞަލަވާތް ގިނަކުރުން.
+- މަޣްރިބުގެ ކުރީގެ ފަހު ގަޑީގައި ދުޢާކުރުން.
+
+@@ travel-prayer
+title_en: Prayer while travelling
+title_dv: ދަތުރުމަތީގެ ނަމާދު
+ref: Quran 4:101; Muslim 686
+--- en
+Allah made prayer lighter for the traveller. This matters in a country of islands, where long sea journeys are common.
+
+## Shortening (qasr)
+Dhuhr, Asr and Isha are prayed as two rak'ahs instead of four. Fajr and Maghrib stay as they are.
+
+In the Shafi'i school you may shorten when:
+- the journey is about 81 km or more one way (two stages, roughly 44 nautical miles);
+- the journey is for a lawful purpose;
+- you have left the built-up area of your island or town;
+- you intend to shorten at the start of the prayer;
+- you are not praying behind an imam who is praying in full.
+
+You stop being a traveller when you return home, or when you intend to stay somewhere four full days or more, not counting the days of arrival and departure.
+
+## Combining (jam')
+A traveller may pray Dhuhr with Asr, and Maghrib with Isha, at the time of either one. If you combine at the earlier time, pray them in order, intend the combining in the first, and do not leave a long gap between them.
+
+## On a boat or plane
+Pray standing and facing the qiblah if you safely can. If the vessel turns, turn with the qiblah. If standing is unsafe or impossible, pray sitting. Voluntary prayers may be prayed seated in whatever direction the vehicle is heading.
+
+## The Friday prayer
+A traveller is not obliged to attend Jumu'ah and prays Dhuhr, shortened, instead.
+--- dv
+ދަތުރުވެރިޔާއަށް ﷲ ނަމާދު ލުއިކޮށްދެއްވިއެވެ. ކަނޑުމަތީގައި ދިގު ދަތުރުތައް ކުރެވޭ، ޖަޒީރާތަކުގެ ޤައުމެއްގައި މިއީ މުހިންމު ކަމެކެވެ.
+
+## ޤަޞްރުކުރުން
+މެންދުރާއި، ޢަޞްރާއި، ޢިޝާ ނަމާދު ހަތަރު ރަކުޢަތުގެ ބަދަލުގައި ދެ ރަކުޢަތުން ކުރުމެވެ. ފަތިހާއި މަޣްރިބު ބަދަލެއް ނުވާނެއެވެ.
+
+ޝާފިޢީ މަޛްހަބުގައި ޤަޞްރުކުރެވޭނީ:
+- ދަތުރުގެ ދުރުމިން އެއްކޮޅަށް ގާތްގަނޑަކަށް 81 ކިލޯމީޓަރު (ގާތްގަނޑަކަށް 44 ނޯޓިކަލް މޭލު) ނުވަތަ އެއަށްވުރެ ދުރުނަމަ؛
+- ދަތުރަކީ ހުއްދަ ބޭނުމަކަށް ކުރާ ދަތުރެއްނަމަ؛
+- ރަށުގެ ޢިމާރާތްތަކުގެ ސަރަޙައްދުން ބޭރުވެފައިވާނަމަ؛
+- ނަމާދު ފަށާއިރު ޤަޞްރުކުރަން ނިޔަތްގަނެފައިވާނަމަ؛
+- ފުރިހަމައަށް ނަމާދުކުރާ އިމާމެއްގެ ފަހަތުގައި ނޫންނަމައެވެ.
+
+ގެއަށް އެނބުރި އައުމުން، ނުވަތަ ތަނެއްގައި (އައި ދުވަހާއި ދާ ދުވަސް ނުހިމަނައި) ފުރިހަމަ ހަތަރު ދުވަސް ނުވަތަ އެއަށްވުރެ ގިނަ ދުވަހު މަޑުކުރަން ނިޔަތްގަތުމުން ދަތުރުވެރިކަން ނިމުނީއެވެ.
+
+## ޖަމްޢުކުރުން
+ދަތުރުވެރިޔާއަށް މެންދުރާއި ޢަޞްރު، އަދި މަޣްރިބާއި ޢިޝާ، އެއިން ނަމާދެއްގެ ވަގުތުގައި އެކުގައި ކުރެވިދާނެއެވެ. ކުރީ ވަގުތުގައި ޖަމްޢުކުރާނަމަ ތަރުތީބުން ކޮށް، ފުރަތަމަ ނަމާދުގައި ޖަމްޢުގެ ނިޔަތްގަނެ، ދެ ނަމާދުގެ ދޭތެރޭ ދިގު ވަގުތެއް ނުބަހައްޓާށެވެ.
+
+## އުޅަނދެއްގައި ނުވަތަ މަތިންދާބޯޓެއްގައި
+ރައްކާތެރިކަމާއެކު ކުރެވެންއޮތްނަމަ، ކޮޅަށް ހުރެ ޤިބްލައަށް ކުރިމަތިލައިގެން ނަމާދުކުރާށެވެ. އުޅަނދު އެނބުރޭނަމަ ޤިބްލައާ ދިމާއަށް އެނބުރޭށެވެ. ކޮޅަށް ހުރުން ނުރައްކާނަމަ އިށީނދެގެން ކުރާށެވެ.
+
+## ހުކުރު ނަމާދު
+ދަތުރުވެރިޔާގެ މައްޗަކަށް ހުކުރު ވާޖިބެއް ނޫނެވެ. އޭގެ ބަދަލުގައި މެންދުރު ނަމާދު ޤަޞްރުކޮށް ކުރާނީއެވެ.
+
+@@ sujud-sahw
+title_en: Mistakes in prayer and the prostration of forgetfulness
+title_dv: ނަމާދުގައި ޖެހޭ އޮޅުމާއި ސަހްވުގެ ސަޖިދަ
+ref: Bukhari 1224; Muslim 571
+--- en
+Everyone makes mistakes in prayer. The Prophet ﷺ himself forgot at times, so that we would learn what to do.
+
+## The prostration of forgetfulness
+Two prostrations made at the end of the prayer. In the Shafi'i school they are made after the final tashahhud and salawat, just **before the salam**, and they are sunnah.
+
+## When to make it
+- **You left out a main sunnah**, such as the first tashahhud or the qunut in Fajr. If you have already stood up fully, do not go back; make the two prostrations at the end.
+- **You did something by mistake that would break the prayer if done on purpose**, such as adding a rak'ah or speaking a few words forgetfully.
+- **You are unsure how many rak'ahs you have prayed.** Build on the lower number, which is the one you are sure of, complete the prayer and make the two prostrations. For example, if you doubt whether it is your third or fourth, treat it as the third.
+
+## If you left out a pillar
+The prostrations do not replace a pillar. If you realise you missed a bowing or a prostration, go back and perform it, then continue from there. If you only realise after reaching the same point in the next rak'ah, that rak'ah takes its place and you add one more at the end.
+
+## Doubts after finishing
+A doubt that comes after the salam is ignored, unless you become certain.
+--- dv
+ނަމާދުގައި ކޮންމެ މީހަކަށްވެސް އޮޅުން އަރައެވެ. އަޅުގަނޑުމެންނަށް ކުރާނެ ގޮތް ދަސްވުމަށްޓަކައި ނަބިއްޔާ ﷺ އަށްވެސް ބައެއް ފަހަރު ހަނދާންނެތުނެވެ.
+
+## ސަހްވުގެ ސަޖިދަ
+ނަމާދުގެ ނިމުމުގައި ކުރާ ދެ ސަޖިދައެވެ. ޝާފިޢީ މަޛްހަބުގައި އެ ކުރަނީ ފަހު އައްތަޙިއްޔާތާއި ޞަލަވާތަށްފަހު، **ސަލާމްދިނުމުގެ ކުރިންނެވެ**. އަދި އެއީ ސުންނަތެކެވެ.
+
+## ކުރަންޖެހޭ ޙާލަތްތައް
+- **ބޮޑު ސުންނަތެއް ދޫވުން**، މިސާލަކަށް ފުރަތަމަ އައްތަޙިއްޔާތު ނުވަތަ ފަތިހުގެ ޤުނޫތު. ފުރިހަމައަށް ކޮޅަށް ތެދުވެވިއްޖެނަމަ އެނބުރި ނުދާށެވެ. ނިމުމުގައި ދެ ސަޖިދަކުރާށެވެ.
+- **ޤަޞްދުގައި ކުރިނަމަ ނަމާދު ބާޠިލުވާ ކަމެއް އޮޅިގެން ކުރެވުން**، މިސާލަކަށް ރަކުޢަތެއް އިތުރުކުރެވުން.
+- **ކުރެވުނު ރަކުޢަތުގެ ޢަދަދާމެދު ޝައްކުވުން.** ޔަޤީން ޢަދަދު، އެއީ މަދު ޢަދަދުގެ މައްޗަށް ބިނާކޮށް، ނަމާދު ފުރިހަމަކޮށް، ދެ ސަޖިދަކުރާށެވެ. މިސާލަކަށް ތިންވަނަ ރަކުޢަތްތޯ ހަތަރުވަނަ ރަކުޢަތްތޯ ޝައްކުވެއްޖެނަމަ، ތިންވަނަ ކަމުގައި ބަލާށެވެ.
+
+## ރުކުނެއް ދޫވެއްޖެނަމަ
+ސަހްވުގެ ސަޖިދައަކީ ރުކުނެއްގެ ބަދަލެއް ނޫނެވެ. ރުކޫޢެއް ނުވަތަ ސަޖިދައެއް ދޫވިކަން އެނގިއްޖެނަމަ، އެނބުރި ގޮސް އެކަން ކޮށް، އެ ހިސާބުން ކުރިއަށް ގެންދާށެވެ.
+
+## ނިމުމަށްފަހު އުފެދޭ ޝައްކު
+ސަލާމްދިނުމަށްފަހު އުފެދޭ ޝައްކަކަށް ބެލުމެއް ނެތެވެ. ޔަޤީންވެއްޖެނަމަ މެނުވީއެވެ.

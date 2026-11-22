@@ -1,0 +1,327 @@
+%% prophets-peoples | history | Four prophets and their peoples | ހަތަރު ނަބީބޭކަލުންނާއި އެބޭކަލުންގެ ޤައުމުތައް | Hud, Salih, Lut and Shu'ayb, each told in full. | ހޫދު، ޞާލިޙު، ލޫޠު އަދި ޝުޢައިބުގެފާނު، ކޮންމެ ބޭކަލެއްގެ ވާހަކަ ތަފްޞީލުކޮށް. | article
+
+@@ prophet-hud
+title_en: Hud and the people of 'Ad
+title_dv: ހޫދުގެފާނާއި ޢާދު ބައިމީހުން
+--- en
+The people of 'Ad lived in the sand hills of southern Arabia, in a city of tall pillars called Iram "the like of which had not been created in the land" (Quran 89:7-8). They were big, strong builders, and their strength made them proud. "Who is mightier than us?" they said (41:15). They worshipped idols and crushed the weak.
+
+Allah sent them one of their own, **Hud**. He asked for no payment. "My people, worship Allah; you have no god but Him. Ask your Lord's forgiveness and turn to Him, and He will send the sky pouring rain on you and add strength to your strength" (11:50-52).
+
+They answered that he was a fool, and that one of their gods must have struck him with madness. Hud replied that he trusted in Allah, his Lord and theirs: "There is no creature that He does not hold by the forelock" (11:56).
+
+A drought came. Then one day they saw a dark cloud filling the valley and rejoiced: "This is a cloud bringing us rain!" It was a roaring, freezing wind that Allah sent against them for seven nights and eight days without a break, leaving them like the trunks of hollow palm trees (69:6-7). Hud and those who believed were saved.
+
+**What to take from it:** strength, buildings and wealth are gifts, not proof of being right. Asking forgiveness brings rain and strength; arrogance takes them away.
+
+*Quran 7:65-72, 11:50-60, 26:123-140, 41:15-16, 46:21-25, 69:6-8.*
+--- dv
+ޢާދު ބައިމީހުން ދިރިއުޅުނީ ޢަރަބިކަރައިގެ ދެކުނުގެ ވެލިފަރުބަދަތަކުގައި، އިރަމް ކިޔާ އުސް ތަނބުތަކުގެ ރަށެއްގައެވެ (ޤުރުއާން 89:7-8). އެމީހުންނަކީ ބޮޑެތި، ބާރުގަދަ، ޢިމާރާތްކުރުމަށް މޮޅު ބައެކެވެ. އެ ބާރުގެ ސަބަބުން އެމީހުން ބޮޑާވިއެވެ. "އަހަރެމެންނަށްވުރެ ބާރުގަދައީ ކާކުހެއްޔެވެ؟" (41:15). އެމީހުން ބުދުތަކަށް އަޅުކަންކޮށް ނިކަމެތިންނަށް އަނިޔާކުރިއެވެ.
+
+ﷲ އެމީހުންގެ ތެރެއިން **ހޫދު**ގެފާނު ފޮނުއްވިއެވެ. "އަހުރެންގެ ޤައުމުގެ މީހުންނޭވެ! ﷲ އަށް އަޅުކަންކުރާށެވެ. ތިޔަބައިމީހުންގެ ރައްބުގެ ޙަޟްރަތުން ފާފަފުއްސެވުމަށް އެދި ތައުބާވާށެވެ. އޭރުން އެކަލާނގެ ވާރޭ ވެއްސަވައި، ތިޔަބައިމީހުންގެ ބާރުގެ މައްޗަށް ބާރު އިތުރުކޮށްދެއްވާނެއެވެ" (11:50-52).
+
+އެމީހުން ބުނީ އެކަލޭގެފާނަކީ މޮޔައެއް ކަމަށެވެ. ހޫދުގެފާނު ޖަވާބުދެއްވީ ﷲ އަށް ވަކީލުކުރައްވާކަމަށެވެ.
+
+ހަނަފަސްކަމެއް އައެވެ. ދުވަހަކު ކަޅު ވިލާގަނޑެއް ފެނުމުން "މިއީ ވާރޭ ގެނެސްދޭ ވިލާގަނޑެކޭ" ކިޔައި އުފާކުރިއެވެ. ނަމަވެސް އެއީ ހަތް ރެއާއި އަށް ދުވާލު މެދުނުކެނޑި ﷲ ފޮނުއްވި ފިނި ގަދަ ވައެކެވެ. އެމީހުން ވީ ފޫކޮށްފައިވާ ރުއްގަނޑުތަކެއް ފަދައިންނެވެ (69:6-7). ހޫދުގެފާނާއި އީމާންވި މީހުން ސަލާމަތްވިއެވެ.
+
+**ލިބޭ ޢިބުރަތް:** ބާރާއި ޢިމާރާތާއި މުދަލަކީ ނިޢުމަތެކެވެ. ޙައްޤުގެ މަތީގައި ހުރިކަމުގެ ހެއްކެއް ނޫނެވެ. އިސްތިޣްފާރުން ވާރެއާއި ބާރު ލިބެއެވެ. ބޮޑާކަމުން އެ ނިޢުމަތްތައް ގެއްލެއެވެ.
+
+@@ prophet-salih
+title_en: Salih and the she-camel of Thamud
+title_dv: ޞާލިޙުގެފާނާއި ޘަމޫދުގެ ޖަމަލު
+--- en
+After 'Ad came **Thamud**, who lived at Al-Hijr in north-west Arabia. They carved houses out of the mountains, and the rock-cut halls can still be seen there today. Like 'Ad, they turned to idols.
+
+**Salih** was a respected man among them until he called them to Allah. "You were someone we had hopes for before this!" they said (11:62). They demanded a miracle. Allah brought out for them a **she-camel** as a clear sign, with one condition: "She has a day to drink and you have a day to drink. Do not touch her with harm, or the punishment of a terrible day will seize you" (26:155-156).
+
+For a while they let her be. Then nine men who spread corruption in the city plotted, and the most wretched of them hamstrung and killed her (91:12-14). They dared Salih to bring what he had threatened. He told them: "Enjoy yourselves in your homes for three days. That is a promise that will not be broken" (11:65).
+
+On the fourth morning a single blast and an earthquake took them, and they lay dead on their faces in their homes. Salih and the believers had left. Years later the Prophet ﷺ passed those ruins on the way to Tabuk and told his companions to hurry through, weeping, and not to drink from its wells (Bukhari 3380).
+
+**What to take from it:** the whole people were punished though one man held the knife, because they approved. Staying silent and pleased at a wrong is a share in it.
+
+*Quran 7:73-79, 11:61-68, 26:141-159, 27:45-53, 54:23-31, 91:11-15.*
+--- dv
+ޢާދު ބައިމީހުންނަށްފަހު އައީ **ޘަމޫދު** ބައިމީހުންނެވެ. އެމީހުން ދިރިއުޅުނީ ޢަރަބިކަރައިގެ ހުޅަނގު އުތުރުގެ އަލްޙިޖްރުގައެވެ. އެމީހުން ފަރުބަދަ ކޮށައިގެން ގެދޮރު ހެދިއެވެ. އެ ގެތައް މިއަދުވެސް ފެންނަން އެބަހުއްޓެވެ. އެމީހުންވެސް ބުދުތަކަށް އަޅުކަންކުރިއެވެ.
+
+**ޞާލިޙު**ގެފާނު ﷲ ގެ މަގަށް ގޮވާލެއްވުމުން، އެމީހުން މުޢުޖިޒާތެއް ދެއްކުމަށް ޑިމާންޑުކުރިއެވެ. ﷲ ސާފު ހެއްކެއްގެ ގޮތުން **އަންހެން ޖަމަލެއް** ނެރުއްވިއެވެ. ޝަރުޠަކީ: "ފެންބޯން އެ ޖަމަލަށް ދުވަހެއް، ތިޔަބައިމީހުންނަށް ދުވަހެއް. އެ ޖަމަލަށް ގެއްލުމެއް ނުދޭށެވެ" (26:155-156).
+
+ކުޑަ ދުވަސްކޮޅަކަށްފަހު ފަސާދަ ފަތުރާ ނުވަ މީހަކު ރޭވުމެއް ރާވައި، އެންމެ ނުބައި މީހާ ޖަމަލު ކަތިލިއެވެ (91:12-14). ޞާލިޙުގެފާނު ވިދާޅުވިއެވެ: "ތިން ދުވަހު ގެތަކުގައި އުފާކުރާށެވެ. އެއީ ދޮގު ނުވާނެ ވަޢުދެކެވެ" (11:65).
+
+ހަތަރުވަނަ ދުވަހުގެ ހެނދުނު ގަދަ އަޑަކާއި ބިންހެލުމަކުން އެމީހުން ހަލާކުވިއެވެ. ޞާލިޙުގެފާނާއި މުއުމިނުން ކުރިން ނުކުމެވަޑައިގަތެވެ. ފަހުން ނަބިއްޔާ ﷺ ތަބޫކަށް ވަޑައިގަންނަވަމުން އެ ތަނުން ހުރަސްކުރައްވައިއިރު، އަވަހަށް ހިނގައިގަތުމަށާއި އެތަނުގެ ވަޅުތަކުން ފެން ނުބުއިމަށް އަމުރުކުރެއްވިއެވެ (ބުޚާރީ 3380).
+
+**ލިބޭ ޢިބުރަތް:** ވަޅި ހިފީ އެންމެ މީހަކު ކަމުގައިވިޔަސް މުޅި ޤައުމަށް ޢަޛާބު އައީ އެކަމަށް އެމީހުން ރުހުނީތީއެވެ. ނުބައިކަމަކަށް ހިމޭނުން ހުރެ ރުހުމަކީ އެކަމުގައި ބައިވެރިވުމެވެ.
+
+@@ prophet-lut
+title_en: Lut and the overturned cities
+title_dv: ލޫޠުގެފާނާއި ފުރޮޅާލެވުނު ރަށްތައް
+--- en
+**Lut** was the nephew of Ibrahim. He believed in him and left Iraq with him (29:26), then was sent as a prophet to the cities of Sodom, near the Dead Sea.
+
+Its people did what no people before them had done: the men went to men with desire instead of women. They also robbed travellers on the road and did evil openly in their gatherings (29:28-29). Lut called them to fear Allah. Their only answer was: "Drive Lut's family out of your town. They are people who want to keep pure!" (27:56).
+
+Angels came to Ibrahim first, with news of a son, and told him where they were going. Ibrahim pleaded for Lut's people, "for Ibrahim was forbearing, tender-hearted" (11:75), but the decree had come. The angels arrived at Lut's house as handsome young men. His people rushed to his door. Lut was distressed and offered them lawful marriage instead: "Is there not among you one right-minded man?" (11:78). Then the angels revealed themselves: "Lut, we are messengers of your Lord. They will not reach you. Travel with your family in the night and let none of you look back, except your wife" (11:81).
+
+At dawn the cities were lifted and turned upside down, and stones of baked clay rained on them. Lut's wife, who had sided with her people, perished with them. Allah made her an example for those who disbelieve, although she lived in a prophet's house (66:10).
+
+**What to take from it:** family ties to the righteous do not save anyone; each person answers for their own faith. And a believer may be a stranger in their own town and still be the one who is right.
+
+*Quran 7:80-84, 11:69-83, 15:51-77, 26:160-175, 27:54-58, 29:26-35, 54:33-39.*
+--- dv
+**ލޫޠު**ގެފާނަކީ އިބްރާހީމްގެފާނުގެ ބޭބޭފުޅެއްގެ ދަރިކަލުންނެވެ. އެކަލޭގެފާނު އިބްރާހީމްގެފާނަށް އީމާންވެ، ޢިރާޤުން ހިޖުރަކުރެއްވިއެވެ (29:26). އެއަށްފަހު މަރުވެފައިވާ ކަނޑު (ޑެޑް ސީ) ކައިރީގެ ސަދޫމުގެ ރަށްތަކަށް ނަބިއްޔަކަށް ފޮނުއްވުނެވެ.
+
+އެ ރަށުގެ މީހުން، ކުރިން އެއްވެސް ބަޔަކު ނުކުރާ ކަމެއް ކުރިއެވެ: ފިރިހެނުން އަންހެނުން ދޫކޮށް ފިރިހެނުންގެ ގާތަށް ޝަހުވަތާއެކު ދިޔައެވެ. އަދި މަގުމަތީގައި ދަތުރުވެރިން ފޭރި، މަޖިލިސްތަކުގައި ފާޅުގައި ނުބައިކަން ކުރިއެވެ (29:28-29). ލޫޠުގެފާނުގެ ނަސޭހަތަށް ދިން ޖަވާބަކީ: "ލޫޠުގެ އަހުލުން ރަށުން ބޭރުކުރާށެވެ. އެއީ ޠާހިރުވާން އުޅޭ ބަޔެކެވެ!" (27:56).
+
+މަލާއިކަތުން ރީތި ޒުވާނުންގެ ސިފައިގައި ލޫޠުގެފާނުގެ ގެއަށް އައުމުން ރަށުގެ މީހުން ދޮރުމައްޗަށް ދުވެފައި އައެވެ. ލޫޠުގެފާނު ހިތާމަފުޅުކުރެއްވިއެވެ. "ތިޔަބައިމީހުންގެ ތެރޭގައި ބުއްދިވެރި އެންމެ މީހަކުވެސް ނެތްހެއްޔެވެ؟" (11:78). އޭރު މަލާއިކަތުން ވިދާޅުވިއެވެ: "އޭ ލޫޠެވެ! އަހަރެމެންނަކީ ކަލޭގެފާނުގެ ރައްބުގެ ރަސޫލުންނެވެ. ރޭގަނޑު އަހުލުންނާއެކު ދަތުރުކުރައްވާށެވެ. އަނބިކަނބަލުން ފިޔަވައި އެކަކުވެސް ފަހަތް ނުބަލާށެވެ" (11:81).
+
+ފަތިހު އެ ރަށްތައް އުފުލައި ފުރޮޅާލެވި، މަށިން ހަދާފައިވާ ހިލަ ވެއްސުނެވެ. ޤައުމުގެ ފަރާތް ނެގި އަނބިކަނބަލުންވެސް ހަލާކުވިއެވެ (66:10).
+
+**ލިބޭ ޢިބުރަތް:** ޞާލިޙުންނާ އޮންނަ ޢާއިލީ ގުޅުމަކުން އެއްވެސް މީހަކު ސަލާމަތެއް ނުވާނެއެވެ. ކޮންމެ މީހަކު ޖަވާބުދާރީވާނީ އަމިއްލަ އީމާންކަމަށެވެ.
+
+@@ prophet-shuayb
+title_en: Shu'ayb and the cheating merchants of Madyan
+title_dv: ޝުޢައިބުގެފާނާއި މަދްޔަނުގެ އޮޅުވާލާ ވިޔަފާރިވެރިން
+--- en
+**Madyan** stood on the trade road between Arabia and Syria. Its people were wealthy merchants with one great sin besides idolatry: they cheated. When they bought they demanded full measure, and when they sold they gave less. They also sat on the roads threatening travellers.
+
+**Shu'ayb**, called by scholars "the preacher of the prophets" for his fine speech, told them: "My people, worship Allah. Give full measure and weight in justice, do not cheat people of their goods, and do not spread corruption in the land. What Allah leaves you is better for you, if you are believers" (11:84-86).
+
+They mocked him: "Shu'ayb, does your prayer tell you that we should leave what our fathers worshipped, or stop doing what we like with our own money?" (11:87). That question is still asked today: what has religion to do with business? His answer was everything. "I only want to put things right as far as I can. My success is only through Allah" (11:88).
+
+They threatened to stone him and drive out the believers. Then the punishment came: an earthquake, a terrible cry, and the "day of the shadow", a cloud they ran under for shade that rained fire (26:189). By morning they lay dead in their homes "as though they had never lived there" (11:95).
+
+Many scholars say the old man of Madyan whose daughters Musa helped at the well, and who gave Musa work and a wife, was Shu'ayb, though the Quran does not name him (28:23-28).
+
+**What to take from it:** honest scales are part of faith. A dishonest weight, a hidden defect, a padded invoice: these destroyed a nation.
+
+*Quran 7:85-93, 11:84-95, 26:176-191, 29:36-37.*
+--- dv
+**މަދްޔަން** އޮތީ ޢަރަބިކަރައާއި ޝާމާ ދެމެދުގެ ވިޔަފާރީގެ މަގުގައެވެ. އެ ރަށުގެ މީހުންނަކީ މުއްސަނދި ވިޔަފާރިވެރިންނެވެ. ބުދުތަކަށް އަޅުކަންކުރުމުގެ އިތުރުން އެމީހުންގެ ބޮޑު ފާފައަކީ އޮޅުވާލުމެވެ. ގަންނައިރު ފުރިހަމަ މިންވަރު ހޯދައި، ވިއްކާއިރު މަދުން ދެއެވެ.
+
+ރީތި ވާހަކަފުޅުގެ ސަބަބުން "ނަބީބޭކަލުންގެ ޚަޠީބު" ގެ ނަމުން މަޝްހޫރު **ޝުޢައިބު**ގެފާނު ވިދާޅުވިއެވެ: "އަހުރެންގެ ޤައުމުގެ މީހުންނޭވެ! ﷲ އަށް އަޅުކަންކުރާށެވެ. މިނުމާއި ކިރުން ޢަދުލުވެރިކަމާއެކު ފުރިހަމަކުރާށެވެ. މީސްތަކުންގެ މުދާ އުނިނުކުރާށެވެ" (11:84-86).
+
+އެމީހުން މަލާމާތްކުރިއެވެ: "އޭ ޝުޢައިބެވެ! އަހަރެމެންގެ މުދަލުން ބޭނުންގޮތެއް ނުހެދުމަށް ކަލޭގެ ނަމާދު އަމުރުކުރަނީހެއްޔެވެ؟" (11:87). މި ސުވާލު މިއަދުވެސް ކުރެވެއެވެ: ދީނާއި ވިޔަފާރިއާ ކޮން ގުޅުމެއްހެއްޔެވެ؟ ޖަވާބަކީ ހުރިހާ ގުޅުމެކެވެ.
+
+އެމީހުން އެކަލޭގެފާނަށް ހިލަ އުކުމަށް ބިރުދެއްކިއެވެ. ދެން ޢަޛާބު އައެވެ: ބިންހެލުމަކާއި، ބިރުވެރި އަޑަކާއި، "ހިޔަނީގެ ދުވަހު" އަލިފާން ވެއްސި ވިލާގަނޑެއް (26:189). ހެނދުނު އެމީހުން ތިބީ ގެތަކުގައި މަރުވެފައެވެ (11:95).
+
+**ލިބޭ ޢިބުރަތް:** ތެދުވެރި މީޒާނަކީ އީމާންކަމުގެ ބައެކެވެ. ދޮގު ބަރުދަނެއް، ފޮރުވާފައިވާ ޢައިބެއް، ބޮޑުކޮށްފައިވާ ބިލެއް: މިއީ ޤައުމެއް ހަލާކުކުރި ކަންތަކެވެ.
+
+%% quran-stories | history | Stories told in the Quran | ޤުރުއާނުގައިވާ ވާހަކަތައް | The sleepers of the cave, Musa and Khidr, Dhul-Qarnayn, Luqman, Maryam and others. | ހޮހަޅައިގެ އެކުވެރިންނާއި، މޫސާގެފާނާއި ޚިޟްރުގެފާނާއި، ޛުލްޤަރުނައިނާއި، ލުޤްމާނާއި، މަރްޔަމްގެފާނުގެ ވާހަކަ. | article
+
+@@ story-habil-qabil
+title_en: The two sons of Adam
+title_dv: އާދަމްގެފާނުގެ ދެ ދަރިކަލުން
+--- en
+Each of two sons of Adam offered a sacrifice to Allah. One gave the best he had, with a sincere heart, and it was accepted. The other gave carelessly, and it was not.
+
+The one who was refused burned with envy. "I will kill you," he said. His brother answered with words believers have remembered ever since: "Allah accepts only from those who are mindful of Him. If you raise your hand to kill me, I will not raise mine to kill you. I fear Allah, Lord of the worlds" (5:27-28).
+
+He killed him, the first murder on earth, and then did not know what to do with the body. Allah sent a crow that scratched the ground to bury another crow. "Woe to me! Could I not even be like this crow and hide my brother's body?" (5:31). He became one of the regretful.
+
+Allah then states the law that came from this: whoever kills one soul unjustly, it is as if they killed all mankind, and whoever saves one, it is as if they saved all mankind (5:32). The Prophet ﷺ said that the first son of Adam bears a share of the guilt of every murder since, because he was the first to set the example (Bukhari 3335).
+
+The Quran does not name the brothers. Tradition calls them Habil and Qabil.
+--- dv
+އާދަމްގެފާނުގެ ދެ ދަރިކަލުން ﷲ އަށް ޤުރުބާނެއް ހުށަހެޅުއްވިއެވެ. އެއް ބޭކަލަކު އިޚްލާޞްތެރިކަމާއެކު އެންމެ ރަނގަޅު އެއްޗެއް ހުށަހެޅުއްވުމުން ޤަބޫލުކުރެއްވުނެވެ. އަނެއް ބޭކަލާގެ ޤުރުބާނީ ޤަބޫލެއް ނުކުރެއްވުނެވެ.
+
+ޤަބޫލުނުކުރެއްވުނު މީހާ ޙަސަދަވެރިވެ "ކަލޭ މަރާލާނަމޭ" ބުންޏެވެ. އަޚާ ޖަވާބުދެއްވިއެވެ: "ﷲ ޤަބޫލުކުރައްވަނީ ތަޤުވާވެރިންގެ ކިބައިން އެކަންޏެވެ. އަހަރެން މަރަން ކަލޭ އަތް ދިއްކުރިޔަސް، ކަލޭ މަރަން އަހަރެން އަތެއް ނުދިއްކުރާނަމެވެ. އަހަރެން ޢާލަމްތަކުގެ ރައްބު ﷲ އަށް ބިރުވެތިވަމެވެ" (5:27-28).
+
+އޭނާ އަޚާ މަރާލިއެވެ. އެއީ ދުނިޔޭގައި ހިނގި ފުރަތަމަ ޤަތުލެވެ. ހަށިގަނޑަށް ހަދާނެ ގޮތެއް ނޭނގުމުން، ﷲ ކާޅެއް ފޮނުއްވައި، އެ ކާޅު ބިން ކޮނެ އެހެން ކާޅެއް ވަޅުލިއެވެ. "އަހަރެންގެ ހަލާކެވެ! މި ކާޅު ފަދައިންވެސް އަހަރެންނަށް ނުވެވުނީހެއްޔެވެ؟" (5:31).
+
+އެއަށްފަހު ﷲ ޤާނޫނު ބަޔާންކުރައްވައެވެ: ނާޙައްޤުން އެންމެ ނަފްސެއް މަރާ މީހާ މުޅި އިންސާނިއްޔަތު މެރި ފަދައެވެ. އެންމެ ނަފްސެއް ސަލާމަތްކުރާ މީހާ މުޅި އިންސާނިއްޔަތު ސަލާމަތްކުރި ފަދައެވެ (5:32).
+
+ޤުރުއާނުގައި އެ ދެބޭކަލުންގެ ނަމެއް ނެތެވެ. ރިވާޔަތްތަކުގައި ހާބީލާއި ޤާބީލުގެ ނަމުން މަޝްހޫރެވެ.
+
+@@ story-cave
+title_en: The sleepers of the cave
+title_dv: ހޮހަޅައިގެ އެކުވެރިން
+--- en
+A group of young men lived among a people who worshipped idols under a tyrant king. "They were young men who believed in their Lord, and We increased them in guidance" (18:13). They stood up and said, "Our Lord is the Lord of the heavens and the earth. We will never call on any god but Him."
+
+Faced with death or giving up their faith, they left everything and took shelter in a cave, with their dog stretched out at the entrance. They prayed: "Our Lord, grant us mercy from Yourself and guide us rightly through our ordeal" (18:10).
+
+Allah put them to sleep. The sun passed them by on the right as it rose and on the left as it set, and He turned them from side to side. They slept **three hundred years, and nine more** (18:25).
+
+When they woke they thought it had been a day or part of a day. One went to town with their silver coins to buy food, carefully, so as not to be noticed. But the coins were centuries old, the tyrant was long dead, and the people had become believers. Their story became a sign for everyone that Allah's promise of resurrection is true (18:21).
+
+People later argued about how many they were. Allah says: "My Lord knows best their number", and tells us not to dispute about what we cannot know (18:22). In the same passage He teaches: do not say "I will do that tomorrow" without adding **in sha' Allah** (18:23-24).
+
+**What to take from it:** young people can hold to the truth when a whole society is against them, and Allah protects those who flee to Him. This is the first of the four stories in Surah Al-Kahf, which we read on Fridays.
+--- dv
+އަނިޔާވެރި ރަސްގެފާނެއްގެ ވެރިކަމުގައި ބުދުތަކަށް އަޅުކަންކުރާ ބަޔެއްގެ ތެރޭގައި ޒުވާނުންތަކެއް ދިރިއުޅުނެވެ. "އެއީ ރައްބަށް އީމާންވި ޒުވާނުންތަކެކެވެ. އަހުރެން އެމީހުންނަށް ހިދާޔަތް އިތުރުކުރެއްވީމެވެ" (18:13). އެމީހުން ތެދުވެ ބުންޏެވެ: "އަހަރެމެންގެ ރައްބަކީ އުޑުތަކާއި ބިމުގެ ރައްބެވެ. އެކަލާނގެ ފިޔަވައި އެހެން އިލާހަކަށް އަހަރެމެން ނުގޮވާނަމެވެ."
+
+މަރު ނުވަތަ ދީން ދޫކޮށްލުމާ ކުރިމަތިވުމުން، އެމީހުން ހުރިހާ އެއްޗެއް ދޫކޮށް ހޮހަޅައަކަށް ވަނެވެ. އެމީހުންގެ ކުއްތާ ދޮރުމަތީގައި އޮތެވެ. އެމީހުން ދުޢާކުރިއެވެ: "އަޅަމެންގެ ރައްބެވެ! އިބަރަސްކަލާނގެ ޙަޟްރަތުން ރަޙްމަތެއް ދެއްވާނދޭވެ" (18:10).
+
+ﷲ އެމީހުން ނިންދެވިއެވެ. އެމީހުން ނިދީ **ތިންސަތޭކަ އަހަރާއި އިތުރު ނުވަ އަހަރު** (18:25).
+
+ހޭލުމުން އެމީހުންނަށް ހީވީ ދުވަހެއް ނުވަތަ ދުވަހެއްގެ ބައެއް ވީކަމަށެވެ. އެކަކު ކާތަކެތި ގަންނަން ރިހި ފައިސާ ހިފައިގެން ރަށަށް ދިޔައެވެ. ނަމަވެސް ފައިސާއަކީ ޤަރުނުތަކެއް ކުރީގެ ފައިސާއެވެ. އަނިޔާވެރިޔާ މަރުވެ، މީސްތަކުން އީމާންވެފައި ތިއްބެވެ. އެމީހުންގެ ވާހަކައަކީ ޤިޔާމަތް ދުވަހު ދިރުއްވާނެކަމުގެ ހެއްކެކެވެ (18:21).
+
+ހަމަ އެ އާޔަތްތަކުގައި ﷲ ދަސްކޮށްދެއްވައެވެ: **އިން ޝާ ﷲ** ނުކިޔައި "މާދަމާ އެކަން ކުރާނަމޭ" ނުބުނާށެވެ (18:23-24).
+
+**ލިބޭ ޢިބުރަތް:** މުޅި މުޖުތަމަޢު ދެކޮޅުވިޔަސް ޒުވާނުންނަށް ޙައްޤުގައި ސާބިތުވެވޭނެއެވެ. މިއީ ހުކުރު ދުވަހު ކިޔަވާ ސޫރަތުލް ކަހްފުގެ ހަތަރު ވާހަކައިގެ ތެރެއިން ފުރަތަމަ ވާހަކައެވެ.
+
+@@ story-musa-khidr
+title_en: Musa and Al-Khidr
+title_dv: މޫސާގެފާނާއި ޚިޟްރުގެފާނު
+--- en
+Musa was once asked who the most knowledgeable person was, and answered, "I am." Allah told him there was a servant at the meeting of the two seas who knew what he did not (Bukhari 122). Musa set out to find him, saying he would travel for ages if he had to.
+
+He found **Al-Khidr**, "one of Our servants to whom We had given mercy and taught knowledge from Ourselves" (18:65). Musa asked to follow and learn. Al-Khidr warned him: "You will not be able to be patient with me." Musa promised he would.
+
+Three things happened.
+
+- They boarded a boat whose owners carried them for free, and Al-Khidr **made a hole in it**. Musa protested.
+- They met a boy, and Al-Khidr **killed him**. Musa protested more strongly.
+- They came to a town that refused them food, found a wall about to fall, and Al-Khidr **rebuilt it** for nothing. Musa said he could at least have asked for payment.
+
+"This is the parting between you and me," said Al-Khidr, and explained. A king ahead was seizing every sound boat, so the damage saved it for its poor owners. The boy would have driven his believing parents to disbelief, and Allah would give them a better child. Under the wall lay a treasure belonging to two orphans whose father had been righteous, and it had to stay hidden until they grew up. "I did not do it of my own accord" (18:82).
+
+**What to take from it:** however much you know, there is more. And behind events that look like pure loss, Allah may be protecting you from something you cannot see. Note the orphans: they were cared for because of their father's goodness.
+--- dv
+މޫސާގެފާނާ އެންމެ ޢިލްމުވެރި މީހަކީ ކާކުތޯ ސުވާލުކުރެވުމުން "އަހަރެންނޭ" ޖަވާބުދެއްވިއެވެ. ދެ ކަނޑު ގުޅޭ ތަނުގައި، އެކަލޭގެފާނަށް ނޭނގޭ ޢިލްމެއް ލިބިފައިވާ އަޅަކު ހުރިކަން ﷲ އެންގެވިއެވެ (ބުޚާރީ 122).
+
+އެކަލޭގެފާނަށް **ޚިޟްރު**ގެފާނު ފެނިވަޑައިގަތެވެ (18:65). ތަބާވެ ޢިލްމު އުނގެނުމަށް މޫސާގެފާނު އެދިވަޑައިގަތެވެ. ޚިޟްރުގެފާނު ވިދާޅުވިއެވެ: "ކަލޭގެފާނަށް އަހަރެންނާއެކު ކެތްތެރިއެއް ނުވެވޭނެއެވެ."
+
+ތިން ކަމެއް ހިނގިއެވެ.
+
+- ހިލޭ އަރުވައިދިން ބައެއްގެ ނައުގައި ޚިޟްރުގެފާނު **ލޯވަޅެއް ހެއްދެވިއެވެ**.
+- ކުއްޖަކާ ދިމާވުމުން އެ ކުއްޖާ **މަރާލެއްވިއެވެ**.
+- ކާތަކެތި ދޭން ދެކޮޅުހެދި ރަށެއްގައި ވެއްޓެން އުޅުނު ފާރެއް ހިލޭ **ރާނައިދެއްވިއެވެ**.
+
+ކޮންމެ ފަހަރަކުވެސް މޫސާގެފާނު އިޢުތިރާޟުކުރެއްވިއެވެ. ޚިޟްރުގެފާނު ސަބަބު ބަޔާންކޮށްދެއްވިއެވެ. ކުރިމަތީގައި ހުރި ރަސްގެފާނަކު ރަނގަޅު ކޮންމެ ނަވެއް ފޭރިގަންނާތީ، ނައުގެ ނިކަމެތި ވެރިންނަށް ނައު ސަލާމަތްވީ އެ ގެއްލުމުންނެވެ. އެ ކުއްޖާ ބޮޑުވެ މުއުމިނު މައިންބަފައިން ކުފުރަށް ގެންދާނެއެވެ. ފާރުގެ ދަށުގައި ޞާލިޙު ބައްޕައެއްގެ ދެ ޔަތީމު ކުދިންގެ ޚަޒާނާއެއް އޮތެވެ. "އެއީ އަހަރެންގެ އަމިއްލަ ރައުޔަކުން ކުރި ކަމެއް ނޫނެވެ" (18:82).
+
+**ލިބޭ ޢިބުރަތް:** ކިތަންމެ ޢިލްމެއް ލިބިފައިވިޔަސް އިތުރު ޢިލްމު އެބައޮތެވެ. އަދި ގެއްލުމެއް ކަމަށް ފެންނަ ކަމެއްގެ ފަހަތުގައި، ތިބާއަށް ނުފެންނަ ކަމަކުން ﷲ ތިބާ ރައްކާތެރިކުރައްވަނީ ކަމުގައިވެދާނެއެވެ.
+
+@@ story-dhul-qarnayn
+title_en: Dhul-Qarnayn and the wall
+title_dv: ޛުލްޤަރުނައިނާއި ފާރު
+--- en
+**Dhul-Qarnayn**, "the one of two horns", was a righteous king to whom Allah gave power in the land and the means to everything (18:84). The Quran does not say who he was in history, and scholars have differed; what matters is how he used his power.
+
+He travelled **west** until he reached the setting of the sun, and found a people there. Given the choice to punish or treat them well, he ruled with justice: the wrongdoer would be punished, and the one who believed and did good would have the best reward and an easy command.
+
+He travelled **east** to a people who had no shelter from the sun.
+
+Then he came between two mountains, to a people who could hardly understand speech. They begged him: "Dhul-Qarnayn, **Gog and Magog** are spreading corruption in the land. Shall we pay you to build a barrier between us and them?" He refused the money: "What my Lord has given me is better. Help me with labour" (18:95). He had them bring blocks of iron, filled the gap between the two cliffs, heated it until it glowed and poured molten copper over it. They could neither climb it nor break through it.
+
+He did not boast. "This is a mercy from my Lord. When my Lord's promise comes, He will level it, and my Lord's promise is true" (18:98). The release of Gog and Magog is one of the signs before the Hour (21:96).
+
+**What to take from it:** power is a trust. The good ruler is just, refuses payment for doing his duty, makes people share in the work, and gives the credit to Allah.
+--- dv
+**ޛުލްޤަރުނައިން**އަކީ ﷲ ބިމުގައި ބާރާއި ކޮންމެ ކަމަކަށް ވަސީލަތް ދެއްވި ޞާލިޙު ރަސްގެފާނެކެވެ (18:84). އެއީ ތާރީޚުގައި ކާކުކަން ޤުރުއާނުގައި ބަޔާންކޮށްފައެއް ނުވެއެވެ. މުހިންމީ އެކަލޭގެފާނު ބާރު ބޭނުންކުރެއްވި ގޮތެވެ.
+
+އެކަލޭގެފާނު **ހުޅަނގަށް** ދަތުރުކުރައްވައި ބަޔަކާ ދިމާވިއެވެ. ޢަދުލުވެރިކަމާއެކު ޙުކުމްކުރެއްވިއެވެ: އަނިޔާވެރިޔާއަށް އަދަބު، އީމާންވެ ޞާލިޙު ޢަމަލުކުރާ މީހާއަށް ހެޔޮ ޖަޒާ.
+
+**އިރުމައްޗަށް** ދަތުރުކުރައްވައި، އިރުގެ ކިބައިން ހިޔާވާނެ އެއްޗެއް ނެތް ބަޔަކާ ދިމާވިއެވެ.
+
+އެއަށްފަހު ދެ ފަރުބަދައެއްގެ ދެމެދަށް ވަޑައިގަތެވެ. އެތަނުގެ މީހުން އާދޭސްކުރިއެވެ: "**ޔަޢުޖޫޖު މަޢުޖޫޖު** ބިމުގައި ފަސާދަ ފަތުރައެވެ. ފާރެއް ރާނައިދެއްވުމަށް އުޖޫރައެއް ދޭންތޯއެވެ؟" އެކަލޭގެފާނު ފައިސާ ނެންގެވުމަށް ދެކޮޅުހައްދަވައި ވިދާޅުވިއެވެ: "އަހަރެންގެ ރައްބު ދެއްވާފައިވާ އެއްޗެއް މާ ރަނގަޅެވެ. މަސައްކަތުން އެހީވާށެވެ" (18:95). ދަގަނޑު ބުރިތައް ޖަމާކޮށް، އަލިފާނުން ހޫނުކޮށް، ވިރުވާފައިވާ ރަތްލޯ އޮއްސަވައި ފާރެއް ރާނައިދެއްވިއެވެ.
+
+އެކަލޭގެފާނު ބޮޑާއެއް ނުހެއްދެވިއެވެ. "މިއީ އަހަރެންގެ ރައްބުގެ ރަޙްމަތެކެވެ" (18:98). ޔަޢުޖޫޖު މަޢުޖޫޖު ނުކުތުމަކީ ޤިޔާމަތުގެ ޢަލާމާތެކެވެ (21:96).
+
+**ލިބޭ ޢިބުރަތް:** ބާރަކީ އަމާނާތެކެވެ. ރަނގަޅު ވެރިޔާ ޢަދުލުވެރިވެ، ވާޖިބު އަދާކުރުމަށް އުޖޫރަ ނުނަގައި، މީސްތަކުން މަސައްކަތުގައި ބައިވެރިކޮށް، ޝަރަފު ﷲ އަށް ދެއެވެ.
+
+@@ story-luqman
+title_en: Luqman's advice to his son
+title_dv: ލުޤްމާނުގެފާނު ދަރިކަލުންނަށް ދެއްވި ނަސޭހަތް
+--- en
+**Luqman** was a wise man to whom Allah gave wisdom (31:12). Most scholars hold he was not a prophet but a righteous servant. Surah 31 is named after him, and records what he said to his son, gently, calling him *ya bunayya*, "my dear son", each time.
+
+1. **Do not associate anything with Allah.** "Associating others with Him is a tremendous wrong" (31:13).
+2. **Be grateful to Allah and to your parents.** Your mother carried you in weakness upon weakness. If they push you to worship other than Allah, do not obey them in that, but keep them kind company in this world (31:14-15).
+3. **Allah sees everything.** "If it were the weight of a mustard seed, inside a rock or anywhere in the heavens or the earth, Allah will bring it out" (31:16).
+4. **Establish the prayer.**
+5. **Enjoin what is right, forbid what is wrong, and be patient** with what befalls you.
+6. **Do not turn your cheek away from people in contempt, and do not walk proudly.** "Allah does not love the arrogant boaster" (31:18).
+7. **Walk moderately and lower your voice.** "The ugliest of sounds is the braying of donkeys" (31:19).
+
+Notice the order: belief first, then parents, then awareness of Allah, then prayer, then how you treat people, down to how you walk and talk. It is a complete course in raising a child, in seven ayahs.
+--- dv
+**ލުޤްމާނު**ގެފާނަކީ ﷲ ޙިކުމަތް ދެއްވި ބުއްދިވެރިއެކެވެ (31:12). ގިނަ ޢިލްމުވެރިންގެ ރައުޔުގައި އެކަލޭގެފާނަކީ ނަބިއްޔެއް ނޫނެވެ. ޞާލިޙު އަޅެކެވެ. ސޫރަތު 31 އަށް ނަން ދެވިފައިވަނީ އެކަލޭގެފާނުގެ ނަމުންނެވެ. އޭގައި އެކަލޭގެފާނު ދަރިކަލުންނަށް "އޭ ލޯބިވާ ދަރިފުޅާއެވެ" ކިޔައި ދެއްވި ނަސޭހަތް ވެއެވެ.
+
+1. **ﷲ އަށް ޝަރީކު ނުކުރާށެވެ.** "ޝިރުކަކީ ބޮޑުވެގެންވާ އަނިޔާއެކެވެ" (31:13).
+2. **ﷲ އަށާއި މައިންބަފައިންނަށް ޝުކުރުވެރިވާށެވެ.** ޝިރުކުކުރުމަށް މަޖުބޫރުކޮށްފި ނަމަ އެކަމުގައި ކިޔަމަން ނުވާށެވެ. ނަމަވެސް ދުނިޔޭގައި ރަނގަޅު ގޮތުގައި އެކުވެރިވާށެވެ (31:14-15).
+3. **ﷲ ހުރިހާ ކަމެއް ދެކެވޮޑިގަންނަވައެވެ.** "ރެވި އޮށެއްގެ ބަރުދަނެއްގެ އެއްޗެއް ހިލަގަނޑެއްގެ ތެރޭގައިވިޔަސް ﷲ އެ ގެންނަވާނެއެވެ" (31:16).
+4. **ނަމާދު ޤާއިމުކުރާށެވެ.**
+5. **ހެޔޮކަމަށް އަމުރުކޮށް، ނުބައިކަން ނަހީކޮށް، ކެތްތެރިވާށެވެ.**
+6. **މީހުންނަށް ކިބުރުވެރިކަމުން މޫނު އަނބުރާނުލައި، ބޮޑާކަމާއެކު ނުހިނގާށެވެ** (31:18).
+7. **މެދުމިނަށް ހިނގައި އަޑު މަޑުކުރާށެވެ** (31:19).
+
+ތަރުތީބަށް ބައްލަވާށެވެ: ފުރަތަމަ ޢަޤީދާ، ދެން މައިންބަފައިން، ދެން ﷲ ގެ މުރާޤަބާ، ދެން ނަމާދު، ދެން މީހުންނާ މުޢާމަލާތްކުރާ ގޮތް. މިއީ ހަތް އާޔަތުގައި ދަރިން ތަރުބިއްޔަތުކުރުމުގެ ފުރިހަމަ މަންހަޖެކެވެ.
+
+@@ story-maryam
+title_en: Maryam, mother of 'Isa
+title_dv: ޢީސާގެފާނުގެ މަންމާފުޅު މަރްޔަމްގެފާނު
+--- en
+**Maryam** is the only woman named in the Quran, and a whole surah carries her name. The Prophet ﷺ counted her among the most perfect of women (Bukhari 3411).
+
+Her mother, the wife of 'Imran, vowed the child in her womb to the service of Allah. When she gave birth to a girl she prayed, "I seek Your protection for her and her offspring from Satan the outcast" (3:36). Maryam grew up in the sanctuary under the care of the prophet **Zakariyya**. Whenever he entered her prayer-niche he found food with her. "Maryam, where is this from?" "It is from Allah. Allah provides for whom He wills without measure" (3:37).
+
+The angels told her: "Allah has chosen you, purified you, and chosen you above the women of the worlds" (3:42). Then Jibril came to her in the form of a man. She sought refuge in Allah from him. He said he was only a messenger from her Lord, to give her a pure son. "How can I have a son when no man has touched me?" "So it will be. Your Lord says: it is easy for Me" (19:20-21).
+
+She withdrew to a distant place. The pains of birth drove her to the trunk of a palm tree. "I wish I had died before this and been forgotten!" A voice called: do not grieve; your Lord has placed a stream beneath you; shake the trunk and fresh dates will fall (19:23-25).
+
+She returned carrying the child. Her people accused her. She only pointed to the baby, and **'Isa spoke from the cradle**: "I am the servant of Allah. He has given me the Book and made me a prophet, and made me blessed wherever I am" (19:30-31).
+
+**What to take from it:** Maryam was chaste, devout and truthful, and Allah Himself defended her honour in a Book recited until the end of time.
+--- dv
+**މަރްޔަމް**ގެފާނަކީ ޤުރުއާނުގައި ނަން އައިސްފައިވާ ހަމައެކަނި އަންހެން ބޭކަނބަލެވެ. އެކަމަނާގެ ނަމުގައި ސޫރަތެއް ވެއެވެ. ނަބިއްޔާ ﷺ އެކަމަނާއަކީ އެންމެ ފުރިހަމަ އަންހެނުންގެ ތެރެއިން ބޭކަނބަލެއް ކަމުގައި ޙަދީޘްކުރެއްވިއެވެ (ބުޚާރީ 3411).
+
+އެކަމަނާގެ މަންމާފުޅު، ބަނޑުގައިވާ ދަރިފުޅު ﷲ ގެ ޚިދުމަތަށް ނަދުރުކުރެއްވިއެވެ. މަރްޔަމްގެފާނު ބޮޑުވީ **ޒަކަރިއްޔާ**ގެފާނުގެ ބެލުމުގެ ދަށުގައެވެ. އެކަލޭގެފާނު މިޙްރާބަށް ވަންނަ ކޮންމެ ފަހަރަކު އެކަމަނާގެ ގާތުގައި ކާނާ ހުރެއެވެ. "މިއީ ކޮންތާކުން ލިބުނު އެއްޗެއްހެއްޔެވެ؟" "މިއީ ﷲ ގެ ޙަޟްރަތުންނެވެ" (3:37).
+
+މަލާއިކަތުން ވިދާޅުވިއެވެ: "ﷲ ކަމަނާ ޚިޔާރުކުރައްވައި، ޠާހިރުކުރައްވައި، ޢާލަމްތަކުގެ އަންހެނުންގެ މައްޗަށް ޚިޔާރުކުރައްވައިފިއެވެ" (3:42). އެއަށްފަހު ޖިބްރީލުގެފާނު ވަޑައިގެން ޠާހިރު ދަރިއެއްގެ ޚަބަރު ދެއްވިއެވެ. "އެއްވެސް ފިރިހެނަކު އަހަރެންގައިގައި އަތްނުލާއިރު އަހަންނަށް ދަރިއަކު ލިބޭނީ ކިހިނެއްހެއްޔެވެ؟" "ރައްބު ވަޙީކުރައްވައެވެ: އެއީ އަހަންނަށް ފަސޭހަ ކަމެކެވެ" (19:20-21).
+
+ވިހެއުމުގެ ތަދުގައި އެކަމަނާ ކަދުރުރުކެއްގެ ތަނބު ކައިރިއަށް ދިޔައެވެ. އަޑެއް އިވުނެވެ: ހިތާމަނުކުރައްވާށެވެ. ތިރީގައި ފެންކޯރެއް ވެއެވެ. ރުއްގަނޑު ތަޅުވާލުމުން ތާޒާ ކަދުރު ވެއްޓޭނެއެވެ (19:23-25).
+
+ދަރިކަލުން ގޮވައިގެން އައުމުން ޤައުމުގެ މީހުން ތުހުމަތުކުރިއެވެ. އެކަމަނާ ކުޑަކުއްޖާއަށް އިޝާރާތްކުރެއްވުމުން **ޢީސާގެފާނު ވާހަކަފުޅު ދެއްކެވިއެވެ**: "އަހަރެންނަކީ ﷲ ގެ އަޅެކެވެ. އެކަލާނގެ އަހަންނަށް ފޮތް ދެއްވައި ނަބިއްޔަކު ކަމުގައި ލެއްވިއެވެ" (19:30-31).
+
+@@ story-qarun
+title_en: Qarun and his treasure
+title_dv: ޤާރޫނާއި އޭނާގެ ޚަޒާނާ
+--- en
+**Qarun** was one of Musa's own people, but he oppressed them. Allah had given him so much treasure that its keys alone were a heavy load for a band of strong men (28:76).
+
+His people advised him well: "Do not gloat; Allah does not love those who gloat. Seek the home of the Hereafter with what Allah has given you, **and do not forget your share of this world.** Do good as Allah has been good to you, and do not seek corruption in the land" (28:76-77).
+
+His answer is the answer of every arrogant rich man: **"I was only given it because of knowledge I have."** He thought his wealth was his own cleverness.
+
+He went out before his people in all his finery. Those who wanted the life of this world said, "If only we had what Qarun has! He is tremendously fortunate." Those given knowledge said, "Woe to you. Allah's reward is better for whoever believes and does good" (28:79-80).
+
+Then Allah made the earth swallow him and his house. No group could help him. In the morning those who had envied his place said, "Had Allah not been gracious to us He would have made it swallow us too" (28:82).
+
+**What to take from it:** wealth is a test, not a certificate. Use it for the Hereafter, enjoy your lawful share, do good with it, and never say "I earned this all by myself."
+--- dv
+**ޤާރޫން**އަކީ މޫސާގެފާނުގެ ޤައުމުގެ މީހެކެވެ. ނަމަވެސް އޭނާ އެމީހުންނަށް އަނިޔާކުރިއެވެ. ﷲ އޭނާއަށް ދެއްވި ޚަޒާނާގެ ތަޅުދަނޑިތައް އުފުލުމަކީވެސް ބާރުގަދަ ޖަމާޢަތަކަށް ބުރަ ކަމެކެވެ (28:76).
+
+ޤައުމުގެ މީހުން ނަސޭހަތްދިނެވެ: "ބޮޑާނުވާށެވެ. ﷲ ދެއްވި ތަކެތިން އާޚިރަތުގެ ގޮވަތި ހޯދާށެވެ. **އަދި ދުނިޔެއިން ތިބާގެ ބައި ހަނދާންނައްތާނުލާށެވެ.** ﷲ ތިބާއަށް ހެޔޮކުރެއްވި ފަދައިން ހެޔޮކުރާށެވެ" (28:76-77).
+
+އޭނާގެ ޖަވާބަކީ ކޮންމެ ކިބުރުވެރި މުއްސަނދިއެއްގެ ޖަވާބެވެ: **"މި ލިބުނީ އަހަރެންގެ ކިބައިގައިވާ ޢިލްމެއްގެ ސަބަބުންނެވެ."**
+
+އޭނާ ޒީނަތްތެރިވެގެން ޤައުމުގެ މީހުންގެ ކުރިމައްޗަށް ނުކުތެވެ. ދުނިޔޭގެ ޙަޔާތަށް އެދޭ މީހުން ބުންޏެވެ: "ޤާރޫނަށް ލިބުނު ފަދަ އެއްޗެއް އަހަރެމެންނަށްވެސް ލިބުނު ނަމައެވެ!" ޢިލްމުވެރިން ބުންޏެވެ: "ﷲ ގެ ސަވާބު މާ ރަނގަޅެވެ" (28:79-80).
+
+ދެން ﷲ އޭނާއާއި އޭނާގެ ގެ ބިމުގެ އަޑިއަށް ގެންދެވިއެވެ (28:81).
+
+**ލިބޭ ޢިބުރަތް:** މުދަލަކީ އިމްތިޙާނެކެވެ. އާޚިރަތަށްޓަކައި ބޭނުންކޮށް، ޙަލާލު ބައިން އުފާކޮށް، ހެޔޮކަންކުރާށެވެ. "މިއީ ހަމައެކަނި އަހަރެންގެ މަސައްކަތުން ލިބުނު އެއްޗެކޭ" ދުވަހަކުވެސް ނުބުނާށެވެ.
+
+@@ story-garden-owners
+title_en: The owners of the garden
+title_dv: ބަގީޗާގެ ވެރިން
+--- en
+A righteous old man owned a rich garden. Every harvest he let the poor come and take their share. When he died his sons inherited it and decided their father had been foolish.
+
+They swore to pick the fruit early in the morning before any poor person could arrive, **and they did not say "in sha' Allah"** (68:17-18). They whispered to each other on the way: "Let no poor person enter it today."
+
+While they slept, a visitation from their Lord passed over the garden and it became black and bare, as if already harvested. When they arrived they did not recognise it: "We must have lost our way." Then they understood: "No, we have been deprived!"
+
+The best of them said, "Did I not tell you to glorify Allah?" They said, "Glory to our Lord! We were wrongdoers," and turned to blaming one another, then to repentance: "Perhaps our Lord will give us better than it in exchange. To our Lord we turn in hope" (68:28-32).
+
+**What to take from it:** the share of the poor in your wealth is their right, not your favour. Holding it back does not keep the wealth; it removes the blessing from all of it. And when you are corrected, repent quickly, as they did.
+--- dv
+ޞާލިޙު މުސްކުޅިއެއްގެ މުއްސަނދި ބަގީޗާއެއް އޮތެވެ. ކޮންމެ ފަހަރަކު މޭވާ ކަނޑާއިރު ފަޤީރުންނަށް އެމީހުންގެ ބައި ދެއްވައެވެ. އެކަލޭގެފާނު އަވަހާރަވުމުން ދަރިން ވާރުތަވިއެވެ. އެމީހުންނަށް ހީވީ ބައްޕަގެ ޢަމަލަކީ މޮޔަކަމެއް ކަމަށެވެ.
+
+ފަޤީރަކު އައުމުގެ ކުރިން ހެނދުނު އަވަހަށް މޭވާ ކަނޑަން އެމީހުން ހުވާކުރިއެވެ. **އަދި "އިން ޝާ ﷲ" އެއް ނުބުންޏެވެ** (68:17-18).
+
+އެމީހުން ނިދާފައި ތިއްބާ ބަގީޗާއަށް މުޞީބާތެއް އައިސް ކަޅުވެ ހުސްވިއެވެ. ދިޔައިރު ތަން ނޭނގުނެވެ. "އަހަރެމެންނަށް މަގު އޮޅުނީއެވެ." ދެން ވިސްނުނެވެ: "ނޫނެކެވެ! އަހަރެމެން މަޙްރޫމުވީއެވެ!"
+
+އެންމެ ރަނގަޅު މީހާ ބުންޏެވެ: "ﷲ އަށް ތަސްބީޙަ ކިޔުމަށް އަހަރެން ނުބުނަމުހެއްޔެވެ؟" އެމީހުން ތައުބާވިއެވެ: "އަހަރެމެންގެ ރައްބު އެއަށްވުރެ ރަނގަޅު އެއްޗެއް ބަދަލުގައި ދެއްވާނެކަމަށް އުންމީދުކުރަމެވެ" (68:28-32).
+
+**ލިބޭ ޢިބުރަތް:** މުދަލުގައި ފަޤީރުންގެ ބައަކީ އެމީހުންގެ ޙައްޤެކެވެ. އެ ބައި ހިފެހެއްޓުމުން މުދާ ރައްކާއެއް ނުވެއެވެ. މުޅި މުދަލުގެ ބަރަކާތް ގެއްލެއެވެ.

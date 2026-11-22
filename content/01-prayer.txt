@@ -1,0 +1,390 @@
+%% wudu-steps | prayer | How to make wudu | ވުޟޫކުރާނެ ގޮތް | Washing before prayer, in order, following the Shafi'i school. | ނަމާދުގެ ކުރިން ވުޟޫކުރާނެ ގޮތް ތަރުތީބުން، ޝާފިޢީ މަޛްހަބާ އެއްގޮތަށް. | step
+
+@@ wudu-1-intention
+title_en: Intention and Bismillah
+title_dv: ނިޔަތްގަތުމާއި ބިސްމި ކިޔުން
+arabic: بِسْمِ اللَّهِ
+translit: Bismillah
+--- en
+Intend in your heart that you are making wudu so that you can pray. In the Shafi'i school the intention is made as you begin washing the face, because the face is the first obligatory part. The intention is not spoken aloud as a formula; it is the resolve in the heart.
+
+Say **Bismillah** (In the name of Allah) at the start. This is a sunnah.
+--- dv
+ނަމާދުކުރުމަށްޓަކައި ވުޟޫކުރާކަމަށް ހިތުން ނިޔަތްގަންނާށެވެ. ޝާފިޢީ މަޛްހަބުގައި ނިޔަތްގަންނަނީ މޫނު ދޮންނަން ފަށާއިރުއެވެ. އެއީ ފަރުޟު ގުނަވަންތަކުގެ ތެރެއިން ފުރަތަމަ ގުނަވަނަކީ މޫނު ކަމަށް ވާތީއެވެ. ނިޔަތަކީ ހިތުގެ ޤަޞްދެވެ.
+
+ފެށުމުގައި **ބިސްމިﷲ** ކިޔާށެވެ. މިއީ ސުންނަތެކެވެ.
+
+@@ wudu-2-hands
+title_en: Wash the hands
+title_dv: ދެއަތްތިލަ ދޮވުން
+--- en
+Wash both hands up to the wrists three times, letting water reach between the fingers. This is a sunnah that prepares the hands to carry clean water to the rest of the body.
+--- dv
+ދެއަތުގެ ކުޑަހުޅާ ހަމައަށް ދެއަތްތިލަ ތިން ފަހަރު ދޮންނާށެވެ. އިނގިލިތަކުގެ ދޭތެރެއަށް ފެން ފޯރުވާށެވެ. މިއީ ސުންނަތެކެވެ.
+
+@@ wudu-3-mouth-nose
+title_en: Rinse the mouth and nose
+title_dv: އަނގަޔާއި ނޭފަތް ދޮވުން
+--- en
+Take water into the mouth and rinse it three times. Then draw water gently into the nose and blow it out three times, using the left hand to clean the nose. Both are sunnah. A fasting person should rinse lightly so that no water is swallowed.
+--- dv
+އަނގައަށް ފެން ލައި ތިން ފަހަރު އަނގަ ދޮންނާށެވެ. އެއަށްފަހު ނޭފަތަށް ފެން ދަމައި، ވާތު އަތުން ނޭފަތް ސާފުކޮށް ތިން ފަހަރު ދޮންނާށެވެ. މި ދެކަމަކީވެސް ސުންނަތެވެ. ރޯދައަށް ހުންނަ މީހާ، ފެން ނުދިރުވޭނެ ގޮތަށް ލުއިކޮށް ދޮންނަންވާނެއެވެ.
+
+@@ wudu-4-face
+title_en: Wash the face
+title_dv: މޫނު ދޮވުން
+--- en
+Wash the whole face three times: from the hairline to the bottom of the chin, and from ear to ear. Washing it once completely is obligatory; three times is sunnah. Make your intention for wudu as the water first touches your face.
+
+A man with a thin beard must get water to the skin beneath it. With a thick beard, washing the outside is enough, and running wet fingers through it is sunnah.
+--- dv
+މުޅި މޫނު ތިން ފަހަރު ދޮންނާށެވެ. މޫނުގެ ޙައްދަކީ ނިއްކުރީގެ އިސްތަށި ފަށާ ހިސާބުން ދަތްދޮޅީގެ ތިރިއަށާއި، އެއް ކަންފަތުން އަނެއް ކަންފަތާ ހަމައަށެވެ. އެއްފަހަރު ފުރިހަމައަށް ދޮވުމަކީ ފަރުޟެކެވެ. ތިން ފަހަރު ދޮވުމަކީ ސުންނަތެކެވެ. މޫނުގައި ފެން ޖެހޭއިރު ވުޟޫގެ ނިޔަތްގަންނާށެވެ.
+
+ތުނި ތުނބުޅިއެއް ހުންނަ މީހާ އޭގެ ދަށުގެ ހަމަށް ފެން ފޯރުވަންޖެހޭނެއެވެ. ބޯ ތުނބުޅިއެއް ނަމަ ބޭރުފުށް ދޮވުން ފުދެއެވެ.
+
+@@ wudu-5-arms
+title_en: Wash the arms to the elbows
+title_dv: އުޅަނބޮށްޓާއެކު ދެއަތް ދޮވުން
+--- en
+Wash the right arm from the fingertips up to and including the elbow three times, then the left arm the same way. Washing each arm once, including the elbow, is obligatory. Starting with the right and washing three times are sunnah.
+
+Anything that stops water reaching the skin, such as paint or nail polish, must be removed first.
+--- dv
+ކަނާތު އަތް އިނގިލިތަކުގެ ކޮޅުން ފެށިގެން އުޅަނބޮށި ހިމެނޭ ގޮތަށް ތިން ފަހަރު ދޮންނާށެވެ. އެއަށްފަހު ވާތު އަތްވެސް ހަމަ އެގޮތަށް ދޮންނާށެވެ. އުޅަނބޮށްޓާއެކު ކޮންމެ އަތެއް އެއްފަހަރު ދޮވުމަކީ ފަރުޟެކެވެ. ކަނާތުން ފެށުމާއި ތިން ފަހަރު ދޮވުމަކީ ސުންނަތެކެވެ.
+
+ހަމުގައި ފެން ޖެހުމަށް ހުރަސްއަޅާ އެއްޗެއް (ކުލަ، ނިޔަފަތީގެ ކުލަ ފަދަ) ހުރިނަމަ ފުރަތަމަ އެ ނައްތާލަންޖެހޭނެއެވެ.
+
+@@ wudu-6-head
+title_en: Wipe the head and ears
+title_dv: ބޮލުގައި ފެންފޮހުމާއި ކަންފަތް ފޮހުން
+--- en
+Wet your hands and wipe over the head. In the Shafi'i school wiping any part of the head, even a few hairs, fulfils the obligation. Wiping the whole head, from the front to the back and returning to the front, is the sunnah.
+
+Then wipe the ears with fresh water: the index fingers inside and the thumbs behind. This is sunnah.
+--- dv
+ދެއަތް ތައްމަކޮށް ބޮލުގައި ފެން ފޮހޭށެވެ. ޝާފިޢީ މަޛްހަބުގައި ބޮލުގެ ކޮންމެވެސް ބައެއްގައި ފެންފޮހުމުން ފަރުޟު އަދާވެއެވެ. މުޅި ބޮލުގައި، ކުރިން ފަހަތަށާއި އަނބުރާ ކުރިއަށް ފެންފޮހުމަކީ ސުންނަތެކެވެ.
+
+އެއަށްފަހު އައު ފެނުން ދެ ކަންފަތް ފޮހޭށެވެ. ޝަހާދަތް އިނގިލިން އެތެރެއާއި، ބޮޑުވައި އިނގިލިން ފުރަގަސް ފޮހޭނީއެވެ. މިއީ ސުންނަތެކެވެ.
+
+@@ wudu-7-feet
+title_en: Wash the feet to the ankles
+title_dv: ތަނބިކަށްޓާއެކު ދެފައި ދޮވުން
+--- en
+Wash the right foot up to and including the ankle bones three times, then the left. Use the little finger of the left hand to get water between the toes. Washing each foot once, including the ankles, is obligatory.
+
+Keep the order: face, arms, head, feet. In the Shafi'i school following this order is itself an obligation of wudu.
+--- dv
+ކަނާތު ފައި ތަނބިކަށި ހިމެނޭ ގޮތަށް ތިން ފަހަރު ދޮންނާށެވެ. އެއަށްފަހު ވާތު ފައި ދޮންނާށެވެ. ވާތު އަތުގެ ކުޑަ އިނގިލިން ފައިގެ އިނގިލިތަކުގެ ދޭތެރެއަށް ފެން ފޯރުވާށެވެ. ތަނބިކަށްޓާއެކު ކޮންމެ ފައެއް އެއްފަހަރު ދޮވުމަކީ ފަރުޟެކެވެ.
+
+ތަރުތީބު ގެންގުޅޭށެވެ: މޫނު، ދެއަތް، ބޯ، ދެފައި. ޝާފިޢީ މަޛްހަބުގައި މި ތަރުތީބަކީ ވުޟޫގެ ފަރުޟެކެވެ.
+
+@@ wudu-8-dua
+title_en: The dua after wudu
+title_dv: ވުޟޫކޮށް ނިމުމުން ކިޔާ ދުޢާ
+arabic: أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ
+translit: Ash-hadu an la ilaha illallahu wahdahu la sharika lah, wa ash-hadu anna Muhammadan 'abduhu wa rasuluh. Allahummaj'alni minat-tawwabina waj'alni minal-mutatahhirin.
+ref: Muslim 234; the addition is in Tirmidhi 55
+--- en
+**Meaning:** I bear witness that there is no god but Allah, alone, with no partner, and I bear witness that Muhammad is His servant and Messenger. O Allah, make me among those who repent and among those who purify themselves.
+
+## What breaks wudu
+- Anything that leaves the body from the front or back passage, including wind.
+- Deep sleep in which you are not firmly seated.
+- Losing consciousness.
+- In the Shafi'i school: skin-to-skin contact between a man and a woman who could lawfully marry, and touching the private parts with the palm.
+--- dv
+**މާނަ:** ﷲ ފިޔަވައި އެހެން އިލާހަކު ނުވާކަމަށާއި، އެކަލާނގެއީ ބައިވެރިއަކު ނުވާ އެއްކައުވަންތަ އިލާހުކަމަށް އަހުރެން ހެކިވަމެވެ. އަދި މުޙައްމަދުގެފާނަކީ އެކަލާނގެ އަޅާއާއި ރަސޫލާކަމަށް އަހުރެން ހެކިވަމެވެ. އޭ ﷲ! ތައުބާވާ މީހުންގެ ތެރެއިންނާއި، ޠާހިރުވެގަންނަ މީހުންގެ ތެރެއިން އަހުރެން ލައްވާނދޭވެ.
+
+## ވުޟޫ ގެއްލޭ ކަންތައްތައް
+- ދެ ދޮރުންކުރެ ދޮރަކުން އެއްޗެއް ނުކުތުން (ވައި ހިމެނޭ ގޮތަށް).
+- ރަނގަޅަށް އިށީނދެގެން ނޫން ގޮތަކަށް ގަދައަށް ނިދުން.
+- ހޭނެތުން.
+- ޝާފިޢީ މަޛްހަބުގައި: ކައިވެނި ޙަލާލު ފިރިހެނަކާއި އަންހެނެއްގެ ހަންގަނޑު ނިވާކަމެއް ނެތި ޖެހުން، އަދި އަތްތިލައިން ޢައުރަ ގުނަވަނުގައި އަތްލުން.
+
+%% salah-steps | prayer | How to pray, step by step | ނަމާދުކުރާނެ ގޮތް، މަރުޙަލާ މަރުޙަލާއަށް | One full rak'ah and the final sitting, with what to say in Arabic, how to pronounce it and what it means. Follows the Shafi'i school. | ފުރިހަމަ ރަކުޢަތަކާއި ފަހު އައްތަޙިއްޔާތު. ކިޔަންވީ އެއްޗެއް ޢަރަބިބަހުންނާއި، ކިޔާނެ ގޮތާއި މާނަ. ޝާފިޢީ މަޛްހަބާ އެއްގޮތަށް. | step
+
+@@ salah-01-prepare
+title_en: Before you begin
+title_dv: ފެށުމުގެ ކުރިން
+--- en
+Make sure of five things:
+
+- The time for the prayer has come in.
+- You have wudu, and your body, clothes and place of prayer are clean.
+- Your 'awrah is covered. For a man this is from the navel to the knees; for a woman it is the whole body except the face and hands.
+- You are facing the qiblah, the direction of the Ka'bah in Makkah. From the Maldives this is roughly west-north-west.
+- You know which prayer you are about to pray.
+
+Stand upright if you are able to. A person who cannot stand prays sitting, and one who cannot sit prays lying down.
+--- dv
+ފަސް ކަމެއް ޔަޤީންކުރާށެވެ:
+
+- ނަމާދު ވަގުތު ވަދެފައިވުން.
+- ވުޟޫ ހުރުމާއި، ހަށިގަނޑާއި ހެދުމާއި ނަމާދުކުރާ ތަން ޠާހިރުވުން.
+- ޢައުރަ ނިވާވެފައިވުން. ފިރިހެނާގެ ޢައުރައަކީ ފޫޅާއި ކަކުލާ ދެމެދެވެ. އަންހެނާގެ ޢައުރައަކީ މޫނާއި ދެއަތްތިލަ ފިޔަވައި މުޅި ހަށިގަނޑެވެ.
+- ޤިބްލައަށް ކުރިމަތިލުން. އެއީ މައްކާގައިވާ ކަޢުބާގެފާނާ ދިމާއަށެވެ.
+- ކުރަން މިއުޅެނީ ކޮން ނަމާދެއްކަން އެނގުން.
+
+ކުޅަދާނަ މީހާ ކޮޅަށް ހުރެގެން ނަމާދުކުރާނީއެވެ. ކޮޅަށް ނުހުރެވޭ މީހާ އިށީނދެގެން، އަދި އިށީނދެ ނުހުރެވޭ މީހާ އޮށޯވެގެން ނަމާދުކުރާނީއެވެ.
+
+@@ salah-02-takbir
+title_en: Intention and the opening takbir
+title_dv: ނިޔަތްގަތުމާއި ތަކްބީރަތުލް އިޙްރާމް
+arabic: اللَّهُ أَكْبَرُ
+translit: Allahu akbar
+--- en
+Raise both hands level with your shoulders, palms facing the qiblah, and say **Allahu akbar** (Allah is the Greatest). As you say it, hold the intention in your heart, for example: "I am praying the obligatory Dhuhr prayer." The intention must be present with the takbir.
+
+This takbir is a pillar of the prayer. After it, the prayer has begun: do not speak, eat or turn away until the final salam.
+
+Then place the right hand over the left, below the chest and above the navel, and look at the place where your forehead will rest in sujud.
+--- dv
+ދެއަތް ކޮނޑާ ހަމައަށް އުފުލައި، އަތްތިލަ ޤިބްލައާ ދިމާއަށް ބަހައްޓައިގެން **ﷲ އަކްބަރު** (ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ) ކިޔާށެވެ. އެ ކިޔާއިރު ހިތުން ނިޔަތްގަންނާށެވެ. މިސާލަކަށް: "ފަރުޟު މެންދުރު ނަމާދުކުރަން ނިޔަތްގަތީމެވެ." ނިޔަތް އޮންނަންވާނީ ތަކްބީރާއެކުގައެވެ.
+
+މި ތަކްބީރަކީ ނަމާދުގެ ރުކުނެކެވެ. މީގެފަހުން ސަލާމްދެވެންދެން ވާހަކަދެއްކުމާއި، ކެއުމާއި، ޤިބްލައިން އަނބުރާލުން ހުއްދައެއް ނޫނެވެ.
+
+އެއަށްފަހު ކަނާތު އަތް ވާތު އަތުގެ މަތީގައި، މޭގެ ދަށުގައި ފޫޅުގެ މަތީގައި ބަހައްޓާށެވެ. އަދި ސަޖިދަކުރާ ތަނަށް ބަލަހައްޓާށެވެ.
+
+@@ salah-03-opening-dua
+title_en: The opening dua
+title_dv: ދުޢާއުލް އިސްތިފްތާޙު
+arabic: وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ حَنِيفًا مُسْلِمًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ، إِنَّ صَلَاتِي وَنُسُكِي وَمَحْيَايَ وَمَمَاتِي لِلَّهِ رَبِّ الْعَالَمِينَ، لَا شَرِيكَ لَهُ وَبِذَلِكَ أُمِرْتُ وَأَنَا مِنَ الْمُسْلِمِينَ
+translit: Wajjahtu wajhiya lilladhi fataras-samawati wal-arda hanifan musliman wa ma ana minal-mushrikin. Inna salati wa nusuki wa mahyaya wa mamati lillahi rabbil-'alamin. La sharika lahu wa bidhalika umirtu wa ana minal-muslimin.
+ref: Muslim 771
+--- en
+This dua is said quietly in the first rak'ah only. It is sunnah, so the prayer is valid without it.
+
+**Meaning:** I have turned my face to the One who created the heavens and the earth, upright and submitting, and I am not of those who associate partners with Him. My prayer, my sacrifice, my living and my dying are for Allah, Lord of the worlds. He has no partner. This I have been commanded, and I am of those who submit.
+--- dv
+މި ދުޢާ ކިޔާނީ ފުރަތަމަ ރަކުޢަތުގައި އެކަނި، މަޑުމަޑުންނެވެ. މިއީ ސުންނަތެކެވެ. ނުކިޔައި ދޫކޮށްލިޔަސް ނަމާދު ޞައްޙަވާނެއެވެ.
+
+**މާނަ:** އުޑުތަކާއި ބިން ހެއްދެވި ފަރާތަށް، ޙައްޤު ދީނުގެ މަތީގައި ސާބިތުވެ ހުރެ، ކިޔަމަންތެރިވެގެން އަހުރެންގެ މޫނު ކުރިމަތިކުރީމެވެ. އަދި އަހުރެންނަކީ ޝިރުކުކުރާ މީހުންގެ ތެރެއިންވާ މީހަކު ނޫނެވެ. ހަމަކަށަވަރުން އަހުރެންގެ ނަމާދާއި، އަހުރެންގެ ޤުރުބާނީއާއި، އަހުރެންގެ ދިރިހުރުމާއި، އަހުރެންގެ މަރުވުން ވަނީ ޢާލަމްތަކުގެ ވެރި ﷲ އަށެވެ. އެކަލާނގެއަށް ބައިވެރިއަކު ނުވެއެވެ. އަހުރެންނަށް އަމުރުކުރެވިފައިވަނީ އެކަމަށެވެ. އަދި އަހުރެންނަކީ މުސްލިމުންގެ ތެރެއިންވާ މީހެކެވެ.
+
+@@ salah-04-fatiha
+title_en: Recite Al-Fatihah
+title_dv: ފާތިޙާ ސޫރަތް ކިޔެވުން
+arabic: @q:1:1-7
+translit: Bismillahir-rahmanir-rahim. Al-hamdu lillahi rabbil-'alamin. Ar-rahmanir-rahim. Maliki yawmid-din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-siratal-mustaqim. Siratal-ladhina an'amta 'alayhim, ghayril-maghdubi 'alayhim wa lad-dallin.
+audio: q:1:1-7
+ref: Quran 1:1-7
+--- en
+First say quietly: *A'udhu billahi minash-shaytanir-rajim* (I seek refuge in Allah from Satan, the rejected).
+
+Then recite Surah Al-Fatihah. It is a pillar in every rak'ah; there is no prayer without it. In the Shafi'i school the Bismillah is its first ayah and must be recited. Say **Amin** when you finish.
+
+**Meaning:** In the name of Allah, the Most Gracious, the Most Merciful. All praise is for Allah, Lord of the worlds, the Most Gracious, the Most Merciful, Master of the Day of Judgement. You alone we worship and You alone we ask for help. Guide us on the straight path: the path of those You have favoured, not of those who earned anger, nor of those who went astray.
+--- dv
+ފުރަތަމަ މަޑުމަޑުން ކިޔާށެވެ: *އަޢޫޛު ބިﷲި މިނައްޝައިޠާނިއްރަޖީމް* (ރައްޔިތުވެގެންވާ ޝައިޠާނާގެ ކިބައިން ﷲ ގެ ރައްކާތެރިކަން އެދެމެވެ).
+
+އެއަށްފަހު ފާތިޙާ ސޫރަތް ކިޔަވާށެވެ. މިއީ ކޮންމެ ރަކުޢަތެއްގެ ރުކުނެކެވެ. ފާތިޙާ ނުކިޔަވައި ނަމާދެއް ނުވެއެވެ. ޝާފިޢީ މަޛްހަބުގައި ބިސްމިއަކީ ފާތިޙާގެ ފުރަތަމަ އާޔަތެވެ. ނިމުމުން **އާމީން** ކިޔާށެވެ.
+
+**މާނަ:** ރަޙްމާން ވަންތަ ރަޙީމް ވަންތަ ﷲ ގެ އިސްމުފުޅުން ފަށަމެވެ. ހުރިހާ ޙަމްދެއް ޢާލަމްތަކުގެ ވެރި ﷲ އަށެވެ. އެކަލާނގެއީ ރަޙްމާން ވަންތަ ރަޙީމް ވަންތަ، ޤިޔާމަތް ދުވަހުގެ ވެރި ރަސްކަލާނގެއެވެ. އަޅަމެން އަޅުކަންކުރަނީ ހަމައެކަނި އިބަރަސްކަލާނގެއަށެވެ. އަދި އަޅަމެން ވާގިއެދެނީވެސް ހަމައެކަނި އިބަރަސްކަލާނގެ ޙަޟްރަތުންނެވެ. އަޅަމެންނަށް ސީދާ މަގު ދައްކަވާނދޭވެ. އެއީ އިބަރަސްކަލާނގެ ނިޢުމަތް ދެއްވި މީހުންގެ މަގެވެ. ކޯފާ ލިބުނު މީހުންގެ މަގެއް ނޫނެވެ. އަދި މަގުފުރެދުނު މީހުންގެ މަގެއްވެސް ނޫނެވެ.
+
+@@ salah-05-surah
+title_en: Recite another surah
+title_dv: އިތުރު ސޫރަތެއް ކިޔެވުން
+arabic: @q:112:1-4
+translit: Qul huwallahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.
+audio: q:112:1-4
+ref: Quran 112 (Al-Ikhlas), given here as an example
+--- en
+In the first two rak'ahs, recite a surah or some ayahs after Al-Fatihah. Any part of the Quran you know will do. Surah Al-Ikhlas is shown here because it is short and easy to learn. This recitation is sunnah.
+
+In the third and fourth rak'ahs only Al-Fatihah is recited.
+
+**Meaning of Al-Ikhlas:** Say: He is Allah, the One. Allah, the Eternal, on whom all depend. He does not beget, nor was He begotten. And there is none comparable to Him.
+--- dv
+ފުރަތަމަ ދެ ރަކުޢަތުގައި ފާތިޙާއަށްފަހު ސޫރަތެއް ނުވަތަ އާޔަތްތަކެއް ކިޔަވާށެވެ. ޤުރުއާނުން ދަންނަ ކޮންމެ ބައެއް ކިޔެވިދާނެއެވެ. މިތާގައި އިޚްލާޞް ސޫރަތް ގެނެސްފައިވަނީ ކުރުކަމާއި ދަސްކުރަން ފަސޭހަކަމުންނެވެ. މި ކިޔެވުމަކީ ސުންނަތެކެވެ.
+
+ތިންވަނަ އަދި ހަތަރުވަނަ ރަކުޢަތުގައި ކިޔަވާނީ ފާތިޙާ އެކަންޏެވެ.
+
+**އިޚްލާޞް ސޫރަތުގެ މާނަ:** ބުނާށެވެ! އެކަލާނގެއީ އެއްކައުވަންތަ ﷲ އެވެ. ﷲ އީ އެންމެން ބޭނުންޖެހިފައިވާ، އެއްވެސް ފަރާތަކަށް ބޭނުންޖެހިވޮޑިގެންނުވާ ރަސްކަލާނގެއެވެ. އެކަލާނގެ ދަރިއަކު ނުޖައްސަވައެވެ. އަދި އެކަލާނގެ ދަރިއަކަށް ވެވޮޑިގެންވެސް ނުވެއެވެ. އަދި އެކަލާނގެއާ އެއްފަދަ އެކަކުވެސް ނުވެއެވެ.
+
+@@ salah-06-ruku
+title_en: Bow (ruku)
+title_dv: ރުކޫޢުކުރުން
+arabic: سُبْحَانَ رَبِّيَ الْعَظِيمِ وَبِحَمْدِهِ
+translit: Subhana rabbiyal-'azimi wa bihamdih
+ref: Abu Dawud 870
+--- en
+Raise your hands to your shoulders, say **Allahu akbar** and bow. Place your palms on your knees with the fingers spread, keep your back flat and your head level with it. Become completely still.
+
+Say three times: *Subhana rabbiyal-'azimi wa bihamdih*.
+
+**Meaning:** Glory be to my Lord, the Magnificent, and praise be to Him.
+
+Bowing and being still in it are pillars of the prayer. The words are sunnah.
+--- dv
+ދެއަތް ކޮނޑާ ހަމައަށް އުފުލައި، **ﷲ އަކްބަރު** ކިޔައި ރުކޫޢަށް ދާށެވެ. އިނގިލިތައް ފަތުރައިގެން ދެއަތްތިލަ ދެ ކަކުލުގައި ބަހައްޓައި، ބުރަކަށި ސީދާކޮށް، ބޯ ބުރަކައްޓާ ހަމަހަމަކުރާށެވެ. މުޅި ހަށިގަނޑު ހަމަޖެހެންދެން ހުންނާށެވެ.
+
+ތިން ފަހަރު ކިޔާށެވެ: *ސުބްޙާނަ ރައްބިޔަލް ޢަޡީމި ވަބިޙަމްދިހީ*.
+
+**މާނަ:** މަތިވެރިވަންތަ އަހުރެންގެ ވެރިރަސްކަލާނގެ ހުސްޠާހިރުވަންތަވެގެންވެއެވެ. އަދި އެކަލާނގެއަށް ޙަމްދުކުރަމެވެ.
+
+ރުކޫޢުކުރުމާއި އޭގައި ހަމަޖެހިލުމަކީ ނަމާދުގެ ރުކުންތަކެވެ. ކިޔާ ތަސްބީޙައަކީ ސުންނަތެކެވެ.
+
+@@ salah-07-itidal
+title_en: Rise from bowing
+title_dv: ރުކޫޢުން ތެދުވުން (އިޢުތިދާލު)
+arabic: سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ، رَبَّنَا لَكَ الْحَمْدُ مِلْءَ السَّمَاوَاتِ وَمِلْءَ الْأَرْضِ وَمِلْءَ مَا شِئْتَ مِنْ شَيْءٍ بَعْدُ
+translit: Sami'allahu liman hamidah. Rabbana lakal-hamdu mil'as-samawati wa mil'al-ardi wa mil'a ma shi'ta min shay'in ba'd.
+ref: Muslim 476
+--- en
+Rise from bowing, raising your hands to your shoulders, and say *Sami'allahu liman hamidah*. When you are standing fully upright and still, say *Rabbana lakal-hamd…*
+
+**Meaning:** Allah hears the one who praises Him. Our Lord, to You belongs praise, filling the heavens, filling the earth, and filling whatever else You will.
+
+Standing straight and still after bowing is a pillar.
+
+### Qunut in Fajr
+In the Shafi'i school, in the second rak'ah of Fajr you raise your hands at this point and recite the dua of qunut before going down to sujud. It is in the Duas section under "After the prayer".
+--- dv
+ދެއަތް ކޮނޑާ ހަމައަށް އުފުލަމުން ރުކޫޢުން ތެދުވެ، *ސަމިޢަﷲު ލިމަން ޙަމިދަހް* ކިޔާށެވެ. ސީދާވެ ހަމަޖެހުމުން *ރައްބަނާ ލަކަލް ޙަމްދު…* ކިޔާށެވެ.
+
+**މާނަ:** ﷲ އަށް ޙަމްދުކުރާ މީހާގެ ޙަމްދު އެކަލާނގެ އައްސަވައެވެ. އަޅަމެންގެ ވެރިރަސްކަލާނގެއެވެ! އުޑުތައް ފުރޭ ވަރަށާއި، ބިން ފުރޭ ވަރަށާއި، އޭގެފަހުން އިބަރަސްކަލާނގެ އިރާދަކުރައްވާ ކޮންމެ އެއްޗެއް ފުރޭ ވަރަށް އިބަރަސްކަލާނގެއަށް ޙަމްދު ހުއްޓެވެ.
+
+ރުކޫޢަށްފަހު ސީދާވެ ހަމަޖެހިލުމަކީ ރުކުނެކެވެ.
+
+### ފަތިސް ނަމާދުގެ ޤުނޫތު
+ޝާފިޢީ މަޛްހަބުގައި ފަތިސް ނަމާދުގެ ދެވަނަ ރަކުޢަތުގައި، މި ހިސާބުން ދެއަތް އުފުލައިގެން ޤުނޫތު ކިޔައެވެ. އެ ދުޢާ "ނަމާދަށްފަހު" ބައިގައި ވާނެއެވެ.
+
+@@ salah-08-sujud
+title_en: Prostrate (sujud)
+title_dv: ސަޖިދަކުރުން
+arabic: سُبْحَانَ رَبِّيَ الْأَعْلَى وَبِحَمْدِهِ
+translit: Subhana rabbiyal-a'la wa bihamdih
+ref: Abu Dawud 870
+--- en
+Say **Allahu akbar** and go down, knees first and then hands. Seven parts of the body rest on the ground: the forehead (with the nose), both palms, both knees and the toes of both feet. Keep the elbows raised off the floor. A man keeps his arms away from his sides; a woman keeps herself drawn together.
+
+When you are still, say three times: *Subhana rabbiyal-a'la wa bihamdih*.
+
+**Meaning:** Glory be to my Lord, the Most High, and praise be to Him.
+
+Sujud is the closest a servant comes to Allah, and it is a good place to make dua.
+--- dv
+**ﷲ އަކްބަރު** ކިޔައި، ފުރަތަމަ ދެ ކަކޫ، އެއަށްފަހު ދެއަތް ބިންމަތީގައި ޖައްސައި ސަޖިދައަށް ދާށެވެ. ހަށިގަނޑުގެ ހަތް ގުނަވަނެއް ބިމުގައި ޖައްސަންވާނެއެވެ: ނިއްކުރި (ނޭފަތާއެކު)، ދެއަތްތިލަ، ދެ ކަކޫ، އަދި ދެފައިގެ އިނގިލިތައް. އުޅަނބޮށި ބިމުން އުފުލާށެވެ.
+
+ހަމަޖެހުމުން ތިން ފަހަރު ކިޔާށެވެ: *ސުބްޙާނަ ރައްބިޔަލް އަޢުލާ ވަބިޙަމްދިހީ*.
+
+**މާނަ:** އެންމެ މަތިވެރިވަންތަ އަހުރެންގެ ވެރިރަސްކަލާނގެ ހުސްޠާހިރުވަންތަވެގެންވެއެވެ. އަދި އެކަލާނގެއަށް ޙަމްދުކުރަމެވެ.
+
+އަޅާ ﷲ އާ އެންމެ ގާތްވާ ޙާލަތަކީ ސަޖިދައެވެ. އެއީ ދުޢާކުރުމަށް ރަނގަޅު ތަނެކެވެ.
+
+@@ salah-09-sitting
+title_en: Sit between the two prostrations
+title_dv: ދެ ސަޖިދައިގެ ދެމެދު އިށީނުން
+arabic: رَبِّ اغْفِرْ لِي وَارْحَمْنِي وَاجْبُرْنِي وَارْفَعْنِي وَارْزُقْنِي وَاهْدِنِي وَعَافِنِي وَاعْفُ عَنِّي
+translit: Rabbighfir li warhamni wajburni warfa'ni warzuqni wahdini wa 'afini wa'fu 'anni
+ref: Tirmidhi 284; Ibn Majah 898
+--- en
+Say **Allahu akbar** and sit up. Sit on your left foot with the right foot upright, toes pointing to the qiblah, and rest your hands on your thighs. Be still, then say the dua.
+
+**Meaning:** My Lord, forgive me, have mercy on me, mend me, raise me, provide for me, guide me, give me wellbeing and pardon me.
+
+Then say **Allahu akbar** and make a second sujud exactly like the first. That completes one rak'ah.
+--- dv
+**ﷲ އަކްބަރު** ކިޔައި އިށީންނާށެވެ. ވާތު ފައި ފަތުރައި އޭގެ މަތީގައި އިށީނދެ، ކަނާތު ފައި ކޮޅަށް ޖަހައި އިނގިލިތައް ޤިބްލައާ ދިމާކުރާށެވެ. ދެއަތް ދެ ފަލަމަސްގަނޑު މަތީގައި ބަހައްޓާށެވެ. ހަމަޖެހުމުން ދުޢާ ކިޔާށެވެ.
+
+**މާނަ:** އަހުރެންގެ ވެރިރަސްކަލާނގެއެވެ! އަހުރެންނަށް ފުއްސަވާނދޭވެ. އަހުރެންނަށް ރަޙްމަތްލައްވާނދޭވެ. އަހުރެންގެ އުނިކަން ފުރިހަމަކުރައްވާނދޭވެ. އަހުރެންގެ ދަރަޖަ މަތިވެރިކުރައްވާނދޭވެ. އަހުރެންނަށް ރިޒުޤު ދެއްވާނދޭވެ. އަހުރެންނަށް ތެދުމަގު ދައްކަވާނދޭވެ. އަހުރެންނަށް ޢާފިޔަތު ދެއްވާނދޭވެ. އަދި އަހުރެންގެ ކުށްތައް ޢަފޫކުރައްވާނދޭވެ.
+
+އެއަށްފަހު **ﷲ އަކްބަރު** ކިޔައި، ފުރަތަމަ ސަޖިދަ ފަދައިން ދެވަނަ ސަޖިދަކުރާށެވެ. އޭރުން އެއް ރަކުޢަތް ފުރިހަމަވީއެވެ.
+
+@@ salah-10-second-rakah
+title_en: Stand for the next rak'ah
+title_dv: ދެވަނަ ރަކުޢަތަށް ތެދުވުން
+--- en
+Say **Allahu akbar** and stand up for the second rak'ah. Pray it like the first, but without the opening dua: Al-Fatihah, another surah, ruku, rising, two prostrations with the sitting between them.
+
+After the second sujud of the second rak'ah, stay seated for the tashahhud.
+
+How many rak'ahs each prayer has:
+- Fajr: 2
+- Dhuhr: 4
+- Asr: 4
+- Maghrib: 3
+- Isha: 4
+--- dv
+**ﷲ އަކްބަރު** ކިޔައި ދެވަނަ ރަކުޢަތަށް ތެދުވާށެވެ. ފުރަތަމަ ރަކުޢަތް ފަދައިން، ދުޢާއުލް އިސްތިފްތާޙު ނުކިޔައި، މި ރަކުޢަތްވެސް ކުރާށެވެ: ފާތިޙާ، އިތުރު ސޫރަތެއް، ރުކޫޢު، އިޢުތިދާލު، ދެ ސަޖިދައާއި ދެމެދުގެ އިށީނުން.
+
+ދެވަނަ ރަކުޢަތުގެ ދެވަނަ ސަޖިދައަށްފަހު އައްތަޙިއްޔާތަށް އިށީންނާށެވެ.
+
+ކޮންމެ ނަމާދެއްގެ ރަކުޢަތުގެ ޢަދަދު:
+- ފަތިސް: 2
+- މެންދުރު: 4
+- ޢަޞްރު: 4
+- މަޣްރިބް: 3
+- ޢިޝާ: 4
+
+@@ salah-11-tashahhud
+title_en: The tashahhud
+title_dv: އައްތަޙިއްޔާތު
+arabic: التَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ لِلَّهِ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ
+translit: At-tahiyyatul-mubarakatus-salawatut-tayyibatu lillah. As-salamu 'alayka ayyuhan-nabiyyu wa rahmatullahi wa barakatuh. As-salamu 'alayna wa 'ala 'ibadillahis-salihin. Ash-hadu an la ilaha illallah, wa ash-hadu anna Muhammadar-rasulullah.
+ref: Muslim 403, the wording narrated by Ibn 'Abbas, preferred in the Shafi'i school
+--- en
+Sit as you did between the prostrations. Rest the left hand open on the left thigh. Close the right hand on the right thigh and point the index finger when you say *illallah*, keeping it raised until you stand or give salam.
+
+**Meaning:** All greetings, blessings, prayers and good words are for Allah. Peace be upon you, O Prophet, and the mercy of Allah and His blessings. Peace be upon us and upon the righteous servants of Allah. I bear witness that there is no god but Allah, and I bear witness that Muhammad is the Messenger of Allah.
+
+In a prayer of three or four rak'ahs, add a short salawat (*Allahumma salli 'ala Muhammad*), then say **Allahu akbar**, stand, and complete the remaining rak'ahs reciting only Al-Fatihah in each.
+--- dv
+ދެ ސަޖިދައިގެ ދެމެދުގައި އިށީން ގޮތަށް އިށީންނާށެވެ. ވާތު އަތް ހުޅުވައިގެން ވާތު ފަލަމަސްގަނޑު މަތީގައި ބަހައްޓާށެވެ. ކަނާތު އަތް މުށްކަވައިގެން ކަނާތު ފަލަމަސްގަނޑު މަތީގައި ބަހައްޓައި، *އިއްލަﷲ* ކިޔާއިރު ޝަހާދަތް އިނގިލި އުފުލާށެވެ.
+
+**މާނަ:** ހުރިހާ ތަޙިއްޔަތަކާއި، ބަރަކާތްތަކާއި، ޞަލަވާތްތަކާއި، ރިވެތި ބަސްތައް ﷲ އަށެވެ. އޭ ނަބިއްޔާއެވެ! ކަލޭގެފާނަށް ސަލާމާއި ﷲ ގެ ރަޙްމަތާއި ބަރަކާތް ހުއްޓެވެ. އަޅަމެންނަށާއި ﷲ ގެ ޞާލިޙު އަޅުންނަށް ސަލާމް ހުއްޓެވެ. ﷲ ފިޔަވައި އެހެން އިލާހަކު ނުވާކަމަށް އަހުރެން ހެކިވަމެވެ. އަދި މުޙައްމަދުގެފާނަކީ ﷲ ގެ ރަސޫލާކަމަށް އަހުރެން ހެކިވަމެވެ.
+
+ތިން ނުވަތަ ހަތަރު ރަކުޢަތުގެ ނަމާދެއްނަމަ، ކުރު ޞަލަވާތެއް (*ﷲުއްމަ ޞައްލި ޢަލާ މުޙައްމަދު*) ކިޔައި، **ﷲ އަކްބަރު** ކިޔައި ތެދުވެ، ބާކީ ރަކުޢަތްތައް ފާތިޙާ އެކަނި ކިޔަވައިގެން ފުރިހަމަކުރާށެވެ.
+
+@@ salah-12-salawat
+title_en: Salawat on the Prophet in the final sitting
+title_dv: ފަހު އައްތަޙިއްޔާތުގައި ޞަލަވާތް ކިޔުން
+arabic: اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، وَبَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، فِي الْعَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ
+translit: Allahumma salli 'ala Muhammadin wa 'ala ali Muhammad, kama sallayta 'ala Ibrahima wa 'ala ali Ibrahim. Wa barik 'ala Muhammadin wa 'ala ali Muhammad, kama barakta 'ala Ibrahima wa 'ala ali Ibrahim. Fil-'alamina innaka hamidum-majid.
+ref: Muslim 405
+--- en
+In the last rak'ah, sit for the final tashahhud. The sunnah here is to sit with the left foot brought out under the right leg, resting on the floor. Recite the tashahhud again, then this salawat. The final sitting, the tashahhud and the salawat on the Prophet ﷺ in it are pillars in the Shafi'i school.
+
+**Meaning:** O Allah, send prayers upon Muhammad and the family of Muhammad, as You sent prayers upon Ibrahim and the family of Ibrahim. And bless Muhammad and the family of Muhammad, as You blessed Ibrahim and the family of Ibrahim. Among all the worlds, You are Praiseworthy, Glorious.
+--- dv
+ފަހު ރަކުޢަތުގައި ފަހު އައްތަޙިއްޔާތަށް އިށީންނާށެވެ. މިތާގައި ސުންނަތަކީ ވާތު ފައި ކަނާތު ފައިގެ ދަށުން ނެރެ، ބިންމަތީގައި އިށީނުމެވެ. އަލުން އައްތަޙިއްޔާތު ކިޔައި، އެއަށްފަހު މި ޞަލަވާތް ކިޔާށެވެ. ޝާފިޢީ މަޛްހަބުގައި ފަހު އިށީނުމާއި، އައްތަޙިއްޔާތާއި، އޭގައި ނަބިއްޔާ ﷺ އަށް ޞަލަވާތް ކިޔުމަކީ ރުކުންތަކެވެ.
+
+**މާނަ:** އޭ ﷲ! އިބްރާހީމްގެފާނަށާއި އިބްރާހީމްގެފާނުގެ އާލުންނަށް ޞަލަވާތް ލެއްވި ފަދައިން، މުޙައްމަދުގެފާނަށާއި މުޙައްމަދުގެފާނުގެ އާލުންނަށް ޞަލަވާތް ލައްވާނދޭވެ. އަދި އިބްރާހީމްގެފާނަށާއި އިބްރާހީމްގެފާނުގެ އާލުންނަށް ބަރަކާތް ލެއްވި ފަދައިން، މުޙައްމަދުގެފާނަށާއި މުޙައްމަދުގެފާނުގެ އާލުންނަށް ބަރަކާތް ލައްވާނދޭވެ. ހަމަކަށަވަރުން އިބަރަސްކަލާނގެއީ ޙަމްދު ލިބިވޮޑިގެންވާ، މަތިވެރިވަންތަ ރަސްކަލާނގެއެވެ.
+
+@@ salah-13-dua-before-salam
+title_en: Dua before the salam
+title_dv: ސަލާމްދިނުމުގެ ކުރިން ކުރާ ދުޢާ
+arabic: اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ جَهَنَّمَ، وَمِنْ عَذَابِ الْقَبْرِ، وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ، وَمِنْ شَرِّ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ
+translit: Allahumma inni a'udhu bika min 'adhabi jahannam, wa min 'adhabil-qabr, wa min fitnatil-mahya wal-mamat, wa min sharri fitnatil-masihid-dajjal.
+ref: Muslim 588
+--- en
+After the salawat and before the salam, the Prophet ﷺ taught us to seek refuge from four things. After it you may ask Allah for anything good in this life and the next. This dua is sunnah.
+
+**Meaning:** O Allah, I seek refuge in You from the punishment of Hell, from the punishment of the grave, from the trials of life and death, and from the evil of the trial of the False Messiah.
+--- dv
+ޞަލަވާތަށްފަހު، ސަލާމްދިނުމުގެ ކުރިން ހަތަރު ކަމަކުން ރައްކާތެރިކަން އެދުމަށް ނަބިއްޔާ ﷺ އުނގަންނައިދެއްވިއެވެ. މިއަށްފަހު ދުނިޔެއާއި އާޚިރަތުގެ ކޮންމެ ހެޔޮކަމަކަށް އެދި ދުޢާކުރެވިދާނެއެވެ. މިއީ ސުންނަތެކެވެ.
+
+**މާނަ:** އޭ ﷲ! ނަރަކައިގެ ޢަޛާބުންނާއި، ކަށްވަޅުގެ ޢަޛާބުންނާއި، ދިރިހުރުމާއި މަރުގެ ފިތުނައިންނާއި، މަސީޙުއްދައްޖާލުގެ ފިތުނައިގެ ނުބައިކަމުން އަހުރެން އިބަރަސްކަލާނގެ ރައްކާތެރިކަން އެދެމެވެ.
+
+@@ salah-14-salam
+title_en: End with the salam
+title_dv: ސަލާމްދީ ނަމާދު ނިންމުން
+arabic: السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ
+translit: As-salamu 'alaykum wa rahmatullah
+--- en
+Turn your head to the right until your cheek can be seen from behind, and say *As-salamu 'alaykum wa rahmatullah*. Then turn to the left and say it again.
+
+**Meaning:** Peace be upon you, and the mercy of Allah.
+
+The first salam is a pillar and ends the prayer. The second is sunnah. Stay seated for a moment and say the remembrances after the prayer, which are in the Duas section.
+
+## The pillars in order
+In the Shafi'i school the prayer has these pillars: intention; the opening takbir; standing, for one who is able; Al-Fatihah; ruku; rising from it; two prostrations; sitting between them; stillness in each of these; the final sitting; the tashahhud in it; salawat on the Prophet ﷺ; the first salam; and keeping them in this order. Leaving out a pillar means the rak'ah does not count until it is made up.
+--- dv
+ފަހަތުން ކޯތާފަތް ފެންނަ ވަރަށް ކަނާތްފަރާތަށް ބޯ އަނބުރައި *އައްސަލާމު ޢަލައިކުމް ވަރަޙްމަތުﷲ* ކިޔާށެވެ. އެއަށްފަހު ވާތްފަރާތަށް އެނބުރި އަނެއްކާވެސް ކިޔާށެވެ.
+
+**މާނަ:** ތިޔަބައިމީހުންނަށް ސަލާމާއި ﷲ ގެ ރަޙްމަތް ހުއްޓެވެ.
+
+ފުރަތަމަ ސަލާމަކީ ރުކުނެކެވެ. ނަމާދު ނިމެނީ އެއިންނެވެ. ދެވަނަ ސަލާމަކީ ސުންނަތެކެވެ. ކުޑަ އިރުކޮޅަކު އިށީނދެ އިނދެ، ނަމާދަށްފަހު ކިޔާ ޛިކުރުތައް ކިޔާށެވެ. އެ ޛިކުރުތައް ދުޢާގެ ބައިގައި ވާނެއެވެ.
+
+## ނަމާދުގެ ރުކުންތައް ތަރުތީބުން
+ޝާފިޢީ މަޛްހަބުގައި ނަމާދުގެ ރުކުންތަކަކީ: ނިޔަތް؛ ތަކްބީރަތުލް އިޙްރާމް؛ ކުޅަދާނަ މީހާ ކޮޅަށް ހުރުން؛ ފާތިޙާ؛ ރުކޫޢު؛ އިޢުތިދާލު؛ ދެ ސަޖިދަ؛ ދެ ސަޖިދައިގެ ދެމެދު އިށީނުން؛ މިއިން ކޮންމެ ކަމެއްގައި ހަމަޖެހިލުން؛ ފަހު އިށީނުން؛ އޭގައި އައްތަޙިއްޔާތު ކިޔުން؛ ނަބިއްޔާ ﷺ އަށް ޞަލަވާތް ކިޔުން؛ ފުރަތަމަ ސަލާމް؛ އަދި މި ތަރުތީބު ގެންގުޅުން. ރުކުނެއް ދޫވެއްޖެނަމަ އެ ރަކުޢަތެއް ގުނޭނީ އެ ރުކުން އަދާކުރުމުންނެވެ.

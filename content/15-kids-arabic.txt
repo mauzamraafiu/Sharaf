@@ -1,0 +1,788 @@
+%% kids-stories | kids | Stories for children | ކުދިންނަށް ވާހަކަ | Short true stories to read aloud at bedtime, each with one thing to remember. | ނިދުމުގެ ކުރިން ކިޔައިދެވޭ ކުރު ތެދު ވާހަކަތައް، ކޮންމެ ވާހަކައަކުން ހަނދާންކުރާނެ އެއް ކަމަކާއެކު. | article
+
+@@ kids-nuh-ark
+title_en: Nuh and the big boat
+title_dv: ނޫޙުގެފާނާއި ބޮޑު ނައު
+--- en
+Long, long ago there lived a prophet named Nuh. He told his people, "Worship only Allah, and be kind." He told them in the morning. He told them at night. He told them for nine hundred and fifty years! Only a few listened.
+
+Then Allah told Nuh to build a huge boat, far from the sea. People laughed. "A boat on dry land?" Nuh kept building.
+
+When it was ready, Allah told him to bring the believers on board, and two of every animal: two elephants, two cats, two birds, two of each.
+
+Then the rain came. It rained and rained until water covered everything, with waves as tall as mountains. But everyone on the boat was safe, because Allah was looking after them. Nuh said, "In the name of Allah it sails and in the name of Allah it stops."
+
+At last the water went down, and the boat rested on a mountain called Judi. Everyone stepped out onto dry land and thanked Allah.
+
+**Remember:** keep doing what is right, even if people laugh. Allah takes care of those who trust Him.
+
+*From the Quran, Surah Hud 11:25-48.*
+--- dv
+ވަރަށް ވަރަށް ކުރިން ނޫޙު ކިޔާ ނަބިއްޔަކު ހުންނެވިއެވެ. އެކަލޭގެފާނު މީހުންނަށް ވިދާޅުވިއެވެ: "ހަމައެކަނި ﷲ އަށް އަޅުކަންކުރާށެވެ. ހެޔޮކޮށް އުޅޭށެވެ." ހެނދުނުވެސް ވިދާޅުވިއެވެ. ރޭގަނޑުވެސް ވިދާޅުވިއެވެ. ނުވަސަތޭކަ ފަންސާސް އަހަރު ވިދާޅުވިއެވެ! އަޑުއެހީ މަދު މީހެކެވެ.
+
+ދެން ﷲ ނޫޙުގެފާނަށް، ކަނޑާ ދުރުގައި ވަރަށް ބޮޑު ނަވެއް ބަނުމަށް އަމުރުކުރެއްވިއެވެ. މީހުން ހޭންފެށިއެވެ. "ހިކިފަސް ބިމުގައި ނަވެއްހެއްޔެވެ؟" ނޫޙުގެފާނު ނައު ބަންނަމުން ގެންދެވިއެވެ.
+
+ނައު ނިމުމުން، މުއުމިނުންނާއި ކޮންމެ ޖަނަވާރަކުން ދެ ޖަނަވާރު ނަވަށް އެރުވުމަށް ﷲ އެންގެވިއެވެ: ދެ އެތް، ދެ ބުޅާ، ދެ ދޫނި.
+
+ދެން ވާރޭ ވެހެން ފެށިއެވެ. ފަރުބަދަ ފަދަ ބޮޑެތި ރާޅުތަކާއެކު ހުރިހާ ތަނެއް ފެނުން ފުރުނެވެ. ނަމަވެސް ނައުގައި ތިބި އެންމެން ސަލާމަތުން ތިއްބެވެ. އެހެނީ ﷲ އެމީހުން ބައްލަވަމުން ގެންދެވިއެވެ.
+
+އެންމެ ފަހުން ފެން ހިނދި، ނައު ޖޫދީ ކިޔާ ފަރުބަދައެއްގައި މަޑުކުރިއެވެ. އެންމެން ހިކިފަސް ބިމަށް ފައިބައި ﷲ އަށް ޝުކުރުކުރިއެވެ.
+
+**ހަނދާންކުރާށެވެ:** މީހުން ހެއްޔަސް ރަނގަޅު ކަންތައް ކުރަމުން ގެންދާށެވެ. ﷲ އަށް ވަކީލުކުރާ މީހުން ﷲ ބައްލަވާނެއެވެ.
+
+@@ kids-ibrahim-fire
+title_en: Ibrahim and the cool fire
+title_dv: އިބްރާހީމްގެފާނާއި ފިނި އަލިފާން
+--- en
+When Ibrahim was a boy, the people of his town bowed to statues made of stone. Ibrahim thought, "These cannot hear. They cannot talk. They cannot even move! How can they be God?"
+
+One day, when everyone was away at a festival, Ibrahim broke the statues with an axe, all except the biggest one. He hung the axe on it.
+
+The people came back. "Who did this?" Ibrahim said, "Ask the big one, if it can speak." They looked at the ground. They knew statues cannot speak. But they were too proud to say so, and they became very angry.
+
+They built the biggest fire anyone had ever seen and threw Ibrahim into it. Ibrahim said, "Allah is enough for me, and He is the best to trust."
+
+Then Allah said, "O fire, be cool and safe for Ibrahim." And the fire did not burn him at all. He walked out smiling.
+
+**Remember:** only Allah is God. When you are afraid, say *Hasbiyallah*: Allah is enough for me.
+
+*From the Quran, Surah Al-Anbiya 21:51-70.*
+--- dv
+އިބްރާހީމްގެފާނު ކުޑައިރު، އެ ރަށުގެ މީހުން ހިލައިން ހަދާފައިވާ ބުދުތަކަށް ބޯލަނބައެވެ. އިބްރާހީމްގެފާނު ވިސްނެވިއެވެ: "މި ބުދުތަކަކަށް އަޑެއް ނީވެއެވެ. ވާހަކައެއް ނުދެއްކެއެވެ. ހަރަކާތެއްވެސް ނުކުރެވެއެވެ! މިއީ އިލާހުން ވާނީ ކިހިނެއްހެއްޔެވެ؟"
+
+ދުވަހަކު ހުރިހާ މީހުން ޢީދަކަށް ގޮސް ތިއްބާ، އިބްރާހީމްގެފާނު އެންމެ ބޮޑު ބުދު ފިޔަވައި އެހެން ހުރިހާ ބުދެއް ކޯރާޑިއަކުން ތަޅާލެއްވިއެވެ. ކޯރާޑި އެލުވީ ބޮޑު ބުދުގައެވެ.
+
+މީހުން އައިސް އެހިއެވެ: "މިކަން ކުރީ ކާކުހެއްޔެވެ؟" އިބްރާހީމްގެފާނު ވިދާޅުވިއެވެ: "ބޮޑު ބުދާ އަހާބަލާށެވެ. ވާހަކަ ދެއްކޭ ނަމަ." އެމީހުން ބިމަށް ބަލަން ތިއްބެވެ. ބުދުތަކަށް ވާހަކަ ނުދެއްކޭކަން އެމީހުންނަށް އެނގެއެވެ. ނަމަވެސް ބޮޑާކަމުން ގަބޫލެއް ނުކުރިއެވެ. ވަރަށް ރުޅިއައެވެ.
+
+އެމީހުން ވަރަށް ބޮޑު އަލިފާންގަނޑެއް ރޯކޮށް އިބްރާހީމްގެފާނު އޭގެތެރެއަށް އެއްލިއެވެ. އިބްރާހީމްގެފާނު ވިދާޅުވިއެވެ: "އަހަންނަށް ﷲ ފުދެއެވެ."
+
+ދެން ﷲ ވަޙީކުރެއްވިއެވެ: "އޭ އަލިފާނާއެވެ! އިބްރާހީމަށް ފިނިވެ ސަލާމަތްވާށެވެ." އަލިފާނުން އެކަލޭގެފާނަށް އެއްވެސް ގެއްލުމެއް ނުވިއެވެ.
+
+**ހަނދާންކުރާށެވެ:** އިލާހަކީ ހަމައެކަނި ﷲ އެވެ. ބިރުގަންނައިރު *ޙަސްބިޔަﷲ* ކިޔާށެވެ: އަހަންނަށް ﷲ ފުދެއެވެ.
+
+@@ kids-musa-basket
+title_en: Baby Musa in the basket
+title_dv: ވަށިގަނޑުގައި އޮތް ތުއްތު މޫސާގެފާނު
+--- en
+In Egypt there was a cruel king called Pharaoh. He ordered his soldiers to take away every baby boy born to the Children of Israel.
+
+A mother had a baby boy named Musa. She was very frightened. Allah put an idea in her heart: "Put him in a basket and place it on the river. Do not be afraid and do not be sad. We will bring him back to you."
+
+She did it, trusting Allah. Musa's big sister walked along the bank, watching the basket float away.
+
+Where did it stop? At Pharaoh's own palace! Pharaoh's wife, Asiyah, opened the basket and saw the baby. She loved him at once. "Do not harm him," she said. "He will be a joy to us."
+
+But baby Musa cried and would not drink milk from anyone. His sister stepped forward. "I know a woman who can feed him." And who was that woman? His own mother! So Musa came back to her arms, just as Allah had promised.
+
+**Remember:** Allah always keeps His promises. Even a river and a palace do what He commands.
+
+*From the Quran, Surah Al-Qasas 28:7-13.*
+--- dv
+މިޞްރުގައި ފިރުޢައުނު ކިޔާ އަނިޔާވެރި ރަސްގެފާނެއް ހުއްޓެވެ. ބަނީ އިސްރާއީލުންނަށް ލިބޭ ކޮންމެ ފިރިހެން ކުއްޖަކު ގެންދިއުމަށް އޭނާ ސިފައިންނަށް އަމުރުކުރިއެވެ.
+
+މަންމައަކަށް މޫސާ ކިޔާ ފިރިހެން ކުއްޖަކު ލިބުނެވެ. އެކަމަނާ ވަރަށް ބިރުގަތެވެ. ﷲ އެކަމަނާގެ ހިތަށް ވިސްނުމެއް ލެއްވިއެވެ: "ކުއްޖާ ވަށިގަނޑަކަށް ލައި ކޯރަށް ދޫކޮށްލާށެވެ. ބިރުނުގަންނަވާށެވެ. ހިތާމަނުކުރައްވާށެވެ. އަހުރެން އޭނާ އަނބުރާ ކަމަނާގެ ގާތަށް ގެންނަވާނަމެވެ."
+
+އެކަމަނާ ﷲ އަށް ވަކީލުކޮށް އެގޮތަށް ހެއްދެވިއެވެ. މޫސާގެފާނުގެ ދައްތަ ކޯރުގެ އައްސޭރިން ހިނގަމުން ވަށިގަނޑަށް ބަލަން ހުއްޓެވެ.
+
+ވަށިގަނޑު މަޑުކުރީ ކޮންތާކުހެއްޔެވެ؟ ފިރުޢައުނުގެ ގަނޑުވަރު ކައިރީގައެވެ! ފިރުޢައުނުގެ އަނބިކަނބަލުން އާސިޔާ ވަށިގަނޑު ހުޅުވައި ކުއްޖާ ދެކެވަޑައިގަތުމާއެކު ލޯބިވެވަޑައިގަތެވެ. "މި ކުއްޖާއަށް ގެއްލުމެއް ނުދޭށެވެ" ވިދާޅުވިއެވެ.
+
+ނަމަވެސް ތުއްތު މޫސާގެފާނު އެއްވެސް މީހެއްގެ ކިރެއް ނުބޮއެވެ. ދައްތަ ކުރިއަށް ޖެހިލައި ބުންޏެވެ: "ކިރުދެވޭނެ އަންހެނަކު އަހަންނަށް އެނގެއެވެ." އެ އަންހެނަކީ ކާކުހެއްޔެވެ؟ ކުއްޖާގެ އަމިއްލަ މަންމައެވެ! ﷲ ވަޢުދުކުރެއްވި ފަދައިން މޫސާގެފާނު މަންމަގެ އުނގަށް އެނބުރި އައެވެ.
+
+**ހަނދާންކުރާށެވެ:** ﷲ އަބަދުވެސް ވަޢުދު ފުއްދަވައެވެ.
+
+@@ kids-yunus-whale
+title_en: Yunus inside the whale
+title_dv: ބޮޑު މަހުގެ ބަނޑުގައި ޔޫނުސްގެފާނު
+--- en
+Prophet Yunus called his people to Allah, but they would not listen. He became upset and left them, before Allah had told him he could go.
+
+He got on a ship. A great storm came and the ship was about to sink. The sailors drew lots to see who must leave the ship, and it was Yunus. Into the dark sea he went, and a giant whale swallowed him whole!
+
+It was dark inside the whale. Dark in the deep sea. Dark in the night. Three kinds of darkness. But Yunus knew that Allah hears everywhere. He called out:
+
+**"La ilaha illa Anta, subhanaka, inni kuntu minaz-zalimin."**
+"There is no god but You. Glory to You. I was one of those who did wrong."
+
+Allah heard him and forgave him. The whale swam to the shore and let him out. Allah made a plant grow to give him shade until he was strong again. When Yunus went back to his people, a hundred thousand of them believed!
+
+**Remember:** when you make a mistake, say sorry to Allah straight away. He hears you wherever you are, even in the deepest sea.
+
+*From the Quran, 21:87-88 and 37:139-148.*
+--- dv
+ޔޫނުސްގެފާނު އެކަލޭގެފާނުގެ ޤައުމުގެ މީހުންނަށް ﷲ ގެ މަގަށް ގޮވާލެއްވިއެވެ. ނަމަވެސް އެމީހުން އަޑެއް ނޭހިއެވެ. އެކަލޭގެފާނު ހިތްޕުޅު ދަތިވެ، ﷲ ހުއްދަދެއްވުމުގެ ކުރިން އެމީހުން ދޫކޮށް ވަޑައިގަތެވެ.
+
+އެކަލޭގެފާނު ނަވަކަށް އަރާވަޑައިގަތެވެ. ބޮޑު ތޫފާނެއް އައިސް ނައު ފީނަން އުޅުނެވެ. ނަވުން ފައިބަންޖެހޭ މީހަކު ހޮވުމަށް ގުރުއަތުލުމުން ނެގުނީ ޔޫނުސްގެފާނެވެ. އެކަލޭގެފާނު އަނދިރި ކަނޑަށް ފައިބާވަޑައިގަތުމުން ބޮޑު މަހެއް އެކަލޭގެފާނު ދިރުވާލިއެވެ!
+
+މަހުގެ ބަނޑު އަނދިރިއެވެ. ފުން ކަނޑު އަނދިރިއެވެ. ރޭގަނޑު އަނދިރިއެވެ. ތިން އަނދިރިކަމެކެވެ. ނަމަވެސް ﷲ އަށް ކޮންމެ ތަނެއްގައިވެސް އަޑުއިވޭކަން ޔޫނުސްގެފާނަށް އެނގެއެވެ. އެކަލޭގެފާނު ދުޢާކުރެއްވިއެވެ:
+
+**"ލާ އިލާހަ އިއްލާ އަންތަ ސުބްޙާނަކަ އިންނީ ކުންތު މިނައްޡާލިމީން."**
+"އިބަރަސްކަލާނގެ ފިޔަވައި އެހެން އިލާހަކު ނުވެއެވެ. އިބަރަސްކަލާނގެ ހުސްޠާހިރުވަންތައެވެ. އަޅުގަނޑު ވީ އަނިޔާވެރިންގެ ތެރެއިންނެވެ."
+
+ﷲ އަޑުއައްސަވައި ފުއްސެވިއެވެ. މަސް އައްސޭރިއަށް ގޮސް އެކަލޭގެފާނު ބޭރުކުރިއެވެ. އެކަލޭގެފާނު އެނބުރި ވަޑައިގަތުމުން އެއްލައްކަ މީހުން އީމާންވިއެވެ!
+
+**ހަނދާންކުރާށެވެ:** ގޯހެއް ހެދިއްޖެ ނަމަ ވަގުތުން ﷲ ގެ ޙަޟްރަތުން މަޢާފަށް އެދޭށެވެ. އެންމެ ފުން ކަނޑުގައިވެސް އެކަލާނގެއަށް އަޑުއިވޭނެއެވެ.
+
+@@ kids-sulayman-ant
+title_en: Sulayman and the little ant
+title_dv: ސުލައިމާނުގެފާނާއި ކުޑަކުޑަ ހިނި
+--- en
+Prophet Sulayman was a great king. Allah gave him something amazing: he could understand the speech of birds and animals!
+
+One day Sulayman was marching with his huge army of people, jinn and birds. They came to a valley where ants lived.
+
+One little ant saw them coming. She shouted to the others, "Ants! Hurry into your homes, so Sulayman and his soldiers do not step on you without noticing!"
+
+Sulayman heard her tiny voice, and he smiled. He was not proud that he was a mighty king. He stopped his whole army so the ants could be safe, and he said a dua:
+
+"My Lord, help me to thank You for the gifts You have given me and my parents, and to do good deeds that please You."
+
+**Remember:** be gentle with small creatures. And when you have something special, say *Alhamdulillah* and thank Allah for it.
+
+*From the Quran, Surah An-Naml 27:16-19.*
+--- dv
+ސުލައިމާނުގެފާނަކީ ބޮޑު ރަސްގެފާނެކެވެ. ﷲ އެކަލޭގެފާނަށް ޢަޖައިބު ނިޢުމަތެއް ދެއްވިއެވެ: ދޫނިތަކާއި ޖަނަވާރުތަކުގެ ވާހަކަ އެކަލޭގެފާނަށް އެނގެއެވެ!
+
+ދުވަހަކު ސުލައިމާނުގެފާނު އިންސާނުންނާއި ޖިންނީންނާއި ދޫނިތަކުގެ ބޮޑު ލަޝްކަރާއެކު ވަޑައިގަންނަވަނިކޮށް ހިނިތައް ދިރިއުޅޭ ވާދީއަކަށް ވަޑައިގަތެވެ.
+
+ކުޑަކުޑަ ހިންޏަކަށް ލަޝްކަރު ފެނުމުން ހަޅޭއްލަވައިގަތެވެ: "އޭ ހިނިތަކުންނޭވެ! އަވަހަށް ގެތަކަށް ވަންނާށެވެ. ސުލައިމާނާއި އެކަލޭގެފާނުގެ ލަޝްކަރަށް ނޭނގި ތިޔަބައިމީހުންގެ މައްޗަށް އަރާފާނެއެވެ!"
+
+ސުލައިމާނުގެފާނަށް އެ ކުޑަކުޑަ އަޑު އިވި ހިނިތުންވެވަޑައިގަތެވެ. ބޮޑު ރަސްގެފާނަކަށްވެ ހުންނެވިޔަސް ބޮޑާވެވަޑައެއް ނުގަތެވެ. ހިނިތައް ސަލާމަތްވުމަށް މުޅި ލަޝްކަރު ހުއްޓުވައި ދުޢާކުރެއްވިއެވެ:
+
+"އަޅުގަނޑުގެ ރައްބެވެ! އަޅުގަނޑަށާއި މައިންބަފައިންނަށް ދެއްވި ނިޢުމަތްތަކަށް ޝުކުރުކުރުމަށާއި، އިބަރަސްކަލާނގެ ރުހިވޮޑިގަންނަވާ ހެޔޮ ޢަމަލު ކުރުމަށް ތައުފީޤު ދެއްވާނދޭވެ."
+
+**ހަނދާންކުރާށެވެ:** ކުދިކުދި ދިރޭތަކެއްޗަށް އޯގާތެރިވާށެވެ. ޚާއްޞަ އެއްޗެއް ލިބުމުން *އަލްޙަމްދު ލިއްލާހި* ކިޔައި ﷲ އަށް ޝުކުރުކުރާށެވެ.
+
+@@ kids-yusuf-dream
+title_en: Yusuf and his brothers
+title_dv: ޔޫސުފުގެފާނާއި އެކަލޭގެފާނުގެ އަޚުން
+--- en
+Yusuf was a boy with eleven brothers. One night he dreamed that eleven stars, the sun and the moon were bowing to him. His father, Prophet Ya'qub, said, "Do not tell your brothers. Allah has chosen you for something special."
+
+His brothers were jealous because their father loved Yusuf so much. They took him far away and dropped him into a deep well. Then they told their father a lie: "A wolf ate him." Ya'qub cried, but he said, "I will be patient, and Allah will help."
+
+Travellers pulled Yusuf out of the well and sold him in Egypt. Many hard things happened to him there. He was even put in prison though he had done nothing wrong! But Yusuf was always honest, always kind and always remembered Allah.
+
+Years later the king of Egypt saw how wise and trustworthy Yusuf was and put him in charge of all the food in the land.
+
+One day his brothers came to Egypt, hungry, asking for food. They did not know it was Yusuf! He could have punished them. Instead he said, "No blame on you today. May Allah forgive you." His father and mother came too, and the whole family was together again, just like the dream.
+
+**Remember:** do not be jealous. Be patient when things are hard. And forgive people, the way Yusuf forgave his brothers.
+
+*From the Quran, Surah Yusuf.*
+--- dv
+ޔޫސުފުގެފާނަކީ އެގާރަ އަޚުން ތިބި ކުއްޖެކެވެ. ރެއަކު ހުވަފެނުގައި އެގާރަ ތަރިއާއި އިރާއި ހަނދު އެކަލޭގެފާނަށް ސަޖިދަކުރާތަން ފެނުނެވެ. ބައްޕާފުޅު ޔަޢުޤޫބުގެފާނު ވިދާޅުވިއެވެ: "އަޚުންނަށް ނުބުނާށެވެ. ﷲ ދަރިފުޅު ޚާއްޞަ ކަމަކަށް ޚިޔާރުކުރައްވައިފިއެވެ."
+
+ބައްޕަ ޔޫސުފުގެފާނުދެކެ ވަރަށް ލޯބިވާތީ އަޚުން ޙަސަދަވެރިވިއެވެ. އެމީހުން އެކަލޭގެފާނު ދުރަށް ގެންގޮސް ފުން ވަޅަކަށް ވައްޓާލިއެވެ. އަދި ބައްޕައަށް ދޮގެއް ހެދިއެވެ: "ހިޔަޅަކު ކައިފިއެވެ." ޔަޢުޤޫބުގެފާނު ކަރުނަ އޮއްސެވިއެވެ. ނަމަވެސް ވިދާޅުވިއެވެ: "އަހަރެން ކެތްތެރިވާނަމެވެ. ﷲ އެހީވެދެއްވާނެއެވެ."
+
+ދަތުރުވެރިން ޔޫސުފުގެފާނު ވަޅުން ނަގައި މިޞްރުގައި ވިއްކާލިއެވެ. އެތަނުގައި ގިނަ އުނދަގޫތަކެއް ދިމާވިއެވެ. ކުށެއް ނެތި ޖަލަށްވެސް ލެވުނެވެ! ނަމަވެސް ޔޫސުފުގެފާނު އަބަދުވެސް ތެދުވެރިވެ، ހެޔޮކޮށް، ﷲ ހަނދާންކުރެއްވިއެވެ.
+
+އަހަރުތަކެއް ފަހުން މިޞްރުގެ ރަސްގެފާނު، ޤައުމުގެ ހުރިހާ ކާބޯތަކެތި އެކަލޭގެފާނާ ޙަވާލުކުރެއްވިއެވެ.
+
+ދުވަހަކު އަޚުން ބަނޑުހައިވެގެން ކާތަކެތި ހޯދަން މިޞްރަށް އައެވެ. އެއީ ޔޫސުފުކަން އެމީހުންނަކަށް ނޭނގުނެވެ! އެކަލޭގެފާނަށް އަދަބުދެއްވިދާނެއެވެ. ނަމަވެސް ވިދާޅުވިއެވެ: "މިއަދު ތިޔަބައިމީހުންގެ މައްޗަށް އެއްވެސް ކުށެއް ނެތެވެ. ﷲ ތިޔަބައިމީހުންނަށް ފުއްސަވާށިއެވެ." މުޅި ޢާއިލާ އަލުން އެއްވިއެވެ. ހުވަފެން ތެދުވިއެވެ.
+
+**ހަނދާންކުރާށެވެ:** ޙަސަދަވެރިނުވާށެވެ. ދަތި ވަގުތުތަކުގައި ކެތްތެރިވާށެވެ. ޔޫސުފުގެފާނު އަޚުންނަށް މަޢާފުކުރެއްވި ފަދައިން މީހުންނަށް މަޢާފުކުރާށެވެ.
+
+@@ kids-elephant
+title_en: The year of the elephant
+title_dv: އެތުގެ އަހަރު
+--- en
+In the city of Makkah stands the Ka'bah, the house Ibrahim and his son Isma'il built for the worship of Allah.
+
+Far away lived a king called Abrahah. He was jealous that people loved the Ka'bah. "I will knock it down!" he said. He marched to Makkah with a huge army, and in front walked a giant elephant.
+
+The people of Makkah had no army. They went up into the hills. Their leader, Abdul Muttalib, said, "The House has a Lord who will protect it."
+
+When the army came near, the elephant sat down! They pushed it and hit it, but it would not take one step towards the Ka'bah.
+
+Then the sky filled with flocks of little birds. Each bird carried tiny stones of baked clay, and dropped them on the army. The mighty army was finished, like chewed-up straw.
+
+That same year a baby was born in Makkah. His name was **Muhammad** ﷺ, the grandson of Abdul Muttalib, and the last Messenger of Allah.
+
+**Remember:** nobody is stronger than Allah. He can protect His House with the smallest birds.
+
+*From the Quran, Surah Al-Fil 105.*
+--- dv
+މައްކާގައި ކަޢުބާ ހުރެއެވެ. އެއީ ﷲ އަށް އަޅުކަންކުރުމަށް އިބްރާހީމްގެފާނާއި ދަރިކަލުން އިސްމާޢީލްގެފާނު ބިނާކުރެއްވި ގެއެވެ.
+
+ދުރު ތަނެއްގައި އަބްރަހާ ކިޔާ ރަސްގެފާނެއް ހުއްޓެވެ. މީސްތަކުން ކަޢުބާދެކެ ލޯބިވާތީ އޭނާ ޙަސަދަވެރިވިއެވެ. "އަހަރެން އެ ގެ ތަޅާލާނަމޭ" ބުނެ، ބޮޑު ލަޝްކަރަކާއެކު މައްކާއަށް ދިޔައެވެ. ކުރީގައި ހިނގީ ބޮޑު އެތެކެވެ.
+
+މައްކާގެ މީހުންގެ ލަޝްކަރެއް ނެތެވެ. އެމީހުން ފަރުބަދަތަކަށް އެރިއެވެ. އެމީހުންގެ ވެރިޔާ ޢަބްދުލް މުއްޠަލިބު ވިދާޅުވިއެވެ: "މި ގެއަށް ރައްބެއް ވެއެވެ. އެކަލާނގެ މި ގެ ރައްކާތެރިކުރައްވާނެއެވެ."
+
+ލަޝްކަރު ކައިރިވުމުން އެތް އިށީނެވެ! ކޮއްޕައި ތެޅިޔަސް ކަޢުބާއާ ދިމާއަށް އެންމެ ފިޔަވަޅެއްވެސް ނޭޅިއެވެ.
+
+ދެން އުޑުމަތި ކުދިކުދި ދޫނިތަކުން ފުރުނެވެ. ކޮންމެ ދޫންޏެއްގައި މަށިން ހަދާފައިވާ ކުދިކުދި ހިލަ ހުއްޓެވެ. ދޫނިތައް އެ ހިލަތައް ލަޝްކަރުގެ މައްޗަށް ވެއްޓާލިއެވެ. ބާރުގަދަ ލަޝްކަރު ނިމުނީއެވެ.
+
+ހަމަ އެ އަހަރު މައްކާގައި ކުޑަކުއްޖަކު އުފަންވިއެވެ. އެކަލޭގެފާނުގެ ނަންފުޅަކީ **މުޙައްމަދު** ﷺ އެވެ. ﷲ ގެ އެންމެ ފަހުގެ ރަސޫލާއެވެ.
+
+**ހަނދާންކުރާށެވެ:** ﷲ އަށްވުރެ ބާރުގަދަ އެއްވެސް ފަރާތެއް ނުވެއެވެ.
+
+@@ kids-thirsty-dog
+title_en: The man, the well and the thirsty dog
+title_dv: ފިރިހެނަކާއި، ވަޅަކާއި، ކަރުހިއްކިފައިވާ ކުއްތާއެއް
+--- en
+The Prophet Muhammad ﷺ told this story to his friends.
+
+A man was walking on a hot, dusty road. He became very thirsty. At last he found a well, climbed down, and drank until he felt better.
+
+When he climbed out, he saw a dog. Its tongue was hanging out and it was licking the wet mud because it was so thirsty. The man thought, "This dog feels just like I felt."
+
+There was no bucket. So he climbed back down the well, filled his leather shoe with water, held it in his teeth, climbed up again, and gave the dog a drink.
+
+Allah was pleased with what he did and forgave his sins.
+
+The friends asked, "Messenger of Allah, do we get rewards for being kind to animals?" He said, "There is a reward for kindness to every living thing."
+
+**Remember:** give water to birds and cats, never hurt an animal, and Allah will be pleased with you.
+
+*Hadith: Bukhari 2363.*
+--- dv
+މި ވާހަކަ ނަބިއްޔާ މުޙައްމަދު ﷺ އެކަލޭގެފާނުގެ އަޞްޙާބުންނަށް ކިޔައިދެއްވިއެވެ.
+
+ފިރިހެނަކު ހޫނު، ހިރަފުސްބޮޑު މަގެއްގައި ހިނގަމުން ދިޔައެވެ. އޭނާ ވަރަށް ބޮޑަށް ކަރުހިއްކައިގަތެވެ. އެންމެ ފަހުން ވަޅެއް ފެނި، ވަޅަށް ފައިބައި ފެންބުއިއެވެ.
+
+ވަޅުން އެރިއިރު ކުއްތާއެއް ފެނުނެވެ. ކަރުހިއްކައިގެން ދޫ ނެރެ، ތެތް މަށި ދަތްޔަހަމުން ދިޔައެވެ. އޭނާ ވިސްނިއެވެ: "މި ކުއްތާއަށް މި ވަނީ އަހަންނަށް ވި ގޮތެވެ."
+
+ބާލިދީއެއް ނެތެވެ. ވީމާ އޭނާ އަނެއްކާ ވަޅަށް ފައިބައި، ހަމުގެ ފައިވާނުގައި ފެން އަޅައި، ދަތުން ހިފައިގެން އަރައި، ކުއްތާއަށް ފެންދިނެވެ.
+
+އެކަމާމެދު ﷲ ރުހިވޮޑިގެން އޭނާގެ ފާފަ ފުއްސެވިއެވެ.
+
+އަޞްޙާބުން ދެންނެވިއެވެ: "އޭ ﷲ ގެ ރަސޫލާއެވެ! ޖަނަވާރުތަކަށް ހެޔޮކުރުމުންވެސް ސަވާބު ލިބޭނެހެއްޔެވެ؟" ޙަދީޘްކުރެއްވިއެވެ: "ކޮންމެ ދިރޭ އެއްޗަކަށް ހެޔޮކުރުމުގައި ސަވާބު ވެއެވެ."
+
+**ހަނދާންކުރާށެވެ:** ދޫނިތަކަށާއި ބުޅަލަށް ފެންދޭށެވެ. ދުވަހަކުވެސް ޖަނަވާރަކަށް އަނިޔާނުކުރާށެވެ.
+
+@@ kids-truthful
+title_en: Al-Amin, the one everybody trusted
+title_dv: އަލްއަމީން، އެންމެން އިތުބާރުކުރި ބޭކަލެއް
+--- en
+Before he became a prophet, Muhammad ﷺ lived in Makkah like everyone else. But there was something special about him: **he never told a lie.** Not a big one, not a small one, not even as a joke.
+
+People noticed. When they travelled, they left their gold and precious things with him, because they knew he would keep them safe. They gave him a name: **Al-Amin**, the Trustworthy.
+
+One day the people of Makkah were rebuilding the Ka'bah. When it was time to put the Black Stone back in its place, every tribe wanted the honour. They argued and argued and nearly began to fight. Then someone said, "Let the next man who walks in decide." Who walked in? Muhammad ﷺ. "It is Al-Amin!" they said. "We are happy with him."
+
+He spread out his cloak, put the Stone in the middle, and asked a leader from each tribe to hold a corner. They lifted it together, and he set it in place with his own hands. Everyone was happy, and nobody fought.
+
+**Remember:** always tell the truth and keep your promises. Then people will trust you, and Allah will love you.
+
+*From the life of the Prophet ﷺ, reported by Ibn Ishaq and Ahmad.*
+--- dv
+ނަބީކަން ލިބިވަޑައިގަތުމުގެ ކުރިން މުޙައްމަދު ﷺ މައްކާގައި އުޅުއްވިއެވެ. ނަމަވެސް އެކަލޭގެފާނުގެ ޚާއްޞަ ކަމެއް އޮތެވެ: **ދުވަހަކުވެސް ދޮގެއް ނުހައްދަވައެވެ.** ބޮޑު ދޮގެއްވެސް، ކުޑަ ދޮގެއްވެސް، ސަމާސާއަކަށްވެސް.
+
+މީހުންނަށް އެކަން ފާހަގަވިއެވެ. ދަތުރުދާއިރު އެމީހުންގެ ރަނާއި އަގުހުރި ތަކެތި އެކަލޭގެފާނާ ޙަވާލުކުރެއެވެ. އެމީހުން އެކަލޭގެފާނަށް ނަމެއް ދިނެވެ: **އަލްއަމީން**، އިތުބާރުކުރެވޭ މީހާ.
+
+ދުވަހަކު މައްކާގެ މީހުން ކަޢުބާ އަލުން ބިނާކުރިއެވެ. ޙަޖަރުލް އަސްވަދު އޭގެ ތަނުގައި ބެހެއްޓުމުގެ ޝަރަފު ކޮންމެ ޤަބީލާއަކުން ބޭނުންވިއެވެ. ޒުވާބުކޮށް ތަޅާފޮޅަން ކައިރިވިއެވެ. ދެން މީހަކު ބުންޏެވެ: "ދެން ވަންނަ މީހާ ނިންމާނީއެވެ." ވަދެވަޑައިގަތީ ކާކުހެއްޔެވެ؟ މުޙައްމަދު ﷺ އެވެ. "އެއީ އަލްއަމީނެވެ!" އެމީހުން ބުންޏެވެ.
+
+އެކަލޭގެފާނު ފޮތިގަނޑެއް ފަތުރުއްވައި، ހިލަ މެދުގައި ބާއްވަވައި، ކޮންމެ ޤަބީލާއެއްގެ ވެރިއަކު ކަނެއްގައި ހިފުމަށް ވިދާޅުވިއެވެ. އެންމެން އެކުގައި އުފުލުމުން އެކަލޭގެފާނުގެ އަތްޕުޅުން ހިލަ ބެހެއްޓެވިއެވެ. އެންމެން އުފާވިއެވެ.
+
+**ހަނދާންކުރާށެވެ:** އަބަދުވެސް ތެދު ބުނެ، ވަޢުދު ފުއްދާށެވެ. އޭރުން މީހުން ތިބާއަށް އިތުބާރުކުރާނެއެވެ. ﷲ ތިބާދެކެ ލޯބިކުރައްވާނެއެވެ.
+
+@@ kids-first-things
+title_en: Five things every Muslim child knows
+title_dv: ކޮންމެ މުސްލިމު ކުއްޖަކަށް އެނގޭ ފަސް ކަމެއް
+--- en
+1. **Who is your Lord?** Allah. He made me, the sea, the sun and everything.
+2. **Who is your Prophet?** Muhammad ﷺ. He taught us how to be good.
+3. **What is your religion?** Islam. It means giving myself to Allah in peace.
+4. **What is your Book?** The Quran, the words of Allah.
+5. **Which way do you face when you pray?** Towards the Ka'bah in Makkah.
+
+**Five things we do**
+
+- We say **La ilaha illallah, Muhammadur Rasulullah**.
+- We **pray** five times a day.
+- We **share** with people who have less.
+- We **fast** in Ramadan when we are big enough.
+- We go to **Hajj** once in our life, if we can.
+
+**Little words for every day**
+
+- Before eating: **Bismillah**
+- After eating: **Alhamdulillah**
+- When something is beautiful: **Ma sha' Allah**
+- When you plan something: **In sha' Allah**
+- When you make a mistake: **Astaghfirullah**
+- When you meet someone: **As-salamu 'alaykum**
+--- dv
+1. **ތިބާގެ ރައްބަކީ ކާކުހެއްޔެވެ؟** ﷲ. އަހަރެންނާއި، ކަނޑާއި، އިރާއި، ހުރިހާ އެއްޗެއް ހެއްދެވީ އެކަލާނގެއެވެ.
+2. **ތިބާގެ ނަބިއްޔަކީ ކާކުހެއްޔެވެ؟** މުޙައްމަދު ﷺ.
+3. **ތިބާގެ ދީނަކީ ކޮބައިހެއްޔެވެ؟** އިސްލާމްދީން.
+4. **ތިބާގެ ފޮތަކީ ކޮބައިހެއްޔެވެ؟** ޤުރުއާން. ﷲ ގެ ބަސްފުޅު.
+5. **ނަމާދުކުރާއިރު ކުރިމަތިލަނީ ކޮން ދިމާއަކަށްހެއްޔެވެ؟** މައްކާގައިވާ ކަޢުބާއަށް.
+
+**އަހަރެމެން ކުރާ ފަސް ކަމެއް**
+
+- **ލާ އިލާހަ އިއްލަﷲ މުޙައްމަދުން ރަސޫލުﷲ** ކިޔަމެވެ.
+- ދުވާލަކު ފަސް ފަހަރު **ނަމާދު**ކުރަމެވެ.
+- ނިކަމެތިންނަށް **ދެމެވެ**.
+- ބޮޑުވުމުން ރަމަޟާން މަހު **ރޯދަ**ހިފަމެވެ.
+- ކުޅަދާނަ ނަމަ ޢުމުރުން އެއް ފަހަރު **ޙައްޖު**ކުރަމެވެ.
+
+**ކޮންމެ ދުވަހަކު ކިޔާ ކުދި ބަސްތައް**
+
+- ކެއުމުގެ ކުރިން: **ބިސްމިﷲ**
+- ކެއުމަށްފަހު: **އަލްޙަމްދު ލިއްލާހި**
+- ރީތި އެއްޗެއް ފެނުމުން: **މާ ޝާ ﷲ**
+- ކަމެއް ކުރަން ރާވާއިރު: **އިން ޝާ ﷲ**
+- ގޯހެއް ހެދުމުން: **އަސްތަޣްފިރުﷲ**
+- މީހަކާ ދިމާވުމުން: **އައްސަލާމް ޢަލައިކުމް**
+
+%% arabic-lessons | arabic | Learn Arabic for the Quran | ޤުރުއާނަށްޓަކައި ޢަރަބި ދަސްކުރުން | From the letters to understanding the words you already recite. Use with the letter chart and word practice. | އަކުރުތަކުން ފެށިގެން، ތިބާ ކިޔަވާ ބަސްތަކުގެ މާނަ ދެނެގަތުމާ ހަމައަށް. | article
+
+@@ arabic-01-letters
+title_en: Lesson 1: the 28 letters
+title_dv: ފިލާވަޅު 1: 28 އަކުރު
+--- en
+Arabic is written from **right to left** with 28 letters. All are consonants; vowels are small marks added above or below.
+
+If you read Thaana, you have a head start: Thaana has a letter for every Arabic sound. The letter chart in this app shows each Arabic letter beside its Thaana match.
+
+**Three things to know**
+
+- **Letters join.** Most letters change shape a little depending on whether they come at the start, middle or end of a word: ب is بـ at the start, ـبـ in the middle and ـب at the end. The core shape and the dots stay the same.
+- **Six letters never join to the letter after them:** ا د ذ ر ز و. After one of these there is a small gap inside the word.
+- **Dots matter.** ب ت ث share one shape; only the dots differ. So do ج ح خ, and د ذ, and ر ز, and س ش, and ص ض, and ط ظ, and ع غ.
+
+**Sounds that need practice**
+
+- From the throat: ح (a breathy h), ع (a squeezed sound), خ (like clearing the throat softly), غ (a gargle).
+- The heavy letters: ص ض ط ظ ق. Say them with the back of the tongue raised, so the vowel sounds deep.
+- The tongue-tip letters: ث as in *think*, ذ as in *this*, ظ a heavy version of ذ.
+
+A teacher listening to you is the only sure way to get these right. Use this lesson to prepare, then recite to someone who knows.
+--- dv
+ޢަރަބި ލިޔަނީ **ކަނާތުން ވާތަށް**، 28 އަކުރުންނެވެ. ހުރިހާ އަކުރަކީ ވެސް ވަޔަންޖަނަ އަކުރެވެ. ފިލިތަކަކީ އަކުރުގެ މަތީގައި ނުވަތަ ދަށުގައި ޖަހާ ކުދި ނިޝާންތަކެވެ.
+
+ތާނަ ކިޔަން އެނގޭ މީހަކަށް މިކަން ފަސޭހައެވެ. ކޮންމެ ޢަރަބި އަޑަކަށް ތާނައިގައި އަކުރެއް ވެއެވެ. މި އެޕްގެ އަކުރު ޗާޓުގައި ކޮންމެ ޢަރަބި އަކުރަކާއެކު އޭގެ ތާނަ އަކުރު ވާނެއެވެ.
+
+**ދަންނަންވީ ތިން ކަމެއް**
+
+- **އަކުރުތައް ގުޅެއެވެ.** ބަހެއްގެ ފެށުމުގައި، މެދުގައި ނުވަތަ ނިމުމުގައި އޮތުމުން ގިނަ އަކުރުތަކުގެ ބައްޓަން ކުޑަކޮށް ބަދަލުވެއެވެ: ب ފެށުމުގައި بـ، މެދުގައި ـبـ، ނިމުމުގައި ـب.
+- **ހަ އަކުރެއް ފަހަތުގެ އަކުރާ ނުގުޅެއެވެ:** ا د ذ ر ز و.
+- **ތިކިތައް މުހިންމެވެ.** ب ت ث ގެ ބައްޓަން އެއްގޮތެވެ. ތަފާތީ ތިކިތަކެވެ. ހަމަ އެފަދައިން ج ح خ، د ذ، ر ز، س ش، ص ض، ط ظ، ع غ.
+
+**ފަރިތަކުރަންޖެހޭ އަޑުތައް**
+
+- ކަރުތެރެއިން ނިކުންނަ އަކުރުތައް: ح (ޙ)، ع (ޢ)، خ (ޚ)، غ (ޣ).
+- ބަރު އަކުރުތައް: ص ض ط ظ ق (ޞ ޟ ޠ ޡ ޤ). ދުލުގެ ފަހަތް އުފުލައިގެން ކިޔާށެވެ.
+- ދޫކޮޅުގެ އަކުރުތައް: ث (ޘ)، ذ (ޛ)، ظ (ޡ).
+
+މި އަޑުތައް ރަނގަޅުކުރެވޭނީ މުދައްރިސަކު އަޑުއަހައިގެންނެވެ. މި ފިލާވަޅުން ތައްޔާރުވެ، އެނގޭ މީހަކަށް ކިޔައިދޭށެވެ.
+
+@@ arabic-02-vowels
+title_en: Lesson 2: short vowels, long vowels and sukun
+title_dv: ފިލާވަޅު 2: ކުރު ފިލި، ދިގު ފިލި އަދި ސުކުން
+--- en
+**Three short vowels (harakat)**
+
+- **Fathah** بَ a small stroke above: *ba*. Thaana: ބަ
+- **Kasrah** بِ a small stroke below: *bi*. Thaana: ބި
+- **Dammah** بُ a small loop above: *bu*. Thaana: ބު
+
+**Three long vowels**, held for two beats
+
+- Fathah + alif: بَا *baa*. Thaana: ބާ
+- Kasrah + ya: بِي *bee*. Thaana: ބީ
+- Dammah + waw: بُو *boo*. Thaana: ބޫ
+
+**Sukun** بْ a small circle: no vowel, the letter stops. مِنْ = *min*. Thaana: ން
+
+**Shaddah** بّ a small w-shape: the letter is doubled. رَبِّ = *rab-bi*. إِنَّ = *in-na*.
+
+**Tanwin**, a doubled vowel mark at the end of a word, adds an *n* sound
+
+- ً = *-an*: كِتَابًا *kitaaban*
+- ٍ = *-in*: كِتَابٍ *kitaabin*
+- ٌ = *-un*: كِتَابٌ *kitaabun*
+
+**Maddah** آ = a long *aa* after a hamzah: آمَنَ *aamana*.
+
+**Practise:** read these aloud, slowly.
+
+- بَ بِ بُ ـ تَ تِ تُ ـ سَ سِ سُ
+- بَا بِي بُو ـ مَا مِي مُو
+- رَبِّ ـ الْحَمْدُ ـ مَلِكِ ـ نَعْبُدُ
+--- dv
+**ތިން ކުރު ފިލި (ޙަރަކާތް)**
+
+- **ފަތުޙާ** بَ އަކުރުގެ މަތީގައި ކުޑަ ރޮނގެއް: ބަ
+- **ކަސްރާ** بِ އަކުރުގެ ދަށުގައި ކުޑަ ރޮނގެއް: ބި
+- **ޟައްމާ** بُ އަކުރުގެ މަތީގައި ކުޑަ ވާވެއް: ބު
+
+**ތިން ދިގު ފިލި**، ދެ ޙަރަކާތުގެ މިންވަރަށް ދަމާ
+
+- ފަތުޙާ + އަލިފް: بَا ބާ
+- ކަސްރާ + ޔާ: بِي ބީ
+- ޟައްމާ + ވާވު: بُو ބޫ
+
+**ސުކުން** بْ ކުޑަ ވަށްބުރެއް: ފިއްޔެއް ނެތް. مِنْ = މިން
+
+**ޝައްދާ** بّ : އަކުރު ދެ ފަހަރު ކިޔޭ. رَبِّ = ރައްބި. إِنَّ = އިންނަ.
+
+**ތަންވީން**، ބަހުގެ ނިމުމުގައި ދެ ފިލި، "ން" ގެ އަޑެއް އިތުރުކުރޭ
+
+- ً = އަން: كِتَابًا ކިތާބަން
+- ٍ = އިން: كِتَابٍ ކިތާބިން
+- ٌ = އުން: كِتَابٌ ކިތާބުން
+
+**މައްދާ** آ = ހަމްޒާއަށްފަހު ދިގު އާ: آمَنَ އާމަނަ.
+
+**ފަރިތަކުރާށެވެ:** މަޑުމަޑުން އަޑުހަރުކޮށް ކިޔާށެވެ.
+
+- بَ بِ بُ ـ تَ تِ تُ ـ سَ سِ سُ
+- بَا بِي بُو ـ مَا مِي مُو
+- رَبِّ ـ الْحَمْدُ ـ مَلِكِ ـ نَعْبُدُ
+
+@@ arabic-03-al
+title_en: Lesson 3: "al-", sun letters and moon letters
+title_dv: ފިލާވަޅު 3: "އަލް"، ޝަމްސީ އަކުރާއި ޤަމަރީ އަކުރު
+--- en
+**ال (al-)** means "the". كِتَاب *kitab* = a book. الْكِتَاب *al-kitab* = the book.
+
+**Moon letters.** Before these fourteen letters the *l* is pronounced:
+
+ا ب ج ح خ ع غ ف ق ك م ه و ي
+
+- الْقَمَر *al-qamar*, the moon
+- الْحَمْدُ *al-hamdu*, the praise
+- الْمَلِك *al-malik*, the king
+
+**Sun letters.** Before these fourteen the *l* is silent and the next letter is doubled:
+
+ت ث د ذ ر ز س ش ص ض ط ظ ل ن
+
+- الشَّمْس *ash-shams*, the sun (not *al-shams*)
+- الرَّحْمَٰن *ar-Rahman*
+- النَّاس *an-nas*, the people
+- الصِّرَاط *as-sirat*, the path
+
+The mushaf helps you: a sun letter after ال always carries a shaddah, and the ل has no mark.
+
+**Joining words.** The alif of ال is silent when you read on from the word before: بِسْمِ اللَّهِ is *bismillah*, not *bismi allah*. قُلْ هُوَ اللَّهُ = *qul huwallahu*.
+--- dv
+**ال (އަލް)** އަކީ ނަކިރާ ނަމެއް މަޢުރިފާކުރާ އަކުރެވެ. كِتَاب = ފޮތެއް. الْكِتَاب = އެ ފޮތް.
+
+**ޤަމަރީ އަކުރުތައް.** މި ސާދަ އަކުރުގެ ކުރިން "ލް" ކިޔޭނެއެވެ:
+
+ا ب ج ح خ ع غ ف ق ك م ه و ي
+
+- الْقَمَر އަލްޤަމަރު، ހަނދު
+- الْحَمْدُ އަލްޙަމްދު
+- الْمَلِك އަލްމަލިކު، ރަސްގެފާނު
+
+**ޝަމްސީ އަކުރުތައް.** މި ސާދަ އަކުރުގެ ކުރިން "ލް" ނުކިޔޭނެއެވެ. ފަހަތުގެ އަކުރު ޝައްދާކޮށް ކިޔޭނެއެވެ:
+
+ت ث د ذ ر ز س ش ص ض ط ظ ل ن
+
+- الشَّمْس އައްޝަމްސު، އިރު
+- الرَّحْمَٰن އައްރަޙްމާން
+- النَّاس އައްނާސް، މީސްތަކުން
+- الصِّرَاط އައްޞިރާޠު، މަގު
+
+މުޞްޙަފުން އެހީ ލިބެއެވެ: ال އަށްފަހު އަންނަ ޝަމްސީ އަކުރެއްގައި އަބަދުވެސް ޝައްދާއެއް ހުންނާނެއެވެ.
+
+**ބަސްތައް ގުޅުވުން.** ކުރީ ބަހާ ގުޅުވައިގެން ކިޔާއިރު ال ގެ އަލިފް ނުކިޔޭނެއެވެ: بِسْمِ اللَّهِ = ބިސްމިﷲ.
+
+@@ arabic-04-pronouns
+title_en: Lesson 4: I, you, he: the small words that unlock ayahs
+title_dv: ފިލާވަޅު 4: އަހަރެން، ކަލޭ، އޭނާ: އާޔަތްތައް ވިސްނައިދޭ ކުދި ބަސްތައް
+--- en
+**Separate pronouns**
+
+- أَنَا *ana*, I
+- نَحْنُ *nahnu*, we
+- أَنْتَ *anta*, you (one man) / أَنْتِ *anti* (one woman)
+- أَنْتُمْ *antum*, you (many)
+- هُوَ *huwa*, he / هِيَ *hiya*, she
+- هُمْ *hum*, they
+
+**Attached endings** mean "my, your, his" on a noun and "me, you, him" on a verb
+
+- ـِي *-i*, my: رَبِّي *rabbi*, my Lord
+- ـنَا *-na*, our/us: رَبَّنَا *rabbana*, our Lord. اهْدِنَا *ihdina*, guide us
+- ـكَ *-ka*, your: رَبُّكَ *rabbuka*, your Lord. إِيَّاكَ *iyyaka*, You alone
+- ـكُمْ *-kum*, your (many): رَبُّكُمْ *rabbukum*
+- ـهُ *-hu*, his/him: لَهُ *lahu*, for him
+- ـهَا *-ha*, her: لَهَا *laha*
+- ـهِمْ / ـهُمْ *-him/-hum*, their/them: عَلَيْهِمْ *'alayhim*, upon them
+
+**Little words you meet in every line**
+
+- مِنْ *min*, from
+- إِلَى *ila*, to
+- فِي *fi*, in
+- عَلَى *'ala*, on, upon
+- بِـ *bi-*, with, by
+- لِـ *li-*, for, to
+- وَ *wa*, and
+- لَا *la*, no, not
+- مَا *ma*, what; not
+- إِنَّ *inna*, truly
+- الَّذِي / الَّذِينَ *alladhi / alladhina*, the one who / those who
+- هَٰذَا *hadha*, this
+- قَالَ *qala*, he said
+- كَانَ *kana*, he was
+
+Now read this dua and see how much you can already take apart: رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً: *Rabba-na* (our Lord) *ati-na* (give us) *fi* (in) *ad-dunya* (the world) *hasanatan* (good).
+--- dv
+**ވަކިން ލިޔާ ޟަމީރުތައް**
+
+- أَنَا އަނާ، އަހަރެން
+- نَحْنُ ނަޙްނު، އަހަރެމެން
+- أَنْتَ އަންތަ، ކަލޭ (ފިރިހެނަކު) / أَنْتِ އަންތި (އަންހެނަކު)
+- أَنْتُمْ އަންތުމް، ކަލޭމެން
+- هُوَ ހުވަ، އޭނާ (ފިރިހެން) / هِيَ ހިޔަ، އޭނާ (އަންހެން)
+- هُمْ ހުމް، އެމީހުން
+
+**ގުޅިފައިވާ ނިމުންތައް**
+
+- ـِي އަހަރެންގެ: رَبِّي ރައްބީ، އަހަރެންގެ ރައްބު
+- ـنَا އަހަރެމެންގެ: رَبَّنَا ރައްބަނާ. اهْدِنَا އިހްދިނާ، އަޅަމެންނަށް މަގުދައްކަވާނދޭވެ
+- ـكَ ކަލޭގެ: رَبُّكَ ރައްބުކަ. إِيَّاكَ އިއްޔާކަ، ހަމައެކަނި އިބަރަސްކަލާނގެއަށް
+- ـكُمْ ކަލޭމެންގެ: رَبُّكُمْ
+- ـهُ އޭނާގެ: لَهُ ލަހޫ، އޭނާއަށް
+- ـهَا އޭނާގެ (އަންހެން): لَهَا
+- ـهِمْ / ـهُمْ އެމީހުންގެ: عَلَيْهِمْ ޢަލައިހިމް، އެމީހުންގެ މައްޗަށް
+
+**ކޮންމެ ފޮޅުވަތެއްގައި ދިމާވާ ކުދި ބަސްތައް**
+
+- مِنْ މިން، އިން
+- إِلَى އިލާ، އަށް
+- فِي ފީ، ގައި
+- عَلَى ޢަލާ، މަތީގައި
+- بِـ ބި، އާއެކު
+- لِـ ލި، އަށްޓަކައި
+- وَ ވަ، އަދި
+- لَا ލާ، ނޫން
+- مَا މާ، ކޮން އެއްޗެއް؛ ނޫން
+- إِنَّ އިންނަ، ހަމަކަށަވަރުން
+- الَّذِي / الَّذِينَ އެ މީހާ / އެ މީހުން
+- هَٰذَا ހާޛާ، މި
+- قَالَ ޤާލަ، ބުންޏެވެ
+- كَانَ ކާނަ، ވިއެވެ
+
+މިހާރު މި ދުޢާ ކިޔާލާށެވެ: رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً: *ރައްބަނާ* (އަޅަމެންގެ ރައްބެވެ) *އާތިނާ* (އަޅަމެންނަށް ދެއްވާނދޭވެ) *ފީ* (ގައި) *އައްދުންޔާ* (ދުނިޔެ) *ޙަސަނަތަން* (ހެޔޮކަމެއް).
+
+@@ arabic-05-fatihah
+title_en: Lesson 5: Al-Fatihah, word by word
+title_dv: ފިލާވަޅު 5: ސޫރަތުލް ފާތިޙާ، ބަހުން ބަހަށް
+--- en
+You recite these seven ayahs at least seventeen times a day. Here is every word.
+
+**1.** بِسْمِ *bi-smi*, in the name of · اللَّهِ *Allahi*, Allah · الرَّحْمَٰنِ *ar-Rahmani*, the Entirely Merciful · الرَّحِيمِ *ar-Rahimi*, the Especially Merciful
+
+**2.** الْحَمْدُ *al-hamdu*, all praise · لِلَّهِ *li-llahi*, belongs to Allah · رَبِّ *Rabbi*, Lord of · الْعَالَمِينَ *al-'alamin*, the worlds
+
+**3.** الرَّحْمَٰنِ الرَّحِيمِ, the Entirely Merciful, the Especially Merciful
+
+**4.** مَالِكِ *Maliki*, Master of · يَوْمِ *yawmi*, the Day of · الدِّينِ *ad-din*, Judgement
+
+**5.** إِيَّاكَ *iyyaka*, You alone · نَعْبُدُ *na'budu*, we worship · وَإِيَّاكَ *wa iyyaka*, and You alone · نَسْتَعِينُ *nasta'in*, we ask for help
+
+**6.** اهْدِنَا *ihdina*, guide us · الصِّرَاطَ *as-sirata*, to the path · الْمُسْتَقِيمَ *al-mustaqim*, the straight
+
+**7.** صِرَاطَ *sirata*, the path of · الَّذِينَ *alladhina*, those whom · أَنْعَمْتَ *an'amta*, You have favoured · عَلَيْهِمْ *'alayhim*, upon them · غَيْرِ *ghayri*, not of · الْمَغْضُوبِ *al-maghdubi*, those who earned anger · عَلَيْهِمْ *'alayhim*, upon them · وَلَا *wa la*, and not · الضَّالِّينَ *ad-dallin*, those who went astray
+
+**Notice**
+
+- رَحْمَٰن and رَحِيم come from the same root, ر ح م, mercy. So does *rahmah*.
+- نَعْبُدُ: the نَـ at the start means "we". عَبْد is a servant; *'ibadah* is worship.
+- نَسْتَعِينُ: again نَـ, "we".
+- اهْدِنَا: the ـنَا at the end means "us". *Hidayah* is guidance.
+--- dv
+މި ހަތް އާޔަތް ތިބާ ދުވާލަކު މަދުވެގެން ސަތާރަ ފަހަރު ކިޔަވައެވެ. ކޮންމެ ބަހެއްގެ މާނަ މިއީއެވެ.
+
+**1.** بِسْمِ ނަންފުޅުން · اللَّهِ ﷲ ގެ · الرَّحْمَٰنِ ރަޙްމާންވަންތަ · الرَّحِيمِ ރަޙީމްވަންތަ
+
+**2.** الْحَمْدُ ހުރިހާ ޙަމްދެއް · لِلَّهِ ﷲ އަށެވެ · رَبِّ ރައްބު · الْعَالَمِينَ ޢާލަމްތަކުގެ
+
+**3.** الرَّحْمَٰنِ الرَّحِيمِ ރަޙްމާންވަންތަ ރަޙީމްވަންތަ
+
+**4.** مَالِكِ ވެރި · يَوْمِ ދުވަހުގެ · الدِّينِ ޖަޒާދެއްވުމުގެ
+
+**5.** إِيَّاكَ ހަމައެކަނި އިބަރަސްކަލާނގެއަށް · نَعْبُدُ އަޅަމެން އަޅުކަންކުރަމެވެ · وَإِيَّاكَ އަދި ހަމައެކަނި އިބަރަސްކަލާނގެ ޙަޟްރަތުން · نَسْتَعِينُ އަޅަމެން އެހީއަށް އެދެމެވެ
+
+**6.** اهْدِنَا އަޅަމެންނަށް ދައްކަވާނދޭވެ · الصِّرَاطَ މަގު · الْمُسْتَقِيمَ ސީދާ
+
+**7.** صِرَاطَ މަގު · الَّذِينَ އެ މީހުންގެ · أَنْعَمْتَ އިބަރަސްކަލާނގެ ނިޢުމަތް ދެއްވި · عَلَيْهِمْ އެމީހުންގެ މައްޗަށް · غَيْرِ ނޫން · الْمَغْضُوبِ ކޯފާ ލިބިގެންވާ · عَلَيْهِمْ އެމީހުންގެ މައްޗަށް · وَلَا އަދި ނޫން · الضَّالِّينَ މަގުފުރެދިފައިވާ މީހުން
+
+**ފާހަގަކުރާށެވެ**
+
+- رَحْمَٰن އާއި رَحِيم ނުކުންނަނީ އެއް އަސްލަކުންނެވެ: ر ح م، ރަޙްމަތް.
+- نَعْبُدُ: ފެށުމުގައިވާ نَـ ގެ މާނައަކީ "އަހަރެމެން". عَبْد އަކީ އަޅެކެވެ. ޢިބާދަތަކީ އަޅުކަމެވެ.
+- اهْدِنَا: ނިމުމުގައިވާ ـنَا ގެ މާނައަކީ "އަހަރެމެންނަށް". ހިދާޔަތަކީ ތެދުމަގެވެ.
+
+@@ arabic-06-prayer-words
+title_en: Lesson 6: what you say in the prayer
+title_dv: ފިލާވަޅު 6: ނަމާދުގައި ކިޔާ ބަސްތައް
+--- en
+- اللَّهُ أَكْبَرُ *Allahu akbar*: Allah is greater. *Akbar* is from *kabir*, great.
+- سُبْحَانَ رَبِّيَ الْعَظِيمِ *Subhana Rabbiyal-'Azim*: glory to my Lord, the Magnificent. *Subhana* = how far above any fault. *Rabbi* = my Lord. *'Azim* = tremendous.
+- سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ *Sami'allahu liman hamidah*: Allah hears whoever praises Him. *Sami'a* = he heard. *li-man* = for whoever. *hamida-hu* = praised Him.
+- رَبَّنَا وَلَكَ الْحَمْدُ *Rabbana wa lakal-hamd*: our Lord, and Yours is the praise. *la-ka* = for You.
+- سُبْحَانَ رَبِّيَ الْأَعْلَى *Subhana Rabbiyal-A'la*: glory to my Lord, the Most High. *A'la* is from *'ali*, high. You say "the Most High" when you are at your lowest, forehead on the ground.
+- رَبِّ اغْفِرْ لِي *Rabbighfir li*: my Lord, forgive me. *li* = for me.
+- التَّحِيَّاتُ لِلَّهِ *At-tahiyyatu lillah*: all greetings belong to Allah.
+- السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ *As-salamu 'alayka ayyuhan-Nabiyy*: peace be upon you, O Prophet. *'alay-ka* = upon you.
+- أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ *Ashhadu an la ilaha illallah*: I bear witness that there is no god except Allah. *la* = no. *ilah* = god. *illa* = except.
+- السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ *As-salamu 'alaykum wa rahmatullah*: peace be upon you all, and the mercy of Allah. *'alay-kum* = upon you (plural).
+
+Next time you pray, pick one of these and think of its meaning as you say it. Add another next week.
+--- dv
+- اللَّهُ أَكْبَرُ: ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ. "އަކްބަރު" ނުކުންނަނީ "ކަބީރު" (ބޮޑު) އިންނެވެ.
+- سُبْحَانَ رَبِّيَ الْعَظِيمِ: މަތިވެރިވަންތަ އަހަރެންގެ ރައްބު ހުސްޠާހިރުވަންތައެވެ. "ރައްބީ" = އަހަރެންގެ ރައްބު. "ޢަޡީމް" = މަތިވެރި.
+- سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ: އެކަލާނގެއަށް ޙަމްދުކުރާ މީހާގެ ޙަމްދު ﷲ އައްސަވައެވެ. "ސަމިޢަ" = އައްސެވިއެވެ. "ލިމަން" = އެ މީހަކަށް. "ޙަމިދަހޫ" = އެކަލާނގެއަށް ޙަމްދުކުރި.
+- رَبَّنَا وَلَكَ الْحَمْدُ: އަޅަމެންގެ ރައްބެވެ! ޙަމްދު ހުރީ އިބަރަސްކަލާނގެއަށެވެ. "ލަކަ" = އިބަރަސްކަލާނގެއަށް.
+- سُبْحَانَ رَبِّيَ الْأَعْلَى: އެންމެ މަތިވެރިވަންތަ އަހަރެންގެ ރައްބު ހުސްޠާހިރުވަންތައެވެ. ނިތް ބިމުގައި ޖައްސައި އެންމެ ތިރީގައި އޮންނައިރު ތިބާ "އެންމެ މަތިވެރި" ކިޔައެވެ.
+- رَبِّ اغْفِرْ لِي: އަހަރެންގެ ރައްބެވެ! އަޅުގަނޑަށް ފުއްސަވާނދޭވެ. "ލީ" = އަހަންނަށް.
+- التَّحِيَّاتُ لِلَّهِ: ހުރިހާ ތަޙިއްޔަތެއް ﷲ އަށެވެ.
+- السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ: އޭ ނަބިއްޔާއެވެ! ކަލޭގެފާނުގެ މައްޗަށް ސަލާމް ހުއްޓެވެ. "ޢަލައިކަ" = ކަލޭގެފާނުގެ މައްޗަށް.
+- أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ: ﷲ ފިޔަވައި އެހެން އިލާހަކު ނުވާކަމަށް އަހަރެން ހެކިވަމެވެ. "ލާ" = ނެތް. "އިލާހު" = އިލާހެއް. "އިއްލާ" = ފިޔަވައި.
+- السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ: ތިޔަބައިމީހުންގެ މައްޗަށް ސަލާމާއި ﷲ ގެ ރަޙްމަތް ހުއްޓެވެ.
+
+އަންނަ ނަމާދުގައި މީގެތެރެއިން އެއް ބަހެއް ހޮވައި، ކިޔާއިރު އޭގެ މާނައާމެދު ވިސްނާށެވެ. އަންނަ ހަފްތާގައި އިތުރު ބަހެއް ހޮވާށެވެ.
+
+@@ arabic-07-roots
+title_en: Lesson 7: roots, the secret of Arabic words
+title_dv: ފިލާވަޅު 7: އަސްލު، ޢަރަބި ބަސްތަކުގެ ސިއްރު
+--- en
+Almost every Arabic word is built on a **root of three letters** that carries a meaning. Vowels and extra letters around the root make the family of words.
+
+**ك ت ب (k-t-b): writing**
+
+- كَتَبَ *kataba*, he wrote
+- كِتَاب *kitab*, a book
+- كَاتِب *katib*, a writer
+- مَكْتُوب *maktub*, written
+- مَكْتَبَة *maktabah*, a library
+
+**ع ل م ('-l-m): knowing**
+
+- عَلِمَ *'alima*, he knew
+- عِلْم *'ilm*, knowledge
+- عَالِم *'alim*, a scholar
+- عَلِيم *'Alim*, All-Knowing
+- مُعَلِّم *mu'allim*, a teacher
+
+**ر ح م (r-h-m): mercy**
+
+- رَحْمَة *rahmah*, mercy
+- رَحِيم *Rahim*, Merciful
+- رَحْمَٰن *Rahman*, Entirely Merciful
+- يَرْحَمُ *yarhamu*, he has mercy
+
+**س ل م (s-l-m): peace, safety, surrender**
+
+- سَلَام *salam*, peace
+- إِسْلَام *Islam*, surrender to Allah
+- مُسْلِم *Muslim*, one who surrenders
+- سَلِيم *salim*, sound
+
+**Patterns to recognise**
+
+- **فَاعِل** = the doer: كَاتِب writer, عَابِد worshipper, صَابِر patient one.
+- **مَفْعُول** = the thing done: مَكْتُوب written, مَعْلُوم known.
+- A **مُـ** at the start often means "one who...": مُؤْمِن believer, مُسْلِم, مُحْسِن doer of good.
+- **ـُونَ / ـِينَ** at the end = masculine plural: مُؤْمِنُونَ believers. **ـَات** = feminine plural: مُؤْمِنَات.
+
+Dhivehi has borrowed hundreds of these words: ކިތާބު، ޢިލްމު، ރަޙްމަތް، ސަލާމް. You know more Arabic than you think.
+--- dv
+ގާތްގަނޑަކަށް ކޮންމެ ޢަރަބި ބަހެއް ބިނާވެފައިވަނީ މާނައެއް އުފުލާ **ތިން އަކުރުގެ އަސްލެއް**ގެ މައްޗަށެވެ. އަސްލުގެ ވަށައިގެން ފިއްޔާއި އިތުރު އަކުރު ލައިގެން ބަސްތަކުގެ ޢާއިލާއެއް އުފެދެއެވެ.
+
+**ك ت ب: ލިޔުން**
+
+- كَتَبَ ލިޔުނެވެ
+- كِتَاب ފޮތެއް
+- كَاتِب ލިޔުންތެރިއެއް
+- مَكْتُوب ލިޔެވިފައިވާ
+- مَكْتَبَة ކުތުބުޚާނާއެއް
+
+**ع ل م: ދެނެގަތުން**
+
+- عَلِمَ ދެނެގަތެވެ
+- عِلْم ޢިލްމު
+- عَالِم ޢިލްމުވެރިއެއް
+- عَلِيم ދެނެވޮޑިގެންވާ
+- مُعَلِّم މުދައްރިސެއް
+
+**ر ح م: ރަޙްމަތް**
+
+- رَحْمَة ރަޙްމަތް
+- رَحِيم ރަޙީމްވަންތަ
+- رَحْمَٰن ރަޙްމާންވަންތަ
+
+**س ل م: ސަލާމަތާއި ކިޔަމަންތެރިކަން**
+
+- سَلَام ސަލާމް
+- إِسْلَام ﷲ އަށް ކިޔަމަންވުން
+- مُسْلِم ކިޔަމަންވާ މީހާ
+
+**ދަސްކުރަންވީ ބައްޓަންތައް**
+
+- **فَاعِل** = ކަން ކުރާ މީހާ: كَاتِب، عَابِد، صَابِر.
+- **مَفْعُول** = ކުރެވުނު ކަން: مَكْتُوب، مَعْلُوم.
+- ފެށުމުގައިވާ **مُـ** = "ކުރާ މީހާ": مُؤْمِن، مُسْلِم، مُحْسِن.
+- ނިމުމުގައިވާ **ـُونَ / ـِينَ** = ފިރިހެން ޖަމްޢު: مُؤْمِنُونَ. **ـَات** = އަންހެން ޖަމްޢު: مُؤْمِنَات.
+
+ދިވެހި ބަހުގައި މި ފަދަ ސަތޭކަ ބައިވަރު ބަސް ވެއެވެ: ކިތާބު، ޢިލްމު، ރަޙްމަތް، ސަލާމް. ތިބާއަށް ހީވާ ވަރަށްވުރެ ގިނައިން ޢަރަބި އެނގެއެވެ.
+
+@@ arabic-08-numbers-phrases
+title_en: Lesson 8: numbers and everyday phrases
+title_dv: ފިލާވަޅު 8: އަދަދުތަކާއި ކޮންމެ ދުވަހަކު ބޭނުންކުރާ ޢިބާރާތްތައް
+--- en
+**Numbers one to ten**
+
+- ١ وَاحِد *wahid*, one
+- ٢ اِثْنَان *ithnan*, two
+- ٣ ثَلَاثَة *thalathah*, three
+- ٤ أَرْبَعَة *arba'ah*, four
+- ٥ خَمْسَة *khamsah*, five
+- ٦ سِتَّة *sittah*, six
+- ٧ سَبْعَة *sab'ah*, seven
+- ٨ ثَمَانِيَة *thamaniyah*, eight
+- ٩ تِسْعَة *tis'ah*, nine
+- ١٠ عَشَرَة *'asharah*, ten
+
+**Phrases every Muslim uses, and what they really say**
+
+- بِسْمِ اللَّهِ *Bismillah*: in the name of Allah
+- الْحَمْدُ لِلَّهِ *Alhamdulillah*: all praise belongs to Allah
+- سُبْحَانَ اللَّهِ *Subhanallah*: Allah is far above any fault
+- إِنْ شَاءَ اللَّهُ *In sha' Allah*: if Allah wills. *in* = if, *sha'a* = He willed
+- مَا شَاءَ اللَّهُ *Ma sha' Allah*: what Allah has willed. *ma* = what
+- جَزَاكَ اللَّهُ خَيْرًا *Jazakallahu khayran*: may Allah reward you with good. To a woman: *jazakillahu*. To several: *jazakumullahu*
+- بَارَكَ اللَّهُ فِيكَ *Barakallahu fik*: may Allah bless you
+- أَسْتَغْفِرُ اللَّهَ *Astaghfirullah*: I ask Allah to forgive me
+- لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ *La hawla wa la quwwata illa billah*: there is no change and no strength except through Allah
+- إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ *Inna lillahi wa inna ilayhi raji'un*: we belong to Allah and to Him we return
+- السَّلَامُ عَلَيْكُمْ *As-salamu 'alaykum*: peace be upon you. Reply: وَعَلَيْكُمُ السَّلَامُ *wa 'alaykumus-salam*
+
+**Where to go next.** Use the word practice in this app daily for five minutes, read the word-by-word notes with Surah Al-Fatihah, then try the last ten surahs of the Quran with the translation open. A few hundred words make up most of the Quran, and they repeat constantly.
+--- dv
+**އެކަކުން ދިހައަކަށް**
+
+- ١ وَاحِد ވާޙިދު، އެކެއް
+- ٢ اِثْنَان އިޘްނާން، ދޭއް
+- ٣ ثَلَاثَة ޘަލާޘާ، ތިނެއް
+- ٤ أَرْبَعَة އަރްބަޢާ، ހަތަރެއް
+- ٥ خَمْسَة ޚަމްސާ، ފަހެއް
+- ٦ سِتَّة ސިއްތާ، ހައެއް
+- ٧ سَبْعَة ސަބްޢާ، ހަތެއް
+- ٨ ثَمَانِيَة ޘަމާނިޔާ، އަށެއް
+- ٩ تِسْعَة ތިސްޢާ، ނުވައެއް
+- ١٠ عَشَرَة ޢަޝަރާ، ދިހައެއް
+
+**ކޮންމެ މުސްލިމަކު ބޭނުންކުރާ ޢިބާރާތްތަކާއި އޭގެ އަސްލު މާނަ**
+
+- بِسْمِ اللَّهِ: ﷲ ގެ ނަންފުޅުން
+- الْحَمْدُ لِلَّهِ: ހުރިހާ ޙަމްދެއް ﷲ އަށެވެ
+- سُبْحَانَ اللَّهِ: ﷲ ހުސްޠާހިރުވަންތައެވެ
+- إِنْ شَاءَ اللَّهُ: ﷲ އިރާދަކުރެއްވިއްޔާ. "އިން" = ނަމަ، "ޝާއަ" = އިރާދަކުރެއްވި
+- مَا شَاءَ اللَّهُ: ﷲ އިރާދަކުރެއްވި ގޮތް
+- جَزَاكَ اللَّهُ خَيْرًا: ﷲ ތިބާއަށް ހެޔޮ ޖަޒާ ދެއްވާށިއެވެ
+- بَارَكَ اللَّهُ فِيكَ: ﷲ ތިބާއަށް ބަރަކާތް ލައްވާށިއެވެ
+- أَسْتَغْفِرُ اللَّهَ: ﷲ ގެ ޙަޟްރަތުން ފާފަފުއްސެވުމަށް އެދެމެވެ
+- لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ: ﷲ ގެ ޙަޟްރަތުން މެނުވީ ބަދަލުވުމެއް، ބާރެއް ނުވެއެވެ
+- إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ: އަހަރެމެންނަކީ ﷲ ގެ މިލްކެވެ. އަހަރެމެން އެނބުރި ދާހުށީ އެކަލާނގެ ޙަޟްރަތަށެވެ
+- السَّلَامُ عَلَيْكُمْ: ތިޔަބައިމީހުންގެ މައްޗަށް ސަލާމް ހުއްޓެވެ. ޖަވާބު: وَعَلَيْكُمُ السَّلَامُ
+
+**ދެން ކުރާނެ ކަންތައް.** މި އެޕްގެ ބަސް ފަރިތަކުރުން ކޮންމެ ދުވަހަކު ފަސް މިނެޓު ބޭނުންކުރާށެވެ. އެއަށްފަހު ތަރުޖަމާ ހުޅުވައިގެން ޤުރުއާނުގެ ފަހު ދިހަ ސޫރަތް ކިޔަވާށެވެ. ޤުރުއާނުގެ ބޮޑު ބައެއް އުފެދިފައިވަނީ ސަތޭކަ ދެތިން ބަހަކުންނެވެ. އެ ބަސްތައް ތަކުރާރުވެއެވެ.

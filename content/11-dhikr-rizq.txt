@@ -1,0 +1,201 @@
+%% dhikr-tongue | duas | Words to keep on the tongue | ދުލުގައި ހިފަހައްޓަންވީ ޛިކުރުތައް | Short remembrances to repeat through the day. Open one and tap "Count" to keep a tally. | ދުވަހުގެ ތެރޭގައި ތަކުރާރުކުރާ ކުރު ޛިކުރުތައް. ގުނުމަށް "ގުނާ" ފިއްތާ. | dua
+
+@@ dhikr-subhanallah-azim
+title_en: Two words light on the tongue
+title_dv: ދުލަށް ލުއި ދެ ކަލިމަ
+arabic: سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ
+translit: Subhanallahi wa bihamdih, subhanallahil-'azim
+ref: Bukhari 6406; Muslim 2694
+--- en
+Glory be to Allah and praise be to Him; glory be to Allah, the Magnificent.
+
+"Two words that are light on the tongue, heavy on the Scale and beloved to the Most Merciful."
+--- dv
+ﷲ ހުސްޠާހިރުވަންތައެވެ. އަދި އެކަލާނގެއަށް ޙަމްދުކުރަމެވެ. މަތިވެރިވަންތަ ﷲ ހުސްޠާހިރުވަންތައެވެ.
+
+"ދުލަށް ލުއި، މީޒާނުގައި ބަރު، ރަޙްމާންވަންތަ ރަސްކަލާނގެ ލޯބިކުރައްވާ ދެ ކަލިމައެވެ."
+
+@@ dhikr-la-hawla
+title_en: A treasure of Paradise
+title_dv: ސުވަރުގޭގެ ޚަޒާނާއެއް
+arabic: لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ
+translit: La hawla wa la quwwata illa billah
+ref: Bukhari 6384; Muslim 2704
+--- en
+There is no power and no strength except with Allah.
+
+The Prophet ﷺ called it "one of the treasures of Paradise".
+--- dv
+ﷲ ގެ ޙަޟްރަތުން މެނުވީ އެއްވެސް ބާރެއް ކުޅަދާނަކަމެއް ނުވެއެވެ.
+
+ނަބިއްޔާ ﷺ މިއަށް "ސުވަރުގޭގެ ޚަޒާނާތަކުގެ ތެރެއިން ޚަޒާނާއެއް" ކަމަށް ވިދާޅުވިއެވެ.
+
+@@ dhikr-istighfar
+title_en: Seeking forgiveness
+title_dv: އިސްތިޣްފާރުކުރުން
+arabic: أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ
+translit: Astaghfirullaha wa atubu ilayh
+ref: Bukhari 6307
+--- en
+I ask Allah for forgiveness and I turn to Him in repentance.
+
+The Prophet ﷺ said this more than seventy times a day. The Quran ties seeking forgiveness to rain, wealth and children (71:10-12).
+--- dv
+ﷲ ގެ ޙަޟްރަތުން ފުއްސެވުމަށް އެދި، އެކަލާނގެ ޙަޟްރަތަށް ތައުބާވަމެވެ.
+
+ނަބިއްޔާ ﷺ ދުވާލަކު ހަތްދިހަ ފަހަރަށްވުރެ ގިނައިން މިހެން ވިދާޅުވިއެވެ. ޤުރުއާނުގައި އިސްތިޣްފާރުކުރުން ވާރޭއާއި، މުދަލާއި، ދަރިންނާ ގުޅުވާފައިވެއެވެ (71:10-12).
+
+@@ dhikr-salawat
+title_en: Blessings on the Prophet ﷺ
+title_dv: ނަބިއްޔާ ﷺ އަށް ޞަލަވާތް ކިޔުން
+arabic: اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ
+translit: Allahumma salli wa sallim 'ala nabiyyina Muhammad
+ref: Quran 33:56; Muslim 408
+--- en
+O Allah, send blessings and peace upon our Prophet Muhammad.
+
+"Whoever sends blessings on me once, Allah sends blessings on him ten times."
+--- dv
+އޭ ﷲ! އަޅަމެންގެ ނަބިއްޔާ މުޙައްމަދުގެފާނަށް ޞަލަވާތާއި ސަލާމް ލައްވާނދޭވެ.
+
+"ތިމަންކަލޭގެފާނަށް އެއްފަހަރު ޞަލަވާތް ކިޔާ މީހާއަށް ﷲ ދިހަ ފަހަރު ޞަލަވާތް ލައްވައެވެ."
+
+@@ dhikr-tahlil-100
+title_en: La ilaha illallah, one hundred times
+title_dv: ތަހްލީލު، ސަތޭކަ ފަހަރު
+arabic: لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ
+translit: La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu wa huwa 'ala kulli shay'in qadir
+ref: Bukhari 3293; Muslim 2691
+--- en
+There is no god but Allah, alone, with no partner. His is the dominion and His is the praise, and He has power over all things.
+
+Whoever says it a hundred times in a day has the reward of freeing ten slaves, a hundred good deeds written, a hundred sins erased, and protection from Satan until evening.
+--- dv
+ﷲ ފިޔަވައި އެހެން އިލާހަކު ނުވެއެވެ. އެކަލާނގެއީ ބައިވެރިއަކު ނުވާ އެއްކައުވަންތަ އިލާހެވެ. ވެރިކަމާއި ޙަމްދު ހުރީ އެކަލާނގެއަށެވެ. އެކަލާނގެއީ ކޮންމެ ކަމެއްގެ މައްޗަށް ކުޅަދުންވަންތަ ރަސްކަލާނގެއެވެ.
+
+ދުވާލަކު ސަތޭކަ ފަހަރު މިހެން ކިޔާ މީހާއަށް ދިހަ އަޅުން މިނިވަންކުރުމުގެ ސަވާބާއި، ސަތޭކަ ހެޔޮކަން ލިބި، ސަތޭކަ ފާފަ ފުހެވި، ހަވީރުވަންދެން ޝައިޠާނާގެ ކިބައިން ރައްކާތެރިކަން ލިބެއެވެ.
+
+@@ dhikr-four-words
+title_en: The four words most beloved to Allah
+title_dv: ﷲ އެންމެ ލޯބިކުރައްވާ ހަތަރު ކަލިމަ
+arabic: سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَهَ إِلَّا اللَّهُ، وَاللَّهُ أَكْبَرُ
+translit: Subhanallah, wal-hamdu lillah, wa la ilaha illallah, wallahu akbar
+ref: Muslim 2137, 2695
+--- en
+Glory be to Allah, praise be to Allah, there is no god but Allah, and Allah is the Greatest.
+
+"To say these is dearer to me than everything the sun rises upon."
+--- dv
+ﷲ ހުސްޠާހިރުވަންތައެވެ. ޙަމްދު ހުރީ ﷲ އަށެވެ. ﷲ ފިޔަވައި އެހެން އިލާހަކު ނުވެއެވެ. ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ.
+
+"މި ކަލިމަތައް ކިޔުން، އިރު އަރާ ހުރިހާ އެއްޗަކަށްވުރެ ތިމަންކަލޭގެފާނަށް ލޮބުވެތިވެގެންވެއެވެ."
+
+@@ dhikr-hasbunallah
+title_en: Allah is enough for us
+title_dv: ޙަސްބުނަﷲ
+arabic: حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ
+translit: Hasbunallahu wa ni'mal-wakil
+audio: q:3:173
+ref: Quran 3:173; Bukhari 4563
+--- en
+Allah is sufficient for us, and He is the best to rely on.
+
+Ibrahim said it when he was thrown into the fire, and the Prophet ﷺ and his Companions said it when told an army had gathered against them. The recitation plays the whole ayah.
+--- dv
+އަޅަމެންނަށް ﷲ ފުދެއެވެ. އެކަލާނގެއީ ވަކީލުކުރުން އެންމެ ރަނގަޅު ފަރާތެވެ.
+
+އަލިފާނަށް އެއްލެވުނުއިރު އިބްރާހީމްގެފާނު މިހެން ވިދާޅުވިއެވެ.
+
+@@ dhikr-ya-hayyu
+title_en: O Ever-Living, O Sustainer
+title_dv: ޔާ ޙައްޔު ޔާ ޤައްޔޫމު
+arabic: يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ
+translit: Ya Hayyu ya Qayyum, birahmatika astaghith
+ref: Tirmidhi 3524
+--- en
+O Ever-Living, O Sustainer of all, by Your mercy I seek help.
+
+The Prophet ﷺ said this when something distressed him.
+--- dv
+އޭ ދިރިވޮޑިގެންވާ، ހުރިހާ ކަމެއް ބަލަހައްޓަވާ ރަސްކަލާނގެއެވެ! އިބަރަސްކަލާނގެ ރަޙްމަތްފުޅުގެ ވަސީލަތުން އަހުރެން އެހީއަށް އެދެމެވެ.
+
+ކަމަކާ ހާސްވެވަޑައިގަންނަވާއިރު ނަބިއްޔާ ﷺ މިހެން ވިދާޅުވިއެވެ.
+
+%% dua-rizq | duas | Provision, ease and need | ރިޒުޤާއި، ފަސޭހަކަމާއި، ބޭނުން | Ayahs and duas people read when asking Allah for provision, with a note on which have a sound basis. | ރިޒުޤަށް އެދި ކިޔަވާ އާޔަތްތަކާއި ދުޢާތައް، ސާބިތުވާ މިންވަރުގެ ނޯޓަކާއެކު. | dua
+
+@@ rizq-note
+title_en: Read this first: what is established
+title_dv: ފުރަތަމަ މި ކިޔާލައްވާ: ސާބިތުވެފައިވާ ކަންތައްތައް
+--- en
+Provision comes from Allah alone. The Quran and authentic Sunnah name the things that bring it: mindfulness of Allah (65:2-3), seeking forgiveness (71:10-12), gratitude (14:7), keeping ties with relatives, charity, and dua.
+
+Many popular practices assign a fixed ayah, number or time "for wealth". Treat them with care:
+
+- **Surah Al-Waqi'ah every night against poverty.** Scholars differ: some hadith specialists grade the report very weak, others accept it for virtues. Reciting the surah is always good; the promise is not certain.
+- **"Innahu min Sulayman…" (27:30) for wealth.** This is an ayah of the Quran, the opening of Sulayman's letter. No authentic hadith ties it to wealth or sets a number of repetitions.
+- **The "Ya Wadud" dua.** It comes from the story of a merchant saved from a robber. Some scholars accept the report and others judge its chain weak. Its words are sound and you may call on Allah with them, without treating it as a Sunnah formula.
+
+Any ayah may be recited and any good dua made, in any number. What is not right is believing a fixed number guarantees a result when the Prophet ﷺ did not teach it. Ask Allah, take the lawful means, and trust Him.
+--- dv
+ރިޒުޤު ލިބެނީ ހަމައެކަނި ﷲ ގެ ޙަޟްރަތުންނެވެ. ރިޒުޤު ތަނަވަސްވާ ސަބަބުތައް ޤުރުއާނާއި ޞައްޙަ ސުންނަތުގައި ބަޔާންވެފައިވެއެވެ: ތަޤްވާވެރިކަން (65:2-3)، އިސްތިޣްފާރުކުރުން (71:10-12)، ޝުކުރުކުރުން (14:7)، ރަޙިމްގެ ގުޅުން ގުޅުވުން، ޞަދަޤާތްކުރުން، އަދި ދުޢާކުރުން.
+
+"މުއްސަނދިކަމަށް" ވަކި އާޔަތެއް، ޢަދަދެއް ނުވަތަ ވަގުތެއް ކަނޑައަޅާ މަޝްހޫރު ޢަމަލުތަކާމެދު ސަމާލުވާށެވެ:
+
+- **ކޮންމެ ރެއަކު ވާޤިޢާ ސޫރަތް.** ޢިލްމުވެރިން ޚިލާފުވެއެވެ. ބައެއް މުޙައްދިޘުން އެ ރިވާޔަތަކީ ވަރަށް ޟަޢީފު ރިވާޔަތެއް ކަމަށް ވިދާޅުވެއެވެ. ސޫރަތް ކިޔެވުމަކީ އަބަދުވެސް ހެޔޮ ކަމެކެވެ.
+- **"އިންނަހޫ މިން ސުލައިމާން…" (27:30).** މިއީ ޤުރުއާނުގެ އާޔަތެކެވެ. މުއްސަނދިކަމާ ގުޅުވާ ޞައްޙަ ޙަދީޘެއް ނުވެއެވެ.
+- **"ޔާ ވަދޫދު" ދުޢާ.** ވަގެއްގެ ކިބައިން ސަލާމަތްވި ވިޔަފާރިވެރިއެއްގެ ވާހަކައިން ރިވާވެފައިވެއެވެ. އޭގެ ސަނަދާމެދު ޢިލްމުވެރިން ޚިލާފުވެއެވެ. ބަސްތަކުގެ މާނަ ރަނގަޅެވެ. ސުންނަތެއްކަމަށް ނުބަލައި މި ދުޢާ ކުރެވިދާނެއެވެ.
+
+ކޮންމެ އާޔަތެއް ކިޔެވުމާއި ކޮންމެ ހެޔޮ ދުޢާއެއް ކުރުން ހުއްދައެވެ. ނަބިއްޔާ ﷺ ދަސްކޮށްނުދެއްވާ ޢަދަދަކުން ނަތީޖާއެއް ޔަޤީންވާކަމަށް ޤަބޫލުކުރުން ރަނގަޅެއް ނޫނެވެ.
+
+@q 71:10-12 | Seek forgiveness and Allah sends abundance | އިސްތިޣްފާރާއި ރިޒުޤު
+@q 65:2-3 | A way out, and provision from where you do not expect | ހީވެސް ނުކުރާ ގޮތަކުން ރިޒުޤު
+@q 14:7 | If you are grateful, I will give you more | ޝުކުރުކުރުމުން އިތުރުކޮށްދެއްވުން
+@q 11:6 | Every creature's provision is with Allah | ކޮންމެ ދިރުމެއްގެ ރިޒުޤު ﷲ ގެ ޙަޟްރަތުގައި
+@q 3:26-27 | Owner of all dominion | ވެރިކަމުގެ ވެރި ރަސްކަލާނގެ
+@q 27:30 | Innahu min Sulayman, the opening of Sulayman's letter | އިންނަހޫ މިން ސުލައިމާން
+@q 62:10 | Seek Allah's bounty and remember Him often | ﷲ ގެ ފަޟްލު ހޯދުން
+
+@@ rizq-halal-suffice
+title_en: Suffice me with the lawful
+title_dv: ޙަލާލުން ފުއްދަވައިދެއްވުމަށް
+arabic: اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ
+translit: Allahummak-fini bihalalika 'an haramik, wa aghnini bifadlika 'amman siwak
+ref: Tirmidhi 3563
+--- en
+O Allah, suffice me with what You have made lawful against what You have made unlawful, and make me independent, by Your bounty, of all besides You.
+
+'Ali taught this to a man burdened by debt and said that even a debt like a mountain would be paid.
+--- dv
+އޭ ﷲ! އިބަރަސްކަލާނގެ ޙަރާމްކުރެއްވި ތަކެތިން ދުރުކޮށް، ޙަލާލުކުރެއްވި ތަކެތިން އަހުރެންނަށް ފުއްދަވައިދެއްވާނދޭވެ. އަދި އިބަރަސްކަލާނގެ ފަޟްލުން، އިބަރަސްކަލާނގެ ފިޔަވައި އެހެން ފަރާތްތަކަށް ބޭނުންނުޖެހޭ މީހަކު ކަމުގައި އަހުރެން ލައްވާނދޭވެ.
+
+ދަރަންޏެއްގެ ބުރަ އުފުލަމުން ދިޔަ މީހަކަށް ޢަލީގެފާނު މި ދުޢާ ދަސްކޮށްދެއްވިއެވެ.
+
+@@ rizq-knowledge-provision
+title_en: Useful knowledge, good provision, accepted deeds
+title_dv: ފައިދާހުރި ޢިލްމާއި، ރަނގަޅު ރިޒުޤާއި، ޤަބޫލުވާ ޢަމަލު
+arabic: اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا
+translit: Allahumma inni as'aluka 'ilman nafi'a, wa rizqan tayyiba, wa 'amalan mutaqabbala
+ref: Ibn Majah 925
+--- en
+O Allah, I ask You for knowledge that benefits, provision that is good and deeds that are accepted.
+
+The Prophet ﷺ said this after the Fajr prayer.
+--- dv
+އޭ ﷲ! ފައިދާހުރި ޢިލްމަކާއި، ޠާހިރު ރިޒުޤަކާއި، ޤަބޫލުވާ ޢަމަލަކަށް އެދި އަހުރެން އިބަރަސްކަލާނގެ ޙަޟްރަތުން ދަންނަވަމެވެ.
+
+ނަބިއްޔާ ﷺ ފަތިސް ނަމާދަށްފަހު މި ދުޢާ ކުރެއްވިއެވެ.
+
+@@ rizq-ya-wadud
+title_en: The "Ya Wadud" dua
+title_dv: "ޔާ ވަދޫދު" ދުޢާ
+arabic: يَا وَدُودُ، يَا ذَا الْعَرْشِ الْمَجِيدِ، يَا فَعَّالًا لِمَا يُرِيدُ، أَسْأَلُكَ بِعِزِّكَ الَّذِي لَا يُرَامُ، وَمُلْكِكَ الَّذِي لَا يُضَامُ، وَبِنُورِكَ الَّذِي مَلَأَ أَرْكَانَ عَرْشِكَ، يَا مُغِيثُ أَغِثْنِي
+translit: Ya Wadud, ya dhal-'arshil-majid, ya fa''alan lima yurid. As'aluka bi'izzikal-ladhi la yuram, wa mulkikal-ladhi la yudam, wa binurikal-ladhi mala'a arkana 'arshik. Ya Mughithu aghithni.
+ref: Reported by Ibn Abi ad-Dunya in the story of Abu Mi'laq; scholars differ on its chain. The original also asks for protection from the robber.
+--- en
+O Most Loving, O Owner of the glorious Throne, O Doer of whatever He wills. I ask You by Your might that cannot be overcome, Your dominion that cannot be wronged, and Your light that fills the pillars of Your Throne. O Helper, help me.
+
+Have this wording checked against a printed source before relying on it; see the note at the top of this section.
+--- dv
+އޭ ލޯބިވެތި ރަސްކަލާނގެއެވެ! އޭ މަތިވެރި ޢަރްޝީގެ ވެރި ރަސްކަލާނގެއެވެ! އޭ އިރާދަކުރައްވާ ކޮންމެ ކަމެއް ކުރައްވާ ރަސްކަލާނގެއެވެ! އިބަރަސްކަލާނގެ ޢިއްޒަތްފުޅާއި، ވެރިކަންފުޅާއި، ޢަރްޝީގެ ރުކުންތައް ފުރާލާފައިވާ ނޫރުފުޅުގެ ވަސީލަތުން އަހުރެން ދަންނަވަމެވެ. އޭ އެހީތެރިވެވޮޑިގަންނަވާ ރަސްކަލާނގެއެވެ! އަހުރެންނަށް އެހީތެރިވެދެއްވާނދޭވެ.
+
+މި ދުޢާގެ ޢިބާރާތް ޗާޕުކޮށްފައިވާ ފޮތަކާ އަޅާބައްލަވާށެވެ.

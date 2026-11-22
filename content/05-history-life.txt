@@ -1,0 +1,719 @@
+%% seerah | history | The life of the Prophet ﷺ | ނަބިއްޔާ ﷺ ގެ ސީރަތު | From Makkah before Islam to the farewell pilgrimage. | އިސްލާމްދީނުގެ ކުރީގެ މައްކާއިން ފެށިގެން ޙައްޖަތުލް ވަދާޢާ ހަމައަށް.
+
+@@ seerah-early-life
+title_en: Birth and early life
+title_dv: އުފަންވެވަޑައިގަތުމާއި ކުޑައިރުގެ ޙަޔާތް
+--- en
+Muhammad ﷺ was born in Makkah around 570 CE, the Year of the Elephant, into the clan of Hashim of the tribe of Quraysh. Makkah was a trading town built around the Ka'bah, the house Ibrahim and Isma'il had raised for the worship of Allah alone, which by then was surrounded by idols.
+
+His father **'Abdullah** died before he was born. As was the custom, he was nursed in the desert by **Halimah** of Banu Sa'd. His mother **Aminah** died when he was six. His grandfather **'Abd al-Muttalib** cared for him for two years, and then his uncle **Abu Talib**, who protected him for the rest of his own life.
+
+He worked as a shepherd and then in the caravan trade, and became known in Makkah as *al-Amin*, the Trustworthy. At twenty-five he married **Khadijah**, a respected merchant who had employed him. They had six children: al-Qasim, Zaynab, Ruqayyah, Umm Kulthum, Fatimah and 'Abdullah.
+
+When he was thirty-five the Quraysh rebuilt the Ka'bah and quarrelled over who would set the Black Stone in place. He settled it by having each clan hold the edge of a cloth carrying the stone, and then placed it himself.
+
+He never worshipped idols. As he neared forty he began to withdraw to the cave of Hira on a mountain outside Makkah to worship and reflect.
+--- dv
+މުޙައްމަދުގެފާނު ﷺ އުފަންވެވަޑައިގަތީ މީލާދީން 570 ހާއިރު، އެތުގެ އަހަރު، މައްކާގައި، ޤުރައިޝު ވަންހައިގެ ހާޝިމު ދަރިކޮޅަށެވެ. މައްކާއަކީ ކަޢުބާގެފާނުގެ ވަށައިގެން ބިނާވެފައިވާ ވިޔަފާރީގެ ރަށެކެވެ. ހަމައެކަނި ﷲ އަށް އަޅުކަންކުރުމަށް އިބްރާހީމްގެފާނާއި އިސްމާޢީލްގެފާނު ބިނާކުރެއްވި އެ ގެފުޅުގެ ވަށައިގެން އޭރު ބުދުތައް ހުއްޓެވެ.
+
+ބައްޕާފުޅު **ޢަބްދުﷲ** އަވަހާރަވީ އުފަންވެވަޑައިގަތުމުގެ ކުރިންނެވެ. އޭރުގެ އާދައާ އެއްގޮތަށް، ބަނޫ ސަޢުދުގެ **ޙަލީމާ** ފަޅުތެރޭގައި ކިރުދެއްވިއެވެ. ހަ އަހަރުފުޅުގައި މަންމާފުޅު **އާމިނާ** އަވަހާރަވިއެވެ. ދެ އަހަރު ކާފާފުޅު **ޢަބްދުލް މުއްޠަލިބު** ބެލެހެއްޓެވިއެވެ. އެއަށްފަހު ބޮޑުބޭބޭފުޅު **އަބޫ ޠާލިބު** ބަލަހައްޓަވައި ޙިމާޔަތްކުރެއްވިއެވެ.
+
+ކުޑައިރު ބަކަރި ހުއިހައްޕަވައި، ފަހުން ވިޔަފާރީގެ ދަތުރުތައް ކުރެއްވިއެވެ. މައްކާގައި މަޝްހޫރުވީ *އަލްއަމީން* (އިތުބާރު ހުރި ފަރާތް) ގެ ނަމުންނެވެ. ޢުމުރުފުޅުން ފަންސަވީސް އަހަރުގައި **ޚަދީޖާގެފާނާ** ކައިވެނިކުރެއްވިއެވެ. ހަ ދަރިކަލުން ލިބިވަޑައިގަތެވެ: ޤާސިމް، ޒައިނަބު، ރުޤައްޔާ، އުންމު ކުލްޘޫމް، ފާޠިމާ އަދި ޢަބްދުﷲ.
+
+ތިރީސް ފަސް އަހަރުފުޅުގައި ޤުރައިޝުން ކަޢުބާ އަލުން ބިނާކުރިއެވެ. ޙަޖަރުލް އަސްވަދު ބެހެއްޓުމާމެދު އުފެދުނު ޒުވާބު ޙައްލުކޮށްދެއްވީ އެކަލޭގެފާނެވެ.
+
+ދުވަހަކުވެސް ބުދަކަށް އަޅުކަމެއް ނުކުރައްވައެވެ. ސާޅީސް އަހަރާ ގާތްވިއިރު ޙިރާ ހޮހަޅައިގައި އެކަހެރިވެ އަޅުކަންކުރައްވަން ފެއްޓެވިއެވެ.
+
+@@ seerah-makkah
+title_en: Revelation and the years in Makkah
+title_dv: ވަޙީއާއި މައްކާގެ ދައުރު
+--- en
+In Ramadan of about 610 CE the angel Jibril came to him in the cave of Hira with the first words of the Quran: "Read, in the name of your Lord who created" (96:1). He returned home shaken, and Khadijah comforted him: "Allah will never disgrace you. You keep ties of kinship, bear the burdens of the weak, and help in every true need."
+
+## The first believers
+Khadijah, his young cousin 'Ali, his freed servant Zayd, and his friend Abu Bakr were the first to believe. For three years the call was made quietly. Then Allah commanded him to preach openly (15:94).
+
+## Persecution
+The leaders of Quraysh saw the message of one God and equal accountability as a threat. Believers without protection, such as Bilal and the family of Yasir, were tortured. Some Muslims migrated to Abyssinia, where a just Christian king sheltered them. For about three years the Prophet's clan was boycotted and confined to a valley.
+
+## The year of sorrow
+In the tenth year Khadijah and Abu Talib both died. He went to Ta'if seeking support and was stoned. He prayed for its people instead of against them.
+
+## The night journey
+Soon after came the *Isra'* and *Mi'raj*: he was taken by night from Makkah to Jerusalem and then through the heavens, and the five daily prayers were made obligatory (17:1).
+
+## An opening
+Pilgrims from Yathrib, later called Madinah, accepted Islam and pledged at 'Aqabah to protect him. The Muslims began to leave Makkah.
+--- dv
+މީލާދީން 610 ހާއިރު ރަމަޟާން މަހު، ޙިރާ ހޮހަޅައިގައި ޖިބްރީލްގެފާނު ޤުރުއާނުގެ ފުރަތަމަ އާޔަތްތަކާއެކު އެކަލޭގެފާނުގެ އަރިހަށް ވަޑައިގަތެވެ: "ހެއްދެވި ކަލޭގެފާނުގެ ވެރިރަސްކަލާނގެ އިސްމުފުޅުން ކިޔަވާށެވެ!" (96:1). ބިރުފުޅުގަނެ ގެއަށް ވަޑައިގަތުމުން ޚަދީޖާގެފާނު ހިތްވަރުދެއްވިއެވެ: "ﷲ ދުވަހަކުވެސް ކަލޭގެފާނު ނިކަމެތިއެއް ނުކުރައްވާނެއެވެ. ކަލޭގެފާނު ރަޙިމްގެ ގުޅުން ގުޅުއްވައެވެ. ނިކަމެތިންގެ ބުރަ އުފުއްލަވައެވެ."
+
+## ފުރަތަމަ އީމާންވި ބޭކަލުން
+ޚަދީޖާގެފާނާއި، ޢަލީގެފާނާއި، ޒައިދުގެފާނާއި، އަބޫބަކުރުގެފާނެވެ. ތިން އަހަރު ވަންދެން ދަޢުވަތު ދެއްވީ ސިއްރުންނެވެ. އެއަށްފަހު ފާޅުގައި ދަޢުވަތު ދެއްވުމަށް ﷲ އަމުރުކުރެއްވިއެވެ (15:94).
+
+## އަނިޔާ
+ޤުރައިޝުންގެ ވެރިން އެ ރިސާލަތު ދުށީ ނުރައްކަލެއްގެ ގޮތުގައެވެ. ބިލާލުގެފާނާއި ޔާސިރުގެ ޢާއިލާ ފަދަ ޙިމާޔަތެއް ނެތް މުއުމިނުންނަށް އަނިޔާކުރިއެވެ. ބައެއް މުސްލިމުން ޙަބުޝްކަރައަށް ހިޖުރަކުރެއްވިއެވެ. ގާތްގަނޑަކަށް ތިން އަހަރު ނަބިއްޔާގެ ދަރިކޮޅުގެ މީހުންނާ ގުޅުން ކަނޑާލައި ވާދީއެއްގައި ބަންދުކުރިއެވެ.
+
+## ހިތާމައިގެ އަހަރު
+ދިހަވަނަ އަހަރު ޚަދީޖާގެފާނާއި އަބޫ ޠާލިބު އަވަހާރަވިއެވެ. އެހީއަށް އެދި ޠާއިފަށް ވަޑައިގަތުމުން އެ ރަށުގެ މީހުން ހިލަ އުކިއެވެ. އެހެންނަމަވެސް އެމީހުންނަށް ބައްދުޢާއެއް ނުކުރައްވައެވެ.
+
+## އިސްރާއާއި މިޢުރާޖު
+އޭގެ ކުޑައިރުކޮޅެއްފަހުން، އެއް ރެއެއްގެ ތެރޭގައި މައްކާއިން ބައިތުލް މަޤްދިސްއަށް، އަދި އެތަނުން އުޑުތަކަށް ގެންދެވުނެވެ. ފަސް ނަމާދު ފަރުޟުކުރެވުނީ އެ ރޭގައެވެ (17:1).
+
+## ހުޅުވުމެއް
+ޔަޘްރިބުން (ފަހުން މަދީނާ) އައި ޙައްޖުވެރިން އިސްލާމްވެ، ޢަޤަބާގައި އެކަލޭގެފާނަށް ނަޞްރުދިނުމަށް ބައިޢަތުކުރިއެވެ.
+
+@@ seerah-madinah
+title_en: The Hijrah and building a community in Madinah
+title_dv: ހިޖުރައާއި މަދީނާގައި މުޖުތަމަޢެއް ބިނާކުރެއްވުން
+--- en
+In 622 CE, with Quraysh plotting to kill him, the Prophet ﷺ left Makkah with Abu Bakr. They hid three nights in the cave of Thawr, then travelled to Madinah. This **Hijrah** marks year one of the Islamic calendar.
+
+## First steps
+- He built the **mosque**, which served as place of prayer, school and meeting hall.
+- He paired each emigrant from Makkah with a helper from Madinah as **brothers**, who shared their homes and income.
+- He agreed a **charter** with the tribes of Madinah, including its Jewish tribes, for mutual defence and justice.
+
+## The defensive battles
+- **Badr** (2 AH): about 313 Muslims defeated a Makkan force three times their size.
+- **Uhud** (3 AH): an early advantage was lost when archers left their post against orders. The Prophet ﷺ was wounded and his uncle Hamzah was killed.
+- **The Trench** (5 AH): on Salman al-Farisi's advice a trench was dug around Madinah, and a large allied army withdrew after a siege.
+
+## Law revealed
+In these years fasting, zakat, the change of qiblah to the Ka'bah, the rules of inheritance and marriage, and the prohibition of wine and interest were revealed.
+
+## The treaty of Hudaybiyyah
+In 6 AH the Muslims set out for umrah and were stopped outside Makkah. The Prophet ﷺ accepted a ten-year truce on terms that looked unfavourable. The Quran called it "a clear victory" (48:1): in the peace that followed, more people entered Islam than in all the years before.
+--- dv
+މީލާދީން 622 ގައި، ޤުރައިޝުން އެކަލޭގެފާނު ޤަތުލުކުރަން ރޭވުމުން، ނަބިއްޔާ ﷺ އަބޫބަކުރުގެފާނާއެކު މައްކާ ދޫކުރެއްވިއެވެ. ތިން ރޭ ޘައުރު ހޮހަޅައިގައި ފިލާ ތިއްބަވައި، އެއަށްފަހު މަދީނާއަށް ވަޑައިގަތެވެ. ހިޖުރީ ކަލަންޑަރު ފެށެނީ މި **ހިޖުރައިންނެވެ**.
+
+## ފުރަތަމަ ފިޔަވަޅުތައް
+- **މިސްކިތް** ބިނާކުރެއްވުން. އެއީ ނަމާދުކުރާ ތަނާއި، މަދަރުސާއާއި، މަޝްވަރާކުރާ ތަނެވެ.
+- މައްކާގެ މުހާޖިރުންނާއި މަދީނާގެ އަންޞާރުންގެ ދެމެދުގައި **އަޚުވަންތަކަން** ޤާއިމުކުރެއްވުން.
+- ޔަހޫދީ ޤަބީލާތައް ހިމެނޭ ގޮތަށް މަދީނާގެ ޤަބީލާތަކާއެކު **މުޢާހަދާއެއް** ކުރެއްވުން.
+
+## ދިފާޢީ ހަނގުރާމަތައް
+- **ބަދުރު** (2 ހ): ގާތްގަނޑަކަށް 313 މުސްލިމުން، ތިން ގުނަ ބޮޑު މައްކާގެ ލަޝްކަރަކަށް ނަޞްރު ހޯއްދެވިއެވެ.
+- **އުޙުދު** (3 ހ): ތީރުވެރިން އަމުރާ ޚިލާފަށް ތަން ދޫކުރުމުން ނަޞްރު ގެއްލުނެވެ. ނަބިއްޔާ ﷺ އަށް ޒަޚަމްވެ، ޙަމްޒާގެފާނު ޝަހީދުވިއެވެ.
+- **ޚަންދަޤު** (5 ހ): ސަލްމާނުލް ފާރިސީގެ ލަފާފުޅާއެކު މަދީނާގެ ވަށައިގެން ކަނޑަކެއް ކޮނުއްވިއެވެ.
+
+## ބާވައިލެއްވުނު ޙުކުމްތައް
+މި އަހަރުތަކުގައި ރޯދައާއި، ޒަކާތާއި، ޤިބްލަ ކަޢުބާއަށް ބަދަލުވުމާއި، ވާރުތައާއި ކައިވެނީގެ ޙުކުމްތަކާއި، ރަލާއި ރިބާ ޙަރާމްކުރެއްވުން ބާވައިލެއްވުނެވެ.
+
+## ޙުދައިބިޔާ ޞުލްޙަ
+ހިޖުރައިން 6 ގައި މުސްލިމުން ޢުމްރާއަށް ނުކުތުމުން މައްކާގެ ބޭރުގައި ހުއްޓުވިއެވެ. ނަބިއްޔާ ﷺ ދިހަ އަހަރުގެ ޞުލްޙައެއް ޤަބޫލުކުރެއްވިއެވެ. ޤުރުއާނުގައި އެއަށް "ފާޅުވެގެންވާ ފަތަޙައެއް" (48:1) ކަމަށް ވެއެވެ. އެ ޞުލްޙައިގެ ތެރޭގައި، ކުރީގެ ހުރިހާ އަހަރުތަކަށްވުރެ ގިނަ ބަޔަކު އިސްލާމްވިއެވެ.
+
+@@ seerah-final-years
+title_en: The conquest of Makkah and the farewell
+title_dv: މައްކާ ފަތަޙަކުރެއްވުމާއި ވަދާޢު
+--- en
+## Makkah opened
+Quraysh broke the truce, and in Ramadan of 8 AH (630 CE) the Prophet ﷺ entered Makkah with ten thousand men, almost without fighting. He rode in with his head bowed in humility. To the people who had driven him out he said: "Go, for you are free." He cleared the Ka'bah of its idols, reciting: "Truth has come and falsehood has vanished" (17:81).
+
+## Arabia enters Islam
+Delegations came from across the peninsula in the following year to accept Islam. Letters had already gone to the rulers of Byzantium, Persia, Egypt and Abyssinia inviting them to it.
+
+## The farewell pilgrimage
+In 10 AH he made his only hajj, with more than a hundred thousand people. At Arafah he gave a sermon whose points Muslims still repeat:
+
+- Life, property and honour are sacred.
+- Interest and blood feuds from the days of ignorance are abolished.
+- Treat women well; they have rights over you and you over them.
+- No Arab is superior to a non-Arab, nor white to black, except by mindfulness of Allah.
+- "I leave among you that which, if you hold to it, you will never go astray: the Book of Allah."
+
+That day was revealed: "Today I have perfected your religion for you" (5:3).
+
+## His passing
+He fell ill on returning to Madinah and asked Abu Bakr to lead the prayers. He died on Monday 12 Rabi' al-Awwal, 11 AH (632 CE), aged sixty-three, in the room of his wife 'A'ishah, where he is buried. Abu Bakr steadied the grieving community: "Whoever worshipped Muhammad, Muhammad has died. Whoever worships Allah, Allah is living and does not die."
+--- dv
+## މައްކާ ފަތަޙަކުރެއްވުން
+ޤުރައިޝުން ޞުލްޙަ އުވާލުމުން، ހިޖުރައިން 8 (މީލާދީން 630) ގެ ރަމަޟާން މަހު، ދިހަ ހާސް މީހުންނާއެކު، ގާތްގަނޑަކަށް ހަނގުރާމައަކާ ނުލައި ނަބިއްޔާ ﷺ މައްކާއަށް ވަދެވަޑައިގަތެވެ. ވަދެވަޑައިގަތީ ތަވާޟުޢުކަމާއެކު އިސްތަށިފުޅު ތިރިކުރައްވައިގެންނެވެ. އެކަލޭގެފާނު ރަށުން ބޭރުކުރި މީހުންނަށް ވިދާޅުވިއެވެ: "ދާށެވެ! ތިޔަބައިމީހުންނަކީ މިނިވަން ބަޔެކެވެ." ކަޢުބާގެފާނުން ބުދުތައް ނައްތާލެއްވިއެވެ.
+
+## ޢަރަބިކަރަ އިސްލާމްވުން
+ޖެހިގެން އައި އަހަރު ޢަރަބިކަރައިގެ ހުރިހާ ދިމާއަކުން ވަފުދުތައް އައިސް އިސްލާމްވިއެވެ.
+
+## ޙައްޖަތުލް ވަދާޢު
+ހިޖުރައިން 10 ގައި، ލައްކައަށްވުރެ ގިނަ މީހުންނާއެކު އެކަލޭގެފާނުގެ ހަމައެކަނި ޙައްޖު ކުރެއްވިއެވެ. ޢަރަފާތުގައި ދެއްވި ޚުޠުބާގެ މުހިންމު ނުކުތާތަކަކީ:
+
+- ފުރާނައާއި، މުދަލާއި، އަބުރަކީ ޙުރުމަތްތެރި ތަކެއްޗެވެ.
+- ޖާހިލިއްޔަ ޒަމާނުގެ ރިބާއާއި ލޭގެ ބަދަލު ހިފުން އުވާލެވިއްޖެއެވެ.
+- އަންހެނުންނަށް ހެޔޮކޮށް ހިތާށެވެ.
+- ތަޤްވާވެރިކަމުން މެނުވީ، ޢަރަބިއަކު ޢަޖަމީއެއްގެ މައްޗަށް، ނުވަތަ ދޮން މީހަކު ކަޅު މީހެއްގެ މައްޗަށް މާތްކަމެއް ނުވެއެވެ.
+- "ތިޔަބައިމީހުން އެއަށް ހިފަހައްޓައިފިނަމަ ދުވަހަކުވެސް މަގުނުފުރެދޭނެ އެއްޗެއް ތިޔަބައިމީހުންގެ ތެރޭގައި ދޫކޮށްފީމެވެ. އެއީ ﷲ ގެ ފޮތެވެ."
+
+އެ ދުވަހު ބާވައިލެއްވުނެވެ: "މިއަދު ތިމަންރަސްކަލާނގެ ތިޔަބައިމީހުންނަށް ތިޔަބައިމީހުންގެ ދީން ފުރިހަމަކޮށްދެއްވައިފީމެވެ" (5:3).
+
+## އަވަހާރަވުން
+މަދީނާއަށް އެނބުރި ވަޑައިގަތުމުން ބަލިވެވަޑައިގަތެވެ. ނަމާދުގައި އިމާމުވުމަށް އަބޫބަކުރުގެފާނަށް އަމުރުކުރެއްވިއެވެ. ހިޖުރައިން 11 (މީލާދީން 632) ގެ ރަބީޢުލް އައްވަލު 12، ހޯމަ ދުވަހު، ޢުމުރުފުޅުން ތިރެސަށް އަހަރުގައި، ޢާއިޝަތުގެފާނުގެ ކޮޓަރީގައި އަވަހާރަވިއެވެ. އަބޫބަކުރުގެފާނު ވިދާޅުވިއެވެ: "މުޙައްމަދުގެފާނަށް އަޅުކަންކުރި މީހަކު ވާނަމަ، މުޙައްމަދުގެފާނު އަވަހާރަވެއްޖެއެވެ. ﷲ އަށް އަޅުކަންކުރާ މީހަކު ވާނަމަ، ﷲ އީ ދިރިވޮޑިގެންވާ، މަރުވެވޮޑިނުގަންނަވާ ރަސްކަލާނގެއެވެ."
+
+%% islamic-history | history | Caliphs, civilisation and the Maldives | ޚަލީފާއިންނާއި، ޙަޟާރަތާއި، ދިވެހިރާއްޖެ | What came after the Prophet ﷺ, and how Islam reached these islands. | ނަބިއްޔާ ﷺ އަށްފަހުގެ ތާރީޚާއި، ރާއްޖެއަށް އިސްލާމްދީން އައި ގޮތް.
+
+@@ rightly-guided-caliphs
+title_en: The four rightly guided caliphs
+title_dv: ޚުލަފާއުއްރާޝިދީން
+--- en
+The first four successors led the community for thirty years and are called the rightly guided caliphs.
+
+## Abu Bakr as-Siddiq (11-13 AH / 632-634 CE)
+The Prophet's closest friend and father of 'A'ishah. He held the community together after the Prophet's death, fought those who refused zakat or followed false prophets, and ordered the Quran collected in one volume.
+
+## 'Umar ibn al-Khattab (13-23 AH / 634-644 CE)
+Under him Iraq, Syria, Palestine, Egypt and Persia came under Muslim rule. He entered Jerusalem in person and guaranteed its Christians their churches. He set up the treasury, registers of stipends, judges and garrison towns, and began the Hijri calendar. He was known for justice and plain living, walking the streets at night to check on people. He was stabbed while leading Fajr.
+
+## 'Uthman ibn 'Affan (23-35 AH / 644-656 CE)
+A generous early Muslim who married two of the Prophet's daughters. He had standard copies of the Quran made and sent to the provinces, and built the first Muslim navy. Unrest in his last years ended with rebels killing him in his home as he read the Quran.
+
+## 'Ali ibn Abi Talib (35-40 AH / 656-661 CE)
+The Prophet's cousin and son-in-law, raised in his house, known for courage and deep knowledge. His caliphate was troubled by civil conflict among Muslims over how to respond to 'Uthman's killing. He was assassinated in Kufa.
+
+## How Sunni Muslims regard them
+All four are loved and honoured, in this order of merit. The disputes of that time are left to Allah, and all the Companions are spoken of with respect.
+--- dv
+ފުރަތަމަ ހަތަރު ޚަލީފާއިން ތިރީސް އަހަރު ވަންދެން އުންމަތުގެ ވެރިކަން ކުރެއްވިއެވެ. އެބޭކަލުންނަށް ޚުލަފާއުއްރާޝިދީން ކިޔައެވެ.
+
+## އަބޫބަކުރުއްޞިއްދީޤު (11-13 ހ / 632-634 މ)
+ނަބިއްޔާ ﷺ ގެ އެންމެ ގާތް އެކުވެރިޔާ، އަދި ޢާއިޝަތުގެފާނުގެ ބައްޕާފުޅެވެ. ނަބިއްޔާ އަވަހާރަވުމަށްފަހު އުންމަތް އެއްބައިކޮށް ބެހެއްޓެވިއެވެ. ޒަކާތް ދިނުމަށް ދެކޮޅުހެދި މީހުންނާއި ދޮގު ނަބީންނާ ދެކޮޅަށް ހަނގުރާމަކުރައްވައި، ޤުރުއާން އެއް ފޮތަކަށް ޖަމާކުރެއްވިއެވެ.
+
+## ޢުމަރު ބިން އަލްޚައްޠާބު (13-23 ހ / 634-644 މ)
+އެކަލޭގެފާނުގެ ދައުރުގައި ޢިރާޤު، ޝާމު، ފަލަސްޠީން، މިޞްރު އަދި ފާރިސް ފަތަޙަކުރެވުނެވެ. ބައިތުލްމާލާއި، ޤާޟީންނާއި، ހިޖުރީ ކަލަންޑަރު ޤާއިމުކުރެއްވިއެވެ. ޢަދުލުވެރިކަމާއި ސާދާ ދިރިއުޅުމުން މަޝްހޫރެވެ. ފަތިސް ނަމާދުގައި އިމާމުވެ ހުންނަވަނިކޮށް ވަޅިހަރައި ޝަހީދުކުރެވުނެވެ.
+
+## ޢުޘްމާނު ބިން ޢައްފާން (23-35 ހ / 644-656 މ)
+ނަބިއްޔާގެ ދެ ދަރިކަނބަލުންނާ ކައިވެނިކުރެއްވި، ދީލަތި ބޭކަލެކެވެ. ޤުރުއާނުގެ ނުސްޚާތައް ތައްޔާރުކުރައްވައި ސަރަޙައްދުތަކަށް ފޮނުއްވިއެވެ. ފުރަތަމަ ކަނޑުގެ ލަޝްކަރު ބިނާކުރެއްވިއެވެ. ގޭގައި ޤުރުއާން ކިޔަވަން އިންނަވަނިކޮށް ބާޣީން ޝަހީދުކޮށްލިއެވެ.
+
+## ޢަލީ ބިން އަބީ ޠާލިބު (35-40 ހ / 656-661 މ)
+ނަބިއްޔާގެ ބޮޑުބޭބޭފުޅުގެ ދަރިކަލުން އަދި ދަނބިކަލުންނެވެ. ހިތްވަރާއި ފުން ޢިލްމުން މަޝްހޫރެވެ. އެކަލޭގެފާނުގެ ޚިލާފަތުގައި މުސްލިމުންގެ ދެމެދުގައި ފިތުނަ އުފެދުނެވެ. ކޫފާގައި ޝަހީދުކުރެވުނެވެ.
+
+## އަހުލުއްސުންނާ ދެކޭ ގޮތް
+ހަތަރު ބޭކަލުންނަށްވެސް މި ތަރުތީބުން ލޯބިކޮށް އިޙްތިރާމުކުރެއެވެ. އެ ޒަމާނުގެ ޚިލާފުތައް ﷲ އަށް ޙަވާލުކޮށް، ހުރިހާ ޞަޙާބީންނާމެދު ރިވެތި ބަސް ބުނެއެވެ.
+
+@@ islamic-civilisation
+title_en: Dynasties and the civilisation they carried
+title_dv: ދައުލަތްތަކާއި އިސްލާމީ ޙަޟާރަތް
+--- en
+## The dynasties in brief
+- **Umayyads** (661-750 CE), from Damascus. Muslim rule reached Spain in the west and the Indus in the east. They built the Dome of the Rock and the Great Mosque of Damascus.
+- **Abbasids** (750-1258), from Baghdad. Their early centuries are remembered as a golden age of learning. Baghdad fell to the Mongols in 1258.
+- **Al-Andalus**: Muslim rule in Spain lasted from 711 until the fall of Granada in 1492. Cordoba was among the largest and most learned cities in Europe.
+- **Ottomans** (about 1299-1922), from Istanbul after 1453, ruled much of the Middle East, North Africa and south-east Europe. The caliphate was abolished in 1924.
+
+## Sciences
+The Quran's call to observe and reflect, and practical needs such as finding the qiblah and dividing inheritance, drove study.
+- **Al-Khwarizmi** wrote the book that gave algebra its name.
+- **Ibn al-Haytham** founded the experimental study of optics.
+- **Ibn Sina**'s *Canon of Medicine* was taught for centuries; **az-Zahrawi** described surgical instruments.
+- **Al-Biruni** measured the earth's radius with striking accuracy.
+- Hospitals, observatories and public libraries were established institutions.
+
+## Law and learning
+The madrasah, the endowment (*waqf*) that funded it, and the licence to teach (*ijazah*) were Muslim institutions. Al-Azhar in Cairo and al-Qarawiyyin in Fez are among the oldest continuously running places of learning.
+
+## Art and building
+With images of living beings avoided in sacred spaces, artists turned to **calligraphy**, **geometry** and **plant patterns**. The mosque took regional forms, from the courtyards of Cairo to the domes of Istanbul, and in the Maldives the carved coral stone and lacquer work of the old Friday mosques.
+--- dv
+## ދައުލަތްތައް، ކުރުކޮށް
+- **އުމަވީން** (661-750 މ)، ދިމިޝްޤުން. އިސްލާމީ ވެރިކަން ހުޅަނގުން އަންދަލުސާއި އިރުމަތިން ސިންދާ ހަމައަށް ފޯރިއެވެ.
+- **ޢައްބާސީން** (750-1258)، ބަޣްދާދުން. ފުރަތަމަ ޤަރުނުތަކަކީ ޢިލްމުގެ ރަން ޒަމާނެކެވެ. 1258 ގައި ބަޣްދާދު މޮންގޯލުންގެ އަތްދަށުވިއެވެ.
+- **އަންދަލުސް**: ސްޕެއިނުގައި މުސްލިމުންގެ ވެރިކަން 711 އިން 1492 ގައި ޣަރްނާޠާ ވެއްޓުމާ ހަމައަށް ދެމިއޮތެވެ.
+- **ޢުޘްމާނީން** (ގާތްގަނޑަކަށް 1299-1922)، 1453 ގެ ފަހުން އިސްތަންބޫލުން. 1924 ގައި ޚިލާފަތު އުވާލެވުނެވެ.
+
+## ސައިންސް
+ބަލައި ވިސްނުމަށް ޤުރުއާން ކުރާ ދަޢުވަތާއި، ޤިބްލަ ހޯދުމާއި ވާރުތަ ބެހުން ފަދަ ޢަމަލީ ބޭނުންތަކުން ދިރާސާކުރުމަށް ބާރުލިބުނެވެ.
+- **އަލްޚަވާރިޒްމީ** ލިޔުއްވި ފޮތުން އަލްޖަބްރާގެ ނަން އުފެދުނެވެ.
+- **އިބްނުލް ހައިޘަމް** އަލީގެ ތަޖުރިބީ ޢިލްމު ބިނާކުރެއްވިއެވެ.
+- **އިބްނު ސީނާގެ** *އަލްޤާނޫނު ފިއްޠިއްބު* ޤަރުނުތަކެއް ވަންދެން ކިޔަވައިދެވުނެވެ. **އައްޒަހްރާވީ** ޖަރާޙީ އާލާތްތައް ބަޔާންކުރެއްވިއެވެ.
+- **އަލްބީރޫނީ** ބިމުގެ ބޮޑުމިން ވަރަށް ތަފްޞީލުކޮށް މިންކުރެއްވިއެވެ.
+
+## ޤާނޫނާއި ތަޢުލީމު
+މަދަރުސާއާއި، އެއަށް ޚަރަދުކުރި ވަޤްފާއި، ކިޔަވައިދިނުމުގެ އިޖާޒާއަކީ މުސްލިމުންގެ މުއައްސަސާތަކެވެ. ޤާހިރާގެ އަޒްހަރާއި ފާސްގެ ޤަރަވިއްޔީނަކީ ދުނިޔޭގެ އެންމެ ދުވަސްވީ ޖާމިޢާތަކުގެ ތެރެއިން ދެ ތަނެވެ.
+
+## ފަންނާއި ޢިމާރާތްކުރުން
+ފަންނާނުން ސަމާލުކަން ދިނީ **ޚައްޠާތީއާއި**، **ހަންދަސީ ކުރެހުންތަކާއި**، **ގަސްގަހާގެހީގެ ނަޤްޝަށެވެ**. މިސްކިތްތަކުގެ ބައްޓަން އެކި ސަރަޙައްދުތަކުގައި ތަފާތުވިއެވެ. ދިވެހިރާއްޖޭގައި އެއީ ކުރީގެ ހުކުރު މިސްކިތްތަކުގެ ވެލިގާ ވަޑާމާއި ލާޖެހުމުގެ މަސައްކަތެވެ.
+
+@@ islam-in-maldives
+title_en: How Islam came to the Maldives
+title_dv: ދިވެހިރާއްޖެއަށް އިސްލާމްދީން އައި ގޮތް
+--- en
+## Before Islam
+The Maldives lay on the sea routes between Arabia, India and the Far East, and Arab and Persian traders called here for cowrie shells, dried fish and coir. For many centuries before Islam the islands were Buddhist, and remains of that period have been found on several atolls.
+
+## The conversion
+Maldivian chronicles date the conversion to **548 AH, 1153 CE**, in the reign of King Dhovemi, who took the name **Sultan Muhammad al-Adil**. From then the country was a sultanate.
+
+The best-known account is that of the Moroccan traveller **Ibn Battutah**, who lived in the Maldives in the 1340s. He was told that a visiting North African scholar, **Abu al-Barakat Yusuf al-Barbari**, a memoriser of the Quran, freed Male' from a sea demon by reciting the Quran through the night, and that the king then accepted Islam. Another Maldivian tradition names the scholar as Yusuf Shamsuddin of Tabriz. The tomb honoured as his, *Medhu Ziyaaraiy*, stands in Male'.
+
+## Ibn Battutah in Male'
+He served as chief judge for some months and recorded a devout people who rushed to the mosque. He tried to enforce stricter standards in prayer attendance and dress, with mixed success.
+
+## Mosques of coral stone
+The old Friday Mosque in Male', **Hukuru Miskiy**, was built in 1656-1658 under Sultan Ibrahim Iskandar I, of interlocking carved coral blocks with lacquered wood inside. Several such mosques survive across the atolls.
+
+## Since then
+The country kept its faith through Portuguese occupation in the sixteenth century, ended by Muhammad Thakurufaanu in 1573, and through the British protectorate. Today Islam is the religion of the state and of its citizens, and religious affairs are overseen by the Ministry of Islamic Affairs.
+--- dv
+## އިސްލާމްދީނުގެ ކުރިން
+ދިވެހިރާއްޖެ އޮތީ ޢަރަބިކަރައާއި، ހިންދުސްތާނާއި، ދުރު އިރުމައްޗާ ދެމެދުގެ ކަނޑުމަގުތަކުގައެވެ. ޢަރަބިންނާއި ފާރިސީ ވިޔަފާރިވެރިން ބޮއްޔާއި، ހިކިމަހާއި، ރޯނަށް މިތަނަށް އައެވެ. އިސްލާމްދީނުގެ ކުރިން އެތައް ޤަރުނެއް ވަންދެން ރާއްޖޭގައި އޮތީ ބުދު ދީނެވެ. އެ ޒަމާނުގެ އާސާރީ ތަންތަން ބައެއް އަތޮޅުތަކުން ފެނިފައިވެއެވެ.
+
+## އިސްލާމްވުން
+ދިވެހި ތާރީޚުގައި ވާގޮތުން ރާއްޖެ އިސްލާމްވީ **ހިޖުރައިން 548، މީލާދީން 1153** ގައި، ދޮވެމި ރަސްގެފާނުގެ ރަސްކަމުގައެވެ. އެ ރަސްގެފާނަށް **ސުލްޠާން މުޙައްމަދުލް ޢާދިލް** ގެ ނަން ދެވުނެވެ.
+
+އެންމެ މަޝްހޫރު ރިވާޔަތަކީ 1340 ގެ އަހަރުތަކުގައި ރާއްޖޭގައި ދިރިއުޅުއްވި މައްރާކުޝްގެ ދަތުރުވެރިޔާ **އިބްނު ބަޠޫޠާގެ** ރިވާޔަތެވެ. އެ ރިވާޔަތުގައި ވާގޮތުން، އުތުރު އެފްރިކާގެ ޢިލްމުވެރިއެއް ކަމަށްވާ، ޤުރުއާން ހިތުދަސް **އަބުލް ބަރަކާތު ޔޫސުފުލް ބަރްބަރީ** ރޭގަނޑު ޤުރުއާން ކިޔަވައިގެން ރަންނަމާރީގެ ކިބައިން މާލެ ސަލާމަތްކުރެއްވިއެވެ. އެއަށްފަހު ރަސްގެފާނު އިސްލާމްވިއެވެ. އެހެން ދިވެހި ރިވާޔަތެއްގައި އެ ޢިލްމުވެރިޔާއަކީ ތަބްރީޒުގެ ޔޫސުފު ޝަމްސުއްދީން ކަމަށް ވެއެވެ. އެކަލޭގެފާނުގެ ޒިޔާރަތް، *މެދު ޒިޔާރަތް*، ހުރީ މާލޭގައެވެ.
+
+## މާލޭގައި އިބްނު ބަޠޫޠާ
+ބައެއް މަސްދުވަހު ޤާޟީކަން ކުރެއްވިއެވެ. ދީންވެރި، މިސްކިތަށް އަވަސްވެގަންނަ ބައެއްކަމަށް ދިވެހިން ސިފަކުރެއްވިއެވެ.
+
+## ވެލިގަލުގެ މިސްކިތްތައް
+މާލޭގެ **ހުކުރު މިސްކިތް** ބިނާކުރެއްވީ 1656-1658 ގައި، ސުލްޠާން އިބްރާހީމް އިސްކަންދަރު 1 ގެ ދައުރުގައި، ވަޑާމުގެ މަސައްކަތް ކޮށްފައިވާ ވެލިގަލުންނެވެ. އެތެރޭގައި ލާޖެހި ލަކުޑީގެ މަސައްކަތް ހުރެއެވެ.
+
+## އޭގެ ފަހުން
+ސޯޅަވަނަ ޤަރުނުގައި ޕޯޗުގީޒުންގެ އަތްދަށުވި ދުވަސްވަރުވެސް ދިވެހިން ދީން ދެމެހެއްޓިއެވެ. 1573 ގައި މުޙައްމަދު ތަކުރުފާނު އެ ވެރިކަން ނިންމެވިއެވެ. މިއަދު އިސްލާމްދީނަކީ ދައުލަތުގެ ދީނެވެ.
+
+%% spirituality | spirit | Creed, the heart and the scholars | ޢަޤީދާއާއި، ހިތާއި، ޢިލްމުވެރިން | Schools of theology, purifying the heart, repentance and scholars worth knowing. | ޢަޤީދާގެ މަދުރަސާތަކާއި، ތަޒްކިޔަތުއްނަފްސާއި، ތައުބާއާއި، މަޝްހޫރު ޢިލްމުވެރިން.
+
+@@ aqeedah-schools
+title_en: The Sunni schools of theology
+title_dv: އަހުލުއްސުންނާގެ ޢަޤީދާގެ މަދުރަސާތައް
+--- en
+*'Aqidah* is what a Muslim holds to be true about Allah, His messengers and the unseen. All Sunni Muslims share the six articles of faith. As new philosophical questions arose in the early centuries, scholars defended those beliefs in different ways, and three approaches became established.
+
+## Athari
+Also called the way of the people of hadith, and associated with **Ahmad ibn Hanbal** (died 241 AH). It affirms what the texts say about Allah's attributes as they came, without asking "how" and without likening Him to creation, and it avoids speculative theology.
+
+## Ash'ari
+Named after **Abu al-Hasan al-Ash'ari** (died 324 AH), who left the rationalist Mu'tazili school and used reasoned argument to defend the creed of the early Muslims. Most Shafi'i and Maliki scholars in history followed it, including al-Ghazali, an-Nawawi and Ibn Hajar. The Maldivian scholarly tradition comes largely through this line.
+
+## Maturidi
+Named after **Abu Mansur al-Maturidi** (died 333 AH) of Samarqand. It is very close to the Ash'ari school and is followed mainly by Hanafis.
+
+## Where they differ
+Mostly on how to speak about certain attributes of Allah mentioned in the texts: whether to affirm them and leave their reality to Allah, or to interpret them in a way that fits His transcendence. All three agree He is unlike His creation.
+
+## A note on balance
+These discussions belong to trained scholars. An ordinary Muslim's creed is sound by believing what is in the Quran and authentic Sunnah as the Companions did, and it is wrong to call other Muslims misguided over these fine points.
+--- dv
+*ޢަޤީދާއަކީ* ﷲ އާއި، އެކަލާނގެ ރަސޫލުންނާއި، ޣައިބުގެ ކަންކަމާމެދު މުސްލިމަކު ޤަބޫލުކުރާ ކަންތައްތަކެވެ. އީމާންކަމުގެ ހަ ރުކުނުގައި އަހުލުއްސުންނާގެ ހުރިހާ މުސްލިމުން އެއްބައެވެ. ފުރަތަމަ ޤަރުނުތަކުގައި އައު ފަލްސަފީ ސުވާލުތައް އުފެދުމުން، ޢިލްމުވެރިން އެކި ގޮތްގޮތަށް ޢަޤީދާ ދިފާޢުކުރެއްވިއެވެ. ތިން މަންހަޖެއް ޤާއިމުވިއެވެ.
+
+## އަޘަރީ
+އަހުލުލް ޙަދީޘްގެ މަގުގެ ނަމުންވެސް މަޝްހޫރެވެ. ނިސްބަތްކުރެވެނީ **އަޙްމަދު ބިން ޙަންބަލް** (ވަފާތު 241 ހ) އަށެވެ. ﷲ ގެ ޞިފަފުޅުތަކާ ބެހޭ ނައްޞުތައް، "ކޮންފަދައަކުންހޭ" ސުވާލުނުކޮށް، މަޚްލޫޤުންނާ ވައްތަރުނުކޮށް، އައިސްފައިވާ ގޮތަށް ސާބިތުކުރެއެވެ.
+
+## އަޝްޢަރީ
+ނިސްބަތްކުރެވެނީ **އަބުލް ޙަސަން އަލްއަޝްޢަރީ** (ވަފާތު 324 ހ) އަށެވެ. އެކަލޭގެފާނު މުޢުތަޒިލީ މަޛްހަބު ދޫކުރައްވައި، ސަލަފުންގެ ޢަޤީދާ ދިފާޢުކުރުމަށް ޢަޤުލީ ދަލީލު ބޭނުންކުރެއްވިއެވެ. ޣަޒާލީ، ނަވަވީ އަދި އިބްނު ޙަޖަރު ހިމެނޭ ގޮތަށް، ތާރީޚުގައި ގިނަ ޝާފިޢީ އަދި މާލިކީ ޢިލްމުވެރިން މިއަށް ތަބާވިއެވެ.
+
+## މާތުރީދީ
+ނިސްބަތްކުރެވެނީ ސަމަރްޤަންދުގެ **އަބޫ މަންޞޫރު އަލްމާތުރީދީ** (ވަފާތު 333 ހ) އަށެވެ. އަޝްޢަރީ މަންހަޖާ ވަރަށް ގާތެވެ. ގިނައިން ތަބާވަނީ ޙަނަފީންނެވެ.
+
+## ޚިލާފުވާ ތަންތަން
+ގިނައިން ޚިލާފުވަނީ ނައްޞުތަކުގައިވާ ﷲ ގެ ބައެއް ޞިފަފުޅުތަކާމެދު ވާހަކަދައްކާނެ ގޮތުގައެވެ. ތިން މަންހަޖުވެސް އެއްބަސްވަނީ އެކަލާނގެ މަޚްލޫޤުންނާ އެއްގޮތް ނުވާކަމުގައެވެ.
+
+## މެދުމިންގެ ނަޒަރު
+މި ބަހުސްތަކަކީ ޢިލްމުވެރިންގެ ބަހުސްތަކެކެވެ. ޢާންމު މުސްލިމެއްގެ ޢަޤީދާ ރަނގަޅުވަނީ، ޞަޙާބީން ޤަބޫލުކުރެއްވި ފަދައިން ޤުރުއާނާއި ޞައްޙަ ސުންނަތުގައިވާ ކަންކަން ޤަބޫލުކުރުމުންނެވެ. މި ފަދަ ތަފްޞީލުތަކުގައި އެހެން މުސްލިމުންނަށް މަގުފުރެދިފައިވާކަމަށް ބުނުމަކީ ގޯސްކަމެކެވެ.
+
+@@ tazkiyah
+title_en: Purifying the heart: ihsan, tazkiyah and Sufism
+title_dv: ހިތް ސާފުކުރުން: އިޙްސާނާއި، ތަޒްކިޔާއާއި، ތަޞައްވުފު
+ref: Quran 91:9-10; 26:88-89; Muslim 8
+--- en
+In the hadith of Jibril, the Prophet ﷺ described three levels of the religion: *islam* (the outward acts), *iman* (belief) and **ihsan**: "to worship Allah as though you see Him, and if you do not see Him, He sees you."
+
+## Tazkiyah
+The Quran says: "He has succeeded who purifies it, and he has failed who corrupts it" (91:9-10). *Tazkiyah* is the work of clearing the heart of its diseases and filling it with what Allah loves.
+
+- **To remove:** pride, envy, showing off, love of status, greed, anger, heedlessness.
+- **To grow:** sincerity, gratitude, patience, trust in Allah, fear and hope, contentment, love of Allah and His Messenger.
+
+## The means
+Regular prayer with presence of heart, reciting the Quran with reflection, remembrance of Allah morning and evening, repentance, keeping good company, taking oneself to account each night, and serving others.
+
+## Sufism
+*Tasawwuf*, or Sufism, is the name that came to be used for this discipline. Its early masters, such as al-Junayd and al-Hasan al-Basri, insisted that it be bound by the Quran and Sunnah, and scholars like al-Ghazali wove it together with law and creed in works such as *Ihya' 'Ulum ad-Din*. Over the centuries organised orders (*tariqah*) grew up around teachers.
+
+## A measure
+Scholars across the schools have accepted what in Sufism matches the Shari'ah, such as renunciation, remembrance and good character, and rejected what contradicts it, such as invented rituals, exaggeration about saints or claims that exempt someone from the law. Al-Junayd said: "Our knowledge is tied to the Book and the Sunnah."
+--- dv
+ޖިބްރީލްގެފާނުގެ ޙަދީޘުގައި ނަބިއްޔާ ﷺ ދީނުގެ ތިން ދަރަޖައެއް ބަޔާންކުރެއްވިއެވެ: *އިސްލާމް* (ޒާހިރީ ޢަމަލުތައް)، *އީމާން* (ޢަޤީދާ) އަދި **އިޙްސާން**: "ﷲ ތިބާއަށް ފެންނަ ފަދައިން އެކަލާނގެއަށް އަޅުކަންކުރުން. ތިބާއަށް އެކަލާނގެ ނުފެނުނު ނަމަވެސް، އެކަލާނގެ ތިބާ ދެކެވޮޑިގެންވެއެވެ."
+
+## ތަޒްކިޔާ
+"ނަފްސު ޠާހިރުކުރި މީހާ ހަމަކަށަވަރުން ކާމިޔާބުވެއްޖެއެވެ. އަދި ނަފްސު ފަސާދަކުރި މީހާ ގެއްލިހަލާކުވެއްޖެއެވެ" (91:9-10). *ތަޒްކިޔާއަކީ* ހިތުގެ ބަލިތަކުން ހިތް ސާފުކޮށް، ﷲ ލޯބިކުރައްވާ ސިފަތަކުން ހިތް ފުރުމެވެ.
+
+- **ދުރުކުރަންވީ:** ކިބުރު، ޙަސަދަ، ރިޔާ، މަޤާމަށް ދަހިވެތިވުން، ރުޅި، ޣާފިލުކަން.
+- **އާލާކުރަންވީ:** އިޚްލާޞް، ޝުކުރު، ކެތް، ތަވައްކުލު، ބިރާއި އުންމީދު، ރުހުން، ﷲ އާއި ރަސޫލާއަށް ލޯބިކުރުން.
+
+## ވަސީލަތްތައް
+ޚުޝޫޢާއެކު ނަމާދުކުރުމާއި، ވިސްނައިގެން ޤުރުއާން ކިޔެވުމާއި، ހެނދުނާއި ހަވީރު ޛިކުރުކުރުމާއި، ތައުބާވުމާއި، ހެޔޮ ރަޙްމަތްތެރިންނާ އުޅުމާއި، ކޮންމެ ރެއަކު ނަފްސު މުޙާސަބާކުރުމާއި، އެހެން މީހުންނަށް ޚިދުމަތްކުރުމެވެ.
+
+## ތަޞައްވުފު
+*ތަޞައްވުފަކީ* މި ޢިލްމަށް ފަހުން ކިޔުނު ނަމެކެވެ. ޖުނައިދު އަދި ޙަސަނުލް ބަޞްރީ ފަދަ ކުރީގެ އިމާމުން ވިދާޅުވީ، އެއީ ޤުރުއާނާއި ސުންނަތުގެ ތެރޭގައި އޮންނަންޖެހޭ ކަމެއްކަމަށެވެ. ޣަޒާލީ ފަދަ ޢިލްމުވެރިން *އިޙްޔާއު ޢުލޫމިއްދީން* ފަދަ ފޮތްތަކުގައި، އެކަން ފިޤްހާއި ޢަޤީދާއާ ގުޅުއްވިއެވެ.
+
+## މިންގަނޑެއް
+ޒުހުދާއި، ޛިކުރާއި، ރިވެތި އަޚްލާޤު ފަދަ ޝަރީޢަތާ އެއްގޮތް ކަންކަން ޢިލްމުވެރިން ޤަބޫލުކުރައްވައެވެ. ބިދުޢަ ޢަމަލުތަކާއި، އައުލިޔާއިންނާމެދު ޙައްދުފަހަނައެޅުން ފަދަ ޝަރީޢަތާ ޚިލާފު ކަންކަން ރައްދުކުރައްވައެވެ. ޖުނައިދު ވިދާޅުވިއެވެ: "އަޅުގަނޑުމެންގެ ޢިލްމު ވަނީ ފޮތާއި ސުންނަތާ ގުޅިފައެވެ."
+
+@@ tawbah
+title_en: Repentance
+title_dv: ތައުބާވުން
+ref: Quran 39:53; 66:8; 25:70
+--- en
+"Say: O My servants who have wronged themselves, do not despair of the mercy of Allah. Allah forgives all sins" (39:53).
+
+Every person sins, and the Prophet ﷺ said the best of those who sin are those who repent (Tirmidhi 2499). Repentance is not a ceremony and needs no one between you and Allah.
+
+## The conditions
+1. **Stop** the sin.
+2. **Regret** having done it.
+3. **Resolve** not to return to it.
+4. If it wronged another person, **put it right**: return what was taken, or ask their pardon.
+
+## How
+Make wudu, pray two rak'ahs if you can, and ask Allah's forgiveness in your own words. The supplication called *Sayyid al-Istighfar*, in the Duas section, is the most complete form.
+
+## If you fall again
+Repent again. Returning to a sin does not cancel an earlier repentance that was sincere. What is dangerous is giving up, or planning to sin and repent later.
+
+## How far it reaches
+The door stays open until the soul reaches the throat at death, or the sun rises from the west. For those who repent, believe and do good, "Allah will change their evil deeds into good ones" (25:70). The Prophet ﷺ himself asked forgiveness more than seventy times a day.
+
+## Signs that it was real
+You dislike the sin, you leave the places and company that led to it, and you follow it with good deeds, for "good deeds wipe out bad ones" (11:114).
+--- dv
+"ބުނާށެވެ! އަމިއްލަ ނަފްސުތަކަށް އިސްރާފުކުރި ތިމަންރަސްކަލާނގެ އަޅުތަކުންނޭވެ! ﷲ ގެ ރަޙްމަތުން ތިޔަބައިމީހުން އުންމީދު ނުކަނޑާށެވެ! ހަމަކަށަވަރުން ﷲ ހުރިހާ ފާފައެއް ފުއްސަވައެވެ" (39:53).
+
+ކޮންމެ އިންސާނަކަށްވެސް ފާފަކުރެވެއެވެ. ފާފަކުރާ މީހުންގެ ތެރެއިން އެންމެ ހެޔޮ މީހުންނަކީ ތައުބާވާ މީހުންކަމަށް ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ (ތިރްމިޛީ 2499). ތައުބާވުމަށް ތިބާއާއި ﷲ އާ ދެމެދުގައި މެދުވެރިއަކު ބޭނުމެއް ނުވެއެވެ.
+
+## ޝަރުޠުތައް
+1. ފާފަ **ހުއްޓާލުން**.
+2. ކުރެވުނު ކަމާމެދު **ހިތާމަކުރުން**.
+3. އަލުން އެކަމަށް ނުދިއުމަށް **ޢަޒުމްކުރުން**.
+4. އެހެން މީހެއްގެ ޙައްޤަކާ ގުޅޭ ފާފައެއްނަމަ، **އެ ޙައްޤު އަދާކުރުން** ނުވަތަ މާފަށް އެދުން.
+
+## ކުރާނެ ގޮތް
+ވުޟޫކޮށް، ކުޅަދާނަވެއްޖެނަމަ ދެ ރަކުޢަތް ކޮށް، އަމިއްލަ ބަހުން ﷲ ގެ ޙަޟްރަތުން ފުއްސެވުމަށް އެދޭށެވެ. ދުޢާގެ ބައިގައިވާ *ސައްޔިދުލް އިސްތިޣްފާރަކީ* އެންމެ ފުރިހަމަ ޢިބާރާތެވެ.
+
+## އަލުން ފާފަކުރެވިއްޖެނަމަ
+އަލުން ތައުބާވާށެވެ. ނުރައްކާތެރި ކަމަކީ އުންމީދު ކަނޑާލުން، ނުވަތަ ފަހުން ތައުބާވާނަމޭ ހިތާ ފާފަކުރަން ރޭވުމެވެ.
+
+## ތައުބާގެ ދޮރު
+ފުރާނަ ކަރުތެރެއަށް އާދެވެންދެން، ނުވަތަ ހުޅަނގުން އިރުއަރަންދެން ތައުބާގެ ދޮރު ހުޅުވިފައި އޮވެއެވެ. ތައުބާވެ، އީމާންވެ، ޞާލިޙު ޢަމަލުކުރާ މީހުންގެ "ނުބައި ޢަމަލުތައް ﷲ ހެޔޮ ޢަމަލުތަކަށް ބަދަލުކުރައްވާނެއެވެ" (25:70).
+
+## ތެދުވެރި ތައުބާގެ ނިޝާންތައް
+ފާފައަށް ނަފްރަތުކުރުމާއި، އެކަމަށް ގެންދިޔަ ތަންތަނާއި ރަޙްމަތްތެރިން ދޫކުރުމާއި، އޭގެ ފަހަތުން ހެޔޮ ޢަމަލުކުރުމެވެ. "ހެޔޮ ޢަމަލުތައް ނުބައި ޢަމަލުތައް ފުހެލައެވެ" (11:114).
+
+%% modern-topics | modern | Money, food and new questions | ފައިސާއާއި، ކާނާއާއި، އައު ސުވާލުތައް | Interest and Islamic finance, halal food, and how scholars handle issues the early books did not meet. | ރިބާއާއި އިސްލާމީ މާލިއްޔަތާއި، ޙަލާލު ކާނާއާއި، އައު މައްސަލަތަކާމެދު ޢިލްމުވެރިން ޢަމަލުކުރައްވާ ގޮތް.
+
+@@ islamic-finance
+title_en: Riba and Islamic finance
+title_dv: ރިބާއާއި އިސްލާމީ މާލިއްޔަތު
+ref: Quran 2:275-279; 3:130; 4:29
+--- en
+"Allah has permitted trade and forbidden riba" (2:275).
+
+## What is forbidden
+- **Riba:** any agreed increase on a loan, and unequal or delayed exchange of the same kind of money or staple. Bank interest paid or received falls under it according to the fatwa bodies of the Muslim world. The Prophet ﷺ cursed the one who takes it, pays it, records it and witnesses it (Muslim 1598).
+- **Gharar:** excessive uncertainty in a contract, such as selling what you do not own or cannot deliver.
+- **Maysir:** gambling.
+- Trading in what is itself unlawful, such as alcohol and pork.
+
+## The principle behind it
+Money is a measure, not a commodity that grows by itself. Profit is earned by taking part in real trade and sharing its risk.
+
+## Common Islamic contracts
+- **Murabahah:** the bank buys an item and sells it to you at a known mark-up, paid in instalments.
+- **Ijarah:** leasing, sometimes ending in ownership.
+- **Mudarabah:** one party gives capital, the other works, and profit is shared at an agreed ratio.
+- **Musharakah:** partnership in capital and profit. A "diminishing" form is used for home finance.
+- **Sukuk:** certificates of ownership in an asset, used instead of interest-bearing bonds.
+- **Takaful:** mutual insurance in which members contribute to a shared fund.
+
+## In the Maldives
+Islamic banking, takaful and sukuk are available locally, and several conventional banks run Islamic windows. Each has a Shari'ah board that reviews its products.
+
+## For your own decisions
+Ask how the contract actually works, not only what it is called. If you already hold an interest-based loan, scholars advise settling it as early as you reasonably can. For your own case, consult a qualified scholar.
+--- dv
+"ﷲ ވިޔަފާރި ޙަލާލުކުރައްވައި، ރިބާ ޙަރާމްކުރެއްވިއެވެ" (2:275).
+
+## ޙަރާމް ކަންތައްތައް
+- **ރިބާ:** ދަރަންޏެއްގެ މައްޗަށް އެއްބަސްވެވޭ ކޮންމެ އިތުރެއް. އިސްލާމީ ދުނިޔޭގެ ފަތުވާ މަޖިލީސްތަކުން ނިންމާފައިވާ ގޮތުގައި ބޭންކުގެ އިންޓަރެސްޓް މީގެ ތެރޭގައި ހިމެނެއެވެ. ރިބާ ކާ މީހާއާއި، ދޭ މީހާއާއި، ލިޔާ މީހާއާއި، ހެކިވާ މީހުންނަށް ނަބިއްޔާ ﷺ ލަޢުނަތްލެއްވިއެވެ (މުސްލިމް 1598).
+- **ޣަރަރު:** ޢަޤުދެއްގައި ހުންނަ ބޮޑު ޝައްކު، މިސާލަކަށް މިލްކުގައި ނެތް އެއްޗެއް ވިއްކުން.
+- **މައިސިރު:** ޖުވާކުޅުން.
+- ރަލާއި އޫރުމަސް ފަދަ ޙަރާމް ތަކެތީގެ ވިޔަފާރި.
+
+## މީގެ އަސާސް
+ފައިސާއަކީ މިންގަނޑެކެވެ. އަމިއްލައަށް އިތުރުވާ މުދަލެއް ނޫނެވެ. ފައިދާ ހޯދަނީ ޙަޤީޤީ ވިޔަފާރީގައި ބައިވެރިވެ، އޭގެ ގެއްލުމުގެ ފުރުޞަތުވެސް އުފުލައިގެންނެވެ.
+
+## ޢާންމު އިސްލާމީ ޢަޤުދުތައް
+- **މުރާބަޙާ:** ބޭންކުން އެއްޗެއް ގަނެ، އެނގޭ ފައިދާއަކާއެކު ތިބާއަށް ވިއްކުން.
+- **އިޖާރާ:** ކުއްޔަށް ދިނުން.
+- **މުޟާރަބާ:** އެއްބަޔަކު ރައުސުލްމާލު ދީ، އަނެއްބަޔަކު މަސައްކަތްކޮށް، އެއްބަސްވެވޭ ނިސްބަތަކުން ފައިދާ ބެހުން.
+- **މުޝާރަކާ:** ރައުސުލްމާލާއި ފައިދާގައި ބައިވެރިވުން.
+- **ޞުކޫކު:** މުދަލެއްގެ މިލްކުވެރިކަމުގެ ސެޓްފިކެޓު.
+- **ތަކާފުލް:** އެކުގައި ފަންޑަކަށް ބައިވެރިވާ، އެއްބައިވަންތަ އިންޝުއަރެންސް.
+
+## ދިވެހިރާއްޖޭގައި
+އިސްލާމީ ބޭންކިންގއާއި، ތަކާފުލާއި، ޞުކޫކު ރާއްޖޭގައި ލިބެން ހުރެއެވެ. ކޮންމެ ތަނެއްގައި ޚިދުމަތްތައް މުރާޖަޢާކުރާ ޝަރުޢީ ބޯޑެއް ހުރެއެވެ.
+
+## އަމިއްލަ ނިންމުންތަކަށް
+ޢަޤުދުގެ ނަމަށް ނޫން، އެ ޢަޤުދު ހިނގާ ގޮތް ބަލާށެވެ. އަމިއްލަ މައްސަލައަކަށް ޢިލްމުވެރިއެއްގެ ލަފާ ހޯދާށެވެ.
+
+@@ halal-food
+title_en: Halal and haram in food and drink
+title_dv: ކާބޯތަކެތީގައި ޙަލާލާއި ޙަރާމް
+ref: Quran 2:172-173; 5:3-5; 5:90; 5:96
+--- en
+The starting point is that food is lawful unless revelation forbids it. "Eat of the good things We have provided for you" (2:172).
+
+## What the Quran forbids
+- An animal that died without slaughter.
+- Blood that flows out.
+- Pork.
+- What was slaughtered in a name other than Allah's.
+- Wine and every intoxicant (5:90). The Prophet ﷺ said: "Whatever intoxicates in a large amount is forbidden in a small amount" (Abu Dawud 3681).
+
+The Sunnah adds predatory animals with fangs, birds of prey with talons, and domestic donkeys.
+
+## Seafood
+"Lawful to you is the game of the sea and its food" (5:96). In the Shafi'i school everything that lives only in water is halal, including shellfish, and it needs no slaughter. Of the sea the Prophet ﷺ said: "Its water is purifying and its dead are lawful" (Abu Dawud 83).
+
+## Slaughter
+A land animal must be slaughtered by a Muslim, or by a Jew or Christian, with a sharp blade that cuts the windpipe and gullet, while the animal is alive. Allah's name is mentioned. The animal should be treated gently and not see the blade.
+
+## Reading labels
+Check for alcohol, pork gelatine, lard and animal-derived additives of unknown source. A recognised halal certificate settles it. Medicines containing something unlawful are permitted when there is real need and no lawful alternative.
+
+## Necessity
+"Whoever is forced by necessity, neither desiring it nor exceeding the limit, there is no sin on him" (2:173).
+
+## Manners of eating
+Say Bismillah, eat with the right hand, eat from what is nearest you, do not waste, and praise Allah at the end.
+--- dv
+އަސާސަކީ، ވަޙީން ޙަރާމްނުކުރާހާ ހިނދަކު ކާނާއަކީ ޙަލާލު އެއްޗެއްކަމެވެ. "ތިމަންރަސްކަލާނގެ ތިޔަބައިމީހުންނަށް ދެއްވި ރަނގަޅު ތަކެތިން ކާށެވެ!" (2:172).
+
+## ޤުރުއާނުގައި ޙަރާމްކުރައްވާފައިވާ ތަކެތި
+- ކަތިލުމަކާ ނުލައި މަރުވި ޖަނަވާރު.
+- އޮހޮރޭ ލޭ.
+- އޫރުމަސް.
+- ﷲ ނޫން ފަރާތެއްގެ ނަމުގައި ކަތިލެވުނު ތަކެތި.
+- ރަލާއި މަސްތުކުރުވާ ކޮންމެ އެއްޗެއް (5:90). "ގިނައިން ބުއިމުން މަސްތުވާ އެއްޗެއްގެ މަދު މިންވަރުވެސް ޙަރާމެވެ" (އަބޫ ދާވޫދު 3681).
+
+ސުންނަތުން އިތުރުކުރައްވާފައިވަނީ ވަޅޯދަތް ހުންނަ ވަގު ޖަނަވާރުތަކާއި، ނިޔަފަތިން ޝިކާރަކުރާ ދޫނިތަކާއި، ގޭގައި ގެންގުޅޭ ޙިމާރެވެ.
+
+## ކަނޑުގެ ތަކެތި
+"ކަނޑުގެ ޝިކާރައާއި އޭގެ ކާނާ ތިޔަބައިމީހުންނަށް ޙަލާލުކުރެވިއްޖެއެވެ" (5:96). ޝާފިޢީ މަޛްހަބުގައި ހަމައެކަނި ފެނުގައި ދިރިއުޅޭ ހުރިހާ އެއްޗެއް ޙަލާލެވެ. ކަތިލުމެއް ބޭނުމެއް ނުވެއެވެ. ކަނޑާ ބެހޭގޮތުން ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: "އޭގެ ފެން ޠާހިރެވެ. އަދި އޭގެ މަރުވެފައިވާ ތަކެތި ޙަލާލެވެ" (އަބޫ ދާވޫދު 83).
+
+## ކަތިލުން
+އެއްގަމު ޖަނަވާރެއް ކަތިލަންވާނީ މުސްލިމަކު، ނުވަތަ އަހުލުކިތާބީއަކު، ތޫނު ވަޅިއަކުން، ޖަނަވާރު ދިރިހުއްޓައި، ނޭވާހޮޅިއާއި ކާހޮޅި ކަނޑައިގެންނެވެ. ﷲ ގެ އިސްމުފުޅު ކިޔަންވާނެއެވެ.
+
+## ލޭބަލް ކިޔުން
+އަލްކޮހޯލާއި، އޫރުގެ ޖެލަޓިނާއި، މަސްދަރު ނޭނގޭ ޖަނަވާރުގެ ބައިތައް ހުރިތޯ ބަލާށެވެ. ޤަބޫލުކުރެވޭ ޙަލާލު ސެޓްފިކެޓެއް ހުރުމުން އެކަން ޔަޤީންވެއެވެ.
+
+## ޟަރޫރަތް
+"މަޖުބޫރުވެއްޖެ މީހާ، ބޭނުންވެގެން ނޫން ގޮތަކަށް، އަދި ޙައްދުފަހަނަނާޅައި ކައިފިނަމަ، އޭނާގެ މައްޗަކަށް ފާފައެއް ނެތެވެ" (2:173).
+
+## ކެއުމުގެ އަދަބުތައް
+ބިސްމި ކިޔުމާއި، ކަނާތުން ކެއުމާއި، ކައިރީގައިވާ ތަކެތިން ކެއުމާއި، އިސްރާފުނުކުރުމާއި، ނިމުމުން ﷲ އަށް ޙަމްދުކުރުމެވެ.
+
+@@ contemporary-questions
+title_en: How scholars approach new questions
+title_dv: އައު މައްސަލަތަކާމެދު ޢިލްމުވެރިން ޢަމަލުކުރައްވާ ގޮތް
+--- en
+Organ donation, digital money, social media and moon-sighting by calculation were not met by the early jurists. The method for answering them, however, is old.
+
+## The method
+1. Understand the matter precisely, usually with experts in the field.
+2. Look for a text in the Quran or Sunnah that covers it directly.
+3. If there is none, reason by analogy and by the general rules and aims of the law, such as "harm is removed", "hardship brings ease" and "matters are judged by their purposes".
+4. Weigh benefit against harm.
+
+Today this is often done by councils rather than individuals, such as the International Islamic Fiqh Academy, and nationally by bodies like the fatwa council in the Maldives.
+
+## Some settled examples
+- **Medicine:** blood transfusion and most organ transplants are permitted with conditions by the major councils. Abortion is forbidden after the soul is breathed in at 120 days except to save the mother's life, and before that only for serious reason.
+- **Technology:** tools are judged by their use. A phone that carries the Quran also carries gossip; the ruling follows what you do with it. Posting others' faults, private images or unverified news is sinful as it would be offline.
+
+## Some live disagreements
+- **The new moon:** whether Ramadan begins by local sighting, a sighting anywhere, or astronomical calculation. Follow the announcement of your country's authorities, so the community fasts and celebrates together.
+- **Cryptocurrencies** and some forms of insurance and investment are still debated.
+
+## How to handle disagreement
+Take your religion from qualified, known scholars. Do not shop among fatwas for the easiest one, and do not attack those who follow another sound opinion. When unsure, the Prophet ﷺ advised: "Leave what makes you doubt for what does not" (Tirmidhi 2518).
+--- dv
+ގުނަވަން ހަދިޔާކުރުމާއި، ޑިޖިޓަލް ފައިސާއާއި، ސޯޝަލް މީޑިޔާއާއި، ހިސާބުން ހަނދު ބެލުން ފަދަ މައްސަލަތައް ކުރީގެ ފުޤަހާއުންނަށް ދިމާއެއް ނުވެއެވެ. ނަމަވެސް އެފަދަ މައްސަލަތަކަށް ޖަވާބު ހޯދާ މަންހަޖަކީ ކުރީއްސުރެ އޮތް މަންހަޖެކެވެ.
+
+## މަންހަޖު
+1. ދާއިރާގެ ޚަބީރުންގެ އެހީގައި މައްސަލަ ރަނގަޅަށް ދެނެގަތުން.
+2. ޤުރުއާނުން ނުވަތަ ސުންނަތުން ސީދާ ނައްޞެއް ހޯދުން.
+3. ނައްޞެއް ނެތްނަމަ، ޤިޔާސާއި ޝަރީޢަތުގެ ޢާންމު ޤަވާޢިދުތަކާއި މަޤްޞަދުތަކުން ދަލީލު ނެގުން. މިސާލަކަށް "ގެއްލުން ނައްތާލެވޭނެއެވެ"، "ދަތިކަމުން ފަސޭހަކަން ގެނެސްދެއެވެ".
+4. މަޞްލަޙަތާއި މަފްސަދާ ވަޒަންކުރުން.
+
+މިއަދު މިކަން ގިނައިން ކުރެވެނީ ބައިނަލްއަޤްވާމީ އިސްލާމީ ފިޤްހު އެކަޑަމީ ފަދަ މަޖިލީސްތަކުންނާއި، ޤައުމީ ފެންވަރުގައި ފަތުވާ މަޖިލީސްތަކުންނެވެ.
+
+## ނިމިފައިވާ ބައެއް މިސާލުތައް
+- **ޠިއްބު:** ލޭ އެޅުމާއި ގިނަ ބާވަތުގެ ގުނަވަން ބަދަލުކުރުން، ޝަރުޠުތަކަކާއެކު ހުއްދަކަމަށް ބޮޑެތި މަޖިލީސްތަކުން ނިންމާފައިވެއެވެ. 120 ދުވަހަށްފަހު، މަންމަގެ ފުރާނަ ސަލާމަތްކުރުމަށް މެނުވީ ދަރިމައިވުން ނައްތާލުން ޙަރާމެވެ.
+- **ޓެކްނޮލޮޖީ:** ޙުކުމްކުރެވެނީ ބޭނުންކުރާ ގޮތަކަށެވެ. އެހެން މީހުންގެ ޢައިބުތަކާއި، ޒާތީ ފޮޓޯތަކާއި، ސާބިތުނުވާ ޚަބަރު ފެތުރުމަކީ އިންޓަނެޓުގައިވެސް ފާފައެކެވެ.
+
+## ޚިލާފު އޮތް ބައެއް މައްސަލަތައް
+- **ހަނދު ބެލުން:** ރަމަޟާން މަސް ފެށެނީ ޤައުމުގައި ހަނދު ފެނުމުންތޯ، ކޮންމެ ތަނަކުން ފެނުމުންތޯ، ނުވަތަ ފަލަކީ ހިސާބުންތޯ. ޤައުމުގެ ވެރިންގެ އިޢުލާނަށް ތަބާވާށެވެ.
+- **ކްރިޕްޓޯކަރަންސީ** އާއި އިންޝުއަރެންސްގެ ބައެއް ބާވަތްތަކާމެދު އަދިވެސް ބަހުސްކުރެވެއެވެ.
+
+## ޚިލާފާމެދު ޢަމަލުކުރާނެ ގޮތް
+ދީން ނަގާނީ އެނގޭ، ޢިލްމުވެރިންގެ ކިބައިންނެވެ. އެންމެ ފަސޭހަ ފަތުވާ ހޯދަން ނޫޅޭށެވެ. ޝައްކުވާނަމަ: "ތިބާއަށް ޝައްކުވާ ކަންތައް ދޫކޮށް، ޝައްކުނުވާ ކަންތައް ކުރާށެވެ" (ތިރްމިޛީ 2518).
+
+%% daily-life | life | Family and daily life | ޢާއިލާއާއި ދުވަހުގެ ދިރިއުޅުން | Marriage, parents, good character, and what to do when someone dies. | ކައިވެންޏާއި، މައިންބަފައިންނާއި، ރިވެތި އަޚްލާޤާއި، މީހަކު މަރުވުމުން ކުރަންޖެހޭ ކަންތައް.
+
+@@ marriage
+title_en: Marriage in Islam
+title_dv: އިސްލާމްދީނުގައި ކައިވެނި
+ref: Quran 30:21; 4:19; 2:228
+--- en
+"Among His signs is that He created for you spouses from among yourselves so that you may find rest in them, and He placed between you love and mercy" (30:21).
+
+## Choosing
+The Prophet ﷺ advised choosing for religion and character above wealth, family or looks (Bukhari 5090). The two should see each other and agree freely; a marriage without the bride's consent is not valid.
+
+## The contract
+In the Shafi'i school a marriage needs:
+1. The **offer and acceptance**.
+2. The bride's **guardian** (*wali*), normally her father.
+3. **Two upright Muslim witnesses.**
+4. A bride and groom who are lawful for each other.
+
+The **mahr** is a gift from the groom that belongs to the bride alone. It is sunnah to announce the marriage and give a meal (*walimah*). In the Maldives the marriage is conducted and registered through the Family Court or island magistrate.
+
+## Rights and duties
+- The husband provides food, clothing and housing according to his means, and treats his wife with kindness. "Live with them honourably" (4:19).
+- Each owes the other faithfulness, good company and privacy.
+- Decisions are taken by consultation. The Prophet ﷺ said: "The best of you is the best to his family" (Tirmidhi 3895), and he helped with the housework.
+
+## When there is trouble
+The Quran sets out steps: advice, patience, then an arbiter from each family (4:35). Divorce is permitted as a last resort, with a waiting period that leaves room for reconciliation. Harm and abuse are never permitted.
+--- dv
+"ތިޔަބައިމީހުންނަށް ހަމަޖެހުން ލިބުމަށްޓަކައި، ތިޔަބައިމީހުންގެ ޖިންސުން އަނބިން ހެއްދެވުމާއި، ތިޔަބައިމީހުންގެ ދެމެދުގައި ލޯތްބާއި ރަޙްމަތް ލެއްވުމަކީ އެކަލާނގެ ޤުދުރަތުގެ ދަލީލުތަކުގެ ތެރެއިންނެވެ" (30:21).
+
+## ބައިވެރިއަކު ޚިޔާރުކުރުން
+މުދަލާއި، ނަސަބާއި، ރީތިކަމަށްވުރެ ދީނާއި އަޚްލާޤަށް އިސްކަން ދިނުމަށް ނަބިއްޔާ ﷺ ނަޞޭޙަތްދެއްވިއެވެ (ބުޚާރީ 5090). ދެމީހުން އެކަކު އަނެކަކު ދެކެ، މިނިވަންކަމާއެކު ރުހެންވާނެއެވެ. އަންހެންމީހާގެ ރުހުމަކާ ނުލައި ކުރާ ކައިވެންޏެއް ޞައްޙައެއް ނުވާނެއެވެ.
+
+## ޢަޤުދު
+ޝާފިޢީ މަޛްހަބުގައި ކައިވެންޏަށް ބޭނުންވަނީ:
+1. **އީޖާބާއި ޤަބޫލު**.
+2. އަންހެންމީހާގެ **ވަލީ**، ޢާންމުކޮށް ބައްޕަ.
+3. **ޢަދުލުވެރި ދެ މުސްލިމު ހެކިން.**
+4. ކައިވެނި ޙަލާލު ދެމީހުން.
+
+**ރަނަކީ** ފިރިމީހާ ދޭ، ހަމައެކަނި އަންހެންމީހާގެ މިލްކެވެ. ކައިވެނި އިޢުލާންކުރުމާއި ވަލީމާ ދިނުމަކީ ސުންނަތެކެވެ. ދިވެހިރާއްޖޭގައި ކައިވެނިކޮށްދީ ރަޖިސްޓްރީކުރަނީ ފެމިލީ ކޯޓު ނުވަތަ ރަށުގެ މެޖިސްޓްރޭޓް ކޯޓުންނެވެ.
+
+## ޙައްޤުތަކާއި ވާޖިބުތައް
+- ފިރިމީހާ އޭނާގެ ތަނަވަސްކަމުގެ މިންވަރުން ކާނާއާއި، ހެދުމާއި، ދިރިއުޅޭނެ ތަން ދޭންވާނެއެވެ. އަދި އަނބިމީހާއަށް ހެޔޮކޮށް ހިތަންވާނެއެވެ (4:19).
+- ދެމީހުންވެސް އެކަކު އަނެކަކަށް ވަފާތެރިވެ، ސިއްރުތައް ރައްކާތެރިކުރަންވާނެއެވެ.
+- ކަންކަން ނިންމާނީ މަޝްވަރާއިންނެވެ. "ތިޔަބައިމީހުންގެ ތެރެއިން އެންމެ ހެޔޮ މީހަކީ އޭނާގެ އަހުލުންނަށް އެންމެ ހެޔޮ މީހާއެވެ" (ތިރްމިޛީ 3895).
+
+## މައްސަލަ ޖެހުމުން
+ޤުރުއާނުގައި މަރުޙަލާތައް ބަޔާންވެފައިވެއެވެ: ނަޞޭޙަތް، ކެތް، އެއަށްފަހު ދެ ޢާއިލާއިން ޙަކަމުން (4:35). ވަރިއަކީ އެންމެ ފަހުގެ ޙައްލެވެ. އަނިޔާކުރުމަކީ ދުވަހަކުވެސް ހުއްދަ ކަމެއް ނޫނެވެ.
+
+@@ parents-character
+title_en: Parents, relatives and good character
+title_dv: މައިންބަފައިންނާއި، ގާތްތިމާގެ މީހުންނާއި، ރިވެތި އަޚްލާޤު
+ref: Quran 17:23-24; 31:14; 49:11-12
+--- en
+## Parents
+"Your Lord has decreed that you worship none but Him, and be good to parents. If one or both reach old age with you, do not say 'uff' to them or scold them, but speak to them with honour" (17:23). Kindness to parents is placed beside the worship of Allah.
+
+- Obey them in what is good; do not obey in sin, but stay gentle (31:15).
+- Serve them, especially in old age, and spend on them if they are in need.
+- The mother's right comes first, three times over (Bukhari 5971).
+- After they die: pray for them, give charity for them, honour their friends and keep their ties of kinship.
+
+## Relatives and neighbours
+Keeping ties with relatives lengthens life and widens provision (Bukhari 5986). Jibril urged the Prophet ﷺ so much about the neighbour that he thought neighbours might inherit. On a small island, where everyone is a neighbour, this is daily religion.
+
+## Good character
+The Prophet ﷺ said: "I was sent to perfect good character", and "Nothing is heavier on the scale than good character" (Tirmidhi 2002).
+
+- **Truthfulness** in speech and trade.
+- **Trustworthiness** with money, secrets and work.
+- **Guarding the tongue** from backbiting, slander and mockery (49:11-12).
+- **Modesty**, lowering the gaze and dressing decently.
+- **Mercy** to the young, respect for the old, kindness to animals.
+- **Controlling anger** and forgiving.
+
+## Lawful earning
+Earning a lawful living is part of the religion. Fishing, trade, tourism work and office work are all worship when done honestly. Give workers their wage before their sweat dries, and avoid cheating in weight, quality or time.
+--- dv
+## މައިންބަފައިން
+"ކަލޭގެފާނުގެ ވެރިރަސްކަލާނގެ އަމުރުކުރައްވާފައިވަނީ، އެކަލާނގެއަށް މެނުވީ އަޅުކަންނުކުރުމަށާއި، މައިންބަފައިންނަށް ހެޔޮކޮށް ހިތުމަށެވެ. ތިބާގެ ގާތުގައި އެދެމީހުންކުރެ މީހަކު ނުވަތަ ދެމީހުން މުސްކުޅިވެއްޖެނަމަ، އެދެމީހުންނަށް 'އުއްފު' ވެސް ނުބުނާށެވެ" (17:23).
+
+- ހެޔޮ ކަންކަމުގައި ކިޔަމަންވާށެވެ. ފާފައެއްގައި ކިޔަމަނެއް ނުވެވޭނެއެވެ. އެހެންނަމަވެސް މަޑުމައިތިރިކަން ދެމެހެއްޓާށެވެ (31:15).
+- ޚާއްޞަކޮށް މުސްކުޅި ދުވަސްވަރު ޚިދުމަތްކުރާށެވެ.
+- މަންމަގެ ޙައްޤު ތިން ގުނަ އިސްވެއެވެ (ބުޚާރީ 5971).
+- މަރުވުމަށްފަހު: ދުޢާކުރުމާއި، ޞަދަޤާތްކުރުމާއި، އެމީހުންގެ ރަޙްމަތްތެރިންނަށް އިޙްތިރާމުކުރުމާއި، ރަޙިމްގެ ގުޅުން ދެމެހެއްޓުން.
+
+## ގާތްތިމާގެ މީހުންނާއި އަވަށްޓެރިން
+ރަޙިމްގެ ގުޅުން ގުޅުވުމުން ޢުމުރު ދިގުވެ ރިޒުޤު ތަނަވަސްވެއެވެ (ބުޚާރީ 5986). އެންމެން އަވަށްޓެރިންކަމުގައިވާ ކުޑަ ރަށެއްގައި، އަވަށްޓެރިޔާގެ ޙައްޤު އަދާކުރުމަކީ ދުވަހުގެ ދީނެވެ.
+
+## ރިވެތި އަޚްލާޤު
+ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: "ރިވެތި އަޚްލާޤު ފުރިހަމަކުރުމަށްޓަކައި ތިމަންކަލޭގެފާނު ފޮނުއްވުނީއެވެ." "މީޒާނުގައި ރިވެތި އަޚްލާޤަށްވުރެ ބަރު އެއްޗެއް ނުވެއެވެ" (ތިރްމިޛީ 2002).
+
+- ބަހާއި ވިޔަފާރީގައި **ތެދުވެރިވުން**.
+- ފައިސާއާއި، ސިއްރާއި، މަސައްކަތުގައި **އަމާނާތްތެރިވުން**.
+- ޣީބައާއި، ބުހުތާނާއި، މަލާމާތުން **ދޫ ރައްކާތެރިކުރުން** (49:11-12).
+- **ލަދުވެތިކަން**.
+- ކުޑަކުދިންނަށް **އޯގާތެރިވުމާއި**، ބޮޑެތި މީހުންނަށް އިޙްތިރާމުކުރުމާއި، ޖަނަވާރުތަކަށް ހެޔޮކޮށް ހިތުން.
+- **ރުޅި މަޑުކުރުމާއި** މާފުކުރުން.
+
+## ޙަލާލު ރިޒުޤު
+މަސްވެރިކަމާއި، ވިޔަފާރިއާއި، ފަތުރުވެރިކަމުގެ މަސައްކަތާއި، އޮފީސް މަސައްކަތަކީވެސް، ތެދުވެރިކަމާއެކު ކުރާނަމަ އަޅުކަމެކެވެ. މަސައްކަތްތެރިޔާގެ ދާ ހިކުމުގެ ކުރިން އޭނާގެ އުޖޫރަ ދޭށެވެ.
+
+@@ death-janazah
+title_en: When someone dies: washing, shrouding, prayer and burial
+title_dv: މީހަކު މަރުވުމުން: ހިނެވުމާއި، ކަފުންކުރުމާއި، ކަށުނަމާދާއި، ވަޅުލުން
+ref: Muslim 916-918; Bukhari 1253; Quran 2:155-157
+--- en
+Caring for the dead is a communal obligation: if some do it, the rest are excused.
+
+## At the time of death
+Gently encourage the dying person to say *La ilaha illallah*. Afterwards close the eyes, cover the body, and say: *Inna lillahi wa inna ilayhi raji'un*. Settle the person's debts quickly and hurry the burial.
+
+## 1. Washing
+Men wash men and women wash women; spouses may wash each other. Cover the private area, press the stomach gently, clean, then wash the whole body an odd number of times, beginning with the right side and the places of wudu, with a little camphor in the last wash.
+
+## 2. Shrouding
+White cloths: three for a man, five for a woman in the Shafi'i school. One cloth that covers the body is the minimum.
+
+## 3. The funeral prayer
+It is prayed standing, with four takbirs and no bowing or prostration:
+1. After the first takbir: Al-Fatihah.
+2. After the second: salawat on the Prophet ﷺ, as in the tashahhud.
+3. After the third: dua for the deceased, such as *Allahummaghfir lahu warhamhu wa 'afihi wa'fu 'anhu* (O Allah, forgive him, have mercy on him, give him wellbeing and pardon him).
+4. After the fourth: a short dua, then the salam.
+
+## 4. Burial
+The body is laid on its right side facing the qiblah. Those present make dua that the deceased be made firm in the questioning.
+
+## For the family
+Grief and tears are natural; the Prophet ﷺ wept for his son. Wailing, tearing clothes and words of protest against the decree are forbidden. Visit and feed the family for the first days. A widow observes a waiting period of four months and ten days.
+
+## What still reaches the dead
+Ongoing charity, knowledge they left, and a righteous child who prays for them (Muslim 1631), as well as dua and charity given on their behalf.
+--- dv
+މައްޔިތާގެ ކަންތައްތައް ކުރުމަކީ ފަރުޟު ކިފާޔާއެކެވެ. ބަޔަކު އެކަން ކުރުމުން އެހެން މީހުންގެ މައްޗަކަށް ފާފައެއް ނެތެވެ.
+
+## މަރުވާ ވަގުތު
+މަރުވާން އުޅޭ މީހާ ގާތު މަޑުމައިތިރިކަމާއެކު *ލާ އިލާހަ އިއްލަﷲ* ކިޔައިދޭށެވެ. މަރުވުމުން ލޯ މަރައި، ހަށިގަނޑު ނިވާކޮށް، *އިންނާ ލިﷲި ވައިންނާ އިލައިހި ރާޖިޢޫން* ކިޔާށެވެ. އޭނާގެ ދަރަނި އަވަހަށް އަދާކޮށް، ވަޅުލުން އަވަސްކުރާށެވެ.
+
+## 1. ހިނެވުން
+ފިރިހެނުން ހިނަވާނީ ފިރިހެނުންނެވެ. އަންހެނުން ހިނަވާނީ އަންހެނުންނެވެ. އަނބިމީހާއާއި ފިރިމީހާ އެކަކު އަނެކަކު ހިނެވިދާނެއެވެ. ޢައުރަ ނިވާކޮށް، ބަނޑުގައި މަޑުމަޑުން ފިއްތައި، ސާފުކޮށް، ކަނާތް ފަރާތާއި ވުޟޫގެ ގުނަވަންތަކުން ފަށައިގެން، އޮނަހިރި ޢަދަދަކަށް މުޅި ހަށިގަނޑު ދޮންނާށެވެ.
+
+## 2. ކަފުންކުރުން
+ހުދު ފޮތި: ޝާފިޢީ މަޛްހަބުގައި ފިރިހެނަކަށް ތިން ފަށް، އަންހެނަކަށް ފަސް ފަށެވެ. މަދުވެގެން މުޅި ހަށިގަނޑު ނިވާވާ އެއް ފަށެވެ.
+
+## 3. ކަށުނަމާދު
+ކޮޅަށް ހުރެގެން، ހަތަރު ތަކްބީރާއެކު، ރުކޫޢާއި ސަޖިދައަކާ ނުލައި ކުރެވޭ ނަމާދެކެވެ:
+1. ފުރަތަމަ ތަކްބީރަށްފަހު: ފާތިޙާ.
+2. ދެވަނަ ތަކްބީރަށްފަހު: ނަބިއްޔާ ﷺ އަށް ޞަލަވާތް.
+3. ތިންވަނަ ތަކްބީރަށްފަހު: މައްޔިތާއަށް ދުޢާ، މިސާލަކަށް *ﷲުއްމަޣްފިރް ލަހޫ ވަރްޙަމްހު ވަޢާފިހީ ވަޢުފު ޢަންހު*.
+4. ހަތަރުވަނަ ތަކްބީރަށްފަހު: ކުރު ދުޢާއެއް، އެއަށްފަހު ސަލާމް.
+
+## 4. ވަޅުލުން
+ހަށިގަނޑު ކަނާތް އަރިމައްޗަށް، ޤިބްލައަށް ކުރިމަތިކޮށް ބާއްވާނީއެވެ. ޙާޟިރުވެ ތިބި މީހުން، ސުވާލުގައި މައްޔިތާ ސާބިތުކޮށްދެއްވުމަށް ދުޢާކުރާނީއެވެ.
+
+## ޢާއިލާއަށް
+ހިތާމަކުރުމާއި ރުއިމަކީ ޠަބީޢީ ކަމެކެވެ. ހަޅޭއްލަވައި ރުއިމާއި، ހެދުން ވީދުމާއި، ޤަދަރާ ދެކޮޅު ބަސް ބުނުން މަނާއެވެ. ފުރަތަމަ ދުވަސްތަކުގައި ޢާއިލާއަށް ޒިޔާރަތްކޮށް ކާންދޭށެވެ. ފިރިމީހާ މަރުވާ އަންހެނާގެ ޢިއްދައަކީ ހަތަރު މަހާއި ދިހަ ދުވަހެވެ.
+
+## މައްޔިތާއަށް ފޯރާ ޢަމަލުތައް
+ޞަދަޤަތުން ޖާރިޔާއާއި، ދޫކޮށްފައިދިޔަ ފައިދާހުރި ޢިލްމާއި، އޭނާއަށް ދުޢާކުރާ ޞާލިޙު ދަރިއެކެވެ (މުސްލިމް 1631).

@@ -1,0 +1,283 @@
+%% fiqh-daily | fiqh | Food, debts and children | ކާނާއާއި، ދަރަންޏާއި، ދަރިން | Slaughter and fishing, lending and found property, and the rights of children. | ކަތިލުމާއި މަސްވެރިކަމާއި، ދަރަންޏާއި ހޮވޭ ތަކެއްޗާއި، ދަރިންގެ ޙައްޤުތައް.
+
+@@ fiqh-slaughter-hunting
+title_en: Slaughter, hunting and fishing
+title_dv: ކަތިލުމާއި، ޝިކާރައާއި، މަސްވެރިކަން
+ref: Quran 5:1-5; 5:96; 6:118-121; Muslim 1955; Bukhari 5475
+--- en
+## Slaughter
+A land animal is lawful to eat only if slaughtered properly.
+- **Who:** a Muslim, or a Jew or Christian, who is sane and intends slaughter.
+- **How:** cut the windpipe and the gullet with a sharp blade while the animal is alive; cutting the two neck vessels as well is recommended.
+- **What to say:** *Bismillah, Allahu akbar*. In the Shafi'i school saying Allah's name is a strong sunnah, and the meat is lawful if a Muslim forgot it.
+- **Kindness:** sharpen the knife out of the animal's sight, do not slaughter one in front of another, and let it settle. "Allah has prescribed excellence in everything; when you slaughter, slaughter well" (Muslim 1955).
+
+An animal that dies by strangling, a blow, a fall or goring is unlawful unless slaughtered before it dies (5:3).
+
+## Hunting
+Game is lawful if brought down by a sharp weapon that pierces, or by a trained dog or bird released with Allah's name (Bukhari 5475). If you reach it alive, slaughter it. Hunting is forbidden to a person in ihram and within the sanctuaries of Makkah and Madinah, and killing for sport with no intention to eat is disliked.
+
+## Fishing
+"Lawful to you is the game of the sea and its food" (5:96). Fish and other sea creatures need no slaughter and are lawful however they die, whether caught by a Muslim or anyone else. This is why a fishing nation's daily catch is entirely halal.
+
+Good practice at sea: do not waste the catch, do not use methods that destroy the reef and its young fish, pay the crew their agreed share promptly, and do not let work delay the prayer beyond its time.
+--- dv
+## ކަތިލުން
+އެއްގަމު ޖަނަވާރެއް ކެއުން ޙަލާލުވާނީ ރަނގަޅު ގޮތުގައި ކަތިލުމުންނެވެ.
+- **ކަތިލާ މީހާ:** މުސްލިމަކު، ނުވަތަ އަހުލުކިތާބީއަކު.
+- **ގޮތް:** ޖަނަވާރު ދިރިހުއްޓައި، ތޫނު ވަޅިއަކުން ނޭވާހޮޅިއާއި ކާހޮޅި ކެނޑުން.
+- **ކިޔާނެ އެއްޗެއް:** *ބިސްމިﷲި، ﷲު އަކްބަރު*. ޝާފިޢީ މަޛްހަބުގައި ބިސްމި ކިޔުމަކީ ސުންނަތް މުއައްކަދާއެކެވެ.
+- **އޯގާތެރިކަން:** ޖަނަވާރަށް ނުފެންނާނެ ގޮތަށް ވަޅި ތޫނުކުރުން. "ކަތިލާއިރު ރަނގަޅު ގޮތުގައި ކަތިލާށެވެ!" (މުސްލިމް 1955).
+
+ކަރު ފިތިގެން، ތެޅިގެން، ވެއްޓިގެން މަރުވާ ޖަނަވާރު ޙަރާމެވެ. މަރުވުމުގެ ކުރިން ކަތިލެވިއްޖެނަމަ މެނުވީއެވެ (5:3).
+
+## ޝިކާރަކުރުން
+ﷲ ގެ އިސްމުފުޅު ކިޔައި، ތޫނު ހަތިޔާރަކުން ނުވަތަ ތަމްރީނުކޮށްފައިވާ ކުއްތާއަކުން ނުވަތަ ދޫންޏަކުން ކުރާ ޝިކާރަ ޙަލާލެވެ (ބުޚާރީ 5475). އިޙްރާމުގައި ހުންނަ މީހާއަށާއި ޙަރަމްފުޅުގެ ތެރޭގައި ޝިކާރަކުރުން ޙަރާމެވެ.
+
+## މަސްވެރިކަން
+"ކަނޑުގެ ޝިކާރައާއި އޭގެ ކާނާ ތިޔަބައިމީހުންނަށް ޙަލާލުކުރެވިއްޖެއެވެ" (5:96). މަހާއި ކަނޑުގެ އެހެން ދިރުންތަކަށް ކަތިލުމެއް ބޭނުމެއް ނުވެއެވެ. ބޭނި މީހަކީ މުސްލިމެއް ކަމުގައި ވިޔަސް ނުވިޔަސް ޙަލާލެވެ.
+
+ކަނޑުމަތީގެ ރިވެތި އާދަތައް: ބޭނި މަސް އިސްރާފުނުކުރުން، ފަރާއި ކުދި މަސް ހަލާކުކުރާ ގޮތްގޮތް ބޭނުންނުކުރުން، ފަޅުވެރިންގެ ބައި އަވަހަށް ދިނުން، އަދި މަސައްކަތުގެ ސަބަބުން ނަމާދު ވަގުތުން ފަސްނުކުރުން.
+
+@@ fiqh-loans-found
+title_en: Loans, pledges and found property
+title_dv: ދަރަންޏާއި، ރަހުނާއި، ހޮވޭ ތަކެތި
+ref: Quran 2:280-283; Bukhari 2387, 2427; Muslim 1563
+--- en
+## Lending
+Lending to someone in need is an act of worship, and may be better than charity because the borrower is usually in real need.
+
+- A loan is repaid **in the same amount**. Any agreed extra is riba. A gift offered freely at repayment, with no prior condition, is permitted and praiseworthy.
+- **Write it down** with the date and amount, and have it witnessed (2:282).
+- A lender should give time to a debtor in difficulty, and forgiving the debt is better (2:280).
+
+## Borrowing
+Borrow only for need and with a firm intention to repay. "Whoever takes people's wealth intending to repay it, Allah will repay it for him" (Bukhari 2387). Delay by one who is able to pay is injustice (Muslim 1564). Debt is so serious that the Prophet ﷺ at first would not lead the funeral prayer of a man who died owing money until someone took on the debt.
+
+## Pledges
+A lender may take an item as security (2:283). It stays the borrower's property, and the lender may not benefit from it, since that would be a gain on the loan. If the debt is not paid, the item is sold, the debt taken from the price and the rest returned.
+
+## Guaranteeing another's debt
+Standing surety is a good deed, and the guarantor becomes liable if the debtor does not pay. Do it only if you could bear the loss.
+
+## Found property
+If you find something of value:
+1. Note what it is, its container and how it was tied.
+2. **Announce it for a year** where people gather (Bukhari 2427). Today that includes notice boards, the police and social media.
+3. If the owner comes and describes it, hand it over.
+4. After a year you may use it, and you still owe its value if the owner appears.
+
+Small things people do not come back for may be kept. Items found in the sanctuary of Makkah must always be announced.
+--- dv
+## ދަރަނި ދިނުން
+ބޭނުންޖެހިފައިވާ މީހަކަށް ދަރަނި ދިނުމަކީ އަޅުކަމެކެވެ.
+
+- ދަރަނި އަދާކުރާނީ **ހަމަ އެ ޢަދަދަށެވެ**. އެއްބަސްވެވޭ ކޮންމެ އިތުރަކީ ރިބާއެވެ. ޝަރުޠަކާ ނުލައި، އަދާކުރާއިރު އަމިއްލައަށް ދޭ ހަދިޔާއެއް ހުއްދައެވެ.
+- ތާރީޚާއި ޢަދަދާއެކު **ލިޔެ**، ހެކިން ބަހައްޓާށެވެ (2:282).
+- ދަތި ޙާލުގައިވާ ދަރަނިވެރިޔާއަށް މުހުލަތު ދޭށެވެ. މާފުކުރުން މާރަނގަޅެވެ (2:280).
+
+## ދަރަނި ނެގުން
+ދަރަނި ނަގާނީ ބޭނުންޖެހިގެން، އަދާކުރުމުގެ ވަރުގަދަ ނިޔަތާއެކުގައެވެ (ބުޚާރީ 2387). ކުޅަދާނަކަން ހުރެ ލަސްކުރުމަކީ އަނިޔާއެކެވެ (މުސްލިމް 1564). ދަރަނި އޮވެ މަރުވި މީހެއްގެ ކަށުނަމާދުކުރުމަށް، މީހަކު އެ ދަރަންޏާ ޙަވާލުވަންދެން ނަބިއްޔާ ﷺ ފުރަތަމަ ދެކޮޅުހެއްދެވިއެވެ.
+
+## ރަހުނު
+ދަރަނި ދޭ މީހާއަށް ރަހުނެއްގެ ގޮތުގައި އެއްޗެއް ނެގިދާނެއެވެ (2:283). އެ އެއްޗަކީ ދަރަނިވެރިޔާގެ މިލްކެވެ. ދަރަނި ދިން މީހާއަށް އެއިން ފައިދާ ނެގުން ހުއްދައެއް ނޫނެވެ.
+
+## ކަފާލާތު
+އެހެން މީހެއްގެ ދަރަންޏަށް ޒިންމާވުމަކީ ހެޔޮ ކަމެކެވެ. ދަރަނިވެރިޔާ ނުދައްކައިފިނަމަ ޒިންމާވާ މީހާ ދައްކަންޖެހޭނެއެވެ.
+
+## ހޮވޭ ތަކެތި (ލުޤަޠާ)
+އަގުހުރި އެއްޗެއް ހޮވިއްޖެނަމަ:
+1. އެ އެއްޗާއި އޭގެ ސިފަތައް ނޯޓުކުރާށެވެ.
+2. މީހުން އެއްވާ ތަންތަނުގައި **އަހަރެއް ވަންދެން އިޢުލާންކުރާށެވެ** (ބުޚާރީ 2427).
+3. ވެރިޔާ އައިސް ސިފަ ކިޔައިދީފިނަމަ ޙަވާލުކުރާށެވެ.
+4. އަހަރަކަށްފަހު ބޭނުންކުރެވިދާނެއެވެ. ވެރިޔާ އައިސްފިނަމަ އޭގެ އަގު ދޭންޖެހޭނެއެވެ.
+
+@@ fiqh-children
+title_en: The rights of children
+title_dv: ދަރިންގެ ޙައްޤުތައް
+ref: Quran 66:6; 31:13-19; 2:233; Bukhari 2587; Abu Dawud 495
+--- en
+Children are a trust. "Each of you is a shepherd and each is answerable for his flock" (Bukhari 893).
+
+## At birth
+- The adhan is said softly in the baby's right ear.
+- A good name is chosen.
+- The **'aqiqah**: on the seventh day, if able, a sheep is sacrificed (two for a boy in the Shafi'i school), the hair is shaved and its weight in silver given in charity.
+- Boys are circumcised.
+- The mother nurses for up to two years if both parents agree, and the father provides for her and the child (2:233).
+
+## Growing up
+- **Provision:** food, clothing, housing and medical care are the father's duty until a son can earn and a daughter marries.
+- **Love shown openly.** The Prophet ﷺ kissed his grandsons, and told a man who never kissed his ten children: "Whoever shows no mercy is shown none" (Bukhari 5997).
+- **Fairness.** "Be mindful of Allah and treat your children equally" (Bukhari 2587). Favouring one in gifts breeds resentment.
+- **Teaching the religion:** the testimony of faith, the Quran, right from wrong. "Command your children to pray at seven", and by ten treat it as a firm duty and give them separate beds (Abu Dawud 495). Children learn most from watching their parents pray.
+- **Education and a skill** to earn a lawful living.
+- **Protection** from harm, bad company and what corrupts them, including what reaches them through a screen.
+
+## When parents separate
+Custody of a young child is normally the mother's unless she is unfit, and the father keeps paying maintenance. Neither parent may use the child against the other, and the child keeps the right to know and love both.
+
+## Orphans
+"I and the one who cares for an orphan will be like this in Paradise", and he held two fingers together (Bukhari 5304). An orphan's property is kept safe and handed over at maturity (4:6).
+--- dv
+ދަރިންނަކީ އަމާނާތެކެވެ. "ތިޔަބައިމީހުންގެ ކޮންމެ މީހަކީ ބެލެނިވެރިއެކެވެ. އަދި އޭނާގެ ބެލުމުގެ ދަށުގައިވާ މީހުންނާމެދު ޒިންމާދާރުވާނެއެވެ" (ބުޚާރީ 893).
+
+## އުފަންވުމުން
+- ތުއްތު ކުއްޖާގެ ކަނާތު ކަންފަތުގައި މަޑުމަޑުން ބަންގި ގޮވުން.
+- ރީތި ނަމެއް ކިޔުން.
+- **ޢަޤީޤާ**: ކުޅަދާނަވެއްޖެނަމަ ހަތްވަނަ ދުވަހު ކަންބަޅިއެއް ކަތިލުން (ޝާފިޢީ މަޛްހަބުގައި ފިރިހެން ކުއްޖަކަށް ދޭއް). ބޯ ބާލައި، އިސްތަށީގެ ބަރުދަނުގެ ރިހި ޞަދަޤާތްކުރުން.
+- ފިރިހެން ކުދިން ޚިތާނުކުރުން.
+- މަންމަ ދެ އަހަރާ ހަމައަށް ކިރުދިނުން. މަންމައާއި ދަރިފުޅަށް ޚަރަދުކުރުން ބައްޕަގެ މައްޗަށް ވާޖިބެވެ (2:233).
+
+## ބޮޑުވަމުން އަންނައިރު
+- **ޚަރަދުކުރުން:** ކާނާއާއި، ހެދުމާއި، ދިރިއުޅޭ ތަނާއި، ބޭސްފަރުވާއަކީ ބައްޕަގެ ވާޖިބެކެވެ.
+- **ލޯބި ފާޅުކުރުން.** "ރަޙުމްނުކުރާ މީހާއަށް ރަޙުމެއް ނުކުރެވޭނެއެވެ" (ބުޚާރީ 5997).
+- **ޢަދުލުވެރިވުން.** "ﷲ އަށް ތަޤްވާވެރިވެ، ތިޔަބައިމީހުންގެ ދަރިންގެ ދެމެދުގައި ޢަދުލުވެރިވާށެވެ!" (ބުޚާރީ 2587).
+- **ދީން ދަސްކޮށްދިނުން.** "ހަތް އަހަރުގައި ދަރިންނަށް ނަމާދަށް އަމުރުކުރާށެވެ!" (އަބޫ ދާވޫދު 495). ދަރިން އެންމެ ބޮޑަށް ދަސްކުރަނީ މައިންބަފައިން ނަމާދުކުރާތަން ފެނިގެންނެވެ.
+- **ތަޢުލީމާއި** ޙަލާލު ރިޒުޤު ހޯދޭނެ ހުނަރެއް.
+- ގެއްލުމާއި، ނުބައި ރަޙްމަތްތެރިންނާއި، ސްކްރީނުން ފޯރާ ފަސާދައިން **ރައްކާތެރިކުރުން**.
+
+## މައިންބަފައިން ވަކިވުމުން
+ކުޑަކުއްޖެއްގެ ޙަޟާނަތު ޢާންމުކޮށް ލިބެނީ މަންމައަށެވެ. ބައްޕަ ޚަރަދުކުރަމުން ގެންދަންވާނެއެވެ. ދެމައިންބަފައިންނަށްވެސް ލޯބިކުރުމުގެ ޙައްޤު ކުއްޖާއަށް ލިބިގެންވެއެވެ.
+
+## ޔަތީމުން
+"ތިމަންކަލޭގެފާނާއި ޔަތީމަކު ބަލަހައްޓާ މީހާ ސުވަރުގޭގައި މިފަދައިން ވާނެއެވެ" (ބުޚާރީ 5304). ޔަތީމުގެ މުދާ ރައްކާތެރިކޮށް، ބާލިޣުވުމުން ޙަވާލުކުރަންވާނެއެވެ (4:6).
+
+@@ scholar-ibn-kathir
+section: scholars
+title_en: Ibn Kathir
+title_dv: އިބްނު ކަޘީރު
+--- en
+**Isma'il ibn 'Umar ibn Kathir** (701-774 AH / 1301-1373 CE) was born near Busra in southern Syria. His father, a village preacher, died when he was a small child, and his elder brother took him to Damascus, where he spent the rest of his life.
+
+He studied law in the Shafi'i school, hadith under the great narrator-critic **al-Mizzi**, whose daughter he married, and was deeply influenced by **Ibn Taymiyyah**, beside whom he is buried. He taught in the main colleges of Damascus and lost his sight near the end of his life.
+
+Two of his works are read everywhere:
+
+- **Tafsir al-Qur'an al-'Azim**, known simply as *Tafsir Ibn Kathir*. In its introduction he sets out the method it follows: explain the Quran by the Quran, then by the Sunnah, then by the statements of the Companions and their students. He quotes the hadith with their chains and says which are sound. It is the most widely used classical commentary today and has been abridged and translated into many languages.
+- **Al-Bidayah wan-Nihayah**, "The Beginning and the End", a history running from the creation, through the prophets and the life of the Prophet ﷺ, year by year to his own time, and closing with the signs of the Hour.
+
+He also wrote on the sciences of hadith and a collection of the stories of the prophets, often printed separately.
+
+When you look up what an ayah means, his tafsir is usually the first place a teacher will send you.
+--- dv
+**އިސްމާޢީލް ބިން ޢުމަރު އިބްނު ކަޘީރު** (701-774 ހ / 1301-1373 މ) އުފަންވީ ޝާމުގެ ދެކުނުގައިވާ ބުޞްރާ ކައިރީގައެވެ. ކުޑައިރު ބައްޕާފުޅު އަވަހާރަވުމުން ބޭބޭފުޅު ދިމިޝްޤަށް ގެންދެވިއެވެ. ބާކީ ޢުމުރު ހޭދަކުރެއްވީ އެ ރަށުގައެވެ.
+
+ޝާފިޢީ މަޛްހަބުގެ ފިޤްހާއި، **މިއްޒީގެ** އަރިހުން ޙަދީޘް ކިޔަވައިވިދާޅުވިއެވެ. **އިބްނު ތައިމިއްޔާގެ** އަސަރު ބޮޑަށް ކުރިއެވެ. ދިމިޝްޤުގެ މަދަރުސާތަކުގައި ކިޔަވައިދެއްވިއެވެ.
+
+ދެ ފޮތެއް ހުރިހާ ތަނެއްގައި ކިޔެވެއެވެ:
+
+- **ތަފްސީރުލް ޤުރްއާނިލް ޢަޡީމް** (*ތަފްސީރު އިބްނި ކަޘީރު*). ޤުރުއާން ފުރަތަމަ ޤުރުއާނުން، ދެން ސުންނަތުން، ދެން ޞަޙާބީންނާއި ތާބިޢީންގެ ބަސްފުޅުން ތަފްސީރުކުރެއްވިއެވެ. މިއަދު އެންމެ ގިނައިން ބޭނުންކުރެވޭ ކުރީގެ ތަފްސީރެވެ.
+- **އަލްބިދާޔާ ވައްނިހާޔާ**، ހެއްދެވުމުގެ ފެށުމުން ފެށިގެން އެކަލޭގެފާނުގެ ޒަމާނާ ހަމައަށް ލިޔުއްވި ތާރީޚެވެ.
+
+*ޤަޞަޞުލް އަންބިޔާ* (ނަބީބޭކަލުންގެ ވާހަކަތައް) ވެސް އެކަލޭގެފާނުގެ މަސައްކަތެކެވެ.
+
+@@ scholar-ibn-al-qayyim
+section: scholars
+title_en: Ibn al-Qayyim
+title_dv: އިބްނުލް ޤައްޔިމް
+--- en
+**Muhammad ibn Abi Bakr**, known as **Ibn Qayyim al-Jawziyyah** (691-751 AH / 1292-1350 CE), was born in Damascus. His father was the superintendent (*qayyim*) of the Jawziyyah school, which gave him his name.
+
+At twenty-one he met **Ibn Taymiyyah** and stayed with him for sixteen years, until his teacher's death. He was imprisoned with him in the citadel of Damascus, where he spent his days reciting and reflecting on the Quran.
+
+He was a jurist and hadith scholar, and he is loved above all for writing about the heart with unusual warmth and clarity. His best-known books:
+
+- **Madarij as-Salikin**, on the stations of the journey to Allah: repentance, trust, patience, gratitude, love.
+- **Zad al-Ma'ad**, the Prophet's guidance in worship, daily life, war, and medicine.
+- **Al-Wabil as-Sayyib**, on the benefits of remembering Allah, of which he lists more than seventy.
+- **Ad-Da' wad-Dawa'**, "The Disease and the Cure", written in answer to someone asking how to escape a sin.
+- **I'lam al-Muwaqqi'in**, on legal reasoning and giving fatwa.
+- **'Uddat as-Sabirin**, on patience and gratitude.
+
+A line of his gives the flavour: the heart on its journey to Allah is like a bird, with love as its head and fear and hope as its two wings.
+
+His students included **Ibn Kathir** and **Ibn Rajab**. For a reader who wants to understand sincerity, sin and repentance in practical terms, his books are among the most useful ever written.
+--- dv
+**މުޙައްމަދު ބިން އަބީ ބަކުރު**، **އިބްނު ޤައްޔިމިލް ޖައުޒިއްޔާ** (691-751 ހ / 1292-1350 މ) އުފަންވީ ދިމިޝްޤުގައެވެ. ބައްޕާފުޅަކީ ޖައުޒިއްޔާ މަދަރުސާގެ ޤައްޔިމެވެ.
+
+އެކާވީސް އަހަރުގައި **އިބްނު ތައިމިއްޔާއާ** ބައްދަލުވެ، އުސްތާޛު އަވަހާރަވަންދެން ސޯޅަ އަހަރު އެކުގައި ހުންނެވިއެވެ. ދިމިޝްޤުގެ ކިއްލާގައި އެކުގައި ޖަލުގައި ހުންނެވިއެވެ.
+
+ފަޤީހެއް އަދި މުޙައްދިޘެކެވެ. އެންމެ ބޮޑަށް ލޯބިކުރެވެނީ ހިތާ ބެހޭގޮތުން ލިޔުއްވި ލިޔުއްވުންތަކުގެ ސަބަބުންނެވެ. މަޝްހޫރު ފޮތްތައް:
+
+- **މަދާރިޖުއްސާލިކީން**، ﷲ ގެ ޙަޟްރަތަށް ކުރާ ދަތުރުގެ މަންޒިލްތައް: ތައުބާ، ތަވައްކުލު، ކެތް، ޝުކުރު، ލޯބި.
+- **ޒާދުލް މަޢާދު**، އަޅުކަމާއި ދުވަހުގެ ދިރިއުޅުމުގައި ނަބިއްޔާ ﷺ ގެ ހަދްޔު.
+- **އަލްވާބިލުއްޞައްޔިބު**، ޛިކުރުގެ ފައިދާތައް.
+- **އައްދާއު ވައްދަވާއު**، ފާފައަކުން ސަލާމަތްވާނެ ގޮތާ ބެހޭ.
+- **އިޢުލާމުލް މުވައްޤިޢީން** އަދި **ޢުއްދަތުއްޞާބިރީން**.
+
+އެކަލޭގެފާނުގެ ބަސްފުޅެއް: ﷲ ގެ ޙަޟްރަތަށް ދަތުރުކުރާ ހިތަކީ ދޫންޏެއް ފަދަ އެއްޗެކެވެ. ލޯތްބަކީ އޭގެ ބޮލެވެ. ބިރާއި އުންމީދަކީ އޭގެ ދެ ފިޔައެވެ.
+
+ދަރިވަރުންގެ ތެރޭގައި **އިބްނު ކަޘީރާއި** **އިބްނު ރަޖަބު** ހިމެނެއެވެ.
+
+@@ history-mongols
+section: islamic-history
+title_en: The Mongol invasion and the recovery
+title_dv: މޮންގޯލުންގެ ހަމަލާއާއި އެއަށްފަހު
+--- en
+## The storm
+In 1219 the armies of **Genghis Khan** entered the Muslim lands of Central Asia. Bukhara, Samarqand, Merv and Nishapur, among the great cities of learning, were destroyed and their people killed in numbers the historians of the time could hardly bear to record.
+
+In 1258 his grandson **Hulagu** took **Baghdad**. The last Abbasid caliph was put to death, the population massacred, and the libraries emptied; it was said the Tigris ran dark with ink. Five centuries of Abbasid rule ended in a week. Many Muslims thought it was the end of their world.
+
+## The turning point
+Hulagu's army moved on through Syria. In September 1260, at **'Ayn Jalut** in Palestine, the Mamluk army of Egypt under **Qutuz** and **Baybars** met it and won. It was the first major defeat the Mongols had suffered, and they never took Egypt, the Hijaz or North Africa.
+
+## The conquerors convert
+The most remarkable event came next. Within two generations the Mongol rulers of the western lands accepted the religion of the people they had conquered: **Berke Khan** of the Golden Horde in the 1250s, and **Ghazan Khan** of Persia in 1295, with most of his army. Their descendants became patrons of mosques, schools and scholars, and later Muslim dynasties, including the Timurids and the Mughals of India, came from them.
+
+## What it teaches
+- Division and neglect had left the heartlands unable to defend themselves.
+- A civilisation carried in people's hearts, memories and teaching survived the loss of its capital and its books.
+- The faith won over its conquerors by conviction, with no power behind it.
+--- dv
+## ތޫފާން
+1219 ގައި **ޖެންގިޒް ޚާނުގެ** ލަޝްކަރުތައް މެދު އޭޝިޔާގެ މުސްލިމު ބިންތަކަށް ވަނެވެ. ޢިލްމުގެ ބޮޑެތި މަރުކަޒުތައް ކަމަށްވާ ބުޚާރާ، ސަމަރްޤަންދު، މަރްވު އަދި ނައިސާބޫރު ހަލާކުކޮށް، އެތަންތަނުގެ މީހުން ޤަތުލުކުރިއެވެ.
+
+1258 ގައި އޭނާގެ ކާފަދަރި **ހޫލާކޫ** **ބަޣްދާދު** ހިފިއެވެ. ފަހު ޢައްބާސީ ޚަލީފާ ޤަތުލުކޮށް، ރައްޔިތުން ޤަތުލުޢާންމުކޮށް، ލައިބްރަރީތައް ހަލާކުކުރިއެވެ. ފަސް ޤަރުނުގެ ޢައްބާސީ ވެރިކަން ހަފްތާއެއްގެ ތެރޭގައި ނިމުނެވެ.
+
+## ބަދަލުވި ހިސާބު
+1260 ގެ ސެޕްޓެންބަރު މަހު، ފަލަސްޠީނުގެ **ޢައިނު ޖާލޫތުގައި**، **ޤުޠުޒާއި** **ބައިބަރުސްގެ** ލީޑަރުކަމުގައި މިޞްރުގެ މަމްލޫކީ ލަޝްކަރު މޮންގޯލުން ބަލިކުރިއެވެ. އެއީ މޮންގޯލުންނަށް ލިބުނު ފުރަތަމަ ބޮޑު ބަލިއެވެ.
+
+## ފަތަޙަވެރިން އިސްލާމްވުން
+އެންމެ ޢަޖައިބު ކުރުވަނިވި ކަމަކީ ދެ ޖީލެއްގެ ތެރޭގައި ހުޅަނގު ސަރަޙައްދުތަކުގެ މޮންގޯލު ވެރިން، އެމީހުން ފަތަޙަކުރި މީހުންގެ ދީން ޤަބޫލުކުރުމެވެ: 1250 ގެ އަހަރުތަކުގައި **ބަރަކާ ޚާން**، އަދި 1295 ގައި ފާރިސްގެ **ޣާޒާން ޚާން**. އެމީހުންގެ ދަރިކޮޅުގެ މީހުން މިސްކިތްތަކާއި މަދަރުސާތަކަށް އެހީތެރިވިއެވެ.
+
+## ޢިބްރަތްތައް
+- ބައިބައިވުމާއި ފަރުވާކުޑަކުރުމުގެ ސަބަބުން އިސްލާމީ ބިންތަކަށް ދިފާޢުނުކުރެވުނެވެ.
+- މީހުންގެ ހިތްތަކާއި ހިތުދަސްކުރުމުގައި އޮތް ޙަޟާރަތެއް، ވެރިރަށާއި ފޮތްތައް ގެއްލުމުންވެސް ދެމިއޮތެވެ.
+- ބާރެއްގެ އެހީއަކާ ނުލައި، މި ދީން އޭގެ ފަތަޙަވެރިންގެ ހިތްތައް ފަތަޙަކުރިއެވެ.
+
+@@ history-west-africa
+section: islamic-history
+title_en: Islam in West Africa
+title_dv: ހުޅަނގު އެފްރިކާގައި އިސްލާމްދީން
+--- en
+## Across the desert
+Islam crossed the Sahara as it crossed the Indian Ocean: with merchants. From the eighth century, caravans carried salt south and gold north, and Muslim traders and teachers settled in the market towns of the Sahel. Rulers and townspeople accepted the faith gradually, over generations.
+
+## The empire of Mali
+In the thirteenth century the Mali empire rose along the Niger river. Its most famous ruler, **Mansa Musa** (reigned about 1312-1337), made the hajj in 1324 with a caravan of thousands. He gave away so much gold in Cairo that its price there fell for years, and Mali appeared on European maps with a king holding a nugget of gold. He returned with scholars and an Andalusian architect and built mosques and schools.
+
+## Timbuktu
+Under Mali and then the **Songhai** empire, **Timbuktu** became a city of scholars. The Sankore mosque was the centre of a network of teachers and students numbering in the thousands, studying Maliki law, Arabic grammar, astronomy and medicine. Books were the most valued goods in its market. Families preserved libraries of manuscripts that survive to this day; its best-known scholar, **Ahmad Baba** (died 1627), wrote more than forty works.
+
+## Later centuries
+Ibn Battutah visited Mali in 1352 and praised its people's justice, the safety of its roads and their care in memorising the Quran. In the early nineteenth century the scholar **'Uthman dan Fodio** led a movement of reform and learning in what is now northern Nigeria; his daughter **Nana Asma'u** organised the teaching of women across the region.
+
+## Why it matters
+Muslim history is wider than the Arab lands. Scholarship, trade and devotion flourished from the Niger to the Maldives, and each region added to a shared heritage.
+--- dv
+## ފަޅުތެރެ ހުރަސްކޮށް
+ހިންދު ކަނޑު ހުރަސްކުރި ފަދައިން، އިސްލާމްދީން ޞަޙްރާ ފަޅުވެސް ހުރަސްކުރީ ވިޔަފާރިވެރިންނާއެކުގައެވެ. އަށްވަނަ ޤަރުނުން ފެށިގެން ޤާފިލާތަކުން ދެކުނަށް ލޮނާއި އުތުރަށް ރަން އުފުލިއެވެ. މުސްލިމު ވިޔަފާރިވެރިންނާއި މުދައްރިސުން ބާޒާރު ރަށްތަކުގައި ވަޒަންވެރިވިއެވެ.
+
+## މާލީ ސަލްޠަނަތު
+ތޭރަވަނަ ޤަރުނުގައި ނައިޖަރު ކޯރު ކައިރީގައި މާލީ ސަލްޠަނަތު އުފެދުނެވެ. އެންމެ މަޝްހޫރު ވެރިޔާ **މަންސާ މޫސާ** (1312-1337 ހާއިރު) 1324 ގައި ހާސްގަނޑު މީހުންގެ ޤާފިލާއަކާއެކު ޙައްޖުކުރެއްވިއެވެ. ޤާހިރާގައި ޞަދަޤާތްކުރެއްވި ރަނުގެ ގިނަކަމުން، އެތަނުގައި ރަނުގެ އަގު އަހަރުތަކެއް ވަންދެން ވެއްޓުނެވެ. އެނބުރި ވަޑައިގެން މިސްކިތްތަކާއި މަދަރުސާތައް ބިނާކުރެއްވިއެވެ.
+
+## ތިންބުކްތޫ
+މާލީއާއި އެއަށްފަހު **ސޮންގާއީ** ސަލްޠަނަތުގެ ދަށުން **ތިންބުކްތޫ** ޢިލްމުވެރިންގެ ރަށަކަށް ވިއެވެ. ސަންކޯރޭ މިސްކިތުގައި ހާސްގަނޑު ދަރިވަރުން މާލިކީ ފިޤްހާއި، ޢަރަބި ބަހާއި، ފަލަކީ ޢިލްމާއި، ޠިއްބު ކިޔެވިއެވެ. ބާޒާރުގައި އެންމެ އަގުބޮޑު މުދަލަކީ ފޮތެވެ. އެންމެ މަޝްހޫރު ޢިލްމުވެރިޔާ **އަޙްމަދު ބާބާ** (ވަފާތު 1627) ސާޅީހަށްވުރެ ގިނަ ފޮތް ލިޔުއްވިއެވެ.
+
+## ފަހުގެ ޤަރުނުތައް
+އިބްނު ބަޠޫޠާ 1352 ގައި މާލީއަށް ޒިޔާރަތްކުރައްވައި، އެމީހުންގެ ޢަދުލުވެރިކަމާއި ޤުރުއާން ހިތުދަސްކުރުމަށް ދޭ އިސްކަމަށް ތަޢުރީފުކުރެއްވިއެވެ. ނަވާރަވަނަ ޤަރުނުގެ ކުރީކޮޅު ޢިލްމުވެރިޔާ **ޢުޘްމާން ދަން ފޯދިއޯ** އިޞްލާޙީ ޙަރަކާތެއް ހިންގެވިއެވެ. ދަރިކަނބަލުން **ނާނާ އަސްމާއު** އަންހެނުންނަށް ކިޔަވައިދިނުން އިންތިޒާމުކުރެއްވިއެވެ.
+
+## މުހިންމުކަން
+އިސްލާމީ ތާރީޚަކީ ޢަރަބި ބިންތަކަށްވުރެ ފުޅާ ތާރީޚެކެވެ. ނައިޖަރުން ފެށިގެން ދިވެހިރާއްޖެއާ ހަމައަށް ޢިލްމާއި، ވިޔަފާރިއާއި، ދީންވެރިކަން ކުރިއެރިއެވެ.

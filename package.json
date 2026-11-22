@@ -1,0 +1,13 @@
+{
+  "name": "dheen",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8787 --test-scheduled",
+    "deploy": "wrangler deploy",
+    "content": "node tools/build-content.mjs"
+  },
+  "dependencies": { "hono": "^4.13.19" },
+  "devDependencies": { "wrangler": "^4.166.0" }
+}

@@ -1,0 +1,564 @@
+%% sunnah-prayers | prayer | Tahajjud, Witr and other prayers | ތަހައްޖުދު، ވިތުރި އަދި އެހެނިހެން ނަމާދުތައް | Voluntary and occasional prayers, each explained step by step: when, how many rak'ahs, and what to say. | ސުންނަތް ނަމާދުތަކާއި ޚާއްޞަ ނަމާދުތައް، މަރުޙަލާއިން މަރުޙަލާއަށް: ވަގުތާއި، ރަކުޢަތުގެ އަދަދާއި، ކިޔާނެ އެއްޗެހި. | article
+
+@@ pray-tahajjud
+title_en: Tahajjud, the night prayer
+title_dv: ތަހައްޖުދު ނަމާދު (ރޭއަޅުކަން)
+--- en
+The best prayer after the five obligatory ones (Muslim 1163). In the last third of the night Allah descends to the nearest heaven and says, "Who is calling on Me, that I may answer? Who is asking of Me, that I may give? Who is seeking My forgiveness, that I may forgive?" (Bukhari 1145).
+
+**When:** any time after Isha until Fajr. The best time is the **last third of the night**. To find it, take the time from Maghrib to Fajr, divide by three, and count back from Fajr. In the Maldives this is roughly from 2 a.m. onwards. "Tahajjud" strictly means praying after having slept, but praying before you sleep also counts as night prayer.
+
+**How many:** two rak'ahs at a time, as many as you can. The Prophet ﷺ usually prayed eleven including Witr (Bukhari 1147). Two sincere rak'ahs are enough to begin.
+
+**Step by step**
+
+1. Before sleeping, intend to wake up, and sleep early. If you fear you will not wake, pray Witr before you sleep.
+2. On waking, wipe the sleep from your face, say the dua for waking, use the siwak or brush your teeth, and make wudu.
+3. Begin with **two short rak'ahs** (Muslim 768).
+4. Intend in your heart: "two rak'ahs of night prayer for Allah." No words are required.
+5. Pray each pair exactly like Fajr: Al-Fatihah and any surah in both rak'ahs, then tashahhud and salam. You may recite aloud or quietly; a moderate voice is best.
+6. Make the standing, bowing and prostration **long**. Recite what you know, even if it is only the short surahs, slowly.
+7. In sujud and after the salam, **make dua** for everything you need. This is the hour it is answered.
+8. Finish with **Witr** as your last prayer of the night.
+
+**If you miss it:** the Prophet ﷺ would pray twelve rak'ahs during the day instead (Muslim 746).
+
+**To make it last:** start with two rak'ahs ten minutes before Fajr. "The most beloved deeds to Allah are the most regular, even if small" (Bukhari 6464).
+--- dv
+ފަސް ފަރުޟު ނަމާދަށްފަހު އެންމެ މާތް ނަމާދެވެ (މުސްލިމް 1163). ރޭގަނޑުގެ ފަހު ތިންބައިކުޅަ އެއްބައިގައި ﷲ ވަޙީކުރައްވައެވެ: "އަހުރެންނަށް ދުޢާކުރާ މީހަކު ވޭހެއްޔެވެ؟ އަހުރެން އޭނާގެ ދުޢާ އިޖާބަކުރައްވާނަމެވެ. އަހުރެންގެ ކިބައިން އެދޭ މީހަކު ވޭހެއްޔެވެ؟ ފާފަފުއްސެވުމަށް އެދޭ މީހަކު ވޭހެއްޔެވެ؟" (ބުޚާރީ 1145).
+
+**ވަގުތު:** ޢިޝާ ނަމާދަށްފަހު ފަތިހާ ހަމައަށް. އެންމެ މާތް ވަގުތަކީ **ރޭގަނޑުގެ ފަހު ތިންބައިކުޅަ އެއްބައެވެ**. ދިވެހިރާއްޖޭގައި އެއީ ގާތްގަނޑަކަށް ދަންވަރު 2 ޖަހާއިރުން ފެށިގެންނެވެ. "ތަހައްޖުދު" ގެ އަސްލު މާނައަކީ ނިދުމަށްފަހު ހޭލައިގެން ކުރާ ނަމާދެވެ. ނަމަވެސް ނިދުމުގެ ކުރިން ކުރާ ނަމާދުވެސް ރޭއަޅުކަމުގެ ތެރޭގައި ހިމެނެއެވެ.
+
+**ރަކުޢަތުގެ އަދަދު:** ދެ ރަކުޢަތުން ދެ ރަކުޢަތުން، ކުޅަދާނަ ވަރަކަށް. ނަބިއްޔާ ﷺ ޢާންމުކޮށް ވިތުރިއާއެކު އެގާރަ ރަކުޢަތް ކުރައްވައެވެ (ބުޚާރީ 1147). ފެށުމަށް އިޚްލާޞްތެރި ދެ ރަކުޢަތް ފުދެއެވެ.
+
+**މަރުޙަލާއިން މަރުޙަލާއަށް**
+
+1. ނިދުމުގެ ކުރިން ހޭލުމަށް ނިޔަތްގަނެ، އަވަހަށް ނިދާށެވެ. ނުހޭލެވިދާނެކަމަށް ބިރުގަންނަ ނަމަ ނިދުމުގެ ކުރިން ވިތުރި ކުރާށެވެ.
+2. ހޭލުމުން، ހޭލާއިރު ކިޔާ ދުޢާ ކިޔައި، ދަތް އުނގުޅައި، ވުޟޫކުރާށެވެ.
+3. **ކުރު ދެ ރަކުޢަތުން** ފަށާށެވެ (މުސްލިމް 768).
+4. ހިތުން ނިޔަތްގަންނާށެވެ: "ﷲ އަށްޓަކައި ރޭއަޅުކަމުގެ ދެ ރަކުޢަތް." ދުލުން ކިޔާކަށް ނުޖެހެއެވެ.
+5. ކޮންމެ ދެ ރަކުޢަތެއް ފަތިސް ނަމާދު ފަދައިން ކުރާށެވެ: ދެ ރަކުޢަތުގައިވެސް ފާތިޙާއާއި ސޫރަތެއް، އެއަށްފަހު އައްތަޙިއްޔާތާއި ސަލާމް.
+6. ޤިޔާމާއި ރުކޫޢާއި ސަޖިދަ **ދިގުކުރާށެވެ**. ކުރު ސޫރަތްތައް ކަމުގައިވިޔަސް، އެނގޭ އެއްޗެއް މަޑުމަޑުން ކިޔަވާށެވެ.
+7. ސަޖިދައިގައާއި ސަލާމަށްފަހު، ބޭނުންވާ ހުރިހާ ކަމަކަށް **ދުޢާކުރާށެވެ**. މިއީ ދުޢާ ޤަބޫލުވާ ވަގުތެވެ.
+8. ރޭގަނޑުގެ އެންމެ ފަހު ނަމާދެއްގެ ގޮތުގައި **ވިތުރި** ކުރާށެވެ.
+
+**ފާއިތުވެއްޖެ ނަމަ:** ނަބިއްޔާ ﷺ ދުވާލު ބާރަ ރަކުޢަތް ކުރައްވައެވެ (މުސްލިމް 746).
+
+**ދެމެހެއްޓުމަށް:** ފަތިހުގެ ދިހަ މިނެޓު ކުރިން ދެ ރަކުޢަތުން ފަށާށެވެ. "ﷲ ގެ ޙަޟްރަތުގައި އެންމެ ލޯބިވެގެންވާ ޢަމަލަކީ މަދުވިޔަސް ދެމިހުންނަ ޢަމަލެވެ" (ބުޚާރީ 6464).
+
+@@ pray-witr
+title_en: Witr, the odd-numbered prayer that ends the night
+title_dv: ވިތުރި ނަމާދު
+--- en
+A strongly emphasised Sunnah that the Prophet ﷺ never left, at home or travelling. "Make Witr your last prayer of the night" (Bukhari 998).
+
+**When:** after Isha and before Fajr. Pray it before sleeping if you may not wake; at the end of the night if you will.
+
+**How many:** an odd number: one, three, five, seven, nine or eleven. Three is the usual practice.
+
+**Three rak'ahs, the way preferred in the Shafi'i school**
+
+1. Intend Witr and pray **two rak'ahs** like any Sunnah prayer. After Al-Fatihah recite **Al-A'la** (87) in the first and **Al-Kafirun** (109) in the second (Tirmidhi 462). End with tashahhud and salam.
+2. Stand and pray **one rak'ah on its own**. After Al-Fatihah recite **Al-Ikhlas** (112), and you may add Al-Falaq and An-Nas.
+3. Bow, rise, prostrate twice, sit for the tashahhud, and give the salam.
+
+Praying the three together with one tashahhud at the end is also valid. Avoid making it look exactly like Maghrib, with two tashahhuds (Al-Hakim 1/304).
+
+**The qunut.** In the Shafi'i school the qunut of Witr is said in the last rak'ah, after rising from ruku', **in the second half of Ramadan**. Raise your hands and say the same qunut you say in Fajr: *Allahummahdini fiman hadayt...* You will find it in "After the prayer" under Duas.
+
+**After the salam** say three times: **Subhanal-Malikil-Quddus** (Glory to the King, the Most Holy), raising your voice on the third (Nasa'i 1699).
+
+**If you already prayed Witr** and then wake for Tahajjud, pray in twos and do not repeat it: "There are no two Witrs in one night" (Tirmidhi 470).
+--- dv
+ނަބިއްޔާ ﷺ ރަށުގައި ހުންނަވައިގެންވެސް، ދަތުރުފުޅުގައިވެސް ދުވަހަކުވެސް ދޫކޮށްނުލައްވާ މުއައްކަދު ސުންނަތެކެވެ. "ރޭގަނޑުގެ އެންމެ ފަހު ނަމާދަކީ ވިތުރި ކަމުގައި ހަދާށެވެ" (ބުޚާރީ 998).
+
+**ވަގުތު:** ޢިޝާއަށްފަހު، ފަތިހުގެ ކުރިން. ނުހޭލެވިދާނެ ނަމަ ނިދުމުގެ ކުރިން ކުރާށެވެ.
+
+**ރަކުޢަތުގެ އަދަދު:** އޮނަހިރި އަދަދެއް: އެކެއް، ތިނެއް، ފަހެއް، ހަތެއް، ނުވައެއް ނުވަތަ އެގާރަ. ޢާންމުކޮށް ކުރަނީ ތިން ރަކުޢަތެވެ.
+
+**ތިން ރަކުޢަތް، ޝާފިޢީ މަޛްހަބުގައި އިސްކުރާ ގޮތަށް**
+
+1. ވިތުރީގެ ނިޔަތުގައި **ދެ ރަކުޢަތް** ކުރާށެވެ. ފާތިޙާއަށްފަހު ފުރަތަމަ ރަކުޢަތުގައި **ސޫރަތުލް އަޢުލާ** (87)، ދެވަނަ ރަކުޢަތުގައި **ސޫރަތުލް ކާފިރޫން** (109) ކިޔަވާށެވެ (ތިރްމިޛީ 462). އައްތަޙިއްޔާތު ކިޔައި ސަލާމްދޭށެވެ.
+2. ތެދުވެ **ވަކިން އެއް ރަކުޢަތް** ކުރާށެވެ. ފާތިޙާއަށްފަހު **ސޫރަތުލް އިޚްލާޞް** (112) ކިޔަވާށެވެ. ފަލަޤާއި ނާސް އިތުރުކުރެވިދާނެއެވެ.
+3. ރުކޫޢުކޮށް، ތެދުވެ، ދެ ސަޖިދަކޮށް، އައްތަޙިއްޔާތަށް އިށީނދެ ސަލާމްދޭށެވެ.
+
+ތިން ރަކުޢަތް އެއްކޮށް، ފަހުގައި އެއް އައްތަޙިއްޔާތާއެކު ކުރުންވެސް ޞައްޙައެވެ. ދެ އައްތަޙިއްޔާތާއެކު މަޣްރިބު ނަމާދާ އެއްގޮތްނުކުރާށެވެ.
+
+**ޤުނޫތު.** ޝާފިޢީ މަޛްހަބުގައި ވިތުރީގެ ޤުނޫތު ކިޔަނީ **ރަމަޟާން މަހުގެ ފަހު ދެބައިކުޅަ އެއްބައިގައި**، ފަހު ރަކުޢަތުގެ ރުކޫޢުން ތެދުވުމަށްފަހުއެވެ. ދެއަތް އުފުލައި ފަތިސް ނަމާދުގައި ކިޔާ ޤުނޫތު ކިޔާށެވެ.
+
+**ސަލާމަށްފަހު** ތިން ފަހަރު ކިޔާށެވެ: **ސުބްޙާނަލް މަލިކިލް ޤުއްދޫސް**. ތިންވަނަ ފަހަރު އަޑު އުފުލާށެވެ (ނަސާއީ 1699).
+
+**ވިތުރި ކުރުމަށްފަހު** ތަހައްޖުދަށް ހޭލައިފި ނަމަ ދެ ރަކުޢަތުން ދެ ރަކުޢަތުން ކުރާށެވެ. ވިތުރި ތަކުރާރުނުކުރާށެވެ: "އެއް ރެއަކު ދެ ވިތުރިއެއް ނުވެއެވެ" (ތިރްމިޛީ 470).
+
+@@ pray-rawatib
+title_en: The regular Sunnah prayers around the five
+title_dv: ފަރުޟު ނަމާދުތަކުގެ ރަވާތިބު ސުންނަތްތައް
+--- en
+"Whoever prays twelve rak'ahs in a day and night, a house is built for them in the Garden" (Muslim 728).
+
+**The twelve**
+
+- **2 before Fajr.** The lightest and most valuable: "better than the world and all it contains" (Muslim 725). Recite Al-Kafirun and Al-Ikhlas.
+- **4 before Dhuhr**, prayed as two and two, and **2 after**.
+- **2 after Maghrib.** Al-Kafirun and Al-Ikhlas again.
+- **2 after Isha.**
+
+**Also recommended** in the Shafi'i school: 2 more after Dhuhr, 4 before Asr (Tirmidhi 430), 2 before Maghrib and 2 before Isha, since "between every adhan and iqamah there is a prayer" (Bukhari 627).
+
+**How**
+
+1. Intend the Sunnah of that prayer, for example "two rak'ahs, Sunnah before Fajr".
+2. Pray two rak'ahs exactly like an obligatory prayer, reciting quietly.
+3. Give the salam after every two.
+
+Praying them at home is better, except when you are already in the mosque. If you miss the two before Fajr, pray them after the obligatory prayer or after sunrise.
+--- dv
+"ރެއާއި ދުވާލު ބާރަ ރަކުޢަތް ކުރާ މީހާއަށް ސުވަރުގޭގައި ގެއެއް ބިނާކުރެވެއެވެ" (މުސްލިމް 728).
+
+**ބާރަ ރަކުޢަތް**
+
+- **ފަތިހުގެ ކުރިން 2.** "ދުނިޔެއާއި އޭގައިވާ ހުރިހާ އެއްޗަކަށްވުރެ ހެޔޮ" (މުސްލިމް 725). ކާފިރޫން ސޫރަތާއި އިޚްލާޞް ސޫރަތް ކިޔަވާށެވެ.
+- **މެންދުރުގެ ކުރިން 4**، ދެ ރަކުޢަތުން ދެ ރަކުޢަތުން، އަދި **ފަހުން 2**.
+- **މަޣްރިބަށްފަހު 2.**
+- **ޢިޝާއަށްފަހު 2.**
+
+**ޝާފިޢީ މަޛްހަބުގައި އިތުރަށް ސުންނަތްވެގެންވާ:** މެންދުރަށްފަހު އިތުރު 2، ޢަޞްރުގެ ކުރިން 4 (ތިރްމިޛީ 430)، މަޣްރިބުގެ ކުރިން 2، ޢިޝާގެ ކުރިން 2 (ބުޚާރީ 627).
+
+**ކުރާނެ ގޮތް**
+
+1. އެ ނަމާދެއްގެ ސުންނަތުގެ ނިޔަތްގަންނާށެވެ. މިސާލަކަށް "ފަތިހުގެ ކުރީ ސުންނަތް ދެ ރަކުޢަތް".
+2. ފަރުޟު ނަމާދެއް ފަދައިން، ސިއްރުން ކިޔަވައިގެން ދެ ރަކުޢަތް ކުރާށެވެ.
+3. ކޮންމެ ދެ ރަކުޢަތަކަށްފަހު ސަލާމްދޭށެވެ.
+
+މިސްކިތުގައި ހުރެގެން ނޫނީ، ގޭގައި ކުރުން މާ ރަނގަޅެވެ. ފަތިހުގެ ކުރީ ދެ ރަކުޢަތް ފާއިތުވެއްޖެ ނަމަ ފަރުޟަށްފަހު ނުވަތަ އިރު އެރުމަށްފަހު ކުރާށެވެ.
+
+@@ pray-duha
+title_en: Duha, the forenoon prayer
+title_dv: ޟުޙާ ނަމާދު
+--- en
+Every joint in your body owes a charity each morning, and "two rak'ahs of Duha are enough for all of that" (Muslim 720).
+
+**When:** from about fifteen to twenty minutes after sunrise until about ten minutes before Dhuhr. The best time is when the day has grown hot, mid-morning (Muslim 748).
+
+**How many:** at least two. Four, six or eight are better; the Prophet ﷺ prayed eight on the day Makkah was opened (Bukhari 1176).
+
+**Step by step**
+
+1. Make wudu and intend "two rak'ahs of Duha".
+2. Pray two rak'ahs like Fajr, reciting quietly. Many recite **Ash-Shams** (91) and **Ad-Duha** (93), but any surah will do.
+3. Give the salam. Repeat in pairs if you wish to pray more.
+
+**Ishraq.** Whoever prays Fajr in congregation, sits remembering Allah until the sun has risen, then prays two rak'ahs has the reward of a complete Hajj and Umrah (Tirmidhi 586). This is the earliest Duha.
+--- dv
+ކޮންމެ ހެނދުނަކު ހަށިގަނޑުގެ ކޮންމެ ހުޅަކަށް ޞަދަޤާތެއް ދޭންޖެހެއެވެ. "ޟުޙާގެ ދެ ރަކުޢަތުން އެ ހުރިހާ ކަމެއް ފުދެއެވެ" (މުސްލިމް 720).
+
+**ވަގުތު:** އިރު އަރާތާ ފަނަރަ ވިހި މިނެޓު ފަހުން ފެށިގެން މެންދުރުގެ ދިހަ މިނެޓު ކުރިއާ ހަމައަށް. އެންމެ މާތް ވަގުތަކީ އިރު ގަދަވާ ވަގުތެވެ (މުސްލިމް 748).
+
+**ރަކުޢަތުގެ އަދަދު:** މަދުވެގެން ދޭއް. ހަތަރެއް، ހައެއް ނުވަތަ އަށެއް މާ ރަނގަޅެވެ (ބުޚާރީ 1176).
+
+**މަރުޙަލާއިން މަރުޙަލާއަށް**
+
+1. ވުޟޫކޮށް "ޟުޙާގެ ދެ ރަކުޢަތް" ގެ ނިޔަތްގަންނާށެވެ.
+2. ފަތިސް ނަމާދު ފަދައިން ސިއްރުން ކިޔަވައިގެން ދެ ރަކުޢަތް ކުރާށެވެ. ގިނަ މީހުން **ސޫރަތުއްޝަމްސް** (91) އާއި **ސޫރަތުއްޟުޙާ** (93) ކިޔަވައެވެ.
+3. ސަލާމްދޭށެވެ. އިތުރަށް ކުރަން ބޭނުން ނަމަ ދެ ރަކުޢަތުން ދެ ރަކުޢަތުން ކުރާށެވެ.
+
+**އިޝްރާޤު.** ފަތިސް ނަމާދު ޖަމާޢަތުގައި ކޮށް، އިރު އަރަންދެން ޛިކުރުކުރަން އިނދެ، ދެ ރަކުޢަތް ކުރާ މީހާއަށް ފުރިހަމަ ޙައްޖަކާއި ޢުމްރާއެއްގެ ސަވާބު ލިބެއެވެ (ތިރްމިޛީ 586).
+
+@@ pray-istikhara
+title_en: Istikharah, the prayer for a decision
+title_dv: އިސްތިޚާރާ ނަމާދު
+--- en
+When you face a lawful choice, such as a marriage, a job, a journey or a business deal, ask Allah to choose for you. The Prophet ﷺ taught it to his Companions "as he taught a surah of the Quran" (Bukhari 1166).
+
+**Step by step**
+
+1. First think it through and **ask people who know**. Istikharah goes with consultation, not instead of it.
+2. Make wudu and pray **two rak'ahs** of voluntary prayer, at any time prayer is allowed.
+3. After the salam, praise Allah, send blessings on the Prophet ﷺ, and say the **dua of Istikharah**. You will find it with its translation under Duas, in "Hardship, illness and decisions".
+4. Where the dua says *hadhal-amr*, "this matter", name your matter or think of it.
+5. Then **go ahead** with what seems best. If it is good for you Allah will make it easy; if not, He will turn it away from you and turn you away from it.
+
+**What it is not.** You do not need to see a dream, a colour or a sign. You do not need someone else to pray it for you. The answer is in how events unfold. You may repeat it if you are still unsure.
+
+It is not for things that are obligatory or forbidden: there is nothing to choose there.
+--- dv
+ކައިވެންޏެއް، ވަޒީފާއެއް، ދަތުރެއް ނުވަތަ ވިޔަފާރީގެ މުޢާމަލާތެއް ފަދަ ހުއްދަ ކަމެއްގައި ނިންމުމެއް ނިންމަންޖެހުމުން، ތިބާއަށްޓަކައި ޚިޔާރުކޮށްދެއްވުމަށް ﷲ ގެ ޙަޟްރަތުން އެދޭށެވެ. ނަބިއްޔާ ﷺ އަޞްޙާބުންނަށް މި ނަމާދު "ޤުރުއާނުގެ ސޫރަތެއް ދަސްކޮށްދެއްވާ ފަދައިން" ދަސްކޮށްދެއްވިއެވެ (ބުޚާރީ 1166).
+
+**މަރުޙަލާއިން މަރުޙަލާއަށް**
+
+1. ފުރަތަމަ ރަނގަޅަށް ވިސްނައި، **އެނގޭ މީހުންގެ ލަފާ ހޯދާށެވެ**. އިސްތިޚާރާއަކީ މަޝްވަރާގެ ބަދަލެއް ނޫނެވެ.
+2. ވުޟޫކޮށް، ނަމާދުކުރުން ހުއްދަ ކޮންމެ ވަގުތެއްގައި **ދެ ރަކުޢަތް** ސުންނަތް ނަމާދު ކުރާށެވެ.
+3. ސަލާމަށްފަހު ﷲ އަށް ޙަމްދުކޮށް، ޞަލަވާތް ކިޔައި، **އިސްތިޚާރާ ދުޢާ** ކިޔާށެވެ. ދުޢާތަކުގެ ތެރޭގައި "ދަތިކަމާއި، ބަލިކަމާއި، ނިންމުންތައް" ގައި އެ ދުޢާ ވާނެއެވެ.
+4. ދުޢާގައި *ހާޛަލް އަމްރު* އޮތް ތަނުގައި ތިބާގެ ކަންތައް ބުނާށެވެ.
+5. އެއަށްފަހު އެންމެ ރަނގަޅު ކަމަށް ފެންނަ ގޮތަށް **ކުރިއަށް ދާށެވެ**. ހެޔޮ ކަމެއް ނަމަ ﷲ ފަސޭހަކޮށްދެއްވާނެއެވެ. ނޫން ނަމަ ތިބާގެ ކިބައިން ދުރުކުރައްވާނެއެވެ.
+
+**މިއީ ނޫން ކަންތައް.** ހުވަފެނެއް، ކުލައެއް ނުވަތަ ނިޝާނެއް ފެންނާކަށް ނުޖެހެއެވެ. އެހެން މީހަކު ލައްވާ ކުރުވާކަށްވެސް ނުޖެހެއެވެ. ޖަވާބު ލިބެނީ ކަންތައް ދިމާވާ ގޮތުންނެވެ.
+
+@@ pray-tarawih
+title_en: Tarawih, the night prayer of Ramadan
+title_dv: ތަރާވީޙް ނަމާދު
+--- en
+"Whoever stands in prayer in Ramadan with faith, hoping for reward, has their past sins forgiven" (Bukhari 37). And "whoever stands with the imam until he finishes, it is written for him as a whole night of prayer" (Tirmidhi 806).
+
+**When:** after Isha and its Sunnah, before Witr, every night of Ramadan.
+
+**How many:** two rak'ahs at a time. **Twenty** is the practice of the Shafi'i school and of the mosques in the Maldives, established in the time of 'Umar. **Eight** is what Aishah described of the Prophet's ﷺ own night prayer (Bukhari 1147). Both are valid. Follow your imam and do not argue over it.
+
+**Step by step**
+
+1. Pray Isha and its two Sunnah rak'ahs.
+2. Intend "two rak'ahs of Tarawih" each time, following the imam if you are in congregation.
+3. Pray two rak'ahs with Al-Fatihah and a portion of Quran, recited aloud, then salam.
+4. Rest briefly after every four. Use the pause for dhikr or dua.
+5. Continue to eight or twenty.
+6. Finish with **Witr**, three rak'ahs, with the qunut in the second half of the month.
+
+**At home.** If you cannot go to the mosque, pray it at home, alone or with your family. Women may pray it at home or in the mosque. You may hold the mushaf or a phone to recite from if you have not memorised much.
+--- dv
+"އީމާންކަމާއެކު ސަވާބަށް އެދި ރަމަޟާން މަހު ޤިޔާމުކުރާ މީހާގެ ކުރީގެ ފާފަތައް ފުއްސަވައެވެ" (ބުޚާރީ 37). އަދި "އިމާމު ނިންމަންދެން އިމާމާއެކު ނަމާދުކުރާ މީހާއަށް މުޅި ރޭ ނަމާދުކުރުމުގެ ސަވާބު ލިޔެވެއެވެ" (ތިރްމިޛީ 806).
+
+**ވަގުތު:** ރަމަޟާން މަހުގެ ކޮންމެ ރެއަކު، ޢިޝާއާއި އޭގެ ސުންނަތަށްފަހު، ވިތުރީގެ ކުރިން.
+
+**ރަކުޢަތުގެ އަދަދު:** ދެ ރަކުޢަތުން ދެ ރަކުޢަތުން. **ވިހި ރަކުޢަތަކީ** ޝާފިޢީ މަޛްހަބުގެ އަދި ދިވެހިރާއްޖޭގެ މިސްކިތްތަކުގެ ޢަމަލެވެ. **އަށް ރަކުޢަތަކީ** ޢާއިޝާ ރިވާކުރެއްވި، ނަބިއްޔާ ﷺ ގެ ރޭއަޅުކަމެވެ (ބުޚާރީ 1147). ދެގޮތްވެސް ޞައްޙައެވެ. އިމާމާ ތަބާވެ، އެކަމާމެދު ޒުވާބުނުކުރާށެވެ.
+
+**މަރުޙަލާއިން މަރުޙަލާއަށް**
+
+1. ޢިޝާ ނަމާދާއި އޭގެ ދެ ރަކުޢަތް ސުންނަތް ކުރާށެވެ.
+2. ކޮންމެ ފަހަރަކު "ތަރާވީޙްގެ ދެ ރަކުޢަތް" ގެ ނިޔަތްގަންނާށެވެ.
+3. ފާތިޙާއާއި ޤުރުއާނުގެ ބައެއް އަޑުހަރުކޮށް ކިޔަވައިގެން ދެ ރަކުޢަތް ކޮށް ސަލާމްދޭށެވެ.
+4. ކޮންމެ ހަތަރު ރަކުޢަތަކަށްފަހު ކުޑަކޮށް އަރާމުކުރާށެވެ.
+5. އަށް ނުވަތަ ވިހި ރަކުޢަތަށް ކުރިއަށް ގެންދާށެވެ.
+6. **ވިތުރިން** ނިންމާށެވެ.
+
+**ގޭގައި.** މިސްކިތަށް ނުދެވޭ ނަމަ ގޭގައި، އެކަނި ނުވަތަ ޢާއިލާއާއެކު ކުރާށެވެ. ގިނައިން ހިތުދަސް ނޫން ނަމަ މުޞްޙަފުން ނުވަތަ ފޯނުން ބަލައިގެން ކިޔެވިދާނެއެވެ.
+
+@@ pray-eid
+title_en: The Eid prayer
+title_dv: ޢީދު ނަމާދު
+--- en
+Two rak'ahs with extra takbirs, prayed in congregation on the morning of Eid al-Fitr and Eid al-Adha. There is **no adhan and no iqamah**, and the khutbah comes **after** the prayer.
+
+**When:** from about fifteen minutes after sunrise until just before Dhuhr.
+
+**Step by step (Shafi'i school)**
+
+1. Intend "the Sunnah prayer of Eid al-Fitr (or Eid al-Adha), two rak'ahs, following the imam".
+2. Say the opening **Allahu akbar** with the imam and fold your hands. Say the opening dua.
+3. Then say **seven more takbirs**, raising your hands each time. Between each pair say quietly: *Subhanallah, walhamdulillah, wa la ilaha illallah, wallahu akbar.*
+4. The imam recites Al-Fatihah and a surah aloud, usually **Qaf** or **Al-A'la**. Listen.
+5. Bow and prostrate as usual and stand for the second rak'ah.
+6. After the takbir of standing up, say **five more takbirs** in the same way.
+7. The imam recites Al-Fatihah and **Al-Qamar** or **Al-Ghashiyah**.
+8. Complete the rak'ah, tashahhud and salam.
+9. **Stay for the khutbah.** It is two sermons, like Friday, and listening is part of the Sunnah.
+
+**If you forget the extra takbirs** or the imam does fewer, the prayer is still valid. Follow the imam.
+
+**If you miss the congregation,** pray it alone or at home in the same way, without a khutbah.
+
+See "Days and seasons" for what to do before and after the prayer on each Eid.
+--- dv
+އިތުރު ތަކްބީރުތަކާއެކު ކުރާ ދެ ރަކުޢަތެވެ. ފިޠުރު ޢީދާއި އަޟްޙާ ޢީދުގެ ހެނދުނު ޖަމާޢަތުގައި ކުރެއެވެ. **ބަންގިއެއް، ޤަމަތެއް ނުވެއެވެ.** ޚުޠުބާ އޮންނަނީ ނަމާދަށް**ފަހު**އެވެ.
+
+**ވަގުތު:** އިރު އަރާތާ ފަނަރަ މިނެޓު ފަހުން ފެށިގެން މެންދުރުގެ ކުރިއާ ހަމައަށް.
+
+**މަރުޙަލާއިން މަރުޙަލާއަށް (ޝާފިޢީ މަޛްހަބު)**
+
+1. "އިމާމާ ތަބާވެ، ފިޠުރު ޢީދުގެ (ނުވަތަ އަޟްޙާ ޢީދުގެ) ސުންނަތް ދެ ރަކުޢަތް" ގެ ނިޔަތްގަންނާށެވެ.
+2. އިމާމާއެކު ތަކްބީރަތުލް އިޙްރާމް ކިޔައި އަތް ބަނދެ، އިސްތިފްތާޙު ދުޢާ ކިޔާށެވެ.
+3. އެއަށްފަހު ކޮންމެ ފަހަރަކު ދެއަތް އުފުލައި **އިތުރު ހަތް ތަކްބީރު** ކިޔާށެވެ. ކޮންމެ ދެ ތަކްބީރެއްގެ ދެމެދު ސިއްރުން ކިޔާށެވެ: *ސުބްޙާނަﷲ، ވަލްޙަމްދު ލިއްލާހި، ވަލާ އިލާހަ އިއްލަﷲ، ވަﷲ އަކްބަރު.*
+4. އިމާމު ފާތިޙާއާއި ސޫރަތެއް އަޑުހަރުކޮށް ކިޔަވާނެއެވެ. ޢާންމުކޮށް **ޤާފް** ނުވަތަ **އަލްއަޢުލާ**. އަޑުއަހާށެވެ.
+5. ޢާންމު ގޮތަށް ރުކޫޢާއި ސަޖިދަކޮށް ދެވަނަ ރަކުޢަތަށް ތެދުވާށެވެ.
+6. ތެދުވުމުގެ ތަކްބީރަށްފަހު ހަމަ އެގޮތަށް **އިތުރު ފަސް ތަކްބީރު** ކިޔާށެވެ.
+7. އިމާމު ފާތިޙާއާއި **އަލްޤަމަރު** ނުވަތަ **އަލްޣާޝިޔާ** ކިޔަވާނެއެވެ.
+8. ރަކުޢަތް ފުރިހަމަކޮށް، އައްތަޙިއްޔާތު ކިޔައި ސަލާމްދޭށެވެ.
+9. **ޚުޠުބާއަށް މަޑުކުރާށެވެ.**
+
+**އިތުރު ތަކްބީރުތައް ހަނދާންނެތިއްޖެ ނަމަ** ނަމާދު ޞައްޙައެވެ. އިމާމާ ތަބާވާށެވެ.
+
+**ޖަމާޢަތް ނުލިބިއްޖެ ނަމަ** ހަމަ އެގޮތަށް، ޚުޠުބާއަކާ ނުލައި، އެކަނި ނުވަތަ ގޭގައި ކުރާށެވެ.
+
+@@ pray-jumuah
+title_en: Friday prayer, from home to salam
+title_dv: ހުކުރު ނަމާދު، ގެއިން ފެށިގެން ސަލާމާ ހަމައަށް
+--- en
+Obligatory on every adult Muslim man who is resident and well. It replaces Dhuhr. Women, travellers and the sick may attend and it counts for them; otherwise they pray Dhuhr.
+
+**Step by step**
+
+1. **Bathe**, cut your nails, wear clean clothes and perfume (Bukhari 883).
+2. **Go early**, walking if you can. The earlier you arrive, the greater the reward (Bukhari 881).
+3. Enter with your right foot and the dua for entering the mosque. Pray **two rak'ahs** of greeting the mosque before sitting, even if the khutbah has begun, and keep them short (Muslim 875).
+4. Sit and **listen in silence**. Do not talk, use your phone or tell someone else to be quiet: "If you say to your companion 'be quiet' while the imam is speaking, you have spoken idly" (Bukhari 934).
+5. Between the two khutbahs the imam sits briefly. Make dua quietly then.
+6. Stand for the prayer: **two rak'ahs** behind the imam, who recites aloud, usually Al-A'la and Al-Ghashiyah or Al-Jumu'ah and Al-Munafiqun.
+7. After the salam say your dhikr, then pray the Sunnah: **four rak'ahs in the mosque, or two at home** (Muslim 881, 882).
+
+**If you arrive late.** Catch at least the ruku' of the second rak'ah and you have caught Jumu'ah: add one rak'ah after the imam's salam. If you catch less than that, pray four rak'ahs as Dhuhr.
+
+**If you miss it entirely,** pray Dhuhr, four rak'ahs.
+
+See "Friday" under Days and seasons for the rest of the day's Sunnahs.
+--- dv
+ރަށުގައި ހުންނަ، ދުޅަހެޔޮ ކޮންމެ ބާލިޣު މުސްލިމު ފިރިހެނެއްގެ މައްޗަށް ފަރުޟެވެ. މެންދުރު ނަމާދުގެ ބަދަލުގައި ކުރެއެވެ. އަންހެނުންނާއި ދަތުރުވެރިންނާއި ބަލިމީހުން ހާޒިރުވެއްޖެ ނަމަ ފުދެއެވެ. ނޫން ނަމަ މެންދުރު ނަމާދު ކުރާނެއެވެ.
+
+**މަރުޙަލާއިން މަރުޙަލާއަށް**
+
+1. **ފެންވަރައި**، ނިޔަފަތި ކަނޑައި، ސާފު ހެދުން ލައި، ހުވަނދުލާށެވެ (ބުޚާރީ 883).
+2. **އަވަހަށް ދާށެވެ.** އަވަހަށް ދިޔަ ވަރަކަށް ސަވާބު ބޮޑެވެ (ބުޚާރީ 881).
+3. ކަނާތް ފައިން މިސްކިތަށް ވަދެ، އިށީނުމުގެ ކުރިން **ތަޙިއްޔަތުލް މަސްޖިދުގެ ދެ ރަކުޢަތް** ކުރާށެވެ. ޚުޠުބާ ފެށިފައިވިޔަސް ކުރުކޮށް ކުރާށެވެ (މުސްލިމް 875).
+4. އިށީނދެ **ހިމޭންކަމާއެކު އަޑުއަހާށެވެ**. ވާހަކަނުދައްކައި، ފޯނު ބޭނުންނުކޮށް، އެހެން މީހަކަށް ހިމޭންވުމަށްވެސް ނުބުނާށެވެ (ބުޚާރީ 934).
+5. ދެ ޚުޠުބާގެ ދެމެދު އިމާމު އިށީންނައިރު ސިއްރުން ދުޢާކުރާށެވެ.
+6. އިމާމުގެ ފަހަތުގައި **ދެ ރަކުޢަތް** ކުރާށެވެ.
+7. ސަލާމަށްފަހު ޛިކުރުކޮށް ސުންނަތް ކުރާށެވެ: **މިސްކިތުގައި ހަތަރު ރަކުޢަތް، ނުވަތަ ގޭގައި ދެ ރަކުޢަތް** (މުސްލިމް 881، 882).
+
+**ލަސްވެއްޖެ ނަމަ.** ދެވަނަ ރަކުޢަތުގެ ރުކޫޢު ލިބިއްޖެ ނަމަ ހުކުރު ލިބުނީއެވެ. އިމާމު ސަލާމްދިނުމަށްފަހު އެއް ރަކުޢަތް އިތުރުކުރާށެވެ. އެއަށްވުރެ މަދުން ލިބުނު ނަމަ މެންދުރު ނަމާދުގެ ގޮތުގައި ހަތަރު ރަކުޢަތް ކުރާށެވެ.
+
+**މުޅިން ފާއިތުވެއްޖެ ނަމަ** މެންދުރު ނަމާދު، ހަތަރު ރަކުޢަތް ކުރާށެވެ.
+
+@@ pray-tahiyyat-masjid
+title_en: Greeting the mosque, and the two rak'ahs after wudu
+title_dv: ތަޙިއްޔަތުލް މަސްޖިދާއި ވުޟޫއަށްފަހު ދެ ރަކުޢަތް
+--- en
+**Greeting the mosque (Tahiyyat al-Masjid)**
+
+"When one of you enters the mosque, let him not sit until he has prayed two rak'ahs" (Bukhari 444).
+
+1. Enter with your right foot, saying the dua for entering.
+2. Before you sit, intend "two rak'ahs greeting the mosque".
+3. Pray two short rak'ahs.
+
+If you enter and pray an obligatory or Sunnah prayer straight away, that counts as the greeting too. If the iqamah is called, join the congregation instead.
+
+**Two rak'ahs after wudu**
+
+"No Muslim makes wudu well, then stands and prays two rak'ahs with his heart and face turned fully to them, except that the Garden becomes due to him" (Muslim 234). This was the deed for which the Prophet ﷺ heard Bilal's footsteps ahead of him in the Garden (Bukhari 1149).
+
+1. Make wudu carefully and say the dua after it.
+2. While the limbs are still wet, pray two rak'ahs with full attention.
+--- dv
+**ތަޙިއްޔަތުލް މަސްޖިދު**
+
+"ތިޔަބައިމީހުންގެ ތެރެއިން މީހަކު މިސްކިތަށް ވަދެއްޖެ ނަމަ، ދެ ރަކުޢަތް ކުރުމުގެ ކުރިން ނީށިންނާށެވެ" (ބުޚާރީ 444).
+
+1. ވަންނައިރު ކިޔާ ދުޢާ ކިޔައި ކަނާތް ފައިން ވަންނާށެވެ.
+2. އިށީނުމުގެ ކުރިން "ތަޙިއްޔަތުލް މަސްޖިދުގެ ދެ ރަކުޢަތް" ގެ ނިޔަތްގަންނާށެވެ.
+3. ކުރު ދެ ރަކުޢަތް ކުރާށެވެ.
+
+ވަދެގެން ސީދާ ފަރުޟު ނުވަތަ ސުންނަތް ނަމާދެއް ކޮށްފި ނަމަ އެއިން ތަޙިއްޔަތުވެސް އަދާވެއެވެ. ޤަމަތް ދީފި ނަމަ ޖަމާޢަތާ ގުޅޭށެވެ.
+
+**ވުޟޫއަށްފަހު ދެ ރަކުޢަތް**
+
+"ރަނގަޅަށް ވުޟޫކޮށް، ހިތާއި މޫނު ފުރިހަމައަށް ކުރިމަތިކޮށްގެން ދެ ރަކުޢަތް ކުރާ ކޮންމެ މުސްލިމަކަށް ސުވަރުގެ ވާޖިބުވެއެވެ" (މުސްލިމް 234). ނަބިއްޔާ ﷺ ސުވަރުގޭގައި ބިލާލުގެފާނުގެ ފިޔަވަޅުގެ އަޑު އިވިވަޑައިގަތީ މި ޢަމަލުގެ ސަބަބުންނެވެ (ބުޚާރީ 1149).
+
+1. ސަމާލުކަމާއެކު ވުޟޫކޮށް، ވުޟޫއަށްފަހު ކިޔާ ދުޢާ ކިޔާށެވެ.
+2. ގުނަވަންތައް ތެތްކޮށް ހުއްޓާ، ފުރިހަމަ ސަމާލުކަމާއެކު ދެ ރަކުޢަތް ކުރާށެވެ.
+
+@@ pray-tawbah
+title_en: The prayer of repentance, and the prayer of need
+title_dv: ތައުބާގެ ނަމާދާއި ޙާޖަތުގެ ނަމާދު
+--- en
+**The prayer of repentance (Salat at-Tawbah)**
+
+"No servant commits a sin, then purifies himself well, stands and prays two rak'ahs, then asks Allah's forgiveness, except that Allah forgives him" (Abu Dawud 1521; Tirmidhi 406).
+
+1. **Stop the sin** and regret it.
+2. Make wudu and pray **two rak'ahs** at any time.
+3. After the salam, ask forgiveness in your own words, or with Sayyid al-Istighfar, the master dua of forgiveness.
+4. **Resolve not to return** to it.
+5. If you wronged a person, **put it right**: return what you took, ask their pardon.
+
+Do not delay because you fear you will fall again. If you do, repent again. "All the children of Adam err, and the best of those who err are those who repent" (Tirmidhi 2499).
+
+**When you need something (Salat al-Hajah)**
+
+The hadith that gives a special prayer and a fixed dua for needs is weak. What is firmly established is the general teaching: "Seek help through patience and prayer" (Quran 2:45), and that the Prophet ﷺ would turn to prayer whenever something troubled him (Abu Dawud 1319).
+
+1. Make wudu and pray two rak'ahs.
+2. In sujud and after the salam, praise Allah, send blessings on the Prophet ﷺ, and ask for your need plainly.
+3. Choose the times dua is answered: the last third of the night, between the adhan and iqamah, in sujud, and the last hour of Friday.
+--- dv
+**ތައުބާގެ ނަމާދު**
+
+"އަޅަކު ފާފައެއް ކޮށް، އެއަށްފަހު ރަނގަޅަށް ޠާހިރުވެ، ދެ ރަކުޢަތް ކޮށް، ﷲ ގެ ޙަޟްރަތުން ފާފަފުއްސެވުމަށް އެދިއްޖެ ނަމަ، ﷲ އޭނާއަށް ފުއްސަވައެވެ" (އަބޫ ދާވޫދު 1521؛ ތިރްމިޛީ 406).
+
+1. **ފާފަ ހުއްޓާލައި** ހިތާމަކުރާށެވެ.
+2. ވުޟޫކޮށް ކޮންމެ ވަގުތެއްގައި **ދެ ރަކުޢަތް** ކުރާށެވެ.
+3. ސަލާމަށްފަހު އަމިއްލަ ބަހުން، ނުވަތަ ސައްޔިދުލް އިސްތިޣްފާރުން ފާފަފުއްސެވުމަށް އެދޭށެވެ.
+4. **އަލުން ނުކުރުމަށް ޢަޒުމްކުރާށެވެ.**
+5. މީހަކަށް އަނިޔާއެއް ވެފައިވާ ނަމަ **އެކަން ރަނގަޅުކުރާށެވެ**.
+
+އަނެއްކާ ފާފަ ކުރެވިދާނެތީ ލަސްނުކުރާށެވެ. ކުރެވިއްޖެ ނަމަ އަލުން ތައުބާވާށެވެ. "އާދަމުގެ ހުރިހާ ދަރިންވެސް ކުށްކުރެއެވެ. ކުށްކުރާ މީހުންގެ ތެރެއިން އެންމެ ހެޔޮ މީހުންނަކީ ތައުބާވާ މީހުންނެވެ" (ތިރްމިޛީ 2499).
+
+**ކަމެއް ބޭނުންވުމުން (ޞަލާތުލް ޙާޖާ)**
+
+ޙާޖަތަށް ޚާއްޞަ ނަމާދަކާއި ކަނޑައެޅިފައިވާ ދުޢާއެއް އައިސްފައިވާ ޙަދީޘް ބަލިކަށްޓެވެ. ސާބިތުވެފައިވަނީ ޢާންމު ތަޢުލީމެވެ: "ކެތްތެރިކަމާއި ނަމާދުން އެހީ ހޯދާށެވެ" (ޤުރުއާން 2:45).
+
+1. ވުޟޫކޮށް ދެ ރަކުޢަތް ކުރާށެވެ.
+2. ސަޖިދައިގައާއި ސަލާމަށްފަހު، ﷲ އަށް ޙަމްދުކޮށް، ޞަލަވާތް ކިޔައި، ތިބާގެ ބޭނުން ސާފުކޮށް ދަންނަވާށެވެ.
+3. ދުޢާ ޤަބޫލުވާ ވަގުތުތައް ހޮވާށެވެ: ރޭގަނޑުގެ ފަހު ތިންބައިކުޅަ އެއްބައި، ބަންގިއާއި ޤަމަތާ ދެމެދު، ސަޖިދައިގައި، އަދި ހުކުރު ދުވަހުގެ ފަހު ގަޑި.
+
+@@ pray-eclipse
+title_en: The eclipse prayer
+title_dv: ކޭތަ ނަމާދު
+--- en
+"The sun and the moon are two of the signs of Allah. They are not eclipsed for the death or life of anyone. When you see it, call on Allah, say takbir, pray and give charity" (Bukhari 1044).
+
+**When:** from the start of a solar or lunar eclipse until it clears. Prayed in congregation at the mosque, with no adhan or iqamah; the call is *As-salatu jami'ah*.
+
+**How it differs:** two rak'ahs, but each has **two standings, two recitations and two bowings**.
+
+**Step by step**
+
+1. Intend "the eclipse prayer, two rak'ahs". Say Allahu akbar and the opening dua.
+2. Recite Al-Fatihah and a **long** portion of Quran.
+3. **Bow** for a long time.
+4. **Rise** saying *Sami'allahu liman hamidah*, then, instead of going down, recite **Al-Fatihah again** and another portion, shorter than the first.
+5. **Bow a second time**, shorter than the first.
+6. Rise, then make two long **prostrations**.
+7. Stand and pray the second rak'ah in the same way, each part a little shorter.
+8. Tashahhud and salam.
+9. The imam gives a **khutbah** reminding people to repent, pray and give charity.
+
+If you can only manage it as two ordinary rak'ahs, that is valid. Keep making dua and asking forgiveness until the eclipse ends. Never look at the sun directly.
+--- dv
+"އިރާއި ހަނދަކީ ﷲ ގެ އާޔަތްތަކުގެ ތެރެއިން ދެ އާޔަތެވެ. އެއްވެސް މީހެއްގެ މަރަކަށް ނުވަތަ ދިރުމަކަށް ކޭތައެއް ނުހިފައެވެ. ކޭތަ ފެނިއްޖެ ނަމަ ﷲ އަށް ދުޢާކޮށް، ތަކްބީރު ކިޔައި، ނަމާދުކޮށް، ޞަދަޤާތްކުރާށެވެ" (ބުޚާރީ 1044).
+
+**ވަގުތު:** އިރުކޭތަ ނުވަތަ ހަނދުކޭތަ ފެށުނީއްސުރެ ވިއްސަންދެން. ބަންގިއަކާއި ޤަމަތަކާ ނުލައި މިސްކިތުގައި ޖަމާޢަތުގައި ކުރެއެވެ.
+
+**ތަފާތު:** ދެ ރަކުޢަތެވެ. ނަމަވެސް ކޮންމެ ރަކުޢަތެއްގައި **ދެ ޤިޔާމާއި، ދެ ޤިރާއަތާއި، ދެ ރުކޫޢު** ވެއެވެ.
+
+**މަރުޙަލާއިން މަރުޙަލާއަށް**
+
+1. "ކޭތަ ނަމާދު، ދެ ރަކުޢަތް" ގެ ނިޔަތްގަނެ، ތަކްބީރު ކިޔައި އިސްތިފްތާޙު ދުޢާ ކިޔާށެވެ.
+2. ފާތިޙާއާއި ޤުރުއާނުގެ **ދިގު** ބައެއް ކިޔަވާށެވެ.
+3. ދިގުކޮށް **ރުކޫޢުކުރާށެވެ**.
+4. *ސަމިޢަﷲ ލިމަން ޙަމިދަހު* ކިޔައި **ތެދުވެ**، ސަޖިދައަށް ނުގޮސް، **އަލުން ފާތިޙާ** އާއި ފުރަތަމަ ބަޔަށްވުރެ ކުރު ބައެއް ކިޔަވާށެވެ.
+5. ފުރަތަމަ ރުކޫޢަށްވުރެ ކުރުކޮށް **ދެވަނަ ފަހަރަށް ރުކޫޢުކުރާށެވެ**.
+6. ތެދުވެ، ދިގު ދެ **ސަޖިދަ** ކުރާށެވެ.
+7. ތެދުވެ ހަމަ އެގޮތަށް ދެވަނަ ރަކުޢަތް ކުރާށެވެ.
+8. އައްތަޙިއްޔާތު ކިޔައި ސަލާމްދޭށެވެ.
+9. އިމާމު ތައުބާވުމަށާއި ޞަދަޤާތްކުރުމަށް ނަސޭހަތްދޭ **ޚުޠުބާ**އެއް ދޭނެއެވެ.
+
+އާދައިގެ ދެ ރަކުޢަތުގެ ގޮތުގައި ކުރިޔަސް ޞައްޙައެވެ. ދުވަހަކުވެސް ސީދާ އިރަށް ނުބަލާށެވެ.
+
+@@ pray-rain
+title_en: The prayer for rain
+title_dv: ވާރޭ ހޯދުމަށް ކުރާ ނަމާދު (އިސްތިސްޤާ)
+--- en
+When rain is withheld and people are in need, the community goes out together to ask Allah. For an island nation that depends on rainwater, this prayer is worth knowing.
+
+**Step by step**
+
+1. The imam names a day. Before it, people **repent, settle wrongs, give charity** and fast.
+2. Go out to an open ground in **humble, ordinary clothes**, not Eid finery, with the elderly and children (Tirmidhi 558).
+3. Pray **two rak'ahs like the Eid prayer**: seven extra takbirs in the first and five in the second, recited aloud. No adhan or iqamah.
+4. The imam gives a **khutbah** with much asking of forgiveness.
+5. Everyone faces the qiblah and makes **dua with hands raised high**, palms as usual or turned down.
+6. The imam and people **turn their cloaks** around, a sign of hoping that their state will be turned (Bukhari 1012).
+
+**A dua for rain:** *Allahumma aghithna, Allahumma aghithna, Allahumma aghithna.* "O Allah, send us rain" (Bukhari 1014).
+
+**When it rains:** say *Allahumma sayyiban nafi'a*, "O Allah, a beneficial downpour." **If it becomes too much:** *Allahumma hawalayna wa la 'alayna*, "O Allah, around us and not upon us" (Bukhari 1014).
+
+You may also simply ask for rain in the Friday khutbah or in your own dua, without the special prayer.
+--- dv
+ވާރޭ ނުވެހި މީސްތަކުންނަށް ދަތިވުމުން، މުޖުތަމަޢު އެކުގައި ނުކުމެ ﷲ ގެ ޙަޟްރަތުން ވާރޭ އެދެއެވެ. ވާރޭފެނަށް ބަރޯސާވާ ޖަޒީރާ ޤައުމަކަށް މި ނަމާދަކީ ދަންނަންވީ ނަމާދެކެވެ.
+
+**މަރުޙަލާއިން މަރުޙަލާއަށް**
+
+1. އިމާމު ދުވަހެއް ކަނޑައަޅާނެއެވެ. އޭގެ ކުރިން މީސްތަކުން **ތައުބާވެ، އަނިޔާތައް ރަނގަޅުކޮށް، ޞަދަޤާތްކޮށް** ރޯދަހިފާނެއެވެ.
+2. ޢީދުގެ ޒީނަތެއް ނޫން، **މަޑުމައިތިރި އާދައިގެ ހެދުމުގައި** ހުޅުވިފައިވާ ބިމަކަށް ނުކުންނާށެވެ (ތިރްމިޛީ 558).
+3. **ޢީދު ނަމާދު ފަދައިން ދެ ރަކުޢަތް** ކުރާށެވެ: ފުރަތަމަ ރަކުޢަތުގައި އިތުރު ހަތް ތަކްބީރު، ދެވަނަ ރަކުޢަތުގައި ފަސް ތަކްބީރު.
+4. އިމާމު ގިނައިން އިސްތިޣްފާރުކުރާ **ޚުޠުބާ**އެއް ދޭނެއެވެ.
+5. އެންމެން ޤިބްލައަށް ކުރިމަތިލައި **ދެއަތް މައްޗަށް އުފުލައިގެން ދުޢާކުރާނެއެވެ**.
+6. އިމާމާއި މީސްތަކުން **ރިދާ އަނބުރާލާނެއެވެ** (ބުޚާރީ 1012).
+
+**ވާރެއަށް އެދި ކުރާ ދުޢާ:** *ﷲއްމަ އަޣިޘްނާ، ﷲއްމަ އަޣިޘްނާ، ﷲއްމަ އަޣިޘްނާ.* "އޭ ﷲ! އަޅަމެންނަށް ވާރޭ ވެއްސަވާނދޭވެ" (ބުޚާރީ 1014).
+
+**ވާރޭ ވެހުމުން:** *ﷲއްމަ ޞައްޔިބަން ނާފިޢާ*. **މާ ބޮޑުވެއްޖެ ނަމަ:** *ﷲއްމަ ޙަވާލައިނާ ވަލާ ޢަލައިނާ* (ބުޚާރީ 1014).
+
+@@ pray-sujud-tilawah
+title_en: The prostrations of recitation and of thanks
+title_dv: ތިލާވަތުގެ ސަޖިދައާއި ޝުކުރުގެ ސަޖިދަ
+arabic: سَجَدَ وَجْهِي لِلَّذِي خَلَقَهُ، وَشَقَّ سَمْعَهُ وَبَصَرَهُ، بِحَوْلِهِ وَقُوَّتِهِ
+translit: Sajada wajhi lilladhi khalaqahu, wa shaqqa sam'ahu wa basarahu, bihawlihi wa quwwatih.
+ref: Tirmidhi 580; Abu Dawud 1414
+--- en
+**The prostration of recitation (Sajdat at-Tilawah)**
+
+There are fourteen places in the Quran, in the Shafi'i count, where the reader and the listener prostrate. The mushaf marks them with ۩. "When the son of Adam recites a verse of prostration and prostrates, Satan withdraws weeping" (Muslim 81).
+
+**Outside the prayer**
+
+1. Have wudu and face the qiblah.
+2. Intend it, say **Allahu akbar** raising your hands, then **Allahu akbar** again as you go down.
+3. Make **one prostration**. Say *Subhana Rabbiyal-A'la* three times, and the dua above: *My face has prostrated to the One who created it and opened its hearing and sight, by His power and strength.*
+4. Rise saying Allahu akbar, sit, and give the salam.
+
+**Inside the prayer:** on reciting the verse, say Allahu akbar, go straight down into one prostration, rise saying Allahu akbar and continue reciting. Follow your imam.
+
+**The prostration of thanks (Sajdat ash-Shukr)**
+
+When good news reached the Prophet ﷺ he would fall prostrate in thanks to Allah (Abu Dawud 2774). Do it the same way as the prostration of recitation, outside the prayer only, when a blessing arrives or a harm is lifted.
+--- dv
+**ތިލާވަތުގެ ސަޖިދަ**
+
+ޝާފިޢީ މަޛްހަބުގެ ގުނުމުގައި ޤުރުއާނުގައި ސާދަ ތަނެއްގައި، ކިޔަވާ މީހާއާއި އަޑުއަހާ މީހާ ސަޖިދަކުރެއެވެ. މުޞްޙަފުގައި ۩ މި ނިޝާނުން ފާހަގަކޮށްފައިވެއެވެ (މުސްލިމް 81).
+
+**ނަމާދުން ބޭރުގައި**
+
+1. ވުޟޫ ހުރެ ޤިބްލައަށް ކުރިމަތިލާށެވެ.
+2. ނިޔަތްގަނެ، ދެއަތް އުފުލައި **ﷲ އަކްބަރު** ކިޔައި، ތިރިވަމުން އަނެއްކާ **ﷲ އަކްބަރު** ކިޔާށެވެ.
+3. **އެއް ސަޖިދަ** ކުރާށެވެ. ތިން ފަހަރު *ސުބްޙާނަ ރައްބިޔަލް އަޢުލާ* ކިޔައި، މަތީގައިވާ ދުޢާ ކިޔާށެވެ: *އަހަރެންގެ މޫނު ހައްދަވައި، އޭގެ އިވުމާއި ފެނުން ހުޅުއްވައިދެއްވި ފަރާތަށް އަހަރެންގެ މޫނު ސަޖިދަކޮށްފިއެވެ.*
+4. ﷲ އަކްބަރު ކިޔައި ތެދުވެ، އިށީނދެ ސަލާމްދޭށެވެ.
+
+**ނަމާދުގެ ތެރޭގައި:** އާޔަތް ކިޔެވުމުން ﷲ އަކްބަރު ކިޔައި ސީދާ ސަޖިދައަށް ގޮސް، ﷲ އަކްބަރު ކިޔައި ތެދުވެ ކިޔެވުން ކުރިއަށް ގެންދާށެވެ.
+
+**ޝުކުރުގެ ސަޖިދަ**
+
+ނަބިއްޔާ ﷺ އަށް އުފާވެރި ޚަބަރެއް ލިބުމުން ﷲ އަށް ޝުކުރުގެ ގޮތުން ސަޖިދަކުރައްވައެވެ (އަބޫ ދާވޫދު 2774). ނިޢުމަތެއް ލިބުމުން ނުވަތަ ގެއްލުމެއް ފިލުމުން، ނަމާދުން ބޭރުގައި، ތިލާވަތުގެ ސަޖިދަ ފަދައިން ކުރާށެވެ.
+
+@@ pray-sick
+title_en: Praying when you are ill, seated or lying down
+title_dv: ބަލިވެ އޮވެ، އިށީނދެގެން ނުވަތަ އޮވެގެން ނަމާދުކުރުން
+--- en
+The prayer is never dropped while the mind is sound. "Pray standing. If you cannot, then sitting. If you cannot, then on your side" (Bukhari 1117).
+
+**Sitting**
+
+1. If standing harms you or you cannot manage it, sit on the floor or **on a chair**.
+2. Stand for the parts you can. If you can stand but cannot bow or prostrate, stand and gesture.
+3. For **ruku'**, lean forward a little. For **sujud**, lean further than you did for ruku'. If you can reach the ground, prostrate properly.
+4. Do not lift a pillow or object to your forehead.
+
+**Lying down**
+
+1. Lie on your **right side facing the qiblah**. If that is not possible, on your back with your feet towards the qiblah and your head raised a little.
+2. Gesture with your head for ruku' and lower for sujud. If you cannot move your head, pray with your eyes, then with your heart.
+
+**Purification.** If water harms you or you cannot reach it, make **tayammum** with clean earth. If you cannot do either, pray as you are.
+
+**Easing the times.** A sick person for whom praying each prayer at its time is very hard may **combine** Dhuhr with Asr and Maghrib with Isha. They are not shortened.
+
+**The reward is complete.** "When a servant is ill or travels, there is written for him what he used to do when resident and well" (Bukhari 2996).
+--- dv
+ބުއްދި ރަނގަޅަށް ހުރިހާ ހިނދަކު ނަމާދު ދުވަހަކުވެސް ނުކެނޑެއެވެ. "ކޮޅަށް ހުރެގެން ނަމާދުކުރާށެވެ. ނުކުޅެދިއްޖެ ނަމަ އިށީނދެގެން. އެގޮތަށްވެސް ނުކުޅެދިއްޖެ ނަމަ އަރިއަކަށް އޮވެގެން" (ބުޚާރީ 1117).
+
+**އިށީނދެގެން**
+
+1. ކޮޅަށް ހުރުމުން ގެއްލުމެއް ވާ ނަމަ ނުވަތަ ނުހުރެވޭ ނަމަ ބިންމަތީގައި ނުވަތަ **ގޮނޑިއެއްގައި** އިށީންނާށެވެ.
+2. ކުޅަދާނަ ބައިތަކުގައި ކޮޅަށް ހުންނާށެވެ.
+3. **ރުކޫޢަށް** ކުޑަކޮށް ކުރިއަށް ގުދުވާށެވެ. **ސަޖިދައަށް** ރުކޫޢަށްވުރެ ބޮޑަށް ގުދުވާށެވެ. ބިމާ ހަމައަށް ދެވޭ ނަމަ ރަނގަޅަށް ސަޖިދަކުރާށެވެ.
+4. ނިތަށް ބާލީހެއް ނުވަތަ އެއްޗެއް ނުއުފުލާށެވެ.
+
+**އޮވެގެން**
+
+1. **ޤިބްލައަށް ކުރިމަތިލައި ކަނާތް އަރިއަށް** އޮންނާށެވެ. ނުކުޅެދިއްޖެ ނަމަ ފައި ޤިބްލައަށް ވާގޮތަށް އުއްޑުން އޮންނާށެވެ.
+2. ރުކޫޢަށް ބޮލުން އިޝާރާތްކޮށް، ސަޖިދައަށް އެއަށްވުރެ ތިރިކުރާށެވެ. ބޯ ހަރަކާތް ނުކުރެވޭ ނަމަ ލޮލުން، އެއަށްފަހު ހިތުން ނަމާދުކުރާށެވެ.
+
+**ޠަހާރަތު.** ފެނުން ގެއްލުމެއް ވާ ނަމަ ނުވަތަ ފެން ނުލިބޭ ނަމަ **ތަޔައްމުމު** ކުރާށެވެ.
+
+**ވަގުތު ފަސޭހަކުރުން.** ކޮންމެ ނަމާދެއް އޭގެ ވަގުތުގައި ކުރުން ވަރަށް ދަތިވާ ބަލިމީހާއަށް މެންދުރާއި ޢަޞްރު، އަދި މަޣްރިބާއި ޢިޝާ **ޖަމްޢު**ކުރެވިދާނެއެވެ. ޤަޞްރެއް ނުކުރެވޭނެއެވެ.
+
+**ސަވާބު ފުރިހަމައެވެ.** "އަޅަކު ބަލިވެއްޖެ ނަމަ ނުވަތަ ދަތުރުކޮށްފި ނަމަ، ދުޅަހެޔޮކޮށް ރަށުގައި ހުރިއިރު ކުރި ޢަމަލުގެ ސަވާބު އޭނާއަށް ލިޔެވެއެވެ" (ބުޚާރީ 2996).

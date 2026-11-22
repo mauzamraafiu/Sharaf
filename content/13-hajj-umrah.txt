@@ -1,0 +1,347 @@
+%% umrah-steps | hajj | How to perform Umrah | ޢުމްރާ ކުރާނެ ގޮތް | Ihram, tawaf, sa'i and cutting the hair, in order, with what to say at each place. | އިޙްރާމް، ޠަވާފު، ސަޢީ އަދި އިސްތަށި ކޮށުން، ތަރުތީބުން، ކޮންމެ ތަނެއްގައި ކިޔާނެ އެއްޗާއެކު. | step
+
+@@ umrah-1-ihram
+title_en: Enter ihram at the miqat
+title_dv: މީޤާތުން އިޙްރާމް ބަނުން
+arabic: لَبَّيْكَ اللَّهُمَّ عُمْرَةً
+translit: Labbayk Allahumma 'umrah.
+--- en
+Umrah has four parts: ihram, tawaf, sa'i, and shaving or trimming the hair.
+
+**Before the miqat**
+
+- Trim nails, remove unwanted hair, bathe and, for men, perfume the body (not the ihram cloth).
+- Men wear two unstitched white sheets, one around the waist and one over the shoulders, with sandals that leave the ankle bare. Women wear ordinary modest clothing and do not cover the face or wear gloves.
+
+**At the miqat.** Flights from the Maldives to Jeddah cross the miqat in the air, usually Yalamlam, about half an hour before landing. The crew announce it. Change into ihram before boarding or on board, then, when the miqat is announced, make the intention in your heart and say: **Here I am, O Allah, for Umrah.**
+
+If you fear illness may stop you, add: *"If something holds me back, my place of release is where You hold me"* (Bukhari 5089).
+
+**What is forbidden in ihram:** cutting hair or nails, perfume, sexual relations and what leads to them, marriage contracts, hunting. Men also may not wear stitched clothing or cover the head.
+--- dv
+ޢުމްރާގައި ހަތަރު ބައެއް ވެއެވެ: އިޙްރާމް، ޠަވާފު، ސަޢީ، އަދި އިސްތަށި ބޭލުން ނުވަތަ ކުރުކުރުން.
+
+**މީޤާތުގެ ކުރިން**
+
+- ނިޔަފަތި ކަނޑައި، ފެންވަރައި، ފިރިހެނުން ހަށިގަނޑުގައި ހުވަނދުލުން (އިޙްރާމް ފޮތީގައި ނޫން).
+- ފިރިހެނުން ނުފަހާ ދެ ހުދު ފޮތި ލައްވާނެއެވެ. އަންހެނުން އާދައިގެ ފޮރުވޭ ހެދުން ލައި، މޫނު ނުނިވާކޮށް އަތްދަބަސް ނުލާނެއެވެ.
+
+**މީޤާތުގައި.** ދިވެހިރާއްޖެއިން ޖިއްދާއަށް ދާ ފްލައިޓްތައް މީޤާތް (ޔަލަމްލަމް) ހުރަސްކުރަނީ ވައިގެ މަތީގައި، ޖައްސަން ބައިގަޑިއެއްހާއިރު ކުރިންނެވެ. ފްލައިޓުގެ މުވައްޒަފުން އެކަން އިޢުލާނުކުރެއެވެ. ފްލައިޓަށް އެރުމުގެ ކުރިން ނުވަތަ ފްލައިޓުގައި އިޙްރާމް ފޮތި ލައި، މީޤާތް އިޢުލާނުކުރުމުން ހިތުން ނިޔަތްގަނެ ކިޔާށެވެ: **އޭ ﷲ! ޢުމްރާއަކަށްޓަކައި އިބަރަސްކަލާނގެ ޙަޟްރަތަށް ހާޒިރުވެއްޖައީމެވެ.**
+
+**އިޙްރާމުގައި މަނާ ކަންތައް:** އިސްތަށްޓާއި ނިޔަފަތި ކެނޑުން، ހުވަނދުލުން، ޖިންސީ ގުޅުން، ކައިވެނިކުރުން، ޝިކާރަކުރުން. ފިރިހެނުންނަށް ފަހާފައިވާ ހެދުން ލުމާއި ބޯ ނިވާކުރުންވެސް މަނާވެގެންވެއެވެ.
+
+@@ umrah-2-talbiyah
+title_en: Say the talbiyah on the way
+title_dv: މަގުމަތީގައި ތަލްބިޔާ ކިޔުން
+arabic: @h:233
+translit: Labbayk Allahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni'mata laka wal-mulk, la sharika lak.
+ref: Bukhari 1549; Muslim 1184
+--- en
+Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Truly all praise and blessing are Yours, and the dominion. You have no partner.
+
+Repeat it often from the miqat until you begin tawaf. Men raise their voices; women say it quietly.
+--- dv
+އޭ ﷲ! އިބަރަސްކަލާނގެ ޙަޟްރަތަށް ހާޒިރުވެއްޖައީމެވެ. އިބަރަސްކަލާނގެއަށް ބައިވެރިއަކު ނުވެއެވެ. ހާޒިރުވެއްޖައީމެވެ. ހަމަކަށަވަރުން ހުރިހާ ޙަމްދަކާއި ނިޢުމަތެއް އަދި ވެރިކަން އިބަރަސްކަލާނގެއަށެވެ. އިބަރަސްކަލާނގެއަށް ބައިވެރިއަކު ނުވެއެވެ.
+
+މީޤާތުން ފެށިގެން ޠަވާފު ފަށަންދެން ގިނައިން ކިޔާށެވެ. ފިރިހެނުން އަޑުހަރުކޮށް، އަންހެނުން މަޑުން ކިޔާށެވެ.
+
+@@ umrah-3-tawaf
+title_en: Tawaf: seven circuits of the Ka'bah
+title_dv: ޠަވާފު: ކަޢުބާގެ ވަށައި ހަތް ބުރު
+arabic: @q:2:201
+translit: Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar.
+ref: Quran 2:201; Abu Dawud 1892
+--- en
+Enter the Sacred Mosque with your right foot and the usual mosque dua. You must have wudu for tawaf.
+
+- Men uncover the right shoulder for this tawaf (idtiba').
+- Start in line with the **Black Stone**. Touch and kiss it if that is easy; otherwise point to it with your right hand. Say **Bismillah, Allahu akbar**.
+- Walk **seven times** round the Ka'bah, keeping it on your left. Go round the low wall (the Hijr), not through it.
+- Men walk briskly in the first three circuits and normally in the last four.
+- Between the **Yemeni corner and the Black Stone** say: *Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire.*
+- Elsewhere there is no fixed dua. Say any dhikr, any dua, in any language.
+- Say **Allahu akbar** each time you come level with the Black Stone.
+
+Do not push or harm anyone to reach the Stone. Harming a Muslim is forbidden; kissing the Stone is only recommended.
+--- dv
+ކަނާތް ފައި ކުރިއަށް ޖަހައި، މިސްކިތަށް ވަންނައިރު ކިޔާ ދުޢާ ކިޔައި މަސްޖިދުލް ޙަރާމަށް ވަންނާށެވެ. ޠަވާފަށް ވުޟޫ ހުންނަންޖެހެއެވެ.
+
+- ފިރިހެނުން މި ޠަވާފުގައި ކަނާތް ކޮނޑު ހާމަކުރާނެއެވެ.
+- **ޙަޖަރުލް އަސްވަދާ** ދިމާލުން ފަށާށެވެ. ފަސޭހަ ނަމަ އަތްލައި ބޮސްދޭށެވެ. ނޫން ނަމަ ކަނާތުން އިޝާރާތްކޮށް **ބިސްމިﷲ، ﷲ އަކްބަރު** ކިޔާށެވެ.
+- ކަޢުބާ ވާތްފަރާތަށް ލައިގެން **ހަތް ބުރު** ހިނގާށެވެ. ޙިޖްރުގެ ބޭރުން ހިނގާށެވެ.
+- ފިރިހެނުން ފުރަތަމަ ތިން ބުރު ހަލުވިކޮށް ހިނގާނެއެވެ.
+- **ރުކުނުލް ޔަމާނީއާއި ޙަޖަރުލް އަސްވަދާ ދެމެދު** ކިޔާށެވެ: *އަޅަމެންގެ ރައްބެވެ! ދުނިޔޭގައިވެސް އާޚިރަތުގައިވެސް އަޅަމެންނަށް ހެޔޮކަން ދެއްވައި، ނަރަކައިގެ ޢަޛާބުން ސަލާމަތްކުރައްވާނދޭވެ.*
+- އެހެން ތަންތަނުގައި ކަނޑައެޅިފައިވާ ދުޢާއެއް ނުވެއެވެ. ކޮންމެ ބަހަކުންވެސް ކޮންމެ ދުޢާއެއް ކުރެވިދާނެއެވެ.
+
+ޙަޖަރުލް އަސްވަދަށް ދިއުމަށްޓަކައި އެއްވެސް މީހަކަށް އުނދަގޫ ނުކުރާށެވެ. މުސްލިމަކަށް އުނދަގޫކުރުން ޙަރާމެވެ.
+
+@@ umrah-4-maqam
+title_en: Two rak'ahs behind Maqam Ibrahim, then Zamzam
+title_dv: މަޤާމު އިބްރާހީމްގެ ފަހަތުގައި ދެ ރަކުޢަތް، އަދި ޒަމްޒަމް
+arabic: @q:2:125
+ref: Muslim 1218
+--- en
+After the seventh circuit cover your shoulder again and recite: *"Take the standing-place of Ibrahim as a place of prayer"* (2:125).
+
+Pray **two rak'ahs** behind the Maqam if there is room, or anywhere in the mosque: Surah Al-Kafirun in the first rak'ah and Al-Ikhlas in the second.
+
+Then drink **Zamzam** water and make dua. "Zamzam water is for whatever it is drunk for" (Ibn Majah 3062).
+--- dv
+ހަތްވަނަ ބުރު ނިމުމުން ކޮނޑު ނިވާކޮށް ކިޔަވާށެވެ: *"މަޤާމު އިބްރާހީމް ނަމާދުކުރާ ތަނެއް ކަމުގައި ހަދާށެވެ"* (2:125).
+
+ޖާގަ އޮތް ނަމަ މަޤާމުގެ ފަހަތުގައި، ނޫން ނަމަ މިސްކިތުގެ ކޮންމެ ތަނެއްގައި **ދެ ރަކުޢަތް** ކުރާށެވެ. ފުރަތަމަ ރަކުޢަތުގައި ސޫރަތުލް ކާފިރޫން، ދެވަނަ ރަކުޢަތުގައި ސޫރަތުލް އިޚްލާޞް ކިޔަވާށެވެ.
+
+އެއަށްފަހު **ޒަމްޒަމް** ފެން ބޮއި ދުޢާކުރާށެވެ.
+
+@@ umrah-5-sai
+title_en: Sa'i: seven times between Safa and Marwah
+title_dv: ސަޢީ: ޞަފާއާއި މަރްވާ ދެމެދު ހަތް ފަހަރު
+arabic: @h:236b
+translit: La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu wa huwa 'ala kulli shay'in qadir. La ilaha illallahu wahdah, anjaza wa'dah, wa nasara 'abdah, wa hazamal-ahzaba wahdah.
+ref: Muslim 1218
+--- en
+Walk to **Safa**. As you approach, recite once: *"Safa and Marwah are among the symbols of Allah"* (2:158) and say, "I begin with what Allah began with."
+
+- Climb Safa until you can see the Ka'bah, face it, raise your hands, say **Allahu akbar** three times, then the words above, and make dua. Do this three times.
+- Walk to **Marwah**. Between the two green lights men jog; women walk.
+- At Marwah do as you did at Safa. That is one lap. Safa to Marwah is one, Marwah back to Safa is two.
+- Finish the **seventh** lap at Marwah.
+
+There is no god but Allah, alone, with no partner. His is the dominion and His is the praise, and He has power over all things. There is no god but Allah alone. He fulfilled His promise, helped His servant, and defeated the confederates alone.
+
+Sa'i recalls Hajar running between these hills searching for water for her baby Isma'il, until Allah brought forth Zamzam.
+--- dv
+**ޞަފާ**އަށް ހިނގާށެވެ. ކައިރިވުމުން އެއް ފަހަރު ކިޔަވާށެވެ: *"ހަމަކަށަވަރުން ޞަފާއާއި މަރްވާއަކީ ﷲ ގެ ޝިޢާރުތަކުގެ ތެރެއިންވާ ދެ ތަނެވެ"* (2:158).
+
+- ކަޢުބާ ފެންނަ ހިސާބަށް ޞަފާއަށް އަރައި، ކަޢުބާއާ ކުރިމަތިލައި، ދެއަތް އުފުލައި، ތިން ފަހަރު **ﷲ އަކްބަރު** ކިޔައި، މަތީގައިވާ ޛިކުރު ކިޔައި ދުޢާކުރާށެވެ. މިގޮތަށް ތިން ފަހަރު ހަދާށެވެ.
+- **މަރްވާ**އަށް ހިނގާށެވެ. ދެ ފެހި ބައްތީގެ ދެމެދުގައި ފިރިހެނުން ދުވާނެއެވެ.
+- މަރްވާގައިވެސް ޞަފާގައި ހެދި ގޮތަށް ހަދާށެވެ. އެއީ އެއް ބުރެވެ. ޞަފާއިން މަރްވާއަށް އެކެއް، މަރްވާއިން ޞަފާއަށް ދޭއް.
+- **ހަތްވަނަ** ބުރު ނިމޭނީ މަރްވާއިންނެވެ.
+
+ސަޢީއަކީ ހާޖަރުގެފާނު ތުއްތު ދަރިކަލުން އިސްމާޢީލްގެފާނަށް ފެން ހޯއްދެވުމަށް މި ދެ ފަރުބަދަ ދެމެދު ދުއްވެވި ހަނދާނެވެ. އެއަށްފަހު ﷲ ޒަމްޒަމް ނެރުއްވިއެވެ.
+
+@@ umrah-6-hair
+title_en: Shave or trim the hair
+title_dv: ބޯ ބޭލުން ނުވަތަ ކުރުކުރުން
+--- en
+- **Men** shave the head, which is better, or shorten the hair all over. The Prophet ﷺ prayed three times for those who shave and once for those who trim (Bukhari 1727).
+- **Women** gather their hair and cut a fingertip's length from the end.
+
+Your Umrah is complete and everything forbidden by ihram is allowed again.
+
+If you are doing Umrah before Hajj in the same journey (tamattu'), trim now and save shaving for Hajj.
+
+"One Umrah to the next expiates what is between them" (Bukhari 1773).
+--- dv
+- **ފިރިހެނުން** ބޯ ބާލާނެއެވެ. އެއީ މާ ރަނގަޅު ގޮތެވެ. ނުވަތަ މުޅި ބޮލުން އިސްތަށި ކުރުކުރާނެއެވެ (ބުޚާރީ 1727).
+- **އަންހެނުން** އިސްތަށި އެއްކޮށް، ކޮޅުން އިނގިލިކޮޅެއްގެ މިންވަރު ކަނޑާނެއެވެ.
+
+ޢުމްރާ ފުރިހަމަވީއެވެ. އިޙްރާމުން މަނާވެފައިވާ ހުރިހާ ކަމެއް އަލުން ހުއްދަވީއެވެ.
+
+ހަމަ އެ ދަތުރުގައި ޙައްޖުގެ ކުރިން ޢުމްރާ ކުރާ ނަމަ (ތަމައްތުޢު)، މިހާރު ކުރުކޮށް، ބޯ ބޭލުން ޙައްޖަށް ބާއްވާށެވެ.
+
+"އެއް ޢުމްރާއިން އަނެއް ޢުމްރާއަކީ އެ ދެމެދުގެ ފާފަތަކަށް ކައްފާރާއެކެވެ" (ބުޚާރީ 1773).
+
+%% hajj-steps | hajj | How to perform Hajj | ޙައްޖުކުރާނެ ގޮތް | The five days of Hajj, day by day, with what to say and the mistakes to avoid. | ޙައްޖުގެ ފަސް ދުވަސް، ދުވަހުން ދުވަހަށް، ކިޔާނެ އެއްޗާއި ސަމާލުވާންވީ ގޯސްތަކާއެކު. | step
+
+@@ hajj-0-overview
+title_en: Before you go: the three ways and the essentials
+title_dv: ދިއުމުގެ ކުރިން: ތިން ގޮތާއި މުހިންމު ކަންތައް
+--- en
+Hajj is owed once in a lifetime by every adult Muslim who is able to make the journey (Quran 3:97).
+
+**Three ways to perform it**
+
+- **Tamattu'**: Umrah first, leave ihram, then enter ihram again for Hajj on the 8th. A sacrifice is due. This is what most pilgrims from the Maldives do, and it is the way described here.
+- **Ifrad**: Hajj only.
+- **Qiran**: Hajj and Umrah together in one ihram. A sacrifice is due.
+
+**The pillars of Hajj (Shafi'i school).** Without these there is no Hajj: ihram, standing at Arafah, tawaf al-ifadah, sa'i, and shaving or trimming, in order.
+
+**The obligations.** Missing one is made up by a sacrifice: ihram from the miqat, the night at Muzdalifah, stoning the pillars, the nights at Mina, and the farewell tawaf.
+
+**Before leaving home:** repent, pay debts, settle disputes, leave your family provided for, use lawful money, and learn the rites. "Whoever performs Hajj and does not speak obscenely or act wickedly returns like the day his mother bore him" (Bukhari 1521).
+--- dv
+ޙައްޖަކީ ދަތުރުކުރުމަށް ކުޅަދާނަ ކޮންމެ ބާލިޣު މުސްލިމެއްގެ މައްޗަށް ޢުމުރުން އެއް ފަހަރު ވާޖިބުވެގެންވާ ކަމެކެވެ (ޤުރުއާން 3:97).
+
+**ޙައްޖުކުރެވޭ ތިން ގޮތް**
+
+- **ތަމައްތުޢު**: ފުރަތަމަ ޢުމްރާކޮށް، އިޙްރާމުން ނުކުމެ، 8 ވަނަ ދުވަހު ޙައްޖަށް އަލުން އިޙްރާމް ބަނުން. ހަދުޔެއް ކަތިލަންޖެހެއެވެ. ދިވެހި ޙައްޖުވެރިންގެ ގިނަ މީހުން ކުރަނީ މިގޮތަށެވެ.
+- **އިފްރާދު**: ހަމައެކަނި ޙައްޖު.
+- **ޤިރާން**: އެއް އިޙްރާމެއްގައި ޙައްޖާއި ޢުމްރާ. ހަދުޔެއް ކަތިލަންޖެހެއެވެ.
+
+**ޙައްޖުގެ ރުކުންތައް (ޝާފިޢީ މަޛްހަބު).** މިކަންކަން ނެތި ޙައްޖެއް ނުވެއެވެ: އިޙްރާމް، ޢަރަފާތުގައި މަޑުކުރުން، ޠަވާފުލް އިފާޟާ، ސަޢީ، ބޯ ބޭލުން ނުވަތަ ކުރުކުރުން، އަދި ތަރުތީބު.
+
+**ވާޖިބުތައް.** އޭގެތެރެއިން ކަމެއް ދޫވެއްޖެ ނަމަ ދަމެއް (ކަތިލުމެއް) ލާޒިމުވެއެވެ: މީޤާތުން އިޙްރާމް ބަނުން، މުޒްދަލިފާގައި ރޭކުރުން، ޖަމްރާތަކަށް ހިލަ އުކުން، މިނާގައި ރޭކުރުން، ޠަވާފުލް ވަދާޢު.
+
+**ގެއިން ނުކުތުމުގެ ކުރިން:** ތައުބާވެ، ދަރަނި އަދާކޮށް، ޙަލާލު ފައިސާ ބޭނުންކޮށް، ޙައްޖުގެ ކަންތައް ދަސްކުރާށެވެ. "ފާޙިޝް ވާހަކަ ނުދައްކައި ފާފަ ނުކޮށް ޙައްޖުކުރާ މީހާ، މަންމަ ވިހެއި ދުވަހު ފަދައިން އެނބުރި އާދެއެވެ" (ބުޚާރީ 1521).
+
+@@ hajj-1-day8
+title_en: 8th Dhul Hijjah: ihram and Mina
+title_dv: ޛުލްޙިއްޖާ 8: އިޙްރާމާއި މިނާ
+arabic: لَبَّيْكَ اللَّهُمَّ حَجًّا
+translit: Labbayk Allahumma hajjan.
+--- en
+The Day of Tarwiyah.
+
+- From where you are staying in Makkah, bathe, put on ihram, and make the intention: **Here I am, O Allah, for Hajj.**
+- Begin the **talbiyah** and keep saying it until you stone the first pillar on the 10th.
+- Go to **Mina** and pray Dhuhr, Asr, Maghrib, Isha and Fajr there, each at its own time, shortening the four-rak'ah prayers to two.
+- Spend the night at Mina. This night is Sunnah.
+--- dv
+ތަރުވިޔާ ދުވަސް.
+
+- މައްކާގައި ހުންނަ ތަނުން ފެންވަރައި، އިޙްރާމް ލައި، ނިޔަތްގަންނާށެވެ: **އޭ ﷲ! ޙައްޖަކަށްޓަކައި ހާޒިރުވެއްޖައީމެވެ.**
+- **ތަލްބިޔާ** ކިޔަން ފަށައި، 10 ވަނަ ދުވަހު ފުރަތަމަ ޖަމްރާއަށް ހިލަ އުކަންދެން ކިޔާށެވެ.
+- **މިނާ**އަށް ގޮސް މެންދުރު، ޢަޞްރު، މަޣްރިބު، ޢިޝާ އަދި ފަތިސް ނަމާދު އެތަނުގައި، ކޮންމެ ނަމާދެއް އޭގެ ވަގުތުގައި، ހަތަރު ރަކުޢަތުގެ ނަމާދު ދެ ރަކުޢަތަށް ޤަޞްރުކޮށްގެން ކުރާށެވެ.
+- މިނާގައި ރޭކުރާށެވެ. މި ރޭ ސުންނަތެކެވެ.
+
+@@ hajj-2-arafah
+title_en: 9th: standing at Arafah
+title_dv: 9 ވަނަ ދުވަސް: ޢަރަފާތުގައި މަޑުކުރުން
+arabic: @h:237b
+translit: La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu wa huwa 'ala kulli shay'in qadir.
+ref: Tirmidhi 3585
+--- en
+"Hajj is Arafah" (Tirmidhi 889). Whoever misses it has missed the Hajj.
+
+- After sunrise go from Mina to **Arafah**. Make sure you are inside its boundary; the signs are clear.
+- Pray **Dhuhr and Asr together and shortened** at the time of Dhuhr.
+- From then until sunset, **stand in dua**: face the qiblah, raise your hands, ask for everything, for yourself, your parents, your family and all Muslims. You may sit, and you do not need to climb the Mount of Mercy.
+- The best words are those above: *There is no god but Allah, alone, with no partner. His is the dominion and His is the praise, and He has power over all things.*
+- **Do not leave before sunset.**
+
+Pilgrims do not fast today, so that they have strength for dua.
+--- dv
+"ޙައްޖަކީ ޢަރަފާތެވެ" (ތިރްމިޛީ 889). ޢަރަފާތް ނުލިބުނު މީހާއަށް ޙައްޖެއް ނުލިބުނީއެވެ.
+
+- އިރު އެރުމަށްފަހު މިނާއިން **ޢަރަފާތަ**ށް ދާށެވެ. ޢަރަފާތުގެ ޙައްދުގެ ތެރޭގައި ހުރިކަން ކަށަވަރުކުރާށެވެ.
+- މެންދުރުގެ ވަގުތުގައި **މެންދުރާއި ޢަޞްރު ޖަމްޢުކޮށް ޤަޞްރުކޮށް** ކުރާށެވެ.
+- އެއަށްފަހު އިރު އޮއްސެންދެން **ދުޢާކުރާށެވެ**. ޤިބްލައަށް ކުރިމަތިލައި، ދެއަތް އުފުލައި، އަމިއްލަ ނަފްސަށާއި، މައިންބަފައިންނަށާއި، ޢާއިލާއަށާއި، ހުރިހާ މުސްލިމުންނަށް އެދޭށެވެ. ޖަބަލުއްރަޙްމާއަށް އަރާކަށް ނުޖެހެއެވެ.
+- އެންމެ މާތް ޛިކުރަކީ މަތީގައިވާ ޛިކުރެވެ.
+- **އިރު އޮއްސުމުގެ ކުރިން ނުދާށެވެ.**
+
+ދުޢާކުރުމަށް ބާރު ލިބުމަށްޓަކައި ޙައްޖުވެރިން މިއަދު ރޯދައެއް ނުހިފާނެއެވެ.
+
+@@ hajj-3-muzdalifah
+title_en: The night at Muzdalifah
+title_dv: މުޒްދަލިފާގައި ރޭކުރުން
+ref: Muslim 1218; Quran 2:198
+--- en
+- After sunset leave Arafah calmly, saying the talbiyah.
+- At **Muzdalifah** pray **Maghrib and Isha together**, Isha shortened to two, with one adhan and two iqamahs.
+- **Sleep.** The Prophet ﷺ rested this night to be ready for the greatest day.
+- Pray Fajr early, then face the qiblah and make dhikr and dua until the sky is bright: "Remember Allah at the Sacred Monument" (2:198).
+- Leave for Mina **before sunrise**.
+- Collect seven small pebbles, each about the size of a chickpea, here or on the way. The rest can be gathered at Mina.
+
+The weak, the elderly and women with them may leave after the middle of the night (Bukhari 1679).
+--- dv
+- އިރު އޮއްސުމަށްފަހު ތަލްބިޔާ ކިޔަމުން މަޑުމައިތިރިކަމާއެކު ޢަރަފާތުން ނުކުންނާށެވެ.
+- **މުޒްދަލިފާ**ގައި އެއް ބަންގިއަކާއި ދެ ޤަމަތުން **މަޣްރިބާއި ޢިޝާ ޖަމްޢުކޮށް**، ޢިޝާ ދެ ރަކުޢަތަށް ޤަޞްރުކޮށްގެން ކުރާށެވެ.
+- **ނިދާށެވެ.** އެންމެ ބޮޑު ދުވަހަށް ތައްޔާރުވުމަށް ނަބިއްޔާ ﷺ މި ރޭ އަރާމުކުރެއްވިއެވެ.
+- ފަތިސް ނަމާދު އަވަހަށް ކޮށް، އަލިވަންދެން ޤިބްލައަށް ކުރިމަތިލައި ޛިކުރުކޮށް ދުޢާކުރާށެވެ (2:198).
+- **އިރު އެރުމުގެ ކުރިން** މިނާއަށް ދާށެވެ.
+- ސަނާ އޮށެއްގެ ސައިޒުގެ ހަތް ހިލަކޮޅު ނަގާށެވެ.
+
+ބަލިކަށި މީހުންނާއި ދުވަސްވީ މީހުންނާއި އެމީހުންނާއެކު ތިބޭ އަންހެނުން ދަންވަރަށްފަހު ދެވިދާނެއެވެ (ބުޚާރީ 1679).
+
+@@ hajj-4-day10
+title_en: 10th: stoning, sacrifice, shaving and tawaf
+title_dv: 10 ވަނަ ދުވަސް: ހިލަ އުކުން، ކަތިލުން، ބޯ ބޭލުން، ޠަވާފު
+--- en
+The Day of Sacrifice, the busiest day of Hajj. Four acts, best done in this order; doing them in another order is allowed (Bukhari 83).
+
+1. **Stone the largest pillar, Jamrat al-Aqabah**, with seven pebbles one at a time, saying **Allahu akbar** with each. Stop the talbiyah when you begin.
+2. **Sacrifice.** Those doing tamattu' or qiran owe a sheep, or a seventh of a camel or cow. Most pilgrims pay for this through the official scheme.
+3. **Shave or trim the hair.** Now everything is allowed again except marital relations.
+4. Go to Makkah for **tawaf al-ifadah**, a pillar of Hajj: seven circuits and two rak'ahs, then **sa'i** between Safa and Marwah. After this everything is allowed.
+
+Return to Mina for the night.
+
+Tawaf al-ifadah may be delayed to the following days if the crowds or your health require it. A woman who is menstruating waits until she is clean; her group must wait for her or she arranges to stay.
+--- dv
+ނަޙްރު ދުވަސް. ޙައްޖުގެ އެންމެ ބުރަ ދުވަހެވެ. ހަތަރު ކަމެއް، މި ތަރުތީބުން ކުރުން މާ ރަނގަޅެވެ. އެހެން ތަރުތީބަކުން ކުރުންވެސް ހުއްދައެވެ (ބުޚާރީ 83).
+
+1. **އެންމެ ބޮޑު ޖަމްރާ، ޖަމްރަތުލް ޢަޤަބާއަށް** ހަތް ހިލަ، އެއް ހިލައަށްފަހު އަނެއް ހިލަ، ކޮންމެ ހިލައަކާއެކު **ﷲ އަކްބަރު** ކިޔައި އުކާށެވެ. ފަށާއިރު ތަލްބިޔާ ހުއްޓާލާށެވެ.
+2. **ހަދުޔު ކަތިލުން.** ތަމައްތުޢު ނުވަތަ ޤިރާން ކުރާ މީހުންގެ މައްޗަށް ބަކަރިއެއް ލާޒިމުވެއެވެ. ގިނަ ޙައްޖުވެރިން ރަސްމީ ނިޒާމުގެ ތެރެއިން މިކަން ކުރެއެވެ.
+3. **ބޯ ބޭލުން ނުވަތަ ކުރުކުރުން.** މިހާރު އަނބިމީހާއާ ގުޅުން ފިޔަވައި ހުރިހާ ކަމެއް ހުއްދަވީއެވެ.
+4. މައްކާއަށް ގޮސް ޙައްޖުގެ ރުކުނެއް ކަމުގައިވާ **ޠަވާފުލް އިފާޟާ** ކުރާށެވެ: ހަތް ބުރާއި ދެ ރަކުޢަތް، އެއަށްފަހު ޞަފާއާއި މަރްވާ ދެމެދު **ސަޢީ**. މިއަށްފަހު ހުރިހާ ކަމެއް ހުއްދަވީއެވެ.
+
+ރޭކުރުމަށް މިނާއަށް އެނބުރި ދާށެވެ.
+
+މީހުން ގިނަކަމުން ނުވަތަ ޞިއްޙީ ސަބަބަކާހުރެ ޠަވާފުލް އިފާޟާ ފަހުގެ ދުވަސްތަކަށް ލަސްކުރެވިދާނެއެވެ. ޙައިޟުވެރިއަކު ޠާހިރުވަންދެން މަޑުކުރާނެއެވެ.
+
+@@ hajj-5-tashriq
+title_en: 11th, 12th and 13th: the days at Mina
+title_dv: 11، 12، 13: މިނާގެ ދުވަސްތައް
+--- en
+- Spend these **nights at Mina**.
+- Each day **after midday**, stone all three pillars in order, **small, middle, then large**, seven pebbles each, saying **Allahu akbar** with every throw: twenty-one pebbles a day.
+- After the small pillar and after the middle one, step aside, face the qiblah and make a long dua. Do not stop after the large one.
+- Fill the days with dhikr. Shorten the four-rak'ah prayers but do not combine them.
+
+**Leaving early.** You may leave Mina after stoning on the 12th, provided you are out before sunset. If the sun sets while you are still in Mina, stay for the 13th (Quran 2:203).
+
+The pillars are not the devil himself and nobody should throw shoes or large stones. The stoning is an act of obedience remembering Ibrahim.
+--- dv
+- މި **ރޭތައް މިނާގައި** ހޭދަކުރާށެވެ.
+- ކޮންމެ ދުވަހަކު **މެންދުރަށްފަހު**، ތިން ޖަމްރާއަށް ތަރުތީބުން، **ކުޑަ، މެދު، ދެން ބޮޑު** ޖަމްރާއަށް، ކޮންމެ ޖަމްރާއަކަށް ހަތް ހިލަ، ކޮންމެ ހިލައަކާއެކު **ﷲ އަކްބަރު** ކިޔައި އުކާށެވެ: ދުވާލަކު އެކާވީސް ހިލަ.
+- ކުޑަ ޖަމްރާއަށްފަހުގައާއި މެދު ޖަމްރާއަށްފަހުގައި، އެއްފަރާތަކަށް ޖެހިލައި، ޤިބްލައަށް ކުރިމަތިލައި ދިގު ދުޢާއެއް ކުރާށެވެ. ބޮޑު ޖަމްރާއަށްފަހު މަޑުނުކުރާށެވެ.
+- ގިނައިން ޛިކުރުކުރާށެވެ. ހަތަރު ރަކުޢަތުގެ ނަމާދު ޤަޞްރުކުރާށެވެ. ޖަމްޢު ނުކުރާށެވެ.
+
+**އަވަހަށް ދިއުން.** 12 ވަނަ ދުވަހު ހިލަ އުކުމަށްފަހު، އިރު އޮއްސުމުގެ ކުރިން މިނާއިން ނުކުމެވިދާނެއެވެ. މިނާގައި ހުއްޓާ އިރު އޮއްސިއްޖެ ނަމަ 13 ވަނަ ދުވަހަށް މަޑުކުރާށެވެ (ޤުރުއާން 2:203).
+
+ޖަމްރާއަކީ ޝައިޠާނާ ނޫނެވެ. ފައިވާނާއި ބޮޑެތި ހިލަ އުކުން ގޯހެވެ. ހިލަ އުކުމަކީ އިބްރާހީމްގެފާނު ހަނދާންކޮށް ކުރާ ކިޔަމަންތެރިކަމުގެ ޢަމަލެކެވެ.
+
+@@ hajj-6-farewell
+title_en: The farewell tawaf
+title_dv: ޠަވާފުލް ވަދާޢު
+ref: Bukhari 1755
+--- en
+When all your business in Makkah is finished and you are ready to leave, make **seven circuits** of the Ka'bah and pray two rak'ahs. This is the last thing you do in Makkah. There is no sa'i after it.
+
+A woman who is menstruating at the time of departure is excused from it.
+
+Your Hajj is complete. "An accepted Hajj has no reward except the Garden" (Bukhari 1773). The sign of an accepted Hajj is that you return better than you went.
+--- dv
+މައްކާގައި ހުރި ހުރިހާ ކަމެއް ނިމި، ފުރަން ތައްޔާރުވުމުން، ކަޢުބާގެ ވަށައި **ހަތް ބުރު** ޖަހައި ދެ ރަކުޢަތް ކުރާށެވެ. މިއީ މައްކާގައި ކުރާ އެންމެ ފަހު ކަމެވެ. އޭގެފަހުން ސަޢީއެއް ނުވެއެވެ.
+
+ފުރާއިރު ޙައިޟުވެރިވެފައިވާ އަންހެނާގެ ކިބައިން މި ޠަވާފު ކެނޑެއެވެ.
+
+ޙައްޖު ފުރިހަމަވީއެވެ. "މަބްރޫރު ޙައްޖެއްގެ ޖަޒާއަކީ ސުވަރުގެ ނޫން އެހެން އެއްޗެއް ނޫނެވެ" (ބުޚާރީ 1773). ޙައްޖު ޤަބޫލުވިކަމުގެ ނިޝާނަކީ ދިޔައިރަށްވުރެ ރަނގަޅު މީހެއްގެ ގޮތުގައި އެނބުރި އައުމެވެ.
+
+@@ hajj-7-madinah
+title_en: Visiting Madinah
+title_dv: މަދީނާއަށް ޒިޔާރަތްކުރުން
+--- en
+Visiting Madinah is not part of Hajj or Umrah, but it is a loved Sunnah to travel to the Prophet's ﷺ Mosque, where one prayer is better than a thousand elsewhere except the Sacred Mosque (Bukhari 1190).
+
+- Enter with your right foot, pray two rak'ahs, in the **Rawdah** between the minbar and the grave if you are able.
+- Stand facing the grave of the Prophet ﷺ and say quietly: *As-salamu 'alayka ya Rasulallah wa rahmatullahi wa barakatuh.* Then greet Abu Bakr and Umar beside him.
+- Make dua facing the qiblah, asking Allah alone.
+- Visit **Al-Baqi'** cemetery and the martyrs of **Uhud** and greet them with the dua for visiting graves.
+- Pray two rak'ahs in **Masjid Quba**: it has the reward of an Umrah (Ibn Majah 1412).
+--- dv
+މަދީނާއަށް ޒިޔާރަތްކުރުމަކީ ޙައްޖުގެ ނުވަތަ ޢުމްރާގެ ބައެއް ނޫނެވެ. ނަމަވެސް މަސްޖިދުއްނަބަވީއަށް ދަތުރުކުރުމަކީ ލޯބިވެވޭ ސުންނަތެކެވެ. އެތަނުގައި ކުރާ އެއް ނަމާދު، މަސްޖިދުލް ޙަރާމް ފިޔަވައި އެހެން ތަންތަނުގައި ކުރާ އެއްހާސް ނަމާދަށްވުރެ މާތެވެ (ބުޚާރީ 1190).
+
+- ކަނާތް ފައިން ވަދެ ދެ ރަކުޢަތް ކުރާށެވެ. ކުޅަދާނަ ނަމަ **ރައުޟާ**ގައި.
+- ނަބިއްޔާ ﷺ ގެ ޤަބުރުފުޅާ ކުރިމަތިލައި މަޑުން ސަލާމްގޮވާށެވެ. އެއަށްފަހު އަބޫބަކުރާއި ޢުމަރަށް ސަލާމްގޮވާށެވެ.
+- ޤިބްލައަށް ކުރިމަތިލައި، ހަމައެކަނި ﷲ ގެ ޙަޟްރަތުން ދުޢާކުރާށެވެ.
+- **ބަޤީޢު** ކަށްވަޅާއި **އުޙުދު**ގެ ޝަހީދުންނަށް ޒިޔާރަތްކޮށް ސަލާމްގޮވާށެވެ.
+- **މަސްޖިދު ޤުބާ**ގައި ދެ ރަކުޢަތް ކުރާށެވެ. އޭގައި ޢުމްރާއެއްގެ ސަވާބު ވެއެވެ (އިބްނު މާޖާ 1412).
+
+@@ hajj-8-travel-dua
+title_en: The traveller's dua
+title_dv: ދަތުރުވެރިޔާގެ ދުޢާ
+arabic: @h:207a
+translit: Allahu akbar, Allahu akbar, Allahu akbar. Subhanal-ladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila Rabbina lamunqalibun. Allahumma inna nas'aluka fi safarina hadhal-birra wat-taqwa, wa minal-'amali ma tarda. Allahumma hawwin 'alayna safarana hadha watwi 'anna bu'dah. Allahumma antas-sahibu fis-safar, wal-khalifatu fil-ahl. Allahumma inni a'udhu bika min wa'tha'is-safar, wa ka'abatil-manzar, wa su'il-munqalabi fil-mali wal-ahl.
+ref: Muslim 1342
+--- en
+Said when you set off, on the plane, boat or car.
+
+Allah is the Greatest (three times). Glory to Him who put this at our service when we could never have mastered it, and to our Lord we will return. O Allah, we ask You on this journey for goodness and piety, and deeds that please You. O Allah, make this journey easy for us and shorten its distance. O Allah, You are the Companion on the journey and the Guardian of the family. O Allah, I seek refuge in You from the hardship of travel, from a painful sight, and from finding harm in my wealth and family on return.
+--- dv
+ފްލައިޓުގައި، އޮޑީގައި ނުވަތަ ކާރުގައި ދަތުރު ފަށާއިރު ކިޔާށެވެ.
+
+ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ (ތިން ފަހަރު). އަޅަމެންނަށް މި އެއްޗެއް ޚިދުމަތްކޮށްދެއްވި ރަސްކަލާނގެ ހުސްޠާހިރުވަންތައެވެ. އަޅަމެންނަކީ އެކަމަށް ކުޅަދާނަ ބަޔަކު ނޫނެވެ. އަޅަމެން އެނބުރި ދާހުށީ އަޅަމެންގެ ރައްބުގެ ޙަޟްރަތަށެވެ. އޭ ﷲ! މި ދަތުރުގައި ހެޔޮކަމާއި ތަޤުވާ، އަދި އިބަރަސްކަލާނގެ ރުހިވޮޑިގަންނަވާ ޢަމަލު ދެއްވުން އެދެމެވެ. މި ދަތުރު ފަސޭހަކޮށް، ދުރުމިން ކުރުކޮށްދެއްވާނދޭވެ. އިބަރަސްކަލާނގެއީ ދަތުރުގައި އެކުވެރިޔާއެވެ. އަދި އަހުލުންގެ ބެލެނިވެރިޔާއެވެ. ދަތުރުގެ އުނދަގުލާއި، ހިތާމަވެރި މަންޒަރާއި، މުދަލާއި އަހުލުންގެ ކިބައިން ނުބައި ގޮތެއް ދިމާވުމުން ރައްކާތެރިކަން އެދެމެވެ.
