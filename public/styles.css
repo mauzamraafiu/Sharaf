@@ -848,3 +848,9 @@ input[type=range] { accent-color: var(--lagoon); width: min(52%, 220px); height:
 .daily .ar { font-size: var(--ar-size, 30px); line-height: 2.1; }
 .mem-dua > .ar { font-size: max(var(--ar-size, 30px), 1.75rem); }
 .now .ar, .card .ar { font-size: calc(var(--ar-size, 30px) * .8); }
+
+/* Every piece of Arabic follows the Arabic text size setting unless a screen sets its own size on purpose */
+:where(.ar) { font-size: var(--ar-size, 30px); }
+.guide-ar, .counter-ar { font-size: var(--ar-size, 30px); line-height: 2.1; }
+@media (max-width: 599px) { .guide-ar { font-size: var(--ar-size, 30px); } }
+.prose :lang(ar), .notice :lang(ar) { font-family: var(--arabic); }
