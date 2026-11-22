@@ -917,3 +917,7 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 .fig3d { display: block; touch-action: pan-y; cursor: grab; -webkit-user-select: none; user-select: none; }
 .fig3d-qibla { position: absolute; top: 6px; inset-inline-end: 8px; font-size: .8rem; font-weight: 600; color: var(--gold); direction: ltr; }
 .fig-hint { font-size: .8rem; margin: 0; }
+
+.mem-nm { display: block; }
+.mem-nm strong, .mem-ar-b, .mem-nm .num { white-space: nowrap; }
+.mem-ar-b .mem-ar-in { margin-inline: .05em; }
