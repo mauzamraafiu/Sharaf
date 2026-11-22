@@ -13,6 +13,8 @@ const P = {
   sujud: [[82, 140], [120, 140], [104, 106], [141, 121], [158, 133], [133, 132], [146, 141]],
   point: [[82, 140], [120, 140], [92, 120], [98, 84], [100, 67], [106, 104], [121, 115]],
   salamR: [[82, 140], [120, 140], [92, 120], [98, 84], [104, 67], [106, 104], [117, 118]],
+  crouch: [[96, 142], [116, 124], [98, 108], [112, 76], [115, 59], [118, 96], [124, 114]],
+  reach: [[82, 140], [120, 140], [106, 108], [136, 96], [152, 96], [140, 118], [150, 139]],
   dua: [[82, 140], [120, 140], [92, 120], [98, 84], [100, 67], [110, 98], [121, 85]],
   salamL: [[82, 140], [120, 140], [92, 120], [98, 84], [96, 67], [106, 104], [117, 118]],
 };
@@ -28,8 +30,30 @@ Object.assign(SALAH, {
   'pray-tahajjud': RAKAH, 'pray-witr': RAKAH, 'pray-duha': RAKAH, 'pray-rawatib': RAKAH, 'pray-istikhara': RAKAH, 'pray-tarawih': RAKAH, 'pray-eid': ['stand', 'raise', 'fold', 'raise', 'fold'], 'pray-jumuah': RAKAH,
   'pray-tahiyyat-masjid': RAKAH, 'pray-tawbah': RAKAH, 'pray-eclipse': ['fold', 'bow', 'fold', 'bow', 'stand', 'kneel', 'sujud'], 'pray-rain': RAKAH, 'pray-sujud-tilawah': ['fold', 'kneel', 'sujud', 'kneel', 'stand'], 'pray-sick': ['sit', 'point'],
 });
-const ease = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
-const mix = (a, b, t) => a.map((p, i) => [p[0] + (b[i][0] - p[0]) * t, p[1] + (b[i][1] - p[1]) * t]);
+const ease = (t) => 0.5 - Math.cos(Math.PI * Math.max(0, Math.min(1, t))) / 2;
+// Poses are blended as a skeleton: each bone keeps its length and swings through an angle, so the body
+// bends at the joints instead of stretching from one drawing to the next.
+const BONES = [[0, 1], [1, 2], [2, 3], [3, 4], [3, 5], [5, 6]]; // shin, thigh, spine, neck, upper arm, forearm
+const toBones = (p) => BONES.map(([a, b]) => [Math.atan2(p[b][1] - p[a][1], p[b][0] - p[a][0]), Math.hypot(p[b][0] - p[a][0], p[b][1] - p[a][1])]);
+function mix(a, b, t) {
+  const A = toBones(a), B = toBones(b), out = [[a[0][0] + (b[0][0] - a[0][0]) * t, a[0][1] + (b[0][1] - a[0][1]) * t]];
+  BONES.forEach(([from, to], i) => {
+    let d = B[i][0] - A[i][0];
+    while (d > Math.PI) d -= 2 * Math.PI;
+    while (d < -Math.PI) d += 2 * Math.PI;
+    const ang = A[i][0] + d * t, len = A[i][1] + (B[i][1] - A[i][1]) * t;
+    out[to] = [out[from][0] + Math.cos(ang) * len, out[from][1] + Math.sin(ang) * len];
+  });
+  return out;
+}
+const POSE_NAME = { stand: ['Standing (qiyam)', 'ޤިޔާމު'], raise: ['Takbir: hands raised', 'ތަކްބީރު: ދެއަތް އުފުލުން'], fold: ['Standing, hands folded', 'ޤިޔާމު: އަތް ބަނދެގެން'], bow: ["Bowing (ruku')", 'ރުކޫޢު'], kneel: ['Going down', 'ތިރިވުން'], crouch: ['Going down', 'ތިރިވުން'], reach: ['Hands to the ground', 'އަތް ބިމުގައި ޖެއްސުން'], sit: ['Sitting (julus)', 'އިށީނުން'], sujud: ['Prostration (sujud)', 'ސަޖިދަ'], point: ['Tashahhud', 'އައްތަޙިއްޔާތު'], salamR: ['Salam to the right', 'ކަނާތަށް ސަލާމް'], salamL: ['Salam to the left', 'ވާތަށް ސަލާމް'], dua: ['Hands raised in dua', 'ދުޢާއަށް އަތް އުފުލުން'] };
+// In-between positions that are passed through but not held, so the big movements read as real ones.
+const VIA = { 'stand>kneel': ['crouch'], 'fold>kneel': ['crouch'], 'kneel>stand': ['crouch'], 'kneel>sujud': ['reach'], 'sit>sujud': ['reach'], 'sujud>sit': ['reach'], 'sujud>kneel': ['reach'], 'stand>sujud': ['crouch', 'kneel', 'reach'], 'sujud>stand': ['reach', 'kneel', 'crouch'] };
+function expand(seq) {
+  const out = [];
+  seq.forEach((p, i) => { out.push([p, true]); const next = seq[(i + 1) % seq.length]; if (seq.length > 1) for (const v of VIA[p + '>' + next] || []) out.push([v, false]); });
+  return out;
+}
 const still = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // A limb or the robe as a filled ribbon of varying width along its joints.
@@ -49,17 +73,26 @@ const line = (pts) => pts.map((p) => p[0].toFixed(1) + ',' + p[1].toFixed(1)).jo
 const limb = (pts, w, cls) => html`<polyline points=${line(pts)} class="fig-l fig-out" style=${{ strokeWidth: w + 2.200 }} /><polyline points=${line(pts)} class=${'fig-l fig-in-' + cls} style=${{ strokeWidth: w }} />`;
 
 export function PrayerFigure({ seq }) {
-  const [pts, setPts] = useState(P[seq[seq.length - 1]]);
+  const frames = expand(seq);
+  const last = seq[seq.length - 1];
+  const [pts, setPts] = useState(P[last]);
+  const [cur, setCur] = useState(last);
   const box = useRef(null);
   useEffect(() => {
-    if (seq.length < 2 || still()) { setPts(P[seq[seq.length - 1]]); return; }
-    let raf, start = null, on = false;
-    const MOVE = 1300, HOLD = 1200, STEP = MOVE + HOLD, total = seq.length * STEP;
+    if (seq.length < 2 || still()) { setPts(P[last]); setCur(last); return; }
+    let raf, start = null, on = false, shown = '';
+    const MOVE = 900, HOLD = 1500;
+    const spans = frames.map(([, hold]) => (hold ? HOLD : 0) + MOVE), total = spans.reduce((a, b) => a + b, 0);
     const tick = (now) => {
       if (start === null) start = now;
-      const t = (now - start) % total, i = Math.floor(t / STEP), into = t - i * STEP;
-      const from = P[seq[i]], to = P[seq[(i + 1) % seq.length]];
-      setPts(into < HOLD ? from : mix(from, to, ease((into - HOLD) / MOVE)));
+      let t = (now - start) % total, i = 0;
+      while (t >= spans[i]) { t -= spans[i]; i++; }
+      const [name, hold] = frames[i], wait = hold ? HOLD : 0, next = frames[(i + 1) % frames.length][0];
+      // a gentle breath while a position is held, then a smooth swing into the next one
+      if (t < wait) { const b = Math.sin((t / wait) * Math.PI) * 0.6; setPts(P[name].map((p, k) => (k >= 3 ? [p[0], p[1] - (k === 3 || k === 4 ? b : b * 0.5)] : p))); }
+      else setPts(mix(P[name], P[next], ease((t - wait) / MOVE)));
+      const label = t < wait ? name : next;
+      if (label !== shown && POSE_NAME[label] && frames.find((f) => f[0] === label)[1]) { shown = label; setCur(label); }
       if (on) raf = requestAnimationFrame(tick);
     };
     const io = new IntersectionObserver(([e]) => { on = e.isIntersecting; cancelAnimationFrame(raf); if (on) raf = requestAnimationFrame(tick); });
@@ -78,17 +111,17 @@ export function PrayerFigure({ seq }) {
   const arm = (Math.atan2(hand[1] - elbow[1], hand[0] - elbow[0]) * 180) / Math.PI;
   const cuff = [hand[0] - (hand[0] - elbow[0]) * 0.22, hand[1] - (hand[1] - elbow[1]) * 0.22];
   const rtl = isDv();
-  return html`<svg ref=${box} class="figure" viewBox="40 0 158 156" role="img" aria-label="Prayer position" direction="ltr">
+  return html`<div class="figwrap" ref=${box}><svg class="figure" viewBox="40 0 158 156" role="img" aria-label="Prayer position" direction="ltr">
     <path d="M52 144h138l4 7H48z" class="fig-mat" /><path d="M56 147.500h130" class="fig-mat-edge" />
     <ellipse cx=${(foot[0] + knee[0] + hand[0]) / 3 + 6} cy="144.500" rx=${Math.max(24, Math.abs(head[0] - foot[0]) * 0.62)} ry="2.400" class="fig-shadow" />
     <g class="fig-qibla-g"><path d="M171 13h14M180 8l5 5-5 5" class="fig-qibla" /><text x="178" y="30" class="fig-label">${rtl ? 'ޤިބްލަ' : 'qiblah'}</text></g>
-    ${down > 0.5 && html`<path d=${`M${foot[0] + 6} ${foot[1] - 1}h-12a3.400 3.400 0 0 1 0-6.800l10 1z`} class="fig-skin fig-skin-line" />`}
+    <path d=${`M${foot[0] + 6} ${foot[1] - 1}h-12a3.400 3.400 0 0 1 0-6.800l10 1z`} class="fig-skin fig-skin-line" opacity=${Math.max(0, down * 2 - 0.6).toFixed(2)} />
     ${limb([hip, hem[0], hem[1]], 25 - down * 6, 'robe')}
     ${limb([at(sh, 0, -3), at(hip, 0, 2)], 23, 'robe')}
     <polyline points=${line([at(sh, 0, -3), hip, hem[0], hem[1]])} class="fig-l fig-in-robe" style=${{ strokeWidth: 19 }} />
     <path d=${`M${line([at(sh, 9.500, -5)])}L${line([at(sh, 9.500, -24)])}`} class="fig-fold" />
     <path d=${`M${line([at(hip, -9, 0)])}L${line([[hem[0][0] - 9 + down * 6, hem[0][1]]])}`} class="fig-fold fig-fold-soft" />
-    ${upright && html`<path d=${`M${foot[0] - 7} ${foot[1]}h22a3.600 3.600 0 0 0-2.500-6.400l-9-1.800h-10.500z`} class="fig-skin fig-skin-line" />`}
+    <path d=${`M${foot[0] - 7} ${foot[1]}h22a3.600 3.600 0 0 0-2.500-6.400l-9-1.800h-10.500z`} class="fig-skin fig-skin-line" opacity=${Math.max(0, 1 - down * 2.2).toFixed(2)} />
     ${limb([neck, at(sh, 0, 2)], 7.500, 'neck')}
     <path d=${`M${line([at(sh, -7, 3)])}Q${line([at(sh, 0, 9)])} ${line([at(sh, 8, 2)])}`} class="fig-collar" />
     <g transform=${`rotate(${ang.toFixed(1)} ${head[0]} ${head[1]})`}>
@@ -100,7 +133,9 @@ export function PrayerFigure({ seq }) {
     </g>
     ${limb([at(sh, 1, -4), elbow, cuff], 11, 'sleeve')}
     <ellipse cx=${hand[0]} cy=${hand[1]} rx="5.600" ry="3.700" transform=${`rotate(${arm.toFixed(1)} ${hand[0]} ${hand[1]})`} class="fig-skin fig-skin-line" />
-  </svg>`;
+  </svg>
+    <p class="fig-pose" key=${cur}>${(POSE_NAME[cur] || [''])[isDv() ? 1 : 0]}</p>
+    ${seq.length > 1 && html`<p class="fig-dots" aria-hidden="true">${seq.map((p, i) => html`<i class=${p === cur && seq.indexOf(cur) === i ? 'on' : ''}></i>`)}</p>`}</div>`;
 }
 
 // Front view for wudu: the part being washed glows and water runs over it.

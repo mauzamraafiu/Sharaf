@@ -721,3 +721,11 @@ body::before { content: ''; position: fixed; inset: -18vmax; z-index: -1; pointe
   @keyframes driftnear { from { transform: translateX(8px); } to { transform: translateX(-8px); } }
 }
 :root { --ui: Figtree, Faruma, 'Noto Sans Thaana', 'Amiri Quran', system-ui, sans-serif; --read: Literata, Faruma, 'Noto Sans Thaana', 'Amiri Quran', Georgia, serif; }
+
+/* prayer figure: caption and progress */
+.figwrap { display: grid; justify-items: center; gap: 4px; width: 100%; }
+.fig-pose { font-weight: 600; color: var(--lagoon-deep); animation: rise .35s both; min-height: 1.5em; }
+[data-theme=dark] .fig-pose { color: var(--lagoon); }
+.fig-dots { display: flex; gap: 6px; padding-bottom: 6px; }
+.fig-dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--line); transition: background-color .3s, transform .3s; }
+.fig-dots i.on { background: var(--gold); transform: scale(1.5); }
