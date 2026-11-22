@@ -852,7 +852,7 @@ function MushafPage({ p, surahs, side }) {
   pg.ayahs.forEach(([s, n, text], i) => {
     if (n === 1) {
       flush();
-      parts.push(html`<div class="surah-banner"><span>سُورَةُ ${surahs[s - 1].ar}</span></div>`);
+      parts.push(html`<div class="surah-banner"><i aria-hidden="true"></i><span>سُورَةُ ${surahs[s - 1].ar}</span><i aria-hidden="true"></i></div>`);
       if (s !== 1 && s !== 9) parts.push(html`<p class="mbasmala" lang="ar" dir="rtl">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>`);
     }
     const on = a.current?.key === `q:${s}:${n}`;
@@ -863,9 +863,9 @@ function MushafPage({ p, surahs, side }) {
   const first = pg.ayahs[0][0];
   return html`<div class="leaf ${side}">
     <div class="leaf-frame">
-      <div class="leaf-head"><span lang="ar">${surahs[first - 1].ar}</span><span lang="ar">الجزء ${arNum(pg.juz)}</span></div>
+      <div class="leaf-head"><span lang="ar">سُورَةُ ${surahs[first - 1].ar}</span><i class="lh-star" aria-hidden="true"></i><span lang="ar">الجزء ${arNum(pg.juz)}</span></div>
       <div class="leaf-body ${pg.ayahs.length < 9 && p < 3 ? 'is-opening' : ''}">${parts}</div>
-      <div class="leaf-foot num">${arNum(p)}</div>
+      <div class="leaf-foot num"><span>${arNum(p)}</span></div>
     </div>
   </div>`;
 }
@@ -910,7 +910,7 @@ function attachFold(el, api) {
     if (st && st.anim) return;
     if (e.pointerType === 'mouse' && e.button !== 0) return;
     const r = el.getBoundingClientRect();
-    st = { x0: e.clientX, y0: e.clientY, r, W: r.width, H: r.height, active: false, id: e.pointerId, vx: 0, lx: e.clientX, lt: performance.now() };
+    st = { tgt: e.target, x0: e.clientX, y0: e.clientY, r, W: r.width, H: r.height, active: false, id: e.pointerId, vx: 0, lx: e.clientX, lt: performance.now() };
     dragged = false;
   };
   const move = (e) => {
@@ -936,8 +936,9 @@ function attachFold(el, api) {
     if (!st || st.anim) return;
     if (!st.active) { // a plain tap: in full screen, the page edges turn the page
       const moved = Math.hypot(e.clientX - st.x0, e.clientY - st.y0), f = (e.clientX - st.r.left) / st.W;
-      st = null;
-      if (moved < 8 && api.focus() && e.type === 'pointerup') { if (f < 0.14) api.next(); else if (f > 0.86) api.prev(); }
+      const tg0 = st.tgt; st = null;
+      const tg = tg0, onText = tg && tg.closest && tg.closest('.mayah, button, a'); // a tap on an ayah plays it, it never turns the page
+      if (moved < 8 && !onText && api.focus() && e.type === 'pointerup') { if (f < 0.1) api.next(); else if (f > 0.9) api.prev(); }
       return;
     }
     const sgn = st.dir === 'next' ? 1 : -1;
@@ -953,10 +954,12 @@ function attachFold(el, api) {
     };
     raf = requestAnimationFrame(step);
   };
+  const edge = (e) => { const x = e.touches[0] ? e.touches[0].clientX : 99; if ((x < 30 || x > innerWidth - 30) && e.cancelable) e.preventDefault(); };
+  el.addEventListener('touchstart', edge, { passive: false });
   const click = (e) => { if (dragged) { e.stopPropagation(); e.preventDefault(); dragged = false; } };
   el.addEventListener('pointerdown', down); el.addEventListener('pointermove', move, { passive: false });
   el.addEventListener('pointerup', up); el.addEventListener('pointercancel', up); el.addEventListener('click', click, true);
-  return () => { cancelAnimationFrame(raf); el.removeEventListener('pointerdown', down); el.removeEventListener('pointermove', move); el.removeEventListener('pointerup', up); el.removeEventListener('pointercancel', up); el.removeEventListener('click', click, true); };
+  return () => { cancelAnimationFrame(raf); el.removeEventListener('touchstart', edge); el.removeEventListener('pointerdown', down); el.removeEventListener('pointermove', move); el.removeEventListener('pointerup', up); el.removeEventListener('pointercancel', up); el.removeEventListener('click', click, true); };
 }
 function Mushaf({ page }) {
   const idx = useData(() => getJSON('/quran/index.json'), []);
