@@ -276,6 +276,39 @@ function togglePrayed(k) {
   if (cur[k] && navigator.vibrate) navigator.vibrate(15);
   return cur[k];
 }
+// Ticks made from a notification button wait in a cache entry until the app is open to record them.
+async function mergePendingPrayed() {
+  if (!('caches' in window)) return;
+  try {
+    const cache = await caches.open('dheen-settings');
+    const hit = await cache.match('/__prayed');
+    if (!hit) return;
+    const pending = await hit.json();
+    const all = { ...(getSettings().prayed || {}) };
+    for (const [day, ks] of Object.entries(pending)) { const cur = [...(all[day] || [0, 0, 0, 0, 0])]; for (const k of Object.keys(ks)) if (+k >= 0 && +k < 5) cur[+k] = 1; all[day] = cur; }
+    await cache.delete('/__prayed');
+    setSettings({ prayed: all });
+  } catch {}
+}
+// A gentle question on the home screen about prayers whose time has passed today and are not ticked yet.
+function CatchUp() {
+  const s = useSettings();
+  const now = useClock();
+  const d = useData(prayerData, []);
+  const [hidden, setHidden] = useState(false);
+  if (!d.data || hidden) return null;
+  const { times } = timesFor(d.data, s.island, now);
+  const minute = now.getUTCHours() * 60 + now.getUTCMinutes();
+  const done = prayedOn(s, todayKey());
+  const open = PRAY5.map((i, k) => ({ i, k })).filter(({ i, k }) => times[i] + 20 <= minute && !done[k]);
+  if (!open.length) return null;
+  const names = open.map(({ i }) => t(PRAYERS[i]));
+  return html`<section class="catchup" role="group" aria-label=${t('catchAsk')}>
+    <p><strong>${t('catchAsk')}</strong></p>
+    <div class="chips">${open.map(({ i, k }) => html`<button class="chip catch-chip" onClick=${() => togglePrayed(k)}><${Icon} name="check" /> ${t(PRAYERS[i])}</button>`)}</div>
+    <div class="catch-foot">${open.length > 1 && html`<button class="btn primary" onClick=${() => open.forEach(({ k }) => togglePrayed(k))}>${t('catchAll')}</button>`}<button class="btn" onClick=${() => setHidden(true)}>${t('catchLater')}</button></div>
+  </section>`;
+}
 function WeekDots({ s }) {
   const days = [];
   for (let i = 6; i >= 0; i--) { const d = new Date(mvNow().getTime() - i * 86400000).toISOString().slice(0, 10); days.push(prayedOn(s, d).reduce((a, b) => a + b, 0)); }
@@ -410,6 +443,7 @@ function Home({ boot }) {
       <p class="bismillah" lang="ar" dir="rtl">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
     </header>
     <a class="memstrip" href="#/memory"><span class="mem-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>${t('memShort')} <strong>${t('memName')}</strong>${t('memAfter')} <span class="num">1972 – 2023</span></span><span class="memstrip-go">${t('memAsk')}</span></a>
+    <${CatchUp} />
     <div class="home-grid">
       <div class="col"><${PrayerCard} track /></div>
       <div class="col">
@@ -1352,11 +1386,13 @@ document.addEventListener('touchmove', (e) => { if (e.touches.length > 1) e.prev
 applyTheme();
 setSettings({});
 loadAccount();
+mergePendingPrayed();
+document.addEventListener('visibilitychange', () => { if (!document.hidden) mergePendingPrayed(); });
 const root = document.getElementById('app');
 root.textContent = ''; // remove the static "Loading…" placeholder from index.html, which otherwise stays at the bottom of every page
 render(html`<${App} />`, root);
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').catch(() => {});
   // a tapped notification asks the open app to show the countdown
-  navigator.serviceWorker.addEventListener('message', (e) => { if (e.data && typeof e.data.go === 'string' && e.data.go.startsWith('#/')) location.hash = e.data.go; });
+  navigator.serviceWorker.addEventListener('message', (e) => { if (e.data && typeof e.data.go === 'string' && e.data.go.startsWith('#/')) location.hash = e.data.go; if (e.data && e.data.prayedSync) mergePendingPrayed(); });
 }

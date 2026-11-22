@@ -854,3 +854,9 @@ input[type=range] { accent-color: var(--lagoon); width: min(52%, 220px); height:
 .guide-ar, .counter-ar { font-size: var(--ar-size, 30px); line-height: 2.1; }
 @media (max-width: 599px) { .guide-ar { font-size: var(--ar-size, 30px); } }
 .prose :lang(ar), .notice :lang(ar) { font-family: var(--arabic); }
+
+/* ---------- catch-up question ---------- */
+.catchup { display: grid; gap: 12px; padding: 16px; border-radius: 20px; background: var(--surface); border: 1px solid color-mix(in srgb, var(--lagoon) 35%, var(--line)); box-shadow: 0 1px 0 rgb(255 255 255 / .8) inset, 0 5px 0 -2px color-mix(in srgb, var(--line) 80%, #000 6%), 0 16px 26px -18px rgb(11 79 76 / .3); }
+.catch-chip { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 16px; font-size: 1rem; }
+.catch-chip .icon { width: 16px; height: 16px; color: var(--lagoon); }
+.catch-foot { display: flex; gap: 8px; flex-wrap: wrap; }

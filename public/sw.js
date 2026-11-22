@@ -1,5 +1,5 @@
 // Service worker: keeps the app usable offline and shows prayer-time notifications.
-const SHELL = 'dheen-shell-v31';
+const SHELL = 'dheen-shell-v32';
 const DATA = 'dheen-data-v1';
 const SHELL_FILES = ['/', '/index.html', '/app.js', '/lib.js', '/admin.js', '/figures.js', '/arabic.js', '/styles.css', '/vendor/preact-htm.js', '/manifest.webmanifest', '/icons/icon-192.png',
   '/fonts/figtree.woff2', '/fonts/literata.woff2', '/fonts/amiri-quran.woff2', '/fonts/faruma.ttf', '/fonts/thaana-400.woff2', '/quran/index.json', '/data/prayer.json'];
@@ -53,7 +53,7 @@ async function prayerNotice() {
   let s = { lang: 'en', island: 102, lead: 0 };
   try { s = { ...s, ...(await (await caches.match('/__settings')).json()) }; } catch {}
   const dv = s.lang === 'dv';
-  let title = dv ? 'ނަމާދު ވަގުތު' : 'Prayer time', body = '';
+  let title = dv ? 'ނަމާދު ވަގުތު' : 'Prayer time', body = '', data = null;
   try {
     const data = await (await cacheFirst(new Request('/data/prayer.json'), DATA)).json();
     const isl = data.islands.find((i) => i.id === s.island) || data.islands.find((i) => i.id === 102);
@@ -64,6 +64,7 @@ async function prayerNotice() {
     [0, 2, 3, 4, 5].forEach((col, p) => { const t = row[col] + isl.o, diff = t - minute; if (diff >= -15 && diff <= 20 && (!best || Math.abs(diff) < Math.abs(best.diff))) best = { p, t, diff }; });
     if (best) {
       const name = NAMES[dv ? 'dv' : 'en'][best.p];
+      data = { p: best.p, day: now.toISOString().slice(0, 10), arrived: best.diff <= 0 };
       if (best.diff > 0) {
         title = dv ? `${name}: ${best.diff} މިނެޓް ބާކީ` : `${name} in ${best.diff} ${best.diff === 1 ? 'minute' : 'minutes'}`;
         body = dv ? `${hhmm(best.t)}، ${isl.n}. ކައުންޓްޑައުން ބެލުމަށް ފިއްތާ.` : `${hhmm(best.t)} in ${isl.n}. Tap to see the countdown.`;
@@ -73,11 +74,27 @@ async function prayerNotice() {
       }
     }
   } catch {}
-  return self.registration.showNotification(title, { body, icon: '/icons/icon-192.png', badge: '/icons/icon-192.png', tag: 'prayer', renotify: true });
+  const opts = { body, icon: '/icons/icon-192.png', badge: '/icons/icon-192.png', tag: 'prayer', renotify: true, data };
+  // Android shows this as a button on the alert; iPhone ignores it.
+  if (data && data.arrived) opts.actions = [{ action: 'prayed', title: dv ? 'ނަމާދުކޮށްފިން' : 'I have prayed' }];
+  return self.registration.showNotification(title, opts);
 }
 self.addEventListener('push', (e) => e.waitUntil(prayerNotice()));
 self.addEventListener('notificationclick', (e) => {
   e.notification.close();
+  const d = e.notification.data;
+  if (e.action === 'prayed' && d) {
+    // Tick the prayer without opening the app: leave a note the app picks up, and tell it now if it is open.
+    e.waitUntil((async () => {
+      const cache = await caches.open('dheen-settings');
+      let pending = {};
+      try { pending = await (await cache.match('/__prayed')).json(); } catch {}
+      (pending[d.day] ||= {})[d.p] = 1;
+      await cache.put('/__prayed', new Response(JSON.stringify(pending)));
+      for (const c of await self.clients.matchAll({ type: 'window', includeUncontrolled: true })) c.postMessage({ prayedSync: true });
+    })());
+    return;
+  }
   // Open the live countdown, in the app window if one is already open.
   e.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(async (list) => {
     const c = list[0];
