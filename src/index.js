@@ -3,7 +3,7 @@ import { getCookie, setCookie, deleteCookie } from 'hono/cookie';
 import { ISLANDS } from './islands.js';
 import { generateVapid, sendPush } from './push.js';
 
-const SCHEMA_VERSION = '2';
+const SCHEMA_VERSION = '3';
 const SCHEMA = [
   `CREATE TABLE IF NOT EXISTS meta (key TEXT PRIMARY KEY, value TEXT NOT NULL)`,
   `CREATE TABLE IF NOT EXISTS sections (id TEXT PRIMARY KEY, area TEXT NOT NULL, title_en TEXT NOT NULL, title_dv TEXT NOT NULL DEFAULT '', summary_en TEXT NOT NULL DEFAULT '', summary_dv TEXT NOT NULL DEFAULT '', sort INTEGER NOT NULL DEFAULT 0)`,
