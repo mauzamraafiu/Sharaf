@@ -73,7 +73,6 @@ const line = (pts) => pts.map((p) => p[0].toFixed(1) + ',' + p[1].toFixed(1)).jo
 const limb = (pts, w, cls) => html`<polyline points=${line(pts)} class="fig-l fig-out" style=${{ strokeWidth: w + 2.200 }} /><polyline points=${line(pts)} class=${'fig-l fig-in-' + cls} style=${{ strokeWidth: w }} />`;
 
 export function PrayerFigure({ seq }) {
-  const frames = expand(seq);
   const last = seq[seq.length - 1];
   const [pts, setPts] = useState(P[last]);
   const [cur, setCur] = useState(last);
@@ -82,25 +81,26 @@ export function PrayerFigure({ seq }) {
   // The 3D figure loads on its own; until it is ready, or where 3D is not available, the drawing stands in.
   useEffect(() => {
     let dead = false;
-    import('./figure3d.js').then((m) => { if (dead || !host.current) return; const f = m.attach(host.current); if (f) { fig.current = f; f.draw(last, last, 0, 0); setThree(true); } }).catch(() => {});
+    import('./figure3d.js').then((m) => { if (dead || !host.current) return; const f = m.attach(host.current); if (f) { fig.current = f; f.draw([last], 0, 0); setThree(true); } }).catch(() => {});
     return () => { dead = true; if (fig.current) { fig.current.dispose(); fig.current = null; } };
   }, []);
   useEffect(() => {
-    if (seq.length < 2 || still()) { setPts(P[last]); setCur(last); if (fig.current) fig.current.draw(last, last, 0, 0); return; }
+    if (seq.length < 2 || still()) { setPts(P[last]); setCur(last); if (fig.current) fig.current.draw([last], 0, 0); return; }
     let raf, start = null, on = false, shown = '';
-    const MOVE = 1150, HOLD = 1700;
-    const spans = frames.map(([, hold]) => (hold ? HOLD : 0) + MOVE), total = spans.reduce((a, b) => a + b, 0);
+    // One movement runs from a held position to the next, flowing through the in-between ones without stopping.
+    const HOLD = 1700, moves = seq.map((p, i) => { const next = seq[(i + 1) % seq.length], keys = [p, ...(VIA[p + '>' + next] || []), next]; return { keys, ms: 1250 + (keys.length - 2) * 620 }; });
+    const total = moves.reduce((a, m) => a + HOLD + m.ms, 0);
+    const smooth = (t) => t * t * t * (t * (t * 6 - 15) + 10);
     const tick = (now) => {
       if (start === null) start = now;
       let t = (now - start) % total, i = 0;
-      while (t >= spans[i]) { t -= spans[i]; i++; }
-      const [name, hold] = frames[i], wait = hold ? HOLD : 0, next = frames[(i + 1) % frames.length][0];
-      // a gentle breath while a position is held, then a smooth swing into the next one
-      if (fig.current) { if (t < wait) fig.current.draw(name, name, 0, Math.sin((t / wait) * Math.PI)); else fig.current.draw(name, next, ease((t - wait) / MOVE), 0); }
-      else if (t < wait) { const b = Math.sin((t / wait) * Math.PI) * 0.6; setPts(P[name].map((p, k) => (k >= 3 ? [p[0], p[1] - (k === 3 || k === 4 ? b : b * 0.5)] : p))); }
-      else setPts(mix(P[name], P[next], ease((t - wait) / MOVE)));
-      const label = t < wait ? name : next;
-      if (label !== shown && POSE_NAME[label] && frames.find((f) => f[0] === label)[1]) { shown = label; setCur(label); }
+      while (t >= HOLD + moves[i].ms) { t -= HOLD + moves[i].ms; i++; }
+      const m = moves[i], name = m.keys[0], next = m.keys[m.keys.length - 1], held = t < HOLD, u = held ? 0 : smooth((t - HOLD) / m.ms);
+      if (fig.current) fig.current.draw(held ? [name] : m.keys, u, held ? Math.sin((t / HOLD) * Math.PI) : 0); // a gentle breath while a position is held
+      else if (held) { const b = Math.sin((t / HOLD) * Math.PI) * 0.6; setPts(P[name].map((p, k) => (k >= 3 ? [p[0], p[1] - (k === 3 || k === 4 ? b : b * 0.5)] : p))); }
+      else { const x = Math.min(0.9999, u) * (m.keys.length - 1), k = Math.floor(x); setPts(mix(P[m.keys[k]], P[m.keys[k + 1]], x - k)); }
+      const label = held || u < 0.5 ? name : next;
+      if (label !== shown) { shown = label; setCur(label); }
       if (on) raf = requestAnimationFrame(tick);
     };
     const io = new IntersectionObserver(([e]) => { on = e.isIntersecting; cancelAnimationFrame(raf); if (on) raf = requestAnimationFrame(tick); });
