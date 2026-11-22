@@ -3,7 +3,7 @@ import { getSettings, setSettings, onSettings, applyTheme, t, pick, isDv, PRAYER
 import { LETTERS, WORDS } from './arabic.js';
 import { Admin } from './admin.js';
 import { StepFigure, PrayerPicker } from './figures.js';
-import { ToolsPage, FridayCard, DeedCounters, AzanWatcher } from './tools.js';
+import { ToolsPage, FridayCard, AzanWatcher } from './tools.js';
 
 // ---------- hooks ----------
 function useSettings() {
@@ -1484,7 +1484,6 @@ function MemoryPage() {
       <p class="notice ${isDv() ? 'dv' : ''}">${t('memShort2')} <span class="ar" lang="ar" dir="rtl">اللَّهُمَّ اغْفِرْ لَهَا وَارْحَمْهَا</span></p>
     </section>
     <div class="toolbar"><button class="btn primary" onClick=${share}>${t('shareApp')}</button>${msg && html`<span class="muted" role="status">${msg}</span>`}</div>
-    <${DeedCounters} />
   </div>`;
 }
 
