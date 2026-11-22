@@ -441,6 +441,11 @@ function featureCard(boot, [path, icon]) {
   const sec = boot.sections.find((x) => x.id === path.slice(2));
   return sec ? html`<${Card} href=${'#/' + path} icon=${icon} title=${pick(sec, 'title')} sub=${pick(sec, 'summary')} />` : null;
 }
+// The home screen's launcher: one small tile per place in the app, with a short name.
+const LAUNCH = [['#/s/salah-steps', 'prayer', 'How to pray', 'ނަމާދުކުރާނެ ގޮތް'], ['#/s/wudu-steps', 'drop', 'Wudu', 'ވުޟޫ'], ['#/qibla', 'compass', 'Qibla', 'ޤިބުލަ'], ['#/quran', 'quran', 'Quran', 'ޤުރުއާން'],
+  ['#/duas', 'duas', 'Duas', 'ދުޢާ'], ['#/s/dhikr-tongue', 'count', 'Dhikr', 'ޛިކުރު'], ['#/explore/g_days', 'calendar', 'Special days', 'ޚާއްޞަ ދުވަސްތައް'], ['#/explore/g_stories', 'book', 'Stories', 'ވާހަކަތައް'],
+  ['#/explore/g_kids', 'star', 'Children', 'ކުދިންނަށް'], ['#/arabic', 'chat', 'Arabic', 'ޢަރަބި'], ['#/t', 'moon', 'Tools', 'ޓޫލްސް'], ['#/explore', 'explore', 'Everything', 'ހުރިހާ ބައެއް']];
+const Launcher = () => html`<nav class="launch" aria-label=${t('explore')}>${LAUNCH.map(([href, icon, en, dv]) => html`<a class="launch-tile card" data-tone=${icon} href=${href}><span class="disc"><${Icon} name=${icon === 'moon' ? 'calendar' : icon} /></span><strong>${isDv() ? dv : en}</strong></a>`)}</nav>`;
 function Home({ boot }) {
   const s = useSettings();
   return html`<div class="page wide home">
@@ -453,6 +458,7 @@ function Home({ boot }) {
     <div class="home-grid">
       <div class="col"><${PrayerCard} track /></div>
       <div class="col">
+        <${Launcher} />
         ${!s.notif.on && html`<a class="resume notif-cta" href="#/settings/notifications"><span class="muted">${t('notifCtaSub')}</span><strong><${Icon} name="bell" /> ${t('notifCta')}</strong></a>`}
         <${NowCard} boot=${boot} />
         ${s.last && html`<a class="resume" href=${`#/quran/${s.last.s}/${s.last.a}`}>
@@ -463,7 +469,6 @@ function Home({ boot }) {
         <${AyahOfDay} />
       </div>
     </div>
-    <section class="group"><h2>${t('explore')}</h2><div class="cardgrid">${FEATURES.map((f) => featureCard(boot, f))}</div></section>
     <${MemoryPanel} />
   </div>`;
 }
@@ -626,31 +631,46 @@ const AREA_GROUP = { prayer: 'g_worship', hajj: 'g_worship', duas: 'g_duas', qur
 const AREA_ICON = { prayer: 'prayer', hajj: 'kaaba', duas: 'duas', quran: 'quran', days: 'calendar', history: 'book', kids: 'star', arabic: 'chat' };
 const groupOf = (sec) => (sec.id === 'seasons' ? 'g_days' : AREA_GROUP[sec.area] || 'g_know');
 const SectionCards = ({ boot, sections }) => sections.map((sec) => html`<${Card} href=${`#/s/${sec.id}`} icon=${AREA_ICON[sec.area] || 'library'} title=${pick(sec, 'title')} sub=${pick(sec, 'summary')} count=${countIn(boot, sec.id)} />`);
+const GROUP_ICON = { g_worship: 'prayer', g_duas: 'duas', g_quran: 'quran', g_days: 'calendar', g_stories: 'book', g_kids: 'star', g_arabic: 'chat', g_know: 'library' };
+// What sits in a group besides its sections: [href, icon, title key, summary key]
+const GROUP_EXTRA = { g_quran: [['#/quran', 'quran', 'readQuran', 'readQuranSum'], ['#/mushaf', 'quran', 'mushafT', 'mushafSum']], g_arabic: [['#/arabic/letters', 'chat', 'letters', 'tapLetter'], ['#/arabic/words', 'chat', 'wordPractice', 'whatMeans']], g_duas: [['#/s/dhikr-tongue', 'count', 'counter', 'tapToCount']] };
+// Explore opens as a shelf of eight subjects. Choosing one shows only what is inside it, as a short list.
 function ExplorePage({ boot, focus }) {
-  useEffect(() => { if (focus) document.getElementById(focus)?.scrollIntoView({ block: 'start' }); else scrollTo(0, 0); }, [focus]);
+  useEffect(() => { scrollTo(0, 0); }, [focus]);
+  const inGroup = (g) => boot.sections.filter((x) => groupOf(x) === g);
+  if (focus && GROUPS.includes(focus)) {
+    const secs = inGroup(focus);
+    return html`<div class="page wide">
+      <a class="back" href="#/explore"><${Icon} name="back" /> ${t('explore')}</a>
+      <h1>${t(focus)}</h1>
+      <nav class="jump" aria-label=${t('explore')}>${GROUPS.map((g) => html`<a class="chip" aria-current=${g === focus ? 'page' : null} href=${`#/explore/${g}`}>${t(g)}</a>`)}</nav>
+      <div class="cardgrid rows">
+        ${(GROUP_EXTRA[focus] || []).map(([href, icon, a, b]) => html`<${Card} href=${href} icon=${icon} title=${t(a)} sub=${t(b)} />`)}
+        <${SectionCards} boot=${boot} sections=${secs} />
+      </div></div>`;
+  }
   return html`<div class="page wide">
     <h1>${t('explore')}</h1>
-    <nav class="jump" aria-label=${t('explore')}>${GROUPS.map((g) => html`<a class="chip" href=${`#/explore/${g}`}>${t(g)}</a>`)}</nav>
-    ${GROUPS.map((g) => html`<section class="group" id=${g}><h2>${t(g)}</h2><div class="cardgrid">
-      ${g === 'g_quran' && html`<${Card} href="#/quran" icon="quran" title=${t('readQuran')} sub=${t('readQuranSum')} /><${Card} href="#/mushaf" icon="quran" title=${t('mushafT')} sub=${t('mushafSum')} />`}
-      ${g === 'g_arabic' && html`<${Card} href="#/arabic/letters" icon="chat" title=${t('letters')} sub=${t('tapLetter')} /><${Card} href="#/arabic/words" icon="chat" title=${t('wordPractice')} sub=${t('whatMeans')} />`}
-      ${g === 'g_duas' && html`<${Card} href="#/s/dhikr-tongue" icon="count" title=${t('counter')} sub=${t('tapToCount')} />`}
-      <${SectionCards} boot=${boot} sections=${boot.sections.filter((x) => groupOf(x) === g)} />
-    </div></section>`)}
-  </div>`;
+    <div class="shelf">
+      ${GROUPS.map((g) => { const secs = inGroup(g), n = secs.length + (GROUP_EXTRA[g] || []).length; return html`<a class="shelf-tile card" data-tone=${GROUP_ICON[g]} href=${`#/explore/${g}`}>
+        <span class="disc"><${Icon} name=${GROUP_ICON[g]} /></span><strong>${t(g)}</strong>
+        <span class="shelf-n num">${n}</span>
+        <span class="shelf-in">${secs.slice(0, 3).map((x) => pick(x, 'title')).join(' · ')}</span></a>`; })}
+      <a class="shelf-tile card" data-tone="moon" href="#/t"><span class="disc"><${Icon} name="calendar" /></span><strong>${isDv() ? 'ޓޫލްސް' : 'Tools'}</strong><span class="shelf-in">${isDv() ? 'ރަމަޟާން · ޒަކާތް · ޚަތިމް · ކުއިޒް' : 'Ramadan · Zakat · Khatm plan · Quiz'}</span></a>
+    </div></div>`;
 }
 function PrayerPage({ boot }) {
   return html`<div class="page wide">
     <h1>${t('prayer')}</h1>
     <div class="home-grid"><div class="col"><${PrayerCard} track /></div>
-      <div class="col"><section class="group"><h2>${t('guides')}</h2><div class="cardgrid one"><${Card} href="#/qibla" icon="compass" title=${t('qibla')} sub=${t('qiblaSub')} /><${SectionCards} boot=${boot} sections=${boot.sections.filter((x) => x.area === 'prayer')} /></div></section></div></div>
-    <section class="group"><h2>${t('g_worship')}</h2><div class="cardgrid"><${SectionCards} boot=${boot} sections=${boot.sections.filter((x) => x.area === 'hajj' || x.id === 'pillars')} /></div></section>
+      <div class="col"><section class="group"><h2>${t('guides')}</h2><div class="cardgrid rows one"><${Card} href="#/qibla" icon="compass" title=${t('qibla')} sub=${t('qiblaSub')} /><${SectionCards} boot=${boot} sections=${boot.sections.filter((x) => x.area === 'prayer')} /></div></section></div></div>
+    <section class="group"><h2>${t('g_worship')}</h2><div class="cardgrid rows"><${SectionCards} boot=${boot} sections=${boot.sections.filter((x) => x.area === 'hajj' || x.id === 'pillars')} /></div></section>
   </div>`;
 }
 function DuasPage({ boot }) {
   return html`<div class="page wide"><h1>${t('duas')}</h1>
-    <div class="cardgrid"><${Card} href="#/s/dhikr-tongue" icon="count" title=${t('counter')} sub=${t('tapToCount')} /><${Card} href="#/guide/sec:duas-morning-evening" icon="duas" title=${t('morningAdhkar')} sub=${t('oneByOne')} /><${Card} href="#/guide/after-dhuhr" icon="duas" title=${t('afterPrayer')} sub=${t('oneByOne')} /></div>
-    <section class="group"><h2>${t('g_duas')}</h2><div class="cardgrid"><${SectionCards} boot=${boot} sections=${sectionsOf(boot, 'duas')} /></div></section></div>`;
+    <div class="cardgrid tiles few"><${Card} href="#/s/dhikr-tongue" icon="count" title=${t('counter')} sub=${t('tapToCount')} /><${Card} href="#/guide/sec:duas-morning-evening" icon="duas" title=${t('morningAdhkar')} sub=${t('oneByOne')} /><${Card} href="#/guide/after-dhuhr" icon="duas" title=${t('afterPrayer')} sub=${t('oneByOne')} /></div>
+    <section class="group"><h2>${t('g_duas')}</h2><div class="cardgrid rows"><${SectionCards} boot=${boot} sections=${sectionsOf(boot, 'duas')} /></div></section></div>`;
 }
 
 // ---------- guided dhikr: one remembrance at a time, with its count ----------
