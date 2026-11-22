@@ -504,9 +504,42 @@ function SurahNote({ n }) {
   const dv = isDv() && note.body_dv;
   return html`<details class="surah-note"><summary>${t('aboutSurah')}</summary><div class=${dv ? 'dv' : ''}><${Markdown} text=${dv ? note.body_dv : note.body_en} /></div></details>`;
 }
+// One ayah's Arabic, optionally coloured by tajweed rule and with each word tappable for its meaning.
+const PAUSE_MARKS = 'ۖۗۘۙۚۛۜ۩۞', DUAL = 'بتثجحخسشصضطظعغفقكلمنهيئى';
+const isLetter = (c) => (c >= 'ء' && c <= 'ي') || c === 'ٱ';
+function AyahText({ text, tj, wbw, onWord, open }) {
+  const out = []; let pos = 0, wi = 0;
+  text.split(' ').forEach((word, k) => {
+    const start = pos; pos += word.length + 1;
+    const pause = [...word].every((c) => PAUSE_MARKS.includes(c));
+    const segs = []; let at = 0;
+    for (const [a, b, g] of tj || []) {
+      if (b <= start || a >= start + word.length) continue;
+      const x = Math.max(0, a - start), y = Math.min(word.length, b - start);
+      if (x > at) segs.push([word.slice(at, x), '']);
+      segs.push([word.slice(x, y), g]); at = y;
+    }
+    if (at < word.length) segs.push([word.slice(at), '']);
+    // Keep letters joined across colour boundaries: a zero-width joiner on each side where the script joins.
+    const parts = segs.map(([txt, g], i) => {
+      let before = '', after = '';
+      if (i > 0) { const prev = [...segs[i - 1][0]].reverse().find(isLetter); if (prev && DUAL.includes(prev) && isLetter(txt[0])) before = '‍'; }
+      if (i < segs.length - 1) { const last = [...txt].reverse().find(isLetter), nx = segs[i + 1][0][0]; if (last && DUAL.includes(last) && isLetter(nx)) after = '‍'; }
+      return g ? html`<span class=${'tj tj-' + g}>${before + txt + after}</span>` : before + txt + after;
+    });
+    const idx = pause ? -1 : wi++;
+    if (k) out.push(' ');
+    out.push(wbw && idx >= 0 && wbw[idx] ? html`<span class=${'qw' + (open === idx ? ' on' : '')} onClick=${(e) => { e.stopPropagation(); onWord(idx); }}>${parts}</span>` : parts);
+  });
+  return out;
+}
+const TJ_KEY = [['g', 'Ghunnah, ikhfa, idgham: through the nose', 'ޣުންނަ، އިޚްފާ، އިދްޣާމް: ނޭފަތުން'], ['q', 'Qalqalah: a small bounce', 'ޤަލްޤަލާ'], ['m', 'Madd: stretch 2 counts', 'މައްދު: 2 ޙަރަކާތް'], ['M', 'Madd: stretch 4 to 6 counts', 'މައްދު: 4 އިން 6 ޙަރަކާތް'], ['s', 'Written but not pronounced', 'ލިޔެފައިވާ، ނަމަވެސް ނުކިޔާ']];
 function Surah({ n, focus }) {
   const d = useData(() => getJSON(`/quran/${n}.json`), [n]);
   const s = useSettings();
+  const tjd = useData(() => (getSettings().qTaj ? getJSON(`/quran/tj/${n}.json`) : Promise.resolve(null)), [n, s.qTaj]);
+  const wbd = useData(() => (getSettings().qWbw ? getJSON(`/quran/wbw/${n}.json`) : Promise.resolve(null)), [n, s.qWbw]);
+  const [word, setWord] = useState(null); // [ayah, word index] of the word whose meaning is showing
   const a = useAudio();
   const seen = useRef(null);
   useEffect(() => {
@@ -544,9 +577,13 @@ function Surah({ n, focus }) {
           <button class="btn primary" onClick=${() => (a.current?.s === su.n ? toggleAudio() : queueFrom(0))}><${Icon} name=${a.current?.s === su.n && a.playing ? 'pause' : 'play'} /> ${a.current?.s === su.n && a.playing ? t('pause') : t('playSurah')}</button>
           <span class="chips" role="group" aria-label="Show">
             ${[['ar', 'arabic'], ['en', 'english'], ['dv', 'dhivehi']].map(([k, l]) => html`<button class="chip" aria-pressed=${s.show[k]} onClick=${() => toggle(k)}>${t(l)}</button>`)}
+            <button class="chip" aria-pressed=${!!s.qTaj} onClick=${() => setSettings({ qTaj: !s.qTaj })}>${isDv() ? 'ތަޖުވީދު ކުލަ' : 'Tajweed colours'}</button>
+            <button class="chip" aria-pressed=${!!s.qWbw} onClick=${() => { setWord(null); setSettings({ qWbw: !s.qWbw }); }}>${isDv() ? 'ބަހުން ބަހަށް' : 'Word by word'}</button>
           </span>
         </div>
       </header>
+      ${s.qTaj && html`<p class="tj-key">${TJ_KEY.map(([g, en, dv]) => html`<span><i class=${'tj-' + g}></i>${isDv() ? dv : en}</span>`)}</p>`}
+      ${s.qWbw && html`<p class="muted small">${isDv() ? 'ބަހެއްގެ މާނަ ބެލުމަށް އެ ބަހުގައި ފިއްތާ. މާނަ ވަނީ އިނގިރޭސި ބަހުން.' : 'Tap any word to see its meaning. Word meanings are in English only.'}</p>`}
       ${su.n !== 1 && su.n !== 9 && html`<p class="basmala ar" lang="ar" dir="rtl">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</p>`}
       <ol class="ayahs">
         ${su.ayahs.map((v, i) => {
@@ -558,7 +595,8 @@ function Surah({ n, focus }) {
               <button class="icon-btn" aria-label=${`${t('bookmark')} ${an}`} aria-pressed=${marked(an)} onClick=${() => mark(an)}><${Icon} name="mark" fill=${marked(an) ? 'currentColor' : 'none'} /></button>
             </div>
             <div class="ayah-body">
-              ${s.show.ar && html`<p class="ar" lang="ar" dir="rtl" style=${{ fontSize: s.arSize + 'px' }}>${v[0]}${su.sajda.includes(an) ? ' ۩' : ''}</p>`}
+              ${s.show.ar && html`<p class="ar" lang="ar" dir="rtl" style=${{ fontSize: s.arSize + 'px' }}><${AyahText} text=${v[0]} tj=${s.qTaj && tjd.data ? tjd.data[an] : null} wbw=${s.qWbw && wbd.data ? wbd.data[an] : null} open=${word && word[0] === an ? word[1] : -1} onWord=${(i) => setWord(word && word[0] === an && word[1] === i ? null : [an, i])} />${su.sajda.includes(an) ? ' ۩' : ''}</p>`}
+              ${s.show.ar && word && word[0] === an && wbd.data && wbd.data[an] && wbd.data[an][word[1]] && html`<p class="qw-card" dir="ltr" lang="en"><strong>${wbd.data[an][word[1]][1]}</strong> <span class="muted">${wbd.data[an][word[1]][0]}</span></p>`}
               ${s.show.en && html`<p class="tr" lang="en" dir="ltr">${v[1]}</p>`}
               ${s.show.dv && html`<p class="tr dv" lang="dv" dir="rtl">${v[2]}</p>`}
             </div>
