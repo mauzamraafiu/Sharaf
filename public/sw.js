@@ -1,5 +1,5 @@
 // Service worker: keeps the app usable offline and shows prayer-time notifications.
-const SHELL = 'dheen-shell-v46';
+const SHELL = 'dheen-shell-v47';
 const DATA = 'dheen-data-v1';
 const SHELL_FILES = ['/', '/index.html', '/app.js', '/lib.js', '/admin.js', '/figures.js', '/arabic.js', '/figure3d.js', '/vendor/three.module.min.js', '/styles.css', '/vendor/preact-htm.js', '/manifest.webmanifest', '/icons/icon-192.png',
   '/fonts/figtree.woff2', '/fonts/literata.woff2', '/fonts/amiri-quran.woff2', '/fonts/faruma.ttf', '/fonts/thaana-400.woff2', '/quran/index.json', '/data/prayer.json'];
