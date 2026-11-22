@@ -92,7 +92,7 @@ for (const [n, title_en, title_dv, body_en, body_dv] of dataLines('surah-notes-2
 }
 // Recorded dua audio matched by text (tools/data/dua-audio.json); files live in public/audio/dua.
 const duaAudio = JSON.parse(fs.readFileSync(path.resolve('tools/data/dua-audio.json'), 'utf8'));
-for (const it of items) if (!it.audio && duaAudio[it.id]) it.audio = duaAudio[it.id];
+for (const it of items) { if (duaAudio[it.id]) it.audio = duaAudio[it.id]; else if (it.audio && it.audio.startsWith('/audio/dua/')) delete it.audio; } // only recordings trimmed to the item's own words
 for (const it of items) if (!sections.some((s) => s.id === it.section)) throw new Error('item without section: ' + it.id);
 
 const out = path.resolve('public/seed');

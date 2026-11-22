@@ -1379,7 +1379,7 @@ const MEM_TR = "Allahummaghfir laha warhamha, wa 'afiha wa'fu 'anha, wa akrim nu
 function MemoryPanel() {
   return html`<a class="memory" href="#/memory">
     <span class="mem-mark" aria-hidden="true"><i></i><i></i><i></i></span>
-    <span class="mem-text"><span class="muted">${t('memOf')}</span><strong>${t('memName')}</strong><span class="muted">${t('memDates')}</span><span class="mem-line">${t('memLine')}</span></span>
+    <span class="mem-text"><span class="muted">${t('memOf')}</span><strong>${t('memName')}</strong><span class="mem-ar-name" lang="ar" dir="rtl">شَرِيفَة أَحْمَد</span><span class="muted">${t('memDates')}</span><span class="mem-line">${t('memLine')}</span></span>
     <span class="btn primary">${t('memAsk')}</span>
   </a>`;
 }
@@ -1398,6 +1398,7 @@ function MemoryPage() {
       <p class="muted">${t('appMeaning')}</p>
       <p class="muted">${t('memOf')}</p>
       <h1>${t('memName')}</h1>
+      <p class="mem-ar-name" lang="ar" dir="rtl">شَرِيفَة أَحْمَد</p>
       <p class="muted">${t('memDates')}</p>
       <p class="ar mem-rahimaha" lang="ar" dir="rtl">رَحِمَهَا ٱللَّهُ وَأَسْكَنَهَا فَسِيحَ جَنَّاتِهِ</p>
     </header>
