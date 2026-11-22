@@ -31,7 +31,7 @@ export function applyTheme() {
 }
 
 // ---------- account: progress follows the reader to any device they sign in on ----------
-const SYNC_KEYS = ['prayed', 'arWords', 'last', 'marks', 'mpage', 'pagesRead', 'counts', 'island', 'reciter', 'show', 'arSize', 'qmode', 'mScale', 'qTaj', 'saved', 'notes'];
+const SYNC_KEYS = ['prayed', 'arWords', 'last', 'marks', 'mpage', 'pagesRead', 'counts', 'island', 'reciter', 'show', 'arSize', 'qmode', 'mScale', 'qTaj', 'saved', 'notes', 'log'];
 let user = null, pushTimer = null;
 export const getUser = () => user;
 function schedulePush() {
@@ -56,6 +56,8 @@ function mergeRemote(r) {
   const sk = new Set(); m.saved = [];
   for (const x of [...(settings.saved || []), ...(r.saved || [])]) if (x && x.k && !sk.has(x.k)) { sk.add(x.k); m.saved.push(x); }
   m.notes = { ...(r.notes || {}), ...(settings.notes || {}) };
+  m.log = { ...(r.log || {}) };
+  for (const [d, n] of Object.entries(settings.log || {})) m.log[d] = Math.max(m.log[d] || 0, n);
   m.counts = { ...(r.counts || {}) };
   for (const [id, c] of Object.entries(settings.counts || {})) if (!m.counts[id] || (c.n || 0) > (m.counts[id].n || 0)) m.counts[id] = c;
   settings = m;
@@ -73,6 +75,17 @@ export async function accountAuth(mode, username, password) {
 }
 export async function accountLogout() { await api('/account/logout', { method: 'POST' }).catch(() => {}); user = null; listeners.forEach((f) => f(settings)); }
 export const todayKey = () => mvNow().toISOString().slice(0, 10);
+// Reading log: how many ayahs were read each day, for the goal and the streak. Each ayah or page counts once per visit.
+const readSeen = new Set();
+export function logRead(key, n = 1) {
+  if (readSeen.has(key)) return;
+  readSeen.add(key);
+  const log = { ...(settings.log || {}) }, d = todayKey();
+  log[d] = (log[d] || 0) + n;
+  const keys = Object.keys(log).sort();
+  while (keys.length > 200) delete log[keys.shift()];
+  setSettings({ log });
+}
 
 // ---------- language ----------
 const T = {

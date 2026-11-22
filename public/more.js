@@ -3,6 +3,7 @@
 // Everything a person saves stays in their own settings (keys "saved", "notes", and "tools").
 import { html, useState, useEffect, useRef } from './vendor/preact-htm.js';
 import { getSettings, setSettings, onSettings, isDv, getJSON } from './lib.js';
+import { NamesReview, dueNames } from './play.js';
 import { NAMES, SEERAH, UMRAH, HAJJ, JANAZAH, PATH, TASBIH } from './more-data.js';
 
 const L = (en, dv) => (isDv() ? dv : en);
@@ -180,10 +181,11 @@ export function NamesPage() {
   const known = tools().names || [];
   const [open, setOpen] = useState(-1);
   const [only, setOnly] = useState(false);
+  const [review, setReview] = useState(false);
   const day = Math.floor((Date.now() + 5 * 3600000) / 86400000);
   const todays = [0, 1, 2].map((i) => (day * 3 + i) % 99);
   const flip = (i) => saveTools({ names: known.includes(i) ? known.filter((x) => x !== i) : [...known, i] });
-  const Row = (i, big) => { const [ar, tr, en, dv] = NAMES[i], on = known.includes(i); return html`<li class=${'nm' + (big ? ' big' : '') + (on ? ' known' : '') + (open === i ? ' open' : '')}>
+  const Row = (i, big) => { const [ar, tr, en, dv] = NAMES[i], on = known.includes(i); return html`<li class=${'nm' + (big ? ' nm-big' : '') + (on ? ' known' : '') + (open === i ? ' open' : '')}>
     <button class="nm-main" onClick=${() => setOpen(open === i ? -1 : i)} aria-expanded=${open === i}>
       <span class="nm-n num">${i + 1}</span><span class="nm-ar" lang="ar" dir="rtl">${ar}</span>
       <span class="nm-tr">${tr}</span><span class=${'nm-en' + (isDv() ? ' dv' : '')}>${L(en, dv)}</span></button>
@@ -195,6 +197,8 @@ export function NamesPage() {
     <h1>${L('The 99 names of Allah', 'ﷲ ގެ 99 އިސްމުފުޅު')}</h1>
     <p class="lede">${L('"To Allah belong the most beautiful names, so call on Him by them." (7:180)', '"އެންމެ ރިވެތި އިސްމުފުޅުތައް ވަނީ ﷲ އަށެވެ. ފަހެ އެ އިސްމުފުޅުތަކުން އެކަލާނގެއަށް ދުޢާކުރާށެވެ." (7:180)')}</p>
     <div class="panel"><div class="rline"><span>${L('Learnt', 'ދަސްވި')}</span><strong class="num">${known.length} / 99</strong></div><span class="bar"><i style=${{ width: (known.length / 99) * 100 + '%' }}></i></span></div>
+    ${review ? html`<${NamesReview} onDone=${() => setReview(false)} />` : html`<button class="readall" onClick=${() => setReview(true)}><span class="disc"><${I} n="undo" /></span>
+      <span class="readall-t"><strong>${L('Review', 'މުރާޖަޢާ')}</strong><span>${L(`${dueNames().length} names are ready. The ones you forget come back sooner.`, `${dueNames().length} އިސްމުފުޅު ތައްޔާރު. ހަނދާންނެތޭ އިސްމުފުޅުތައް އަވަހަށް އަނބުރާ ގެންނާނެ.`)}</span></span><${I} n="next" /></button>`}
     <h2>${L('Three for today', 'މިއަދަށް ތިން އިސްމުފުޅު')}</h2>
     <ul class="nmlist nm-today">${todays.map((i) => Row(i, true))}</ul>
     <h2 class="nm-all">${L('All the names', 'ހުރިހާ އިސްމުފުޅުތައް')} <button class="chip" aria-pressed=${only} onClick=${() => setOnly(!only)}>${L('Not learnt yet', 'އަދި ދަސްނުވާ')}</button></h2>

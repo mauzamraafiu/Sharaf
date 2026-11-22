@@ -243,5 +243,5 @@ export const TASBIH = [
   ['اللَّهُ أَكْبَرُ', 'Allahu akbar', 'Allah is the Greatest', 'ﷲ އީ އެންމެ ބޮޑު ރަސްކަލާނގެއެވެ', 33],
   ['لَا إِلَٰهَ إِلَّا اللَّهُ', 'La ilaha illallah', 'There is no god but Allah', 'ﷲ ފިޔަވައި އެހެން އިލާހަކު ނުވެއެވެ', 100],
   ['أَسْتَغْفِرُ اللَّهَ', 'Astaghfirullah', 'I ask Allah to forgive me', 'އަޅުގަނޑު ﷲ ގެ ޙަޟްރަތުން ފާފަ ފުއްސެވުން އެދެމެވެ', 100],
-  ['اللَّهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ', 'Allahumma salli ala Muhammad', 'O Allah, send blessings on Muhammad', 'އޭ ﷲ، މުޙައްމަދުގެފާނަށް ޞަލަވާތް ލައްވާނދޭވެ', 100],
+  ['اللَّهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ', 'Salawat', 'O Allah, send blessings on Muhammad', 'އޭ ﷲ، މުޙައްމަދުގެފާނަށް ޞަލަވާތް ލައްވާނދޭވެ', 100],
 ];

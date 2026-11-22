@@ -4,6 +4,7 @@
 import { html, useState, useEffect, useRef } from './vendor/preact-htm.js';
 import { getSettings, setSettings, onSettings, isDv, mvNow, todayKey, timesFor, fmtTime, fmtSpan, hijriParts, getJSON, api, ayahUrl } from './lib.js';
 import { QUIZ } from './quiz.js';
+import { ProgressPage, GamesPage, ParentWeek } from './play.js';
 import { NamesPage, SeerahPage, TasbihPage, HajjPage, JanazahPage, PathPage, SavedPage } from './more.js';
 
 const L = (en, dv) => (isDv() ? dv : en);
@@ -19,17 +20,21 @@ const money = (n) => n.toLocaleString('en', { maximumFractionDigits: 2 });
 // [id or link, English, Dhivehi, English line, Dhivehi line, icon]
 export const TOOL_GROUPS = [
   ['Every day', 'ކޮންމެ ދުވަހަކު', [
+    ['progress', 'My reading', 'އަހަރެންގެ ކިޔެވުން', 'A daily goal, your streak and the last 12 weeks.', 'ދުވަހުގެ ލަނޑުދަނޑި، ވިދިވިދިގެން ކިޔެވި ދުވަސް.', 'quran'],
     ['tasbih', 'Tasbih', 'ތަސްބީޙަ', 'Count your dhikr with a tap and a click.', 'ފިއްތާލައިގެން ޛިކުރު ގުނާ.', 'count'],
     ['quiz', 'Daily quiz', 'ދުވަހުގެ ކުއިޒް', 'Five questions a day.', 'ދުވާލަކު ފަސް ސުވާލު.', 'chat'],
     ['khatm', 'Finish the Quran', 'ޤުރުއާން ޚަތިމްކުރުން', 'Pick a number of days and read your pages each day.', 'ދުވަސްތައް ކަނޑައަޅައި، ކޮންމެ ދުވަހަކު ޞަފްޙާތައް ކިޔަވާ.', 'quran'],
     ['hifz', 'Memorise', 'ހިތުދަސްކުރުން', 'Hear an ayah again and again, then hide it and test yourself.', 'އާޔަތެއް ތަކުރާރުކޮށް އަޑުއަހައި، ފޮރުވައިގެން ކިޔާ.', 'quran'],
     ['kids', 'Children\'s star chart', 'ކުދިންގެ ތަރި ޗާޓު', 'A star for every good deed today.', 'މިއަދު ކުރާ ކޮންމެ ހެޔޮ ކަމަކަށް ތަރިއެއް.', 'star'],
+    ['games', 'Games for children', 'ކުދިންގެ ކުޅިވަރު', 'Wudu and prayer in order, letters and rakahs.', 'ވުޟޫއާއި ނަމާދު ތަރުތީބުކުރުން، އަކުރު، ރަކުޢަތް.', 'star'],
     ['saved', 'Saved', 'ރައްކާކުރި ތަކެތި', 'Your bookmarked ayahs and duas, with your notes.', 'ރައްކާކުރި އާޔަތްތަކާއި ދުޢާތައް، ނޯޓުތަކާއެކު.', 'mark'],
   ]],
   ['Learn', 'ދަސްކުރުން', [
     ['names', 'The 99 names of Allah', 'ﷲ ގެ 99 އިސްމުފުޅު', 'Three a day, with a tick for each one learnt.', 'ދުވާލަކު ތިން އިސްމުފުޅު.', 'star'],
     ['seerah', 'Seerah timeline', 'ސީރަތުގެ ތާރީޚު', 'The life of the Prophet ﷺ, year by year.', 'ރަސޫލާ ﷺ ގެ ޙަޔާތްޕުޅު، އަހަރުން އަހަރަށް.', 'book'],
     ['path', 'New to Islam', 'އިސްލާމްދީނަށް އަލަށް', 'A first month of short readings, in order.', 'ފުރަތަމަ މަހަށް ތަރުތީބުން ކުރު ކިޔުންތައް.', 'next'],
+    ['#/s/tayammum-steps', 'Tayammum', 'ތަޔައްމުމު', 'Purifying with clean earth when there is no water.', 'ފެން ނެތް ޙާލަތުގައި ޠާހިރު ވެލިން ޠަހާރަތުވުން.', 'prayer'],
+    ['#/s/kids-learn', 'Things every child should know', 'ކޮންމެ ކުއްޖަކަށް އެނގެންޖެހޭ ކަންކަން', 'The angels, the 25 prophets and the months.', 'މަލާއިކަތުން، 25 ނަބިއްޔުން އަދި މަސްތައް.', 'star'],
     ['#/s/sisters', 'For sisters', 'އަންހެނުންނަށް', 'Prayer and fasting rulings particular to women.', 'އަންހެނުންނަށް ޚާއްޞަ ނަމާދާއި ރޯދައިގެ ޙުކުމްތައް.', 'library'],
   ]],
   ['Seasons and duties', 'މޫސުންތަކާއި ވާޖިބުތައް', [
@@ -49,12 +54,14 @@ const TP = {
 };
 const TIcon = ({ n }) => html`<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d=${TP[n]} /></svg>`;
 
-export function ToolsPage({ name }) {
+export function ToolsPage({ name, sub }) {
   useS();
   const P = { ramadan: Ramadan, khatm: Khatm, hifz: Hifz, quiz: Quiz, kids: Kids, qada: Qada, zakat: Zakat, mosque: Mosque }[name];
   if (P) return html`<div class="page tool"><${Back} /><${P} /></div>`;
   const Q = { names: NamesPage, seerah: SeerahPage, tasbih: TasbihPage, hajj: HajjPage, janazah: JanazahPage, path: PathPage, saved: SavedPage }[name];
   if (Q) return html`<${Q} />`;
+  if (name === 'progress') return html`<${ProgressPage} />`;
+  if (name === 'games') return html`<${GamesPage} game=${sub} />`;
   return html`<div class="page wide"><h1>${L('Tools', 'ޓޫލްސް')}</h1>
     ${TOOL_GROUPS.map(([gen, gdv, list]) => html`<section class="tgroup"><h2>${L(gen, gdv)}</h2>
       <div class="cardgrid rows">${list.map(([id, en, dv, sen, sdv, icon]) => html`<a class="card" data-tone=${icon} href=${id[0] === '#' ? id : '#/t/' + id}><span class="disc"><${TIcon} n=${icon} /></span><strong>${L(en, dv)}</strong><span class="muted">${L(sen, sdv)}</span></a>`)}</div></section>`)}
@@ -206,7 +213,8 @@ function Kids() {
     <p class="lede">${L('Tap each good thing you did today.', 'މިއަދު ކުރި ކޮންމެ ހެޔޮ ކަމެއްގައި ފިއްތާ.')}</p>
     <div class="deeds">${DEEDS.map(([en, dv], i) => html`<button class=${'deed' + (mine.includes(i) ? ' on' : '')} onClick=${() => flip(i)}><span class="star">★</span>${L(en, dv)}</button>`)}</div>
     <div class="tool-two"><div class="panel"><span class="muted">${L('Stars today', 'މިއަދުގެ ތަރިތައް')}</span><strong class="big num">${mine.length}</strong></div><div class="panel"><span class="muted">${L('Stars this week', 'މި ހަފްތާގެ ތަރިތައް')}</span><strong class="big num">${week}</strong></div></div>
-    <div class="row-links"><a class="btn primary" href="#/s/kids-stories">${L('Read a story', 'ވާހަކައެއް ކިޔާ')}</a></div>
+    <div class="row-links"><a class="btn primary" href="#/s/kids-stories">${L('Read a story', 'ވާހަކައެއް ކިޔާ')}</a><a class="btn" href="#/t/games">${L('Play a game', 'ކުޅިވަރެއް ކުޅޭ')}</a></div>
+    <${ParentWeek} />
     <h2>${L('Quiz for children', 'ކުދިންގެ ކުއިޒް')}</h2><${QuizRun} list=${pickDaily(QUIZ.filter((q) => q[7]), 3)} store="kidquiz" />`;
 }
 

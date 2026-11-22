@@ -1,5 +1,5 @@
 import { html, render, useState, useEffect, useRef, useMemo } from './vendor/preact-htm.js';
-import { getSettings, setSettings, onSettings, applyTheme, t, pick, isDv, PRAYERS, mvNow, timesFor, fmtTime, fmtSpan, hijri, today as todayText, getJSON, forget, api, ayahUrl, parseQuranRef, Markdown, loadAccount, getUser, accountAuth, accountLogout, todayKey, dayNotes } from './lib.js';
+import { getSettings, setSettings, onSettings, applyTheme, t, pick, isDv, PRAYERS, mvNow, timesFor, fmtTime, fmtSpan, hijri, today as todayText, getJSON, forget, api, ayahUrl, parseQuranRef, Markdown, loadAccount, getUser, accountAuth, accountLogout, todayKey, dayNotes, logRead } from './lib.js';
 import { LETTERS, WORDS } from './arabic.js';
 import { Admin } from './admin.js';
 import { StepFigure, PrayerPicker } from './figures.js';
@@ -311,7 +311,7 @@ function CatchUp() {
   const names = open.map(({ i }) => t(PRAYERS[i]));
   return html`<section class="catchup" role="group" aria-label=${t('catchAsk')}>
     <p><strong>${t('catchAsk')}</strong></p>
-    <div class="chips">${open.map(({ i, k }) => html`<button class="chip catch-chip" onClick=${() => togglePrayed(k)}><${Icon} name="check" /> ${t(PRAYERS[i])}</button>`)}</div>
+    <div class="catch-row">${open.map(({ i, k }) => html`<button class="chip catch-chip" onClick=${() => togglePrayed(k)}><${Icon} name="check" /> ${t(PRAYERS[i])}</button>`)}</div>
     <div class="catch-foot">${open.length > 1 && html`<button class="btn primary" onClick=${() => open.forEach(({ k }) => togglePrayed(k))}>${t('catchAll')}</button>`}<button class="btn" onClick=${notNow}>${t('catchLater')}</button></div>
   </section>`;
 }
@@ -560,6 +560,7 @@ function Surah({ n, focus }) {
   const d = useData(() => getJSON(`/quran/${n}.json`), [n]);
   const s = useSettings();
   const tjd = useData(() => (getSettings().qTaj ? getJSON(`/quran/tj/${n}.json`) : Promise.resolve(null)), [n, s.qTaj]);
+  const e2 = useData(() => (getSettings().en2 ? getJSON(`/quran/en2/${n}.json`) : Promise.resolve(null)), [n, s.en2]);
   const wbd = useData(() => (getSettings().qWbw ? getJSON(`/quran/wbw/${n}.json`) : Promise.resolve(null)), [n, s.qWbw]);
   const [word, setWord] = useState(null); // [ayah, word index] of the word whose meaning is showing
   const [more, setMore] = useState(0); // the ayah whose extra buttons are open
@@ -573,7 +574,7 @@ function Surah({ n, focus }) {
     // Remember the last ayah that scrolled past the top, so "Continue reading" works.
     seen.current?.disconnect();
     const io = new IntersectionObserver((entries) => {
-      for (const e of entries) if (e.isIntersecting) { const an = +e.target.dataset.a; clearTimeout(io.t); io.t = setTimeout(() => setSettings({ last: { s: d.data.n, a: an, name: d.data.name } }), 800); }
+      for (const e of entries) if (e.isIntersecting) { const an = +e.target.dataset.a; const now = Date.now(); if (io.cur && io.cur !== an && now - io.curT > 1500) logRead(`q:${d.data.n}:${io.cur}`); if (io.cur !== an) { io.cur = an; io.curT = now; } clearTimeout(io.t); io.t = setTimeout(() => setSettings({ last: { s: d.data.n, a: an, name: d.data.name } }), 800); }
     }, { rootMargin: '-10% 0px -70% 0px' });
     document.querySelectorAll('.ayah').forEach((el) => io.observe(el));
     seen.current = io;
@@ -602,6 +603,7 @@ function Surah({ n, focus }) {
           <span class="chips" role="group" aria-label="Show">
             ${[['ar', 'arabic'], ['en', 'english'], ['dv', 'dhivehi']].map(([k, l]) => html`<button class="chip" aria-pressed=${s.show[k]} onClick=${() => toggle(k)}>${t(l)}</button>`)}
             <button class="chip" aria-pressed=${!!s.qTaj} onClick=${() => setSettings({ qTaj: !s.qTaj })}>${isDv() ? 'ތަޖުވީދު ކުލަ' : 'Tajweed colours'}</button>
+            <button class="chip" aria-pressed=${!!s.en2} onClick=${() => setSettings({ en2: !s.en2 })}>${isDv() ? 'ފަސޭހަ އިނގިރޭސި' : 'Plain English'}</button>
             <button class="chip" aria-pressed=${!!s.qWbw} onClick=${() => { setWord(null); setSettings({ qWbw: !s.qWbw }); }}>${isDv() ? 'ބަހުން ބަހަށް' : 'Word by word'}</button>
           </span>
         </div>
@@ -622,11 +624,12 @@ function Surah({ n, focus }) {
             <div class="ayah-body">
               ${s.show.ar && html`<p class="ar" lang="ar" dir="rtl" style=${{ fontSize: s.arSize + 'px' }}><${AyahText} text=${v[0]} tj=${s.qTaj && tjd.data ? tjd.data[an] : null} wbw=${s.qWbw && wbd.data ? wbd.data[an] : null} open=${word && word[0] === an ? word[1] : -1} onWord=${(i) => setWord(word && word[0] === an && word[1] === i ? null : [an, i])} />${su.sajda.includes(an) ? ' ۩' : ''}</p>`}
               ${s.show.ar && word && word[0] === an && wbd.data && wbd.data[an] && wbd.data[an][word[1]] && html`<p class="qw-card" dir="ltr" lang="en"><strong>${wbd.data[an][word[1]][1]}</strong> <span class="muted">${wbd.data[an][word[1]][0]}</span></p>`}
-              ${s.show.en && html`<p class="tr" lang="en" dir="ltr">${v[1]}</p>`}
+              ${s.show.en && html`<p class="tr" lang="en" dir="ltr">${s.en2 && e2.data ? e2.data[i] : v[1]}</p>`}
               ${s.show.dv && html`<p class="tr dv" lang="dv" dir="rtl">${v[2]}</p>`}
               ${noteFor(`q:${su.n}:${an}`) && !(more === an && noting) && html`<p class="mynote"><${Icon} name="note" /> ${noteFor(`q:${su.n}:${an}`)}</p>`}
               ${more === an && html`<div class="toolbar ayah-more"><button class="btn" onClick=${() => setNoting(!noting)}><${Icon} name="note" /> ${isDv() ? 'ނޯޓު' : 'Note'}</button>
-                <${ShareBtn} label card=${{ ar: v[0], text: isDv() ? v[2] : v[1], ref: `${su.name} ${su.n}:${an}` }} /></div>
+                <${ShareBtn} label card=${{ ar: v[0], text: isDv() ? v[2] : s.en2 && e2.data ? e2.data[i] : v[1], ref: `${su.name} ${su.n}:${an}` }} />
+                <a class="btn" target="_blank" rel="noopener" href=${`https://quran.com/${su.n}:${an}/tafsirs/en-tafisr-ibn-kathir`}><${Icon} name="book" /> ${isDv() ? 'ތަފްސީރު' : 'Tafsir'}</a></div>
                 <${NoteBox} k=${`q:${su.n}:${an}`} open=${noting} onClose=${() => { setNoting(false); setMore(0); }} />`}
             </div>
           </li>`;
@@ -840,7 +843,7 @@ function ArabicPage({ boot, tab }) {
   return html`<div class="page wide arabic">
     <h1>${t('g_arabic')}</h1>
     <p class="lede">${t('arabicLede')}</p>
-    <nav class="jump">${[['letters', 'letters'], ['words', 'wordPractice'], ['lessons', 'lessons']].map(([k, key]) => html`<a class="chip" href=${`#/arabic/${k}`} aria-pressed=${cur === k}>${t(key)}</a>`)}</nav>
+    <nav class="chips">${[['letters', 'letters'], ['words', 'wordPractice'], ['lessons', 'lessons']].map(([k, key]) => html`<a class="chip" href=${`#/arabic/${k}`} aria-pressed=${cur === k}>${t(key)}</a>`)}</nav>
     ${cur === 'letters' && html`<${LetterChart} />`}
     ${cur === 'words' && html`<${WordQuiz} />`}
     ${cur === 'lessons' && html`<div class="cardgrid">${lessons.map((it, i) => html`<a class="card" href=${`#/i/${it.id}`}><span class="disc num">${i + 1}</span><strong>${pick(it, 'title')}</strong></a>`)}</div>`}
@@ -1096,7 +1099,7 @@ function Mushaf({ page }) {
   // A spread is an odd page on the right and the next even page on the left, as in a printed mushaf.
   const right = wide ? (p % 2 ? p : p - 1) : p;
   const go = (to, d) => { const n = Math.min(604, Math.max(1, to)); if (n === p) return; setDir(d); location.hash = `#/mushaf/${n}`; };
-  const markRead = (pages) => setSettings({ pagesRead: [...new Set([...(getSettings().pagesRead || []), ...pages.filter((x) => x >= 1 && x <= 604)])].sort((x, y) => x - y) });
+  const markRead = (pages) => { pages.filter((x) => x >= 1 && x <= 604).forEach((x) => logRead('p:' + x, 10)); setSettings({ pagesRead: [...new Set([...(getSettings().pagesRead || []), ...pages.filter((x) => x >= 1 && x <= 604)])].sort((x, y) => x - y) }); };
   const next = (quiet) => { markRead(wide ? [right, right + 1] : [right]); go(right + (wide ? 2 : 1), quiet === true ? 'none' : 'next'); }; // turning forward counts the page as read
   const prev = (quiet) => go(right - (wide ? 2 : 1), quiet === true ? 'none' : 'prev');
   const bookRef = useRef(null), turn = useRef({});
@@ -1559,7 +1562,7 @@ function App() {
   else if (head === 'countdown') page = html`<${CountdownPage} />`;
   else if (head === 'qibla') page = html`<${QiblaPage} />`;
   else if (head === 'memory') page = html`<${MemoryPage} />`;
-  else if (head === 't') page = html`<${ToolsPage} name=${a || ''} />`;
+  else if (head === 't') page = html`<${ToolsPage} name=${a || ''} sub=${b || ''} />`;
   else if (head === 'guide') page = html`<${GuidePage} boot=${boot.data} id=${decodeURIComponent(a || '')} />`;
   else if (head === 's') page = html`<${SectionPage} boot=${boot.data} id=${a} />`;
   else if (head === 'i') page = html`<${ItemPage} boot=${boot.data} id=${a} />`;
