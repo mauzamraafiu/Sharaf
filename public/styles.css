@@ -1030,3 +1030,17 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 .is-spread .mtext, .is-spread .mbasmala { font-size: calc(clamp(17px, 4.4cqw, 30px) * var(--m-scale, 1)); }
 .msize { display: inline-flex; gap: 6px; } .msize .chip { min-width: 46px; justify-content: center; font-weight: 700; }
 .mushaf-nav { flex-wrap: wrap; row-gap: 10px; }
+
+/* tool forms: plain label over input, no box inside a box */
+.tfield { display: grid; gap: 6px; font-size: .95rem; font-weight: 500; }
+.tfield input, .tfield select { font: inherit; font-weight: 500; font-size: 1.05rem; padding: 13px 14px; border: 1.5px solid var(--line); border-radius: 14px; background: color-mix(in srgb, var(--line) 22%, var(--surface)); color: inherit; width: 100%; min-height: 50px; -webkit-appearance: none; appearance: none; }
+.tfield input:focus, .tfield select:focus { outline: 2px solid var(--ornament); outline-offset: 1px; background: var(--surface); }
+.tfield select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%); background-position: calc(100% - 22px) 55%, calc(100% - 16px) 55%; background-size: 6px 6px; background-repeat: no-repeat; padding-inline-end: 40px; }
+.panel.form { gap: 16px; }
+.panel.result { gap: 0; padding: 6px 18px; }
+.rline { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.rline.due { border-bottom: 0; font-weight: 600; } .rline.due .big { color: var(--ornament); }
+.panel.result > p { padding: 0 0 12px; }
+/* home: the basmala sits centred above the date */
+.home .hello { display: grid; grid-template-columns: 1fr; gap: 4px; }
+.home .hello .bismillah { order: -1; justify-self: center; text-align: center; margin: 0 0 4px; font-size: clamp(1.7rem, 7.4vw, 2.4rem); }

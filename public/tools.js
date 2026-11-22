@@ -62,7 +62,7 @@ function Ramadan() {
 // ---------- Zakat ----------
 function Zakat() {
   const z = tools().zakat || {}, set = (k) => (e) => save({ zakat: { ...z, [k]: e.target.value } });
-  const F = (k, en, dv, hint) => html`<label class="field"><span>${L(en, dv)}</span><input inputmode="decimal" value=${z[k] || ''} onInput=${set(k)} placeholder=${hint || '0'} /></label>`;
+  const F = (k, en, dv, hint) => html`<label class="tfield"><span>${L(en, dv)}</span><input inputmode="decimal" value=${z[k] || ''} onInput=${set(k)} placeholder=${hint || '0'} /></label>`;
   const pg = num(z.pg), ps = num(z.ps), bySilver = (z.basis || 'silver') === 'silver';
   const total = num(z.cash) + num(z.gold) * pg + num(z.silver) * ps + num(z.goods) + num(z.owed) - num(z.debts);
   const nisab = bySilver ? 595 * ps : 85 * pg, known = nisab > 0, due = known && total >= nisab ? total * 0.025 : 0;
@@ -78,9 +78,9 @@ function Zakat() {
     <div class="panel form"><p class="muted small">${L('Today\'s price per gram. Ask a jeweller; the app does not know it.', 'މިއަދުގެ ގްރާމެއްގެ އަގު. ގަހަނާ ފިހާރައަކުން އަހާ.')}</p>
       ${F('pg', 'Gold, rufiyaa per gram', 'ރަން، ގްރާމަކަށް ރުފިޔާ')}${F('ps', 'Silver, rufiyaa per gram', 'ރިހި، ގްރާމަކަށް ރުފިޔާ')}
       <div class="seg two"><button class=${bySilver ? 'on' : ''} onClick=${() => save({ zakat: { ...z, basis: 'silver' } })}>${L('Nisab by silver (595 g)', 'ރިހީގެ ނިޞާބު (595 ގްރާމް)')}</button><button class=${!bySilver ? 'on' : ''} onClick=${() => save({ zakat: { ...z, basis: 'gold' } })}>${L('Nisab by gold (85 g)', 'ރަނުގެ ނިޞާބު (85 ގްރާމް)')}</button></div></div>
-    <div class="panel result"><span class="muted">${L('Wealth that counts', 'ޒަކާތް ވާޖިބުވާ މުދާ')}</span><strong class="num">${money(Math.max(0, total))}</strong>
-      <span class="muted">${L('Nisab', 'ނިޞާބު')}</span><strong class="num">${known ? money(nisab) : L('enter the price per gram', 'ގްރާމެއްގެ އަގު ލިޔޭ')}</strong>
-      <span class="muted">${L('Zakat to pay', 'ދައްކަންޖެހޭ ޒަކާތް')}</span><strong class="big num">${known ? money(due) : '–'}</strong>
+    <div class="panel result"><div class="rline"><span class="muted">${L('Wealth that counts', 'ޒަކާތް ވާޖިބުވާ މުދާ')}</span><strong class="num">${money(Math.max(0, total))}</strong></div>
+      <div class="rline"><span class="muted">${L('Nisab', 'ނިޞާބު')}</span><strong class="num">${known ? money(nisab) : L('enter the price per gram', 'ގްރާމެއްގެ އަގު ލިޔޭ')}</strong></div>
+      <div class="rline due"><span>${L('Zakat to pay', 'ދައްކަންޖެހޭ ޒަކާތް')}</span><strong class="big num">${known ? money(due) : '–'}</strong></div>
       ${known && total < nisab && html`<p class="muted small">${L('Your wealth is below the nisab, so no zakat is due.', 'މުދާ ނިޞާބަށްވުރެ މަދުވާތީ ޒަކާތެއް ވާޖިބެއް ނުވެއެވެ.')}</p>`}</div>
     <p class="muted small">${L('This is a simple guide. Scholars differ on details such as jewellery that is worn, and which nisab to use; the silver nisab is the more cautious. Zakat al-fitr is separate: it is paid per person before the Eid prayer, at the amount announced each year. Ask a scholar or the Ministry of Islamic Affairs about your own case.', 'މިއީ ފަސޭހަ ގައިޑެކެވެ. އަޅާ ގަހަނާ ފަދަ ތަފްޞީލުތަކުގައި ޢިލްމުވެރިންގެ ޚިޔާލު ތަފާތެވެ. ފިޠުރު ޒަކާތަކީ ވަކި ޒަކާތެކެވެ. އަމިއްލަ ޙާލަތާމެދު ޢިލްމުވެރިއަކާ ނުވަތަ އިސްލާމީ ވުޒާރާއާ ސުވާލުކުރޭ.')}</p>`;
 }
@@ -135,7 +135,7 @@ function Hifz() {
   if (!idx || !sur) return html`<h1>${L('Memorise', 'ހިތުދަސްކުރުން')}</h1><p class="muted">…</p>`;
   const ay = sur.ayahs[a - 1] || sur.ayahs[0];
   return html`<h1>${L('Memorise', 'ހިތުދަސްކުރުން')}</h1>
-    <label class="field"><span>${L('Surah', 'ސޫރަތް')}</span><select value=${n} onChange=${(e) => setN(+e.target.value)}>${idx.surahs.map((s) => html`<option value=${s.n}>${s.n}. ${s.name}${known[s.n] ? ' ✓' : ''}</option>`)}</select></label>
+    <label class="tfield"><span>${L('Surah', 'ސޫރަތް')}</span><select value=${n} onChange=${(e) => setN(+e.target.value)}>${idx.surahs.map((s) => html`<option value=${s.n}>${s.n}. ${s.name}${known[s.n] ? ' ✓' : ''}</option>`)}</select></label>
     <div class="panel hifz"><p class="muted">${L('Ayah', 'އާޔަތް')} <span class="num">${a} / ${sur.count}</span></p>
       <p class=${'ar hifz-ar' + (hide ? ' hidden' : '')} lang="ar" dir="rtl" onClick=${() => hide && setHide(false)}>${ay[0]}</p>
       ${!hide && html`<p class="muted">${isDv() ? ay[2] : ay[1]}</p>`}
