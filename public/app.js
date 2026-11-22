@@ -295,18 +295,22 @@ function CatchUp() {
   const s = useSettings();
   const now = useClock();
   const d = useData(prayerData, []);
-  const [hidden, setHidden] = useState(false);
-  if (!d.data || hidden) return null;
+  const [, bump] = useState(0);
+  if (!d.data) return null;
   const { times } = timesFor(d.data, s.island, now);
   const minute = now.getUTCHours() * 60 + now.getUTCMinutes();
   const done = prayedOn(s, todayKey());
   const open = PRAY5.map((i, k) => ({ i, k })).filter(({ i, k }) => times[i] + 20 <= minute && !done[k]);
-  if (!open.length) return null;
+  // "Not now" is remembered on this device: the card stays away until another prayer's time has passed.
+  const mark = todayKey() + ':' + open.map(({ k }) => k).join('');
+  let later = ''; try { later = localStorage.getItem('dheen-catch-later') || ''; } catch {}
+  if (!open.length || later === mark) return null;
+  const notNow = () => { try { localStorage.setItem('dheen-catch-later', mark); } catch {} bump((n) => n + 1); };
   const names = open.map(({ i }) => t(PRAYERS[i]));
   return html`<section class="catchup" role="group" aria-label=${t('catchAsk')}>
     <p><strong>${t('catchAsk')}</strong></p>
     <div class="chips">${open.map(({ i, k }) => html`<button class="chip catch-chip" onClick=${() => togglePrayed(k)}><${Icon} name="check" /> ${t(PRAYERS[i])}</button>`)}</div>
-    <div class="catch-foot">${open.length > 1 && html`<button class="btn primary" onClick=${() => open.forEach(({ k }) => togglePrayed(k))}>${t('catchAll')}</button>`}<button class="btn" onClick=${() => setHidden(true)}>${t('catchLater')}</button></div>
+    <div class="catch-foot">${open.length > 1 && html`<button class="btn primary" onClick=${() => open.forEach(({ k }) => togglePrayed(k))}>${t('catchAll')}</button>`}<button class="btn" onClick=${notNow}>${t('catchLater')}</button></div>
   </section>`;
 }
 function WeekDots({ s }) {
