@@ -296,7 +296,7 @@ function PrayerCard({ compact, track }) {
       <div class="pc-head">
         <div>
           <p class="pc-next">${t(PRAYERS[nx.i])} <span class="num">${fmtTime(nx.at)}</span></p>
-          <p class="pc-left">${isDv() ? `${fmtSpan(nx.left)} ${t('nextIn')}` : `${t('nextIn')} ${fmtSpan(nx.left)}`}</p>
+          <a class="pc-left pc-count" href="#/countdown">${isDv() ? `${fmtSpan(nx.left)} ${t('nextIn')}` : `${t('nextIn')} ${fmtSpan(nx.left)}`} <${Icon} name="next" /></a>
         </div>
         <span class="pc-side"><a class="pc-island" href="#/settings">${island.a}. ${island.n}</a><a class="pc-island pc-qibla" href="#/qibla"><${Icon} name="compass" /> ${t('qibla')}</a></span>
       </div>
@@ -1100,6 +1100,51 @@ function SettingsPage() {
 }
 
 
+// ---------- live countdown to the next prayer ----------
+function CountdownPage() {
+  const s = useSettings();
+  const d = useData(prayerData, []);
+  const [, tick] = useState(0);
+  useEffect(() => { const id = setInterval(() => tick((x) => x + 1), 1000); return () => clearInterval(id); }, []);
+  return html`<${Wait} s=${d}>${(data) => {
+    const now = mvNow();
+    const { island, times } = timesFor(data, s.island, now);
+    const sec = now.getUTCHours() * 3600 + now.getUTCMinutes() * 60 + now.getUTCSeconds();
+    const at = PRAY5.map((i) => times[i] * 60);
+    // "It is time" stays up for 20 minutes after a prayer comes in
+    let k = at.findIndex((t) => sec >= t && sec - t < 1200), arrived = k >= 0, left = 0, span = 1;
+    if (!arrived) {
+      k = at.findIndex((t) => t > sec);
+      const prev = k > 0 ? at[k - 1] : k === 0 ? at[4] - 86400 : at[4];
+      const next = k >= 0 ? at[k] : at[0] + 86400;
+      if (k < 0) k = 0;
+      left = next - sec; span = Math.max(1, next - prev);
+    }
+    const name = t(PRAYERS[PRAY5[k]]);
+    const pct = arrived ? 1 : 1 - left / span;
+    const hh = Math.floor(left / 3600), mm = Math.floor((left % 3600) / 60), ss = left % 60;
+    const clock = `${hh ? hh + ':' : ''}${String(mm).padStart(hh ? 2 : 1, '0')}:${String(ss).padStart(2, '0')}`;
+    const done = prayedOn(s, todayKey())[k];
+    const R = 96, C = 2 * Math.PI * R;
+    return html`<div class="page countdown ${arrived ? 'is-now' : ''}">
+      <a class="backlink" href="#/"><${Icon} name="back" /> ${t('home')}</a>
+      <div class="cd-ring" role="timer" aria-live="off">
+        <svg viewBox="-110 -110 220 220" aria-hidden="true"><circle r=${R} class="cd-track" /><circle r=${R} class="cd-arc" stroke-dasharray=${C.toFixed(1)} stroke-dashoffset=${(C * (1 - pct)).toFixed(1)} transform="rotate(-90)" /></svg>
+        <div class="cd-mid">
+          ${arrived ? html`<span class="cd-small">${t('cdNow')}</span><strong class="cd-name">${name}</strong><span class="cd-small num">${fmtTime(times[PRAY5[k]])}</span>`
+            : html`<span class="cd-small">${isDv() ? `${name} ${t('cdIn')}` : `${name} ${t('cdIn')}`}</span><strong class="cd-clock num">${clock}</strong><span class="cd-small num">${fmtTime(times[PRAY5[k]])}</span>`}
+        </div>
+      </div>
+      <p class="muted">${island.a}. ${island.n}</p>
+      ${arrived && html`<div class="toolbar cd-actions">
+        <button class="btn ${done ? '' : 'primary'}" aria-pressed=${!!done} onClick=${() => togglePrayed(k)}><${Icon} name="check" /> ${t('cdPrayed')}</button>
+        <a class="btn" href=${`#/guide/after-${PRAYERS[PRAY5[k]]}`}><${Icon} name="count" /> ${t('startDhikr')}</a>
+      </div>`}
+      <ol class="cd-list">${PRAY5.map((i, j) => html`<li class=${j === k ? 'on' : ''}><span>${t(PRAYERS[i])}</span><span class="num">${fmtTime(times[i])}</span></li>`)}</ol>
+    </div>`;
+  }}<//>`;
+}
+
 // ---------- qibla compass ----------
 function QiblaPage() {
   const s = useSettings();
@@ -1242,6 +1287,7 @@ function App() {
   else if (head === 'duas') page = html`<${DuasPage} boot=${boot.data} />`;
   else if (head === 'explore' || head === 'library') page = html`<${ExplorePage} boot=${boot.data} focus=${a} />`;
   else if (head === 'arabic') page = html`<${ArabicPage} boot=${boot.data} tab=${a} />`;
+  else if (head === 'countdown') page = html`<${CountdownPage} />`;
   else if (head === 'qibla') page = html`<${QiblaPage} />`;
   else if (head === 'memory') page = html`<${MemoryPage} />`;
   else if (head === 'guide') page = html`<${GuidePage} boot=${boot.data} id=${decodeURIComponent(a || '')} />`;
@@ -1299,4 +1345,8 @@ loadAccount();
 const root = document.getElementById('app');
 root.textContent = ''; // remove the static "Loading…" placeholder from index.html, which otherwise stays at the bottom of every page
 render(html`<${App} />`, root);
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(() => {});
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').catch(() => {});
+  // a tapped notification asks the open app to show the countdown
+  navigator.serviceWorker.addEventListener('message', (e) => { if (e.data && typeof e.data.go === 'string' && e.data.go.startsWith('#/')) location.hash = e.data.go; });
+}

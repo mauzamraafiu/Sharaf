@@ -368,6 +368,12 @@ async function notifyDue(env, meta) {
           if (!due.has(k)) due.set(k, []);
           due.get(k).push(id);
         }
+        // People who are warned ahead also get a second alert when the time itself arrives.
+        if (lead === 0 && minute >= t && minute <= t + 1) {
+          const k = `T:${p}`;
+          if (!due.has(k)) due.set(k, []);
+          due.get(k).push(id);
+        }
       }
     }
   }
@@ -375,10 +381,12 @@ async function notifyDue(env, meta) {
   const subs = [];
   for (const [k, ids] of due) {
     if (subs.length >= BATCH) break;
-    const [lead, p] = k.split(':').map(Number);
-    const key = di * 10 + p + 1;
-    const { results } = await db.prepare(`SELECT id, endpoint FROM push_subs WHERE lead_min=?1 AND island_id IN (${ids.join(',')}) AND (prayers & ?2) != 0 AND last_key != ?3 LIMIT ?4`)
-      .bind(lead, 1 << p, key, BATCH - subs.length).all();
+    const atTime = k.startsWith('T:');
+    const [lead, p] = atTime ? [0, Number(k.slice(2))] : k.split(':').map(Number);
+    // last_key remembers the last alert sent to a subscriber, so nobody gets the same one twice.
+    const key = atTime ? 1000000 + di * 10 + p + 1 : di * 10 + p + 1;
+    const { results } = await db.prepare(`SELECT id, endpoint FROM push_subs WHERE ${atTime ? 'lead_min > ?1' : 'lead_min = ?1'} AND island_id IN (${ids.join(',')}) AND (prayers & ?2) != 0 AND last_key != ?3 ${atTime ? '' : 'AND last_key != ?5'} LIMIT ?4`)
+      .bind(lead, 1 << p, key, BATCH - subs.length, ...(atTime ? [] : [1000000 + di * 10 + p + 1])).all();
     for (const r of results) subs.push({ ...r, key });
   }
   if (!subs.length) return 0;

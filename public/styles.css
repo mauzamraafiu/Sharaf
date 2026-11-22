@@ -815,3 +815,25 @@ input[type=range] { accent-color: var(--lagoon); width: min(52%, 220px); height:
 
 .dial { transition: none; will-change: transform; }
 .compass { transition: none; }
+
+/* ---------- live countdown ---------- */
+.countdown { justify-items: center; text-align: center; }
+.countdown > .backlink { justify-self: start; }
+.cd-ring { position: relative; width: min(80vw, 320px); aspect-ratio: 1; display: grid; place-items: center; border-radius: 50%; background: radial-gradient(circle at 32% 24%, #0E5E5A, #0B4F4C 55%, #073A38); box-shadow: 0 14px 0 -4px #062E2C, 0 34px 44px -12px rgb(7 58 56 / .6), inset 0 2px 0 rgb(255 255 255 / .2); color: #F1FAF7; }
+.cd-ring svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.cd-track { fill: none; stroke: rgb(0 0 0 / .25); stroke-width: 12; }
+.cd-arc { fill: none; stroke: var(--gold); stroke-width: 12; stroke-linecap: round; transition: stroke-dashoffset 1s linear; }
+.cd-mid { position: relative; display: grid; gap: 4px; justify-items: center; }
+.cd-small { font-size: 1rem; opacity: .85; }
+.cd-clock { font: 600 clamp(2.6rem, 14vw, 3.6rem)/1 var(--read); }
+.cd-name { font: 600 2.4rem/1.2 var(--read); }
+[lang=dv] .cd-name { font-family: var(--thaana); line-height: 1.7; }
+.countdown.is-now .cd-ring { background: radial-gradient(circle at 32% 24%, #FFE9A8, var(--gold) 50%, #9B6A0C); color: #1B1B1B; box-shadow: 0 14px 0 -4px #7A5207, 0 34px 44px -12px rgb(155 106 12 / .65), inset 0 2px 0 rgb(255 255 255 / .4); }
+.countdown.is-now .cd-arc { stroke: #fff; }
+.cd-actions { justify-content: center; }
+.cd-list { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; width: 100%; max-width: 460px; }
+.cd-list li { display: grid; gap: 2px; padding: 8px 2px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); font-size: .8rem; }
+.cd-list li.on { background: var(--lagoon-deep); border-color: var(--lagoon-deep); color: #F1FAF7; font-weight: 600; }
+.pc-count { display: inline-flex; align-items: center; gap: 4px; text-decoration: underline; text-underline-offset: 3px; }
+.pc-count .icon { width: 14px; height: 14px; }
+[dir=rtl] .pc-count .icon { transform: scaleX(-1); }

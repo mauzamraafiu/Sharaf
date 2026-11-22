@@ -1,5 +1,5 @@
 // Service worker: keeps the app usable offline and shows prayer-time notifications.
-const SHELL = 'dheen-shell-v25';
+const SHELL = 'dheen-shell-v26';
 const DATA = 'dheen-data-v1';
 const SHELL_FILES = ['/', '/index.html', '/app.js', '/lib.js', '/admin.js', '/figures.js', '/arabic.js', '/styles.css', '/vendor/preact-htm.js', '/manifest.webmanifest', '/icons/icon-192.png',
   '/fonts/figtree.woff2', '/fonts/literata.woff2', '/fonts/amiri-quran.woff2', '/fonts/faruma.ttf', '/fonts/thaana-400.woff2', '/quran/index.json', '/data/prayer.json'];
@@ -63,8 +63,14 @@ async function prayerNotice() {
     let best = null;
     [0, 2, 3, 4, 5].forEach((col, p) => { const t = row[col] + isl.o, diff = t - minute; if (diff >= -15 && diff <= 20 && (!best || Math.abs(diff) < Math.abs(best.diff))) best = { p, t, diff }; });
     if (best) {
-      title = `${NAMES[dv ? 'dv' : 'en'][best.p]} ${hhmm(best.t)}`;
-      body = best.diff > 0 ? (dv ? `${isl.n}: ${best.diff} މިނެޓް ބާކީ` : `In ${best.diff} min at ${isl.n}`) : (dv ? `${isl.n}: ނަމާދު ވަގުތު ޖެހިއްޖެ` : `It is time to pray at ${isl.n}`);
+      const name = NAMES[dv ? 'dv' : 'en'][best.p];
+      if (best.diff > 0) {
+        title = dv ? `${name}: ${best.diff} މިނެޓް ބާކީ` : `${name} in ${best.diff} ${best.diff === 1 ? 'minute' : 'minutes'}`;
+        body = dv ? `${hhmm(best.t)}، ${isl.n}. ކައުންޓްޑައުން ބެލުމަށް ފިއްތާ.` : `${hhmm(best.t)} in ${isl.n}. Tap to see the countdown.`;
+      } else {
+        title = dv ? `${name} ނަމާދު ވަގުތު ޖެހިއްޖެ` : `It is time for ${name}`;
+        body = dv ? `${hhmm(best.t)}، ${isl.n}. ނަމާދަށްފަހުގެ ޛިކުރަށް ފިއްތާ.` : `${hhmm(best.t)} in ${isl.n}. Tap for the dhikr after the prayer.`;
+      }
     }
   } catch {}
   return self.registration.showNotification(title, { body, icon: '/icons/icon-192.png', badge: '/icons/icon-192.png', tag: 'prayer', renotify: true });
@@ -72,5 +78,10 @@ async function prayerNotice() {
 self.addEventListener('push', (e) => e.waitUntil(prayerNotice()));
 self.addEventListener('notificationclick', (e) => {
   e.notification.close();
-  e.waitUntil(self.clients.matchAll({ type: 'window' }).then((list) => (list[0] ? list[0].focus() : self.clients.openWindow('/#/prayer'))));
+  // Open the live countdown, in the app window if one is already open.
+  e.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(async (list) => {
+    const c = list[0];
+    if (!c) return self.clients.openWindow('/#/countdown');
+    try { c.postMessage({ go: '#/countdown' }); return await c.focus(); } catch { return self.clients.openWindow('/#/countdown'); }
+  }));
 });
