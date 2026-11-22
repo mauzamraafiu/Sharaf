@@ -869,6 +869,95 @@ function MushafPage({ p, surahs, side }) {
     </div>
   </div>`;
 }
+// ---------- paper fold: drag a page of the mushaf and it folds over like paper ----------
+function clipHalf(W, H, M, n, keep) {
+  const pts = [[0, 0], [W, 0], [W, H], [0, H]], out = [];
+  const side = (q) => ((q[0] - M[0]) * n[0] + (q[1] - M[1]) * n[1]) * keep;
+  for (let i = 0; i < 4; i++) {
+    const a = pts[i], b = pts[(i + 1) % 4], sa = side(a), sb = side(b);
+    if (sa >= 0) out.push(a);
+    if ((sa >= 0) !== (sb >= 0)) { const k = sa / (sa - sb); out.push([a[0] + (b[0] - a[0]) * k, a[1] + (b[1] - a[1]) * k]); }
+  }
+  return out;
+}
+const polyCss = (pts) => (pts.length < 3 ? 'polygon(0 0, 0 0, 0 0)' : 'polygon(' + pts.map((q) => q[0].toFixed(1) + 'px ' + q[1].toFixed(1) + 'px').join(',') + ')');
+function attachFold(el, api) {
+  const top = el.querySelector('.fold-top'), flap = el.querySelector('.fold-flap'), shade = el.querySelector('.fold-shade');
+  const shFlap = shade.querySelector('.sh-flap'), shUnder = shade.querySelector('.sh-under');
+  const under = { next: el.querySelector('.under-next'), prev: el.querySelector('.under-prev') };
+  let st = null, raf = 0, dragged = false;
+  const reset = () => { top.style.clipPath = ''; flap.style.display = 'none'; shade.style.display = 'none'; for (const u of Object.values(under)) if (u) u.style.visibility = 'hidden'; el.classList.remove('is-folding'); };
+  // Keep the lifted corner where real paper could reach: no further from the spine than the page is wide.
+  const clampP = (P) => {
+    const { W, H, C, dir } = st, sx = dir === 'next' ? W : 0;
+    let q = P;
+    for (const [hx, hy, max] of [[sx, C[1], W], [sx, H - C[1], Math.hypot(W, H)]]) { const d = Math.hypot(q[0] - hx, q[1] - hy); if (d > max) q = [hx + ((q[0] - hx) * max) / d, hy + ((q[1] - hy) * max) / d]; }
+    return q;
+  };
+  const apply = (P) => {
+    const { W, H, C } = st, dx = P[0] - C[0], dy = P[1] - C[1], len = Math.hypot(dx, dy);
+    if (len < 1.5) { top.style.clipPath = ''; flap.style.clipPath = polyCss([]); shade.style.opacity = 0; return; }
+    const n = [dx / len, dy / len], M = [(C[0] + P[0]) / 2, (C[1] + P[1]) / 2], mn = M[0] * n[0] + M[1] * n[1];
+    top.style.clipPath = polyCss(clipHalf(W, H, M, n, 1)); // what is still lying flat
+    flap.style.clipPath = polyCss(clipHalf(W, H, M, n, -1)); // the part that has lifted...
+    flap.style.transform = `matrix(${1 - 2 * n[0] * n[0]},${-2 * n[0] * n[1]},${-2 * n[0] * n[1]},${1 - 2 * n[1] * n[1]},${2 * mn * n[0]},${2 * mn * n[1]})`; // ...mirrored across the crease
+    shade.style.opacity = 1;
+    shade.style.transform = `translate(${M[0].toFixed(1)}px,${M[1].toFixed(1)}px) rotate(${Math.atan2(n[1], n[0]).toFixed(4)}rad)`;
+    shFlap.style.width = Math.min(44, len / 2).toFixed(1) + 'px';
+    shUnder.style.width = Math.min(60, len / 2 + 8).toFixed(1) + 'px';
+  };
+  const down = (e) => {
+    if (st && st.anim) return;
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+    const r = el.getBoundingClientRect();
+    st = { x0: e.clientX, y0: e.clientY, r, W: r.width, H: r.height, active: false, id: e.pointerId, vx: 0, lx: e.clientX, lt: performance.now() };
+    dragged = false;
+  };
+  const move = (e) => {
+    if (!st || st.anim || e.pointerId !== st.id) return;
+    const dx = e.clientX - st.x0, dy = e.clientY - st.y0;
+    if (!st.active) {
+      if (Math.abs(dx) < 10 || Math.abs(dx) < Math.abs(dy) * 1.2) return;
+      const dir = dx > 0 ? 'next' : 'prev'; // as in an Arabic book: pull the left edge to the right to go on
+      if (!under[dir]) { st = null; return; }
+      st.active = true; st.dir = dir; dragged = true;
+      st.C = [dir === 'next' ? 0 : st.W, st.y0 - st.r.top > st.H / 2 ? st.H : 0]; // the corner nearest the finger lifts
+      under[dir].style.visibility = 'visible'; flap.style.display = 'block'; shade.style.display = 'block'; el.classList.add('is-folding');
+      try { el.setPointerCapture(e.pointerId); } catch {}
+    }
+    const now = performance.now(), sgn = st.dir === 'next' ? 1 : -1;
+    if (now > st.lt) st.vx = (e.clientX - st.lx) / (now - st.lt);
+    st.lx = e.clientX; st.lt = now;
+    st.P = clampP([st.C[0] + Math.max(0, sgn * dx) * 2 * sgn, st.C[1] + dy * 0.75]);
+    apply(st.P);
+    if (e.cancelable) e.preventDefault();
+  };
+  const up = (e) => {
+    if (!st || st.anim) return;
+    if (!st.active) { // a plain tap: in full screen, the page edges turn the page
+      const moved = Math.hypot(e.clientX - st.x0, e.clientY - st.y0), f = (e.clientX - st.r.left) / st.W;
+      st = null;
+      if (moved < 8 && api.focus() && e.type === 'pointerup') { if (f < 0.14) api.next(); else if (f > 0.86) api.prev(); }
+      return;
+    }
+    const sgn = st.dir === 'next' ? 1 : -1;
+    const done = e.type === 'pointerup' && (Math.abs(st.P[0] - st.C[0]) / (2 * st.W) > 0.26 || st.vx * sgn > 0.5);
+    const from = st.P, to = done ? [st.dir === 'next' ? 2 * st.W : -st.W, st.C[1]] : st.C, t0 = performance.now(), D = done ? 300 : 220;
+    st.anim = true;
+    const step = (now) => {
+      const k = Math.min(1, (now - t0) / D), q = 1 - Math.pow(1 - k, 3);
+      apply(clampP([from[0] + (to[0] - from[0]) * q, from[1] + (to[1] - from[1]) * q]));
+      if (k < 1) { raf = requestAnimationFrame(step); return; }
+      const dir = st.dir; st = null;
+      if (done) (dir === 'next' ? api.next : api.prev)(true); else reset();
+    };
+    raf = requestAnimationFrame(step);
+  };
+  const click = (e) => { if (dragged) { e.stopPropagation(); e.preventDefault(); dragged = false; } };
+  el.addEventListener('pointerdown', down); el.addEventListener('pointermove', move, { passive: false });
+  el.addEventListener('pointerup', up); el.addEventListener('pointercancel', up); el.addEventListener('click', click, true);
+  return () => { cancelAnimationFrame(raf); el.removeEventListener('pointerdown', down); el.removeEventListener('pointermove', move); el.removeEventListener('pointerup', up); el.removeEventListener('pointercancel', up); el.removeEventListener('click', click, true); };
+}
 function Mushaf({ page }) {
   const idx = useData(() => getJSON('/quran/index.json'), []);
   const [wide, setWide] = useState(matchMedia('(min-width: 900px)').matches);
@@ -892,8 +981,15 @@ function Mushaf({ page }) {
   const right = wide ? (p % 2 ? p : p - 1) : p;
   const go = (to, d) => { const n = Math.min(604, Math.max(1, to)); if (n === p) return; setDir(d); location.hash = `#/mushaf/${n}`; };
   const markRead = (pages) => setSettings({ pagesRead: [...new Set([...(getSettings().pagesRead || []), ...pages.filter((x) => x >= 1 && x <= 604)])].sort((x, y) => x - y) });
-  const next = () => { markRead(wide ? [right, right + 1] : [right]); go(right + (wide ? 2 : 1), 'next'); }; // turning forward counts the page as read
-  const prev = () => go(right - (wide ? 2 : 1), 'prev');
+  const next = (quiet) => { markRead(wide ? [right, right + 1] : [right]); go(right + (wide ? 2 : 1), quiet === true ? 'none' : 'next'); }; // turning forward counts the page as read
+  const prev = (quiet) => go(right - (wide ? 2 : 1), quiet === true ? 'none' : 'prev');
+  const bookRef = useRef(null), turn = useRef({});
+  turn.current = { next, prev, focus: () => focus };
+  // On one-page screens the page can be dragged and folds over like paper.
+  useEffect(() => {
+    if (wide || !bookRef.current || !bookRef.current.querySelector('.fold-top')) return;
+    return attachFold(bookRef.current, { next: (q) => turn.current.next(q), prev: (q) => turn.current.prev(q), focus: () => turn.current.focus() });
+  }, [right, wide, !!idx.data]);
   useEffect(() => { setSettings({ mpage: p }); scrollTo(0, 0); [p + 1, p + 2, p - 1].forEach((n) => n >= 1 && n <= 604 && pageData(n).catch(() => {})); }, [p]);
   useEffect(() => {
     const f = (e) => { if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return; if (e.key === 'ArrowLeft') next(); if (e.key === 'ArrowRight') prev(); if (e.key === 'f') setFocus((v) => !v); if (e.key === 'Escape') setFocus(false); };
@@ -921,14 +1017,20 @@ function Mushaf({ page }) {
         <span class="sn num">${x.n}</span><span class="smain"><strong>${x.name}</strong><span class="muted">${t('pageWord')} ${x.page}, ${x.count} ${t('ayahs')}</span></span><span class="sar" lang="ar" dir="rtl">${x.ar}</span></a></li>`)}</ol></div>
     </div>`}
     ${focus && html`<button class="focus-exit" onClick=${() => setFocus(false)} aria-label=${t('exitFull')}><${Icon} name="close" /></button>
-      <button class="turn-zone left" onClick=${next} aria-label=${t('nextPage')}></button><button class="turn-zone right" onClick=${prev} aria-label=${t('prevPage')}></button>`}
-    <div class="book ${wide ? 'is-spread' : ''} turn-${dir}" key=${right} onTouchStart=${onStart} onTouchEnd=${onEnd}>
-      ${wide && right + 1 <= 604 && html`<${MushafPage} p=${right + 1} surahs=${surahs} side="left" />`}
+      ${wide && html`<button class="turn-zone left" onClick=${next} aria-label=${t('nextPage')}></button><button class="turn-zone right" onClick=${prev} aria-label=${t('prevPage')}></button>`}`}
+    ${wide ? html`<div class="book is-spread turn-${dir}" key=${right} onTouchStart=${onStart} onTouchEnd=${onEnd}>
+      ${right + 1 <= 604 && html`<${MushafPage} p=${right + 1} surahs=${surahs} side="left" />`}
       <${MushafPage} p=${right} surahs=${surahs} side="right" />
-    </div>
+    </div>` : html`<div class="book single turn-${dir}" key=${right} ref=${bookRef}>
+      ${right + 1 <= 604 && html`<div class="under under-next" aria-hidden="true"><${MushafPage} p=${right + 1} surahs=${surahs} side="right" /></div>`}
+      ${right - 1 >= 1 && html`<div class="under under-prev" aria-hidden="true"><${MushafPage} p=${right - 1} surahs=${surahs} side="right" /></div>`}
+      <div class="fold-top"><${MushafPage} p=${right} surahs=${surahs} side="right" /></div>
+      <div class="fold-flap" aria-hidden="true"></div>
+      <div class="fold-shade" aria-hidden="true"><i class="sh-under"></i><i class="sh-flap"></i></div>
+    </div>`}
     <div class="mushaf-nav">
       <button class="btn" onClick=${next} disabled=${right + (wide ? 1 : 0) >= 604}><${Icon} name="back" /> ${t('nextPage')}</button>
-      <span class="muted">${t('tapAyah')}</span>
+      <span class="muted">${wide ? t('tapAyah') : t('foldHint')}</span>
       <button class="btn" onClick=${prev} disabled=${right <= 1}>${t('prevPage')} <${Icon} name="next" /></button>
     </div>
   </div>`;

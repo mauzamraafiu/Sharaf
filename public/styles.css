@@ -860,3 +860,18 @@ input[type=range] { accent-color: var(--lagoon); width: min(52%, 220px); height:
 .catch-chip { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 16px; font-size: 1rem; }
 .catch-chip .icon { width: 16px; height: 16px; color: var(--lagoon); }
 .catch-foot { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* ---------- mushaf: a page that folds like paper under the finger ---------- */
+.book.single { position: relative; overflow: hidden; touch-action: pan-y; filter: none; perspective: none; border-radius: 6px; box-shadow: 0 12px 24px -10px rgb(20 30 25 / .3); -webkit-user-select: none; user-select: none; }
+.book.single .leaf { animation: none !important; }
+.book.single.turn-next .fold-top { animation: fade .16s both; }
+.under { position: absolute; inset: 0; overflow: hidden; visibility: hidden; }
+.under .leaf { height: 100%; min-height: 0; }
+.fold-top { position: relative; will-change: clip-path; }
+.fold-flap { display: none; position: absolute; inset: 0; transform-origin: 0 0; pointer-events: none; will-change: transform, clip-path;
+  background: linear-gradient(100deg, color-mix(in srgb, var(--paper) 84%, #5a4a2a) 0%, color-mix(in srgb, var(--paper) 94%, #5a4a2a) 45%, var(--paper) 100%); }
+.fold-shade { display: none; position: absolute; left: 0; top: 0; width: 0; height: 0; pointer-events: none; will-change: transform; }
+.fold-shade i { position: absolute; top: -2400px; height: 4800px; }
+.sh-under { right: 0; background: linear-gradient(to left, rgb(40 30 10 / .34), rgb(40 30 10 / .10) 45%, rgb(40 30 10 / 0)); }
+.sh-flap { left: 0; background: linear-gradient(to right, rgb(255 255 255 / .7), rgb(60 45 15 / .16) 55%, rgb(60 45 15 / 0)); }
+html.focus .book.single { border-radius: 0; box-shadow: none; }

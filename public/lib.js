@@ -143,6 +143,7 @@ const T = {
   qTip1: ['Hold the phone flat, like a plate.', 'ފޯނު ތަށްޓެއް ފަދައިން ތިރިކޮށް ހިފަހައްޓާ.'], qTip2: ['Keep away from metal, speakers and magnets. If it looks wrong, move the phone in a figure of eight.', 'ދަގަނޑާއި ސްޕީކަރާއި މެގްނެޓާ ދުރުގައި ބަހައްޓާ. ގޯސްކަމަށް ހީވާ ނަމަ ފޯނު 8 ގެ ބައްޓަމަށް ހަރަކާތްކުރޭ.'], qTip3: ['A phone compass can be a few degrees out. If the mosque nearby faces a slightly different way, follow the mosque.', 'ފޯނުގެ ސަމުގާ މަދު ޑިގްރީއެއް ތަފާތުވެދާނެ. ކައިރީ މިސްކިތް ހުރީ ތަފާތު ދިމާއަކަށް ނަމަ މިސްކިތާ އެއްގޮތްކުރޭ.'],
   cdIn: ['in', 'އަށް ބާކީ'], cdNow: ['It is time for', 'ނަމާދު ވަގުތު ޖެހިއްޖެ'], cdPrayed: ['I have prayed', 'ނަމާދުކޮށްފިން'],
   catchAsk: ['Have you prayed these today?', 'މިއަދު މި ނަމާދުތައް ކުރެވުނުތަ؟'], catchAll: ['Yes, all of them', 'އާނ، ހުރިހާ ނަމާދެއް'], catchLater: ['Not now', 'މިހާރު ނޫން'],
+  foldHint: ['Drag the page from its edge or corner to turn it. Tap an ayah to hear it.', 'ޞަފްޙާ އުކުމަށް އޭގެ އަރިމަތިން ނުވަތަ ކަނުން ދަމާ. އާޔަތެއް އަޑުއެހުމަށް ފިއްތާ.'],
   notifOn: ['Alerts are on for the prayers below', 'ތިރީގައިވާ ނަމާދުތަކަށް އެލާޓް ޖައްސާފައި'],
   notifCta: ['Turn on prayer-time alerts', 'ނަމާދު ވަގުތުގެ އެލާޓް ޖައްސާ'], notifCtaSub: ['Get a notification at each prayer time', 'ކޮންމެ ނަމާދު ވަގުތެއްގައި ނޮޓިފިކޭޝަނެއް'],
   articles: ['articles', 'ލިޔުން'], back: ['Back', 'ފަހަތަށް'], step: ['Step', 'މަރުޙަލާ'], of: ['of', '/'],
