@@ -11,6 +11,6 @@
   "d1_databases": [{ "binding": "DB", "database_name": "sharaf" }],
   // One cron: imports new content after a deploy, then sends prayer-time notifications.
   "triggers": { "crons": ["* * * * *"] },
-  "vars": { "PUSH_CONTACT": "mailto:admin@example.com" },
+  "vars": { "PUSH_CONTACT": "mailto:mauzamraafiu@gmail.com" },
   "observability": { "enabled": true }
 }
