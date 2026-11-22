@@ -905,3 +905,8 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 .mem-ar-name { display: block; margin: 2px 0 6px; font: 400 clamp(1.7rem, 7vw, 2.3rem)/1.7 var(--arabic); color: var(--gold); text-align: center; }
 
 .mem-ar-in { font: 400 1.25em/1.2 var(--arabic); color: var(--gold); margin-inline: .2em; white-space: nowrap; unicode-bidi: isolate; }
+
+/* Dhivehi always reads from the right, whatever the app language is */
+.tr.dv, .dv, [lang=dv]:not(html) { direction: rtl; text-align: right; unicode-bidi: isolate; }
+.letter .dv, .letter-card .dv, td.dv, th.dv { text-align: inherit; }
+.tr.dv { max-width: none; }
