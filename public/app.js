@@ -3,6 +3,7 @@ import { getSettings, setSettings, onSettings, applyTheme, t, pick, isDv, PRAYER
 import { LETTERS, WORDS } from './arabic.js';
 import { Admin } from './admin.js';
 import { StepFigure, PrayerPicker } from './figures.js';
+import { ToolsPage, FridayCard, DeedCounters, AzanWatcher } from './tools.js';
 
 // ---------- hooks ----------
 function useSettings() {
@@ -427,7 +428,7 @@ function NowCard({ boot }) {
     <ul>${rows.slice(0, 6).map(([href, icon, label, tag]) => html`<li><a href=${href}><${Icon} name=${icon} /><span>${label}</span>${tag ? html`<span class="tag">${tag}</span>` : html`<${Icon} name="next" />`}</a></li>`)}</ul>
   </section>`;
 }
-const FEATURES = [['s/salah-steps', 'prayer'], ['qibla', 'compass'], ['s/wudu-steps', 'drop'], ['duas', 'duas'], ['s/dhikr-tongue', 'count'], ['s/special-days', 'calendar'], ['s/fasting-eid-duas', 'moon'], ['s/janazah-steps', 'prayer'], ['s/duas-dead', 'duas'], ['s/umrah-steps', 'kaaba'], ['s/hajj-steps', 'kaaba'], ['s/prophets', 'book'], ['s/kids-stories', 'star'], ['arabic', 'chat'], ['explore', 'explore']];
+const FEATURES = [['s/salah-steps', 'prayer'], ['qibla', 'compass'], ['s/wudu-steps', 'drop'], ['duas', 'duas'], ['s/dhikr-tongue', 'count'], ['s/special-days', 'calendar'], ['s/fasting-eid-duas', 'moon'], ['s/janazah-steps', 'prayer'], ['s/duas-dead', 'duas'], ['s/umrah-steps', 'kaaba'], ['s/hajj-steps', 'kaaba'], ['s/prophets', 'book'], ['s/kids-stories', 'star'], ['arabic', 'chat'], ['t', 'calendar'], ['explore', 'explore']];
 function Card({ href, icon, title, sub, count }) {
   return html`<a class="card" data-tone=${icon} href=${href}><span class="disc"><${Icon} name=${icon} /></span><strong>${title}</strong>${sub && html`<span class="muted">${sub}</span>`}${count != null && html`<span class="count num">${count}</span>`}</a>`;
 }
@@ -435,6 +436,7 @@ function featureCard(boot, [path, icon]) {
   if (path === 'qibla') return html`<${Card} href="#/qibla" icon=${icon} title=${t('qibla')} sub=${t('qiblaSub')} />`;
   if (path === 'duas') return html`<${Card} href="#/duas" icon=${icon} title=${t('duas')} sub=${t('g_duas')} />`;
   if (path === 'arabic') return html`<${Card} href="#/arabic" icon=${icon} title=${t('g_arabic')} sub=${t('arabicLede')} />`;
+  if (path === 't') return html`<${Card} href="#/t" icon=${icon} title=${isDv() ? 'ޓޫލްސް' : 'Tools'} sub=${isDv() ? 'ރަމަޟާން، ޒަކާތް، ޚަތިމް، ކުއިޒް އަދި އެހެނިހެން' : 'Ramadan, zakat, khatm plan, quiz and more'} />`;
   if (path === 'explore') return html`<${Card} href="#/explore" icon=${icon} title=${t('explore')} sub=${t('exploreLede')} />`;
   const sec = boot.sections.find((x) => x.id === path.slice(2));
   return sec ? html`<${Card} href=${'#/' + path} icon=${icon} title=${pick(sec, 'title')} sub=${pick(sec, 'summary')} />` : null;
@@ -447,7 +449,7 @@ function Home({ boot }) {
       <p class="bismillah" lang="ar" dir="rtl">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
     </header>
     <a class="memstrip" href="#/memory"><span class="mem-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>${t('memShort')} <span class="mem-nm"><strong>${t('memName')}</strong> <span class="mem-ar-b">(<span class="mem-ar-in" lang="ar" dir="rtl">شَرِيفَة أَحْمَد</span>)</span>${t('memAfter')} <span class="num">1972 – 2023</span></span></span><span class="memstrip-go">${t('memAsk')}</span></a>
-    <${CatchUp} />
+    <${CatchUp} /><${FridayCard} />
     <div class="home-grid">
       <div class="col"><${PrayerCard} track /></div>
       <div class="col">
@@ -1416,6 +1418,7 @@ function MemoryPage() {
       <p class="notice ${isDv() ? 'dv' : ''}">${t('memShort2')} <span class="ar" lang="ar" dir="rtl">اللَّهُمَّ اغْفِرْ لَهَا وَارْحَمْهَا</span></p>
     </section>
     <div class="toolbar"><button class="btn primary" onClick=${share}>${t('shareApp')}</button>${msg && html`<span class="muted" role="status">${msg}</span>`}</div>
+    <${DeedCounters} />
   </div>`;
 }
 
@@ -1444,6 +1447,7 @@ function App() {
   else if (head === 'countdown') page = html`<${CountdownPage} />`;
   else if (head === 'qibla') page = html`<${QiblaPage} />`;
   else if (head === 'memory') page = html`<${MemoryPage} />`;
+  else if (head === 't') page = html`<${ToolsPage} name=${a || ''} />`;
   else if (head === 'guide') page = html`<${GuidePage} boot=${boot.data} id=${decodeURIComponent(a || '')} />`;
   else if (head === 's') page = html`<${SectionPage} boot=${boot.data} id=${a} />`;
   else if (head === 'i') page = html`<${ItemPage} boot=${boot.data} id=${a} />`;
@@ -1460,6 +1464,7 @@ function App() {
         <a class="icon-btn" href="#/settings" aria-label=${t('settings')}><${Icon} name="settings" /></a>
       </span>
     </header>
+    <${AzanWatcher} />
     <main id="main"><div class="route" key=${head + '/' + (head === 'mushaf' || head === 'explore' || head === 'arabic' ? '' : a || '')}>${page}</div>
       ${head !== 'mushaf' && head !== 'memory' && head !== '' && html`<footer class="memfoot"><a href="#/memory">${t('memShort')} <span class="mem-ar-in" lang="ar" dir="rtl">شَرِيفَة أَحْمَد</span>${t('memAfter')}. ${t('memAsk')}.</a></footer>`}</main>
     <${MiniPlayer} />

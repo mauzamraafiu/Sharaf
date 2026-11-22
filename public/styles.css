@@ -921,3 +921,41 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 .mem-nm { display: block; }
 .mem-nm strong, .mem-ar-b, .mem-nm .num { white-space: nowrap; }
 .mem-ar-b .mem-ar-in { margin-inline: .05em; }
+
+/* ---------- tools ---------- */
+.tool-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; margin: 12px 0 20px; }
+.page.tool { display: grid; gap: 14px; align-content: start; }
+.page.tool h1 { margin: 0; } .page.tool h2 { margin: 8px 0 0; font-size: 1.15rem; }
+.tool-two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.tool-two .set-card, .set-card.result { display: grid; gap: 2px; }
+.big { font-size: 1.9rem; line-height: 1.2; font-family: var(--serif, inherit); }
+.small { font-size: .85rem; }
+.row-links { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.daygrid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+.day { aspect-ratio: 1; border-radius: 50%; border: 1.5px solid var(--line); background: var(--card, #fff); font: inherit; font-weight: 600; color: inherit; cursor: pointer; }
+.day.on { background: var(--ornament); border-color: var(--ornament); color: #fff; }
+.day.today { box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 60%, transparent); }
+.set-card.form { display: grid; gap: 12px; }
+.field { display: grid; gap: 4px; font-size: .95rem; }
+.field input, .field select { font: inherit; padding: 11px 12px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--card, #fff); color: inherit; width: 100%; }
+.chip.on { background: var(--ink); color: var(--bg, #fff); border-color: var(--ink); }
+.qrow { display: grid; grid-template-columns: 1fr auto auto auto auto; gap: 8px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.qrow:last-child { border-bottom: 0; } .qn { font-size: 1.3rem; font-weight: 700; min-width: 2ch; text-align: center; }
+@media (max-width: 480px) { .qrow { grid-template-columns: 1fr auto auto auto; } .qrow .btn.primary { grid-column: 1 / -1; } }
+.bar { height: 12px; border-radius: 99px; background: var(--line); overflow: hidden; } .bar i { display: block; height: 100%; background: linear-gradient(90deg, var(--ornament), var(--gold)); border-radius: 99px; }
+.hifz-ar { font-size: calc(var(--ar-size, 30px) * 1.1); line-height: 2.1; text-align: center; transition: filter .2s; }
+.hifz-ar.hidden { filter: blur(11px); cursor: pointer; -webkit-user-select: none; user-select: none; }
+.answers { display: grid; gap: 10px; } .answer { justify-content: flex-start; text-align: start; }
+.answer.right { background: #1f7a55; border-color: #1f7a55; color: #fff; opacity: 1; } .answer.wrong { background: #a83a32; border-color: #a83a32; color: #fff; opacity: 1; }
+.deeds { display: grid; gap: 10px; }
+.deed { display: flex; gap: 12px; align-items: center; padding: 14px 16px; border-radius: 16px; border: 1.5px solid var(--line); background: var(--card, #fff); font: inherit; color: inherit; text-align: start; cursor: pointer; }
+.deed .star { font-size: 1.6rem; color: var(--line); line-height: 1; } .deed.on { border-color: var(--gold); background: color-mix(in srgb, var(--gold) 12%, var(--card, #fff)); } .deed.on .star { color: var(--gold); }
+.friday { border: 1.5px solid var(--gold); border-radius: 20px; padding: 16px 18px; background: color-mix(in srgb, var(--gold) 9%, var(--card, #fff)); display: grid; gap: 8px; } .friday p { margin: 0; }
+.deedbox { margin-top: 22px; display: grid; gap: 10px; } .deedbox h2 { margin: 0; }
+.deedrow { display: grid; grid-template-columns: 3.2ch 1fr auto; gap: 12px; align-items: center; padding: 12px 14px; border: 1.5px solid var(--line); border-radius: 16px; background: var(--card, #fff); }
+.deedrow strong { font-size: 1.35rem; color: var(--ornament); text-align: center; }
+@media (max-width: 480px) { .deedrow { grid-template-columns: 3.2ch 1fr; } .deedrow .btn { grid-column: 1 / -1; } }
+.azan-set { display: grid; gap: 8px; } .azan-set h2 { margin: 0; font-size: 1.1rem; }
+.azanbar { position: fixed; z-index: 60; top: calc(env(safe-area-inset-top) + 10px); left: 50%; transform: translateX(-50%); display: flex; gap: 14px; align-items: center; padding: 8px 10px 8px 18px; border-radius: 99px; background: var(--ink); color: #fff; box-shadow: 0 10px 24px -10px rgb(0 0 0 / .5); }
+.tool-grid .card { display: grid; grid-template-columns: 1fr; gap: 4px; align-content: start; padding: 16px 18px; }
+.tool-grid .card > * { grid-column: 1; grid-row: auto; position: static; margin: 0; }

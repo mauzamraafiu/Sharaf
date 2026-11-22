@@ -13,6 +13,7 @@ const SCHEMA = [
   `CREATE TABLE IF NOT EXISTS push_subs (id INTEGER PRIMARY KEY AUTOINCREMENT, endpoint TEXT NOT NULL UNIQUE, island_id INTEGER NOT NULL, prayers INTEGER NOT NULL DEFAULT 31, lead_min INTEGER NOT NULL DEFAULT 0, last_key INTEGER NOT NULL DEFAULT 0, created_at INTEGER NOT NULL)`,
   `CREATE INDEX IF NOT EXISTS push_due ON push_subs (lead_min, island_id)`,
   `CREATE TABLE IF NOT EXISTS login_attempts (ip TEXT NOT NULL, ts INTEGER NOT NULL)`,
+  `CREATE TABLE IF NOT EXISTS counters (key TEXT PRIMARY KEY, n INTEGER NOT NULL DEFAULT 0)`,
   `CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT NOT NULL UNIQUE, salt TEXT NOT NULL, hash TEXT NOT NULL, data TEXT NOT NULL DEFAULT '{}', created_at INTEGER NOT NULL, updated_at INTEGER NOT NULL DEFAULT 0)`,
 ];
 
@@ -113,6 +114,17 @@ app.get('/api/bootstrap', async (c) => {
   return c.json({ sections: sections.results, items: items.results, rev: meta.content_rev || '0', seeding });
 });
 
+// Shared totals shown on the memorial page: how many times people did a good deed in her memory.
+const COUNTER_KEYS = ['dua', 'sadaqah', 'quran'];
+const readCounters = async (db) => Object.fromEntries((await db.prepare('SELECT key, n FROM counters').all()).results.map((r) => [r.key, r.n]));
+app.get('/api/counters', async (c) => { await ensureSchema(c.env.DB); return c.json(await readCounters(c.env.DB)); });
+app.post('/api/counters/:key', async (c) => {
+  const key = c.req.param('key');
+  if (!COUNTER_KEYS.includes(key)) return c.json({ error: 'unknown' }, 400);
+  await ensureSchema(c.env.DB);
+  await c.env.DB.prepare('INSERT INTO counters (key, n) VALUES (?1, 1) ON CONFLICT(key) DO UPDATE SET n = n + 1').bind(key).run();
+  return c.json(await readCounters(c.env.DB));
+});
 app.post('/api/seed-step', async (c) => c.json(await seedStep(c.env, await getMeta(c.env.DB))));
 
 app.get('/api/sections/:id', async (c) => {
@@ -377,8 +389,14 @@ async function notifyDue(env, meta) {
       }
     }
   }
-  if (!due.size) return 0;
   const subs = [];
+  // Friday morning, 09:00 to 09:20 in the Maldives: one reminder to read al-Kahf, when no prayer alert is due.
+  if (!due.size && mv.getUTCDay() === 5 && minute >= 540 && minute <= 560) {
+    const key = 2000000 + di;
+    const { results } = await db.prepare('SELECT id, endpoint FROM push_subs WHERE last_key != ?1 LIMIT ?2').bind(key, BATCH).all();
+    for (const r of results) subs.push({ ...r, key });
+  }
+  if (!due.size && !subs.length) return 0;
   for (const [k, ids] of due) {
     if (subs.length >= BATCH) break;
     const atTime = k.startsWith('T:');

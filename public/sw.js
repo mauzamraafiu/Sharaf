@@ -1,7 +1,7 @@
 // Service worker: keeps the app usable offline and shows prayer-time notifications.
-const SHELL = 'dheen-shell-v47';
+const SHELL = 'dheen-shell-v48';
 const DATA = 'dheen-data-v1';
-const SHELL_FILES = ['/', '/index.html', '/app.js', '/lib.js', '/admin.js', '/figures.js', '/arabic.js', '/figure3d.js', '/vendor/three.module.min.js', '/styles.css', '/vendor/preact-htm.js', '/manifest.webmanifest', '/icons/icon-192.png',
+const SHELL_FILES = ['/', '/index.html', '/app.js', '/lib.js', '/admin.js', '/figures.js', '/arabic.js', '/figure3d.js', '/tools.js', '/quiz.js', '/vendor/three.module.min.js', '/styles.css', '/vendor/preact-htm.js', '/manifest.webmanifest', '/icons/icon-192.png',
   '/fonts/figtree.woff2', '/fonts/literata.woff2', '/fonts/amiri-quran.woff2', '/fonts/faruma.ttf', '/fonts/thaana-400.woff2', '/quran/index.json', '/data/prayer.json'];
 
 self.addEventListener('install', (e) => e.waitUntil(caches.open(SHELL).then((c) => c.addAll(SHELL_FILES)).then(() => self.skipWaiting())));
@@ -73,6 +73,11 @@ async function prayerNotice() {
         body = dv ? `${hhmm(best.t)}، ${isl.n}. ނަމާދަށްފަހުގެ ޛިކުރަށް ފިއްތާ.` : `${hhmm(best.t)} in ${isl.n}. Tap for the dhikr after the prayer.`;
       }
     }
+    if (!best && now.getUTCDay() === 5 && minute >= 530 && minute <= 620) { // the Friday morning reminder
+      title = dv ? 'ހުކުރު ދުވަސް' : 'It is Friday';
+      body = dv ? 'ސޫރަތުލް ކަހްފު ކިޔަވައި، ގިނައިން ޞަލަވާތް ކިޔަވާ.' : 'Read Surah al-Kahf and send salawat on the Prophet ﷺ.';
+      data = { go: '#/quran/18' };
+    }
   } catch {}
   const opts = { body, icon: '/icons/icon-192.png', badge: '/icons/icon-192.png', tag: 'prayer', renotify: true, data };
   // Android shows this as a button on the alert; iPhone ignores it.
@@ -98,7 +103,8 @@ self.addEventListener('notificationclick', (e) => {
   // Open the live countdown, in the app window if one is already open.
   e.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(async (list) => {
     const c = list[0];
-    if (!c) return self.clients.openWindow('/#/countdown');
-    try { c.postMessage({ go: '#/countdown' }); return await c.focus(); } catch { return self.clients.openWindow('/#/countdown'); }
+    const go = (d && d.go) || '#/countdown';
+    if (!c) return self.clients.openWindow('/' + go);
+    try { c.postMessage({ go }); return await c.focus(); } catch { return self.clients.openWindow('/' + go); }
   }));
 });
