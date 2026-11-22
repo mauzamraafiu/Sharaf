@@ -683,6 +683,10 @@ function countFor(it) {
   if (!m) return 1;
   return m[1] ? +m[1] : COUNT_WORDS[(m[2] || m[3]).toLowerCase()] || 1;
 }
+// Counting only makes sense for words that are repeated: dhikr, salawat, istighfar, or a dua with a stated number of times.
+const countable = (it) => countFor(it) > 1 || it.section_id === 'dhikr-tongue' || /^dhikr-|salawat|istighfar|tasbih|tahlil/.test(it.id);
+// Sections that are read through in one sitting; the rest are for particular occasions.
+const GUIDED = ['dhikr-tongue', 'duas-morning-evening', 'duas-after-salah'];
 const firstPara = (x) => (x || '').split(/\n\s*\n/)[0].replace(/\*\*/g, '');
 const fromItem = (it, n) => ({ ar: it.arabic, tr: it.translit, en: firstPara(it.body_en), dv: firstPara(it.body_dv), n, title_en: it.title_en, title_dv: it.title_dv, ref: it.ref, item: it });
 const TAHLIL_EN = 'There is no god but Allah, alone, with no partner. His is the dominion and His is the praise, and He has power over all things.';
@@ -831,7 +835,7 @@ function ItemBody({ item }) {
   const dvShown = isDv() && item.body_dv;
   return html`
     <${Recitation} item=${item} big />
-    <div class="toolbar"><${ListenButton} item=${item} />${item.kind === 'dua' && html`<a class="btn" href=${`#/count/${item.id}`}><${Icon} name="count" /> ${t('count')}</a>`}</div>
+    <div class="toolbar"><${ListenButton} item=${item} />${item.kind === 'dua' && countable(item) && html`<a class="btn" href=${`#/count/${item.id}`}><${Icon} name="count" /> ${t('count')}</a>`}</div>
     <div class=${dvShown ? 'dv' : ''}><${Markdown} text=${dvShown ? item.body_dv : item.body_en} /></div>
     ${item.ref && html`<p class="ref muted" dir="ltr">${t('source')}: ${item.ref}</p>`}
     ${dvShown && !item.dv_reviewed ? html`<p class="notice">${t('dvUnreviewed')}</p>` : null}`;
@@ -851,7 +855,7 @@ function SectionPage({ boot, id }) {
       if (kind === 'step') return html`<ol class="steps">${items.map((it, i) => html`<li id=${it.id}>
         <p class="stepno muted">${t('step')} <span class="num">${i + 1}</span> ${t('of')} <span class="num">${items.length}</span></p>
         <h2>${pick(it, 'title')}</h2><${StepFigure} id=${it.id} />${it.id === 'salah-02-takbir' && html`<h3 class="picker-title">${t('chooseNiyyah')}</h3><${PrayerPicker} />`}<${ItemBody} item=${it} /></li>`)}</ol>`;
-      if (kind === 'dua') return html`${items.filter((x) => x.arabic).length > 1 && html`<a class="btn primary guide-start" href=${`#/guide/sec:${id}`}><${Icon} name="count" /> ${t('oneByOne')}</a>`}<ul class="duas">${items.map((it) => html`<li id=${it.id}><h2>${pick(it, 'title')}</h2><${ItemBody} item=${it} /></li>`)}</ul>`;
+      if (kind === 'dua') return html`${GUIDED.includes(id) && items.filter((x) => x.arabic).length > 1 && html`<a class="btn primary guide-start" href=${`#/guide/sec:${id}`}><${Icon} name="count" /> ${t('oneByOne')}</a>`}<ul class="duas">${items.map((it) => html`<li id=${it.id}><h2>${pick(it, 'title')}</h2><${ItemBody} item=${it} /></li>`)}</ul>`;
       return html`<ul class="seclist">${items.map((it) => html`<li><a href=${`#/i/${it.id}`}><strong>${pick(it, 'title')}</strong></a></li>`)}</ul>`;
     }}<//>
   </div>`;

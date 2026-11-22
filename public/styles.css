@@ -1070,3 +1070,4 @@ html[data-mbig] .leaf-body.is-opening { padding-inline: 0; }
 .abc-key[aria-pressed=true] { background: var(--lagoon-deep); border-color: var(--lagoon-deep); color: #F1FAF7; } .abc-key[aria-pressed=true] small { color: inherit; opacity: .85; }
 @media (min-width: 720px) { .abc { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; } .abc-card { position: sticky; top: 84px; } }
 .abc-th { font-size: 1.8rem; line-height: 1; vertical-align: middle; } .abc-key small { font-size: 1.2rem; line-height: 1.1; } .abc-key { padding-bottom: 7px; }
+.toolbar:empty { display: none; }
