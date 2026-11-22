@@ -1004,7 +1004,8 @@ function Notifications() {
     setSettings({ notif: { ...s.notif, on: false } }); setBusy(false);
   };
   if (!supported || ios) return html`<p class="notice">${t('notifIos')}</p>`;
-  return html`<div>
+  return html`<div class="notif-box">
+    ${s.notif.on && html`<p class="notif-on"><${Icon} name="check" /> ${t('notifOn')}</p>`}
     <button class="btn ${s.notif.on ? '' : 'primary'}" disabled=${busy} onClick=${s.notif.on ? turnOff : turnOn}>${s.notif.on ? t('turnOff') : t('turnOn')}</button>
     ${msg && html`<p class="notice" role="alert">${msg}</p>`}
     ${s.notif.on && html`<div class="chips wrap" role="group">
@@ -1071,19 +1072,21 @@ function SettingsPage() {
   const seg = (key, opts) => html`<span class="chips" role="group">${opts.map(([v, l]) => html`<button class="chip" aria-pressed=${s[key] === v} onClick=${() => setSettings({ [key]: v })}>${l}</button>`)}</span>`;
   return html`<div class="page settings">
     <h1>${t('settings')}</h1>
-    <div class="row"><span>${t('language')}</span>${seg('lang', [['en', 'English'], ['dv', 'ދިވެހި']])}</div>
-    <${AccountBox} />
-    <div class="row"><span>${t('theme')}</span>${seg('theme', [['auto', t('auto')], ['light', t('light')], ['dark', t('dark')]])}</div>
-    <${IslandPicker} islands=${pd.data?.islands || []} value=${s.island} onPick=${(id) => { setSettings({ island: id }); syncPush(getSettings()).catch(() => {}); }} />
-    <section class="block" id="notifications"><h2>${t('notifications')}</h2><${Notifications} /></section>
-    <section class="block"><h2>${t('quran')}</h2>
+    <section class="set-card">
+      <div class="row"><span>${t('language')}</span>${seg('lang', [['en', 'English'], ['dv', 'ދިވެހި']])}</div>
+      <div class="row"><span>${t('theme')}</span>${seg('theme', [['auto', t('auto')], ['light', t('light')], ['dark', t('dark')]])}</div>
+      <${IslandPicker} islands=${pd.data?.islands || []} value=${s.island} onPick=${(id) => { setSettings({ island: id }); syncPush(getSettings()).catch(() => {}); }} />
+    </section>
+    <section class="set-card" id="notifications"><h2><${Icon} name="bell" /> ${t('notifications')}</h2><${Notifications} /></section>
+    <section class="set-card"><h2><${Icon} name="quran" /> ${t('quran')}</h2>
       <${ReciterPicker} />
-      <${FullOffline} />
       <label class="row"><span>${t('arabicSize')}</span><input type="range" min="22" max="44" step="2" value=${s.arSize} onInput=${(e) => setSettings({ arSize: +e.target.value })} /></label>
       <p class="ar sample" lang="ar" dir="rtl" style=${{ fontSize: s.arSize + 'px' }}>ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ</p>
       <div class="row"><span>${t('offline')}</span>
         ${dl === 'done' ? html`<span class="muted">${t('downloaded')}</span>` : html`<button class="btn" disabled=${dl !== null} onClick=${download}>${dl ? `${dl} / 114` : t('download')}</button>`}</div>
+      <${FullOffline} />
     </section>
+    <${AccountBox} />
     ${canInstall && html`<button class="btn primary" onClick=${() => { installEvt.prompt(); setCanInstall(false); }}>${t('install')}</button>`}
     <section class="block"><h2>${t('about')}</h2>
       <div class="prose small" dir="ltr">

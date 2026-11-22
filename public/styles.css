@@ -789,3 +789,26 @@ body::before { content: ''; position: fixed; inset: -18vmax; z-index: -1; pointe
   .memory::before { animation: none; }
   .tabs a[aria-current=page] .icon { transition: none; }
 }
+
+/* ---------- settings: grouped panels ---------- */
+.settings { gap: 16px; }
+.set-card { display: grid; gap: 0; padding: 6px 16px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 1px 0 rgb(255 255 255 / .8) inset, 0 5px 0 -2px color-mix(in srgb, var(--line) 80%, #000 6%), 0 16px 26px -18px rgb(11 79 76 / .3); }
+[data-theme=dark] .set-card { box-shadow: 0 1px 0 rgb(255 255 255 / .06) inset, 0 5px 0 -2px #06181A; }
+.set-card > h2 { display: flex; align-items: center; gap: 8px; padding: 12px 0 4px; font: 600 1.05rem/1.3 var(--ui); color: var(--ink); }
+.set-card > h2 .icon { width: 20px; height: 20px; color: var(--lagoon); }
+.set-card > .row, .set-card > label.row, .set-card > div > .row, .set-card .picker-row { min-height: 60px; padding: 8px 0; }
+.set-card > * + .row, .set-card > * + label.row, .set-card > * + div, .set-card > * + p { border-top: 1px solid var(--line); }
+.set-card > h2 + * { border-top: 0; }
+.set-card .row > span:first-child { font-weight: 500; }
+.set-card .chips { justify-content: flex-end; }
+.set-card .sample { padding: 12px 0; text-align: center; border-top: 0; }
+.set-card .fulloffline { background: none; border: 0; border-radius: 0; box-shadow: none; padding: 14px 0 10px; }
+.set-card .fulloffline .toolbar { gap: 8px; }
+.notif-box { display: grid; gap: 14px; padding: 10px 0 14px; justify-items: start; }
+.notif-box .chips { justify-content: flex-start; gap: 8px; }
+.notif-box .row { width: 100%; min-height: 0; padding: 0; }
+.notif-on { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; color: var(--lagoon); }
+.notif-on .icon { width: 18px; height: 18px; stroke-width: 2.6; }
+.row select { min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 14px; background: var(--bg); }
+input[type=range] { accent-color: var(--lagoon); width: min(52%, 220px); height: 28px; }
+.settings .prose.small { font-size: .9rem; }
