@@ -21,6 +21,19 @@ const POSES = {
   point: { pel: [0.17, 0.25], lean: 3, nod: 12, yaw: 0, knee: [0.55, 0.06], ank: [0.13, 0.15], toe: [0.04, -0.12], hand: [0.42, 0.3, 0.13], pole: [-1, -0.2, 0.6], flat: 0, point: 1 },
   salamR: { pel: [0.17, 0.25], lean: 3, nod: 2, yaw: 78, knee: [0.55, 0.06], ank: [0.13, 0.15], toe: [0.04, -0.12], hand: [0.42, 0.3, 0.13], pole: [-1, -0.2, 0.6], flat: 0, point: 0 },
   salamL: { pel: [0.17, 0.25], lean: 3, nod: 2, yaw: -78, knee: [0.55, 0.06], ank: [0.13, 0.15], toe: [0.04, -0.12], hand: [0.42, 0.3, 0.13], pole: [-1, -0.2, 0.6], flat: 0, point: 0 },
+  // wudu, standing
+  wHandsA: { pel: [0, 0.92], lean: 4, nod: 16, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.3, 1.0, 0.02], handL: [0.32, 0.96, 0.0], pole: [-0.3, -1, 0.8], flat: 0, point: 0 },
+  wHandsB: { pel: [0, 0.92], lean: 4, nod: 16, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.33, 0.95, 0.0], handL: [0.29, 1.01, 0.03], pole: [-0.3, -1, 0.8], flat: 0, point: 0 },
+  wMouth: { pel: [0, 0.92], lean: 3, nod: 6, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.17, 1.55, 0.02], handL: [0.3, 0.98, 0.04], pole: [-0.3, -1, 0.8], flat: 0, point: 0 },
+  wNose: { pel: [0, 0.92], lean: 3, nod: 10, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.18, 1.6, 0.02], handL: [0.3, 0.98, 0.04], pole: [-0.3, -1, 0.8], flat: 0, point: 0 },
+  wFace: { pel: [0, 0.92], lean: 5, nod: 14, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.19, 1.6, 0.05], pole: [-0.3, -1, 0.9], flat: 0, point: 0 },
+  wArmR: { pel: [0, 0.92], lean: 4, nod: 14, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.44, 1.0, 0.14], handL: [0.24, 1.07, -0.12], pole: [-0.3, -1, 0.8], flat: 0, point: 0 },
+  wArmL: { pel: [0, 0.92], lean: 4, nod: 14, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.24, 1.07, -0.12], handL: [0.44, 1.0, 0.14], pole: [-0.3, -1, 0.8], flat: 0, point: 0 },
+  wHeadF: { pel: [0, 0.92], lean: 2, nod: 8, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.1, 1.76, 0.07], pole: [0.2, -0.6, 1], flat: 0, point: 0 },
+  wHeadB: { pel: [0, 0.92], lean: 2, nod: 8, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [-0.07, 1.73, 0.07], pole: [0.2, -0.6, 1], flat: 0, point: 0 },
+  wEars: { pel: [0, 0.92], lean: 2, nod: 6, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.03, 1.63, 0.13], pole: [0.2, -0.6, 1], flat: 0, point: 0 },
+  wFoot: { pel: [-0.14, 0.62], lean: 50, nod: -8, yaw: 0, knee: [0.26, 0.44], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.2, 0.12, 0.11], handL: [0.24, 0.45, 0.16], pole: [-1, 0.2, 0.8], flat: 0, point: 0 },
+  wDua: { pel: [0, 0.92], lean: 0, nod: 6, yaw: 0, knee: [0.03, 0.5], ank: [0, 0.07], toe: [0.17, -0.04], hand: [0.3, 1.24, 0.1], pole: [-0.2, -1, 0.7], flat: 0, point: 0 },
   dua: { pel: [0.17, 0.25], lean: 3, nod: 8, yaw: 0, knee: [0.55, 0.06], ank: [0.13, 0.15], toe: [0.04, -0.12], hand: [0.5, 0.66, 0.08], pole: [-0.3, -1, 0.6], flat: 0, point: 0 },
 };
 const v = (x, y, z = 0) => new T.Vector3(x, y, z);
@@ -78,6 +91,7 @@ function build() {
   const rug = add(new T.BoxGeometry(1.78, 0.012, 0.8), M.rug, false); rug.position.set(0.55, 0.007, 0);
   const band = add(new T.BoxGeometry(0.05, 0.013, 0.8), M.edge, false); band.position.set(1.31, 0.008, 0);
   const band2 = add(new T.BoxGeometry(0.05, 0.013, 0.8), M.edge, false); band2.position.set(-0.21, 0.008, 0);
+  const rugParts = [edge, rug, band, band2];
   const floor = new T.Mesh(new T.PlaneGeometry(8, 8), new T.ShadowMaterial({ opacity: 0.16 })); floor.rotation.x = -Math.PI / 2; floor.position.y = 0.016; floor.receiveShadow = true; scene.add(floor);
   const cyl = (rTop, rBot, m) => add(new T.CylinderGeometry(rTop, rBot, 1, 20, 1), m);
   const ball = (r, m) => add(new T.SphereGeometry(r, 24, 16), m);
@@ -97,7 +111,7 @@ function build() {
   hadd(new T.SphereGeometry(0.018, 12, 10), M.skin, 0.106, -0.008, 0, 1.1, 1.1, 1); // nose
   for (const s of [1, -1]) hadd(new T.SphereGeometry(0.022, 12, 10), M.skin, -0.008, -0.012, s * 0.098, 0.8, 1.2, 0.5); // ears
   const camera = new T.PerspectiveCamera(13, 4 / 3, 0.1, 40);
-  return { renderer, scene, camera, B, head, canvas, w: 0, h: 0 };
+  return { renderer, scene, camera, B, head, canvas, rugParts, w: 0, h: 0 };
 }
 const UP = v(0, 1, 0), Q = new T.Quaternion();
 function span(mesh, a, b, sx = 1, sz = 1) { // stretch a unit cylinder from a (its bottom) to b (its top)
@@ -142,11 +156,11 @@ function pose(p, breath) {
 }
 export const names = Object.keys(POSES);
 // Attach a figure to a host element. Returns null when 3D is not available on this device.
-export function attach(host) {
+export function attach(host, opt = {}) {
   try { if (!S) S = build(); } catch { S = null; return null; }
   const cv = document.createElement('canvas'); cv.className = 'fig3d'; host.appendChild(cv);
   const ctx = cv.getContext('2d');
-  let az = 0.1, lastArgs = [['stand'], 0, 0], w = 0, h = 0;
+  let az = opt.plain ? 0.6 : 0.1, lastArgs = [['stand'], 0, 0], w = 0, h = 0;
   const size = () => { const cw = Math.min(host.clientWidth || 320, 440); w = Math.round(cw); h = Math.round(cw * 0.74); const dpr = Math.min(window.devicePixelRatio || 1, 2); if (cv.width !== w * dpr || cv.height !== h * dpr) { cv.width = w * dpr; cv.height = h * dpr; } cv.style.width = w + 'px'; cv.style.height = h + 'px'; };
   size();
   const draw = (keys, u, breath) => { // keys: the poses this movement passes through; u: how far along, 0..1
@@ -154,7 +168,8 @@ export function attach(host) {
     if (!S || keys.some((k) => !POSES[k])) return;
     if (S.w !== cv.width || S.h !== cv.height) { S.renderer.setSize(cv.width, cv.height, false); S.w = cv.width; S.h = cv.height; S.camera.aspect = cv.width / cv.height; S.camera.updateProjectionMatrix(); }
     pose(along(keys, u), breath || 0);
-    const d = 9.0, el = 0.085, tx = 0.55, ty = 0.85;
+    for (const m of S.rugParts) m.visible = !opt.plain; // no prayer mat for wudu
+    const d = 9.0, el = 0.085, tx = opt.plain ? 0.12 : 0.55, ty = 0.85;
     S.camera.position.set(tx + d * Math.sin(az) * Math.cos(el), ty + d * Math.sin(el), d * Math.cos(az) * Math.cos(el)); S.camera.lookAt(tx, ty, 0);
     S.renderer.render(S.scene, S.camera);
     ctx.clearRect(0, 0, cv.width, cv.height); ctx.drawImage(S.canvas, 0, 0);

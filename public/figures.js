@@ -72,20 +72,29 @@ function ribbon(pts, w) {
 const line = (pts) => pts.map((p) => p[0].toFixed(1) + ',' + p[1].toFixed(1)).join(' ');
 const limb = (pts, w, cls) => html`<polyline points=${line(pts)} class="fig-l fig-out" style=${{ strokeWidth: w + 2.200 }} /><polyline points=${line(pts)} class=${'fig-l fig-in-' + cls} style=${{ strokeWidth: w }} />`;
 
-export function PrayerFigure({ seq }) {
+// Wudu in the same figure: what the hands do at each step.
+const WUDU3D = {
+  'wudu-1-intention': ['stand'], 'wudu-2-hands': ['wHandsA', 'wHandsB'], 'wudu-3-mouth-nose': ['wHandsA', 'wMouth', 'wHandsA', 'wNose'], 'wudu-4-face': ['wHandsA', 'wFace'],
+  'wudu-5-arms': ['wArmR', 'wArmL'], 'wudu-6-head': ['wHeadF', 'wHeadB', 'wEars'], 'wudu-7-feet': ['stand', 'wFoot'], 'wudu-8-dua': ['stand', 'wDua'],
+};
+Object.assign(POSE_NAME, { wHandsA: ['Washing the hands', 'ދެއަތް ދޮވުން'], wHandsB: ['Washing the hands', 'ދެއަތް ދޮވުން'], wMouth: ['Rinsing the mouth', 'އަނގަ ދޮވުން'], wNose: ['Rinsing the nose', 'ނޭފަތް ދޮވުން'], wFace: ['Washing the face', 'މޫނު ދޮވުން'],
+  wArmR: ['Right arm, up to the elbow', 'ކަނާތު އަތް، އުޅަނބޮށްޓާ ހަމައަށް'], wArmL: ['Left arm, up to the elbow', 'ވާތު އަތް، އުޅަނބޮށްޓާ ހަމައަށް'], wHeadF: ['Wiping the head', 'ބޮލުގައި ފެން ފުހުން'], wHeadB: ['Wiping the head', 'ބޮލުގައި ފެން ފުހުން'],
+  wEars: ['Wiping the ears', 'ކަންފަތުގައި ފެން ފުހުން'], wFoot: ['Washing the feet, up to the ankles', 'ފައި ދޮވުން، ތަނބިކަށްޓާ ހަމައަށް'], wDua: ['Dua after wudu', 'ވުޟޫއަށްފަހު ދުޢާ'] });
+export function PrayerFigure({ seq, plain, fallback }) {
   const last = seq[seq.length - 1];
-  const [pts, setPts] = useState(P[last]);
+  const [pts, setPts0] = useState(P[last] || P.stand);
+  const setPts = (v) => { if (v && v.length) setPts0(v); };
   const [cur, setCur] = useState(last);
   const box = useRef(null), host = useRef(null), fig = useRef(null);
   const [three, setThree] = useState(false);
   // The 3D figure loads on its own; until it is ready, or where 3D is not available, the drawing stands in.
   useEffect(() => {
     let dead = false;
-    import('./figure3d.js').then((m) => { if (dead || !host.current) return; const f = m.attach(host.current); if (f) { fig.current = f; f.draw([last], 0, 0); setThree(true); } }).catch(() => {});
+    import('./figure3d.js').then((m) => { if (dead || !host.current) return; const f = m.attach(host.current, { plain }); if (!f) return; try { f.draw([last], 0, 0); fig.current = f; setThree(true); } catch { f.dispose(); } }).catch(() => {});
     return () => { dead = true; if (fig.current) { fig.current.dispose(); fig.current = null; } };
   }, []);
   useEffect(() => {
-    if (seq.length < 2 || still()) { setPts(P[last]); setCur(last); if (fig.current) fig.current.draw([last], 0, 0); return; }
+    if (seq.length < 2 || still()) { setPts(P[last]); setCur(last); try { if (fig.current) fig.current.draw([last], 0, 0); } catch {} return; }
     let raf, start = null, on = false, shown = '';
     // One movement runs from a held position to the next, flowing through the in-between ones without stopping.
     const HOLD = 1700, moves = seq.map((p, i) => { const next = seq[(i + 1) % seq.length], keys = [p, ...(VIA[p + '>' + next] || []), next]; return { keys, ms: 1250 + (keys.length - 2) * 620 }; });
@@ -96,9 +105,10 @@ export function PrayerFigure({ seq }) {
       let t = (now - start) % total, i = 0;
       while (t >= HOLD + moves[i].ms) { t -= HOLD + moves[i].ms; i++; }
       const m = moves[i], name = m.keys[0], next = m.keys[m.keys.length - 1], held = t < HOLD, u = held ? 0 : smooth((t - HOLD) / m.ms);
-      if (fig.current) fig.current.draw(held ? [name] : m.keys, u, held ? Math.sin((t / HOLD) * Math.PI) : 0); // a gentle breath while a position is held
-      else if (held) { const b = Math.sin((t / HOLD) * Math.PI) * 0.6; setPts(P[name].map((p, k) => (k >= 3 ? [p[0], p[1] - (k === 3 || k === 4 ? b : b * 0.5)] : p))); }
-      else { const x = Math.min(0.9999, u) * (m.keys.length - 1), k = Math.floor(x); setPts(mix(P[m.keys[k]], P[m.keys[k + 1]], x - k)); }
+      if (fig.current) { try { fig.current.draw(held ? [name] : m.keys, u, held ? Math.sin((t / HOLD) * Math.PI) : 0); } catch {} } // a gentle breath while a position is held
+      else if (fallback) { /* the wudu drawing stands in */ }
+      else if (held && P[name]) { const b = Math.sin((t / HOLD) * Math.PI) * 0.6; setPts(P[name].map((p, k) => (k >= 3 ? [p[0], p[1] - (k === 3 || k === 4 ? b : b * 0.5)] : p))); }
+      else { const x = Math.min(0.9999, u) * (m.keys.length - 1), k = Math.floor(x); if (P[m.keys[k]] && P[m.keys[k + 1]]) setPts(mix(P[m.keys[k]], P[m.keys[k + 1]], x - k)); }
       const label = held || u < 0.5 ? name : next;
       if (label !== shown) { shown = label; setCur(label); }
       if (on) raf = requestAnimationFrame(tick);
@@ -119,7 +129,7 @@ export function PrayerFigure({ seq }) {
   const arm = (Math.atan2(hand[1] - elbow[1], hand[0] - elbow[0]) * 180) / Math.PI;
   const cuff = [hand[0] - (hand[0] - elbow[0]) * 0.22, hand[1] - (hand[1] - elbow[1]) * 0.22];
   const rtl = isDv();
-  return html`<div class="figwrap" ref=${box}><div class="fig3d-host" ref=${host} role="img" aria-label="Prayer position">${three && html`<span class="fig3d-qibla">${rtl ? 'ޤިބްލަ' : 'qiblah'} →</span>`}</div><svg class="figure" style=${three ? { display: 'none' } : null} viewBox="40 0 158 156" role="img" aria-label="Prayer position" direction="ltr">
+  return html`<div class="figwrap" ref=${box}><div class="fig3d-host" ref=${host} role="img" aria-label="Prayer position">${three && !plain && html`<span class="fig3d-qibla">${rtl ? 'ޤިބްލަ' : 'qiblah'} →</span>`}</div>${!three && fallback}<svg class="figure" style=${three || fallback ? { display: 'none' } : null} viewBox="40 0 158 156" role="img" aria-label="Prayer position" direction="ltr">
     <path d="M52 144h138l4 7H48z" class="fig-mat" /><path d="M56 147.500h130" class="fig-mat-edge" />
     <ellipse cx=${(foot[0] + knee[0] + hand[0]) / 3 + 6} cy="144.500" rx=${Math.max(24, Math.abs(head[0] - foot[0]) * 0.62)} ry="2.400" class="fig-shadow" />
     <g class="fig-qibla-g"><path d="M171 13h14M180 8l5 5-5 5" class="fig-qibla" /><text x="178" y="30" class="fig-label">${rtl ? 'ޤިބްލަ' : 'qiblah'}</text></g>
@@ -142,7 +152,7 @@ export function PrayerFigure({ seq }) {
     ${limb([at(sh, 1, -4), elbow, cuff], 11, 'sleeve')}
     <ellipse cx=${hand[0]} cy=${hand[1]} rx="5.600" ry="3.700" transform=${`rotate(${arm.toFixed(1)} ${hand[0]} ${hand[1]})`} class="fig-skin fig-skin-line" />
   </svg>
-    <p class="fig-pose" key=${cur}>${(POSE_NAME[cur] || [''])[isDv() ? 1 : 0]}</p>
+    ${(three || !fallback) && html`<p class="fig-pose" key=${cur}>${(POSE_NAME[cur] || [''])[isDv() ? 1 : 0]}</p>`}
     ${three && html`<p class="fig-hint muted">${rtl ? 'ވަށައިގެން ބެލުމަށް އަރިމައްޗަށް ދަމާ' : 'Drag sideways to look around him'}</p>`}
     ${seq.length > 1 && html`<p class="fig-dots" aria-hidden="true">${seq.map((p, i) => html`<i class=${p === cur && seq.indexOf(cur) === i ? 'on' : ''}></i>`)}</p>`}</div>`;
 }
@@ -178,7 +188,7 @@ function WuduFigure({ step }) {
 }
 export function StepFigure({ id }) {
   if (SALAH[id]) return html`<div class="figure-box"><${PrayerFigure} seq=${SALAH[id]} /></div>`;
-  if (WUDU[id]) return html`<div class="figure-box"><${WuduFigure} step=${id} /></div>`;
+  if (WUDU[id]) return html`<div class="figure-box"><${PrayerFigure} seq=${WUDU3D[id]} plain fallback=${html`<${WuduFigure} step=${id} />`} /></div>`;
   return null;
 }
 
