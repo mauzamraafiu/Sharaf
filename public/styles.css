@@ -927,7 +927,7 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 .page.tool { display: grid; gap: 14px; align-content: start; }
 .page.tool h1 { margin: 0; } .page.tool h2 { margin: 8px 0 0; font-size: 1.15rem; }
 .tool-two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.tool-two .set-card, .set-card.result { display: grid; gap: 2px; }
+.tool-two .panel, .panel.result { gap: 2px; }
 .big { font-size: 1.9rem; line-height: 1.2; font-family: var(--serif, inherit); }
 .small { font-size: .85rem; }
 .row-links { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
@@ -935,7 +935,7 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 .day { aspect-ratio: 1; border-radius: 50%; border: 1.5px solid var(--line); background: var(--card, #fff); font: inherit; font-weight: 600; color: inherit; cursor: pointer; }
 .day.on { background: var(--ornament); border-color: var(--ornament); color: #fff; }
 .day.today { box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 60%, transparent); }
-.set-card.form { display: grid; gap: 12px; }
+.panel.form { gap: 12px; }
 .field { display: grid; gap: 4px; font-size: .95rem; }
 .field input, .field select { font: inherit; padding: 11px 12px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--card, #fff); color: inherit; width: 100%; }
 .chip.on { background: var(--ink); color: var(--bg, #fff); border-color: var(--ink); }
@@ -1005,3 +1005,22 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 }
 .launch-tile strong { min-height: 0; }
 .launch-tile.card { padding: 10px 4px 9px; }
+
+/* ---------- tool panels and their controls ---------- */
+.panel { display: grid; gap: 14px; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 1px 0 rgb(255 255 255 / .8) inset, 0 4px 0 -2px color-mix(in srgb, var(--line) 80%, #000 6%); }
+.panel > * { margin: 0; } .panel h2 { margin: 0; font-size: 1.1rem; }
+.panel.hifz { text-align: center; } .panel .label { text-align: start; margin-bottom: -6px; }
+.stepper { display: grid; grid-template-columns: 52px 1fr 52px; gap: 10px; align-items: stretch; }
+.stepper .btn { width: 100%; justify-content: center; min-height: 52px; font-size: 1.05rem; padding-inline: 8px; }
+.stepper .btn:not(.primary) { font-size: 1.5rem; line-height: 1; }
+.seg { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; padding: 4px; border-radius: 16px; background: color-mix(in srgb, var(--line) 55%, transparent); }
+.seg.three { grid-template-columns: repeat(3, 1fr); } .seg.two { grid-template-columns: 1fr 1fr; }
+.seg button { font: inherit; font-weight: 600; font-size: .95rem; color: var(--muted); background: none; border: 0; border-radius: 12px; padding: 11px 6px; cursor: pointer; line-height: 1.25; }
+.seg button.on { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px rgb(20 40 35 / .18); }
+.btn.wide { width: 100%; justify-content: center; }
+.page.tool > .btn { justify-content: center; width: 100%; }
+.page.tool .row-links .btn { flex: 1 1 auto; justify-content: center; }
+.page.tool .back { justify-self: start; }
+.qrow .btn { min-width: 46px; justify-content: center; }
+.answers .btn { width: 100%; min-height: 52px; }
+.deedrow .btn { justify-content: center; }

@@ -49,8 +49,8 @@ function Ramadan() {
   return html`<h1>${L('Ramadan', 'ރަމަޟާން')}</h1>
     <p class="lede">${inR ? L(`Today is day ${day} of Ramadan.`, `މިއަދަކީ ރަމަޟާން މަހުގެ ${day} ވަނަ ދުވަހެވެ.`) : L('It is not Ramadan now. You can still use this page for voluntary fasts and to see how it works.', 'މިހާރަކީ ރަމަޟާން މަހެއް ނޫނެވެ. ސުންނަތް ރޯދަތަކަށްވެސް މި ޞަފްޙާ ބޭނުންކުރެވޭނެއެވެ.')}</p>
     ${times && html`<div class="tool-two">
-      <div class="set-card"><span class="muted">${L('Suhoor ends (Fajr)', 'ހާރުކާ ވަގުތު ނިމޭ (ފަތިސް)')}</span><strong class="big num">${fmtTime(times[0])}</strong><span class="muted">${until(times[0]) ? L('in ', '') + until(times[0]) : L('passed for today', 'މިއަދަށް ފާއިތުވެއްޖެ')}</span></div>
-      <div class="set-card"><span class="muted">${L('Iftar (Maghrib)', 'ރޯދަވީއްލުން (މަޣްރިބު)')}</span><strong class="big num">${fmtTime(times[4])}</strong><span class="muted">${until(times[4]) ? L('in ', '') + until(times[4]) : L('passed for today', 'މިއަދަށް ފާއިތުވެއްޖެ')}</span></div></div>`}
+      <div class="panel"><span class="muted">${L('Suhoor ends (Fajr)', 'ހާރުކާ ވަގުތު ނިމޭ (ފަތިސް)')}</span><strong class="big num">${fmtTime(times[0])}</strong><span class="muted">${until(times[0]) ? L('in ', '') + until(times[0]) : L('passed for today', 'މިއަދަށް ފާއިތުވެއްޖެ')}</span></div>
+      <div class="panel"><span class="muted">${L('Iftar (Maghrib)', 'ރޯދަވީއްލުން (މަޣްރިބު)')}</span><strong class="big num">${fmtTime(times[4])}</strong><span class="muted">${until(times[4]) ? L('in ', '') + until(times[4]) : L('passed for today', 'މިއަދަށް ފާއިތުވެއްޖެ')}</span></div></div>`}
     <div class="row-links"><a class="btn" href="#/s/fasting-eid-duas">${L('Duas for fasting', 'ރޯދައިގެ ދުޢާތައް')}</a>${inR && day <= 30 && html`<a class="btn primary" href=${'#/mushaf/' + JUZ_PAGE[day - 1]}>${L(`Today's juz: ${day}`, `މިއަދުގެ ފޮތް: ${day}`)}</a>`}</div>
     <h2>${L('Fasts kept', 'ހިފި ރޯދަތައް')} <span class="muted num">${Object.values(fast).filter(Boolean).length} / 30</span></h2>
     <div class="daygrid">${Array.from({ length: 30 }, (_, i) => html`<button class=${'day' + (fast[i + 1] ? ' on' : '') + (i + 1 === day ? ' today' : '')} onClick=${() => flip('fast', fast, i + 1)}>${i + 1}</button>`)}</div>
@@ -68,17 +68,17 @@ function Zakat() {
   const nisab = bySilver ? 595 * ps : 85 * pg, known = nisab > 0, due = known && total >= nisab ? total * 0.025 : 0;
   return html`<h1>${L('Zakat calculator', 'ޒަކާތް ހިސާބުކުރުން')}</h1>
     <p class="lede">${L('Zakat is 2.5% of wealth that has stayed above the nisab for one lunar year. Enter amounts in rufiyaa.', 'ޒަކާތަކީ، ހިޖުރީ އެއް އަހަރު ވަންދެން ނިޞާބަށްވުރެ މަތީގައި ހުރި މުދަލުގެ 2.5% އެވެ. ޢަދަދުތައް ރުފިޔާއިން ލިޔޭ.')}</p>
-    <div class="set-card form">
+    <div class="panel form">
       ${F('cash', 'Cash and bank savings', 'ނަގުދު ފައިސާއާއި ބޭންކުގައިވާ ފައިސާ')}
       ${F('gold', 'Gold you own (grams)', 'ރަން (ގްރާމް)')}${F('silver', 'Silver you own (grams)', 'ރިހި (ގްރާމް)')}
       ${F('goods', 'Goods for sale, at today\'s value', 'ވިއްކަން ހުރި މުދާ، މިއަދުގެ އަގުން')}
       ${F('owed', 'Money owed to you that you expect back', 'ލިބެންޖެހޭ، ލިބޭނެކަމަށް ބަލާ ފައިސާ')}
       ${F('debts', 'Debts you must pay now', 'މިހާރު ދައްކަންޖެހޭ ދަރަނި')}
     </div>
-    <div class="set-card form"><p class="muted small">${L('Today\'s price per gram. Ask a jeweller; the app does not know it.', 'މިއަދުގެ ގްރާމެއްގެ އަގު. ގަހަނާ ފިހާރައަކުން އަހާ.')}</p>
+    <div class="panel form"><p class="muted small">${L('Today\'s price per gram. Ask a jeweller; the app does not know it.', 'މިއަދުގެ ގްރާމެއްގެ އަގު. ގަހަނާ ފިހާރައަކުން އަހާ.')}</p>
       ${F('pg', 'Gold, rufiyaa per gram', 'ރަން، ގްރާމަކަށް ރުފިޔާ')}${F('ps', 'Silver, rufiyaa per gram', 'ރިހި، ގްރާމަކަށް ރުފިޔާ')}
-      <div class="chips"><button class=${'chip' + (bySilver ? ' on' : '')} onClick=${() => save({ zakat: { ...z, basis: 'silver' } })}>${L('Nisab by silver (595 g)', 'ރިހީގެ ނިޞާބު (595 ގްރާމް)')}</button><button class=${'chip' + (!bySilver ? ' on' : '')} onClick=${() => save({ zakat: { ...z, basis: 'gold' } })}>${L('Nisab by gold (85 g)', 'ރަނުގެ ނިޞާބު (85 ގްރާމް)')}</button></div></div>
-    <div class="set-card result"><span class="muted">${L('Wealth that counts', 'ޒަކާތް ވާޖިބުވާ މުދާ')}</span><strong class="num">${money(Math.max(0, total))}</strong>
+      <div class="seg two"><button class=${bySilver ? 'on' : ''} onClick=${() => save({ zakat: { ...z, basis: 'silver' } })}>${L('Nisab by silver (595 g)', 'ރިހީގެ ނިޞާބު (595 ގްރާމް)')}</button><button class=${!bySilver ? 'on' : ''} onClick=${() => save({ zakat: { ...z, basis: 'gold' } })}>${L('Nisab by gold (85 g)', 'ރަނުގެ ނިޞާބު (85 ގްރާމް)')}</button></div></div>
+    <div class="panel result"><span class="muted">${L('Wealth that counts', 'ޒަކާތް ވާޖިބުވާ މުދާ')}</span><strong class="num">${money(Math.max(0, total))}</strong>
       <span class="muted">${L('Nisab', 'ނިޞާބު')}</span><strong class="num">${known ? money(nisab) : L('enter the price per gram', 'ގްރާމެއްގެ އަގު ލިޔޭ')}</strong>
       <span class="muted">${L('Zakat to pay', 'ދައްކަންޖެހޭ ޒަކާތް')}</span><strong class="big num">${known ? money(due) : '–'}</strong>
       ${known && total < nisab && html`<p class="muted small">${L('Your wealth is below the nisab, so no zakat is due.', 'މުދާ ނިޞާބަށްވުރެ މަދުވާތީ ޒަކާތެއް ވާޖިބެއް ނުވެއެވެ.')}</p>`}</div>
@@ -92,7 +92,7 @@ function Qada() {
   const total = QADA.reduce((a, [k]) => a + (q[k] || 0), 0);
   return html`<h1>${L('Missed prayers', 'ޤަޟާ ނަމާދު')}</h1>
     <p class="lede">${L('Set how many of each you still owe. Press "Made one up" each time you pray one.', 'ކޮންމެ ނަމާދަކުން ޤަޟާކުރަންޖެހޭ ޢަދަދު ކަނޑައަޅާ. ޤަޟާކުރާ ކޮންމެ ފަހަރަކު "ޤަޟާކޮށްފިން" އަށް ފިއްތާ.')}</p>
-    <div class="set-card">${QADA.map(([k, en, dv]) => html`<div class="qrow"><strong>${L(en, dv)}</strong><span class="qn num">${q[k] || 0}</span>
+    <div class="panel">${QADA.map(([k, en, dv]) => html`<div class="qrow"><strong>${L(en, dv)}</strong><span class="qn num">${q[k] || 0}</span>
       <button class="btn" onClick=${() => bump(k, 1)} aria-label="add">+</button><button class="btn" onClick=${() => bump(k, 10)}>+10</button>
       <button class="btn primary" disabled=${!(q[k] > 0)} onClick=${() => bump(k, -1)}>${L('Made one up', 'ޤަޟާކޮށްފިން')}</button></div>`)}</div>
     <p class="muted">${L('Still owed: ', 'ބާކީ: ')}<strong class="num">${total}</strong></p>
@@ -104,7 +104,7 @@ function Khatm() {
   const k = tools().khatm, [days, setDays] = useState(30);
   if (!k) return html`<h1>${L('Finish the Quran', 'ޤުރުއާން ޚަތިމްކުރުން')}</h1>
     <p class="lede">${L('The mushaf has 604 pages. Choose how many days you want to finish in.', 'މުޞްޙަފުގައި 604 ޞަފްޙާ ވެއެވެ. ނިންމަން ބޭނުންވާ ދުވަސްތައް ކަނޑައަޅާ.')}</p>
-    <div class="chips">${[7, 15, 30, 60, 90, 180].map((d) => html`<button class=${'chip' + (days === d ? ' on' : '')} onClick=${() => setDays(d)}>${d} ${L('days', 'ދުވަސް')}</button>`)}</div>
+    <div class="seg three">${[7, 15, 30, 60, 90, 180].map((d) => html`<button class=${days === d ? 'on' : ''} onClick=${() => setDays(d)}>${d} ${L('days', 'ދުވަސް')}</button>`)}</div>
     <p><strong class="big num">${Math.ceil(604 / days)}</strong> ${L('pages a day', 'ޞަފްޙާ ދުވާލަކު')}</p>
     <button class="btn primary" onClick=${() => save({ khatm: { start: todayKey(), days, done: 0 } })}>${L('Start today', 'މިއަދު ފަށާ')}</button>`;
   const per = Math.ceil(604 / k.days), done = Math.min(604, k.done || 0), from = done + 1, to = Math.min(604, done + per);
@@ -112,8 +112,8 @@ function Khatm() {
   return html`<h1>${L('Finish the Quran', 'ޤުރުއާން ޚަތިމްކުރުން')}</h1>
     <div class="bar"><i style=${{ width: (done / 604) * 100 + '%' }}></i></div>
     <p class="muted"><span class="num">${done} / 604</span> ${L('pages', 'ޞަފްޙާ')} · ${L('day', 'ދުވަސް')} <span class="num">${Math.min(dayNo, k.days)} / ${k.days}</span></p>
-    ${done >= 604 ? html`<div class="set-card"><strong>${L('Khatm complete. May Allah accept it.', 'ޚަތިމް ނިމިއްޖެ. ﷲ ޤަބޫލުކުރައްވާށި.')}</strong><a class="btn" href="#/duas">${L('Make dua', 'ދުޢާކުރޭ')}</a></div>`
-      : html`<div class="set-card"><span class="muted">${L('Today\'s reading', 'މިއަދުގެ ކިޔެވުން')}</span><strong class="big num">${from} – ${to}</strong>
+    ${done >= 604 ? html`<div class="panel"><strong>${L('Khatm complete. May Allah accept it.', 'ޚަތިމް ނިމިއްޖެ. ﷲ ޤަބޫލުކުރައްވާށި.')}</strong><a class="btn" href="#/duas">${L('Make dua', 'ދުޢާކުރޭ')}</a></div>`
+      : html`<div class="panel"><span class="muted">${L('Today\'s reading', 'މިއަދުގެ ކިޔެވުން')}</span><strong class="big num">${from} – ${to}</strong>
         <div class="row-links"><a class="btn primary" href=${'#/mushaf/' + from}>${L('Open the page', 'ޞަފްޙާ ހުޅުވާ')}</a><button class="btn" onClick=${() => save({ khatm: { ...k, done: to } })}>${L('I have read these', 'މި ޞަފްޙާތައް ކިޔައިފިން')}</button></div>
         ${gap > per ? html`<p class="muted small">${L(`You are ${gap - per} pages behind the plan. Read a little extra when you can.`, `ޕްލޭނަށްވުރެ ${gap - per} ޞަފްޙާ ފަހަތުގައި.`)}</p>` : gap <= 0 ? html`<p class="muted small">${L('You are ahead of the plan.', 'ޕްލޭނަށްވުރެ ކުރީގައި.')}</p>` : null}</div>`}
     <button class="btn" onClick=${() => { if (confirm(L('Start a new plan? Your progress in this one will be cleared.', 'އާ ޕްލޭނެއް ފަށަންތަ؟'))) save({ khatm: null }); }}>${L('Start a new plan', 'އާ ޕްލޭނެއް ފަށާ')}</button>`;
@@ -136,14 +136,15 @@ function Hifz() {
   const ay = sur.ayahs[a - 1] || sur.ayahs[0];
   return html`<h1>${L('Memorise', 'ހިތުދަސްކުރުން')}</h1>
     <label class="field"><span>${L('Surah', 'ސޫރަތް')}</span><select value=${n} onChange=${(e) => setN(+e.target.value)}>${idx.surahs.map((s) => html`<option value=${s.n}>${s.n}. ${s.name}${known[s.n] ? ' ✓' : ''}</option>`)}</select></label>
-    <div class="set-card hifz"><p class="muted">${L('Ayah', 'އާޔަތް')} <span class="num">${a} / ${sur.count}</span></p>
+    <div class="panel hifz"><p class="muted">${L('Ayah', 'އާޔަތް')} <span class="num">${a} / ${sur.count}</span></p>
       <p class=${'ar hifz-ar' + (hide ? ' hidden' : '')} lang="ar" dir="rtl" onClick=${() => hide && setHide(false)}>${ay[0]}</p>
       ${!hide && html`<p class="muted">${isDv() ? ay[2] : ay[1]}</p>`}
-      <div class="row-links"><button class="btn" disabled=${a <= 1} onClick=${() => { stop(); setA(a - 1); }}>‹</button>
+      <div class="stepper"><button class="btn" disabled=${a <= 1} aria-label=${L('Previous ayah', 'ކުރީގެ އާޔަތް')} onClick=${() => { stop(); setA(a - 1); }}>‹</button>
         ${left ? html`<button class="btn primary" onClick=${stop}>${L('Stop', 'ހުއްޓާ')} · ${left}</button>` : html`<button class="btn primary" onClick=${play}>${L('Listen', 'އަޑުއަހާ')} × ${reps}</button>`}
-        <button class="btn" disabled=${a >= sur.count} onClick=${() => { stop(); setA(a + 1); }}>›</button></div>
-      <div class="chips">${[3, 5, 10, 20].map((r) => html`<button class=${'chip' + (reps === r ? ' on' : '')} onClick=${() => setReps(r)}>× ${r}</button>`)}
-        <button class=${'chip' + (hide ? ' on' : '')} onClick=${() => setHide(!hide)}>${hide ? L('Show the ayah', 'އާޔަތް ދައްކާ') : L('Hide and test me', 'ފޮރުވާފައި ކިޔަން')}</button></div></div>
+        <button class="btn" disabled=${a >= sur.count} aria-label=${L('Next ayah', 'ދެން އޮތް އާޔަތް')} onClick=${() => { stop(); setA(a + 1); }}>›</button></div>
+      <p class="muted small label">${L('How many times', 'ކިތައް ފަހަރު')}</p>
+      <div class="seg">${[3, 5, 10, 20].map((r) => html`<button class=${reps === r ? 'on' : ''} onClick=${() => setReps(r)}>× ${r}</button>`)}</div>
+      <button class=${'btn wide' + (hide ? ' primary' : '')} onClick=${() => setHide(!hide)}>${hide ? L('Show the ayah', 'އާޔަތް ދައްކާ') : L('Hide and test me', 'ފޮރުވާފައި ކިޔަން')}</button></div>
     <button class=${'btn' + (known[n] ? ' primary' : '')} onClick=${() => save({ hifz: { ...h, last: n, known: { ...known, [n]: known[n] ? 0 : 1 } } })}>${known[n] ? L('I know this surah ✓', 'މި ސޫރަތް ހިތުދަސް ✓') : L('Mark this surah as memorised', 'މި ސޫރަތް ހިތުދަސްކަމަށް ފާހަގަކުރޭ')}</button>
     <p class="muted">${L('Surahs memorised: ', 'ހިތުދަސް ސޫރަތްތައް: ')}<strong class="num">${Object.values(known).filter(Boolean).length} / 114</strong></p>
     <p class="muted small">${L('Listening needs the internet unless you saved this surah\'s audio offline. Check what you memorise with a teacher.', 'އަޑުއެހުމަށް އިންޓަނެޓް ބޭނުންވެއެވެ. ހިތުދަސްކުރާ އެއްޗެއް އެދުރަކު ލައްވާ ބަލުވާ.')}</p>`;
@@ -157,8 +158,8 @@ function pickDaily(list, n) { // the same questions for everyone on the same day
 }
 function QuizRun({ list, store }) {
   const day = todayKey(), q = tools()[store] || {}, [i, setI] = useState(0), [picked, setPicked] = useState(null), [score, setScore] = useState(0);
-  if (q.day === day && i === 0 && picked === null) return html`<div class="set-card"><strong class="big num">${q.score} / ${list.length}</strong><p>${L('Done for today. New questions tomorrow.', 'މިއަދަށް ނިމުނީ. މާދަމާ އާ ސުވާލުތައް.')}</p><p class="muted">${L('Days in a row: ', 'ވިދިވިދިގެން ދުވަސް: ')}<strong class="num">${q.streak || 1}</strong></p></div>`;
-  if (i >= list.length) return html`<div class="set-card"><strong class="big num">${score} / ${list.length}</strong><p>${score === list.length ? L('All correct. Ma sha\' Allah!', 'ހުރިހާ ޖަވާބެއް ރަނގަޅު. މާޝާﷲ!') : L('Well done. Read the ones you missed and try again tomorrow.', 'ޝާބާސް. މާދަމާ އަލުން މަސައްކަތްކުރޭ.')}</p></div>`;
+  if (q.day === day && i === 0 && picked === null) return html`<div class="panel"><strong class="big num">${q.score} / ${list.length}</strong><p>${L('Done for today. New questions tomorrow.', 'މިއަދަށް ނިމުނީ. މާދަމާ އާ ސުވާލުތައް.')}</p><p class="muted">${L('Days in a row: ', 'ވިދިވިދިގެން ދުވަސް: ')}<strong class="num">${q.streak || 1}</strong></p></div>`;
+  if (i >= list.length) return html`<div class="panel"><strong class="big num">${score} / ${list.length}</strong><p>${score === list.length ? L('All correct. Ma sha\' Allah!', 'ހުރިހާ ޖަވާބެއް ރަނގަޅު. މާޝާﷲ!') : L('Well done. Read the ones you missed and try again tomorrow.', 'ޝާބާސް. މާދަމާ އަލުން މަސައްކަތްކުރޭ.')}</p></div>`;
   const [en, dv, oe, od, right, ne, nd] = list[i], opts = isDv() ? od : oe;
   const next = () => {
     if (i + 1 >= list.length) { const y = new Date(Date.parse(day) - 86400000).toISOString().slice(0, 10); save({ [store]: { day, score, streak: q.day === y ? (q.streak || 1) + 1 : 1 } }); }
@@ -166,7 +167,7 @@ function QuizRun({ list, store }) {
   };
   return html`<p class="muted num">${i + 1} / ${list.length}</p><h2>${L(en, dv)}</h2>
     <div class="answers">${opts.map((o, k) => html`<button class=${'btn answer' + (picked !== null ? (k === right ? ' right' : k === picked ? ' wrong' : '') : '')} disabled=${picked !== null} onClick=${() => { setPicked(k); if (k === right) setScore(score + 1); }}>${o}</button>`)}</div>
-    ${picked !== null && html`<div class="set-card"><strong>${picked === right ? L('Correct.', 'ރަނގަޅު.') : L('Not quite.', 'ނޫން.')}</strong><p>${L(ne, nd)}</p><button class="btn primary" onClick=${next}>${i + 1 >= list.length ? L('See my score', 'ނަތީޖާ ބަލާ') : L('Next question', 'ދެން އޮތް ސުވާލު')}</button></div>`}`;
+    ${picked !== null && html`<div class="panel"><strong>${picked === right ? L('Correct.', 'ރަނގަޅު.') : L('Not quite.', 'ނޫން.')}</strong><p>${L(ne, nd)}</p><button class="btn primary" onClick=${next}>${i + 1 >= list.length ? L('See my score', 'ނަތީޖާ ބަލާ') : L('Next question', 'ދެން އޮތް ސުވާލު')}</button></div>`}`;
 }
 function Quiz() { return html`<h1>${L('Daily quiz', 'ދުވަހުގެ ކުއިޒް')}</h1><${QuizRun} list=${pickDaily(QUIZ, 5)} store="quiz" />`; }
 
@@ -179,7 +180,7 @@ function Kids() {
   return html`<h1>${L('My star chart', 'އަހަރެންގެ ތަރި ޗާޓު')}</h1>
     <p class="lede">${L('Tap each good thing you did today.', 'މިއަދު ކުރި ކޮންމެ ހެޔޮ ކަމެއްގައި ފިއްތާ.')}</p>
     <div class="deeds">${DEEDS.map(([en, dv], i) => html`<button class=${'deed' + (mine.includes(i) ? ' on' : '')} onClick=${() => flip(i)}><span class="star">★</span>${L(en, dv)}</button>`)}</div>
-    <div class="tool-two"><div class="set-card"><span class="muted">${L('Stars today', 'މިއަދުގެ ތަރިތައް')}</span><strong class="big num">${mine.length}</strong></div><div class="set-card"><span class="muted">${L('Stars this week', 'މި ހަފްތާގެ ތަރިތައް')}</span><strong class="big num">${week}</strong></div></div>
+    <div class="tool-two"><div class="panel"><span class="muted">${L('Stars today', 'މިއަދުގެ ތަރިތައް')}</span><strong class="big num">${mine.length}</strong></div><div class="panel"><span class="muted">${L('Stars this week', 'މި ހަފްތާގެ ތަރިތައް')}</span><strong class="big num">${week}</strong></div></div>
     <div class="row-links"><a class="btn primary" href="#/s/kids-stories">${L('Read a story', 'ވާހަކައެއް ކިޔާ')}</a></div>
     <h2>${L('Quiz for children', 'ކުދިންގެ ކުއިޒް')}</h2><${QuizRun} list=${pickDaily(QUIZ.filter((q) => q[7]), 3)} store="kidquiz" />`;
 }
@@ -250,7 +251,7 @@ export function AzanWatcher() {
 }
 function AzanSetting() {
   const on = !!tools().azan, [test, setTest] = useState(false);
-  return html`<section class="set-card azan-set"><h2>${L('Azan sound', 'ބަންގީގެ އަޑު')}</h2>
+  return html`<section class="panel azan-set"><h2>${L('Azan sound', 'ބަންގީގެ އަޑު')}</h2>
     <p class="muted">${L('Plays the azan when a prayer time arrives while Sharaf is open on the screen. It follows your phone: on an iPhone set to silent it makes no sound. When the app is closed you still get the normal alert, which uses your phone\'s own alert sound.', 'ޝަރަފު ހުޅުވާފައި އޮންނައިރު ނަމާދު ވަގުތު ޖެހުމުން ބަންގި ގޮވާނެއެވެ. ފޯނު ސައިލެންޓްގައި ބާއްވާފައިވާނަމަ އަޑެއް ނުލައްވާނެއެވެ. އެޕް ލައްޕާފައި އޮންނައިރު ލިބޭނީ ޢާންމު އެލާޓެވެ.')}</p>
     <div class="row-links"><button class=${'btn' + (on ? ' primary' : '')} onClick=${() => { unlock(); save({ azan: !on }); }}>${on ? L('Azan is on', 'ބަންގި އޮން') : L('Turn the azan on', 'ބަންގި އޮންކުރޭ')}</button>
       <button class="btn" onClick=${() => { if (test) { stopAzan(); setTest(false); } else playAzan(() => setTest(false)).then((ok) => setTest(ok)); }}>${test ? L('Stop', 'ހުއްޓާ') : L('Hear it now', 'މިހާރު އަޑުއަހާ')}</button></div></section>`;
