@@ -1107,19 +1107,29 @@ function QiblaPage() {
   const [heading, setHeading] = useState(null);
   const [state, setState] = useState('idle'); // idle, on, denied, none
   const near = useRef(false);
-  const smooth = useRef(null);
-  useEffect(() => () => { window.removeEventListener('deviceorientationabsolute', onTurn, true); window.removeEventListener('deviceorientation', onTurn, true); }, []);
+  const dial = useRef(null);
+  const live = useRef({ target: null, shown: null, last: 0, raf: 0 });
+  useEffect(() => () => { cancelAnimationFrame(live.current.raf); window.removeEventListener('deviceorientationabsolute', onTurn, true); window.removeEventListener('deviceorientation', onTurn, true); }, []);
   function onTurn(e) {
     let h = null;
     if (typeof e.webkitCompassHeading === 'number') h = e.webkitCompassHeading; // iPhone: degrees from north
     else if (e.absolute && e.alpha != null) h = 360 - e.alpha; // Android
     if (h == null || Number.isNaN(h)) return;
-    const so = (screen.orientation && screen.orientation.angle) || 0;
-    h = (h + so + 360) % 360;
-    // ease towards the new reading along the short way round, so the dial does not jitter
-    if (smooth.current == null) smooth.current = h;
-    else { let diff = h - smooth.current; if (diff > 180) diff -= 360; if (diff < -180) diff += 360; smooth.current = (smooth.current + diff * 0.25 + 360) % 360; }
-    setHeading(smooth.current);
+    const L = live.current;
+    h = (h + ((screen.orientation && screen.orientation.angle) || 0) + 360) % 360;
+    // keep the angle continuous (359 -> 361, not 359 -> 1) so the dial never spins the long way round
+    if (L.target == null) { L.target = h; L.shown = h; }
+    else { let d = h - (((L.target % 360) + 360) % 360); if (d > 180) d -= 360; if (d < -180) d += 360; L.target += d; }
+  }
+  // The dial is turned directly on every frame, without redrawing the page; the words underneath update a few times a second.
+  function frame(now) {
+    const L = live.current;
+    if (L.target != null) {
+      L.shown += (L.target - L.shown) * 0.4;
+      if (dial.current) dial.current.style.transform = `rotate(${(-L.shown).toFixed(2)}deg)`;
+      if (now - L.last > 160) { L.last = now; const r = Math.round((((L.shown % 360) + 360) % 360)); setHeading((prev) => (prev === r ? prev : r)); }
+    }
+    L.raf = requestAnimationFrame(frame);
   }
   const start = async () => {
     try {
@@ -1130,7 +1140,8 @@ function QiblaPage() {
       window.addEventListener('deviceorientationabsolute', onTurn, true);
       window.addEventListener('deviceorientation', onTurn, true);
       setState('on');
-      setTimeout(() => { if (smooth.current == null) setState('none'); }, 3000);
+      cancelAnimationFrame(live.current.raf); live.current.raf = requestAnimationFrame(frame);
+      setTimeout(() => { if (live.current.target == null) setState('none'); }, 3000);
     } catch { setState('denied'); }
   };
   return html`<${Wait} s=${d}>${(data) => {
@@ -1147,7 +1158,7 @@ function QiblaPage() {
       <p class="lede">${island.a}. ${island.n}: <strong class="num">${q.toFixed(0)}°</strong> ${t('qiblaFrom')}</p>
       <div class="compass ${aligned ? 'is-aligned' : ''}" role="img" aria-label=${`${t('qibla')} ${q.toFixed(0)}°`}>
         <span class="compass-top" aria-hidden="true"></span>
-        <div class="dial" style=${{ transform: `rotate(${-(heading || 0)}deg)` }}>
+        <div class="dial" ref=${dial}>
           <svg viewBox="-110 -110 220 220" aria-hidden="true">
             <circle r="104" class="dial-rim" /><circle r="92" class="dial-face" />
             ${Array.from({ length: 72 }, (_, i) => html`<line x1="0" y1=${i % 18 === 0 ? -92 : i % 6 === 0 ? -92 : -92} x2="0" y2=${i % 18 === 0 ? -76 : i % 6 === 0 ? -82 : -87} transform=${`rotate(${i * 5})`} class=${i % 18 === 0 ? 'tick major' : 'tick'} />`)}

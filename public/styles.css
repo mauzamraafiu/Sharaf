@@ -812,3 +812,6 @@ body::before { content: ''; position: fixed; inset: -18vmax; z-index: -1; pointe
 .row select { min-height: 44px; padding: 0 12px; border: 1px solid var(--line); border-radius: 14px; background: var(--bg); }
 input[type=range] { accent-color: var(--lagoon); width: min(52%, 220px); height: 28px; }
 .settings .prose.small { font-size: .9rem; }
+
+.dial { transition: none; will-change: transform; }
+.compass { transition: none; }
