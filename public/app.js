@@ -1303,6 +1303,7 @@ function SettingsPage() {
       <label class="row"><span>${t('arabicSize')}</span><input type="range" min="22" max="64" step="2" value=${s.arSize} onInput=${(e) => setSettings({ arSize: +e.target.value })} /></label>
       <p class="ar sample" lang="ar" dir="rtl" style=${{ fontSize: s.arSize + 'px' }}>ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ</p>
       <label class="row"><span>${isDv() ? 'މުޞްޙަފު ޞަފްޙާގެ އަކުރުގެ ބޮޑުމިން' : 'Mushaf page text size'}</span><input type="range" min="1" max="2.2" step="0.1" value=${s.mScale || 1} onInput=${(e) => setSettings({ mScale: +e.target.value })} /></label>
+      <p class="ar sample msample" lang="ar" dir="rtl" style=${{ fontSize: Math.round(19 * (s.mScale || 1)) + 'px' }}>ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ <span class="mend">${'۝' + arNum(2)}</span> ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ <span class="mend">${'۝' + arNum(3)}</span></p>
       <p class="muted small">${isDv() ? 'ބޮޑުކުރުމުން ޞަފްޙާ ދިގުވާނެއެވެ. ތިރިއަށް ސްކްރޯލްކުރޭ.' : 'For easier reading. A bigger size makes the page longer, so you scroll down to read it.'}</p>
       <div class="row"><span>${t('offline')}</span>
         ${dl === 'done' ? html`<span class="muted">${t('downloaded')}</span>` : html`<button class="btn" disabled=${dl !== null} onClick=${download}>${dl ? `${dl} / 114` : t('download')}</button>`}</div>
@@ -1497,7 +1498,7 @@ function App() {
   const appSettings = useSettings();
   // one text-size setting drives Arabic everywhere
   useEffect(() => { document.documentElement.style.setProperty('--ar-size', (appSettings.arSize || 30) + 'px'); }, [appSettings.arSize]);
-  useEffect(() => { document.documentElement.style.setProperty('--m-scale', appSettings.mScale || 1); }, [appSettings.mScale]);
+  useEffect(() => { document.documentElement.style.setProperty('--m-scale', appSettings.mScale || 1); document.documentElement.toggleAttribute('data-mbig', (appSettings.mScale || 1) > 1.05); }, [appSettings.mScale]);
   const route = useRoute();
   const boot = useBoot();
   const [head, a, b] = route;

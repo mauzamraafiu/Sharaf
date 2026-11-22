@@ -1045,3 +1045,8 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 .home .hello { display: grid; grid-template-columns: 1fr; gap: 4px; }
 .home .hello .bismillah { order: -1; justify-self: center; text-align: center; margin: 0 0 4px; font-size: clamp(1.7rem, 7.4vw, 2.4rem); }
 .home .hello .bismillah { line-height: 2; margin: 0 0 10px; }
+
+/* enlarged mushaf text: words keep their natural spacing instead of being stretched to fill each line */
+html[data-mbig] .mtext { text-align: center; text-align-last: center; word-spacing: .12em; line-height: 2.2; }
+html[data-mbig] .leaf-body.is-opening { padding-inline: 0; }
+.msample { line-height: 2.1; }
