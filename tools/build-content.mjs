@@ -72,7 +72,7 @@ for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.txt')).sort()) {
       const h = nawawi[n];
       if (!h) throw new Error('no such hadith in the Forty: ' + n);
       items.push({ id: 'hadith-' + n, section, kind: 'article', sort: items.length + 1, title_en: `${n}. ${title_en}`, title_dv: title_dv ? `${n}. ${title_dv}` : '',
-        arabic: h.ar, body_en: h.en, body_dv: nawawiDv[n] ? `**ޚުލާޞާ:** ${nawawiDv[n]}` : '', ref: `An-Nawawi's Forty Hadith, no. ${n}` });
+        arabic: h.ar.replace(/<br\s*\/?>/g, ' ').trim(), body_en: h.en, body_dv: nawawiDv[n] ? `**ޚުލާޞާ:** ${nawawiDv[n]}` : '', ref: `An-Nawawi's Forty Hadith, no. ${n}` });
       seen.add('hadith-' + n);
     } else if (item && raw.trim() === '--- en') mode = 'body_en';
     else if (item && raw.trim() === '--- dv') mode = 'body_dv';

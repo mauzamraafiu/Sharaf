@@ -405,18 +405,25 @@ function AyahOfDay() {
     </div>
   </section>`;
 }
+// The home card shows the Prophet's own words, not the chain of narrators that comes before them.
+const hadithSaying = (t) => { t = (t || '').split(/\n\s*\n/)[0]; const m = /(Messenger of Allah|Prophet)\s*(\([^)]*\))?[^:“"]{0,60}?\b(said|say|narrated to us|that He said)\s*[:,]\s*/.exec(t); t = m ? t.slice(m.index + m[0].length) : t.replace(/^(Also )?on the authority of [^:]*:\s*/i, ''); t = t.replace(/\s+(A|An|It is a|It was) (hasan|saheeh|sahih|good|sound|authentic)[^.]*hadee?th\b[\s\S]*$/i, '').replace(/\s*\(?(It was )?(related|narrated|reported|recorded) by [\s\S]*$/i, '').replace(/\s*\[(At-|Al-|An-|Abu |Muslim|Ibn )[\s\S]*$/, '').replace(/\s*It was related[\s\S]*$/, '').replace(/\s*\[?(Imam |An-Nawawi |We have (related|narrated))[\s\S]*$/, '').trim(); return t.replace(/^[“"]/, '').replace(/\s*\[[^\]]*\]\s*$/, '').replace(/[”"]\s*$/, ''); };
+const hadithMatn = (t) => { t = t || ''; const h = /و\s*س[ً-ْ]*ل[ً-ْ]*م[ً-ْ]*|ﷺ/.exec(t); if (!h) return ''; const rest = t.slice(h.index + h[0].length), c = rest.search(/[:"«“]/); if (c < 0 || c > 30) return ''; let m = rest.slice(c + 1); const plain = m.replace(/[\u064B-\u0652]/g, (x) => '\u0001'), cut = plain.slice(15).search(/\[|ر\u0001*و\u0001*ا\u0001*ه|ر\u0001*و\u0001*ي\u0001*ن\u0001*ا|ح\u0001*د\u0001*ي\u0001*ث\u0001*\s+(ح|ص)|و\u0001*ف\u0001*ي\u0001*\s+ر\u0001*و\u0001*ا\u0001*ي\u0001*ة|م\u0001*ت\u0001*ف\u0001*ق/); if (cut >= 0) m = m.slice(0, cut + 15); return m.replace(/^[\s"«“]+|[\s"»”.،,:]+$/g, ''); };
+const clip = (t, n) => (t.length > n ? t.slice(0, n - 20).replace(/\s+\S*$/, '') + '…' : t);
 function HadithOfDay() {
   const d = useData(() => sectionItems('forty-hadith'), []);
   useSettings();
   if (!d.data || !d.data.length) return null;
   const it = d.data[Math.floor((Date.now() + 5 * 3600000) / 86400000) % d.data.length];
-  const dv = isDv() && it.body_dv, text = firstPara(dv ? it.body_dv : it.body_en);
-  const short = text.length > 300 ? text.slice(0, 280).replace(/\s+\S*$/, '') + '…' : text;
+  const dv = isDv() && it.body_dv, text = dv ? firstPara(it.body_dv).replace(/^ޚުލާޞާ:\s*/, '') : hadithSaying(it.body_en);
+  const ar = hadithMatn(it.arabic), n = (/^\d+/.exec(it.title_en) || [''])[0];
   return html`<section class="block">
     <h2>${isDv() ? 'މިއަދުގެ ޙަދީޘް' : 'Today\'s hadith'}</h2>
     <div class="daily hadith">
-      <a href=${`#/i/${it.id}`}><strong class="daily-t">${pick(it, 'title').replace(/^\d+\.\s*/, '')}</strong><p class=${dv ? 'dv' : ''}>${short}</p></a>
-      <div class="daily-foot"><a class="muted" href=${`#/i/${it.id}`}>${isDv() ? 'ނަވަވީގެ ސާޅީސް ޙަދީޘް' : 'An-Nawawi\'s Forty'}</a><${ListenButton} item=${it} /></div>
+      <a href=${`#/i/${it.id}`}><strong class="daily-t">${pick(it, 'title').replace(/^\d+\.\s*/, '')}</strong>
+        ${ar && html`<p class="ar" lang="ar" dir="rtl">${clip(ar, 240)}</p>`}
+        <p class=${'hadith-say' + (dv ? ' dv' : '')}>${dv ? '' : '“'}${clip(text, 340)}${dv ? '' : '”'}</p>
+        <span class="hadith-more">${isDv() ? 'މުޅި ޙަދީޘް ކިޔާ' : 'Read the whole hadith'}</span></a>
+      <div class="daily-foot"><a class="muted" href=${`#/i/${it.id}`}>${isDv() ? 'ނަވަވީގެ ސާޅީސް ޙަދީޘް' : 'An-Nawawi\'s Forty'}${n ? ', ' + n : ''}</a><${ListenButton} item=${it} /></div>
     </div>
   </section>`;
 }

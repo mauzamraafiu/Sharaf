@@ -1224,3 +1224,16 @@ button.readall { width: 100%; border: 0; font: inherit; text-align: start; curso
 .heat { grid-template-columns: auto repeat(12, minmax(0, 1fr)); } .heat-wrap, .heat-col { min-width: 0; }
 .heat { grid-template-columns: auto; grid-template-rows: repeat(7, auto); grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); align-items: center; } .heat-col { display: contents; }
 .heat i.now { outline-offset: -2px; }
+.daily.hadith .ar { font-size: calc(var(--ar-size, 30px) - 4px); line-height: 2; text-align: center; text-wrap: balance; color: var(--quran-ink); }
+.daily.hadith .hadith-say { color: var(--ink); } .hadith-more { color: var(--lagoon); font-weight: 600; font-size: .92rem; }
+.game-tile:nth-child(4n+1) { background: linear-gradient(150deg, #2FA7C9, #1B6E97); box-shadow: 0 5px 0 #134F6E; } .game-tile:nth-child(4n+2) { background: linear-gradient(150deg, #2E9C83, #1C5C4E); box-shadow: 0 5px 0 #123F35; }
+.game-tile:nth-child(4n+3) { background: linear-gradient(150deg, #E0A63A, #B4780F); box-shadow: 0 5px 0 #7E5407; } .game-tile:nth-child(4n) { background: linear-gradient(150deg, #D8704F, #A8432F); box-shadow: 0 5px 0 #742A1C; }
+.game-tile { min-height: 104px; }
+.pg-show.small { font-size: 1.5rem; } .pg-opts.one { grid-template-columns: 1fr; } .pg-opts.one .og-card { font-size: 1.05rem; }
+.mem { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.mem-card { aspect-ratio: 1 / 1.05; display: grid; place-items: center; padding: 4px; border: 0; border-radius: 18px; cursor: pointer; color: #fff; font: 600 1.05rem var(--ui); background: linear-gradient(150deg, #2E9C83, #1C5C4E); box-shadow: 0 5px 0 #123F35; transition: transform .15s; }
+.mem-card i { width: 34px; height: 34px; background: var(--star) center / contain no-repeat; opacity: .9; }
+.mem-card.up { background: var(--surface); color: var(--ink); box-shadow: 0 5px 0 -1px color-mix(in srgb, var(--line) 80%, #000 10%), inset 0 0 0 1.5px var(--line); }
+.mem-card.got { background: color-mix(in srgb, var(--gold) 16%, var(--surface)); box-shadow: inset 0 0 0 2px var(--gold); }
+.mem-card .ar { font: 2.6rem/1.3 var(--arabic); color: var(--ornament); }
+.mem-card:active { transform: translateY(3px); }

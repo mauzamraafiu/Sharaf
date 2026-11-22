@@ -61,6 +61,10 @@ const ORDER = {
     ['Say Allahu akbar and raise the hands', 'ދެއަތް އުފުލައި ﷲ އަކްބަރު ކިޔުން'], ['Stand and read al-Fatihah', 'ކޮޅަށް ހުރެ ފާތިޙާ ކިޔެވުން'], ['Bow down in ruku', 'ރުކޫޢަށް ދިއުން'], ['Stand up straight', 'ސީދާ ކޮޅަށް ތެދުވުން'],
     ['Go down in sujud', 'ސަޖިދައަށް ދިއުން'], ['Sit for a moment', 'ކުޑަ އިރުކޮޅަކު އިށީނުން'], ['Sujud again', 'އަނެއްކާ ސަޖިދަކުރުން'], ['Sit and say the tashahhud', 'އިށީނދެ އައްތަޙިއްޔާތު ކިޔުން'], ['Say salam to the right and left', 'ކަނާތާއި ވާތަށް ސަލާމްގޮވުން']]],
 };
+ORDER.pillars = ['The five pillars in order', 'ފަސް ރުކުން ތަރުތީބުކުރޭ', [
+  ['The shahada: saying there is no god but Allah and Muhammad is His Messenger', 'ޝަހާދަތް ކިޔުން'], ['Praying five times a day', 'ދުވާލަކު ފަސް ނަމާދު ކުރުން'], ['Giving zakat', 'ޒަކާތް ދިނުން'], ['Fasting in Ramadan', 'ރަމަޟާން މަހު ރޯދަހިފުން'], ['Going on Hajj', 'ޙައްޖަށް ދިއުން']]];
+ORDER.day = ['The five prayers through the day', 'ދުވަހުގެ ފަސް ނަމާދު ތަރުތީބުކުރޭ', [
+  ['Fajr, before the sun comes up', 'ފަތިސް، އިރު އެރުމުގެ ކުރިން'], ['Dhuhr, in the middle of the day', 'މެންދުރު، ދުވާލުގެ މެދުތެރޭ'], ['Asr, in the afternoon', 'ޢަޞްރު، ހަވީރު'], ['Maghrib, when the sun has set', 'މަޣްރިބު، އިރު އޮއްސުމުން'], ['Isha, at night', 'ޢިޝާ، ރޭގަނޑު']]];
 const starsFor = (miss) => (miss === 0 ? 3 : miss <= 2 ? 2 : 1);
 const saveBest = (id, n) => { const g = tools().games || {}; if ((g[id] || 0) < n) saveTools({ games: { ...g, [id]: n } }); };
 function OrderGame({ id }) {
@@ -82,7 +86,27 @@ function OrderGame({ id }) {
       : html`<div class="og-deck">${deck.filter((i) => i >= at).map((i) => html`<button key=${i} class=${'og-card' + (bad === i ? ' bad' : '')} onClick=${() => tap(i)}>${L(steps[i][0], steps[i][1])}</button>`)}</div>`}`;
 }
 const RAKAH = [['Fajr', 'ފަތިސް', 2], ['Dhuhr', 'މެންދުރު', 4], ['Asr', 'ޢަޞްރު', 4], ['Maghrib', 'މަޣްރިބު', 3], ['Isha', 'ޢިޝާ', 4]];
+// [what is shown (en, dv), the right answer (en, dv)]. Wrong answers are drawn from the other rows.
+const QA = {
+  say: [['What do we say?', 'ކިޔަނީ ކީކޭ؟'], [
+    ['Before eating', 'ކެއުމުގެ ކުރިން', 'Bismillah', 'ބިސްމިﷲ'], ['After eating', 'ކައި ނިމުމުން', 'Alhamdulillah', 'އަލްޙަމްދުލިﷲ'], ['When we meet someone', 'މީހަކާ ބައްދަލުވުމުން', 'Assalamu alaykum', 'އައްސަލާމު ޢަލައިކުމް'],
+    ['When we plan to do something', 'ކަމެއް ކުރަން ރާވާއިރު', 'In sha Allah', 'އިން ޝާﷲ'], ['When we see something beautiful', 'ރީތި އެއްޗެއް ފެނުމުން', 'Ma sha Allah', 'މާ ޝާﷲ'], ['When someone helps us', 'މީހަކު އެހީވުމުން', 'Jazakallahu khayran', 'ޖަޒާކަﷲ ޚައިރަން'],
+    ['When we do something wrong', 'ކުށެއް ކުރެވުމުން', 'Astaghfirullah', 'އަސްތަޣްފިރުﷲ'], ['When we hear sad news', 'ހިތާމަވެރި ޚަބަރެއް އިވުމުން', 'Inna lillahi wa inna ilayhi rajiun', 'އިންނާ ލިﷲ ހި ވައިންނާ އިލައިހި ރާޖިޢޫން']]],
+  who: [['Which prophet?', 'ކޮން ނަބިއްޔެއް؟'], [
+    ['He built a big ship', 'ބޮޑު ނަވެއް ބިނާކުރެއްވި', 'Nuh', 'ނޫޙު'], ['A big fish swallowed him', 'ބޮޑު މަހެއް ދިރުވާލި', 'Yunus', 'ޔޫނުސް'], ['The fire did not burn him', 'އަލިފާނުން އަނދައިނުގަތް', 'Ibrahim', 'އިބްރާހީމް'],
+    ['His stick turned into a snake', 'އަސާކޮޅު ހަރުފަޔަކަށް ބަދަލުވި', 'Musa', 'މޫސާ'], ['He understood the ants and the birds', 'ހިންޏާއި ދޫނީގެ ބަސް ދެނެވަޑައިގަތް', 'Sulayman', 'ސުލައިމާން'], ['He dreamed of eleven stars', 'އެގާރަ ތަރި ހުވަފެނުން ފެނުނު', 'Yusuf', 'ޔޫސުފު'],
+    ['He was very patient when he was ill', 'ބަލީގައި ވަރަށް ކެތްތެރިވި', 'Ayyub', 'އައްޔޫބު'], ['The first man', 'އެންމެ ފުރަތަމަ އިންސާނާ', 'Adam', 'އާދަމް'], ['The last prophet ﷺ', 'އެންމެ ފަހުގެ ނަބިއްޔާ ﷺ', 'Muhammad', 'މުޙައްމަދު']]],
+};
+const AR_NUM = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩', '١٠'];
 function makeRound(kind) {
+  if (QA[kind]) { const [ask, rows] = QA[kind]; return shuffle(rows).slice(0, 8).map((r) => {
+    const opts = shuffle([r, ...shuffle(rows.filter((x) => x[2] !== r[2])).slice(0, 3)]);
+    return { show: L(r[0], r[1]), small: true, ask, opts: opts.map((x) => L(x[2], x[3])), right: opts.indexOf(r) };
+  }); }
+  if (kind === 'numbers') return shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]).slice(0, 8).map((n) => {
+    const opts = shuffle([n, ...shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter((x) => x !== n)).slice(0, 3)]);
+    return { show: AR_NUM[n], ar: true, ask: ['Which number is this?', 'މިއީ ކޮން ޢަދަދެއް؟'], opts: opts.map(String), right: opts.indexOf(n) };
+  });
   if (kind === 'letters') return shuffle(LETTERS.map((_, i) => i)).slice(0, 8).map((i) => {
     const opts = shuffle([i, ...shuffle(LETTERS.map((_, j) => j).filter((j) => j !== i)).slice(0, 3)]);
     return { show: LETTERS[i][0], ar: true, ask: ['Which letter is this?', 'މިއީ ކޮން އަކުރެއް؟'], opts: opts.map((j) => LETTERS[j][1]), right: opts.indexOf(i) };
@@ -106,18 +130,42 @@ function PickGame({ id, title }) {
   if (!q) return html`<h1>${title}</h1><div class="panel win"><${Stars} n=${starsFor(miss)} /><strong>${L('Well done!', 'ޝާބާސް!')}</strong><span class="muted">${L(`${qs.length - miss} of ${qs.length} right first time`, `${qs.length} ގެ ތެރެއިން ${qs.length - miss} ރަނގަޅު`)}</span><button class="btn primary wide" onClick=${again}>${L('Play again', 'އަނެއްކާ ކުޅޭ')}</button></div>`;
   return html`<h1>${title}</h1>
     <span class="bar"><i style=${{ width: (i / qs.length) * 100 + '%' }}></i></span>
-    <div class="panel pg-q"><span class=${'pg-show' + (q.ar ? ' ar' : '')} lang=${q.ar ? 'ar' : null}>${q.show}</span><span class="muted">${L(q.ask[0], q.ask[1])}</span></div>
-    <div class=${'pg-opts n' + q.opts.length}>${q.opts.map((o, k) => html`<button class=${'og-card' + (picked >= 0 && k === q.right ? ' good' : picked === k ? ' bad' : '')} onClick=${() => pick(k)}>${o}</button>`)}</div>`;
+    <div class="panel pg-q"><span class=${'pg-show' + (q.ar ? ' ar' : '') + (q.small ? ' small' : '')} lang=${q.ar ? 'ar' : null}>${q.show}</span><span class="muted">${L(q.ask[0], q.ask[1])}</span></div>
+    <div class=${'pg-opts n' + q.opts.length + (q.small ? ' one' : '')}>${q.opts.map((o, k) => html`<button class=${'og-card' + (picked >= 0 && k === q.right ? ' good' : picked === k ? ' bad' : '')} onClick=${() => pick(k)}>${o}</button>`)}</div>`;
 }
-const GAMES = [['wudu', 'Put wudu in order', 'ވުޟޫ ތަރުތީބުކުރޭ'], ['salah', 'Put the prayer in order', 'ނަމާދު ތަރުތީބުކުރޭ'], ['letters', 'Name the letter', 'އަކުރުގެ ނަން ބުނޭ'], ['rakahs', 'How many rakahs?', 'ކިތައް ރަކުޢަތް؟']];
+// Find the pairs: each Arabic letter and its name.
+function newPairs() { const pick = shuffle(LETTERS.map((_, i) => i)).slice(0, 6); return shuffle(pick.flatMap((i) => [{ p: i, t: LETTERS[i][0], ar: true }, { p: i, t: LETTERS[i][1] }])); }
+function PairsGame() {
+  const [cards, setCards] = useState(newPairs);
+  const [open, setOpen] = useState([]);
+  const [found, setFound] = useState([]);
+  const [miss, setMiss] = useState(0);
+  const stars = miss <= 3 ? 3 : miss <= 7 ? 2 : 1;
+  const tap = (k) => {
+    if (open.length === 2 || open.includes(k) || found.includes(cards[k].p)) return;
+    const now = [...open, k];
+    setOpen(now);
+    if (now.length < 2) return;
+    if (cards[now[0]].p === cards[now[1]].p) { const f = [...found, cards[k].p]; setTimeout(() => { setFound(f); setOpen([]); if (f.length === 6) saveBest('pairs', stars); }, 450); }
+    else { setMiss(miss + 1); setTimeout(() => setOpen([]), 900); }
+  };
+  const again = () => { setCards(newPairs()); setOpen([]); setFound([]); setMiss(0); };
+  return html`<h1>${L('Find the pairs', 'ޖޯޑު ހޯދާ')}</h1>
+    <p class="lede">${L('Turn over two cards. Match each letter with its name.', 'ދެ ކާޑު ހުޅުވާ. ކޮންމެ އަކުރެއް އޭގެ ނަމާ ގުޅުވާ.')}</p>
+    ${found.length === 6 ? html`<div class="panel win"><${Stars} n=${stars} /><strong>${L('Well done!', 'ޝާބާސް!')}</strong><button class="btn primary wide" onClick=${again}>${L('Play again', 'އަނެއްކާ ކުޅޭ')}</button></div>`
+      : html`<div class="mem">${cards.map((c, k) => { const up = open.includes(k) || found.includes(c.p); return html`<button class=${'mem-card' + (up ? ' up' : '') + (found.includes(c.p) ? ' got' : '')} onClick=${() => tap(k)} aria-label=${up ? c.t : L('Hidden card', 'ފޮރުވިފައިވާ ކާޑު')}>${up ? html`<span class=${c.ar ? 'ar' : ''}>${c.t}</span>` : html`<i></i>`}</button>`; })}</div>`}`;
+}
+const GAMES = [['wudu', 'Put wudu in order', 'ވުޟޫ ތަރުތީބުކުރޭ'], ['salah', 'Put the prayer in order', 'ނަމާދު ތަރުތީބުކުރޭ'], ['pairs', 'Find the pairs', 'ޖޯޑު ހޯދާ'], ['who', 'Which prophet?', 'ކޮން ނަބިއްޔެއް؟'],
+  ['say', 'What do we say?', 'ކިޔަނީ ކީކޭ؟'], ['letters', 'Name the letter', 'އަކުރުގެ ނަން ބުނޭ'], ['numbers', 'Arabic numbers', 'ޢަރަބި ޢަދަދު'], ['rakahs', 'How many rakahs?', 'ކިތައް ރަކުޢަތް؟'],
+  ['pillars', 'The five pillars in order', 'ފަސް ރުކުން ތަރުތީބުކުރޭ'], ['day', 'The five prayers through the day', 'ދުވަހުގެ ފަސް ނަމާދު']];
 export function GamesPage({ game }) {
   useS();
   const g = GAMES.find((x) => x[0] === game);
   if (g) return html`<div class="page tool games"><${Back} to="#/t/games" label=${L('Games', 'ކުޅިވަރު')} />
-    ${ORDER[game] ? html`<${OrderGame} key=${game} id=${game} />` : html`<${PickGame} key=${game} id=${game} title=${L(g[1], g[2])} />`}</div>`;
+    ${game === 'pairs' ? html`<${PairsGame} />` : ORDER[game] ? html`<${OrderGame} key=${game} id=${game} />` : html`<${PickGame} key=${game} id=${game} title=${L(g[1], g[2])} />`}</div>`;
   const best = tools().games || {};
   return html`<div class="page tool games"><${Back} /><h1>${L('Games for children', 'ކުދިންގެ ކުޅިވަރު')}</h1>
-    <p class="lede">${L('Four short games. Three stars for no mistakes.', 'ހަތަރު ކުރު ކުޅިވަރު. އެއްވެސް ކުށެއް ނެތިއްޔާ ތިން ތަރި.')}</p>
+    <p class="lede">${L('Ten short games. Three stars for no mistakes.', 'ދިހަ ކުރު ކުޅިވަރު. އެއްވެސް ކުށެއް ނެތިއްޔާ ތިން ތަރި.')}</p>
     <div class="game-grid">${GAMES.map(([id, en, dv]) => html`<a class="game-tile" href=${'#/t/games/' + id}><strong>${L(en, dv)}</strong><${Stars} n=${best[id] || 0} /></a>`)}</div>
     <a class="btn wide" href="#/t/kids">${L('My star chart', 'އަހަރެންގެ ތަރި ޗާޓު')}</a>
   </div>`;
