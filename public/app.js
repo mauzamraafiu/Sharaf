@@ -938,7 +938,7 @@ function attachFold(el, api) {
       const moved = Math.hypot(e.clientX - st.x0, e.clientY - st.y0), f = (e.clientX - st.r.left) / st.W;
       const tg0 = st.tgt; st = null;
       const tg = tg0, onText = tg && tg.closest && tg.closest('.mayah, button, a'); // a tap on an ayah plays it, it never turns the page
-      if (moved < 8 && !onText && api.focus() && e.type === 'pointerup') { if (f < 0.1) api.next(); else if (f > 0.9) api.prev(); }
+      if (moved < 8 && !onText && api.focus() && e.type === 'pointerup' && matchMedia('(prefers-reduced-motion: reduce)').matches) // edge taps only where the fold animation is switched off { if (f < 0.1) api.next(); else if (f > 0.9) api.prev(); }
       return;
     }
     const sgn = st.dir === 'next' ? 1 : -1;
