@@ -729,3 +729,63 @@ body::before { content: ''; position: fixed; inset: -18vmax; z-index: -1; pointe
 .fig-dots { display: flex; gap: 6px; padding-bottom: 6px; }
 .fig-dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--line); transition: background-color .3s, transform .3s; }
 .fig-dots i.on { background: var(--gold); transform: scale(1.5); }
+
+/* ---------- qibla compass ---------- */
+.qibla { justify-items: center; text-align: center; }
+.qibla > .backlink { justify-self: start; }
+.compass { position: relative; width: min(84vw, 340px); aspect-ratio: 1; border-radius: 50%; padding: 10px; background: radial-gradient(circle at 32% 24%, #0E5E5A, #0B4F4C 55%, #073A38); box-shadow: 0 14px 0 -4px #062E2C, 0 34px 44px -12px rgb(7 58 56 / .6), inset 0 2px 0 rgb(255 255 255 / .2); transition: box-shadow .3s; }
+.compass.is-aligned { box-shadow: 0 0 0 5px var(--gold), 0 14px 0 -4px #8A5E08, 0 34px 44px -12px rgb(155 106 12 / .7), inset 0 2px 0 rgb(255 255 255 / .2); }
+.compass-top { position: absolute; top: -6px; left: 50%; width: 0; height: 0; margin-left: -10px; border: 10px solid transparent; border-top: 16px solid var(--lacquer); z-index: 2; filter: drop-shadow(0 2px 0 rgb(0 0 0 / .3)); }
+.dial { width: 100%; height: 100%; transition: transform .12s linear; }
+.dial svg { width: 100%; height: 100%; display: block; overflow: visible; }
+.dial-rim { fill: none; }
+.dial-face { fill: #F7FBF9; stroke: rgb(0 0 0 / .08); }
+[data-theme=dark] .dial-face { fill: #0E2628; }
+.tick { stroke: #557370; stroke-width: 1; } .tick.major { stroke: #0E2B29; stroke-width: 2.4; }
+[data-theme=dark] .tick.major { stroke: #E3EEEA; }
+.pt { font: 700 15px var(--ui); fill: #0E2B29; text-anchor: middle; dominant-baseline: middle; }
+[lang=dv] .pt { font: 700 12px var(--thaana); }
+[data-theme=dark] .pt { fill: #E3EEEA; }
+.pt.north { fill: var(--lacquer); }
+.q-arrow { fill: var(--gold); stroke: #8A5E08; stroke-width: 1; }
+.q-line { stroke: var(--gold); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 1 7; }
+.kaaba { fill: #1B1B1B; } .kaaba-band { fill: var(--gold); }
+.dial-hub { fill: var(--lacquer); stroke: #fff; stroke-width: 2; }
+.q-status { font: 600 1.25rem/1.3 var(--read); min-height: 1.6em; }
+.q-status.ok { color: var(--gold); animation: pop .4s both; }
+.q-tips { display: grid; gap: 6px; text-align: start; max-width: 46ch; list-style: disc; padding-inline-start: 20px; }
+.pc-side { display: grid; gap: 6px; justify-items: end; }
+.pc-qibla { display: inline-flex; align-items: center; gap: 6px; background: rgb(255 255 255 / .12); }
+.pc-qibla .icon { width: 16px; height: 16px; }
+.card[data-tone=compass] { --tone: #C98A12; }
+.notif-cta strong { display: inline-flex; align-items: center; gap: 8px; }
+.notif-cta .icon { color: var(--lagoon); }
+
+.daily > a { display: grid; gap: 10px; }
+.daily-foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.daily-play { min-height: 40px; padding: 0 14px; }
+
+/* ---------- speed: quick, light transitions. Nothing here should ever feel like waiting. ---------- */
+.route { animation: fade .16s ease-out both; transform-origin: initial; }
+.cardgrid > *, .card { animation: none; }
+.seclist > li, .surahs > li, .tiles > a, .times > li, .plainlist > li, .prayercard, .surah-ar, .surah-head h1 { animation: none; }
+.times .is-next { animation: none; }
+.motion :is(.steps > li, .duas > li, .ayah, .block, .prose > *) { opacity: 1; transform: none; transition: none; }
+/* mushaf: a short slide instead of a 3D turn */
+@keyframes leaf-next { from { opacity: 0; transform: translateX(-22px); } }
+@keyframes leaf-prev { from { opacity: 0; transform: translateX(22px); } }
+.book.turn-next:not(.is-spread) .leaf, .book.is-spread.turn-next .leaf.right, .book.is-spread.turn-next .leaf.left { transform-origin: initial; animation: leaf-next .2s ease-out both; }
+.book.turn-prev:not(.is-spread) .leaf, .book.is-spread.turn-prev .leaf.left, .book.is-spread.turn-prev .leaf.right { transform-origin: initial; animation: leaf-prev .2s ease-out both; }
+.book.turn- .leaf { animation: fade .16s both; }
+.leaf { transform-style: flat; backface-visibility: visible; }
+/* filters repaint on every frame of an animation: keep them off anything that moves */
+.figure { filter: none; }
+.bead.on { filter: none; }
+.letter-card { animation: fade .18s both; }
+.quiz-word { animation: fade .18s both; }
+@media (hover: none) {
+  body::before { animation: none; }
+  .sc-star, .sc-wave.w1, .sc-wave.w2, .sc-halo, .sc-glint, .sc-far, .sc-near { animation: none; }
+  .memory::before { animation: none; }
+  .tabs a[aria-current=page] .icon { transition: none; }
+}

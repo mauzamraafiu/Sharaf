@@ -115,7 +115,7 @@ function toggleAudio() { if (player.playing) player.el.pause(); else player.el.p
 function useAudio() {
   const [, set] = useState({});
   useEffect(() => { player.subs.add(set); return () => player.subs.delete(set); }, []);
-  return { current: player.queue[player.i], playing: player.playing, failed: player.failed };
+  return { current: player.queue[player.i], playing: player.playing, failed: player.failed, i: player.i, queue: player.queue };
 }
 function itemQueue(item) {
   const refs = parseQuranRef(item.audio);
@@ -166,6 +166,7 @@ const PATHS = {
   prayer: 'M12 3c2 2.5 4.5 3.5 4.5 7H7.5c0-3.5 2.500-4.500 4.500-7zM5 21V10.500h14V21M10 21v-4a2 2 0 0 1 4 0v4', duas: 'M7 20c-2-2-3-5-3-8l2.500-5 2 4.500V6l2-2 1.500 2 1.500-2 2 2v5.500l2-4.500 2.500 5c0 3-1 6-3 8',
   library: 'M5 4h4v16H5zM10.500 4h4v16h-4zM16 6l3.500-1 3 14-3.500 1z', search: 'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4', settings: 'M4 7h10M18 7h2M4 12h4M12 12h8M4 17h12M20 17h0M16 5v4M10 10v4M18 15v4',
   full: 'M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5',
+  compass: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM15.5 8.5l-2 5-5 2 2-5z', bell: 'M6 16v-5a6 6 0 0 1 12 0v5l1.5 2h-15zM10 20a2 2 0 0 0 4 0',
   explore: 'M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z', check: 'M5 12.5l4.5 4.5L19 7.5', calendar: 'M5 6h14v14H5zM5 10h14M9 3.5v4M15 3.5v4',
   moon: 'M19 14.5A8 8 0 0 1 9.5 5a7 7 0 1 0 9.5 9.5z', kaaba: 'M5 8l7-3 7 3v10l-7 3-7-3zM5 11.5l7 3 7-3M12 14.5V21', star: 'M12 4l2.4 5 5.6.7-4.1 3.8 1.1 5.5-5-2.8-5 2.8 1.1-5.5L4 9.7l5.6-.7z',
   drop: 'M12 3.5c3 4 5.5 6.8 5.5 10a5.5 5.5 0 0 1-11 0c0-3.2 2.5-6 5.5-10z', book: 'M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3zM5 17a3 3 0 0 1 3-3h11M9 8h6', chat: 'M4 6h16v10H9l-5 4zM8 10h8M8 13h5',
@@ -297,7 +298,7 @@ function PrayerCard({ compact, track }) {
           <p class="pc-next">${t(PRAYERS[nx.i])} <span class="num">${fmtTime(nx.at)}</span></p>
           <p class="pc-left">${isDv() ? `${fmtSpan(nx.left)} ${t('nextIn')}` : `${t('nextIn')} ${fmtSpan(nx.left)}`}</p>
         </div>
-        <a class="pc-island" href="#/settings">${island.a}. ${island.n}</a>
+        <span class="pc-side"><a class="pc-island" href="#/settings">${island.a}. ${island.n}</a><a class="pc-island pc-qibla" href="#/qibla"><${Icon} name="compass" /> ${t('qibla')}</a></span>
       </div>
       <${SkyScene} times=${times} minute=${minute} />
       ${track ? html`<ol class="times track">
@@ -346,15 +347,23 @@ function AyahOfDay() {
   const [sn, an] = DAILY[Math.floor(Date.now() / 86400000) % DAILY.length];
   const d = useData(() => getJSON(`/quran/${sn}.json`), [sn]);
   const s = useSettings();
+  const au = useAudio();
   if (!d.data) return null;
   const a = d.data.ayahs[an - 1];
+  const mine = au.current?.s === sn && au.current?.a === an && au.queue.length === 1;
+  const play = () => (mine ? toggleAudio() : playQueue([{ url: ayahUrl(sn, an), key: `q:${sn}:${an}`, s: sn, a: an, label: `${d.data.name} ${sn}:${an}` }]));
   return html`<section class="block">
     <h2>${t('ayahOfDay')}</h2>
-    <a class="daily" href=${`#/quran/${sn}/${an}`}>
-      <p class="ar" lang="ar" dir="rtl">${a[0]}</p>
-      <p class=${isDv() ? 'dv' : ''}>${isDv() ? a[2] : a[1]}</p>
-      <p class="muted">${d.data.name} ${sn}:${an}</p>
-    </a>
+    <div class="daily">
+      <a href=${`#/quran/${sn}/${an}`}>
+        <p class="ar" lang="ar" dir="rtl">${a[0]}</p>
+        <p class=${isDv() ? 'dv' : ''}>${isDv() ? a[2] : a[1]}</p>
+      </a>
+      <div class="daily-foot">
+        <a class="muted" href=${`#/quran/${sn}/${an}`}>${d.data.name} ${sn}:${an}</a>
+        <button class="btn daily-play" onClick=${play} aria-label=${`${t(mine && au.playing ? 'pause' : 'play')} ${t('ayah')}`}><${Icon} name=${mine && au.playing ? 'pause' : 'play'} /> ${t('listen')}</button>
+      </div>
+    </div>
   </section>`;
 }
 // What is worth doing right now: by the clock, the weekday and the Hijri date.
@@ -381,11 +390,12 @@ function NowCard({ boot }) {
     <ul>${rows.slice(0, 6).map(([href, icon, label, tag]) => html`<li><a href=${href}><${Icon} name=${icon} /><span>${label}</span>${tag ? html`<span class="tag">${tag}</span>` : html`<${Icon} name="next" />`}</a></li>`)}</ul>
   </section>`;
 }
-const FEATURES = [['s/salah-steps', 'prayer'], ['s/wudu-steps', 'drop'], ['duas', 'duas'], ['s/dhikr-tongue', 'count'], ['s/special-days', 'calendar'], ['s/fasting-eid-duas', 'moon'], ['s/janazah-steps', 'prayer'], ['s/duas-dead', 'duas'], ['s/umrah-steps', 'kaaba'], ['s/hajj-steps', 'kaaba'], ['s/prophets', 'book'], ['s/kids-stories', 'star'], ['arabic', 'chat'], ['explore', 'explore']];
+const FEATURES = [['s/salah-steps', 'prayer'], ['qibla', 'compass'], ['s/wudu-steps', 'drop'], ['duas', 'duas'], ['s/dhikr-tongue', 'count'], ['s/special-days', 'calendar'], ['s/fasting-eid-duas', 'moon'], ['s/janazah-steps', 'prayer'], ['s/duas-dead', 'duas'], ['s/umrah-steps', 'kaaba'], ['s/hajj-steps', 'kaaba'], ['s/prophets', 'book'], ['s/kids-stories', 'star'], ['arabic', 'chat'], ['explore', 'explore']];
 function Card({ href, icon, title, sub, count }) {
   return html`<a class="card" data-tone=${icon} href=${href}><span class="disc"><${Icon} name=${icon} /></span><strong>${title}</strong>${sub && html`<span class="muted">${sub}</span>`}${count != null && html`<span class="count num">${count}</span>`}</a>`;
 }
 function featureCard(boot, [path, icon]) {
+  if (path === 'qibla') return html`<${Card} href="#/qibla" icon=${icon} title=${t('qibla')} sub=${t('qiblaSub')} />`;
   if (path === 'duas') return html`<${Card} href="#/duas" icon=${icon} title=${t('duas')} sub=${t('g_duas')} />`;
   if (path === 'arabic') return html`<${Card} href="#/arabic" icon=${icon} title=${t('g_arabic')} sub=${t('arabicLede')} />`;
   if (path === 'explore') return html`<${Card} href="#/explore" icon=${icon} title=${t('explore')} sub=${t('exploreLede')} />`;
@@ -403,6 +413,7 @@ function Home({ boot }) {
     <div class="home-grid">
       <div class="col"><${PrayerCard} track /></div>
       <div class="col">
+        ${!s.notif.on && html`<a class="resume notif-cta" href="#/settings/notifications"><span class="muted">${t('notifCtaSub')}</span><strong><${Icon} name="bell" /> ${t('notifCta')}</strong></a>`}
         <${NowCard} boot=${boot} />
         ${s.last && html`<a class="resume" href=${`#/quran/${s.last.s}/${s.last.a}`}>
           <span class="muted">${t('continueReading')}</span>
@@ -475,6 +486,8 @@ function Surah({ n, focus }) {
   useEffect(() => { if (a.current?.s === n && a.playing) document.getElementById('a' + a.current.a)?.scrollIntoView({ block: 'center', behavior: 'smooth' }); }, [a.current?.key]);
   const toggle = (k) => { const show = { ...s.show, [k]: !s.show[k] }; if (!show.ar && !show.en && !show.dv) return; setSettings({ show }); };
   return html`<${Wait} s=${d}>${(su) => {
+    // The button beside an ayah plays that ayah and stops; "Play surah" plays on to the end.
+    const playOne = (i) => playQueue([{ url: ayahUrl(su.n, i + 1), key: `q:${su.n}:${i + 1}`, s: su.n, a: i + 1, label: `${su.name} ${su.n}:${i + 1}` }]);
     const queueFrom = (i) => playQueue(su.ayahs.map((_, j) => ({ url: ayahUrl(su.n, j + 1), key: `q:${su.n}:${j + 1}`, s: su.n, a: j + 1, label: `${su.name} ${su.n}:${j + 1}` })), i);
     const marked = (an) => s.marks.some((m) => m.s === su.n && m.a === an);
     const mark = (an) => setSettings({ marks: marked(an) ? s.marks.filter((m) => !(m.s === su.n && m.a === an)) : [...s.marks, { s: su.n, a: an, name: su.name }] });
@@ -501,7 +514,7 @@ function Surah({ n, focus }) {
           return html`<li class="ayah ${on ? 'is-playing' : ''}" id=${'a' + an} data-a=${an}>
             <div class="ayah-side">
               <span class="num an">${an}</span>
-              <button class="icon-btn" aria-label=${`${t(on && a.playing ? 'pause' : 'play')} ${t('ayah')} ${an}`} onClick=${() => (on ? toggleAudio() : queueFrom(i))}><${Icon} name=${on && a.playing ? 'pause' : 'play'} /></button>
+              <button class="icon-btn" aria-label=${`${t(on && a.playing ? 'pause' : 'play')} ${t('ayah')} ${an}`} onClick=${() => (on ? toggleAudio() : playOne(i))}><${Icon} name=${on && a.playing ? 'pause' : 'play'} /></button>
               <button class="icon-btn" aria-label=${`${t('bookmark')} ${an}`} aria-pressed=${marked(an)} onClick=${() => mark(an)}><${Icon} name="mark" fill=${marked(an) ? 'currentColor' : 'none'} /></button>
             </div>
             <div class="ayah-body">
@@ -552,7 +565,7 @@ function PrayerPage({ boot }) {
   return html`<div class="page wide">
     <h1>${t('prayer')}</h1>
     <div class="home-grid"><div class="col"><${PrayerCard} track /></div>
-      <div class="col"><section class="group"><h2>${t('guides')}</h2><div class="cardgrid one"><${SectionCards} boot=${boot} sections=${boot.sections.filter((x) => x.area === 'prayer')} /></div></section></div></div>
+      <div class="col"><section class="group"><h2>${t('guides')}</h2><div class="cardgrid one"><${Card} href="#/qibla" icon="compass" title=${t('qibla')} sub=${t('qiblaSub')} /><${SectionCards} boot=${boot} sections=${boot.sections.filter((x) => x.area === 'prayer')} /></div></section></div></div>
     <section class="group"><h2>${t('g_worship')}</h2><div class="cardgrid"><${SectionCards} boot=${boot} sections=${boot.sections.filter((x) => x.area === 'hajj' || x.id === 'pillars')} /></div></section>
   </div>`;
 }
@@ -1049,6 +1062,7 @@ function SettingsPage() {
   const pd = useData(prayerData, []);
   const [dl, setDl] = useState(null);
   const [canInstall, setCanInstall] = useState(!!installEvt);
+  useEffect(() => { if (location.hash.endsWith('/notifications')) setTimeout(() => document.getElementById('notifications')?.scrollIntoView({ block: 'center' }), 400); }, []);
   useEffect(() => { const f = () => setCanInstall(true); addEventListener('dheen-installable', f); return () => removeEventListener('dheen-installable', f); }, []);
   const download = async () => {
     for (let n = 1; n <= 114; n++) { await fetch(`/quran/${n}.json`).catch(() => {}); setDl(n); }
@@ -1061,7 +1075,7 @@ function SettingsPage() {
     <${AccountBox} />
     <div class="row"><span>${t('theme')}</span>${seg('theme', [['auto', t('auto')], ['light', t('light')], ['dark', t('dark')]])}</div>
     <${IslandPicker} islands=${pd.data?.islands || []} value=${s.island} onPick=${(id) => { setSettings({ island: id }); syncPush(getSettings()).catch(() => {}); }} />
-    <section class="block"><h2>${t('notifications')}</h2><${Notifications} /></section>
+    <section class="block" id="notifications"><h2>${t('notifications')}</h2><${Notifications} /></section>
     <section class="block"><h2>${t('quran')}</h2>
       <${ReciterPicker} />
       <${FullOffline} />
@@ -1082,6 +1096,76 @@ function SettingsPage() {
   </div>`;
 }
 
+
+// ---------- qibla compass ----------
+function QiblaPage() {
+  const s = useSettings();
+  const d = useData(prayerData, []);
+  const [heading, setHeading] = useState(null);
+  const [state, setState] = useState('idle'); // idle, on, denied, none
+  const near = useRef(false);
+  const smooth = useRef(null);
+  useEffect(() => () => { window.removeEventListener('deviceorientationabsolute', onTurn, true); window.removeEventListener('deviceorientation', onTurn, true); }, []);
+  function onTurn(e) {
+    let h = null;
+    if (typeof e.webkitCompassHeading === 'number') h = e.webkitCompassHeading; // iPhone: degrees from north
+    else if (e.absolute && e.alpha != null) h = 360 - e.alpha; // Android
+    if (h == null || Number.isNaN(h)) return;
+    const so = (screen.orientation && screen.orientation.angle) || 0;
+    h = (h + so + 360) % 360;
+    // ease towards the new reading along the short way round, so the dial does not jitter
+    if (smooth.current == null) smooth.current = h;
+    else { let diff = h - smooth.current; if (diff > 180) diff -= 360; if (diff < -180) diff += 360; smooth.current = (smooth.current + diff * 0.25 + 360) % 360; }
+    setHeading(smooth.current);
+  }
+  const start = async () => {
+    try {
+      if (typeof DeviceOrientationEvent === 'undefined') return setState('none');
+      if (typeof DeviceOrientationEvent.requestPermission === 'function') {
+        if ((await DeviceOrientationEvent.requestPermission()) !== 'granted') return setState('denied');
+      }
+      window.addEventListener('deviceorientationabsolute', onTurn, true);
+      window.addEventListener('deviceorientation', onTurn, true);
+      setState('on');
+      setTimeout(() => { if (smooth.current == null) setState('none'); }, 3000);
+    } catch { setState('denied'); }
+  };
+  return html`<${Wait} s=${d}>${(data) => {
+    const { island } = timesFor(data, s.island, mvNow());
+    const q = island.q ?? 300.8;
+    const off = heading == null ? null : ((q - heading + 540) % 360) - 180; // how far the qibla is to the right (+) or left (-)
+    const aligned = off != null && Math.abs(off) < 4;
+    if (aligned && !near.current && navigator.vibrate) navigator.vibrate([40, 40, 90]);
+    near.current = aligned;
+    const points = isDv() ? ['އުތުރު', 'އިރުމަތި', 'ދެކުނު', 'ހުޅަނގު'] : ['N', 'E', 'S', 'W'];
+    return html`<div class="page qibla">
+      <a class="backlink" href="#/prayer"><${Icon} name="back" /> ${t('prayer')}</a>
+      <h1>${t('qibla')}</h1>
+      <p class="lede">${island.a}. ${island.n}: <strong class="num">${q.toFixed(0)}°</strong> ${t('qiblaFrom')}</p>
+      <div class="compass ${aligned ? 'is-aligned' : ''}" role="img" aria-label=${`${t('qibla')} ${q.toFixed(0)}°`}>
+        <span class="compass-top" aria-hidden="true"></span>
+        <div class="dial" style=${{ transform: `rotate(${-(heading || 0)}deg)` }}>
+          <svg viewBox="-110 -110 220 220" aria-hidden="true">
+            <circle r="104" class="dial-rim" /><circle r="92" class="dial-face" />
+            ${Array.from({ length: 72 }, (_, i) => html`<line x1="0" y1=${i % 18 === 0 ? -92 : i % 6 === 0 ? -92 : -92} x2="0" y2=${i % 18 === 0 ? -76 : i % 6 === 0 ? -82 : -87} transform=${`rotate(${i * 5})`} class=${i % 18 === 0 ? 'tick major' : 'tick'} />`)}
+            ${points.map((p, i) => html`<text x="0" y="-58" transform=${`rotate(${i * 90})`} class=${i === 0 ? 'pt north' : 'pt'}>${p}</text>`)}
+            <g transform=${`rotate(${q})`}>
+              <path d="M0 -98 L9 -70 L0 -76 L-9 -70 Z" class="q-arrow" />
+              <line x1="0" y1="-70" x2="0" y2="-18" class="q-line" />
+              <g transform="translate(0 -40)"><rect x="-11" y="-11" width="22" height="22" rx="2.5" class="kaaba" /><rect x="-11" y="-6" width="22" height="4" class="kaaba-band" /></g>
+            </g>
+            <circle r="6" class="dial-hub" />
+          </svg>
+        </div>
+      </div>
+      ${state === 'on' && heading != null && html`<p class="q-status ${aligned ? 'ok' : ''}" role="status">${aligned ? t('qiblaFacing') : `${t(off > 0 ? 'turnRight' : 'turnLeft')} ${Math.abs(off).toFixed(0)}°`}</p>`}
+      ${state === 'idle' && html`<button class="btn primary" onClick=${start}><${Icon} name="explore" /> ${t('startCompass')}</button>`}
+      ${state === 'denied' && html`<p class="notice">${t('compassDenied')}</p>`}
+      ${state === 'none' && html`<p class="notice">${t('compassNone')}</p>`}
+      <ul class="q-tips muted"><li>${t('qTip1')}</li><li>${t('qTip2')}</li><li>${t('qTip3')}</li></ul>
+    </div>`;
+  }}<//>`;
+}
 
 // ---------- dedication ----------
 const MEM_AR = 'اللَّهُمَّ اغْفِرْ لَهَا وَارْحَمْهَا، وَعَافِهَا، وَاعْفُ عَنْهَا، وَأَكْرِمْ نُزُلَهَا، وَوَسِّعْ مُدْخَلَهَا، وَاغْسِلْهَا بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ، وَنَقِّهَا مِنَ الْخَطَايَا كَمَا نَقَّيْتَ الثَّوْبَ الْأَبْيَضَ مِنَ الدَّنَسِ، وَأَبْدِلْهَا دَارًا خَيْرًا مِنْ دَارِهَا، وَأَهْلًا خَيْرًا مِنْ أَهْلِهَا، وَأَدْخِلْهَا الْجَنَّةَ، وَأَعِذْهَا مِنْ عَذَابِ الْقَبْرِ وَعَذَابِ النَّارِ';
@@ -1144,6 +1228,7 @@ function App() {
   else if (head === 'duas') page = html`<${DuasPage} boot=${boot.data} />`;
   else if (head === 'explore' || head === 'library') page = html`<${ExplorePage} boot=${boot.data} focus=${a} />`;
   else if (head === 'arabic') page = html`<${ArabicPage} boot=${boot.data} tab=${a} />`;
+  else if (head === 'qibla') page = html`<${QiblaPage} />`;
   else if (head === 'memory') page = html`<${MemoryPage} />`;
   else if (head === 'guide') page = html`<${GuidePage} boot=${boot.data} id=${decodeURIComponent(a || '')} />`;
   else if (head === 's') page = html`<${SectionPage} boot=${boot.data} id=${a} />`;
