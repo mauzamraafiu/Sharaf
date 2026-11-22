@@ -577,6 +577,14 @@ function DuasPage({ boot }) {
 
 // ---------- guided dhikr: one remembrance at a time, with its count ----------
 const GUIDE_COUNTS = { 'dua-bismillah-protection': 3, 'dua-hasbiyallah': 7, 'dua-subhanallah-100': 100, 'dhikr-tahlil-100': 100 };
+// How many times a dua is said: a fixed list first, then whatever its title states ("three times", "33 times").
+const COUNT_WORDS = { two: 2, three: 3, four: 4, five: 5, seven: 7, ten: 10, hundred: 100 };
+function countFor(it) {
+  if (GUIDE_COUNTS[it.id]) return GUIDE_COUNTS[it.id];
+  const m = /\b(?:(\d+)|(?:one |a )?(hundred)|(two|three|four|five|seven|ten))\s+times\b(?!\s+between)/i.exec(it.title_en || '');
+  if (!m) return 1;
+  return m[1] ? +m[1] : COUNT_WORDS[(m[2] || m[3]).toLowerCase()] || 1;
+}
 const firstPara = (x) => (x || '').split(/\n\s*\n/)[0].replace(/\*\*/g, '');
 const fromItem = (it, n) => ({ ar: it.arabic, tr: it.translit, en: firstPara(it.body_en), dv: firstPara(it.body_dv), n, title_en: it.title_en, title_dv: it.title_dv, ref: it.ref, item: it });
 const TAHLIL_EN = 'There is no god but Allah, alone, with no partner. His is the dominion and His is the praise, and He has power over all things.';
@@ -610,7 +618,7 @@ async function buildGuide(id, boot) {
   const secId = id.replace(/^sec:/, '');
   const sec = boot.sections.find((x) => x.id === secId);
   const items = (await sectionItems(secId)).filter((i) => i.arabic);
-  return { title: sec ? pick(sec, 'title') : '', back: `#/s/${secId}`, steps: items.map((it) => fromItem(it, GUIDE_COUNTS[it.id] || 1)) };
+  return { title: sec ? pick(sec, 'title') : '', back: `#/s/${secId}`, steps: items.map((it) => fromItem(it, countFor(it))) };
 }
 function GuidePage({ boot, id }) {
   const d = useData(() => buildGuide(id, boot), [id]);
