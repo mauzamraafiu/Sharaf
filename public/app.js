@@ -1271,7 +1271,9 @@ function MemoryPage() {
 // Phones and tablets get five destinations in a bottom bar; wide screens get the same plus more in a bar across the top.
 const NAV = [['', 'home', 'home'], ['quran', 'quran', 'quran'], ['prayer', 'prayer', 'prayer'], ['duas', 'duas', 'duas'], ['explore/g_stories', 'stories', 'book', 1], ['arabic', 'arabicT', 'chat', 1], ['explore', 'explore', 'explore']];
 function App() {
-  useSettings();
+  const appSettings = useSettings();
+  // one text-size setting drives Arabic everywhere
+  useEffect(() => { document.documentElement.style.setProperty('--ar-size', (appSettings.arSize || 30) + 'px'); }, [appSettings.arSize]);
   const route = useRoute();
   const boot = useBoot();
   const [head, a, b] = route;

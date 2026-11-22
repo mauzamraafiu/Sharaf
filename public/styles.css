@@ -843,3 +843,8 @@ input[type=range] { accent-color: var(--lagoon); width: min(52%, 220px); height:
 .mem-dua .notice .ar { display: block; font-size: clamp(1.6rem, 7vw, 2rem); line-height: 2.1; margin-top: 6px; }
 .mem-dua .translit { font-size: 1.05rem; line-height: 1.7; }
 .mem-rahimaha { font-size: clamp(1.6rem, 7vw, 2rem); line-height: 2; }
+
+/* Arabic that sits in cards follows the Arabic text size setting */
+.daily .ar { font-size: var(--ar-size, 30px); line-height: 2.1; }
+.mem-dua > .ar { font-size: max(var(--ar-size, 30px), 1.75rem); }
+.now .ar, .card .ar { font-size: calc(var(--ar-size, 30px) * .8); }
