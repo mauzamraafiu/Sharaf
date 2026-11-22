@@ -5,8 +5,8 @@
   "compatibility_date": "2026-10-01",
   // Static files are free and unlimited; only /api/* runs the Worker.
   "assets": { "directory": "./public", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
-  // No database_id on purpose: the first deploy creates the D1 database and links it.
-  "d1_databases": [{ "binding": "DB", "database_name": "sharaf" }],
+  // The D1 database created by the first deploy (it kept its original name, "dheen").
+  "d1_databases": [{ "binding": "DB", "database_name": "dheen", "database_id": "54df921a-b629-4e72-9f1f-a16c20205ed6" }],
   // One cron: imports new content after a deploy, then sends prayer-time notifications.
   "triggers": { "crons": ["* * * * *"] },
   "vars": { "PUSH_CONTACT": "mailto:admin@example.com" },
