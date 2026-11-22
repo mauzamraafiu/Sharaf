@@ -5,7 +5,7 @@ import { html } from './vendor/preact-htm.js';
 const DEFAULTS = {
   lang: 'en', theme: 'auto', island: 102, reciter: 'Alafasy_128kbps',
   show: { ar: true, en: true, dv: true }, arSize: 30, last: null, marks: [],
-  notif: { on: false, prayers: 31, lead: 0 }, qmode: 'study', mpage: 1, pagesRead: [], counts: {}, prayed: {}, arWords: [],
+  notif: { on: false, prayers: 31, lead: 0 }, qmode: 'study', mpage: 1, pagesRead: [], counts: {}, prayed: {}, arWords: [], saved: [], notes: {},
 };
 let settings = { ...DEFAULTS };
 try { settings = { ...DEFAULTS, ...JSON.parse(localStorage.getItem('dheen') || '{}') }; } catch {}
@@ -31,7 +31,7 @@ export function applyTheme() {
 }
 
 // ---------- account: progress follows the reader to any device they sign in on ----------
-const SYNC_KEYS = ['prayed', 'arWords', 'last', 'marks', 'mpage', 'pagesRead', 'counts', 'island', 'reciter', 'show', 'arSize', 'qmode', 'mScale', 'qTaj'];
+const SYNC_KEYS = ['prayed', 'arWords', 'last', 'marks', 'mpage', 'pagesRead', 'counts', 'island', 'reciter', 'show', 'arSize', 'qmode', 'mScale', 'qTaj', 'saved', 'notes'];
 let user = null, pushTimer = null;
 export const getUser = () => user;
 function schedulePush() {
@@ -53,6 +53,9 @@ function mergeRemote(r) {
   m.prayed = { ...(r.prayed || {}) };
   for (const [d, v] of Object.entries(settings.prayed || {})) m.prayed[d] = (m.prayed[d] || [0, 0, 0, 0, 0]).map((x, i) => (x || v[i] ? 1 : 0));
   m.arWords = [...new Set([...(settings.arWords || []), ...(r.arWords || [])])];
+  const sk = new Set(); m.saved = [];
+  for (const x of [...(settings.saved || []), ...(r.saved || [])]) if (x && x.k && !sk.has(x.k)) { sk.add(x.k); m.saved.push(x); }
+  m.notes = { ...(r.notes || {}), ...(settings.notes || {}) };
   m.counts = { ...(r.counts || {}) };
   for (const [id, c] of Object.entries(settings.counts || {})) if (!m.counts[id] || (c.n || 0) > (m.counts[id].n || 0)) m.counts[id] = c;
   settings = m;
@@ -73,6 +76,12 @@ export const todayKey = () => mvNow().toISOString().slice(0, 10);
 
 // ---------- language ----------
 const T = {
+  hajjCk: ['Hajj and Umrah checklist', 'ޙައްޖާއި ޢުމްރާގެ ޗެކްލިސްޓު'], hajjCkSum: ['Tick each rite as you do it', 'ކުރާ ކޮންމެ ކަމެއް ފާހަގަކުރޭ'],
+  janazahCk: ['When someone dies', 'މީހަކު މަރުވުމުން'], janazahCkSum: ['What the family does, in order', 'ޢާއިލާއިން ކުރަންވީ ކަންކަން، ތަރުތީބުން'],
+  seerahT: ['Seerah timeline', 'ސީރަތުގެ ތާރީޚު'], seerahSum: ['The life of the Prophet ﷺ, year by year', 'ރަސޫލާ ﷺ ގެ ޙަޔާތްޕުޅު، އަހަރުން އަހަރަށް'],
+  names99: ['The 99 names of Allah', 'ﷲ ގެ 99 އިސްމުފުޅު'], names99Sum: ['Three a day', 'ދުވާލަކު ތިން އިސްމުފުޅު'],
+  pathT: ['New to Islam', 'އިސްލާމްދީނަށް އަލަށް'], pathSum: ['A first month of short readings', 'ފުރަތަމަ މަހަށް ކުރު ކިޔުންތައް'],
+  tasbihT: ['Tasbih', 'ތަސްބީޙަ'], tasbihSum: ['33, 33, 33 after the prayer', 'ނަމާދަށްފަހު 33، 33، 33'],
   home: ['Home', 'ފުރަތަމަ ޞަފްޙާ'], quran: ['Quran', 'ޤުރުއާން'], prayer: ['Prayer', 'ނަމާދު'], duas: ['Duas', 'ދުޢާ'],
   library: ['Library', 'ލައިބްރަރީ'], search: ['Search', 'ހޯދާ'], settings: ['Settings', 'ސެޓިންގްސް'],
   fajr: ['Fajr', 'ފަތިސް'], sunrise: ['Sunrise', 'އިރުއެރުން'], dhuhr: ['Dhuhr', 'މެންދުރު'], asr: ['Asr', 'ޢަޞްރު'], maghrib: ['Maghrib', 'މަޣްރިބް'], isha: ['Isha', 'ޢިޝާ'],

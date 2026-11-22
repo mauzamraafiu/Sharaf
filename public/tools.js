@@ -4,6 +4,7 @@
 import { html, useState, useEffect, useRef } from './vendor/preact-htm.js';
 import { getSettings, setSettings, onSettings, isDv, mvNow, todayKey, timesFor, fmtTime, fmtSpan, hijriParts, getJSON, api, ayahUrl } from './lib.js';
 import { QUIZ } from './quiz.js';
+import { NamesPage, SeerahPage, TasbihPage, HajjPage, JanazahPage, PathPage, SavedPage } from './more.js';
 
 const L = (en, dv) => (isDv() ? dv : en);
 const tools = () => getSettings().tools || {};
@@ -15,24 +16,48 @@ const Back = () => html`<a class="back" href="#/t">‹ ${L('Tools', 'ޓޫލްސ�
 const num = (v) => { const n = parseFloat(String(v).replace(/,/g, '')); return isFinite(n) && n > 0 ? n : 0; };
 const money = (n) => n.toLocaleString('en', { maximumFractionDigits: 2 });
 
-export const TOOLS = [
-  ['ramadan', 'Ramadan', 'ރަމަޟާން', 'Suhoor and iftar times, a fasting tracker and a juz a day.', 'ހާރުކާ ވަގުތާއި ރޯދަވީއްލާ ވަގުތު، ރޯދައިގެ ޗާޓު، ދުވާލަކު ފޮތެއް.'],
-  ['khatm', 'Finish the Quran', 'ޤުރުއާން ޚަތިމްކުރުން', 'Pick a number of days and read your pages each day.', 'ދުވަސްތައް ކަނޑައަޅައި، ކޮންމެ ދުވަހަކު ޞަފްޙާތައް ކިޔަވާ.'],
-  ['hifz', 'Memorise', 'ހިތުދަސްކުރުން', 'Hear an ayah again and again, then hide it and test yourself.', 'އާޔަތެއް ތަކުރާރުކޮށް އަޑުއަހައި، ފޮރުވައިގެން ކިޔާ.'],
-  ['quiz', 'Daily quiz', 'ދުވަހުގެ ކުއިޒް', 'Five questions a day.', 'ދުވާލަކު ފަސް ސުވާލު.'],
-  ['kids', 'Children\'s star chart', 'ކުދިންގެ ތަރި ޗާޓު', 'A star for every good deed today.', 'މިއަދު ކުރާ ކޮންމެ ހެޔޮ ކަމަކަށް ތަރިއެއް.'],
-  ['qada', 'Missed prayers', 'ޤަޟާ ނަމާދު', 'Count what you owe and tick each one you make up.', 'ޤަޟާކުރަންޖެހޭ ނަމާދު ގުނައި، ކުރާ ކޮންމެ ނަމާދެއް ފާހަގަކުރޭ.'],
-  ['zakat', 'Zakat calculator', 'ޒަކާތް ހިސާބުކުރުން', 'Work out 2.5% on what you own, in rufiyaa.', 'ރުފިޔާއިން، މުދަލުގެ 2.5% ހިސާބުކުރޭ.'],
-  ['mosque', 'Mosques near me', 'ކައިރީގައިވާ މިސްކިތްތައް', 'Open the map at the nearest mosques.', 'އެންމެ ކައިރި މިސްކިތްތައް ޗާޓުން ބަލާ.'],
+// [id or link, English, Dhivehi, English line, Dhivehi line, icon]
+export const TOOL_GROUPS = [
+  ['Every day', 'ކޮންމެ ދުވަހަކު', [
+    ['tasbih', 'Tasbih', 'ތަސްބީޙަ', 'Count your dhikr with a tap and a click.', 'ފިއްތާލައިގެން ޛިކުރު ގުނާ.', 'count'],
+    ['quiz', 'Daily quiz', 'ދުވަހުގެ ކުއިޒް', 'Five questions a day.', 'ދުވާލަކު ފަސް ސުވާލު.', 'chat'],
+    ['khatm', 'Finish the Quran', 'ޤުރުއާން ޚަތިމްކުރުން', 'Pick a number of days and read your pages each day.', 'ދުވަސްތައް ކަނޑައަޅައި، ކޮންމެ ދުވަހަކު ޞަފްޙާތައް ކިޔަވާ.', 'quran'],
+    ['hifz', 'Memorise', 'ހިތުދަސްކުރުން', 'Hear an ayah again and again, then hide it and test yourself.', 'އާޔަތެއް ތަކުރާރުކޮށް އަޑުއަހައި، ފޮރުވައިގެން ކިޔާ.', 'quran'],
+    ['kids', 'Children\'s star chart', 'ކުދިންގެ ތަރި ޗާޓު', 'A star for every good deed today.', 'މިއަދު ކުރާ ކޮންމެ ހެޔޮ ކަމަކަށް ތަރިއެއް.', 'star'],
+    ['saved', 'Saved', 'ރައްކާކުރި ތަކެތި', 'Your bookmarked ayahs and duas, with your notes.', 'ރައްކާކުރި އާޔަތްތަކާއި ދުޢާތައް، ނޯޓުތަކާއެކު.', 'mark'],
+  ]],
+  ['Learn', 'ދަސްކުރުން', [
+    ['names', 'The 99 names of Allah', 'ﷲ ގެ 99 އިސްމުފުޅު', 'Three a day, with a tick for each one learnt.', 'ދުވާލަކު ތިން އިސްމުފުޅު.', 'star'],
+    ['seerah', 'Seerah timeline', 'ސީރަތުގެ ތާރީޚު', 'The life of the Prophet ﷺ, year by year.', 'ރަސޫލާ ﷺ ގެ ޙަޔާތްޕުޅު، އަހަރުން އަހަރަށް.', 'book'],
+    ['path', 'New to Islam', 'އިސްލާމްދީނަށް އަލަށް', 'A first month of short readings, in order.', 'ފުރަތަމަ މަހަށް ތަރުތީބުން ކުރު ކިޔުންތައް.', 'next'],
+    ['#/s/sisters', 'For sisters', 'އަންހެނުންނަށް', 'Prayer and fasting rulings particular to women.', 'އަންހެނުންނަށް ޚާއްޞަ ނަމާދާއި ރޯދައިގެ ޙުކުމްތައް.', 'library'],
+  ]],
+  ['Seasons and duties', 'މޫސުންތަކާއި ވާޖިބުތައް', [
+    ['ramadan', 'Ramadan', 'ރަމަޟާން', 'Suhoor and iftar times, a fasting tracker and a juz a day.', 'ހާރުކާ ވަގުތާއި ރޯދަވީއްލާ ވަގުތު، ރޯދައިގެ ޗާޓު، ދުވާލަކު ފޮތެއް.', 'moon'],
+    ['hajj', 'Hajj and Umrah checklist', 'ޙައްޖާއި ޢުމްރާގެ ޗެކްލިސްޓު', 'Tick each rite as you do it. Works offline.', 'ކުރާ ކޮންމެ ކަމެއް ފާހަގަކުރޭ. އިންޓަނެޓް ނެތިވެސް.', 'kaaba'],
+    ['zakat', 'Zakat calculator', 'ޒަކާތް ހިސާބުކުރުން', 'Work out 2.5% on what you own, in rufiyaa.', 'ރުފިޔާއިން، މުދަލުގެ 2.5% ހިސާބުކުރޭ.', 'count'],
+    ['qada', 'Missed prayers', 'ޤަޟާ ނަމާދު', 'Count what you owe and tick each one you make up.', 'ޤަޟާކުރަންޖެހޭ ނަމާދު ގުނައި، ކުރާ ކޮންމެ ނަމާދެއް ފާހަގަކުރޭ.', 'prayer'],
+    ['janazah', 'When someone dies', 'މީހަކު މަރުވުމުން', 'What the family does, in order, with the duas.', 'ޢާއިލާއިން ކުރަންވީ ކަންކަން، ތަރުތީބުން.', 'duas'],
+    ['mosque', 'Mosques near me', 'ކައިރީގައިވާ މިސްކިތްތައް', 'Open the map at the nearest mosques.', 'އެންމެ ކައިރި މިސްކިތްތައް ޗާޓުން ބަލާ.', 'compass'],
+  ]],
 ];
+const TP = {
+  count: 'M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16zM12 8.5v7M8.5 12h7', chat: 'M4 6h16v10H9l-5 4zM8 10h8M8 13h5', quran: 'M4 5c3-1.5 6-1.5 8 0 2-1.5 5-1.5 8 0v14c-3-1.5-6-1.5-8 0-2-1.5-5-1.5-8 0zM12 5v14',
+  star: 'M12 4l2.4 5 5.6.7-4.1 3.8 1.1 5.5-5-2.8-5 2.8 1.1-5.5L4 9.7l5.6-.7z', mark: 'M7 4h10v16l-5-4-5 4z', book: 'M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3zM5 17a3 3 0 0 1 3-3h11M9 8h6', next: 'M5 19 19 5M9 5h10v10',
+  library: 'M5 4h4v16H5zM10.5 4h4v16h-4zM16 6l3.5-1 3 14-3.5 1z', moon: 'M19 14.5A8 8 0 0 1 9.5 5a7 7 0 1 0 9.5 9.5z', kaaba: 'M5 8l7-3 7 3v10l-7 3-7-3zM5 11.5l7 3 7-3M12 14.5V21',
+  prayer: 'M12 3c2 2.5 4.5 3.5 4.5 7H7.5c0-3.5 2.5-4.5 4.5-7zM5 21V10.5h14V21M10 21v-4a2 2 0 0 1 4 0v4', duas: 'M7 20c-2-2-3-5-3-8l2.5-5 2 4.5V6l2-2 1.5 2 1.5-2 2 2v5.5l2-4.5 2.5 5c0 3-1 6-3 8', compass: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM15.5 8.5l-2 5-5 2 2-5z',
+};
+const TIcon = ({ n }) => html`<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d=${TP[n]} /></svg>`;
 
 export function ToolsPage({ name }) {
   useS();
   const P = { ramadan: Ramadan, khatm: Khatm, hifz: Hifz, quiz: Quiz, kids: Kids, qada: Qada, zakat: Zakat, mosque: Mosque }[name];
   if (P) return html`<div class="page tool"><${Back} /><${P} /></div>`;
+  const Q = { names: NamesPage, seerah: SeerahPage, tasbih: TasbihPage, hajj: HajjPage, janazah: JanazahPage, path: PathPage, saved: SavedPage }[name];
+  if (Q) return html`<${Q} />`;
   return html`<div class="page wide"><h1>${L('Tools', 'ޓޫލްސް')}</h1>
-    <div class="tool-grid">${TOOLS.map(([id, en, dv, sen, sdv]) => html`<a class="card" href=${'#/t/' + id}><strong>${L(en, dv)}</strong><span class="muted">${L(sen, sdv)}</span></a>`)}
-      <a class="card" href="#/s/sisters"><strong>${L('For sisters', 'އަންހެނުންނަށް')}</strong><span class="muted">${L('Prayer and fasting rulings particular to women.', 'އަންހެނުންނަށް ޚާއްޞަ ނަމާދާއި ރޯދައިގެ ޙުކުމްތައް.')}</span></a></div>
+    ${TOOL_GROUPS.map(([gen, gdv, list]) => html`<section class="tgroup"><h2>${L(gen, gdv)}</h2>
+      <div class="cardgrid rows">${list.map(([id, en, dv, sen, sdv, icon]) => html`<a class="card" data-tone=${icon} href=${id[0] === '#' ? id : '#/t/' + id}><span class="disc"><${TIcon} n=${icon} /></span><strong>${L(en, dv)}</strong><span class="muted">${L(sen, sdv)}</span></a>`)}</div></section>`)}
     <${AzanSetting} /></div>`;
 }
 

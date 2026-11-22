@@ -4,6 +4,7 @@ import { LETTERS, WORDS } from './arabic.js';
 import { Admin } from './admin.js';
 import { StepFigure, PrayerPicker } from './figures.js';
 import { ToolsPage, FridayCard, AzanWatcher } from './tools.js';
+import { SaveBtn, ShareBtn, NoteBox, noteFor, QuranFind } from './more.js';
 
 // ---------- hooks ----------
 function useSettings() {
@@ -171,7 +172,7 @@ const PATHS = {
   explore: 'M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z', check: 'M5 12.5l4.5 4.5L19 7.5', calendar: 'M5 6h14v14H5zM5 10h14M9 3.5v4M15 3.5v4',
   moon: 'M19 14.5A8 8 0 0 1 9.5 5a7 7 0 1 0 9.5 9.5z', kaaba: 'M5 8l7-3 7 3v10l-7 3-7-3zM5 11.5l7 3 7-3M12 14.5V21', star: 'M12 4l2.4 5 5.6.7-4.1 3.8 1.1 5.5-5-2.8-5 2.8 1.1-5.5L4 9.7l5.6-.7z',
   drop: 'M12 3.5c3 4 5.5 6.8 5.5 10a5.5 5.5 0 0 1-11 0c0-3.2 2.5-6 5.5-10z', book: 'M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3zM5 17a3 3 0 0 1 3-3h11M9 8h6', chat: 'M4 6h16v10H9l-5 4zM8 10h8M8 13h5',
-  down: 'M12 4v11M7 11l5 5 5-5M5 20h14',
+  down: 'M12 4v11M7 11l5 5 5-5M5 20h14', more: 'M5.5 12h.5M11.75 12h.5M18 12h.5', note: 'M5 5h14v10l-4 4H5zM15 19v-4h4M8 9h8M8 12h5',
   count: 'M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16zM12 8.500v7M8.500 12h7',
   play: 'M7 4.500v15l12-7.500z', pause: 'M7 5h3.500v14H7zM13.500 5H17v14h-3.500z', close: 'M6 6l12 12M18 6 6 18', mark: 'M7 4h10v16l-5-4-5 4z', back: 'M14 5l-7 7 7 7', next: 'M9 5l7 7-7 7',
 };
@@ -404,6 +405,21 @@ function AyahOfDay() {
     </div>
   </section>`;
 }
+function HadithOfDay() {
+  const d = useData(() => sectionItems('forty-hadith'), []);
+  useSettings();
+  if (!d.data || !d.data.length) return null;
+  const it = d.data[Math.floor((Date.now() + 5 * 3600000) / 86400000) % d.data.length];
+  const dv = isDv() && it.body_dv, text = firstPara(dv ? it.body_dv : it.body_en);
+  const short = text.length > 300 ? text.slice(0, 280).replace(/\s+\S*$/, '') + '…' : text;
+  return html`<section class="block">
+    <h2>${isDv() ? 'މިއަދުގެ ޙަދީޘް' : 'Today\'s hadith'}</h2>
+    <div class="daily hadith">
+      <a href=${`#/i/${it.id}`}><strong class="daily-t">${pick(it, 'title').replace(/^\d+\.\s*/, '')}</strong><p class=${dv ? 'dv' : ''}>${short}</p></a>
+      <div class="daily-foot"><a class="muted" href=${`#/i/${it.id}`}>${isDv() ? 'ނަވަވީގެ ސާޅީސް ޙަދީޘް' : 'An-Nawawi\'s Forty'}</a><${ListenButton} item=${it} /></div>
+    </div>
+  </section>`;
+}
 // What is worth doing right now: by the clock, the weekday and the Hijri date.
 function NowCard({ boot }) {
   const s = useSettings();
@@ -467,6 +483,7 @@ function Home({ boot }) {
         </a>`}
         ${(s.pagesRead || []).length > 0 && html`<a class="progress" href=${`#/mushaf/${s.mpage || 1}`}><span class="muted">${t('modeBook')}: ${t('pageWord')} <span class="num">${s.mpage || 1}</span></span><strong><span class="num">${s.pagesRead.length}</span> / <span class="num">604</span> ${t('pagesRead')}</strong><span class="bar"><i style=${{ width: (s.pagesRead.length / 604) * 100 + '%' }}></i></span></a>`}
         <div class="ayah-today"><${AyahOfDay} /></div>
+        <div class="hadith-today"><${HadithOfDay} /></div>
       </div>
     </div>
     <${MemoryPanel} />
@@ -545,6 +562,8 @@ function Surah({ n, focus }) {
   const tjd = useData(() => (getSettings().qTaj ? getJSON(`/quran/tj/${n}.json`) : Promise.resolve(null)), [n, s.qTaj]);
   const wbd = useData(() => (getSettings().qWbw ? getJSON(`/quran/wbw/${n}.json`) : Promise.resolve(null)), [n, s.qWbw]);
   const [word, setWord] = useState(null); // [ayah, word index] of the word whose meaning is showing
+  const [more, setMore] = useState(0); // the ayah whose extra buttons are open
+  const [noting, setNoting] = useState(false);
   const a = useAudio();
   const seen = useRef(null);
   useEffect(() => {
@@ -598,12 +617,17 @@ function Surah({ n, focus }) {
               <span class="num an">${an}</span>
               <button class="icon-btn" aria-label=${`${t(on && a.playing ? 'pause' : 'play')} ${t('ayah')} ${an}`} onClick=${() => (on ? toggleAudio() : playOne(i))}><${Icon} name=${on && a.playing ? 'pause' : 'play'} /></button>
               <button class="icon-btn" aria-label=${`${t('bookmark')} ${an}`} aria-pressed=${marked(an)} onClick=${() => mark(an)}><${Icon} name="mark" fill=${marked(an) ? 'currentColor' : 'none'} /></button>
+              <button class="icon-btn more-btn" aria-label=${isDv() ? 'ނޯޓާއި ހިއްސާކުރުން' : 'Note and share'} aria-expanded=${more === an} onClick=${() => { setNoting(false); setMore(more === an ? 0 : an); }}><${Icon} name="more" /></button>
             </div>
             <div class="ayah-body">
               ${s.show.ar && html`<p class="ar" lang="ar" dir="rtl" style=${{ fontSize: s.arSize + 'px' }}><${AyahText} text=${v[0]} tj=${s.qTaj && tjd.data ? tjd.data[an] : null} wbw=${s.qWbw && wbd.data ? wbd.data[an] : null} open=${word && word[0] === an ? word[1] : -1} onWord=${(i) => setWord(word && word[0] === an && word[1] === i ? null : [an, i])} />${su.sajda.includes(an) ? ' ۩' : ''}</p>`}
               ${s.show.ar && word && word[0] === an && wbd.data && wbd.data[an] && wbd.data[an][word[1]] && html`<p class="qw-card" dir="ltr" lang="en"><strong>${wbd.data[an][word[1]][1]}</strong> <span class="muted">${wbd.data[an][word[1]][0]}</span></p>`}
               ${s.show.en && html`<p class="tr" lang="en" dir="ltr">${v[1]}</p>`}
               ${s.show.dv && html`<p class="tr dv" lang="dv" dir="rtl">${v[2]}</p>`}
+              ${noteFor(`q:${su.n}:${an}`) && !(more === an && noting) && html`<p class="mynote"><${Icon} name="note" /> ${noteFor(`q:${su.n}:${an}`)}</p>`}
+              ${more === an && html`<div class="toolbar ayah-more"><button class="btn" onClick=${() => setNoting(!noting)}><${Icon} name="note" /> ${isDv() ? 'ނޯޓު' : 'Note'}</button>
+                <${ShareBtn} label card=${{ ar: v[0], text: isDv() ? v[2] : v[1], ref: `${su.name} ${su.n}:${an}` }} /></div>
+                <${NoteBox} k=${`q:${su.n}:${an}`} open=${noting} onClose=${() => { setNoting(false); setMore(0); }} />`}
             </div>
           </li>`;
         })}
@@ -633,7 +657,7 @@ const groupOf = (sec) => (sec.id === 'seasons' ? 'g_days' : AREA_GROUP[sec.area]
 const SectionCards = ({ boot, sections }) => sections.map((sec) => html`<${Card} href=${`#/s/${sec.id}`} icon=${AREA_ICON[sec.area] || 'library'} title=${pick(sec, 'title')} sub=${pick(sec, 'summary')} count=${countIn(boot, sec.id)} />`);
 const GROUP_ICON = { g_worship: 'prayer', g_duas: 'duas', g_quran: 'quran', g_days: 'calendar', g_stories: 'book', g_kids: 'star', g_arabic: 'chat', g_know: 'library' };
 // What sits in a group besides its sections: [href, icon, title key, summary key]
-const GROUP_EXTRA = { g_quran: [['#/quran', 'quran', 'readQuran', 'readQuranSum'], ['#/mushaf', 'quran', 'mushafT', 'mushafSum']], g_arabic: [['#/arabic/letters', 'chat', 'letters', 'tapLetter'], ['#/arabic/words', 'chat', 'wordPractice', 'whatMeans']], g_duas: [['#/s/dhikr-tongue', 'count', 'counter', 'tapToCount']] };
+const GROUP_EXTRA = { g_worship: [['#/t/hajj', 'kaaba', 'hajjCk', 'hajjCkSum'], ['#/t/janazah', 'duas', 'janazahCk', 'janazahCkSum']], g_stories: [['#/t/seerah', 'book', 'seerahT', 'seerahSum']], g_know: [['#/t/names', 'star', 'names99', 'names99Sum'], ['#/t/path', 'library', 'pathT', 'pathSum']], g_quran: [['#/quran', 'quran', 'readQuran', 'readQuranSum'], ['#/mushaf', 'quran', 'mushafT', 'mushafSum']], g_arabic: [['#/arabic/letters', 'chat', 'letters', 'tapLetter'], ['#/arabic/words', 'chat', 'wordPractice', 'whatMeans']], g_duas: [['#/s/dhikr-tongue', 'count', 'counter', 'tapToCount'], ['#/t/tasbih', 'count', 'tasbihT', 'tasbihSum']] };
 // Explore opens as a shelf of eight subjects. Choosing one shows only what is inside it, as a short list.
 function ExplorePage({ boot, focus }) {
   useEffect(() => { scrollTo(0, 0); }, [focus]);
@@ -831,14 +855,20 @@ function Recitation({ item, big }) {
     ${item.translit && html`<p class="translit" lang="en" dir="ltr">${item.translit}</p>`}
   </div>`;
 }
-function ItemBody({ item }) {
+function ItemBody({ item, card }) {
   const dvShown = isDv() && item.body_dv;
-  return html`
-    <${Recitation} item=${item} big />
-    <div class="toolbar"><${ListenButton} item=${item} />${item.kind === 'dua' && countable(item) && html`<a class="btn" href=${`#/count/${item.id}`}><${Icon} name="count" /> ${t('count')}</a>`}</div>
-    <div class=${dvShown ? 'dv' : ''}><${Markdown} text=${dvShown ? item.body_dv : item.body_en} /></div>
-    ${item.ref && html`<p class="ref muted" dir="ltr">${t('source')}: ${item.ref}</p>`}
-    ${dvShown && !item.dv_reviewed ? html`<p class="notice">${t('dvUnreviewed')}</p>` : null}`;
+  const body = dvShown ? item.body_dv : item.body_en;
+  const share = item.arabic && item.arabic.length < 700 ? { title: pick(item, 'title'), ar: item.arabic, text: firstPara(body), ref: item.ref } : null;
+  const acts = html`<div class="toolbar item-acts"><${ListenButton} item=${item} />${item.kind === 'dua' && countable(item) && html`<a class="btn" href=${`#/count/${item.id}`}><${Icon} name="count" /> ${t('count')}</a>`}
+    <span class="acts"><${SaveBtn} item=${item} />${share && html`<${ShareBtn} card=${share} />`}</span></div>`;
+  const note = noteFor('i:' + item.id);
+  const text = html`<div class=${'item-text' + (dvShown ? ' dv' : '')}><${Markdown} text=${body} /></div>`;
+  const tail = html`${note && html`<a class="mynote" href="#/t/saved"><${Icon} name="note" /> ${note}</a>`}${dvShown && !item.dv_reviewed ? html`<p class="notice">${t('dvUnreviewed')}</p>` : null}`;
+  // On a page of duas each one is a card: the words, their meaning, then the source and the buttons along the bottom.
+  if (card) return html`<${Recitation} item=${item} big />${text}${tail}
+    <footer class="dua-foot">${item.ref && html`<p class="ref muted" dir="ltr">${item.ref}</p>`}${acts}</footer>`;
+  return html`<${Recitation} item=${item} big />${acts}${text}
+    ${item.ref && html`<p class="ref muted" dir="ltr">${t('source')}: ${item.ref}</p>`}${tail}`;
 }
 function SectionPage({ boot, id }) {
   const sec = boot.sections.find((x) => x.id === id);
@@ -848,14 +878,19 @@ function SectionPage({ boot, id }) {
   const backHref = sec.area === 'prayer' ? '#/prayer' : sec.area === 'duas' ? '#/duas' : sec.area === 'arabic' ? '#/arabic/lessons' : `#/explore/${groupOf(sec)}`;
   return html`<div class="page">
     <a class="backlink" href=${backHref}><${Icon} name="back" /> ${t(sec.area === 'prayer' ? 'prayer' : sec.area === 'duas' ? 'duas' : groupOf(sec))}</a>
-    <h1>${pick(sec, 'title')}</h1>
-    ${pick(sec, 'summary') && html`<p class="lede">${pick(sec, 'summary')}</p>`}
+    <header class="sec-head"><h1>${pick(sec, 'title')}</h1>
+    ${pick(sec, 'summary') && html`<p class="lede">${pick(sec, 'summary')}</p>`}</header>
     <${Wait} s=${d}>${(items) => {
       const kind = items[0]?.kind;
       if (kind === 'step') return html`<ol class="steps">${items.map((it, i) => html`<li id=${it.id}>
         <p class="stepno muted">${t('step')} <span class="num">${i + 1}</span> ${t('of')} <span class="num">${items.length}</span></p>
         <h2>${pick(it, 'title')}</h2><${StepFigure} id=${it.id} />${it.id === 'salah-02-takbir' && html`<h3 class="picker-title">${t('chooseNiyyah')}</h3><${PrayerPicker} />`}<${ItemBody} item=${it} /></li>`)}</ol>`;
-      if (kind === 'dua') return html`${GUIDED.includes(id) && items.filter((x) => x.arabic).length > 1 && html`<a class="btn primary guide-start" href=${`#/guide/sec:${id}`}><${Icon} name="count" /> ${t('oneByOne')}</a>`}<ul class="duas">${items.map((it) => html`<li id=${it.id}><h2>${pick(it, 'title')}</h2><${ItemBody} item=${it} /></li>`)}</ul>`;
+      if (kind === 'dua') return html`
+        ${GUIDED.includes(id) && items.filter((x) => x.arabic).length > 1 && html`<a class="readall" href=${`#/guide/sec:${id}`}><span class="disc"><${Icon} name="count" /></span>
+          <span class="readall-t"><strong>${t('oneByOne')}</strong><span>${isDv() ? 'ކޮންމެ ދުޢާއެއް ވަކިން، ގުނަމުން' : 'One on the screen at a time, with a counter'}</span></span><${Icon} name="next" /></a>`}
+        ${items.length > 3 && html`<details class="dtoc"><summary><span><span class="num">${items.length}</span> ${isDv() ? 'ދުޢާ މި ޞަފްޙާގައި' : 'on this page'}</span></summary>
+          <ol>${items.map((it) => html`<li><button onClick=${(e) => { e.target.closest('details').open = false; document.getElementById(it.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}>${pick(it, 'title')}</button></li>`)}</ol></details>`}
+        <ul class="duas cards">${items.map((it) => html`<li id=${it.id}><h2>${pick(it, 'title')}</h2><${ItemBody} item=${it} card /></li>`)}</ul>`;
       return html`<ul class="seclist">${items.map((it) => html`<li><a href=${`#/i/${it.id}`}><strong>${pick(it, 'title')}</strong></a></li>`)}</ul>`;
     }}<//>
   </div>`;
@@ -898,6 +933,7 @@ function SearchPage({ boot }) {
   return html`<div class="page">
     <h1>${t('search')}</h1>
     <input class="field" type="search" autofocus placeholder=${t('searchHint')} aria-label=${t('searchHint')} value=${q} onInput=${(e) => setQ(e.target.value)} />
+    <${QuranFind} q=${q} names=${idx.data ? idx.data.surahs : null} />
     <ul class="seclist">
       ${m && +m[1] >= 1 && +m[1] <= 114 && html`<li><a href=${`#/quran/${m[1]}/${m[2]}`}><strong>${t('quran')} <span class="num">${m[1]}:${m[2]}</span></strong></a></li>`}
       ${surahs.map((x) => html`<li><a href=${`#/quran/${x.n}`}><strong>${x.name}</strong><span class="muted">${t('quran')}, ${x.count} ${t('ayahs')}</span></a></li>`)}
@@ -1537,6 +1573,7 @@ function App() {
       <nav class="topnav" aria-label="Main">${NAV.map(link)}</nav>
       <span class="top-actions">
         <a class="icon-btn search-btn" href="#/search" aria-label=${t('search')}><${Icon} name="search" /><span>${t('search')}</span></a>
+        <a class="icon-btn" href="#/t/saved" aria-label=${isDv() ? 'ރައްކާކުރި ތަކެތި' : 'Saved'}><${Icon} name="mark" /></a>
         <a class="icon-btn" href="#/settings" aria-label=${t('settings')}><${Icon} name="settings" /></a>
       </span>
     </header>
