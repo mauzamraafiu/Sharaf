@@ -761,19 +761,21 @@ function GuidePage({ boot, id }) {
 // ---------- learn Arabic ----------
 function LetterChart() {
   const [sel, setSel] = useState(0);
-  const L = LETTERS[sel];
-  return html`<div class="letters-wrap">
-    <div class="letters" dir="rtl">${LETTERS.map((l, i) => html`<button class="letter" aria-pressed=${i === sel} onClick=${() => setSel(i)}><span class="ar" lang="ar">${l[0]}</span><span class="dv">${l[3]}</span></button>`)}</div>
-    <div class="letter-card" key=${sel}>
-      <p class="ar letter-big" lang="ar">${L[0]}</p>
-      <h2>${L[1]}</h2>
-      <dl>
-        <dt>${t('soundT')}</dt><dd>${L[2]}</dd>
-        <dt>${t('thaanaT')}</dt><dd class="dv">${L[3]}</dd>
-        <dt>${L[4] ? t('formsT') : t('aloneT')}</dt><dd class="ar forms" lang="ar" dir="rtl">${L[4] ? html`<span>${L[0]}ـ</span><span>ـ${L[0]}ـ</span><span>ـ${L[0]}</span>` : html`<span>${L[0]}</span><span>ـ${L[0]}</span>`}</dd>
-        <dt>${t('exampleT')}</dt><dd><span class="ar" lang="ar" dir="rtl">${L[5]}</span> <em dir="ltr">${L[6]}</em> · ${isDv() ? html`<span class="dv">${L[8]}</span>` : L[7]}</dd>
-      </dl>
-    </div>
+  const L = LETTERS[sel], n = LETTERS.length, dv = isDv();
+  const forms = L[4] ? [[L[0] + 'ـ', dv ? 'ފެށުމުގައި' : 'Start'], ['ـ' + L[0] + 'ـ', dv ? 'މެދުގައި' : 'Middle'], ['ـ' + L[0], dv ? 'ނިމުމުގައި' : 'End']] : [[L[0], dv ? 'އެކަނި' : 'Alone'], ['ـ' + L[0], dv ? 'ނިމުމުގައި' : 'End']];
+  return html`<div class="abc">
+    <section class="abc-card" key=${sel}>
+      <div class="abc-top">
+        <button class="abc-step" aria-label=${dv ? 'ކުރީގެ އަކުރު' : 'Previous letter'} onClick=${() => setSel((sel + n - 1) % n)}>‹</button>
+        <div class="abc-glyph ar" lang="ar">${L[0]}</div>
+        <div class="abc-name"><h2>${L[1]}</h2><p>${t('soundT')}: <strong>${L[2]}</strong></p><p>${t('thaanaT')}: <strong class="abc-th" lang="dv">${L[3]}</strong></p></div>
+        <button class="abc-step" aria-label=${dv ? 'ދެން އޮތް އަކުރު' : 'Next letter'} onClick=${() => setSel((sel + 1) % n)}>›</button>
+      </div>
+      <div class="abc-forms">${forms.map(([f, label]) => html`<div><span class="ar" lang="ar" dir="rtl">${f}</span><small>${label}</small></div>`)}</div>
+      <p class="abc-ex"><span class="ar" lang="ar" dir="rtl">${L[5]}</span><span><em dir="ltr">${L[6]}</em> · ${dv ? L[8] : L[7]}</span></p>
+      ${!L[4] && html`<p class="muted small">${dv ? 'މި އަކުރު ފަހަތުން އަންނަ އަކުރާ ނުގުޅޭނެއެވެ.' : 'This letter does not join to the letter after it.'}</p>`}
+    </section>
+    <div class="abc-grid" dir="rtl">${LETTERS.map((l, i) => html`<button class="abc-key" aria-pressed=${i === sel} aria-label=${l[1]} onClick=${() => { setSel(i); scrollTo({ top: 0, behavior: 'smooth' }); }}><span class="ar" lang="ar">${l[0]}</span><small lang="dv">${l[3]}</small></button>`)}</div>
   </div>`;
 }
 function WordQuiz() {
