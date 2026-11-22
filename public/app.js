@@ -907,6 +907,13 @@ const pageData = (p) => getJSON(`/quran/page/${p}.json`);
 function MushafPage({ p, surahs, side }) {
   const d = useData(() => pageData(p), [p]);
   const a = useAudio();
+  const st = useSettings();
+  // Tajweed colours come per surah; a page can hold more than one surah.
+  const tj = useData(() => {
+    if (!getSettings().qTaj || !d.data) return Promise.resolve(null);
+    const ns = [...new Set(d.data.ayahs.map((x) => x[0]))];
+    return Promise.all(ns.map((n) => getJSON(`/quran/tj/${n}.json`))).then((all) => Object.fromEntries(ns.map((n, i) => [n, all[i]])));
+  }, [p, st.qTaj, !!d.data]);
   if (!d.data) return html`<div class="leaf ${side}" aria-busy="true"></div>`;
   const pg = d.data;
   const queue = pg.ayahs.map(([s, n]) => ({ url: ayahUrl(s, n), key: `q:${s}:${n}`, s, a: n, label: `${surahs[s - 1].name} ${s}:${n}` }));
@@ -921,7 +928,7 @@ function MushafPage({ p, surahs, side }) {
     }
     const on = a.current?.key === `q:${s}:${n}`;
     run.push(html`<span class="mayah ${on ? 'is-playing' : ''}" role="button" tabindex="0" aria-label=${`${surahs[s - 1].name} ${s}:${n}`}
-      onClick=${() => (on ? toggleAudio() : playQueue(queue, i))} onKeyDown=${(e) => e.key === 'Enter' && playQueue(queue, i)}>${text}<span class="mend">${'۝' + arNum(n)}</span> </span>`);
+      onClick=${() => (on ? toggleAudio() : playQueue(queue, i))} onKeyDown=${(e) => e.key === 'Enter' && playQueue(queue, i)}>${st.qTaj && tj.data && tj.data[s] && tj.data[s][n] ? html`<${AyahText} text=${text} tj=${tj.data[s][n]} />` : text}<span class="mend">${'۝' + arNum(n)}</span> </span>`);
   });
   flush();
   const first = pg.ayahs[0][0];
@@ -1098,6 +1105,7 @@ function Mushaf({ page }) {
     <div class="mushaf-nav">
       <button class="btn" onClick=${next} disabled=${right + (wide ? 1 : 0) >= 604}><${Icon} name="back" /> ${t('nextPage')}</button>
       <span class="muted">${wide ? t('tapAyah') : t('foldHint')}</span>
+      <button class="chip" aria-pressed=${!!getSettings().qTaj} onClick=${() => setSettings({ qTaj: !getSettings().qTaj })}>${isDv() ? 'ތަޖުވީދު ކުލަ' : 'Tajweed colours'}</button>
       <button class="btn" onClick=${prev} disabled=${right <= 1}>${t('prevPage')} <${Icon} name="next" /></button>
     </div>
   </div>`;
