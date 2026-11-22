@@ -560,7 +560,7 @@ function Surah({ n, focus }) {
   const d = useData(() => getJSON(`/quran/${n}.json`), [n]);
   const s = useSettings();
   const tjd = useData(() => (getSettings().qTaj ? getJSON(`/quran/tj/${n}.json`) : Promise.resolve(null)), [n, s.qTaj]);
-  const e2 = useData(() => (getSettings().en2 ? getJSON(`/quran/en2/${n}.json`) : Promise.resolve(null)), [n, s.en2]);
+  const e2 = useData(() => (getSettings().en2 ? getJSON(`/quran/enp/${n}.json`) : Promise.resolve(null)), [n, s.en2]);
   const wbd = useData(() => (getSettings().qWbw ? getJSON(`/quran/wbw/${n}.json`) : Promise.resolve(null)), [n, s.qWbw]);
   const [word, setWord] = useState(null); // [ayah, word index] of the word whose meaning is showing
   const [more, setMore] = useState(0); // the ayah whose extra buttons are open
