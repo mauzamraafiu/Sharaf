@@ -1,7 +1,7 @@
 {
   "name": "Sharaf",
   "short_name": "Sharaf",
-  "description": "Quran, prayer times, duas and Islamic learning in Dhivehi and English. In memory of Shareefa Ahmed (1972-2023).",
+  "description": "Quran, prayer times, duas and Islamic learning in Dhivehi and English. In memory of Shareefa Ahmed, شريفة أحمد (1972-2023).",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

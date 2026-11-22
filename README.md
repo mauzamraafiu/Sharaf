@@ -2,7 +2,7 @@
 
 The Worker and its database are named `sharaf`. A few names nobody sees (browser storage keys, cache names) still say `dheen`.
 
-*In loving memory of Shareefa Ahmed (24 July 1972 – 18 February 2023). May Allah have mercy on her. The dedication text lives in `public/lib.js` (keys starting `mem`) and `public/app.js` (MemoryPanel, MemoryPage).*
+*In loving memory of Shareefa Ahmed, شريفة أحمد (24 July 1972 – 18 February 2023). May Allah have mercy on her. The dedication text lives in `public/lib.js` (keys starting `mem`) and `public/app.js` (MemoryPanel, MemoryPage).*
 
 Quran with English and Dhivehi translation and recitation, Maldives prayer times with notifications, how to pray, duas, and a library of articles on Islam in English and Dhivehi. An installable PWA on Cloudflare Workers (free plan).
 

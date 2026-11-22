@@ -442,7 +442,7 @@ function Home({ boot }) {
       <div><p class="hello-day">${todayText()}</p><p class="muted" title=${t('hijriNote')}>${hijri()}</p></div>
       <p class="bismillah" lang="ar" dir="rtl">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
     </header>
-    <a class="memstrip" href="#/memory"><span class="mem-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>${t('memShort')} <strong>${t('memName')}</strong>${t('memAfter')} <span class="num">1972 – 2023</span></span><span class="memstrip-go">${t('memAsk')}</span></a>
+    <a class="memstrip" href="#/memory"><span class="mem-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>${t('memShort')} <strong>${t('memName')}</strong> <span class="mem-ar-in" lang="ar" dir="rtl">شَرِيفَة أَحْمَد</span>${t('memAfter')} <span class="num">1972 – 2023</span></span><span class="memstrip-go">${t('memAsk')}</span></a>
     <${CatchUp} />
     <div class="home-grid">
       <div class="col"><${PrayerCard} track /></div>
@@ -1387,7 +1387,7 @@ function MemoryPage() {
   const [msg, setMsg] = useState('');
   useEffect(() => scrollTo(0, 0), []);
   const share = async () => {
-    const data = { title: 'Sharaf', text: `${t('memShort')} ${t('memName')}${t('memAfter')}. ${t('memLine')}`, url: location.origin };
+    const data = { title: 'Sharaf', text: `${t('memShort')} ${t('memName')} (شَرِيفَة أَحْمَد)${t('memAfter')}. ${t('memLine')}`, url: location.origin };
     try { if (navigator.share) await navigator.share(data); else { await navigator.clipboard.writeText(`${data.text} ${data.url}`); setMsg(t('copied')); } } catch {}
   };
   return html`<div class="page mempage">
@@ -1457,7 +1457,7 @@ function App() {
       </span>
     </header>
     <main id="main"><div class="route" key=${head + '/' + (head === 'mushaf' || head === 'explore' || head === 'arabic' ? '' : a || '')}>${page}</div>
-      ${head !== 'mushaf' && head !== 'memory' && head !== '' && html`<footer class="memfoot"><a href="#/memory">${t('memShort')} <strong>${t('memName')}</strong>${t('memAfter')}. ${t('memAsk')}</a></footer>`}</main>
+      ${head !== 'mushaf' && head !== 'memory' && head !== '' && html`<footer class="memfoot"><a href="#/memory">${t('memShort')} <strong>${t('memName')}</strong> <span class="mem-ar-in" lang="ar" dir="rtl">شَرِيفَة أَحْمَد</span>${t('memAfter')}. ${t('memAsk')}</a></footer>`}</main>
     <${MiniPlayer} />
     <nav class="tabs" aria-label="Main">${NAV.filter((x) => !x[3]).map(link)}</nav>
   </div>`;
