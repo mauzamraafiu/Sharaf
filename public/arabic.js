@@ -31,6 +31,12 @@ export const LETTERS = [
 ];
 // Common words of the Quran: [Arabic, sound, English, Dhivehi]
 export const WORDS = [
+  ['مَاء', "ma'", 'water', 'ފެން'], ['شَجَرَة', 'shajarah', 'tree', 'ގަސް'], ['بَحْر', 'bahr', 'sea', 'ކަނޑު'], ['جَبَل', 'jabal', 'mountain', 'ފަރުބަދަ'],
+  ['قَمَر', 'qamar', 'moon', 'ހަނދު'], ['نَجْم', 'najm', 'star', 'ތަރި'], ['نَهَار', 'nahar', 'daytime', 'ދުވާލު'], ['بَاب', 'bab', 'door, gate', 'ދޮރު'],
+  ['طَعَام', "ta'am", 'food', 'ކާނާ'], ['مَال', 'mal', 'wealth', 'މުދާ'], ['وَلَد', 'walad', 'child', 'ދަރި'], ['أُمّ', 'umm', 'mother', 'މަންމަ'],
+  ['أَب', 'ab', 'father', 'ބައްޕަ'], ['أَخ', 'akh', 'brother', 'އަޚު'], ['صَبْر', 'sabr', 'patience', 'ކެތްތެރިކަން'], ['شُكْر', 'shukr', 'thanks', 'ޝުކުރު'],
+  ['خَوْف', 'khawf', 'fear', 'ބިރު'], ['عَمَل', "'amal", 'deed', 'ޢަމަލު'], ['سَبِيل', 'sabil', 'way, path', 'މަގު'], ['آيَة', 'ayah', 'sign, verse', 'އާޔަތް'],
+  ['مَوْت', 'mawt', 'death', 'މަރު'], ['حَيَاة', 'hayah', 'life', 'ދިރިއުޅުން'], ['كَبِير', 'kabir', 'great, big', 'ބޮޑު'], ['قَرِيب', 'qarib', 'near', 'ކައިރި'],
   ['اللَّه', 'Allah', 'Allah', 'ﷲ'], ['رَبّ', 'rabb', 'Lord', 'ރައްބު'], ['كِتَاب', 'kitab', 'book', 'ފޮތް'], ['يَوْم', 'yawm', 'day', 'ދުވަސް'],
   ['أَرْض', 'ard', 'earth', 'ބިން'], ['سَمَاء', "sama'", 'sky', 'އުޑު'], ['نَاس', 'nas', 'people', 'މީސްތަކުން'], ['قَوْم', 'qawm', 'a people, nation', 'ޤައުމު'],
   ['رَسُول', 'rasul', 'messenger', 'ރަސޫލު'], ['نَبِيّ', 'nabiyy', 'prophet', 'ނަބިއްޔާ'], ['مَلَك', 'malak', 'angel', 'މަލާއިކަތާ'], ['شَيْطَان', 'shaytan', 'devil', 'ޝައިޠާނާ'],

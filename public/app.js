@@ -145,7 +145,7 @@ function SpeakButton({ item }) {
 function ListenButton({ item }) {
   const a = useAudio();
   const q = itemQueue(item);
-  if (!q) return item.arabic && 'speechSynthesis' in window ? html`<${SpeakButton} item=${item} />` : null;
+  if (!q) return null; // no recording: no button. The phone's own voice is not used, many phones have no Arabic voice.
   const mine = a.current?.key === 'item:' + item.id;
   return html`<button class="btn listen" aria-pressed=${mine && a.playing} onClick=${() => (mine ? toggleAudio() : playQueue(q))}>
     <${Icon} name=${mine && a.playing ? 'pause' : 'play'} /> ${mine && a.playing ? t('pause') : t('listen')}</button>`;
