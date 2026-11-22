@@ -1,6 +1,6 @@
 # Sharaf (شَرَفُ أُمِّي, "my mother's honour")
 
-The folder, Worker and database are still called `dheen` internally; only the name people see has changed.
+The Worker and its database are named `sharaf`. A few names nobody sees (browser storage keys, cache names) still say `dheen`.
 
 *In loving memory of Shareefa Ahmed (24 July 1972 – 18 February 2023). May Allah have mercy on her. The dedication text lives in `public/lib.js` (keys starting `mem`) and `public/app.js` (MemoryPanel, MemoryPage).*
 
