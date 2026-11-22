@@ -13,6 +13,7 @@ const P = {
   sujud: [[82, 140], [120, 140], [104, 106], [141, 121], [158, 133], [133, 132], [146, 141]],
   point: [[82, 140], [120, 140], [92, 120], [98, 84], [100, 67], [106, 104], [121, 115]],
   salamR: [[82, 140], [120, 140], [92, 120], [98, 84], [104, 67], [106, 104], [117, 118]],
+  dua: [[82, 140], [120, 140], [92, 120], [98, 84], [100, 67], [110, 98], [121, 85]],
   salamL: [[82, 140], [120, 140], [92, 120], [98, 84], [96, 67], [106, 104], [117, 118]],
 };
 const SALAH = {
@@ -23,6 +24,7 @@ const SALAH = {
 const RAKAH = ['fold', 'bow', 'stand', 'kneel', 'sujud', 'sit', 'sujud', 'kneel', 'stand']; // one full rak'ah
 Object.assign(SALAH, {
   'janazah-3-niyyah': ['stand', 'raise', 'fold'], 'janazah-4-salawat': ['fold', 'raise', 'fold'], 'janazah-5-dua': ['fold', 'raise', 'fold'], 'janazah-6-salam': ['fold', 'raise', 'fold'],
+  'tj-3-wudu-two': RAKAH, 'tj-4-opening': ['stand', 'raise', 'fold'], 'tj-5-pray': RAKAH, 'tj-6-sujud': ['kneel', 'sujud'], 'tj-7-before-salam': ['sit', 'point'], 'tj-8-dua-after': ['sit', 'dua'], 'tj-9-istighfar': ['sit', 'dua'], 'tj-10-witr': RAKAH,
   'pray-tahajjud': RAKAH, 'pray-witr': RAKAH, 'pray-duha': RAKAH, 'pray-rawatib': RAKAH, 'pray-istikhara': RAKAH, 'pray-tarawih': RAKAH, 'pray-eid': ['stand', 'raise', 'fold', 'raise', 'fold'], 'pray-jumuah': RAKAH,
   'pray-tahiyyat-masjid': RAKAH, 'pray-tawbah': RAKAH, 'pray-eclipse': ['fold', 'bow', 'fold', 'bow', 'stand', 'kneel', 'sujud'], 'pray-rain': RAKAH, 'pray-sujud-tilawah': ['fold', 'kneel', 'sujud', 'kneel', 'stand'], 'pray-sick': ['sit', 'point'],
 });

@@ -6,6 +6,8 @@ title_dv: ތަހައްޖުދު ނަމާދު (ރޭއަޅުކަން)
 --- en
 The best prayer after the five obligatory ones (Muslim 1163). In the last third of the night Allah descends to the nearest heaven and says, "Who is calling on Me, that I may answer? Who is asking of Me, that I may give? Who is seeking My forgiveness, that I may forgive?" (Bukhari 1145).
 
+For the duas to say at each point, and how to make dua afterwards, open **Tahajjud, step by step with its duas** in the Prayer section.
+
 **When:** any time after Isha until Fajr. The best time is the **last third of the night**. To find it, take the time from Maghrib to Fajr, divide by three, and count back from Fajr. In the Maldives this is roughly from 2 a.m. onwards. "Tahajjud" strictly means praying after having slept, but praying before you sleep also counts as night prayer.
 
 **How many:** two rak'ahs at a time, as many as you can. The Prophet ﷺ usually prayed eleven including Witr (Bukhari 1147). Two sincere rak'ahs are enough to begin.
@@ -26,6 +28,8 @@ The best prayer after the five obligatory ones (Muslim 1163). In the last third 
 **To make it last:** start with two rak'ahs ten minutes before Fajr. "The most beloved deeds to Allah are the most regular, even if small" (Bukhari 6464).
 --- dv
 ފަސް ފަރުޟު ނަމާދަށްފަހު އެންމެ މާތް ނަމާދެވެ (މުސްލިމް 1163). ރޭގަނޑުގެ ފަހު ތިންބައިކުޅަ އެއްބައިގައި ﷲ ވަޙީކުރައްވައެވެ: "އަހުރެންނަށް ދުޢާކުރާ މީހަކު ވޭހެއްޔެވެ؟ އަހުރެން އޭނާގެ ދުޢާ އިޖާބަކުރައްވާނަމެވެ. އަހުރެންގެ ކިބައިން އެދޭ މީހަކު ވޭހެއްޔެވެ؟ ފާފަފުއްސެވުމަށް އެދޭ މީހަކު ވޭހެއްޔެވެ؟" (ބުޚާރީ 1145).
+
+ކޮންމެ ތަނެއްގައި ކިޔާ ދުޢާތަކާއި، ނަމާދަށްފަހު ދުޢާކުރާނެ ގޮތް ބެލުމަށް ނަމާދުގެ ބައިގައިވާ **ތަހައްޖުދު، މަރުޙަލާއިން މަރުޙަލާއަށް، ދުޢާތަކާއެކު** ހުޅުވާށެވެ.
 
 **ވަގުތު:** ޢިޝާ ނަމާދަށްފަހު ފަތިހާ ހަމައަށް. އެންމެ މާތް ވަގުތަކީ **ރޭގަނޑުގެ ފަހު ތިންބައިކުޅަ އެއްބައެވެ**. ދިވެހިރާއްޖޭގައި އެއީ ގާތްގަނޑަކަށް ދަންވަރު 2 ޖަހާއިރުން ފެށިގެންނެވެ. "ތަހައްޖުދު" ގެ އަސްލު މާނައަކީ ނިދުމަށްފަހު ހޭލައިގެން ކުރާ ނަމާދެވެ. ނަމަވެސް ނިދުމުގެ ކުރިން ކުރާ ނަމާދުވެސް ރޭއަޅުކަމުގެ ތެރޭގައި ހިމެނެއެވެ.
 

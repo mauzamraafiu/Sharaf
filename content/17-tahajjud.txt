@@ -1,0 +1,226 @@
+%% tahajjud-steps | prayer | Tahajjud, step by step with its duas | ތަހައްޖުދު، މަރުޙަލާއިން މަރުޙަލާއަށް، ދުޢާތަކާއެކު | From waking in the night to the dua after the prayer: what the Prophet ﷺ said at each point, and how to ask Allah for what you need. | ރޭގަނޑު ހޭލުމުން ފެށިގެން ނަމާދަށްފަހު ދުޢާކުރުމާ ހަމައަށް: ކޮންމެ ތަނެއްގައި ނަބިއްޔާ ﷺ ކިޔުއްވި ދުޢާއާއި، ބޭނުންވާ ކަމަކަށް ﷲ ގެ ޙަޟްރަތުން އެދޭނެ ގޮތް. | step
+
+@@ tj-1-wake
+title_en: When you wake in the night
+title_dv: ރޭގަނޑު ހޭލެވުމުން
+arabic: @h:2
+translit: La ilaha illallahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu, wa huwa 'ala kulli shay'in qadir. Subhanallah, walhamdulillah, wa la ilaha illallah, wallahu akbar, wa la hawla wa la quwwata illa billahil-'Aliyyil-'Azim. Rabbighfir li.
+ref: Bukhari 1154
+--- en
+Say this as soon as you wake, before you get up.
+
+There is no god but Allah, alone, with no partner. His is the dominion and His is the praise, and He has power over all things. Glory be to Allah, praise be to Allah, there is no god but Allah, Allah is the Greatest, and there is no power or strength except through Allah, the Most High, the Magnificent. My Lord, forgive me.
+
+The Prophet ﷺ said that whoever wakes at night and says this, then says "O Allah, forgive me" or makes a dua, **is answered**; and if he makes wudu and prays, **his prayer is accepted**. So the dua starts here, in your bed.
+--- dv
+ހޭލެވުމާއެކު، ތެދުވުމުގެ ކުރިން މި ޛިކުރު ކިޔާށެވެ.
+
+ﷲ ފިޔަވައި އެހެން އިލާހަކު ނުވެއެވެ. އެކަލާނގެއަށް ބައިވެރިއަކު ނުވެއެވެ. ވެރިކަމާއި ޙަމްދު ހުރީ އެކަލާނގެއަށެވެ. އެކަލާނގެއީ ކޮންމެ ކަމެއްގެ މައްޗަށް ކުޅަދުންވަންތަ ރަސްކަލާނގެއެވެ. ﷲ ހުސްޠާހިރުވަންތައެވެ. ޙަމްދު ހުރީ ﷲ އަށެވެ. ﷲ ފިޔަވައި އެހެން އިލާހަކު ނުވެއެވެ. ﷲ އީ އެންމެ ބޮޑު ފަރާތެވެ. މަތިވެރި، ބޮޑުވެގެންވާ ﷲ ގެ ޙަޟްރަތުން މެނުވީ ބާރެއް ނުވެއެވެ. އަޅުގަނޑުގެ ރައްބެވެ! އަޅުގަނޑަށް ފުއްސަވާނދޭވެ.
+
+ނަބިއްޔާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: ރޭގަނޑު ހޭލައި މިގޮތަށް ކިޔައި، އެއަށްފަހު "އޭ ﷲ! އަޅުގަނޑަށް ފުއްސަވާނދޭވެ" ކިޔާ ނުވަތަ ދުޢާކުރާ މީހާގެ **ދުޢާ އިޖާބަކުރެވެއެވެ**. އަދި ވުޟޫކޮށް ނަމާދުކޮށްފި ނަމަ **އޭނާގެ ނަމާދު ޤަބޫލުކުރެވެއެވެ**. ވީމާ ދުޢާ ފެށެނީ މިތަނުން، އެނދުގައި އޮވެގެންނެވެ.
+
+@@ tj-2-ayat
+title_en: Look at the sky and recite the end of Aal 'Imran
+title_dv: އުޑަށް ބަލައި، އާލު ޢިމްރާން ސޫރަތުގެ ފަހު އާޔަތްތައް ކިޔެވުން
+arabic: @q:3:190-194
+ref: Quran 3:190-200; Bukhari 183
+--- en
+Ibn 'Abbas spent a night in the Prophet's ﷺ house to see how he prayed. He ﷺ woke, wiped the sleep from his face with his hand, looked up at the sky and recited the last ten ayahs of Surah Aal 'Imran, from *"In the creation of the heavens and the earth..."* to the end.
+
+These ayahs are themselves a long dua: *"Our Lord, You have not created this in vain. Glory to You; protect us from the punishment of the Fire... Our Lord, forgive us our sins, remove our bad deeds, and take us with the righteous."*
+
+The first five are shown here. Open Surah 3 from ayah 190 to read all ten.
+--- dv
+އިބްނު ޢައްބާސް، ނަބިއްޔާ ﷺ ނަމާދުކުރައްވާ ގޮތް ބެލުމަށް އެކަލޭގެފާނުގެ ގޭގައި ރެއެއް ހޭދަކުރެއްވިއެވެ. އެކަލޭގެފާނު ހޭލެއްވުމުން، އަތްޕުޅުން މޫނުފުޅުން ނިދީގެ އަސަރު ފުހެލައްވައި، އުޑަށް ބައްލަވައި، ސޫރަތު އާލު ޢިމްރާންގެ ފަހު ދިހަ އާޔަތް ކިޔެވިއެވެ.
+
+މި އާޔަތްތަކަކީ ދިގު ދުޢާއެކެވެ: *"އަޅަމެންގެ ރައްބެވެ! އިބަރަސްކަލާނގެ މި ތަކެތި ބާޠިލުކޮށް ހައްދަވާފައެއް ނުވެއެވެ. އިބަރަސްކަލާނގެ ހުސްޠާހިރުވަންތައެވެ. ނަރަކައިގެ ޢަޛާބުން އަޅަމެން ސަލާމަތްކުރައްވާނދޭވެ... އަޅަމެންގެ ފާފަތައް ފުއްސަވައި، ހެޔޮލަފާ މީހުންނާއެކު އަޅަމެން މަރުގަންނަވާނދޭވެ."*
+
+މިތަނުގައި ފުރަތަމަ ފަސް އާޔަތް ވާނެއެވެ. ދިހަ އާޔަތް ކިޔެވުމަށް ސޫރަތު 3 ގެ 190 ވަނަ އާޔަތުން ހުޅުވާށެވެ.
+
+@@ tj-3-wudu-two
+title_en: Wudu, then two short rak'ahs
+title_dv: ވުޟޫކޮށް، ކުރު ދެ ރަކުޢަތް ކުރުން
+ref: Muslim 768
+--- en
+- Brush your teeth or use the siwak. The Prophet ﷺ always did when he rose at night (Bukhari 245).
+- Make wudu carefully.
+- Pray **two short rak'ahs** first. "When one of you stands to pray at night, let him begin with two light rak'ahs." They wake the body and the heart before the long prayer.
+
+Your intention each time is simply: "two rak'ahs of night prayer for Allah." It is made in the heart.
+--- dv
+- ދަތް އުނގުޅާށެވެ. ނަބިއްޔާ ﷺ ރޭގަނޑު ތެދުވެވަޑައިގަންނަވާ ކޮންމެ ފަހަރަކު މިސްވާކު ކުރައްވައެވެ (ބުޚާރީ 245).
+- ސަމާލުކަމާއެކު ވުޟޫކުރާށެވެ.
+- ފުރަތަމަ **ކުރު ދެ ރަކުޢަތް** ކުރާށެވެ. "ތިޔަބައިމީހުންގެ ތެރެއިން މީހަކު ރޭއަޅުކަމަށް ތެދުވެއްޖެ ނަމަ ލުއި ދެ ރަކުޢަތުން ފަށާށެވެ." ދިގު ނަމާދުގެ ކުރިން ހަށިގަނޑާއި ހިތް ހޭލައްވައިދެއެވެ.
+
+ކޮންމެ ފަހަރަކު ނިޔަތަކީ: "ﷲ އަށްޓަކައި ރޭއަޅުކަމުގެ ދެ ރަކުޢަތް." ނިޔަތްގަންނާނީ ހިތުންނެވެ.
+
+@@ tj-4-opening
+title_en: The opening dua of the night prayer
+title_dv: ރޭއަޅުކަމުގެ އިސްތިފްތާޙު ދުޢާ
+arabic: @h:32
+translit: Allahumma lakal-hamd, anta nurus-samawati wal-ardi wa man fihinn. Wa lakal-hamd, anta qayyimus-samawati wal-ardi wa man fihinn. Wa lakal-hamd, anta Rabbus-samawati wal-ardi wa man fihinn. Wa lakal-hamd, laka mulkus-samawati wal-ardi wa man fihinn. Wa lakal-hamd, anta malikus-samawati wal-ard. Wa lakal-hamd. Antal-haqq, wa wa'dukal-haqq, wa qawlukal-haqq, wa liqa'ukal-haqq, wal-jannatu haqq, wan-naru haqq, wan-nabiyyuna haqq, wa Muhammadun sallallahu 'alayhi wa sallama haqq, was-sa'atu haqq. Allahumma laka aslamt, wa 'alayka tawakkalt, wa bika amant, wa ilayka anabt, wa bika khasamt, wa ilayka hakamt. Faghfir li ma qaddamtu wa ma akhkhart, wa ma asrartu wa ma a'lant, wa ma anta a'lamu bihi minni. Antal-Muqaddimu wa antal-Mu'akhkhir, la ilaha illa ant. Anta ilahi, la ilaha illa ant. Wa la hawla wa la quwwata illa billah.
+ref: Bukhari 1120; Muslim 769
+--- en
+This is what the Prophet ﷺ said when he stood for Tahajjud, after the opening takbir and before Al-Fatihah. It is praise first, then surrender, then asking: the whole pattern of a good dua.
+
+O Allah, to You belongs all praise. You are the Light of the heavens and the earth and all within them. To You belongs all praise; You are the Sustainer of the heavens and the earth and all within them. To You belongs all praise; You are the Lord of the heavens and the earth and all within them. To You belongs all praise; Yours is the dominion of the heavens and the earth and all within them. To You belongs all praise; You are the King of the heavens and the earth. To You belongs all praise.
+
+You are the Truth. Your promise is true, Your word is true, the meeting with You is true, the Garden is true, the Fire is true, the prophets are true, Muhammad ﷺ is true, and the Hour is true.
+
+O Allah, to You I have submitted, in You I trust, in You I believe, to You I turn, by You I argue, and to You I come for judgement. So forgive me what I have sent ahead and what I have left behind, what I hid and what I showed, and what You know better than I. You are the One who brings forward and the One who puts back. There is no god but You. You are my God; there is no god but You. There is no power or strength except through Allah.
+
+If you have not learned it yet, use the opening dua you say in every prayer and learn this a line at a time.
+--- dv
+މިއީ ނަބިއްޔާ ﷺ ތަހައްޖުދަށް ތެދުވެވަޑައިގަންނަވައި، ތަކްބީރަތުލް އިޙްރާމަށްފަހު، ފާތިޙާގެ ކުރިން ކިޔުއްވި ދުޢާއެވެ. ފުރަތަމަ ޙަމްދު، ދެން ކިޔަމަންތެރިކަން، ދެން އެދުން: މިއީ ރަނގަޅު ދުޢާއެއްގެ ފުރިހަމަ ތަރުތީބެވެ.
+
+އޭ ﷲ! ހުރިހާ ޙަމްދެއް އިބަރަސްކަލާނގެއަށެވެ. އިބަރަސްކަލާނގެއީ އުޑުތަކާއި ބިމާއި އޭގައިވާ ހުރިހާ އެއްޗެއްގެ ނޫރެވެ. ހުރިހާ ޙަމްދެއް އިބަރަސްކަލާނގެއަށެވެ. އިބަރަސްކަލާނގެއީ އުޑުތަކާއި ބިމާއި އޭގައިވާ ހުރިހާ އެއްޗެއް ޤާއިމުކުރައްވާ ފަރާތެވެ. އިބަރަސްކަލާނގެއީ އުޑުތަކާއި ބިމާއި އޭގައިވާ ހުރިހާ އެއްޗެއްގެ ރައްބެވެ. އުޑުތަކާއި ބިމުގެ ވެރިކަން އިބަރަސްކަލާނގެއަށެވެ. އިބަރަސްކަލާނގެއީ އުޑުތަކާއި ބިމުގެ ރަސްގެފާނެވެ.
+
+އިބަރަސްކަލާނގެއީ ޙައްޤެވެ. އިބަރަސްކަލާނގެ ވަޢުދަކީ ޙައްޤެވެ. ބަސްފުޅަކީ ޙައްޤެވެ. އިބަރަސްކަލާނގެއާ ބައްދަލުވުމަކީ ޙައްޤެވެ. ސުވަރުގެއަކީ ޙައްޤެވެ. ނަރަކައަކީ ޙައްޤެވެ. ނަބީބޭކަލުންނަކީ ޙައްޤެވެ. މުޙައްމަދު ﷺ އަކީ ޙައްޤެވެ. ޤިޔާމަތަކީ ޙައްޤެވެ.
+
+އޭ ﷲ! އިބަރަސްކަލާނގެއަށް އަޅުގަނޑު ކިޔަމަންވެއްޖައީމެވެ. އިބަރަސްކަލާނގެއަށް ވަކީލުކޮށްފީމެވެ. އިބަރަސްކަލާނގެއަށް އީމާންވެއްޖައީމެވެ. އިބަރަސްކަލާނގެ ޙަޟްރަތަށް ރުޖޫޢަވެއްޖައީމެވެ. ވީމާ އަޅުގަނޑު ކުރިން ކުރި ފާފައާއި ފަހުން ކުރާ ފާފަ، ސިއްރުކުރި ފާފައާއި ފާޅުކުރި ފާފަ، އަދި އަޅުގަނޑަށްވުރެ އިބަރަސްކަލާނގެ ދެނެވޮޑިގެންވާ ފާފަ ފުއްސަވާނދޭވެ. ކުރިއަށް ގެންނަވާ ފަރާތަކީވެސް، ފަހަށް ޖައްސަވާ ފަރާތަކީވެސް އިބަރަސްކަލާނގެއެވެ. އިބަރަސްކަލާނގެ ފިޔަވައި އެހެން އިލާހަކު ނުވެއެވެ. ﷲ ގެ ޙަޟްރަތުން މެނުވީ ބާރެއް ނުވެއެވެ.
+
+މި ދުޢާ އަދި ދަސްނުވާ ނަމަ ކޮންމެ ނަމާދެއްގައި ކިޔާ އިސްތިފްތާޙު ދުޢާ ކިޔައި، މި ދުޢާ ފޮޅުވަތުން ފޮޅުވަތަށް ދަސްކުރާށެވެ.
+
+@@ tj-5-pray
+title_en: Pray in twos, slowly
+title_dv: ދެ ރަކުޢަތުން ދެ ރަކުޢަތުން، މަޑުމަޑުން ނަމާދުކުރުން
+ref: Bukhari 990; Muslim 772
+--- en
+"The night prayer is two by two" (Bukhari 990). Pray two rak'ahs, give the salam, then two more, as many as you are able.
+
+- Recite Al-Fatihah and then as much Quran as you know. Short surahs repeated are fine. A moderate voice is best, neither silent nor loud.
+- **Recite slowly and respond to what you read.** When the Prophet ﷺ passed an ayah of mercy he asked for it; an ayah of punishment, he sought refuge; an ayah glorifying Allah, he glorified Him (Muslim 772).
+- Make the **bowing and prostration long**. His bowing was nearly as long as his standing.
+- Two rak'ahs with a present heart are better than many in a hurry.
+--- dv
+"ރޭއަޅުކަމުގެ ނަމާދަކީ ދެ ރަކުޢަތުން ދެ ރަކުޢަތުން ކުރާ ނަމާދެކެވެ" (ބުޚާރީ 990). ދެ ރަކުޢަތް ކޮށް ސަލާމްދީ، އެއަށްފަހު އިތުރު ދެ ރަކުޢަތް، ކުޅަދާނަ ވަރަކަށް ކުރާށެވެ.
+
+- ފާތިޙާ ކިޔަވައި، އެނގޭ ވަރަކަށް ޤުރުއާން ކިޔަވާށެވެ. ކުރު ސޫރަތްތައް ތަކުރާރުކުރިޔަސް ރަނގަޅެވެ. މެދު އަޑަކުން ކިޔެވުން މާ ރަނގަޅެވެ.
+- **މަޑުމަޑުން ކިޔަވައި، ކިޔަވާ އާޔަތަށް ޖަވާބުދާރީވާށެވެ.** ނަބިއްޔާ ﷺ ރަޙްމަތުގެ އާޔަތެއް ކިޔުއްވުމުން ރަޙްމަތަށް އެދިވަޑައިގަންނަވައެވެ. ޢަޛާބުގެ އާޔަތެއް ކިޔުއްވުމުން ރައްކާތެރިކަމަށް އެދިވަޑައިގަންނަވައެވެ (މުސްލިމް 772).
+- **ރުކޫޢާއި ސަޖިދަ ދިގުކުރާށެވެ.**
+- ހިތް ހާޒިރުކޮށްގެން ކުރާ ދެ ރަކުޢަތް، އަވަސްއަވަހަށް ކުރާ ގިނަ ރަކުޢަތަށްވުރެ ރަނގަޅެވެ.
+
+@@ tj-6-sujud
+title_en: Make dua in sujud
+title_dv: ސަޖިދައިގައި ދުޢާކުރުން
+arabic: @h:46
+translit: Allahummaghfir li dhanbi kullah, diqqahu wa jillah, wa awwalahu wa akhirah, wa 'alaniyatahu wa sirrah.
+ref: Muslim 483; Muslim 482
+--- en
+"The closest a servant is to his Lord is when he is prostrating, so make much dua then" (Muslim 482).
+
+After *Subhana Rabbiyal-A'la*, stay down and say this:
+
+O Allah, forgive me all my sins: the small and the great, the first and the last, the open and the hidden.
+
+You may also say any dua from the Quran or Sunnah, such as *Rabbana atina fid-dunya hasanah...* or *Allahumma inni as'alukal-jannah.*
+
+**Which language?** Inside the prayer, keep to Arabic duas that have been transmitted. This is the position of the Shafi'i school for whoever is able. Ask for your own particular needs, in Dhivehi or any language, **after the salam**. That is the next steps.
+--- dv
+"އަޅާ އޭނާގެ ރައްބާ އެންމެ ގާތްވެގެންވަނީ ސަޖިދައިގައި ހުންނައިރުއެވެ. ވީމާ އެ ވަގުތު ދުޢާ ގިނަކުރާށެވެ" (މުސްލިމް 482).
+
+*ސުބްޙާނަ ރައްބިޔަލް އަޢުލާ* ކިޔުމަށްފަހު ސަޖިދައިގައި ހުރެ މިހެން ކިޔާށެވެ:
+
+އޭ ﷲ! އަޅުގަނޑުގެ ހުރިހާ ފާފައެއް ފުއްސަވާނދޭވެ: ކުދި ފާފައާއި ބޮޑެތި ފާފަ، ފުރަތަމަ ފާފައާއި ފަހު ފާފަ، ފާޅު ފާފައާއި ސިއްރު ފާފަ.
+
+ޤުރުއާނުގައި ނުވަތަ ސުންނަތުގައިވާ ކޮންމެ ދުޢާއެއް ކިޔިދާނެއެވެ. މިސާލަކަށް *ރައްބަނާ އާތިނާ ފިއްދުންޔާ ޙަސަނާ...*
+
+**ކޮން ބަހަކުން؟** ނަމާދުގެ ތެރޭގައި ވާރިދުވެފައިވާ ޢަރަބި ދުޢާތައް ކިޔާށެވެ. ކުޅަދާނަ މީހާއަށް ޝާފިޢީ މަޛްހަބުގެ ގޮތަކީ މިއީއެވެ. ތިބާގެ ޚާއްޞަ ބޭނުންތަކަށް، ދިވެހި ބަހުން ނުވަތަ ކޮންމެ ބަހަކުންވެސް ދުޢާކުރާނީ **ސަލާމަށްފަހު**އެވެ.
+
+@@ tj-7-before-salam
+title_en: Before the salam
+title_dv: ސަލާމްދިނުމުގެ ކުރިން
+arabic: @h:59
+translit: Allahumma a'inni 'ala dhikrika, wa shukrika, wa husni 'ibadatik.
+ref: Abu Dawud 1522
+--- en
+After the tashahhud and the blessings on the Prophet ﷺ, and before you give the salam, is another place where dua is answered. "Then let him choose whatever dua he likes" (Bukhari 835).
+
+O Allah, help me to remember You, to thank You, and to worship You well.
+
+The Prophet ﷺ took Mu'adh by the hand and said, "By Allah, I love you. Do not leave saying this at the end of every prayer."
+--- dv
+އައްތަޙިއްޔާތާއި ޞަލަވާތަށްފަހު، ސަލާމްދިނުމުގެ ކުރިއަކީ ދުޢާ ޤަބޫލުވާ އެހެން ވަގުތެކެވެ. "އެއަށްފަހު އޭނާ ބޭނުން ދުޢާއެއް ޚިޔާރުކުރާށެވެ" (ބުޚާރީ 835).
+
+އޭ ﷲ! އިބަރަސްކަލާނގެ ހަނދުމަކުރުމަށާއި، ޝުކުރުކުރުމަށާއި، ރީތިކޮށް އަޅުކަންކުރުމަށް އަޅުގަނޑަށް އެހީވެދެއްވާނދޭވެ.
+
+ނަބިއްޔާ ﷺ މުޢާޛުގެފާނުގެ އަތުގައި ހިއްޕަވައި ޙަދީޘްކުރެއްވިއެވެ: "ﷲ ގަންދީ ބުނަމެވެ. އަހުރެން ކަލޭދެކެ ލޯބިވަމެވެ. ކޮންމެ ނަމާދެއްގެ ފަހުގައި މި ދުޢާ ދޫކޮށްނުލާށެވެ."
+
+@@ tj-8-dua-after
+title_en: After the salam: how to ask Allah for what you need
+title_dv: ސަލާމަށްފަހު: ބޭނުންވާ ކަމަކަށް ﷲ ގެ ޙަޟްރަތުން އެދޭނެ ގޮތް
+arabic: الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ
+translit: Alhamdu lillahi Rabbil-'alamin, was-salatu was-salamu 'ala Rasulillah.
+ref: Tirmidhi 3476, 3477; Muslim 2733
+--- en
+This is the heart of Tahajjud. Stay seated facing the qiblah, raise your hands, and take your time. There is no fixed wording; there is a way of asking that the Prophet ﷺ taught.
+
+1. **Begin by praising Allah**, then **send blessings on the Prophet ﷺ**. The line above is enough. He ﷺ heard a man ask without doing this and said, "This one was hasty," then taught: begin with praise of your Lord, then blessings on the Prophet, then ask for what you wish.
+2. **Call on Him by His names** that fit your need: *Ya Rahman* for mercy, *Ya Razzaq* for provision, *Ya Shafi* for healing, *Ya Hayyu ya Qayyum* (Quran 7:180).
+3. **Admit your faults and ask forgiveness** before anything else.
+4. **Ask for your needs, in your own language.** Be specific: name the debt, the illness, the child, the decision. Ask for the Hereafter as well as this world.
+5. **Ask with certainty**, not "if You will". "Call on Allah certain that He will answer" (Tirmidhi 3479). Repeat what matters most three times.
+6. **Ask for others**: your parents, your family, the sick, the dead, all Muslims. The angel says, "Ameen, and the same for you."
+7. **End** with blessings on the Prophet ﷺ and *Ameen*.
+
+**Do not** ask for anything sinful, or give up saying "I asked and was not answered" (Muslim 2735). Every dua is answered in one of three ways: given now, stored for the Hereafter, or a harm turned away in its place (Ahmad 11133).
+
+Tears are welcome; raising your voice is not needed. He hears a whisper.
+--- dv
+މިއީ ތަހައްޖުދުގެ އެންމެ މުހިންމު ބައެވެ. ޤިބްލައަށް ކުރިމަތިލައިގެން އިށީނދެ، ދެއަތް އުފުލައި، އަވަސްނުވެ ދުޢާކުރާށެވެ. ކަނޑައެޅިފައިވާ ލަފުޒެއް ނުވެއެވެ. ނަމަވެސް ނަބިއްޔާ ﷺ ދަސްކޮށްދެއްވި، އެދުމުގެ ގޮތެއް ވެއެވެ.
+
+1. **ﷲ އަށް ޙަމްދުކުރުމުން ފަށައި**، **ނަބިއްޔާ ﷺ ގެ މައްޗަށް ޞަލަވާތް ކިޔާށެވެ**. މަތީގައިވާ ފޮޅުވަތް ފުދެއެވެ. މިކަން ނުކޮށް ދުޢާކުރި މީހެއްގެ އަޑު އިވިވަޑައިގެން ޙަދީޘްކުރެއްވިއެވެ: "މި މީހާ އަވަސްވެގަތީއެވެ."
+2. ތިބާގެ ބޭނުމާ ގުޅޭ **އެކަލާނގެ ނަންފުޅުތަކުން ގޮވާށެވެ**: ރަޙްމަތަށް *ޔާ ރަޙްމާން*، ރިޒުޤަށް *ޔާ ރައްޒާޤު*، ޝިފާއަށް *ޔާ ޝާފީ*، *ޔާ ޙައްޔު ޔާ ޤައްޔޫމު* (ޤުރުއާން 7:180).
+3. އެހެން ކަމެއްގެ ކުރިން **ކުށްތަކަށް އިޢުތިރާފުވެ ފާފަފުއްސެވުމަށް އެދޭށެވެ**.
+4. **ތިބާގެ އަމިއްލަ ބަހުން ބޭނުންތަކަށް އެދޭށެވެ.** ސާފުކޮށް ބުނާށެވެ: ދަރަނި، ބަލި، ދަރިފުޅު، ނިންމުން. ދުނިޔެއާއެކު އާޚިރަތަށްވެސް އެދޭށެވެ.
+5. **ޔަޤީންކަމާއެކު އެދޭށެވެ.** "އިޖާބަކުރައްވާނެކަން ޔަޤީންކޮށްގެން ﷲ އަށް ދުޢާކުރާށެވެ" (ތިރްމިޛީ 3479). އެންމެ މުހިންމު ކަންތައް ތިން ފަހަރު ތަކުރާރުކުރާށެވެ.
+6. **އެހެން މީހުންނަށް އެދޭށެވެ**: މައިންބަފައިން، ޢާއިލާ، ބަލިމީހުން، މަރުވެފައިވާ މީހުން، ހުރިހާ މުސްލިމުން. މަލާއިކަތާ ވިދާޅުވެއެވެ: "އާމީން. އަދި ތިބާއަށްވެސް ހަމަ އެ ފަދައިން."
+7. ޞަލަވާތާއި *އާމީން* އިން **ނިންމާށެވެ**.
+
+ފާފައަކަށް **ނޭދޭށެވެ**. އަދި "އަހަރެން ދުޢާކުރީމެވެ. އިޖާބައެއް ނުލިބުނެވެ" ބުނެ ދޫކޮށްނުލާށެވެ (މުސްލިމް 2735). ކޮންމެ ދުޢާއެއް ތިން ގޮތުން ކުރެ ގޮތަކަށް އިޖާބަކުރެވެއެވެ: މިހާރު ދެއްވުން، އާޚިރަތަށް ރައްކާކުރެއްވުން، ނުވަތަ އޭގެ ބަދަލުގައި ގެއްލުމެއް ދުރުކުރެއްވުން (އަޙްމަދު 11133).
+
+އަޑު އުފުލާކަށް ނުޖެހެއެވެ. އެކަލާނގެ ސިއްރުން ބުނާ ބަސްވެސް އައްސަވައެވެ.
+
+@@ tj-9-istighfar
+title_en: Ask forgiveness before dawn
+title_dv: ފަތިހުގެ ކުރިން އިސްތިޣްފާރުކުރުން
+arabic: @h:79
+translit: Allahumma anta Rabbi, la ilaha illa ant, khalaqtani wa ana 'abduk, wa ana 'ala 'ahdika wa wa'dika mastata't. A'udhu bika min sharri ma sana't. Abu'u laka bini'matika 'alayy, wa abu'u bidhanbi, faghfir li, fa innahu la yaghfirudh-dhunuba illa ant.
+ref: Bukhari 6306; Quran 51:18
+--- en
+Allah praises "those who ask forgiveness in the hours before dawn" (Quran 3:17, 51:18). Use the last minutes before Fajr for this, with the master dua of forgiveness:
+
+O Allah, You are my Lord. There is no god but You. You created me and I am Your servant, and I keep Your covenant and promise as far as I am able. I seek refuge in You from the evil of what I have done. I acknowledge Your favour upon me and I acknowledge my sin, so forgive me, for none forgives sins but You.
+
+Whoever says it with certainty in the morning and dies that day is among the people of the Garden.
+
+Then simply repeat *Astaghfirullah* until the adhan.
+--- dv
+"ފަތިހުގެ ވަގުތުތަކުގައި އިސްތިޣްފާރުކުރާ މީހުންނަށް" ﷲ ތަޢުރީފުކުރައްވައެވެ (ޤުރުއާން 3:17، 51:18). ފަތިހުގެ ކުރީގެ ފަހު މިނެޓުތައް، ސައްޔިދުލް އިސްތިޣްފާރު ކިޔުމަށް ބޭނުންކުރާށެވެ:
+
+އޭ ﷲ! އިބަރަސްކަލާނގެއީ އަޅުގަނޑުގެ ރައްބެވެ. އިބަރަސްކަލާނގެ ފިޔަވައި އެހެން އިލާހަކު ނުވެއެވެ. އިބަރަސްކަލާނގެ އަޅުގަނޑު ހެއްދެވީއެވެ. އަޅުގަނޑަކީ އިބަރަސްކަލާނގެ އަޅެކެވެ. ކުޅަދާނަ މިންވަރަކުން އިބަރަސްކަލާނގެ ޢަހުދާއި ވަޢުދުގެ މަތީގައި އަޅުގަނޑު ހުންނާނަމެވެ. އަޅުގަނޑު ކުރި ކަންތަކުގެ ނުބައިކަމުން ރައްކާތެރިކަން އެދެމެވެ. އަޅުގަނޑުގެ މައްޗަށްވާ އިބަރަސްކަލާނގެ ނިޢުމަތަށާއި އަޅުގަނޑުގެ ފާފައަށް އިޢުތިރާފުވަމެވެ. ވީމާ އަޅުގަނޑަށް ފުއްސަވާނދޭވެ. އިބަރަސްކަލާނގެ ފިޔަވައި ފާފަ ފުއްސަވާނެ ފަރާތެއް ނުވެއެވެ.
+
+ހެނދުނު ޔަޤީންކަމާއެކު މި ދުޢާ ކިޔައި އެ ދުވަހު މަރުވާ މީހާއަކީ ސުވަރުގޭގެ އަހުލުވެރިއެކެވެ.
+
+އެއަށްފަހު ބަންގި ގޮވަންދެން *އަސްތަޣްފިރުﷲ* ތަކުރާރުކުރާށެވެ.
+
+@@ tj-10-witr
+title_en: Finish with Witr
+title_dv: ވިތުރިން ނިންމުން
+ref: Bukhari 998; Nasa'i 1699
+--- en
+"Make Witr your last prayer of the night." If you already prayed it before sleeping, do not repeat it.
+
+- Pray two rak'ahs and give the salam, then one rak'ah on its own. Recite Al-A'la, Al-Kafirun and Al-Ikhlas.
+- After the salam say three times: **Subhanal-Malikil-Quddus**, raising your voice on the third.
+
+Leave enough time: Witr must finish before Fajr enters. Then pray the two Sunnah rak'ahs of Fajr and go to the obligatory prayer.
+
+The full method is in "Tahajjud, Witr and other prayers".
+--- dv
+"ރޭގަނޑުގެ އެންމެ ފަހު ނަމާދަކީ ވިތުރި ކަމުގައި ހަދާށެވެ." ނިދުމުގެ ކުރިން ވިތުރި ކޮށްފައިވާ ނަމަ ތަކުރާރުނުކުރާށެވެ.
+
+- ދެ ރަކުޢަތް ކޮށް ސަލާމްދީ، އެއަށްފަހު ވަކިން އެއް ރަކުޢަތް ކުރާށެވެ. އަލްއަޢުލާ، އަލްކާފިރޫން، އަލްއިޚްލާޞް ކިޔަވާށެވެ.
+- ސަލާމަށްފަހު ތިން ފަހަރު ކިޔާށެވެ: **ސުބްޙާނަލް މަލިކިލް ޤުއްދޫސް**. ތިންވަނަ ފަހަރު އަޑު އުފުލާށެވެ.
+
+ވަގުތު ބަހައްޓާށެވެ: ފަތިސް ވަގުތު ވަނުމުގެ ކުރިން ވިތުރި ނިންމަންވާނެއެވެ. އެއަށްފަހު ފަތިހުގެ ދެ ރަކުޢަތް ސުންނަތް ކޮށް ފަރުޟު ނަމާދަށް ދާށެވެ.
