@@ -996,3 +996,12 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 .jump .chip[aria-current=page] { background: var(--ink); color: var(--bg, #fff); border-color: var(--ink); }
 .shelf-tile .shelf-n { grid-row: 1; grid-column: 2; } .shelf-tile strong { grid-row: 2; } .shelf-tile .shelf-in { grid-row: 3; }
 @media (max-width: 719px) { .home .home-grid > .col { display: contents; } .home .home-grid > .col > .launch { order: -1; } }
+/* phones: prayer times first, then today's ayah, then the launcher, then the rest */
+@media (max-width: 719px) {
+  .home .home-grid > .col > * { order: 3; }
+  .home .home-grid > .col:first-child > * { order: 0; }
+  .home .home-grid > .col > .ayah-today { order: 1; }
+  .home .home-grid > .col > .launch { order: 2; }
+}
+.launch-tile strong { min-height: 0; }
+.launch-tile.card { padding: 10px 4px 9px; }

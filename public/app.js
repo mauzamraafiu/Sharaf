@@ -466,7 +466,7 @@ function Home({ boot }) {
           <strong>${s.last.name} <span class="num">${s.last.s}:${s.last.a}</span></strong>
         </a>`}
         ${(s.pagesRead || []).length > 0 && html`<a class="progress" href=${`#/mushaf/${s.mpage || 1}`}><span class="muted">${t('modeBook')}: ${t('pageWord')} <span class="num">${s.mpage || 1}</span></span><strong><span class="num">${s.pagesRead.length}</span> / <span class="num">604</span> ${t('pagesRead')}</strong><span class="bar"><i style=${{ width: (s.pagesRead.length / 604) * 100 + '%' }}></i></span></a>`}
-        <${AyahOfDay} />
+        <div class="ayah-today"><${AyahOfDay} /></div>
       </div>
     </div>
     <${MemoryPanel} />
