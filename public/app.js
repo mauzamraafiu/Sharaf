@@ -1457,7 +1457,7 @@ function App() {
       </span>
     </header>
     <main id="main"><div class="route" key=${head + '/' + (head === 'mushaf' || head === 'explore' || head === 'arabic' ? '' : a || '')}>${page}</div>
-      ${head !== 'mushaf' && head !== 'memory' && head !== '' && html`<footer class="memfoot"><a href="#/memory">${t('memShort')} <strong>${t('memName')}</strong> <span class="mem-ar-in" lang="ar" dir="rtl">شَرِيفَة أَحْمَد</span>${t('memAfter')}. ${t('memAsk')}</a></footer>`}</main>
+      ${head !== 'mushaf' && head !== 'memory' && head !== '' && html`<footer class="memfoot"><a href="#/memory">${t('memShort')} <span class="mem-ar-in" lang="ar" dir="rtl">شَرِيفَة أَحْمَد</span>${t('memAfter')}. ${t('memAsk')}.</a></footer>`}</main>
     <${MiniPlayer} />
     <nav class="tabs" aria-label="Main">${NAV.filter((x) => !x[3]).map(link)}</nav>
   </div>`;

@@ -77,11 +77,18 @@ export function PrayerFigure({ seq }) {
   const last = seq[seq.length - 1];
   const [pts, setPts] = useState(P[last]);
   const [cur, setCur] = useState(last);
-  const box = useRef(null);
+  const box = useRef(null), host = useRef(null), fig = useRef(null);
+  const [three, setThree] = useState(false);
+  // The 3D figure loads on its own; until it is ready, or where 3D is not available, the drawing stands in.
   useEffect(() => {
-    if (seq.length < 2 || still()) { setPts(P[last]); setCur(last); return; }
+    let dead = false;
+    import('./figure3d.js').then((m) => { if (dead || !host.current) return; const f = m.attach(host.current); if (f) { fig.current = f; f.draw(last, last, 0, 0); setThree(true); } }).catch(() => {});
+    return () => { dead = true; if (fig.current) { fig.current.dispose(); fig.current = null; } };
+  }, []);
+  useEffect(() => {
+    if (seq.length < 2 || still()) { setPts(P[last]); setCur(last); if (fig.current) fig.current.draw(last, last, 0, 0); return; }
     let raf, start = null, on = false, shown = '';
-    const MOVE = 900, HOLD = 1500;
+    const MOVE = 1150, HOLD = 1700;
     const spans = frames.map(([, hold]) => (hold ? HOLD : 0) + MOVE), total = spans.reduce((a, b) => a + b, 0);
     const tick = (now) => {
       if (start === null) start = now;
@@ -89,7 +96,8 @@ export function PrayerFigure({ seq }) {
       while (t >= spans[i]) { t -= spans[i]; i++; }
       const [name, hold] = frames[i], wait = hold ? HOLD : 0, next = frames[(i + 1) % frames.length][0];
       // a gentle breath while a position is held, then a smooth swing into the next one
-      if (t < wait) { const b = Math.sin((t / wait) * Math.PI) * 0.6; setPts(P[name].map((p, k) => (k >= 3 ? [p[0], p[1] - (k === 3 || k === 4 ? b : b * 0.5)] : p))); }
+      if (fig.current) { if (t < wait) fig.current.draw(name, name, 0, Math.sin((t / wait) * Math.PI)); else fig.current.draw(name, next, ease((t - wait) / MOVE), 0); }
+      else if (t < wait) { const b = Math.sin((t / wait) * Math.PI) * 0.6; setPts(P[name].map((p, k) => (k >= 3 ? [p[0], p[1] - (k === 3 || k === 4 ? b : b * 0.5)] : p))); }
       else setPts(mix(P[name], P[next], ease((t - wait) / MOVE)));
       const label = t < wait ? name : next;
       if (label !== shown && POSE_NAME[label] && frames.find((f) => f[0] === label)[1]) { shown = label; setCur(label); }
@@ -98,7 +106,7 @@ export function PrayerFigure({ seq }) {
     const io = new IntersectionObserver(([e]) => { on = e.isIntersecting; cancelAnimationFrame(raf); if (on) raf = requestAnimationFrame(tick); });
     io.observe(box.current);
     return () => { on = false; cancelAnimationFrame(raf); io.disconnect(); };
-  }, [seq.join()]);
+  }, [seq.join(), three]);
   const [foot, knee, hip, sh, head, elbow, hand] = pts;
   const down = Math.max(0, Math.min(1, (knee[1] - 112) / 26)); // 0 standing, 1 knees on the ground
   const upright = down < 0.5 && Math.abs(sh[0] - hip[0]) < 14;
@@ -111,7 +119,7 @@ export function PrayerFigure({ seq }) {
   const arm = (Math.atan2(hand[1] - elbow[1], hand[0] - elbow[0]) * 180) / Math.PI;
   const cuff = [hand[0] - (hand[0] - elbow[0]) * 0.22, hand[1] - (hand[1] - elbow[1]) * 0.22];
   const rtl = isDv();
-  return html`<div class="figwrap" ref=${box}><svg class="figure" viewBox="40 0 158 156" role="img" aria-label="Prayer position" direction="ltr">
+  return html`<div class="figwrap" ref=${box}><div class="fig3d-host" ref=${host} role="img" aria-label="Prayer position">${three && html`<span class="fig3d-qibla">${rtl ? 'ޤިބްލަ' : 'qiblah'} →</span>`}</div><svg class="figure" style=${three ? { display: 'none' } : null} viewBox="40 0 158 156" role="img" aria-label="Prayer position" direction="ltr">
     <path d="M52 144h138l4 7H48z" class="fig-mat" /><path d="M56 147.500h130" class="fig-mat-edge" />
     <ellipse cx=${(foot[0] + knee[0] + hand[0]) / 3 + 6} cy="144.500" rx=${Math.max(24, Math.abs(head[0] - foot[0]) * 0.62)} ry="2.400" class="fig-shadow" />
     <g class="fig-qibla-g"><path d="M171 13h14M180 8l5 5-5 5" class="fig-qibla" /><text x="178" y="30" class="fig-label">${rtl ? 'ޤިބްލަ' : 'qiblah'}</text></g>
@@ -135,6 +143,7 @@ export function PrayerFigure({ seq }) {
     <ellipse cx=${hand[0]} cy=${hand[1]} rx="5.600" ry="3.700" transform=${`rotate(${arm.toFixed(1)} ${hand[0]} ${hand[1]})`} class="fig-skin fig-skin-line" />
   </svg>
     <p class="fig-pose" key=${cur}>${(POSE_NAME[cur] || [''])[isDv() ? 1 : 0]}</p>
+    ${three && html`<p class="fig-hint muted">${rtl ? 'ވަށައިގެން ބެލުމަށް އަރިމައްޗަށް ދަމާ' : 'Drag sideways to look around him'}</p>`}
     ${seq.length > 1 && html`<p class="fig-dots" aria-hidden="true">${seq.map((p, i) => html`<i class=${p === cur && seq.indexOf(cur) === i ? 'on' : ''}></i>`)}</p>`}</div>`;
 }
 

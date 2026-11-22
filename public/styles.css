@@ -910,3 +910,10 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 .tr.dv, .dv, [lang=dv]:not(html) { direction: rtl; text-align: right; unicode-bidi: isolate; }
 .letter .dv, .letter-card .dv, td.dv, th.dv { text-align: inherit; }
 .tr.dv { max-width: none; }
+
+/* ---------- the prayer figure in 3D ---------- */
+.fig3d-host { position: relative; width: 100%; display: grid; justify-items: center; }
+.fig3d-host:empty { display: none; }
+.fig3d { display: block; touch-action: pan-y; cursor: grab; -webkit-user-select: none; user-select: none; }
+.fig3d-qibla { position: absolute; top: 6px; inset-inline-end: 8px; font-size: .8rem; font-weight: 600; color: var(--gold); direction: ltr; }
+.fig-hint { font-size: .8rem; margin: 0; }
