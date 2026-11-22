@@ -1106,6 +1106,7 @@ function Mushaf({ page }) {
       <button class="btn" onClick=${next} disabled=${right + (wide ? 1 : 0) >= 604}><${Icon} name="back" /> ${t('nextPage')}</button>
       <span class="muted">${wide ? t('tapAyah') : t('foldHint')}</span>
       <button class="chip" aria-pressed=${!!getSettings().qTaj} onClick=${() => setSettings({ qTaj: !getSettings().qTaj })}>${isDv() ? 'ތަޖުވީދު ކުލަ' : 'Tajweed colours'}</button>
+      <span class="msize" role="group" aria-label=${isDv() ? 'އަކުރުގެ ބޮޑުމިން' : 'Text size'}><button class="chip" disabled=${(getSettings().mScale || 1) <= 1} onClick=${() => setSettings({ mScale: Math.max(1, Math.round(((getSettings().mScale || 1) - 0.2) * 10) / 10) })}>A−</button><button class="chip" disabled=${(getSettings().mScale || 1) >= 2.2} onClick=${() => setSettings({ mScale: Math.min(2.2, Math.round(((getSettings().mScale || 1) + 0.2) * 10) / 10) })}>A+</button></span>
       <button class="btn" onClick=${prev} disabled=${right <= 1}>${t('prevPage')} <${Icon} name="next" /></button>
     </div>
   </div>`;
@@ -1299,8 +1300,10 @@ function SettingsPage() {
     <section class="set-card" id="notifications"><h2><${Icon} name="bell" /> ${t('notifications')}</h2><${Notifications} /></section>
     <section class="set-card"><h2><${Icon} name="quran" /> ${t('quran')}</h2>
       <${ReciterPicker} />
-      <label class="row"><span>${t('arabicSize')}</span><input type="range" min="22" max="44" step="2" value=${s.arSize} onInput=${(e) => setSettings({ arSize: +e.target.value })} /></label>
+      <label class="row"><span>${t('arabicSize')}</span><input type="range" min="22" max="64" step="2" value=${s.arSize} onInput=${(e) => setSettings({ arSize: +e.target.value })} /></label>
       <p class="ar sample" lang="ar" dir="rtl" style=${{ fontSize: s.arSize + 'px' }}>ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ</p>
+      <label class="row"><span>${isDv() ? 'މުޞްޙަފު ޞަފްޙާގެ އަކުރުގެ ބޮޑުމިން' : 'Mushaf page text size'}</span><input type="range" min="1" max="2.2" step="0.1" value=${s.mScale || 1} onInput=${(e) => setSettings({ mScale: +e.target.value })} /></label>
+      <p class="muted small">${isDv() ? 'ބޮޑުކުރުމުން ޞަފްޙާ ދިގުވާނެއެވެ. ތިރިއަށް ސްކްރޯލްކުރޭ.' : 'For easier reading. A bigger size makes the page longer, so you scroll down to read it.'}</p>
       <div class="row"><span>${t('offline')}</span>
         ${dl === 'done' ? html`<span class="muted">${t('downloaded')}</span>` : html`<button class="btn" disabled=${dl !== null} onClick=${download}>${dl ? `${dl} / 114` : t('download')}</button>`}</div>
       <${FullOffline} />
@@ -1494,6 +1497,7 @@ function App() {
   const appSettings = useSettings();
   // one text-size setting drives Arabic everywhere
   useEffect(() => { document.documentElement.style.setProperty('--ar-size', (appSettings.arSize || 30) + 'px'); }, [appSettings.arSize]);
+  useEffect(() => { document.documentElement.style.setProperty('--m-scale', appSettings.mScale || 1); }, [appSettings.mScale]);
   const route = useRoute();
   const boot = useBoot();
   const [head, a, b] = route;

@@ -1024,3 +1024,9 @@ html.focus .book.single .leaf-head { padding-right: 50px; }
 .qrow .btn { min-width: 46px; justify-content: center; }
 .answers .btn { width: 100%; min-height: 52px; }
 .deedrow .btn { justify-content: center; }
+
+/* mushaf text size, chosen by the reader */
+.mtext, .mbasmala { font-size: calc(clamp(17px, 5.05cqw, 33px) * var(--m-scale, 1)); }
+.is-spread .mtext, .is-spread .mbasmala { font-size: calc(clamp(17px, 4.4cqw, 30px) * var(--m-scale, 1)); }
+.msize { display: inline-flex; gap: 6px; } .msize .chip { min-width: 46px; justify-content: center; font-weight: 700; }
+.mushaf-nav { flex-wrap: wrap; row-gap: 10px; }

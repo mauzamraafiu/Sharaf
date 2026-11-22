@@ -31,7 +31,7 @@ export function applyTheme() {
 }
 
 // ---------- account: progress follows the reader to any device they sign in on ----------
-const SYNC_KEYS = ['prayed', 'arWords', 'last', 'marks', 'mpage', 'pagesRead', 'counts', 'island', 'reciter', 'show', 'arSize', 'qmode'];
+const SYNC_KEYS = ['prayed', 'arWords', 'last', 'marks', 'mpage', 'pagesRead', 'counts', 'island', 'reciter', 'show', 'arSize', 'qmode', 'mScale', 'qTaj'];
 let user = null, pushTimer = null;
 export const getUser = () => user;
 function schedulePush() {
