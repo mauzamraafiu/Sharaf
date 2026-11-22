@@ -4,6 +4,7 @@
 import { html, useState, useEffect, useRef } from './vendor/preact-htm.js';
 import { getSettings, setSettings, onSettings, isDv, mvNow, todayKey, timesFor, fmtTime, fmtSpan, hijriParts, getJSON, api, ayahUrl } from './lib.js';
 import { QUIZ } from './quiz.js';
+import { CalendarPage, SituationsPage, MyDuaPage, CharityPage, InheritPage, BabyNamesPage, CoursePage, ReviewPage } from './life.js';
 import { ProgressPage, GamesPage, ParentWeek } from './play.js';
 import { NamesPage, SeerahPage, TasbihPage, HajjPage, JanazahPage, PathPage, SavedPage } from './more.js';
 
@@ -21,6 +22,8 @@ const money = (n) => n.toLocaleString('en', { maximumFractionDigits: 2 });
 export const TOOL_GROUPS = [
   ['Every day', 'ކޮންމެ ދުވަހަކު', [
     ['progress', 'My reading', 'އަހަރެންގެ ކިޔެވުން', 'A daily goal, your streak and the last 12 weeks.', 'ދުވަހުގެ ލަނޑުދަނޑި، ވިދިވިދިގެން ކިޔެވި ދުވަސް.', 'quran'],
+    ['sit', 'A dua for now', 'މި ވަގުތަށް ދުޢާއެއް', 'Worried, ill, travelling: the right duas for it.', 'ހާސްކަން، ބަލި، ދަތުރު: އެކަމަކަށް ކުރާ ދުޢާ.', 'duas'],
+    ['mydua', 'My dua list', 'އަހަރެންގެ ދުޢާ ލިސްޓު', 'Your own duas and the people you pray for.', 'އަމިއްލަ ދުޢާތަކާއި ދުޢާކޮށްދޭ މީހުން.', 'mark'],
     ['tasbih', 'Tasbih', 'ތަސްބީޙަ', 'Count your dhikr with a tap and a click.', 'ފިއްތާލައިގެން ޛިކުރު ގުނާ.', 'count'],
     ['quiz', 'Daily quiz', 'ދުވަހުގެ ކުއިޒް', 'Five questions a day.', 'ދުވާލަކު ފަސް ސުވާލު.', 'chat'],
     ['khatm', 'Finish the Quran', 'ޤުރުއާން ޚަތިމްކުރުން', 'Pick a number of days and read your pages each day.', 'ދުވަސްތައް ކަނޑައަޅައި، ކޮންމެ ދުވަހަކު ޞަފްޙާތައް ކިޔަވާ.', 'quran'],
@@ -30,6 +33,9 @@ export const TOOL_GROUPS = [
     ['saved', 'Saved', 'ރައްކާކުރި ތަކެތި', 'Your bookmarked ayahs and duas, with your notes.', 'ރައްކާކުރި އާޔަތްތަކާއި ދުޢާތައް، ނޯޓުތަކާއެކު.', 'mark'],
   ]],
   ['Learn', 'ދަސްކުރުން', [
+    ['course', 'Learn the short surahs', 'ކުރު ސޫރަތްތައް ދަސްކުރުން', 'One surah at a time: listen, repeat, hide, tick.', 'ސޫރަތަކަށްފަހު ސޫރަތެއް.', 'quran'],
+    ['review', 'Review', 'މުރާޖަޢާ', 'Names, Arabic words and surahs, a few cards a day.', 'އިސްމުފުޅު، ޢަރަބި ބަސް، ސޫރަތް.', 'count'],
+    ['#/s/tajweed-lessons', 'Tajweed lessons', 'ތަޖުވީދު ފިލާވަޅު', 'Six short lessons, one for each colour.', 'ހަ ކުރު ފިލާވަޅު.', 'book'],
     ['names', 'The 99 names of Allah', 'ﷲ ގެ 99 އިސްމުފުޅު', 'Three a day, with a tick for each one learnt.', 'ދުވާލަކު ތިން އިސްމުފުޅު.', 'star'],
     ['seerah', 'Seerah timeline', 'ސީރަތުގެ ތާރީޚު', 'The life of the Prophet ﷺ, year by year.', 'ރަސޫލާ ﷺ ގެ ޙަޔާތްޕުޅު، އަހަރުން އަހަރަށް.', 'book'],
     ['path', 'New to Islam', 'އިސްލާމްދީނަށް އަލަށް', 'A first month of short readings, in order.', 'ފުރަތަމަ މަހަށް ތަރުތީބުން ކުރު ކިޔުންތައް.', 'next'],
@@ -38,10 +44,15 @@ export const TOOL_GROUPS = [
     ['#/s/sisters', 'For sisters', 'އަންހެނުންނަށް', 'Prayer and fasting rulings particular to women.', 'އަންހެނުންނަށް ޚާއްޞަ ނަމާދާއި ރޯދައިގެ ޙުކުމްތައް.', 'library'],
   ]],
   ['Seasons and duties', 'މޫސުންތަކާއި ވާޖިބުތައް', [
+    ['calendar', 'Hijri calendar', 'ހިޖުރީ ކަލަންޑަރު', 'The month, the days to fast, and days left to Ramadan and Eid.', 'މަސް، ރޯދަ ދުވަސްތައް، ރަމަޟާނާއި ޢީދަށް ހުރި ދުވަސް.', 'moon'],
     ['ramadan', 'Ramadan', 'ރަމަޟާން', 'Suhoor and iftar times, a fasting tracker and a juz a day.', 'ހާރުކާ ވަގުތާއި ރޯދަވީއްލާ ވަގުތު، ރޯދައިގެ ޗާޓު، ދުވާލަކު ފޮތެއް.', 'moon'],
     ['hajj', 'Hajj and Umrah checklist', 'ޙައްޖާއި ޢުމްރާގެ ޗެކްލިސްޓު', 'Tick each rite as you do it. Works offline.', 'ކުރާ ކޮންމެ ކަމެއް ފާހަގަކުރޭ. އިންޓަނެޓް ނެތިވެސް.', 'kaaba'],
     ['zakat', 'Zakat calculator', 'ޒަކާތް ހިސާބުކުރުން', 'Work out 2.5% on what you own, in rufiyaa.', 'ރުފިޔާއިން، މުދަލުގެ 2.5% ހިސާބުކުރޭ.', 'count'],
     ['qada', 'Missed prayers', 'ޤަޟާ ނަމާދު', 'Count what you owe and tick each one you make up.', 'ޤަޟާކުރަންޖެހޭ ނަމާދު ގުނައި، ކުރާ ކޮންމެ ނަމާދެއް ފާހަގަކުރޭ.', 'prayer'],
+    ['charity', 'Charity log', 'ޞަދަޤާތުގެ ދަފްތަރު', 'A private note of what you gave.', 'ދިން ޞަދަޤާތުގެ އަމިއްލަ ނޯޓެއް.', 'star'],
+    ['inherit', 'Inheritance shares', 'ވާރުތަ މުދަލުގެ ބައިތައް', 'Spouse, children and parents: who gets what.', 'އަނބި، ފިރި، ދަރިން، މައިންބަފައިން.', 'count'],
+    ['#/s/family-start', 'Marriage and a new baby', 'ކައިވެންޏާއި އަލަށް އުފަންވާ ދަރިފުޅު', 'The nikah, its duas, and the sunnahs for a newborn.', 'ކައިވެނި، ދުޢާތައް، ދަރިއަކު އުފަންވުމުން.', 'duas'],
+    ['babynames', 'Names for a baby', 'ކުއްޖަކަށް ކިޔާނެ ނަންތައް', 'Names with their meanings.', 'މާނައާއެކު ނަންތައް.', 'star'],
     ['janazah', 'When someone dies', 'މީހަކު މަރުވުމުން', 'What the family does, in order, with the duas.', 'ޢާއިލާއިން ކުރަންވީ ކަންކަން، ތަރުތީބުން.', 'duas'],
     ['mosque', 'Mosques near me', 'ކައިރީގައިވާ މިސްކިތްތައް', 'Open the map at the nearest mosques.', 'އެންމެ ކައިރި މިސްކިތްތައް ޗާޓުން ބަލާ.', 'compass'],
   ]],
@@ -54,13 +65,18 @@ const TP = {
 };
 const TIcon = ({ n }) => html`<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d=${TP[n]} /></svg>`;
 
-export function ToolsPage({ name, sub }) {
+export function ToolsPage({ name, sub, boot }) {
   useS();
   const P = { ramadan: Ramadan, khatm: Khatm, hifz: Hifz, quiz: Quiz, kids: Kids, qada: Qada, zakat: Zakat, mosque: Mosque }[name];
   if (P) return html`<div class="page tool"><${Back} /><${P} /></div>`;
   const Q = { names: NamesPage, seerah: SeerahPage, tasbih: TasbihPage, hajj: HajjPage, janazah: JanazahPage, path: PathPage, saved: SavedPage }[name];
   if (Q) return html`<${Q} />`;
   if (name === 'progress') return html`<${ProgressPage} />`;
+  if (name === 'calendar') return html`<${CalendarPage} boot=${boot} />`;
+  if (name === 'sit') return html`<${SituationsPage} boot=${boot} />`;
+  if (name === 'review') return html`<${ReviewPage} key=${sub} deck=${sub} />`;
+  const R = { mydua: MyDuaPage, charity: CharityPage, inherit: InheritPage, babynames: BabyNamesPage, course: CoursePage }[name];
+  if (R) return html`<${R} />`;
   if (name === 'games') return html`<${GamesPage} game=${sub} />`;
   return html`<div class="page wide"><h1>${L('Tools', 'ޓޫލްސް')}</h1>
     ${TOOL_GROUPS.map(([gen, gdv, list]) => html`<section class="tgroup"><h2>${L(gen, gdv)}</h2>
@@ -235,8 +251,12 @@ function Mosque() {
 
 // ---------- Friday ----------
 export function FridayCard() {
+  const s = useS(), data = useJSON('/data/prayer.json');
   if (mvNow().getUTCDay() !== 5) return null;
+  let jumuah = '';
+  try { if (data) jumuah = fmtTime(timesFor(data, s.island, mvNow()).times[2]); } catch {}
   return html`<section class="friday"><strong>${L('It is Friday', 'މިއަދަކީ ހުކުރު ދުވަހެވެ')}</strong>
+    ${jumuah && html`<p class="friday-time">${L('Jumuah is at Dhuhr:', 'ހުކުރު ނަމާދު، މެންދުރު ވަގުތު:')} <strong class="num">${jumuah}</strong>. ${L('Go early, and listen to the khutbah without talking.', 'އަވަހަށް ގޮސް، ވާހަކަނުދައްކާ ޚުޠުބާ އަޑުއަހާށެވެ.')}</p>`}
     <p>${L('Read Surah al-Kahf, send many salawat on the Prophet ﷺ, and make dua in the last hour before Maghrib.', 'ސޫރަތުލް ކަހްފު ކިޔަވައި، ނަބިއްޔާ ﷺ އަށް ގިނައިން ޞަލަވާތް ކިޔަވައި، މަޣްރިބުގެ ކުރީގެ ފަހު ގަޑީގައި ދުޢާކުރޭ.')}</p>
     <div class="row-links"><a class="btn primary" href="#/quran/18">${L('Open Surah al-Kahf', 'ސޫރަތުލް ކަހްފު ހުޅުވާ')}</a></div></section>`;
 }

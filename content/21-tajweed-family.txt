@@ -1,0 +1,270 @@
+%% tajweed-lessons | quran | Tajweed, one rule at a time | ތަޖުވީދު، ޤަވާޢިދަކަށްފަހު ޤަވާޢިދެއް | Six short lessons that match the tajweed colours in the reader, each with an ayah to listen to. | ކިޔާ ބައިގައިވާ ތަޖުވީދު ކުލަތަކާ ގުޅޭ ހަ ކުރު ފިލާވަޅު، ކޮންމެ ފިލާވަޅަކާއެކު އަޑުއަހާނެ އާޔަތެއް. | article
+
+@@ tajweed-1-what
+title_en: 1. What tajweed is
+title_dv: 1. ތަޖުވީދަކީ ކޮބާ
+arabic: أَوۡ زِدۡ عَلَيۡهِ وَرَتِّلِ ٱلۡقُرۡءَانَ تَرۡتِيلًا
+translit: Wa rattilil-Qur'ana tartila
+audio: q:73:4
+ref: Quran 73:4
+--- en
+Tajweed means giving every letter its right: its own sound, its length and its place in the mouth. Allah says: "Recite the Quran slowly and clearly" (73:4).
+
+You do not need to learn every rule before you read. Start with these five things, which are the five colours in the reader:
+
+- **Through the nose** (ghunnah): a humming sound held for two counts.
+- **A small bounce** (qalqalah) on five letters.
+- **Stretching** (madd) a long vowel for two counts.
+- **A longer stretch** of four to six counts.
+- **Letters that are written but not said.**
+
+Turn on "Tajweed colours" in any surah and listen to a reciter while you follow the colours. The ear learns faster than the eye.
+--- dv
+ތަޖުވީދަކީ ކޮންމެ އަކުރަކަށް އޭގެ ޙައްޤު ދިނުމެވެ. އެއީ އަކުރުގެ އަޑާއި، ދިގުމިނާއި، އަނގައިން ނިކުންނަ ތަނެވެ. ﷲ ވަޙީކުރައްވާފައިވެއެވެ: "ޤުރުއާން މަޑުމަޑުން ސާފުކޮށް ކިޔަވާށެވެ" (73:4).
+
+ކިޔަވަން ފެށުމުގެ ކުރިން ހުރިހާ ޤަވާޢިދެއް ދަސްކުރާކަށް ނުޖެހެއެވެ. މި ފަސް ކަމުން ފަށާށެވެ. އެއީ ކިޔާ ބައިގައިވާ ފަސް ކުލައެވެ:
+
+- **ނޭފަތުން** (ޣުންނަ): ދެ ޙަރަކާތުގެ ދިގުމިނަށް ހިފަހައްޓާ އަޑެއް.
+- **ކުޑަ ތެޅުމެއް** (ޤަލްޤަލާ) ފަސް އަކުރެއްގައި.
+- **ދެ ޙަރަކާތަށް ދަމާލުން** (މައްދު).
+- **ހަތަރަކުން ހަޔަކާ ދެމެދު ޙަރަކާތަށް ދަމާލުން.**
+- **ލިޔެފައިވާ، ނަމަވެސް ނުކިޔާ އަކުރުތައް.**
+
+ކޮންމެ ސޫރަތެއްގައިވެސް "ތަޖުވީދު ކުލަ" ޖައްސައި، ކުލަތައް ބަލަމުން ޤާރީއެއްގެ ކިޔެވުން އަޑުއަހާށެވެ.
+
+@@ tajweed-2-ghunnah
+title_en: 2. The sound through the nose
+title_dv: 2. ނޭފަތުން ނިކުންނަ އަޑު (ޣުންނަ)
+arabic: مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ
+translit: Minal-jinnati wan-nas
+audio: q:114:6
+ref: Quran 114:6
+--- en
+Ghunnah is a soft humming sound that comes from the nose. Pinch your nose while saying "nn" and the sound stops; that is how you know it is ghunnah.
+
+It is strongest on two letters when they carry a shaddah: **noon** (نّ) and **meem** (مّ). Hold the sound for two counts, about as long as it takes to close and open a finger twice.
+
+In the ayah above, listen for the doubled noon in *al-jinnati* and in *an-nas*. Both are held.
+--- dv
+ޣުންނައަކީ ނޭފަތުން ނިކުންނަ މަޑު އަޑެކެވެ. "ންނ" ކިޔަމުން ނޭފަތުގައި ހިފާލުމުން އަޑު ހުއްޓޭނެއެވެ. އެއީ ޣުންނަކަން އެނގޭނެ ގޮތެވެ.
+
+ޣުންނަ އެންމެ ވަރުގަދަވަނީ ޝައްދު އަޅާފައިވާ ދެ އަކުރެއްގައެވެ: **ނޫން** (نّ) އަދި **މީމް** (مّ). އެ އަޑު ދެ ޙަރަކާތުގެ ދިގުމިނަށް ހިފަހައްޓާށެވެ.
+
+މަތީގައިވާ އާޔަތުގައި *އަލްޖިންނަތި* އާއި *އައްނާސް* ގައިވާ ޝައްދު ނޫން އަޑުއަހާށެވެ.
+
+@@ tajweed-3-noon
+title_en: 3. Noon with sukoon and tanween
+title_dv: 3. ސުކޫން ނޫނާއި ތަންވީން
+arabic: وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ
+translit: Wa lam yakul-lahu kufuwan ahad
+audio: q:112:4
+ref: Quran 112:4
+--- en
+A noon with no vowel (نْ) and the "n" sound of tanween change according to the letter that comes next. There are four things that can happen:
+
+- **Clear** (izhar): before the throat letters ء ه ع ح غ خ the noon is said plainly. In the ayah above, *kufuwan ahad* is clear.
+- **Merged** (idgham): before ي ر م ل و ن the noon melts into the next letter. In the ayah above, *yakun lahu* is read *yakul-lahu*.
+- **Changed** (iqlab): before ب the noon becomes a meem with a hum, as in *mim ba'di*.
+- **Hidden** (ikhfa): before the other fifteen letters the noon is half hidden, with a hum through the nose for two counts, as in *min sharri*.
+--- dv
+ސުކޫން އަޅާފައިވާ ނޫނާއި (نْ) ތަންވީނުގެ "ން" އަޑު، ޖެހިގެން އަންނަ އަކުރާ ގުޅިގެން ބަދަލުވެއެވެ. ހަތަރު ގޮތެއް ވެއެވެ:
+
+- **ފާޅުކޮށް ކިޔުން** (އިޒްހާރު): ކަރުތެރޭގެ އަކުރުތަކުގެ ކުރިން ء ه ع ح غ خ. މަތީގައިވާ އާޔަތުގައި *ކުފުވަން އަޙަދު*.
+- **ވައްދާލުން** (އިދްޣާމް): ي ر م ل و ن ގެ ކުރިން. މަތީގައިވާ އާޔަތުގައި *ޔަކުން ލަހޫ* ކިޔަނީ *ޔަކުއްލަހޫ* އެވެ.
+- **ބަދަލުކުރުން** (އިޤްލާބު): ب ގެ ކުރިން ނޫން މީމަކަށް ބަދަލުވެއެވެ. މިސާލަކަށް *މިމްބަޢުދި*.
+- **ފޮރުވުން** (އިޚްފާ): ބާކީ ފަނަރަ އަކުރުގެ ކުރިން، ނޭފަތުން ދެ ޙަރަކާތުގެ ޣުންނައަކާއެކު. މިސާލަކަށް *މިން ޝައްރި*.
+
+@@ tajweed-4-qalqalah
+title_en: 4. The small bounce
+title_dv: 4. ކުޑަ ތެޅުން (ޤަލްޤަލާ)
+arabic: قُلۡ هُوَ ٱللَّهُ أَحَدٌ ۝ ٱللَّهُ ٱلصَّمَدُ ۝ لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ۝ وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ
+translit: Qul huwallahu ahad. Allahus-samad. Lam yalid wa lam yulad. Wa lam yakul-lahu kufuwan ahad.
+audio: q:112:1-4
+ref: Quran 112
+--- en
+Five letters bounce a little when they have no vowel: **ق ط ب ج د**. A way to remember them is the phrase *qutbu jad*.
+
+The bounce is a tiny echo after the letter, not an extra vowel. It is strongest when you stop on the letter at the end of an ayah.
+
+Surah al-Ikhlas is the best place to hear it: every ayah ends on a dal. Listen for the bounce on *ahad*, *as-samad*, *yulad* and *ahad*.
+--- dv
+ސުކޫން އަޅާފައިވާއިރު ފަސް އަކުރެއް ކުޑަކޮށް ތެޅިލައެވެ: **ق ط ب ج د**. ހަނދާންކުރަން ފަސޭހަ ގޮތަކީ *ޤުޠުބު ޖަދު* އެވެ.
+
+ތެޅުމަކީ އަކުރަށްފަހު އިވޭ ކުޑަ އަޑެކެވެ. އެއީ އިތުރު ޙަރަކާތެއް ނޫނެވެ. އާޔަތުގެ ނިމުމުގައި އެ އަކުރުގައި ހުއްޓާއިރު ތެޅުން އެންމެ ވަރުގަދަވެއެވެ.
+
+އިޚްލާޞް ސޫރަތުގެ ކޮންމެ އާޔަތެއް ނިމެނީ ދާލަކުންނެވެ. *އަޙަދު*، *އައްޞަމަދު*، *ޔޫލަދު* ގައި ތެޅުން އަޑުއަހާށެވެ.
+
+@@ tajweed-5-madd
+title_en: 5. Stretching the long vowels
+title_dv: 5. ދިގުކޮށް ދަމާލުން (މައްދު)
+arabic: صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا ٱلضَّآلِّينَ
+translit: Siratal-ladhina an'amta 'alayhim, ghayril-maghdubi 'alayhim wa lad-dallin
+audio: q:1:7
+ref: Quran 1:7
+--- en
+The three long vowels are alif (ا), waw (و) and ya (ي). On their own they are held for two counts. This is the natural stretch, and cutting it short changes the word.
+
+The stretch becomes longer, four to six counts, in two cases:
+
+- when a **hamzah** (ء) follows the long vowel;
+- when a letter with **sukoon or shaddah** follows it.
+
+The last word of al-Fatihah is the clearest example. In *wa lad-daaalleen* the alif is followed by a doubled lam, so it is held for six counts. Listen to how long the reciter holds it.
+--- dv
+ދިގު ތިން ޙަރަކާތަކީ އަލިފު (ا)، ވާވު (و) އަދި ޔާ (ي) އެވެ. އާދައިގެ ގޮތުގައި މި އަކުރުތައް ދަމާލަނީ ދެ ޙަރަކާތުގެ ދިގުމިނަށެވެ. މިއަށްވުރެ ކުރުކުރުމުން ބަހުގެ މާނަ ބަދަލުވެއެވެ.
+
+ދެ ޙާލަތެއްގައި ހަތަރަކުން ހަޔަކާ ދެމެދު ޙަރަކާތަށް ދަމާލެވެއެވެ:
+
+- ދިގު ޙަރަކާތަށްފަހު **ހަމްޒާ** (ء) އެއް އައުން؛
+- ދިގު ޙަރަކާތަށްފަހު **ސުކޫން ނުވަތަ ޝައްދު** އަޅާފައިވާ އަކުރެއް އައުން.
+
+އެންމެ ސާފު މިސާލަކީ ފާތިޙާ ސޫރަތުގެ ފަހު ބަހެވެ. *ވަލައްޟާއްލީން* ގައި އަލިފަށްފަހު ޝައްދު ލާމެއް އަންނާތީ، ހަ ޙަރަކާތަށް ދަމާލެވެއެވެ.
+
+@@ tajweed-6-stopping
+title_en: 6. Stopping and the pause marks
+title_dv: 6. ވަޤްފުކުރުމާއި ވަޤްފުގެ ނިޝާންތައް
+arabic: وَٱلۡعَصۡرِ ۝ إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ ۝ إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ
+translit: Wal-'asr. Innal-insana lafi khusr. Illal-ladhina amanu wa 'amilus-salihati wa tawasaw bil-haqqi wa tawasaw bis-sabr.
+audio: q:103:1-3
+ref: Quran 103
+--- en
+When you stop at the end of an ayah, the last letter loses its short vowel. *Wal-'asri* is read *wal-'asr*.
+
+Three more things happen when stopping:
+
+- a double fathah (ـًا) becomes a long "a";
+- the round ta (ة) is read as "h";
+- other tanween is dropped.
+
+Small marks above the line tell you where you may breathe:
+
+- **مـ** stop here;
+- **لا** do not stop here;
+- **ج** you may stop or go on;
+- **صلى** going on is better;
+- **قلى** stopping is better.
+
+It is always correct to stop at the end of an ayah.
+--- dv
+އާޔަތުގެ ނިމުމުގައި ހުއްޓާއިރު ފަހު އަކުރުގެ ކުރު ޙަރަކާތް ވެއްޓެއެވެ. *ވަލްޢަޞްރި* ކިޔަނީ *ވަލްޢަޞްރު* އެވެ.
+
+ހުއްޓާއިރު އިތުރު ތިން ކަމެއް ވެއެވެ:
+
+- ދެ އަބަފިލި (ـًا) ދިގު "އާ" އަކަށް ބަދަލުވެއެވެ؛
+- ވަށް ތާ (ة) ކިޔަނީ "ހް" ގެ ގޮތުގައެވެ؛
+- އެހެން ތަންވީން ވެއްޓެއެވެ.
+
+ފޮޅުވަތުގެ މަތީގައިވާ ކުދި ނިޝާންތަކުން ނޭވާލެވޭ ތަން އެނގެއެވެ:
+
+- **مـ** މިތަނުގައި ހުއްޓާށެވެ؛
+- **لا** މިތަނުގައި ނުހުއްޓާށެވެ؛
+- **ج** ހުއްޓުންވެސް ކުރިއަށް ދިއުންވެސް ހުއްދައެވެ؛
+- **صلى** ކުރިއަށް ދިއުން މާ ރަނގަޅެވެ؛
+- **قلى** ހުއްޓުން މާ ރަނގަޅެވެ.
+
+އާޔަތުގެ ނިމުމުގައި ހުއްޓުމަކީ އަބަދުވެސް ރަނގަޅު ކަމެކެވެ.
+
+%% family-start | life | Marriage and a new baby | ކައިވެންޏާއި އަލަށް އުފަންވާ ދަރިފުޅު | The nikah, the duas for a couple, and the sunnahs when a child is born. | ކައިވެނި، ދެމަފިރިންނަށް ކުރާ ދުޢާ، އަދި ދަރިއަކު އުފަންވުމުން ކުރާ ސުންނަތްތައް. | dua
+
+@@ nikah-1-choosing
+title_en: Choosing a husband or wife
+title_dv: ފިރިއަކު ނުވަތަ އަންބަކު ހޮވުން
+ref: Bukhari 5090; Muslim 1466
+--- en
+The Prophet ﷺ said that a woman is married for four things: her wealth, her family, her beauty and her religion, "so choose the one with religion, and you will prosper." The same holds when a family is asked for their daughter: religion and good character come first.
+
+Meet with the family present, ask honest questions, and pray istikharah before you decide.
+--- dv
+ރަސޫލާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: އަންހެނަކާ ކައިވެނިކުރެވެނީ ހަތަރު ކަމަކަށްޓަކައެވެ: މުދަލާއި، ނަސަބާއި، ރީތިކަމާއި، ދީންވެރިކަމެވެ. "ފަހެ ދީންވެރި އަންހެނާ ހޮވާށެވެ." ފިރިހެނަކު ހޮވާއިރުވެސް އެންމެ އިސްކަންދޭނީ ދީންވެރިކަމާއި ރިވެތި އަޚްލާޤަށެވެ.
+
+ޢާއިލާ ހާޒިރުގައި ބައްދަލުކޮށް، ތެދުވެރިކަމާއެކު ސުވާލުކޮށް، ނިންމުމުގެ ކުރިން އިސްތިޚާރާ ނަމާދުކުރާށެވެ.
+
+@@ nikah-2-contract
+title_en: What makes a nikah valid
+title_dv: ކައިވެނި ޞައްޙަވުމަށް ބޭނުންވާ ކަންކަން
+--- en
+A nikah is a contract, and it needs five things:
+
+- the free consent of the bride and of the groom;
+- the bride's guardian (wali);
+- two Muslim witnesses;
+- the mahr, a gift from the groom that belongs to the bride alone;
+- the offer and the acceptance, said clearly in one sitting.
+
+In the Maldives the marriage is also registered at the court. A short sermon and a dua are said before the contract.
+--- dv
+ކައިވެންޏަކީ ޢަޤުދެކެވެ. އެ ޢަޤުދަށް ފަސް ކަމެއް ބޭނުންވެއެވެ:
+
+- އަންހެނާގެ އާއި ފިރިހެނާގެ ރުހުން؛
+- އަންހެނާގެ ވަލީވެރިޔާ؛
+- ދެ މުސްލިމު ހެކިވެރިން؛
+- މަހުރު، އެއީ ހަމައެކަނި އަންހެނާގެ މިލްކެކެވެ؛
+- އީޖާބާއި ޤަބޫލު، އެއް މަޖިލީހެއްގައި ސާފުކޮށް ބުނުން.
+
+ދިވެހިރާއްޖޭގައި ކައިވެނި ކޯޓުގައި ރަޖިސްޓްރީވެސް ކުރެވެއެވެ. ޢަޤުދުގެ ކުރިން ކުރު ޚުޠުބާއަކާއި ދުޢާއެއް ކިޔެވެއެވެ.
+
+@@ nikah-3-dua-couple
+title_en: Dua for the newly married
+title_dv: އަލަށް ކައިވެނިކުރި މީހުންނަށް ކުރާ ދުޢާ
+arabic: بَارَكَ اللَّهُ لَكَ، وَبَارَكَ عَلَيْكَ، وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ
+translit: Barakallahu laka, wa baraka 'alayka, wa jama'a baynakuma fi khayr.
+ref: Abu Dawud 2130; Tirmidhi 1091
+--- en
+May Allah bless you, send blessings upon you, and bring the two of you together in goodness.
+
+This is what the Prophet ﷺ said to a person who had married.
+--- dv
+ﷲ ތިބާއަށް ބަރަކާތް ލައްވާށިއެވެ. ތިބާގެ މައްޗަށް ބަރަކާތް ލައްވާށިއެވެ. އަދި ހެޔޮކަމުގެ މަތީގައި ތިޔަ ދެމީހުން އެއްކުރައްވާށިއެވެ.
+
+ކައިވެނިކުރި މީހަކަށް ރަސޫލާ ﷺ ވިދާޅުވަނީ މިހެންނެވެ.
+
+@@ nikah-4-dua-spouse
+title_en: The husband's dua for his wife
+title_dv: ފިރިމީހާ އަނބިމީހާއަށްޓަކައި ކުރާ ދުޢާ
+arabic: اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا وَخَيْرَ مَا جَبَلْتَهَا عَلَيْهِ، وَأَعُوذُ بِكَ مِنْ شَرِّهَا وَشَرِّ مَا جَبَلْتَهَا عَلَيْهِ
+translit: Allahumma inni as'aluka khayraha wa khayra ma jabaltaha 'alayh, wa a'udhu bika min sharriha wa sharri ma jabaltaha 'alayh.
+ref: Abu Dawud 2160; Ibn Majah 1918
+--- en
+O Allah, I ask You for her goodness and the goodness of the nature You gave her, and I seek refuge in You from her harm and the harm of the nature You gave her.
+
+Said on the first night, with his hand on her forehead.
+--- dv
+އޭ ﷲ! އެކަމަނާގެ ހެޔޮކަމާއި، އެކަމަނާގެ ޠަބީޢަތުގެ ހެޔޮކަން އެދި ދަންނަވަމެވެ. އަދި އެކަމަނާގެ ނުބައިކަމާއި، އެކަމަނާގެ ޠަބީޢަތުގެ ނުބައިކަމުން ރައްކާތެރިކުރެއްވުން އެދި ދަންނަވަމެވެ.
+
+ފުރަތަމަ ރޭ، އެކަމަނާގެ ނިތްކުރީގައި އަތް ބާއްވައިގެން ކިޔާށެވެ.
+
+@@ nikah-5-walimah
+title_en: The wedding meal
+title_dv: ކައިވެނީގެ ކެއުން (ވަލީމާ)
+ref: Bukhari 5167
+--- en
+Giving a meal after the marriage is a sunnah. The Prophet ﷺ told Abdur-Rahman ibn Awf: "Give a wedding meal, even if only with one sheep."
+
+Keep it within your means. Invite the poor as well as the rich, and accept an invitation when you are asked.
+--- dv
+ކައިވެންޏަށްފަހު ކެއުމެއް ދިނުމަކީ ސުންނަތެކެވެ. ރަސޫލާ ﷺ ޢަބްދުއްރަޙްމާން ބިން ޢައުފަށް ވިދާޅުވިއެވެ: "އެންމެ ބަކަރިއަކުން ނަމަވެސް ވަލީމާއެއް ދޭށެވެ."
+
+ތަނަވަސްކަން ހުރި ވަރަކުން ދޭށެވެ. މުއްސަނދިންނާއެކު ފަޤީރުންނަށްވެސް ދަޢުވަތުދީ، ދަޢުވަތެއް ލިބުމުން ޤަބޫލުކުރާށެވެ.
+
+@@ newborn-sunnahs
+title_en: When a child is born
+title_dv: ދަރިއަކު އުފަންވުމުން
+ref: Bukhari 5467; Abu Dawud 2838; Tirmidhi 1513, 1514
+--- en
+- **Thank Allah**, for a daughter as much as for a son.
+- **Tahnik:** a little softened date is rubbed on the baby's palate, and dua is made for the child.
+- **The adhan:** many families say the adhan softly in the baby's right ear. The hadith for this is in Tirmidhi; scholars differ on how strong it is.
+- **On the seventh day:** the aqiqah is slaughtered, two sheep for a boy and one for a girl, the head is shaved, and the child is named.
+- **A good name:** choose a name with a good meaning. The names most loved by Allah are Abdullah and Abdur-Rahman (Muslim 2132).
+- **Circumcision** for boys.
+
+There is a list of names with their meanings under Tools.
+--- dv
+- **ﷲ އަށް ޝުކުރުކުރާށެވެ.** ފިރިހެން ދަރިއަކަށްވެސް އަންހެން ދަރިއަކަށްވެސް އެއްވަރަށެވެ.
+- **ތަޙްނީކު:** މަޑުކޮށްފައިވާ ކަދުރުކޮޅެއް ކުއްޖާގެ އަނގަމަތީގައި އުނގުޅައި، ކުއްޖާއަށް ދުޢާކުރުން.
+- **ބަންގި:** ގިނަ ޢާއިލާތަކުން ކުއްޖާގެ ކަނާތު ކަންފަތުގައި މަޑުން ބަންގި ގޮވައެވެ. މިކަމާ ބެހޭ ޙަދީޘް ތިރްމިޛީގައި ވެއެވެ. އެ ޙަދީޘްގެ ވަރުގަދަކަމާމެދު ޢިލްމުވެރިންގެ ޚިލާފު ހުރެއެވެ.
+- **ހަތްވަނަ ދުވަހު:** ޢަޤީޤާ ކަތިލުން. ފިރިހެން ކުއްޖަކަށް ދެ ބަކަރި، އަންހެން ކުއްޖަކަށް އެއް ބަކަރި. ބޯ ބޭލުމާއި ނަން ކިޔުން.
+- **ރަނގަޅު ނަމެއް:** ރިވެތި މާނައެއް ހުރި ނަމެއް ހޮވާށެވެ. ﷲ އެންމެ ލޯބިވެވޮޑިގަންނަވާ ނަންތަކަކީ ޢަބްދުﷲ އާއި ޢަބްދުއްރަޙްމާން އެވެ (މުސްލިމް 2132).
+- ފިރިހެން ކުދިންނަށް **ޚިތާނުކުރުން.**
+
+މާނައާއެކު ނަންތަކުގެ ލިސްޓެއް ޓޫލްސްގައި ވެއެވެ.

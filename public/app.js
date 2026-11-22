@@ -4,6 +4,7 @@ import { LETTERS, WORDS } from './arabic.js';
 import { Admin } from './admin.js';
 import { StepFigure, PrayerPicker } from './figures.js';
 import { ToolsPage, FridayCard, AzanWatcher } from './tools.js';
+import { DateStrip, StoryArt } from './life.js';
 import { SaveBtn, ShareBtn, NoteBox, noteFor, QuranFind } from './more.js';
 
 // ---------- hooks ----------
@@ -444,7 +445,7 @@ function NowCard({ boot }) {
   if (now.getUTCDay() === 5) { rows.push(['#/quran/18', 'quran', t('kahfFriday')]); rows.push(['#/count/dhikr-salawat', 'count', t('salawatFriday')]); }
   if (minute >= times[0] && minute < times[2]) rows.push(['#/guide/sec:duas-morning-evening', 'duas', t('morningAdhkar')]);
   else if (minute >= times[3] && minute < times[5]) rows.push(['#/guide/sec:duas-morning-evening', 'duas', t('eveningAdhkar')]);
-  else if (minute >= times[5] || minute < times[0]) rows.push(['#/i/dua-sleeping', 'moon', t('beforeSleep')]);
+  else if (minute >= times[5] || minute < times[0]) rows.push(['#/guide/sleep', 'moon', t('beforeSleep')]);
   if (!rows.length) return null;
   return html`<section class="now">
     <h2>${t('nowTitle')}</h2>
@@ -477,7 +478,7 @@ function Home({ boot }) {
       <p class="bismillah" lang="ar" dir="rtl">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
     </header>
     <a class="memstrip" href="#/memory"><span class="mem-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>${t('memShort')} <span class="mem-nm"><strong>${t('memName')}</strong> <span class="mem-ar-b">(<span class="mem-ar-in" lang="ar" dir="rtl">شَرِيفَة أَحْمَد</span>)</span>${t('memAfter')} <span class="num">1972 – 2023</span></span></span><span class="memstrip-go">${t('memAsk')}</span></a>
-    <${CatchUp} /><${FridayCard} />
+    <${CatchUp} /><${FridayCard} /><${DateStrip} />
     <div class="home-grid">
       <div class="col"><${PrayerCard} track /></div>
       <div class="col">
@@ -703,7 +704,7 @@ function PrayerPage({ boot }) {
 }
 function DuasPage({ boot }) {
   return html`<div class="page wide"><h1>${t('duas')}</h1>
-    <div class="cardgrid tiles few"><${Card} href="#/s/dhikr-tongue" icon="count" title=${t('counter')} sub=${t('tapToCount')} /><${Card} href="#/guide/sec:duas-morning-evening" icon="duas" title=${t('morningAdhkar')} sub=${t('oneByOne')} /><${Card} href="#/guide/after-dhuhr" icon="duas" title=${t('afterPrayer')} sub=${t('oneByOne')} /></div>
+    <div class="cardgrid tiles few"><${Card} href="#/s/dhikr-tongue" icon="count" title=${t('counter')} sub=${t('tapToCount')} /><${Card} href="#/guide/sec:duas-morning-evening" icon="duas" title=${t('morningAdhkar')} sub=${t('oneByOne')} /><${Card} href="#/guide/after-dhuhr" icon="duas" title=${t('afterPrayer')} sub=${t('oneByOne')} /><${Card} href="#/guide/sleep" icon="moon" title=${isDv() ? 'ނިދުމުގެ ކުރިން' : 'Before sleep'} sub=${t('oneByOne')} /><${Card} href="#/t/sit" icon="duas" title=${isDv() ? 'މި ވަގުތަށް ދުޢާއެއް' : 'A dua for now'} sub=${isDv() ? 'ދިމާވެފައިވާ ކަމެއް ހޮވާ' : 'Choose what is happening'} /></div>
     <section class="group"><h2>${t('g_duas')}</h2><div class="cardgrid rows"><${SectionCards} boot=${boot} sections=${sectionsOf(boot, 'duas')} /></div></section></div>`;
 }
 
@@ -750,6 +751,14 @@ async function buildGuide(id, boot) {
     if (twice) steps.push(TEN);
     if (p === 'fajr') steps.push(FAJR_DUA);
     return { title: `${t('afterPrayer')}: ${t(p)}`, back: '#/', steps };
+  }
+  if (id === 'sleep') { // the sunnah before sleeping: Ayat al-Kursi, the three Quls three times, 33-33-34, then the dua
+    const d = (await sectionItems('duas-daily')).find((i) => i.id === 'dua-sleeping');
+    const steps = [await quranStep(2, 255, 255, 1)];
+    for (const sn of [112, 113, 114]) steps.push(await quranStep(sn, 1, 0, 3));
+    steps.push(TASBIH[0], TASBIH[1], { ...TASBIH[2], n: 34 });
+    if (d) steps.push(fromItem(d, 1));
+    return { title: isDv() ? 'ނިދުމުގެ ކުރިން' : 'Before sleep', back: '#/duas', steps };
   }
   const secId = id.replace(/^sec:/, '');
   const sec = boot.sections.find((x) => x.id === secId);
@@ -916,7 +925,7 @@ function ItemPage({ boot, id }) {
     <${Wait} s=${d}>${(items) => {
       const i = items.findIndex((x) => x.id === id), it = items[i];
       if (!it) return html`<p class="status">${t('noResults')}</p>`;
-      return html`<article><h1>${pick(it, 'title')}</h1><${StepFigure} id=${it.id} /><${ItemBody} item=${it} />
+      return html`<article><h1>${pick(it, 'title')}</h1><${StoryArt} id=${it.id} /><${StepFigure} id=${it.id} /><${ItemBody} item=${it} />
         <nav class="pager">
           ${items[i - 1] ? html`<a class="btn" href=${`#/i/${items[i - 1].id}`}><${Icon} name="back" /> ${pick(items[i - 1], 'title')}</a>` : html`<span></span>`}
           ${items[i + 1] && html`<a class="btn" href=${`#/i/${items[i + 1].id}`}>${pick(items[i + 1], 'title')} <${Icon} name="next" /></a>`}
@@ -1569,7 +1578,7 @@ function App() {
   else if (head === 'countdown') page = html`<${CountdownPage} />`;
   else if (head === 'qibla') page = html`<${QiblaPage} />`;
   else if (head === 'memory') page = html`<${MemoryPage} />`;
-  else if (head === 't') page = html`<${ToolsPage} name=${a || ''} sub=${b || ''} />`;
+  else if (head === 't') page = html`<${ToolsPage} name=${a || ''} sub=${b || ''} boot=${boot.data} />`;
   else if (head === 'guide') page = html`<${GuidePage} boot=${boot.data} id=${decodeURIComponent(a || '')} />`;
   else if (head === 's') page = html`<${SectionPage} boot=${boot.data} id=${a} />`;
   else if (head === 'i') page = html`<${ItemPage} boot=${boot.data} id=${a} />`;
