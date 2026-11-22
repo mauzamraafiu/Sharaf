@@ -837,3 +837,9 @@ input[type=range] { accent-color: var(--lagoon); width: min(52%, 220px); height:
 .pc-count { display: inline-flex; align-items: center; gap: 4px; text-decoration: underline; text-underline-offset: 3px; }
 .pc-count .icon { width: 14px; height: 14px; }
 [dir=rtl] .pc-count .icon { transform: scaleX(-1); }
+
+/* the dedication dua: large and open, easy to read aloud */
+.mem-dua > .ar { font-size: clamp(1.75rem, 7.6vw, 2.2rem); line-height: 2.25; text-align: justify; text-align-last: start; }
+.mem-dua .notice .ar { display: block; font-size: clamp(1.6rem, 7vw, 2rem); line-height: 2.1; margin-top: 6px; }
+.mem-dua .translit { font-size: 1.05rem; line-height: 1.7; }
+.mem-rahimaha { font-size: clamp(1.6rem, 7vw, 2rem); line-height: 2; }
