@@ -5,7 +5,7 @@ import { html } from './vendor/preact-htm.js';
 const DEFAULTS = {
   lang: 'en', theme: 'auto', island: 102, reciter: 'Alafasy_128kbps',
   show: { ar: true, en: true, dv: true }, arSize: 30, last: null, marks: [],
-  notif: { on: false, prayers: 31, lead: 0 }, qmode: 'study', mpage: 1, pagesRead: [], counts: {}, prayed: {}, arWords: [], saved: [], notes: {},
+  notif: { on: false, prayers: 31, lead: 0 }, qmode: 'study', mpage: 1, pagesRead: [], counts: {}, prayed: {}, arWords: [], saved: [], notes: {}, travel: { on: false },
 };
 let settings = { ...DEFAULTS };
 try { settings = { ...DEFAULTS, ...JSON.parse(localStorage.getItem('dheen') || '{}') }; } catch {}
@@ -16,7 +16,7 @@ export function setSettings(patch) {
   try { localStorage.setItem('dheen', JSON.stringify(settings)); } catch {}
   if (user && Object.keys(patch).some((k) => SYNC_KEYS.includes(k))) schedulePush();
   // The service worker cannot read localStorage, so mirror what it needs into a cache entry.
-  if ('caches' in window) caches.open('dheen-settings').then((c) => c.put('/__settings', new Response(JSON.stringify({ lang: settings.lang, island: settings.island, lead: settings.notif.lead })))).catch(() => {});
+  if ('caches' in window) caches.open('dheen-settings').then((c) => c.put('/__settings', new Response(JSON.stringify({ lang: settings.lang, island: activeIsland(settings), lead: settings.notif.lead })))).catch(() => {});
   applyTheme();
   listeners.forEach((f) => f(settings));
 }
@@ -176,14 +176,48 @@ export const isDv = () => settings.lang === 'dv';
 
 // ---------- prayer times ----------
 export const PRAYERS = ['fajr', 'sunrise', 'dhuhr', 'asr', 'maghrib', 'isha'];
-export function mvNow() { return new Date(Date.now() + 5 * 3600000); } // Maldives is UTC+5, no DST
+// "Now" on the clock of the place whose prayer times are showing. At home and anywhere in the Maldives that is UTC+5 (no DST);
+// in travel mode abroad it is the phone's own time zone, saved when the location was taken.
+export function mvNow() { const tr = settings.travel; return new Date(Date.now() + (tr && tr.on && !tr.island && tr.tz != null ? tr.tz : 300) * 60000); }
+
+// ---------- travel mode ----------
+const R = Math.PI / 180;
+export function kmBetween(a1, o1, a2, o2) { const h = Math.sin((a2 - a1) * R / 2) ** 2 + Math.cos(a1 * R) * Math.cos(a2 * R) * Math.sin((o2 - o1) * R / 2) ** 2; return 12742 * Math.asin(Math.sqrt(h)); }
+export function qiblaFrom(lat, lon) { const KL = 21.4225 * R, dl = (39.8262 - lon) * R, a = lat * R; return (Math.atan2(Math.sin(dl) * Math.cos(KL), Math.cos(a) * Math.sin(KL) - Math.sin(a) * Math.cos(KL) * Math.cos(dl)) / R + 360) % 360; }
+// Prayer times from the sun's position, for places the Maldives timetable does not cover.
+// Muslim World League angles (Fajr 18°, Isha 17°), Asr when a shadow equals its object (Shafi'i). Returns minutes after local midnight.
+export function calcTimes(lat, lon, tzMin, date) {
+  const sin = (d) => Math.sin(d * R), cos = (d) => Math.cos(d * R), tan = (d) => Math.tan(d * R), fix = (a, n) => ((a % n) + n) % n;
+  const y = date.getUTCFullYear(), m = date.getUTCMonth() + 1, dd = date.getUTCDate();
+  const jd0 = Math.floor(365.25 * ((m <= 2 ? y - 1 : y) + 4716)) + Math.floor(30.6001 * ((m <= 2 ? m + 12 : m) + 1)) + dd + (2 - Math.floor((m <= 2 ? y - 1 : y) / 100) + Math.floor(Math.floor((m <= 2 ? y - 1 : y) / 100) / 4)) - 1524.5 - lon / 360;
+  const sun = (t) => { const D = jd0 + t / 24 - 2451545, g = fix(357.529 + 0.98560028 * D, 360), q = fix(280.459 + 0.98564736 * D, 360), L = fix(q + 1.915 * sin(g) + 0.02 * sin(2 * g), 360), e = 23.439 - 0.00000036 * D;
+    return { decl: Math.asin(sin(e) * sin(L)) / R, eqt: q / 15 - fix(Math.atan2(cos(e) * sin(L), cos(L)) / R / 15, 24) }; };
+  const noon = (t) => fix(12 - sun(t).eqt, 24);
+  const at = (angle, t, before) => { const x = (-sin(angle) - sin(sun(t).decl) * sin(lat)) / (cos(sun(t).decl) * cos(lat)); if (x < -1 || x > 1) return NaN; const T = Math.acos(x) / R / 15; return noon(t) + (before ? -T : T); };
+  const asr = (t) => at(-Math.atan(1 / (1 + tan(Math.abs(lat - sun(t).decl)))) / R, t, false);
+  let h = [5, 6, 12, 13, 18, 18];
+  for (let i = 0; i < 2; i++) h = [at(18, h[0], true), at(0.833, h[1], true), noon(h[2]), asr(h[3]), at(0.833, h[4], false), at(17, h[5], false)];
+  if (isNaN(h[0])) h[0] = h[1] - 1.5; if (isNaN(h[5])) h[5] = h[4] + 1.5; // far north in summer the sky never gets fully dark
+  const adj = tzMin / 60 - lon / 15;
+  return h.map((x, i) => Math.round(fix(x + adj, 24) * 60 + (i === 2 ? 1 : 0)));
+}
 export function dayIndex(d) {
   const y = d.getUTCFullYear();
   const doy = Math.floor((Date.UTC(y, d.getUTCMonth(), d.getUTCDate()) - Date.UTC(y, 0, 1)) / 86400000);
   const leap = (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0;
   return !leap && doy >= 59 ? doy + 1 : doy;
 }
+// The island whose timetable is in use: the one being visited in travel mode, otherwise home.
+export const activeIsland = (st = settings) => (st.travel && st.travel.on && st.travel.island) || st.island;
+export function nearestIsland(data, lat, lon) {
+  let best = null, km = Infinity;
+  for (const i of data.islands) if (i.la != null) { const k = kmBetween(lat, lon, i.la, i.lo); if (k < km) { km = k; best = i; } }
+  return { island: best, km };
+}
 export function timesFor(data, islandId, d = mvNow()) {
+  const tr = settings.travel;
+  if (tr && tr.on && !tr.island && tr.lat != null) return { island: { id: 0, a: '', n: tr.name || '', q: Math.round(qiblaFrom(tr.lat, tr.lon) * 10) / 10, la: tr.lat, lo: tr.lon, abroad: true }, times: calcTimes(tr.lat, tr.lon, tr.tz != null ? tr.tz : 300, d) };
+  if (tr && tr.on && tr.island) islandId = tr.island;
   const isl = data.islands.find((i) => i.id === islandId) || data.islands.find((i) => i.id === 102);
   return { island: isl, times: data.groups[isl.g][dayIndex(d)].map((m) => m + isl.o) };
 }

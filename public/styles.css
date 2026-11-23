@@ -1353,3 +1353,15 @@ button.readall { width: 100%; border: 0; font: inherit; text-align: start; curso
   .page.wide .surahs { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .shelf { gap: 16px; }
 }
+
+/* ---------- travel mode on the prayer card ---------- */
+.travel { display: grid; gap: 8px; }
+.travel-go { justify-self: start; display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 16px; border: 1px solid rgb(255 255 255 / .34); border-radius: 20px; background: rgb(255 255 255 / .08); color: inherit; font: 600 .92rem var(--ui); cursor: pointer; }
+.travel-go .icon, .travel-where .icon { width: 18px; height: 18px; }
+.travel.on { padding: 12px 14px; border-radius: 16px; background: rgb(255 255 255 / .1); border: 1px solid rgb(255 255 255 / .2); }
+.travel-where { display: flex; align-items: center; gap: 8px; margin: 0; } .travel-where strong { color: #FFE38A; } .travel-where .num { opacity: .85; font-size: .9rem; }
+.travel-rule { margin: 0; font-size: .92rem; line-height: 1.5; } .travel-note { margin: 0; font-size: .82rem; line-height: 1.5; opacity: .82; }
+.travel-acts { display: flex; flex-wrap: wrap; gap: 6px; }
+.travel-btn { display: inline-flex; align-items: center; min-height: 38px; padding: 0 12px; border: 1px solid rgb(255 255 255 / .34); border-radius: 12px; background: none; color: inherit; font: 600 .86rem var(--ui); cursor: pointer; }
+.travel-btn.home { background: #F1FAF7; color: #0B4F4C; border-color: transparent; }
+.travel .islandpick { margin-top: 8px; color: var(--ink); background: var(--surface); border-radius: 14px; padding: 8px 12px; }

@@ -1,0 +1,179 @@
+%% travel-steps | prayer | Praying when you travel | ދަތުރުމަތީގައި ނަމާދުކުރާނެ ގޮތް | Shortening and joining prayers on a journey, step by step, following the Shafi'i school. | ދަތުރުމަތީގައި ނަމާދު ކުރުކުރުމާއި ޖަމްޢުކުރުން، ޝާފިޢީ މަޛްހަބާ އެއްގޮތަށް. | step
+
+@@ travel-1-who
+title_en: Are you a traveller?
+title_dv: ތިބާއަކީ ދަތުރުވެރިއެއްތަ؟
+ref: Quran 4:101; Muslim 686
+--- en
+Allah made prayer lighter on a journey. In the Shafi'i school these concessions are yours when all of these are true:
+
+- your journey is about **81 km or more one way** (roughly 44 nautical miles);
+- the journey is for something lawful;
+- you have **left your island** or the edge of your town;
+- you will stay at any one place for **less than four full days**. The day you arrive and the day you leave are not counted.
+
+A trip from Male' to a nearby island in the same atoll is usually too short. Male' to Addu, to the far north, or abroad is far enough.
+
+In this app, turn on **I am travelling** on the prayer card. It shows how far you are from home.
+--- dv
+ﷲ ދަތުރުމަތީގައި ނަމާދު ލުއިކޮށްދެއްވިއެވެ. ޝާފިޢީ މަޛްހަބުގައި މި ލުއިތައް ލިބޭނީ މި ހުރިހާ ކަމެއް ފުރިހަމަވުމުންނެވެ:
+
+- ދަތުރުގެ ދުރުމިން **އެއްކޮޅަށް 81 ކިލޯމީޓަރު ނުވަތަ އެއަށްވުރެ ދުރުވުން** (ގާތްގަނޑަކަށް 44 ނޯޓިކަލް މޭލު)؛
+- ދަތުރަކީ ހުއްދަ ކަމަކަށް ކުރާ ދަތުރަކަށްވުން؛
+- **ރަށުން ނުވަތަ އަވަށުގެ ހުދޫދުން ބޭރުވެފައިވުން**؛
+- އެއް ތަނެއްގައި **ހަތަރު ފުރިހަމަ ދުވަހަށްވުރެ މަދުން** މަޑުކުރުން. އާދެވޭ ދުވަހާއި ފުރާ ދުވަސް ނުގުނޭނެއެވެ.
+
+މާލެއިން އެ އަތޮޅުގެ ކައިރި ރަށަކަށް ކުރާ ދަތުރު ޢާންމުކޮށް މާ ކުރެވެ. މާލެއިން އައްޑުއަށް، ނުވަތަ މުޅިން އުތުރަށް، ނުވަތަ ރާއްޖެއިން ބޭރަށް ކުރާ ދަތުރު އެކަށީގެންވާ ވަރަށް ދުރެވެ.
+
+މި އެޕުގައި ނަމާދު ކާޑުގައިވާ **ދަތުރެއްގައި** ބަޓަން ޖައްސާށެވެ. ގެއާ ހުރި ދުރުމިން ދައްކާނެއެވެ.
+
+@@ travel-2-shorten
+title_en: Shortening: four rak'ahs become two
+title_dv: ކުރުކުރުން: ހަތަރު ރަކުޢަތް ދެ ރަކުޢަތަށް
+--- en
+- **Dhuhr, Asr and Isha** are prayed as **two** rak'ahs.
+- **Fajr** stays two and **Maghrib** stays three.
+
+Intend, as you say the opening takbir, that you are praying the prayer shortened. Pray two rak'ahs, sit for the full tashahhud, and give salam.
+
+If you pray behind an imam who is praying the full four, you pray four with him.
+
+Shortening is a gift, and it is better to accept it on a real journey. Praying the full four is also valid.
+--- dv
+- **މެންދުރު، ޢަޞްރު އަދި ޢިޝާ** ކުރާނީ **ދެ** ރަކުޢަތުންނެވެ.
+- **ފަތިސް** ނަމާދަކީ ދެ ރަކުޢަތެވެ. **މަޣްރިބު** ނަމާދަކީ ތިން ރަކުޢަތެވެ. މި ދެ ނަމާދު ކުރެއް ނުކުރެވޭނެއެވެ.
+
+ތަކްބީރަތުލްއިޙްރާމް ކިޔާއިރު، ނަމާދު ޤަޞްރުކޮށް ކުރާކަމަށް ނިޔަތްގަންނާށެވެ. ދެ ރަކުޢަތް ކޮށް، ފުރިހަމަ އައްތަޙިއްޔާތަށް އިށީނދެ، ސަލާމްދޭށެވެ.
+
+ފުރިހަމަ ހަތަރު ރަކުޢަތް ކުރާ އިމާމެއްގެ ފަހަތުގައި ކުރާނަމަ، އިމާމާއެކު ހަތަރު ރަކުޢަތް ކުރާށެވެ.
+
+ޤަޞްރުކުރުމަކީ ހަދިޔާއެކެވެ. ޙަޤީޤީ ދަތުރެއްގައި އެ ހަދިޔާ ޤަބޫލުކުރުން މާ ރަނގަޅެވެ. ފުރިހަމަ ހަތަރު ރަކުޢަތް ކުރުންވެސް ޞައްޙައެވެ.
+
+@@ travel-3-pairs
+title_en: Which prayers can be joined
+title_dv: ޖަމްޢުކުރެވޭ ނަމާދުތައް
+--- en
+There are two pairs, and only these two:
+
+- **Dhuhr with Asr**
+- **Maghrib with Isha**
+
+You may pray a pair in the time of the first prayer (joining early) or in the time of the second (joining late). Choose whichever is easier for your journey.
+
+**Fajr is never joined** with anything, and Asr is not joined with Maghrib.
+
+Joining and shortening go together: a traveller can pray Dhuhr as two and Asr as two, one after the other.
+--- dv
+ޖަމްޢުކުރެވޭނީ ހަމައެކަނި މި ދެ ޖޯޑެވެ:
+
+- **މެންދުރާއި ޢަޞްރު**
+- **މަޣްރިބާއި ޢިޝާ**
+
+ޖޯޑެއް ކުރެވޭނީ ފުރަތަމަ ނަމާދުގެ ވަގުތުގައި (ޖަމްޢު ތަޤްދީމް)، ނުވަތަ ދެވަނަ ނަމާދުގެ ވަގުތުގައެވެ (ޖަމްޢު ތައުޚީރު). ދަތުރަށް ފަސޭހަ ގޮތެއް ހޮވާށެވެ.
+
+**ފަތިސް ނަމާދު** އެއްވެސް ނަމާދަކާ ޖަމްޢެއް ނުކުރެވޭނެއެވެ. ޢަޞްރާއި މަޣްރިބުވެސް ޖަމްޢެއް ނުކުރެވޭނެއެވެ.
+
+ޖަމްޢުކުރުމާއި ޤަޞްރުކުރުން އެކުގައި ކުރެވޭނެއެވެ: މެންދުރު ދެ ރަކުޢަތް، އެއަށްފަހު ޖެހިގެން ޢަޞްރު ދެ ރަކުޢަތް.
+
+@@ travel-4-early
+title_en: Joining early, in the first prayer's time
+title_dv: ފުރަތަމަ ނަމާދުގެ ވަގުތުގައި ޖަމްޢުކުރުން (ތަޤްދީމް)
+--- en
+For example, Dhuhr and Asr together at Dhuhr time, before you board.
+
+1. Pray **Dhuhr first**. While you are in it, intend that you will join Asr to it.
+2. Give salam.
+3. Stand up **straight away** for Asr. Saying the iqamah between them is fine; a long gap is not.
+4. Pray **Asr**.
+
+You must still be on your journey when you begin the second prayer.
+
+Maghrib and Isha are joined the same way: Maghrib three rak'ahs, then Isha two.
+--- dv
+މިސާލަކަށް، ފުރުމުގެ ކުރިން މެންދުރު ވަގުތުގައި މެންދުރާއި ޢަޞްރު އެކުގައި ކުރުން.
+
+1. **ފުރަތަމަ މެންދުރު** ނަމާދުކުރާށެވެ. އެ ނަމާދުގެ ތެރޭގައި، ޢަޞްރު ނަމާދު އެއާ ޖަމްޢުކުރާކަމަށް ނިޔަތްގަންނާށެވެ.
+2. ސަލާމްދޭށެވެ.
+3. **ލަސްނުކޮށް** ޢަޞްރު ނަމާދަށް ތެދުވާށެވެ. ދެ ނަމާދުގެ ދެމެދު ޤަމަތްދިނުން ރަނގަޅެވެ. ދިގު ވަގުތެއް ހޭދަކުރުން ރަނގަޅެއް ނޫނެވެ.
+4. **ޢަޞްރު** ނަމާދުކުރާށެވެ.
+
+ދެވަނަ ނަމާދު ފަށާއިރު ތިބާ ހުންނަންވާނީ ދަތުރުމަތީގައެވެ.
+
+މަޣްރިބާއި ޢިޝާ ޖަމްޢުކުރާނީވެސް މިގޮތަށެވެ: މަޣްރިބު ތިން ރަކުޢަތް، އެއަށްފަހު ޢިޝާ ދެ ރަކުޢަތް.
+
+@@ travel-5-late
+title_en: Joining late, in the second prayer's time
+title_dv: ދެވަނަ ނަމާދުގެ ވަގުތުގައި ޖަމްޢުކުރުން (ތައުޚީރު)
+--- en
+For example, you are at sea all through Dhuhr and will land in Asr time.
+
+1. **Before Dhuhr time ends**, intend in your heart that you are delaying Dhuhr to pray it with Asr. Without this intention the prayer is counted as missed.
+2. When you can pray, in Asr time, pray **Dhuhr** and then **Asr**.
+
+You must still be a traveller until both prayers are finished.
+
+For the night pair: intend during Maghrib time to delay it, then pray Maghrib and Isha in Isha time.
+--- dv
+މިސާލަކަށް، މުޅި މެންދުރު ވަގުތު ކަނޑުމަތީގައި ހޭދަވެ، ރަށަށް ލެފޭނީ ޢަޞްރު ވަގުތުގައިނަމަ.
+
+1. **މެންދުރު ވަގުތު ނިމުމުގެ ކުރިން**، މެންދުރު ނަމާދު ޢަޞްރާއެކު ކުރުމަށް ލަސްކުރާކަމަށް ހިތުން ނިޔަތްގަންނާށެވެ. މި ނިޔަތް ނެތިއްޔާ ނަމާދު ގުނޭނީ ޤަޟާވި ނަމާދެއްގެ ގޮތުގައެވެ.
+2. ނަމާދު ކުރެވޭ ވަގުތު، ޢަޞްރު ވަގުތުގައި، **މެންދުރު** އެއަށްފަހު **ޢަޞްރު** ނަމާދުކުރާށެވެ.
+
+ދެ ނަމާދު ނިމެންދެން ތިބާ ހުންނަންވާނީ ދަތުރުވެރިއެއްގެ ގޮތުގައެވެ.
+
+ރޭގަނޑުގެ ޖޯޑަށް: މަޣްރިބު ވަގުތުގެ ތެރޭގައި ލަސްކުރާކަމަށް ނިޔަތްގަނެ، ޢިޝާ ވަގުތުގައި މަޣްރިބާއި ޢިޝާ ކުރާށެވެ.
+
+@@ travel-6-vehicle
+title_en: On a boat, a plane or a seaplane
+title_dv: އޮޑީގައި، ބޯޓުގައި ނުވަތަ ސީޕްލޭނުގައި
+--- en
+An obligatory prayer needs you to stand, to face the qiblah and to bow and prostrate properly.
+
+- On a **ferry or large boat** with room to stand and face the qiblah, pray as you would on land. Turn back to the qiblah if the boat turns.
+- In a **speedboat seat, a plane or a seaplane** this is usually not possible. The easiest answer is joining: pray both prayers before you board, or after you arrive.
+- If the time would end before you can pray properly, pray as best you can where you are so that the time is honoured, and repeat that prayer when you arrive.
+
+Use the qibla compass in this app to find the direction.
+--- dv
+ފަރުޟު ނަމާދެއް ކުރުމަށް ކޮޅަށް ހުރުމާއި، ޤިބުލައަށް ކުރިމަތިލުމާއި، ރުކޫޢުއާއި ސަޖިދަ ފުރިހަމައަށް ކުރުން ބޭނުންވެއެވެ.
+
+- ކޮޅަށް ހުރެ ޤިބުލައަށް ކުރިމަތިލެވޭ **ފެރީއެއް ނުވަތަ ބޮޑު އޮޑިއެއްގައި** ހުރިނަމަ، އެއްގަމުގައި ކުރާ ގޮތަށް ނަމާދުކުރާށެވެ. އޮޑި އެނބުރޭނަމަ ޤިބުލައަށް އެނބުރޭށެވެ.
+- **ލޯންޗެއްގެ ގޮނޑީގައި، މަތިންދާބޯޓެއްގައި ނުވަތަ ސީޕްލޭނެއްގައި** މިކަން ޢާންމުކޮށް ނުކުރެވޭނެއެވެ. އެންމެ ފަސޭހަ ޙައްލަކީ ޖަމްޢުކުރުމެވެ: ފުރުމުގެ ކުރިން ނުވަތަ ލެފުމަށްފަހު ދެ ނަމާދު އެކުގައި ކުރާށެވެ.
+- ރަނގަޅަށް ނަމާދު ކުރެވުމުގެ ކުރިން ވަގުތު ފާއިތުވާނެނަމަ، ވަގުތުގެ ޙުރުމަތަށްޓަކައި ހުރި ތަނެއްގައި ކުރެވޭ ގޮތަކަށް ނަމާދުކޮށް، ލެފުމަށްފަހު އެ ނަމާދު އަލުން ކުރާށެވެ.
+
+މިސްރާބު ހޯދުމަށް މި އެޕުގައިވާ ޤިބުލަ ކޮމްޕަސް ބޭނުންކުރާށެވެ.
+
+@@ travel-7-ends
+title_en: When the journey ends
+title_dv: ދަތުރު ނިމޭ ހިސާބު
+--- en
+You go back to praying each prayer in full and in its own time when:
+
+- you **arrive back** at your own island; or
+- you reach a place where you intend to stay **four full days or more**, not counting the day you arrive and the day you leave.
+
+On a short stay, of three days for example, you remain a traveller the whole time.
+
+In this app, tap **I am home** and the prayer times return to your own island.
+--- dv
+ކޮންމެ ނަމާދެއް ފުރިހަމައަށް، އެ ނަމާދެއްގެ ވަގުތުގައި ކުރަން ފަށާނީ:
+
+- **އަމިއްލަ ރަށަށް އެނބުރި އައުމުން**؛ ނުވަތަ
+- **ހަތަރު ފުރިހަމަ ދުވަސް ނުވަތަ އެއަށްވުރެ ގިނަ ދުވަހު** މަޑުކުރަން ނިޔަތްގަނެފައިވާ ތަނަކަށް ދިއުމުންނެވެ. އާދެވޭ ދުވަހާއި ފުރާ ދުވަސް ނުގުނޭނެއެވެ.
+
+ކުރު މުއްދަތަކަށް، މިސާލަކަށް ތިން ދުވަހަށް، މަޑުކުރާނަމަ އެ މުޅި މުއްދަތުގައި ތިބާއަކީ ދަތުރުވެރިއެކެވެ.
+
+މި އެޕުގައި **ގެއަށް އަތުވެއްޖެ** ބަޓަން ފިއްތާލުމުން ނަމާދު ވަގުތުތައް އަމިއްލަ ރަށުގެ ވަގުތުތަކަށް ބަދަލުވާނެއެވެ.
+
+@@ travel-8-other
+title_en: Friday, sunnah prayers and fasting
+title_dv: ހުކުރު، ސުންނަތް ނަމާދު އަދި ރޯދަ
+ref: Quran 2:184
+--- en
+- **Friday:** the Jumu'ah prayer is not obligatory on a traveller, who prays Dhuhr instead. If you do attend Jumu'ah, it counts.
+- **Sunnah prayers:** the Prophet ﷺ kept praying Witr and the two rak'ahs before Fajr on his journeys.
+- **Fasting in Ramadan:** a traveller may leave the fast and make up the day later. Fasting is better if it does not harm you.
+--- dv
+- **ހުކުރު:** ދަތުރުވެރިޔާއަށް ހުކުރު ނަމާދު ވާޖިބެއް ނޫނެވެ. ހުކުރުގެ ބަދަލުގައި މެންދުރު ނަމާދުކުރާށެވެ. ހުކުރަށް ހާޒިރުވެއްޖެނަމަ އެ ހުކުރު ފުދޭނެއެވެ.
+- **ސުންނަތް ނަމާދު:** ރަސޫލާ ﷺ ދަތުރުފުޅުތަކުގައިވެސް ވިތުރި ނަމާދާއި ފަތިސް ނަމާދުގެ ކުރީ ދެ ރަކުޢަތް ދޫކޮށެއް ނުލައްވައެވެ.
+- **ރަމަޟާން މަހުގެ ރޯދަ:** ދަތުރުވެރިޔާއަށް ރޯދަ ދޫކޮށްލައި، ފަހުން ޤަޟާކުރެވިދާނެއެވެ. ގެއްލުމެއް ނުވާނަމަ ރޯދަހިފުން މާ ރަނގަޅެވެ.

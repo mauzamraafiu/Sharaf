@@ -1,5 +1,5 @@
 import { html, render, useState, useEffect, useRef, useMemo } from './vendor/preact-htm.js';
-import { getSettings, setSettings, onSettings, applyTheme, t, pick, isDv, PRAYERS, mvNow, timesFor, fmtTime, fmtSpan, hijri, today as todayText, getJSON, forget, api, ayahUrl, parseQuranRef, Markdown, loadAccount, getUser, accountAuth, accountLogout, todayKey, dayNotes, logRead } from './lib.js';
+import { getSettings, setSettings, onSettings, applyTheme, t, pick, isDv, PRAYERS, mvNow, timesFor, fmtTime, fmtSpan, hijri, today as todayText, getJSON, forget, api, ayahUrl, parseQuranRef, Markdown, loadAccount, getUser, accountAuth, accountLogout, todayKey, dayNotes, logRead, activeIsland, nearestIsland, kmBetween } from './lib.js';
 import { LETTERS, WORDS } from './arabic.js';
 import { Admin } from './admin.js';
 import { StepFigure, PrayerPicker } from './figures.js';
@@ -173,7 +173,7 @@ const PATHS = {
   explore: 'M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z', check: 'M5 12.5l4.5 4.5L19 7.5', calendar: 'M5 6h14v14H5zM5 10h14M9 3.5v4M15 3.5v4',
   moon: 'M19 14.5A8 8 0 0 1 9.5 5a7 7 0 1 0 9.5 9.5z', kaaba: 'M5 8l7-3 7 3v10l-7 3-7-3zM5 11.5l7 3 7-3M12 14.5V21', star: 'M12 4l2.4 5 5.6.7-4.1 3.8 1.1 5.5-5-2.8-5 2.8 1.1-5.5L4 9.7l5.6-.7z',
   drop: 'M12 3.5c3 4 5.5 6.8 5.5 10a5.5 5.5 0 0 1-11 0c0-3.2 2.5-6 5.5-10z', book: 'M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3zM5 17a3 3 0 0 1 3-3h11M9 8h6', chat: 'M4 6h16v10H9l-5 4zM8 10h8M8 13h5',
-  down: 'M12 4v11M7 11l5 5 5-5M5 20h14', more: 'M5.5 12h.5M11.75 12h.5M18 12h.5', note: 'M5 5h14v10l-4 4H5zM15 19v-4h4M8 9h8M8 12h5',
+  down: 'M12 4v11M7 11l5 5 5-5M5 20h14', plane: 'M3 12.5 21 4l-6.5 17-3.2-7.3z M11.3 13.7 21 4', more: 'M5.5 12h.5M11.75 12h.5M18 12h.5', note: 'M5 5h14v10l-4 4H5zM15 19v-4h4M8 9h8M8 12h5',
   count: 'M12 4a8 8 0 1 0 0 16 8 8 0 0 0 0-16zM12 8.500v7M8.500 12h7',
   play: 'M7 4.500v15l12-7.500z', pause: 'M7 5h3.500v14H7zM13.500 5H17v14h-3.500z', close: 'M6 6l12 12M18 6 6 18', mark: 'M7 4h10v16l-5-4-5 4z', back: 'M14 5l-7 7 7 7', next: 'M9 5l7 7-7 7',
 };
@@ -322,6 +322,44 @@ function WeekDots({ s }) {
   if (!days.some(Boolean)) return null;
   return html`<p class="week"><span>${t('last7')}</span>${days.map((n) => html`<i class=${n === 5 ? 'full' : ''}><span class="num">${n}</span></i>`)}</p>`;
 }
+// Travel mode: one tap takes the phone's location and shows the prayer times of that place until "I am home" is tapped.
+// In the Maldives it switches to the nearest island's official timetable; abroad the times are worked out from the sun.
+const QASR_KM = 81; // two stages in the Shafi'i school
+async function locateTravel() {
+  const pos = await new Promise((ok, no) => { if (!navigator.geolocation) return no(new Error('none')); navigator.geolocation.getCurrentPosition(ok, no, { enableHighAccuracy: false, timeout: 15000, maximumAge: 600000 }); });
+  const lat = Math.round(pos.coords.latitude * 1000) / 1000, lon = Math.round(pos.coords.longitude * 1000) / 1000;
+  const data = await prayerData(), near = nearestIsland(data, lat, lon);
+  const inMv = near.island && near.km <= 60;
+  setSettings({ travel: { on: true, lat, lon, island: inMv ? near.island.id : null, tz: inMv ? 300 : -new Date().getTimezoneOffset(), at: Date.now() } });
+  syncPush(getSettings()).catch(() => {});
+}
+function TravelBar({ data, island }) {
+  const s = useSettings(), tr = s.travel || {};
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState(false);
+  const go = async () => { setBusy(true); setErr(false); try { await locateTravel(); } catch { setErr(true); } setBusy(false); };
+  const home = () => { setSettings({ travel: { on: false } }); setErr(false); syncPush(getSettings()).catch(() => {}); };
+  const dv = isDv();
+  if (!tr.on) return html`<div class="travel off">
+    <button class="travel-go" disabled=${busy} onClick=${go}><${Icon} name="plane" /> ${busy ? (dv ? 'ތަން ހޯދަނީ…' : 'Finding where you are…') : (dv ? 'ދަތުރެއްގައި' : 'I am travelling')}</button>
+    ${err && html`<div class="travel-note"><p>${dv ? 'ތަން ނުހޯދުނު. ފޯނުގެ ލޮކޭޝަން ހުއްދަ ދީ، ނުވަތަ ތިރީގައި ރަށެއް ހޮވާ.' : 'Could not get your location. Allow location for this app, or choose the island you are visiting.'}</p>
+      <${IslandPicker} islands=${data.islands} value=${0} onPick=${(id) => { const i = data.islands.find((x) => x.id === id); setSettings({ travel: { on: true, island: id, lat: i.la, lon: i.lo, tz: 300, at: Date.now() } }); setErr(false); syncPush(getSettings()).catch(() => {}); }} /></div>`}
+  </div>`;
+  const h = data.islands.find((i) => i.id === s.island) || data.islands.find((i) => i.id === 102);
+  const km = tr.lat != null && h && h.la != null ? Math.round(kmBetween(h.la, h.lo, tr.lat, tr.lon)) : null;
+  const far = km != null && km >= QASR_KM;
+  return html`<div class="travel on">
+    <p class="travel-where"><${Icon} name="plane" /> <span><strong>${dv ? 'ދަތުރުމަތީގައި' : 'Travelling'}</strong>${km != null ? html` <span class="num">${dv ? `${h.a}. ${h.n} އާ ${km} ކިލޯމީޓަރު` : `${km} km from ${h.a}. ${h.n}`}</span>` : ''}</span></p>
+    ${km != null && html`<p class="travel-rule">${far
+      ? (dv ? 'މެންދުރު، ޢަޞްރު، ޢިޝާ ދެ ރަކުޢަތަށް ކުރުކުރެވޭނެ. މެންދުރާއި ޢަޞްރު، މަޣްރިބާއި ޢިޝާ ޖަމްޢުކުރެވޭނެ. ޝަރުޠަކީ ހަތަރު ފުރިހަމަ ދުވަހަށްވުރެ މަދުން މަޑުކުރުން.' : 'You may shorten Dhuhr, Asr and Isha to two rak\'ahs, and join Dhuhr with Asr and Maghrib with Isha, as long as you stay less than four full days.')
+      : (dv ? `ގެއާ ދުރުމިން ${QASR_KM} ކިލޯމީޓަރަށްވުރެ ކުޑަ. ނަމާދުތައް ފުރިހަމައަށް، ވަގުތުން ވަގުތަށް ކުރާށެވެ.` : `This is under ${QASR_KM} km from home, so each prayer is prayed in full and in its own time.`)}</p>`}
+    ${island.abroad && html`<p class="travel-note">${dv ? 'މި ވަގުތުތަކަކީ އިރުގެ ހިސާބުން ނެރެފައިވާ ވަގުތުތަކެވެ. ކައިރީ މިސްކިތުގެ ވަގުތާ މިނެޓެއް ދެ މިނެޓުގެ ތަފާތެއް އައުން އެކަށީގެންވެއެވެ.' : 'These times are worked out from the sun for where you are. A local mosque may differ by a few minutes.'}</p>`}
+    <div class="travel-acts"><button class="travel-btn" disabled=${busy} onClick=${go}>${busy ? '…' : (dv ? 'ތަން އަޕްޑޭޓްކުރޭ' : 'Update location')}</button>
+      <a class="travel-btn" href="#/s/travel-steps">${dv ? 'ކުރާނެ ގޮތް' : 'How to pray'}</a>
+      <button class="travel-btn home" onClick=${home}>${dv ? 'ގެއަށް އަތުވެއްޖެ' : 'I am home'}</button></div>
+    ${err && html`<p class="travel-note">${dv ? 'ތަން ނުހޯދުނު.' : 'Could not get your location just now.'}</p>`}
+  </div>`;
+}
 function PrayerCard({ compact, track }) {
   const s = useSettings();
   const now = useClock();
@@ -338,9 +376,10 @@ function PrayerCard({ compact, track }) {
           <p class="pc-next">${t(PRAYERS[nx.i])} <span class="num">${fmtTime(nx.at)}</span></p>
           <a class="pc-left pc-count" href="#/countdown">${isDv() ? `${fmtSpan(nx.left)} ${t('nextIn')}` : `${t('nextIn')} ${fmtSpan(nx.left)}`} <${Icon} name="next" /></a>
         </div>
-        <span class="pc-side"><a class="pc-island" href="#/settings">${island.a}. ${island.n}</a><a class="pc-island pc-qibla" href="#/qibla"><${Icon} name="compass" /> ${t('qibla')}</a></span>
+        <span class="pc-side"><a class="pc-island" href="#/settings">${island.abroad ? (isDv() ? 'ތިބާ ހުރި ތަން' : 'Where you are') : `${island.a}. ${island.n}`}</a><a class="pc-island pc-qibla" href="#/qibla"><${Icon} name="compass" /> ${t('qibla')}</a></span>
       </div>
       <${SkyScene} times=${times} minute=${minute} />
+      ${!compact && html`<${TravelBar} data=${data} island=${island} />`}
       ${track ? html`<ol class="times track">
         ${PRAYERS.map((p, i) => { const k = PRAY5.indexOf(i); return html`<li class=${i === nx.i && !nx.tomorrow ? 'is-next' : ''}>
           ${k < 0 ? html`<span></span>` : html`<button class="pcheck" aria-pressed=${!!done[k]} aria-label=${`${t(p)}: ${t('markPrayed')}`} onClick=${() => setJust(togglePrayed(k) ? k : -1)}><${Icon} name="check" /></button>`}
@@ -1258,7 +1297,7 @@ const b64ToBytes = (s) => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g
 async function pushSubscription() { const reg = await navigator.serviceWorker.ready; return reg.pushManager.getSubscription(); }
 async function syncPush(s) {
   const sub = await pushSubscription();
-  if (sub && s.notif.on) await api('/push/subscribe', { method: 'POST', body: JSON.stringify({ endpoint: sub.endpoint, island: s.island, prayers: s.notif.prayers, lead: s.notif.lead }) });
+  if (sub && s.notif.on) await api('/push/subscribe', { method: 'POST', body: JSON.stringify({ endpoint: sub.endpoint, island: activeIsland(s), prayers: s.notif.prayers, lead: s.notif.lead }) });
 }
 function Notifications() {
   const s = useSettings();
@@ -1274,7 +1313,7 @@ function Notifications() {
       const { key } = await api('/push/key');
       const reg = await navigator.serviceWorker.ready;
       const sub = (await reg.pushManager.getSubscription()) || (await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64ToBytes(key) }));
-      await api('/push/subscribe', { method: 'POST', body: JSON.stringify({ endpoint: sub.endpoint, island: s.island, prayers: s.notif.prayers, lead: s.notif.lead }) });
+      await api('/push/subscribe', { method: 'POST', body: JSON.stringify({ endpoint: sub.endpoint, island: activeIsland(s), prayers: s.notif.prayers, lead: s.notif.lead }) });
       setSettings({ notif: { ...s.notif, on: true } });
     } catch (e) { setMsg(e.message); }
     setBusy(false);
