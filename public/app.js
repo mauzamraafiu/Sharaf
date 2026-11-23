@@ -895,7 +895,7 @@ function SectionPage({ boot, id }) {
   useEffect(() => scrollTo(0, 0), [id]);
   if (!sec) return html`<div class="page"><p class="status">${t('noResults')}</p></div>`;
   const backHref = sec.area === 'prayer' ? '#/prayer' : sec.area === 'duas' ? '#/duas' : sec.area === 'arabic' ? '#/arabic/lessons' : `#/explore/${groupOf(sec)}`;
-  return html`<div class="page">
+  return html`<div class=${'page sec sec-' + ((d.data && d.data[0] && d.data[0].kind) || 'article')}>
     <a class="backlink" href=${backHref}><${Icon} name="back" /> ${t(sec.area === 'prayer' ? 'prayer' : sec.area === 'duas' ? 'duas' : groupOf(sec))}</a>
     <header class="sec-head"><h1>${pick(sec, 'title')}</h1>
     ${pick(sec, 'summary') && html`<p class="lede">${pick(sec, 'summary')}</p>`}</header>
@@ -907,8 +907,8 @@ function SectionPage({ boot, id }) {
       if (kind === 'dua') return html`
         ${GUIDED.includes(id) && items.filter((x) => x.arabic).length > 1 && html`<a class="readall" href=${`#/guide/sec:${id}`}><span class="disc"><${Icon} name="count" /></span>
           <span class="readall-t"><strong>${t('oneByOne')}</strong><span>${isDv() ? 'ކޮންމެ ދުޢާއެއް ވަކިން، ގުނަމުން' : 'One on the screen at a time, with a counter'}</span></span><${Icon} name="next" /></a>`}
-        ${items.length > 3 && html`<details class="dtoc"><summary><span><span class="num">${items.length}</span> ${isDv() ? 'ދުޢާ މި ޞަފްޙާގައި' : 'on this page'}</span></summary>
-          <ol>${items.map((it) => html`<li><button onClick=${(e) => { e.target.closest('details').open = false; document.getElementById(it.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}>${pick(it, 'title')}</button></li>`)}</ol></details>`}
+        ${items.length > 3 && html`<details class="dtoc" open=${typeof matchMedia === 'function' && matchMedia('(min-width: 1000px)').matches}><summary><span><span class="num">${items.length}</span> ${isDv() ? 'ދުޢާ މި ޞަފްޙާގައި' : 'on this page'}</span></summary>
+          <ol>${items.map((it) => html`<li><button onClick=${(e) => { if (!matchMedia('(min-width: 1000px)').matches) e.target.closest('details').open = false; document.getElementById(it.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}>${pick(it, 'title')}</button></li>`)}</ol></details>`}
         <ul class="duas cards">${items.map((it) => html`<li id=${it.id}><h2>${pick(it, 'title')}</h2><${ItemBody} item=${it} card /></li>`)}</ul>`;
       return html`<ul class="seclist">${items.map((it) => html`<li><a href=${`#/i/${it.id}`}><strong>${pick(it, 'title')}</strong></a></li>`)}</ul>`;
     }}<//>
