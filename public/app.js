@@ -1162,8 +1162,12 @@ function Mushaf({ page }) {
   const right = wide ? (p % 2 ? p : p - 1) : p;
   const go = (to, d) => { const n = Math.min(604, Math.max(1, to)); if (n === p) return; setDir(d); location.hash = `#/mushaf/${n}`; };
   const markRead = (pages) => { pages.filter((x) => x >= 1 && x <= 604).forEach((x) => logRead('p:' + x, 10)); setSettings({ pagesRead: [...new Set([...(getSettings().pagesRead || []), ...pages.filter((x) => x >= 1 && x <= 604)])].sort((x, y) => x - y) }); };
-  const next = (quiet) => { markRead(wide ? [right, right + 1] : [right]); go(right + (wide ? 2 : 1), quiet === true ? 'none' : 'next'); }; // turning forward counts the page as read
-  const prev = (quiet) => go(right - (wide ? 2 : 1), quiet === true ? 'none' : 'prev');
+  // On a two-page spread the leaf turns over the spine; "flip" is on only while that turn plays.
+  const [flip, setFlip] = useState(false);
+  const endFlip = () => { clearTimeout(startFlip.t); setFlip(false); setDir('none'); }; // 'none' so the pages do not slide in again once the leaf has landed
+  const startFlip = () => { if (wide && !matchMedia('(prefers-reduced-motion: reduce)').matches) { setFlip(true); clearTimeout(startFlip.t); startFlip.t = setTimeout(endFlip, 900); } };
+  const next = (quiet) => { markRead(wide ? [right, right + 1] : [right]); if (quiet !== true && right + 2 <= 604) startFlip(); go(right + (wide ? 2 : 1), quiet === true ? 'none' : 'next'); }; // turning forward counts the page as read
+  const prev = (quiet) => { if (quiet !== true && right - 2 >= 1) startFlip(); go(right - (wide ? 2 : 1), quiet === true ? 'none' : 'prev'); };
   const bookRef = useRef(null), turn = useRef({});
   turn.current = { next, prev, focus: () => focus };
   // On one-page screens the page can be dragged and folds over like paper.
@@ -1199,9 +1203,13 @@ function Mushaf({ page }) {
     </div>`}
     ${focus && html`<button class="focus-exit" onClick=${() => setFocus(false)} aria-label=${t('exitFull')}><${Icon} name="close" /></button>
       ${wide && html`<button class="turn-zone left" onClick=${next} aria-label=${t('nextPage')}></button><button class="turn-zone right" onClick=${prev} aria-label=${t('prevPage')}></button>`}`}
-    ${wide ? html`<div class="book is-spread turn-${dir}" key=${right} onTouchStart=${onStart} onTouchEnd=${onEnd}>
+    ${wide ? html`<div class=${`book is-spread turn-${dir}` + (flip && (dir === 'next' || dir === 'prev') ? ` flipping flip-${dir}` : '')} key=${right} onTouchStart=${onStart} onTouchEnd=${onEnd}>
       ${right + 1 <= 604 && html`<${MushafPage} p=${right + 1} surahs=${surahs} side="left" />`}
       <${MushafPage} p=${right} surahs=${surahs} side="right" />
+      ${flip && dir === 'next' && right - 2 >= 1 && html`<div class="flip-old" aria-hidden="true"><${MushafPage} p=${right - 2} surahs=${surahs} side="right" /></div>
+        <div class="flip-leaf" aria-hidden="true" onAnimationEnd=${(e) => e.target === e.currentTarget && endFlip()}><div class="face front"><${MushafPage} p=${right - 1} surahs=${surahs} side="left" /></div><div class="face back"><${MushafPage} p=${right} surahs=${surahs} side="right" /></div></div>`}
+      ${flip && dir === 'prev' && right + 3 <= 605 && html`<div class="flip-old" aria-hidden="true">${right + 3 <= 604 && html`<${MushafPage} p=${right + 3} surahs=${surahs} side="left" />`}</div>
+        <div class="flip-leaf" aria-hidden="true" onAnimationEnd=${(e) => e.target === e.currentTarget && endFlip()}><div class="face front"><${MushafPage} p=${right + 2} surahs=${surahs} side="right" /></div><div class="face back">${right + 1 <= 604 && html`<${MushafPage} p=${right + 1} surahs=${surahs} side="left" />`}</div></div>`}
     </div>` : html`<div class="book single turn-${dir}" key=${right} ref=${bookRef}>
       ${right + 1 <= 604 && html`<div class="under under-next" aria-hidden="true"><${MushafPage} p=${right + 1} surahs=${surahs} side="right" /></div>`}
       ${right - 1 >= 1 && html`<div class="under under-prev" aria-hidden="true"><${MushafPage} p=${right - 1} surahs=${surahs} side="right" /></div>`}

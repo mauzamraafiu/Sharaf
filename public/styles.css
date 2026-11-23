@@ -1323,8 +1323,11 @@ button.readall { width: 100%; border: 0; font: inherit; text-align: start; curso
   /* home: prayer times, then what to open, then today's reading */
   .page.home { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 24px; }
   .page.home > * { grid-column: 1 / -1; }
-  .page.home > .hello { grid-column: 1; align-self: center; } .home .hello .bismillah { justify-self: start; text-align: start; }
-  .page.home > .memstrip { grid-column: 2; grid-row: 1; align-self: center; }
+  /* the basmala sits in the middle of the top row; the date and the memorial share the row under it */
+  .page.home > .hello { display: contents; }
+  .page.home > .hello > .bismillah { grid-column: 1 / -1; grid-row: 1; justify-self: center; text-align: center; margin: 0; }
+  .page.home > .hello > div { grid-column: 1; grid-row: 2; align-self: center; }
+  .page.home > .memstrip { grid-column: 2; grid-row: 2; align-self: center; }
 
   /* tools */
   .page.tool { max-width: 860px; }
@@ -1365,3 +1368,26 @@ button.readall { width: 100%; border: 0; font: inherit; text-align: start; curso
 .travel-btn { display: inline-flex; align-items: center; min-height: 38px; padding: 0 12px; border: 1px solid rgb(255 255 255 / .34); border-radius: 12px; background: none; color: inherit; font: 600 .86rem var(--ui); cursor: pointer; }
 .travel-btn.home { background: #F1FAF7; color: #0B4F4C; border-color: transparent; }
 .travel .islandpick { margin-top: 8px; color: var(--ink); background: var(--surface); border-radius: 14px; padding: 8px 12px; }
+
+/* ---------- two-page mushaf: the leaf turns over the spine like a real book ---------- */
+.book.is-spread { position: relative; direction: ltr; perspective: 2600px; }
+.book.flipping .leaf { animation: none !important; }
+.book.flip-next > .leaf.right, .book.flip-prev > .leaf.left { visibility: hidden; }
+.flip-old, .flip-leaf { position: absolute; top: 0; bottom: 0; width: 50%; display: grid; }
+.flip-old > .leaf, .flip-leaf .leaf { min-height: 0; height: 100%; }
+.flip-next .flip-old { right: 0; } .flip-prev .flip-old { left: 0; }
+.flip-leaf { z-index: 3; transform-style: preserve-3d; will-change: transform; }
+.flip-leaf .face { position: absolute; inset: 0; display: grid; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-leaf .face.back { transform: rotateY(180deg); }
+.flip-leaf .face::after { content: ''; position: absolute; inset: 0; pointer-events: none; border-radius: inherit; background: linear-gradient(to right, rgb(0 0 0 / .22), transparent 60%); opacity: 0; animation: flip-shade .8s ease-in-out both; }
+.flip-next .flip-leaf { left: 0; transform-origin: right center; animation: flip-next .8s cubic-bezier(.45, .05, .3, 1) both; }
+.flip-prev .flip-leaf { right: 0; transform-origin: left center; animation: flip-prev .8s cubic-bezier(.45, .05, .3, 1) both; }
+.flip-prev .flip-leaf .face::after { background: linear-gradient(to left, rgb(0 0 0 / .22), transparent 60%); }
+@keyframes flip-next { from { transform: rotateY(0); } to { transform: rotateY(180deg); } }
+@keyframes flip-prev { from { transform: rotateY(0); } to { transform: rotateY(-180deg); } }
+@keyframes flip-shade { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+.fig3d-wait { width: 100%; aspect-ratio: 5 / 4; max-height: 420px; border-radius: 18px; background: linear-gradient(#E3F3F8, #fff 80%); }
+[data-theme=dark] .fig3d-wait { background: linear-gradient(#12303A, #0C2026 80%); }
+/* spread pages are real paper, not see-through: the spine shadow sits on top of the paper colour */
+.is-spread .leaf.left { background: linear-gradient(to left, rgb(0 0 0 / .13), transparent 7%), radial-gradient(120% 90% at 60% 40%, var(--paper) 55%, color-mix(in srgb, var(--paper) 90%, #b89a55) 100%); }
+.is-spread .leaf.right { background: linear-gradient(to right, rgb(0 0 0 / .13), transparent 7%), radial-gradient(120% 90% at 40% 40%, var(--paper) 55%, color-mix(in srgb, var(--paper) 90%, #b89a55) 100%); }
