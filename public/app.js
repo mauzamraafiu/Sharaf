@@ -325,6 +325,13 @@ function WeekDots({ s }) {
 // Travel mode: one tap takes the phone's location and shows the prayer times of that place until "I am home" is tapped.
 // In the Maldives it switches to the nearest island's official timetable; abroad the times are worked out from the sun.
 const QASR_KM = 81; // two stages in the Shafi'i school
+// Cities people from the Maldives commonly travel to, so the card can say "near Colombo" instead of bare coordinates. [name, Dhivehi, lat, lon]
+const CITIES = [['Colombo', 'ކޮލަންބޯ', 6.93, 79.85], ['Thiruvananthapuram', 'ތިރުވަނަންތަޕުރަމް', 8.52, 76.94], ['Kochi', 'ކޮޗިން', 9.97, 76.28], ['Chennai', 'ޗެންނާއީ', 13.08, 80.27], ['Bengaluru', 'ބެންގަލޫރު', 12.97, 77.59], ['Mumbai', 'މުންބާއީ', 19.08, 72.88], ['Delhi', 'ދިއްލީ', 28.61, 77.21], ['Hyderabad', 'ހައިދަރާބާދު', 17.39, 78.49],
+  ['Kuala Lumpur', 'ކުއަލަ ލަމްޕޫރު', 3.14, 101.69], ['Singapore', 'ސިންގަޕޫރު', 1.35, 103.82], ['Bangkok', 'ބެންކޮކް', 13.76, 100.5], ['Jakarta', 'ޖަކާޓާ', -6.2, 106.85], ['Dhaka', 'ޑާކާ', 23.81, 90.41], ['Kathmandu', 'ކަޓްމަންޑޫ', 27.72, 85.32], ['Karachi', 'ކަރާޗީ', 24.86, 67.0], ['Islamabad', 'އިސްލާމްއާބާދު', 33.68, 73.05],
+  ['Dubai', 'ދުބާއީ', 25.2, 55.27], ['Abu Dhabi', 'އަބޫ ދަބީ', 24.45, 54.38], ['Doha', 'ދޯހާ', 25.29, 51.53], ['Muscat', 'މަސްކަތު', 23.59, 58.41], ['Riyadh', 'ރިޔާޟް', 24.71, 46.68], ['Jeddah', 'ޖިއްދާ', 21.49, 39.19], ['Makkah', 'މައްކާ', 21.42, 39.83], ['Madinah', 'މަދީނާ', 24.47, 39.61],
+  ['Kuwait City', 'ކުވައިތު', 29.38, 47.99], ['Istanbul', 'އިސްތަންބޫލް', 41.01, 28.98], ['Cairo', 'ޤާހިރާ', 30.04, 31.24], ['London', 'ލަންޑަން', 51.51, -0.13], ['Paris', 'ޕެރިސް', 48.86, 2.35], ['Frankfurt', 'ފްރޭންކްފަރޓް', 50.11, 8.68], ['Moscow', 'މޮސްކޯ', 55.76, 37.62],
+  ['Beijing', 'ބީޖިން', 39.9, 116.4], ['Shanghai', 'ޝަންހާއީ', 31.23, 121.47], ['Guangzhou', 'ގުއަންޒޫ', 23.13, 113.26], ['Hong Kong', 'ހޮންކޮން', 22.32, 114.17], ['Tokyo', 'ޓޯކިޔޯ', 35.68, 139.69], ['Seoul', 'ސިއޯލް', 37.57, 126.98], ['Sydney', 'ސިޑްނީ', -33.87, 151.21], ['Melbourne', 'މެލްބަން', -37.81, 144.96], ['Perth', 'ޕާރތު', -31.95, 115.86], ['New York', 'ނިއު ޔޯކް', 40.71, -74.01]];
+const nearCity = (lat, lon) => { let best = null, km = 150; for (const c of CITIES) { const k = kmBetween(lat, lon, c[2], c[3]); if (k < km) { km = k; best = c; } } return best; };
 async function locateTravel() {
   const pos = await new Promise((ok, no) => { if (!navigator.geolocation) return no(new Error('none')); navigator.geolocation.getCurrentPosition(ok, no, { enableHighAccuracy: false, timeout: 15000, maximumAge: 600000 }); });
   const lat = Math.round(pos.coords.latitude * 1000) / 1000, lon = Math.round(pos.coords.longitude * 1000) / 1000;
@@ -376,7 +383,7 @@ function PrayerCard({ compact, track }) {
           <p class="pc-next">${t(PRAYERS[nx.i])} <span class="num">${fmtTime(nx.at)}</span></p>
           <a class="pc-left pc-count" href="#/countdown">${isDv() ? `${fmtSpan(nx.left)} ${t('nextIn')}` : `${t('nextIn')} ${fmtSpan(nx.left)}`} <${Icon} name="next" /></a>
         </div>
-        <span class="pc-side"><a class="pc-island" href="#/settings">${island.abroad ? (isDv() ? 'ތިބާ ހުރި ތަން' : 'Where you are') : `${island.a}. ${island.n}`}</a><a class="pc-island pc-qibla" href="#/qibla"><${Icon} name="compass" /> ${t('qibla')}</a></span>
+        <span class="pc-side"><a class="pc-island" href="#/settings">${island.abroad ? (() => { const c = nearCity(island.la, island.lo); return c ? (isDv() ? c[1] : c[0]) : (isDv() ? 'ތިބާ ހުރި ތަން' : 'Where you are'); })() : `${island.a}. ${island.n}`}</a><a class="pc-island pc-qibla" href="#/qibla"><${Icon} name="compass" /> ${t('qibla')}</a></span>
       </div>
       <${SkyScene} times=${times} minute=${minute} />
       ${!compact && html`<${TravelBar} data=${data} island=${island} />`}
