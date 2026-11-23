@@ -1,0 +1,297 @@
+%% duas-more | duas | More duas for every need | ކޮންމެ ބޭނުމަކަށް އިތުރު ދުޢާތައް | For hard tasks, illness, study, blessings and protection, from the Quran and the Sunnah. | ދަތި ކަންކަމާއި، ބައްޔާއި، ކިޔެވުމާއި، ބަރަކާތާއި، ރައްކާތެރިކަމަށް، ޤުރުއާނާއި ސުންނަތުން. | dua
+
+@@ dua-la-sahla
+title_en: When something is hard
+title_dv: ކަމެއް ދަތިވުމުން
+arabic: اللَّهُمَّ لَا سَهْلَ إِلَّا مَا جَعَلْتَهُ سَهْلًا، وَأَنْتَ تَجْعَلُ الْحَزْنَ إِذَا شِئْتَ سَهْلًا
+translit: Allahumma la sahla illa ma ja'altahu sahla, wa anta taj'alul-hazna idha shi'ta sahla.
+ref: Ibn Hibban 974
+--- en
+O Allah, nothing is easy except what You make easy, and You make what is hard easy when You will.
+--- dv
+ޔާ ﷲ! އިބަރަސްކަލާނގެ ފަސޭހަކުރެއްވި ކަމެއް ފިޔަވައި ފަސޭހަ ކަމެއް ނުވެއެވެ. އަދި އިބަރަސްކަލާނގެ އިރާދަކުރެއްވުމުން، ދަތި ކަންތައް ފަސޭހަކުރައްވައެވެ.
+
+@@ dua-jannah-nar
+title_en: Asking for Paradise
+title_dv: ސުވަރުގެ އެދި ދަންނަވާ ދުޢާ
+arabic: اللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّةَ، وَأَعُوذُ بِكَ مِنَ النَّارِ
+translit: Allahumma inni as'alukal-jannah, wa a'udhu bika minan-nar.
+ref: Abu Dawud 792; Ibn Majah 910
+--- en
+O Allah, I ask You for Paradise, and I seek refuge in You from the Fire.
+
+The Prophet ﷺ said that his own duas came back to these two things.
+--- dv
+ޔާ ﷲ! އަޅުގަނޑު އިބަރަސްކަލާނގެ ޙަޟްރަތުން ސުވަރުގެ އެދެމެވެ. އަދި ނަރަކައިން ރައްކާތެރިކުރެއްވުން އެދެމެވެ.
+
+ރަސޫލާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: އެކަލޭގެފާނުގެ ދުޢާތައް އެނބުރެނީވެސް މި ދެ ކަމަށެވެ.
+
+@@ dua-ajirni-nar
+title_en: Refuge from the Fire, seven times
+title_dv: ނަރަކައިން ރައްކާތެރިކުރެއްވުން އެދި، ހަތް ފަހަރު
+arabic: اللَّهُمَّ أَجِرْنِي مِنَ النَّارِ
+translit: Allahumma ajirni minan-nar.
+ref: Abu Dawud 5079
+--- en
+O Allah, protect me from the Fire.
+
+Said seven times after Fajr and after Maghrib. Scholars differ on how strong this narration is; the dua itself is a good one at any time.
+--- dv
+ޔާ ﷲ! އަޅުގަނޑު ނަރަކައިން ރައްކާތެރިކުރައްވާނދޭވެ.
+
+ފަތިސް ނަމާދަށްފަހުގައާއި މަޣްރިބު ނަމާދަށްފަހު ހަތް ފަހަރު ކިޔާށެވެ. މި ރިވާޔަތުގެ ވަރުގަދަކަމާމެދު ޢިލްމުވެރިންގެ ޚިލާފު ހުރެއެވެ. ނަމަވެސް މިއީ ކޮންމެ ވަގުތަކުވެސް ކުރެވޭ ރަނގަޅު ދުޢާއެކެވެ.
+
+@@ dua-heavy-rain
+title_en: When the rain is too heavy
+title_dv: ވާރޭ މާ ބޮޑުވުމުން
+arabic: اللَّهُمَّ حَوَالَيْنَا وَلَا عَلَيْنَا، اللَّهُمَّ عَلَى الْآكَامِ وَالظِّرَابِ، وَبُطُونِ الْأَوْدِيَةِ، وَمَنَابِتِ الشَّجَرِ
+translit: Allahumma hawalayna wa la 'alayna. Allahumma 'alal-akami waz-zirab, wa butunil-awdiyah, wa manabitish-shajar.
+ref: Bukhari 1014; Muslim 897
+--- en
+O Allah, around us and not upon us. O Allah, upon the hills and the high ground, the valleys and the places where trees grow.
+--- dv
+ޔާ ﷲ! އަޅުގަނޑުމެންގެ ވަށައިގެންވާ ތަންތަނަށް، އަޅުގަނޑުމެންގެ މައްޗަކަށް ނޫން. ޔާ ﷲ! ފަރުބަދަތަކާއި އުސްތަންތަނަށާއި، ވާދީތަކަށާއި، ގަސް ހެދޭ ތަންތަނަށް.
+
+@@ dua-rabban-nas
+title_en: For someone who is ill
+title_dv: ބަލިމީހަކަށްޓަކައި
+arabic: اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَاسَ، اشْفِ أَنْتَ الشَّافِي، لَا شِفَاءَ إِلَّا شِفَاؤُكَ، شِفَاءً لَا يُغَادِرُ سَقَمًا
+translit: Allahumma rabban-nas, adhhibil-ba's, ishfi antash-shafi, la shifa'a illa shifa'uk, shifa'an la yughadiru saqama.
+ref: Bukhari 5743; Muslim 2191
+--- en
+O Allah, Lord of mankind, take away the harm and heal. You are the Healer. There is no healing but Your healing, a healing that leaves no illness behind.
+
+The Prophet ﷺ would say this while passing his right hand over the one who was ill.
+--- dv
+ޔާ ﷲ، މީސްތަކުންގެ ވެރިރަސްކަލާކޯ! ބަލި ފިލުއްވައި ޝިފާ ދެއްވާނދޭވެ. ޝިފާ ދެއްވާ ފަރާތަކީ އިބަރަސްކަލާނގެއެވެ. އިބަރަސްކަލާނގެ ޝިފާ ފިޔަވައި އެހެން ޝިފާއެއް ނުވެއެވެ. އެއްވެސް ބައްޔެއް ނުބާއްވާ ފަދަ ޝިފާއެއް ދެއްވާނދޭވެ.
+
+ރަސޫލާ ﷺ ބަލިމީހާގެ ގައިގައި ކަނާތްޕުޅު ފުހެލައްވަމުން މި ދުޢާ ކުރައްވައެވެ.
+
+@@ dua-ruqyah
+title_en: Ruqyah for someone who is ill
+title_dv: ބަލިމީހަކަށް ރުޤްޔާކުރުން
+arabic: بِسْمِ اللَّهِ أَرْقِيكَ، مِنْ كُلِّ شَيْءٍ يُؤْذِيكَ، مِنْ شَرِّ كُلِّ نَفْسٍ أَوْ عَيْنِ حَاسِدٍ، اللَّهُ يَشْفِيكَ، بِسْمِ اللَّهِ أَرْقِيكَ
+translit: Bismillahi arqik, min kulli shay'in yu'dhik, min sharri kulli nafsin aw 'ayni hasid, Allahu yashfik, bismillahi arqik.
+ref: Muslim 2186
+--- en
+In the name of Allah I recite over you, from everything that harms you, from the evil of every soul and every envious eye. May Allah heal you. In the name of Allah I recite over you.
+
+These are the words Jibril said over the Prophet ﷺ when he was ill.
+--- dv
+ﷲ ގެ އިސްމުފުޅުން ތިބާއަށް ރުޤްޔާކުރަމެވެ. ތިބާއަށް އުނދަގޫކުރާ ކޮންމެ އެއްޗަކުންނާއި، ކޮންމެ ނަފްސެއްގެ ނުބައިކަމުންނާއި، ޙަސަދަވެރިޔާގެ ލޮލުގެ ނުބައިކަމުން. ﷲ ތިބާއަށް ޝިފާ ދެއްވާށިއެވެ. ﷲ ގެ އިސްމުފުޅުން ތިބާއަށް ރުޤްޔާކުރަމެވެ.
+
+ރަސޫލާ ﷺ ބަލިވެވަޑައިގަތުމުން ޖިބްރީލު ޢަލައިހިއްސަލާމް ވިދާޅުވީ މި ބަސްފުޅުތަކެވެ.
+
+@@ dua-benefit-knowledge
+title_en: Before study
+title_dv: ކިޔެވުމުގެ ކުރިން
+arabic: اللَّهُمَّ انْفَعْنِي بِمَا عَلَّمْتَنِي، وَعَلِّمْنِي مَا يَنْفَعُنِي، وَزِدْنِي عِلْمًا
+translit: Allahumma-nfa'ni bima 'allamtani, wa 'allimni ma yanfa'uni, wa zidni 'ilma.
+ref: Tirmidhi 3599; Ibn Majah 251
+--- en
+O Allah, benefit me by what You have taught me, teach me what will benefit me, and increase me in knowledge.
+--- dv
+ޔާ ﷲ! އިބަރަސްކަލާނގެ އަޅުގަނޑަށް އުނގަންނަވައިދެއްވި ކަންކަމުން އަޅުގަނޑަށް ފައިދާ ދެއްވާނދޭވެ. އަޅުގަނޑަށް ފައިދާކުރާ ކަންކަން އުނގަންނަވައިދެއްވާނދޭވެ. އަދި އަޅުގަނޑުގެ ޢިލްމު އިތުރުކުރައްވާނދޭވެ.
+
+@@ dua-good-companion
+title_en: For a good companion
+title_dv: ރަނގަޅު އެކުވެރިއަކު އެދި
+arabic: اللَّهُمَّ يَسِّرْ لِي جَلِيسًا صَالِحًا
+translit: Allahumma yassir li jalisan saliha.
+ref: Bukhari 3742
+--- en
+O Allah, make it easy for me to find a righteous companion.
+
+This was the dua of Alqamah when he arrived in a new city, and Allah seated him beside Abu ad-Darda. Good to say when you move to a new place, school or job.
+--- dv
+ޔާ ﷲ! ޞާލިޙު އެކުވެރިއަކު އަޅުގަނޑަށް ފަސޭހަކޮށްދެއްވާނދޭވެ.
+
+މިއީ ޢަލްޤަމާ އާ ރަށަކަށް ވަޑައިގަތުމުން ކުރެއްވި ދުޢާއެވެ. ﷲ އެކަލޭގެފާނު އަބުއްދަރުދާގެ އަރިހުގައި އިށީންދެވިއެވެ. އާ ތަނަކަށް، ސްކޫލަކަށް ނުވަތަ ވަޒީފާއަކަށް ދާއިރު ކުރަން ރަނގަޅު ދުޢާއެކެވެ.
+
+@q 2:250 | Patience and firm footing | ކެތްތެރިކަމާއި ސާބިތުކަން އެދި
+
+@q 3:38 | Zakariyya's dua for a good child | ޞާލިޙު ދަރިއަކު އެދި ޒަކަރިއްޔާގެފާނު ކުރެއްވި ދުޢާ
+
+@q 3:53 | Write us among the witnesses | ހެކިވެރިންގެ ތެރޭގައި އަޅުގަނޑުމެން ލިޔުއްވާނދޭވެ
+
+@@ dua-barik
+title_en: When you see something you admire in someone
+title_dv: މީހެއްގެ ކިބައިން ކަމުދާ ކަމެއް ފެނުމުން
+arabic: اللَّهُمَّ بَارِكْ لَهُ
+translit: Allahumma barik lahu. (For a woman: Allahumma barik laha.)
+ref: Ibn Majah 3509
+--- en
+O Allah, bless him. (For a woman: bless her.)
+
+The Prophet ﷺ taught that when you see something you like in your brother, in himself or in what he owns, you should pray for blessing for him, because the evil eye is real.
+--- dv
+ޔާ ﷲ! އޭނާއަށް ބަރަކާތް ލައްވާނދޭވެ.
+
+ރަސޫލާ ﷺ ދަސްކޮށްދެއްވިއެވެ: އަޚެއްގެ ކިބައިން، އޭނާގެ ނަފްސުން ނުވަތަ މުދަލުން، ކަމުދާ ކަމެއް ފެނިއްޖެނަމަ އޭނާއަށް ބަރަކާތް އެދި ދުޢާކުރާށެވެ. އެހެނީ އެސްފީނާއަކީ ޙައްޤެކެވެ.
+
+@@ dua-zawal-nimah
+title_en: Keeping the blessings you have
+title_dv: ލިބިފައިވާ ނިޢުމަތްތައް ދެމެހެއްޓުން އެދި
+arabic: اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ زَوَالِ نِعْمَتِكَ، وَتَحَوُّلِ عَافِيَتِكَ، وَفُجَاءَةِ نِقْمَتِكَ، وَجَمِيعِ سَخَطِكَ
+translit: Allahumma inni a'udhu bika min zawali ni'matik, wa tahawwuli 'afiyatik, wa fuja'ati niqmatik, wa jami'i sakhatik.
+ref: Muslim 2739
+--- en
+O Allah, I seek refuge in You from the loss of Your blessings, from the change of the wellbeing You gave, from Your sudden punishment and from all Your anger.
+--- dv
+ޔާ ﷲ! އިބަރަސްކަލާނގެ ނިޢުމަތް ގެއްލުމުންނާއި، ދެއްވި ޢާފިޔަތު ބަދަލުވުމުންނާއި، ކުއްލިއަކަށް އަންނަ ޢުޤޫބާތުންނާއި، އިބަރަސްކަލާނގެ ހުރިހާ ކޯފާއަކުން ރައްކާތެރިކުރެއްވުން އެދި ދަންނަވަމެވެ.
+
+@@ dua-diseases
+title_en: Protection from serious illness
+title_dv: ނުރައްކާތެރި ބަލިތަކުން ރައްކާތެރިކުރެއްވުން އެދި
+arabic: اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبَرَصِ، وَالْجُنُونِ، وَالْجُذَامِ، وَمِنْ سَيِّئِ الْأَسْقَامِ
+translit: Allahumma inni a'udhu bika minal-barasi wal-jununi wal-judhami wa min sayyi'il-asqam.
+ref: Abu Dawud 1554
+--- en
+O Allah, I seek refuge in You from leprosy, from madness, from disfiguring disease and from all evil illnesses.
+--- dv
+ޔާ ﷲ! ބަރަޞް ބަލިންނާއި، މޮޔަވުމުންނާއި، ޖުޛާމް ބަލިންނާއި، ހުރިހާ ނުބައި ބައްޔަކުން ރައްކާތެރިކުރެއްވުން އެދި ދަންނަވަމެވެ.
+
+@@ dua-all-believers
+title_en: Forgiveness for all believers
+title_dv: ހުރިހާ މުއުމިނުންނަށް ފާފަ ފުއްސެވުން އެދި
+arabic: اللَّهُمَّ اغْفِرْ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ، وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ، الْأَحْيَاءِ مِنْهُمْ وَالْأَمْوَاتِ
+translit: Allahumma-ghfir lil-mu'minina wal-mu'minat, wal-muslimina wal-muslimat, al-ahya'i minhum wal-amwat.
+ref: Quran 47:19; 71:28
+--- en
+O Allah, forgive the believing men and women, the Muslim men and women, the living among them and the dead.
+
+Allah commands in the Quran: "Ask forgiveness for your sin, and for the believing men and women" (47:19). The wording here is a common way of doing that.
+--- dv
+ޔާ ﷲ! މުއުމިނު ފިރިހެނުންނާއި އަންހެނުންނަށް، މުސްލިމު ފިރިހެނުންނާއި އަންހެނުންނަށް، އޭގެ ތެރެއިން ދިރިތިބި މީހުންނަށާއި މަރުވެފައިވާ މީހުންނަށް ފާފަ ފުއްސަވާނދޭވެ.
+
+ﷲ ޤުރުއާނުގައި އަމުރުކުރައްވާފައިވެއެވެ: "ތިބާގެ ފާފައަށާއި، މުއުމިނު ފިރިހެނުންނާއި އަންހެނުންނަށް ފާފަ ފުއްސެވުން އެދޭށެވެ" (47:19). މިތަނުގައިވާ ޢިބާރާތަކީ އެކަން ކުރުމަށް ޢާންމުކޮށް ބޭނުންކުރާ ޢިބާރާތެކެވެ.
+
+@@ dua-sujud-tilawah
+title_en: In the prostration of recitation
+title_dv: ތިލާވަތުގެ ސަޖިދައިގައި
+arabic: سَجَدَ وَجْهِي لِلَّذِي خَلَقَهُ، وَشَقَّ سَمْعَهُ وَبَصَرَهُ، بِحَوْلِهِ وَقُوَّتِهِ
+translit: Sajada wajhi lilladhi khalaqahu, wa shaqqa sam'ahu wa basarahu, bi hawlihi wa quwwatih.
+ref: Tirmidhi 580; Abu Dawud 1414
+--- en
+My face has prostrated to the One who created it, and opened its hearing and its sight, by His power and His strength.
+
+Said in the sujud you make on reading an ayah of prostration. The usual words of sujud, *Subhana rabbiyal-a'la*, are also enough.
+--- dv
+އަޅުގަނޑުގެ މޫނު ހެއްދެވި، އަދި އެ މޫނުގައި އިވުމާއި ފެނުން ލެއްވި ފަރާތަށް، އެ ފަރާތުގެ ބާރާއި ޤުދުރަތުން، އަޅުގަނޑުގެ މޫނު ސަޖިދަކޮށްފިއެވެ.
+
+ސަޖިދައިގެ އާޔަތެއް ކިޔެވުމުން ކުރާ ސަޖިދައިގައި ކިޔާށެވެ. ސަޖިދައިގައި ޢާންމުކޮށް ކިޔާ *ސުބްޙާނަ ރައްބިޔަލް އަޢުލާ* ވެސް ފުދެއެވެ.
+
+@@ dua-good-character
+title_en: For good character
+title_dv: ރިވެތި އަޚްލާޤު އެދި
+arabic: اللَّهُمَّ أَنْتَ حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي
+translit: Allahumma anta hassanta khalqi fa hassin khuluqi.
+ref: Ahmad 3823
+--- en
+O Allah, You made my form good, so make my character good.
+
+Many people say this when they look in the mirror. The dua itself is sound; the narrations that tie it to the mirror are weak.
+--- dv
+ޔާ ﷲ! އިބަރަސްކަލާނގެ އަޅުގަނޑުގެ ސިފަ ރީތިކުރެއްވިއެވެ. ފަހެ އަޅުގަނޑުގެ އަޚްލާޤުވެސް ރީތިކުރައްވާނދޭވެ.
+
+ގިނަ މީހުން ލޯގަނޑު ބަލާއިރު މި ދުޢާ ކުރެއެވެ. ދުޢާ ޞައްޙައެވެ. ލޯގަނޑާ ގުޅުވާ ރިވާޔަތްތައް ބަލިކަށިއެވެ.
+
+@@ dua-istighfar-hayy
+title_en: Forgiveness, by the Ever-Living
+title_dv: ފާފަ ފުއްސެވުން އެދި، ދިރިވޮޑިގެންވާ ރަސްކަލާނގެ ޙަޟްރަތުން
+arabic: أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيَّ الْقَيُّومَ وَأَتُوبُ إِلَيْهِ
+translit: Astaghfirullahal-'azim, alladhi la ilaha illa huwal-hayyal-qayyum, wa atubu ilayh.
+ref: Abu Dawud 1517; Tirmidhi 3577
+--- en
+I ask forgiveness of Allah the Magnificent, besides whom there is no god, the Ever-Living, the Sustainer of all, and I turn to Him in repentance.
+--- dv
+ބޮޑުވެގެންވާ ﷲ ގެ ޙަޟްރަތުން އަޅުގަނޑު ފާފަ ފުއްސެވުން އެދެމެވެ. އެކަލާނގެ ފިޔަވައި އެހެން އިލާހަކު ނުވެއެވެ. އެކަލާނގެއީ ދިރިވޮޑިގެންވާ، ހުރިހާ ކަމެއް ބަލަހައްޓަވާ ރަސްކަލާނގެއެވެ. އަދި އެކަލާނގެ ޙަޟްރަތަށް އަޅުގަނޑު ތައުބާވަމެވެ.
+
+@@ dua-istighfar-atubu
+title_en: Forgiveness, a hundred times a day
+title_dv: ދުވާލަކު ސަތޭކަ ފަހަރު އިސްތިޣްފާރުކުރުން
+arabic: أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ
+translit: Astaghfirullaha wa atubu ilayh.
+ref: Bukhari 6307; Muslim 2702
+--- en
+I ask Allah for forgiveness and I turn to Him in repentance.
+
+The Prophet ﷺ said he asked Allah's forgiveness more than seventy times a day, and in another narration a hundred times.
+--- dv
+އަޅުގަނޑު ﷲ ގެ ޙަޟްރަތުން ފާފަ ފުއްސެވުން އެދެމެވެ. އަދި އެކަލާނގެ ޙަޟްރަތަށް ތައުބާވަމެވެ.
+
+ރަސޫލާ ﷺ ޙަދީޘްކުރެއްވިއެވެ: އެކަލޭގެފާނު ދުވާލަކު ހަތްދިހަ ފަހަރަށްވުރެ ގިނައިން، އަދި އެހެން ރިވާޔަތެއްގައި ސަތޭކަ ފަހަރު، އިސްތިޣްފާރުކުރައްވައެވެ.
+
+%% duas-check-source | duas | Often said: know the source | ގިނައިން ކިޔާ ދުޢާތައް: މަޞްދަރު ދަންނަވާ | Well-known duas that are not firmly from the Prophet ﷺ. Good words to say, without believing they are his. | ރަސޫލާ ﷺ ގެ ކިބައިން ސާބިތުނުވާ މަޝްހޫރު ދުޢާތައް. | dua
+
+@@ dua-yassir
+title_en: "O Allah, make it easy"
+title_dv: "ޔާ ﷲ! ފަސޭހަކުރައްވާނދޭވެ"
+arabic: اللَّهُمَّ يَسِّرْ وَلَا تُعَسِّرْ
+translit: Allahumma yassir wa la tu'assir.
+--- en
+O Allah, make it easy and do not make it hard.
+
+**Source:** this wording is not reported as a dua of the Prophet ﷺ. It is a good general dua. The established one for a hard task is "Allahumma la sahla".
+--- dv
+ޔާ ﷲ! ފަސޭހަކުރައްވާނދޭވެ. ދަތިނުކުރައްވާނދޭވެ.
+
+**މަޞްދަރު:** މި ޢިބާރާތަކީ ރަސޫލާ ﷺ ގެ ދުޢާއެއްގެ ގޮތުގައި ރިވާވެފައިވާ ޢިބާރާތެއް ނޫނެވެ. މިއީ ޢާންމު ރަނގަޅު ދުޢާއެކެވެ. ދަތި ކަމަކަށް ސާބިތުވެފައިވާ ދުޢާއަކީ "ﷲ ހުއްމަ ލާ ސަހްލަ" އެވެ.
+
+@@ dua-arinal-haqq
+title_en: "Show us the truth as truth"
+title_dv: "ޙައްޤު ޙައްޤުގެ ގޮތުގައި ދައްކަވާނދޭވެ"
+arabic: اللَّهُمَّ أَرِنَا الْحَقَّ حَقًّا وَارْزُقْنَا اتِّبَاعَهُ، وَأَرِنَا الْبَاطِلَ بَاطِلًا وَارْزُقْنَا اجْتِنَابَهُ
+translit: Allahumma arinal-haqqa haqqan warzuqnat-tiba'ah, wa arinal-batila batilan warzuqnaj-tinabah.
+--- en
+O Allah, show us the truth as truth and grant us to follow it, and show us falsehood as falsehood and grant us to keep away from it.
+
+**Source:** this is not established as a hadith. It is passed down from the early Muslims and its meaning is sound.
+--- dv
+ޔާ ﷲ! ޙައްޤު ޙައްޤުގެ ގޮތުގައި އަޅުގަނޑުމެންނަށް ދައްކަވައި، އެއަށް ތަބާވުމުގެ ތައުފީޤު ދެއްވާނދޭވެ. އަދި ބާޠިލު ބާޠިލުގެ ގޮތުގައި ދައްކަވައި، އެއިން ދުރުވުމުގެ ތައުފީޤު ދެއްވާނދޭވެ.
+
+**މަޞްދަރު:** މިއީ ޙަދީޘެއްގެ ގޮތުގައި ސާބިތުވެފައިވާ ދުޢާއެއް ނޫނެވެ. ސަލަފުންގެ ކިބައިން ނަޤުލުވެފައިވާ ދުޢާއެކެވެ. މާނަ ރަނގަޅެވެ.
+
+@@ dua-rajab-shaban
+title_en: The dua of Rajab and Sha'ban
+title_dv: ރަޖަބާއި ޝަޢުބާންގެ ދުޢާ
+arabic: اللَّهُمَّ بَارِكْ لَنَا فِي رَجَبٍ وَشَعْبَانَ، وَبَلِّغْنَا رَمَضَانَ
+translit: Allahumma barik lana fi Rajabin wa Sha'ban, wa ballighna Ramadan.
+ref: Ahmad 2346 (weak)
+--- en
+O Allah, bless us in Rajab and Sha'ban, and let us reach Ramadan.
+
+**Source:** the narration is weak. Asking Allah to let you reach Ramadan is good in any words.
+--- dv
+ޔާ ﷲ! ރަޖަބު މަހާއި ޝަޢުބާން މަހުގައި އަޅުގަނޑުމެންނަށް ބަރަކާތް ލައްވާނދޭވެ. އަދި ރަމަޟާން މަހާ ހަމައަށް އަޅުގަނޑުމެން ފޯރުއްވާނދޭވެ.
+
+**މަޞްދަރު:** މި ރިވާޔަތަކީ ބަލިކަށި ރިވާޔަތެކެވެ. ރަމަޟާން މަހާ ހަމައަށް ފޯރުއްވުން އެދި ކޮންމެ ޢިބާރާތަކުން ދުޢާކުރުން ރަނގަޅެވެ.
+
+@@ dua-barik-lana-food
+title_en: "Bless what You have given us", before eating
+title_dv: ކެއުމުގެ ކުރިން: "ދެއްވި ރިޒުޤުގައި ބަރަކާތް ލައްވާނދޭވެ"
+arabic: اللَّهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ، بِسْمِ اللَّهِ
+translit: Allahumma barik lana fima razaqtana wa qina 'adhaban-nar, bismillah.
+ref: Ibn as-Sunni 457 (weak)
+--- en
+O Allah, bless what You have provided for us and protect us from the punishment of the Fire. In the name of Allah.
+
+**Source:** the narration is weak. What is established before eating is to say **Bismillah**.
+--- dv
+ޔާ ﷲ! އަޅުގަނޑުމެންނަށް ދެއްވި ރިޒުޤުގައި ބަރަކާތް ލައްވާނދޭވެ. އަދި ނަރަކައިގެ ޢަޛާބުން ރައްކާތެރިކުރައްވާނދޭވެ. ބިސްމިﷲ.
+
+**މަޞްދަރު:** މި ރިވާޔަތަކީ ބަލިކަށި ރިވާޔަތެކެވެ. ކެއުމުގެ ކުރިން ސާބިތުވެފައިވަނީ **ބިސްމިﷲ** ކިޔުމެވެ.
+
+@@ dua-istighfar-kulli-dhanb
+title_en: "From every sin"
+title_dv: "ހުރިހާ ފާފައަކުން"
+arabic: أَسْتَغْفِرُ اللَّهَ رَبِّي مِنْ كُلِّ ذَنْبٍ وَأَتُوبُ إِلَيْهِ
+translit: Astaghfirullaha rabbi min kulli dhanbin wa atubu ilayh.
+--- en
+I ask forgiveness of Allah, my Lord, from every sin, and I turn to Him in repentance.
+
+**Source:** this exact wording is not from a hadith. The meaning is sound; the Prophet's ﷺ own words are "Astaghfirullaha wa atubu ilayh".
+--- dv
+އަޅުގަނޑުގެ ވެރިރަސްކަލާނގެ ﷲ ގެ ޙަޟްރަތުން ހުރިހާ ފާފައަކުން ފާފަ ފުއްސެވުން އެދެމެވެ. އަދި އެކަލާނގެ ޙަޟްރަތަށް ތައުބާވަމެވެ.
+
+**މަޞްދަރު:** މި ޢިބާރާތަކީ ޙަދީޘެއްގައިވާ ޢިބާރާތެއް ނޫނެވެ. މާނަ ރަނގަޅެވެ. ރަސޫލާ ﷺ ގެ ބަސްފުޅަކީ "އަސްތަޣްފިރުﷲ ވައަތޫބު އިލައިހި" އެވެ.

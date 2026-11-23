@@ -73,8 +73,8 @@ export function CalendarPage({ boot }) {
 
 // ---------- duas for a situation ----------
 const SITS = [
-  ['I am worried or sad', 'ހާސްކަމެއް ނުވަތަ ހިތާމައެއް', ['i/dua-distress', 'i/dua-anxiety-debt', 'i/q-21-87', 'i/dhikr-hasbunallah']],
-  ['I am ill, or visiting someone ill', 'ބަލިވެއްޖެ، ނުވަތަ ބަލިމީހަކަށް ޒިޔާރަތްކުރަން', ['i/dua-visiting-sick', 'i/q-21-83', 'i/pray-sick']],
+  ['I am worried or sad', 'ހާސްކަމެއް ނުވަތަ ހިތާމައެއް', ['i/dua-la-sahla', 'i/dua-distress', 'i/dua-anxiety-debt', 'i/q-21-87', 'i/dhikr-hasbunallah']],
+  ['I am ill, or visiting someone ill', 'ބަލިވެއްޖެ، ނުވަތަ ބަލިމީހަކަށް ޒިޔާރަތްކުރަން', ['i/dua-rabban-nas', 'i/dua-ruqyah', 'i/dua-visiting-sick', 'i/q-21-83', 'i/pray-sick']],
   ['I have a decision to make', 'ކަމެއް ނިންމަން', ['i/dua-istikhara', 'i/pray-istikhara']],
   ['I need provision, or I am in debt', 'ރިޒުޤު ބޭނުން، ނުވަތަ ދަރަނި', ['i/rizq-halal-suffice', 'i/dua-anxiety-debt', 's/dua-rizq']],
   ['I did something wrong', 'ކުށެއް ކުރެވިއްޖެ', ['i/dua-sayyid-istighfar', 'i/q-7-23', 'i/pray-tawbah', 'i/tawbah']],
@@ -82,10 +82,10 @@ const SITS = [
   ['I am travelling', 'ދަތުރެއް ކުރަން', ['i/q-43-13', 'i/travel-prayer', 'i/hajj-8-travel-dua']],
   ['For my parents', 'މައިންބަފައިންނަށްޓަކައި', ['i/q-17-24', 'i/q-14-41']],
   ['For my husband, wife and children', 'އަނބި، ފިރި، ދަރިންނަށްޓަކައި', ['i/q-25-74', 'i/q-14-40', 'i/q-46-15']],
-  ['Before study or an exam', 'ކިޔެވުމުގެ ނުވަތަ އިމްތިޙާނެއްގެ ކުރިން', ['i/q-20-114', 'i/q-20-25', 'i/rizq-knowledge-provision']],
+  ['Before study or an exam', 'ކިޔެވުމުގެ ނުވަތަ އިމްތިޙާނެއްގެ ކުރިން', ['i/dua-benefit-knowledge', 'i/q-20-114', 'i/q-20-25', 'i/rizq-knowledge-provision']],
   ['I am afraid, or someone is harming me', 'ބިރެއް، ނުވަތަ މީހަކު އަނިޔާކުރުން', ['i/dua-hasbiyallah', 'i/dua-bismillah-protection', 'i/q-23-97', 'i/q-113-1']],
   ['I cannot sleep', 'ނުނިދޭ', ['guide/sleep', 'i/dua-sleeping', 'i/q-2-255']],
-  ['It is raining, or there is a storm', 'ވާރޭ ނުވަތަ ތޫފާން', ['i/dua-rain', 'i/pray-rain']],
+  ['It is raining, or there is a storm', 'ވާރޭ ނުވަތަ ތޫފާން', ['i/dua-rain', 'i/dua-heavy-rain', 'i/pray-rain']],
   ['I want to thank Allah', 'ﷲ އަށް ޝުކުރުކުރަން', ['i/q-27-19', 'i/q-14-7', 'i/dhikr-subhanallah-azim']],
 ];
 const linkTitle = (boot, path) => {
